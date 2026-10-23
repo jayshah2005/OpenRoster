@@ -1,0 +1,445 @@
+# Generated from research/schools-rest-of-ontario.yaml by scripts/research_to_config.py.
+# Entries with `hand_tuned: true` are never overwritten.
+sources:
+- id: western-events-ics
+  name: Western University events calendar (iCal)
+  adapter: ics
+  url: https://www.uwo.ca/events/_data/current.ics
+  owner: western
+  enabled: true
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+    landing_url: https://www.uwo.ca/events/
+  notes: Alternative to the JSON feed; ~200 KB. JSON is preferable because it carries the unit/type filters.
+- id: western-career-events
+  name: Western Career Education events & workshops
+  adapter: html
+  url: https://career.uwo.ca/take_action/events_workshops/index.html
+  owner: western
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+    landing_url: https://career.uwo.ca/
+  notes: 'NEEDS SELECTORS before enabling. Static HTML with a few dated events (no year in text). Registration and
+    the full calendar (employer info sessions, hirewesternu Career Fair) live in Western Connect (connect.uwo.ca),
+    which needs a Western login. Related static pages: take_action/hirewesternu_fairs.html, take_action/information_sessions.html.'
+- id: western-csd-news
+  name: Western Computer Science department news
+  adapter: html
+  url: https://www.csd.uwo.ca/news/
+  owner: western
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: all
+    landing_url: https://www.csd.uwo.ca/
+  notes: NEEDS SELECTORS before enabling. Department homepage shows news (e.g. 2026 Computer Science Meet and Greet)
+    but no events or seminar listing; /news-events/index.html is a 404. CS seminars appear on the main uwo.ca events
+    JSON instead (filter5 = Computer Science). Low value as its own source.
+- id: fsu-events-ics
+  name: Fanshawe Student Union events calendar (iCal)
+  adapter: ics
+  url: https://www.fsu.ca/fsucalendar.ics
+  owner: fanshawe
+  enabled: true
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+    landing_url: https://www.fsu.ca/events
+  notes: Mostly social events. /events page also lists events in HTML. Clubs directory at https://www.fsu.ca/clubs
+    lists Fanshawe AI Club (club-view?clubID=47) and Fanshawe Engineering Club (club-view?clubID=9); no programming/cyber
+    club listed. robots.txt returned 404.
+- id: fanshawe-career-services-events
+  name: Fanshawe Career Services events & workshops
+  adapter: html
+  url: https://www.fanshawec.ca/students/support/employment/career-services/events-workshops
+  owner: fanshawe
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+    landing_url: https://www.fanshawec.ca/careerfair
+  notes: NEEDS SELECTORS before enabling. Page describes the Career Opportunities Fair (usually March, London campus)
+    and employer online info sessions but carries no dates. The dated career events calendar is inside FanshaweOnline
+    (login). Main fanshawec.ca/events page (Drupal) showed no event listings in the fetched HTML.
+- id: uwindsor-cs-event-calendar
+  name: UWindsor School of Computer Science event calendar
+  adapter: html
+  url: https://www.uwindsor.ca/science/computerscience/event-calendar
+  owner: uwindsor
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: all
+  notes: 'NEEDS SELECTORS before enabling. Drupal calendar, server-rendered; month/week/day views at /event-calendar/month/YYYY-MM,
+    /week/YYYY-Www. The ''Add to My Calendar'' webcal links (/science/computerscience/ical/2026-10/events.ics and
+    /ical/%2A/events.ics) return a VCALENDAR header with NO VEVENTs, so they are not usable; scrape the HTML. robots.txt
+    has Crawl-delay: 10. Many entries are thesis defences'
+- id: uwindsor-event-calendar
+  name: University of Windsor main event calendar
+  adapter: html
+  url: https://www.uwindsor.ca/event-calendar
+  owner: uwindsor
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+  notes: 'NEEDS SELECTORS before enabling. Drupal month view at /event-calendar/month/YYYY-MM with category filters
+    (lectures, workshops...). Mostly academic dates; low CS value. Crawl-delay: 10.'
+- id: uwindsor-css-events
+  name: UWindsor Computer Science Society events
+  adapter: html
+  url: https://css.uwindsor.ca/events
+  owner: uwindsor
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: all
+    landing_url: https://css.uwindsor.ca/
+  notes: NEEDS SELECTORS before enabling. Homepage 'Recent Events' block rendered event titles/dates (some 'Loading...'
+    placeholders, so part of the page may be JS). CSS runs WinHacks. No ics feed seen. Contact via Discord/socials
+    only.
+- id: stclair-career-fairs
+  name: St. Clair College career fairs & industry events
+  adapter: html
+  url: https://stclaircollege.ca/career-fairs
+  owner: stclair
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+    landing_url: https://www.stclaircollege.ca/career-central
+  default_type: career_fair
+  notes: NEEDS SELECTORS before enabling. Lists only past fairs (e.g. Business and Information Technology Career
+    Fair, usually March/April). Student registration is in the CareerCentral portal (login).
+- id: queens-computing-calendar-ics
+  name: Queen's School of Computing calendar (Google Calendar iCal)
+  adapter: ics
+  url: https://calendar.google.com/calendar/ical/nssp17qbbcimvjluc71msmvimc%40group.calendar.google.com/public/basic.ics
+  owner: queens
+  enabled: true
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: all
+    landing_url: https://www.cs.queensu.ca/calendar
+  notes: Large feed (~790 KB, history back to 2023+). Includes distinguished seminars, QCSP speaker series, club
+    events (QMIND, UX Club), CUCAI, Can-CWiC, internship info sessions, plus academic dates to filter out. The HTML
+    calendar at cs.queensu.ca/calendar is also server-rendered.
+- id: queens-ams-events
+  name: Queen's Alma Mater Society events (Tribe)
+  adapter: tribe
+  url: https://www.myams.org/wp-json/tribe/events/v1/events
+  owner: queens
+  enabled: true
+  reviewed: false
+  page_budget: 10
+  options:
+    filter: cs
+    landing_url: https://www.myams.org/
+  notes: Endpoint works but has 0 upcoming events and only 11 since 2025-01-01 (verified with ?start_date=2025-01-01).
+    Low volume. AMS also hosts club pages, e.g. https://www.myams.org/club/qmind/ and /event/qhacks-hackathon/.
+- id: compsa-events
+  name: COMPSA (Queen's Computing Students' Association) events
+  adapter: headless
+  url: https://compsa.ca/events
+  owner: queens
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: all
+    landing_url: https://compsa.ca/
+  notes: NEEDS SELECTORS before enabling. Events calendar (filters for COMPSA, QBT, QDAA and other clubs) and the
+    Computing Clubs Roundtable page https://compsa.ca/ccr (9 member clubs) load via JS; no feed found. Homepage
+    server-renders one featured event. Worth asking COMPSA for a feed or API; generic contact is behind Cloudflare
+    email obfuscation (not recorded). Many of these club events also flow into t
+- id: stlawrence-eventscalendar
+  name: St. Lawrence College events calendar
+  adapter: html
+  url: https://www.stlawrencecollege.ca/eventscalendar
+  owner: stlawrence
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+  notes: NEEDS SELECTORS before enabling. Agility CMS, server-rendered list, no feed. Career Services runs a Winter
+    Job Fair at Kingston/Brockville/Cornwall in early March. Sitemap at /sitemap.xml.
+- id: trent-events
+  name: Trent University events
+  adapter: html
+  url: https://www.trentu.ca/events
+  owner: trent
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+  notes: NEEDS SELECTORS before enabling. Drupal, server-rendered; no ics/rss seen.
+- id: trent-careerspace-expo
+  name: Trent Careerspace expos
+  adapter: html
+  url: https://www.trentu.ca/careerspace/expo
+  owner: trent
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+    landing_url: https://www.trentu.ca/careerspace/keywords/event
+  notes: NEEDS SELECTORS before enabling. Static page with a few dated expos per year (Trent Employer Advantage
+    Career Expo Series, Trent Durham Career Expo).
+- id: fleming-career-job-fairs
+  name: Fleming College Career Services job fairs and events
+  adapter: html
+  url: https://department.flemingcollege.ca/careers/career-job-fairs/
+  owner: fleming
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+    landing_url: https://department.flemingcollege.ca/careers/
+  default_type: career_fair
+  notes: NEEDS SELECTORS before enabling. WordPress; tribe endpoint returned 401. Winter job fairs by school (Jan-Mar)
+    at Sutherland and Frost campuses; announced in news posts. Main flemingcollege.ca/events is 404; no central
+    events calendar found. On-campus job board is behind MyCampus SSO.
+- id: uottawa-cssa
+  name: uOttawa Computer Science Student Association (CSSA/AEI)
+  adapter: headless
+  url: https://cssa-aei.ca/
+  owner: uottawa
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: all
+  notes: NEEDS SELECTORS before enabling. Site raw HTML contains only 'CSSA' (JS app). Runs 101 Week (Sept); kit
+    sales via a Jotform (not opened). Instagram @cssa.aei.
+- id: algonquin-sa-events
+  name: Algonquin Students' Association events (Tribe)
+  adapter: tribe
+  url: https://www.algonquinsa.com/wp-json/tribe/events/v1/events
+  owner: algonquin
+  enabled: true
+  reviewed: false
+  page_budget: 10
+  options:
+    filter: cs
+    landing_url: https://www.algonquinsa.com/
+  notes: 89 upcoming events over 9 pages. Mostly social/athletics; tech clubs (Tech Forge, Code Frontier Club, Game
+    Core Club) have pages on algonquinsa.com and may post events here. Clubs Portal linked from Clubs and Communities
+    page.
+- id: algonquin-student-support-events
+  name: Algonquin Student Support Services / AC Hub events
+  adapter: html
+  url: https://www.algonquincollege.com/studentsupportservices/events/
+  owner: algonquin
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+    landing_url: https://www.algonquincollege.com/studentsupportservices/career-employment/
+  notes: NEEDS SELECTORS before enabling. Server-rendered list linking to /studentsupportservices/event/<slug>/
+    (career fairs like Ottawa Grad Career Fair and Career Fair Prep Workshop appear here). Site uses All-in-One
+    Event Calendar in places, but robots.txt disallows its exporter (*controller=ai1ec_exporter_controller*) and
+    /events/action~* paths, so do not use the ai1ec iCal export. Tribe endpoint 404.
+- id: algonquin-coop-career-fairs
+  name: Algonquin Co-op & Career Centre career fairs
+  adapter: html
+  url: https://www.algonquincollege.com/coop-career-centre/career-fairs/
+  owner: algonquin
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+    landing_url: https://www.algonquincollege.com/coop-career-centre/
+  notes: 'NEEDS SELECTORS before enabling. Career Networking Fair runs each February (2026: Feb 10, DARE District,
+    70+ employers; page /coop-career-centre/career-networking-fair-2026/). Job postings in HireAC (login, out of
+    scope).'
+- id: algonquin-events
+  name: Algonquin College main events page
+  adapter: html
+  url: https://www.algonquincollege.com/events/
+  owner: algonquin
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+  default_type: info_session
+  notes: NEEDS SELECTORS before enabling. Mostly recruitment/open-house events; low value.
+- id: laurentian-events
+  name: Laurentian University events
+  adapter: html
+  url: https://laurentian.ca/events
+  owner: laurentian
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+  notes: 'NEEDS SELECTORS before enabling. Drupal, server-rendered; event pages under /about/news/events/<slug>.
+    Career Hub events (Career Week late Sept/early Oct, winter career fair) post here, e.g. /about/news/events/career-week-2025.
+    Career Hub landing: https://laurentian.ca/services/student-success-centre/career-hub. robots Crawl-delay: 10.'
+- id: lakehead-events
+  name: Lakehead University events
+  adapter: html
+  url: https://www.lakeheadu.ca/about/news-and-events/events
+  owner: lakehead
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+  notes: 'NEEDS SELECTORS before enabling. Drupal 7, server-rendered. robots Crawl-delay: 10. Career fairs (e.g.
+    Careers in Health, Science and the Environment, Oct 29, 2026) are promoted on https://ec.lakeheadu.ca/career-services/
+    (WordPress, no tribe endpoint).'
+- id: nipissing-events
+  name: Nipissing University events
+  adapter: html
+  url: https://www.nipissingu.ca/events
+  owner: nipissing
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+  notes: NEEDS SELECTORS before enabling. Drupal, server-rendered, page includes a JSON-LD block (type not confirmed).
+    Joint Nipissing-Canadore career fair usually in March (e.g. /events/career-fair-2023).
+- id: algoma-events
+  name: Algoma University events
+  adapter: html
+  url: https://algomau.ca/events/
+  owner: algoma
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+  default_type: career_fair
+  notes: NEEDS SELECTORS before enabling. WordPress month grid showed 'No Events' for every day of Oct 2026; tribe
+    endpoint 404. Community Career Fair (early March, George Leach Centre) has had pages like /events/community-career-fair.
+    Low value.
+- id: georgian-events
+  name: Georgian College events
+  adapter: headless
+  url: https://www.georgiancollege.ca/events/
+  owner: georgian
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+  notes: NEEDS SELECTORS before enabling. Raw HTML shows category filters and an Oct 2026 grid but no events (JS-rendered).
+    Headless WordPress at content.georgiancollege.ca but tribe endpoint 404. Event detail pages exist under /news-events/events/<slug>
+    (e.g. barrie-career-fair, Jan 29, 2026; Connect 2 Careers job fair, Jan/Feb).
+- id: loyalist-events-tribe
+  name: Loyalist College events (Tribe)
+  adapter: tribe
+  url: https://loyalistcollege.com/wp-json/tribe/events/v1/events
+  owner: loyalist
+  enabled: true
+  reviewed: false
+  page_budget: 10
+  options:
+    filter: cs
+    landing_url: https://www.loyalistcollege.com/events/
+  notes: '61 upcoming events. iCal also offered: https://loyalistcollege.com/events/list/?ical=1. Mostly student
+    life/athletics.'
+- id: cambrian-events
+  name: Cambrian College events
+  adapter: html
+  url: https://cambriancollege.ca/events/
+  owner: cambrian
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+  notes: 'NEEDS SELECTORS before enabling. Server-rendered list; tribe endpoint 404. Career Fair Conference early
+    February (2027: Feb 2); Laurentian students also attend.'
+- id: northern-events
+  name: Northern College events & activities
+  adapter: html
+  url: https://www.northerncollege.ca/events/
+  owner: northern
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+  default_type: workshop
+  notes: NEEDS SELECTORS before enabling. Descriptive page only (mentions a Computer Bootcamp, no dates); says event
+    announcements for current students are on Blackboard (login). Not useful for scraping.
+- id: sault-career-fair
+  name: Sault College Annual Career Fair
+  adapter: html
+  url: https://www.saultcollege.ca/careerfair
+  owner: sault
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+  default_type: career_fair
+  notes: 'NEEDS SELECTORS before enabling. No central events calendar found (/events is 404). Annual Career Fair
+    each early February (2026: Feb 4, F-Wing gym), run by the Student Job Centre and Employment Solutions. Single
+    static page; low value.'
+- id: invest-ottawa-events
+  name: Invest Ottawa event calendar
+  adapter: html
+  url: https://www.investottawa.ca/events/
+  owner: invest-ottawa
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+  notes: 'NEEDS SELECTORS before enabling. WordPress + EventON. REST endpoint https://www.investottawa.ca/wp-json/wp/v2/ajde_events
+    returns event titles but no event dates (only publish dates), so scrape the HTML list or ask for a feed. Also
+    has ''event'' and ''eventbrite_events'' post types (Eventbrite-sourced, do not follow those links). robots Crawl-delay:
+    10. Mostly founder/SME programming; some student-rel'
+- id: techalliance-events
+  name: TechAlliance of Southwestern Ontario events
+  adapter: html
+  url: https://www.techalliance.ca/news/event-type/techalliance-events/
+  owner: techalliance-london
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+    landing_url: https://www.techalliance.ca/
+  notes: NEEDS SELECTORS before enabling. WordPress + EventON (post type ajde_events at /wp-json/wp/v2/ajde_events,
+    likely without dates like Invest Ottawa). Event pages under /news/events/<slug>. Runs monthly Networking Tech
+    Meetups (London, St. Thomas, Woodstock), Polaris Pitch Competition (Feb 9, 2027), Techstars Startup Weekend
+    London, TechConnect for Newcomers. Tribe endpoint 404. Related London sourc
+- id: wetech-alliance-events
+  name: WEtech Alliance events (Windsor-Essex)
+  adapter: tribe
+  url: https://www.wetech-alliance.com/wp-json/tribe/events/v1/events
+  owner: wetech-alliance
+  enabled: true
+  reviewed: false
+  page_budget: 10
+  options:
+    filter: cs
+    landing_url: https://www.wetech-alliance.com/events/
+  notes: '41 upcoming events. iCal alternative: https://www.wetech-alliance.com/events/list/?ical=1. robots.txt
+    disallows tribe view params (eventDisplay=, eventDate=, post_type=tribe_events) and /events/*/page/, but /wp-json
+    and /events/ are allowed, so use the REST API, not the webcal URL (which carries post_type=tribe_events).'

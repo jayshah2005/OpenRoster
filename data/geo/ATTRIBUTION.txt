@@ -1,0 +1,2 @@
+Source: GeoNames cities5000 (https://www.geonames.org/), CC BY 4.0. Filtered to Canada and the US; columns trimmed.
+Regenerate with scripts/build_gazetteer.sh.

@@ -1,0 +1,608 @@
+# Schools and campus coordinates (used for 'near school' filters).
+schools:
+- id: algoma
+  name: Algoma University
+  kind: university
+  website: https://algomau.ca
+  aliases: []
+  campuses:
+  - name: Sault Ste. Marie campus
+    city: Sault Ste. Marie
+    region: CA-ON
+    lat: 46.53
+    lon: -84.3112
+  - name: Brampton campus
+    city: Brampton
+    region: CA-ON
+    lat: 43.6853
+    lon: -79.7593
+- id: algonquin
+  name: Algonquin College
+  kind: college
+  website: https://www.algonquincollege.com
+  aliases: []
+  campuses:
+  - name: Ottawa (Woodroffe) campus
+    city: Ottawa
+    region: CA-ON
+    lat: 45.3496
+    lon: -75.7569
+  - name: Pembroke campus
+    city: Pembroke
+    region: CA-ON
+    lat: 45.813
+    lon: -77.117
+  - name: Perth campus
+    city: Perth
+    region: CA-ON
+    lat: 44.9002
+    lon: -76.2489
+- id: brock
+  name: Brock University
+  kind: university
+  website: https://brocku.ca
+  aliases: []
+  campuses:
+  - name: Main campus
+    city: St. Catharines
+    region: CA-ON
+    lat: 43.1176
+    lon: -79.2477
+  - name: Rankin Family Pavilion / Marilyn I. Walker School (downtown)
+    city: St. Catharines
+    region: CA-ON
+    lat: 43.1566
+    lon: -79.2439
+- id: cambrian
+  name: Cambrian College
+  kind: college
+  website: https://cambriancollege.ca
+  aliases: []
+  campuses:
+  - name: Barrydowne campus
+    city: Sudbury
+    region: CA-ON
+    lat: 46.5231
+    lon: -80.9449
+- id: canadore
+  name: Canadore College
+  kind: college
+  website: https://www.canadorecollege.ca
+  aliases: []
+  campuses:
+  - name: College Drive campus
+    city: North Bay
+    region: CA-ON
+    lat: 46.3418
+    lon: -79.4975
+- id: carleton
+  name: Carleton University
+  kind: university
+  website: https://carleton.ca
+  aliases: []
+  campuses:
+  - name: Main campus
+    city: Ottawa
+    region: CA-ON
+    lat: 45.3876
+    lon: -75.696
+- id: centennial
+  name: Centennial College
+  kind: college
+  website: https://www.centennialcollege.ca
+  aliases: []
+  campuses:
+  - name: Progress campus
+    city: Toronto
+    region: CA-ON
+    lat: 43.7848
+    lon: -79.2273
+  - name: Morningside campus
+    city: Toronto
+    region: CA-ON
+    lat: 43.7856
+    lon: -79.1904
+  - name: Story Arts Centre
+    city: Toronto
+    region: CA-ON
+    lat: 43.6905
+    lon: -79.3287
+- id: conestoga
+  name: Conestoga College
+  kind: college
+  website: https://www.conestogac.on.ca
+  aliases: []
+  campuses:
+  - name: Doon Campus
+    city: Kitchener
+    region: CA-ON
+    lat: 43.3895
+    lon: -80.404
+  - name: Waterloo Campus
+    city: Waterloo
+    region: CA-ON
+    lat: 43.479
+    lon: -80.518
+  - name: Cambridge Campus
+    city: Cambridge
+    region: CA-ON
+    lat: 43.36
+    lon: -80.314
+- id: confederation
+  name: Confederation College
+  kind: college
+  website: https://www.confederationcollege.ca
+  aliases: []
+  campuses:
+  - name: Thunder Bay campus
+    city: Thunder Bay
+    region: CA-ON
+    lat: 48.4013
+    lon: -89.2726
+- id: durham
+  name: Durham College
+  kind: college
+  website: https://durhamcollege.ca
+  aliases: []
+  campuses:
+  - name: Oshawa campus
+    city: Oshawa
+    region: CA-ON
+    lat: 43.9446
+    lon: -78.8966
+  - name: Whitby campus
+    city: Whitby
+    region: CA-ON
+    lat: 43.8834
+    lon: -78.9426
+- id: fanshawe
+  name: Fanshawe College
+  kind: college
+  website: https://www.fanshawec.ca
+  aliases: []
+  campuses:
+  - name: London campus
+    city: London
+    region: CA-ON
+    lat: 43.0129
+    lon: -81.1999
+- id: fleming
+  name: Fleming College
+  kind: college
+  website: https://flemingcollege.ca
+  aliases: []
+  campuses:
+  - name: Sutherland campus
+    city: Peterborough
+    region: CA-ON
+    lat: 44.2887
+    lon: -78.3446
+  - name: Frost campus
+    city: Lindsay
+    region: CA-ON
+    lat: 44.3681
+    lon: -78.7435
+- id: georgebrown
+  name: George Brown Polytechnic
+  kind: college
+  website: https://www.georgebrown.ca
+  aliases: []
+  campuses:
+  - name: Casa Loma
+    city: Toronto
+    region: CA-ON
+    lat: 43.676
+    lon: -79.4106
+  - name: St. James
+    city: Toronto
+    region: CA-ON
+    lat: 43.651
+    lon: -79.37
+  - name: Waterfront
+    city: Toronto
+    region: CA-ON
+    lat: 43.644
+    lon: -79.3654
+- id: georgian
+  name: Georgian College
+  kind: college
+  website: https://www.georgiancollege.ca
+  aliases: []
+  campuses:
+  - name: Barrie campus
+    city: Barrie
+    region: CA-ON
+    lat: 44.4117
+    lon: -79.6683
+- id: humber
+  name: Humber Polytechnic
+  kind: college
+  website: https://humber.ca
+  aliases: []
+  campuses:
+  - name: North campus
+    city: Toronto
+    region: CA-ON
+    lat: 43.7286
+    lon: -79.6074
+  - name: Lakeshore campus
+    city: Toronto
+    region: CA-ON
+    lat: 43.597
+    lon: -79.5185
+- id: lakehead
+  name: Lakehead University
+  kind: university
+  website: https://www.lakeheadu.ca
+  aliases: []
+  campuses:
+  - name: Thunder Bay campus
+    city: Thunder Bay
+    region: CA-ON
+    lat: 48.4206
+    lon: -89.2589
+  - name: Orillia campus
+    city: Orillia
+    region: CA-ON
+    lat: 44.5996
+    lon: -79.418
+- id: laurentian
+  name: Laurentian University
+  kind: university
+  website: https://laurentian.ca
+  aliases: []
+  campuses:
+  - name: Main campus
+    city: Sudbury
+    region: CA-ON
+    lat: 46.4667
+    lon: -80.9737
+- id: loyalist
+  name: Loyalist College
+  kind: college
+  website: https://loyalistcollege.com
+  aliases: []
+  campuses:
+  - name: Belleville campus
+    city: Belleville
+    region: CA-ON
+    lat: 44.1951
+    lon: -77.3389
+- id: mcmaster
+  name: McMaster University
+  kind: university
+  website: https://www.mcmaster.ca
+  aliases: []
+  campuses:
+  - name: Main campus
+    city: Hamilton
+    region: CA-ON
+    lat: 43.2609
+    lon: -79.9192
+- id: mohawk
+  name: Mohawk College
+  kind: college
+  website: https://www.mohawkcollege.ca
+  aliases: []
+  campuses:
+  - name: Fennell Campus
+    city: Hamilton
+    region: CA-ON
+    lat: 43.2386
+    lon: -79.888
+  - name: Stoney Creek Campus
+    city: Hamilton
+    region: CA-ON
+    lat: 43.214
+    lon: -79.738
+  - name: Institute for Applied Health Sciences (at McMaster)
+    city: Hamilton
+    region: CA-ON
+    lat: 43.256
+    lon: -79.91
+- id: niagara-college
+  name: Niagara College
+  kind: college
+  website: https://www.niagaracollege.ca
+  aliases: []
+  campuses:
+  - name: Welland Campus
+    city: Welland
+    region: CA-ON
+    lat: 43.0077
+    lon: -79.2647
+  - name: Daniel J. Patterson Campus
+    city: Niagara-on-the-Lake
+    region: CA-ON
+    lat: 43.133
+    lon: -79.153
+- id: nipissing
+  name: Nipissing University
+  kind: university
+  website: https://www.nipissingu.ca
+  aliases: []
+  campuses:
+  - name: Main campus
+    city: North Bay
+    region: CA-ON
+    lat: 46.343
+    lon: -79.4937
+- id: northern
+  name: Northern College
+  kind: college
+  website: https://www.northerncollege.ca
+  aliases: []
+  campuses:
+  - name: Porcupine campus
+    city: Timmins
+    region: CA-ON
+    lat: 48.531
+    lon: -81.2015
+- id: ocadu
+  name: OCAD University
+  kind: university
+  website: https://www.ocadu.ca
+  aliases: []
+  campuses:
+  - name: Main campus (McCaul St)
+    city: Toronto
+    region: CA-ON
+    lat: 43.6532
+    lon: -79.3913
+- id: ontariotechu
+  name: Ontario Tech University
+  kind: university
+  website: https://ontariotechu.ca
+  aliases: []
+  campuses:
+  - name: North Oshawa
+    city: Oshawa
+    region: CA-ON
+    lat: 43.9455
+    lon: -78.8968
+  - name: Downtown Oshawa
+    city: Oshawa
+    region: CA-ON
+    lat: 43.8971
+    lon: -78.8658
+- id: queens
+  name: Queen's University
+  kind: university
+  website: https://www.queensu.ca
+  aliases: []
+  campuses:
+  - name: Main campus
+    city: Kingston
+    region: CA-ON
+    lat: 44.2253
+    lon: -76.4951
+- id: sault
+  name: Sault College
+  kind: college
+  website: https://www.saultcollege.ca
+  aliases: []
+  campuses:
+  - name: Sault Ste. Marie campus
+    city: Sault Ste. Marie
+    region: CA-ON
+    lat: 46.533
+    lon: -84.3127
+- id: seneca
+  name: Seneca Polytechnic
+  kind: college
+  website: https://www.senecapolytechnic.ca
+  aliases: []
+  campuses:
+  - name: Newnham
+    city: Toronto
+    region: CA-ON
+    lat: 43.7956
+    lon: -79.3496
+  - name: Seneca@York
+    city: Toronto
+    region: CA-ON
+    lat: 43.771
+    lon: -79.4993
+  - name: Markham
+    city: Markham
+    region: CA-ON
+    lat: 43.8496
+    lon: -79.3693
+  - name: King
+    city: King City
+    region: CA-ON
+    lat: 43.9556
+    lon: -79.5181
+- id: sheridan
+  name: Sheridan College
+  kind: college
+  website: https://www.sheridancollege.ca
+  aliases: []
+  campuses:
+  - name: Trafalgar Road Campus
+    city: Oakville
+    region: CA-ON
+    lat: 43.4695
+    lon: -79.699
+  - name: Davis Campus
+    city: Brampton
+    region: CA-ON
+    lat: 43.6556
+    lon: -79.7393
+  - name: Hazel McCallion Campus
+    city: Mississauga
+    region: CA-ON
+    lat: 43.5911
+    lon: -79.6472
+- id: stclair
+  name: St. Clair College
+  kind: college
+  website: https://www.stclaircollege.ca
+  aliases: []
+  campuses:
+  - name: South Windsor campus
+    city: Windsor
+    region: CA-ON
+    lat: 42.2475
+    lon: -83.0189
+  - name: Chatham campus
+    city: Chatham
+    region: CA-ON
+    lat: 42.3925
+    lon: -82.2104
+- id: stlawrence
+  name: St. Lawrence College
+  kind: college
+  website: https://www.stlawrencecollege.ca
+  aliases: []
+  campuses:
+  - name: Kingston campus
+    city: Kingston
+    region: CA-ON
+    lat: 44.2232
+    lon: -76.5269
+  - name: Brockville campus
+    city: Brockville
+    region: CA-ON
+    lat: 44.6046
+    lon: -75.6911
+  - name: Cornwall campus
+    city: Cornwall
+    region: CA-ON
+    lat: 45.0293
+    lon: -74.7559
+- id: tmu
+  name: Toronto Metropolitan University
+  kind: university
+  website: https://www.torontomu.ca
+  aliases: []
+  campuses:
+  - name: Downtown campus
+    city: Toronto
+    region: CA-ON
+    lat: 43.6577
+    lon: -79.3788
+- id: trent
+  name: Trent University
+  kind: university
+  website: https://www.trentu.ca
+  aliases: []
+  campuses:
+  - name: Symons campus
+    city: Peterborough
+    region: CA-ON
+    lat: 44.3573
+    lon: -78.2905
+  - name: Trent Durham GTA
+    city: Oshawa
+    region: CA-ON
+    lat: 43.9446
+    lon: -78.8963
+- id: uoguelph
+  name: University of Guelph
+  kind: university
+  website: https://www.uoguelph.ca
+  aliases: []
+  campuses:
+  - name: Main campus
+    city: Guelph
+    region: CA-ON
+    lat: 43.5323
+    lon: -80.2253
+- id: uottawa
+  name: University of Ottawa
+  kind: university
+  website: https://www.uottawa.ca
+  aliases: []
+  campuses:
+  - name: Main campus
+    city: Ottawa
+    region: CA-ON
+    lat: 45.4231
+    lon: -75.6831
+- id: uoft
+  name: University of Toronto
+  kind: university
+  website: https://www.utoronto.ca
+  aliases: []
+  campuses:
+  - name: St. George
+    city: Toronto
+    region: CA-ON
+    lat: 43.6629
+    lon: -79.3957
+  - name: Mississauga (UTM)
+    city: Mississauga
+    region: CA-ON
+    lat: 43.5483
+    lon: -79.6627
+  - name: Scarborough (UTSC)
+    city: Toronto
+    region: CA-ON
+    lat: 43.7845
+    lon: -79.1864
+- id: uwaterloo
+  name: University of Waterloo
+  kind: university
+  website: https://uwaterloo.ca
+  aliases: []
+  campuses:
+  - name: Main campus
+    city: Waterloo
+    region: CA-ON
+    lat: 43.4723
+    lon: -80.5449
+- id: uwindsor
+  name: University of Windsor
+  kind: university
+  website: https://www.uwindsor.ca
+  aliases: []
+  campuses:
+  - name: Main campus
+    city: Windsor
+    region: CA-ON
+    lat: 42.3043
+    lon: -83.066
+- id: western
+  name: Western University
+  kind: university
+  website: https://www.uwo.ca
+  aliases: []
+  campuses:
+  - name: Main campus
+    city: London
+    region: CA-ON
+    lat: 43.0096
+    lon: -81.2737
+- id: laurier
+  name: Wilfrid Laurier University
+  kind: university
+  website: https://www.wlu.ca
+  aliases: []
+  campuses:
+  - name: Waterloo campus
+    city: Waterloo
+    region: CA-ON
+    lat: 43.4738
+    lon: -80.5275
+  - name: Brantford campus
+    city: Brantford
+    region: CA-ON
+    lat: 43.1394
+    lon: -80.2644
+- id: yorku
+  name: York University
+  kind: university
+  website: https://www.yorku.ca
+  aliases: []
+  campuses:
+  - name: Keele
+    city: Toronto
+    region: CA-ON
+    lat: 43.7735
+    lon: -79.5019
+  - name: Markham
+    city: Markham
+    region: CA-ON
+    lat: 43.8535
+    lon: -79.3125

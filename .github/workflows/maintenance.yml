@@ -1,0 +1,49 @@
+name: Maintenance
+
+# Labels from .github/labels.yml, and takedown reminders (we promise removal within 48 hours).
+on:
+  schedule:
+    - cron: "23 */4 * * *"
+  push:
+    branches: [main]
+    paths: [".github/labels.yml"]
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  pull-requests: read
+  contents: read
+
+jobs:
+  labels:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - env: {GH_TOKEN: "${{ github.token }}"}
+        run: |
+          python3 - <<'PY'
+          import subprocess, yaml
+          for l in yaml.safe_load(open(".github/labels.yml")):
+              subprocess.run(["gh", "label", "create", l["name"], "--color", l["color"],
+                              "--description", l.get("description", ""), "--force"], check=True)
+          PY
+
+  takedown-reminders:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          now=$(date -u +%s)
+          gh issue list -R "$REPO" --label takedown --state open --json number,createdAt,comments \
+            --jq '.[] | [.number, .createdAt, ([.comments[].body] | join(" "))] | @tsv' |
+          while IFS=$'\t' read -r n created bodies; do
+            age=$(( (now - $(date -u -d "$created" +%s)) / 3600 ))
+            if [ "$age" -ge 40 ] && ! grep -q "takedown-40h" <<<"$bodies"; then
+              gh issue comment "$n" -R "$REPO" --body "@$OWNER ⚠️ This takedown is ${age}h old; the 48-hour promise expires soon. Merge the removal PR. <!-- takedown-40h -->"
+            elif [ "$age" -ge 24 ] && ! grep -q "takedown-24h" <<<"$bodies"; then
+              gh issue comment "$n" -R "$REPO" --body "@$OWNER Reminder: takedown pending for ${age}h. <!-- takedown-24h -->"
+            fi
+          done

@@ -1,0 +1,26 @@
+name: Correct a listing
+description: Report a wrong date, link, location or other detail on an existing listing.
+title: "Correction: "
+labels: [correction]
+body:
+  - type: input
+    id: opportunity_id
+    attributes: {label: Listing ID, description: "The part after /o/ in the listing's address (prefilled from the site)."}
+    validations: {required: true}
+  - type: input
+    id: page_url
+    attributes: {label: Listing page}
+  - type: dropdown
+    id: field
+    attributes:
+      label: What is wrong?
+      options: [title, start, end, type, mode, city, registration link, deadline, cancelled, other]
+    validations: {required: true}
+  - type: textarea
+    id: value
+    attributes: {label: Correct value, description: "For dates use 2026-11-28 09:00. For a deadline use `role: date`."}
+    validations: {required: true}
+  - type: input
+    id: evidence
+    attributes: {label: "Where can we check this?", description: "Link to the official page that shows the correct detail."}
+    validations: {required: true}

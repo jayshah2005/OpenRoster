@@ -1,0 +1,24 @@
+name: Keep scheduled workflows enabled
+
+# GitHub disables scheduled workflows in public repos after 60 days without repository activity.
+# Re-enabling a workflow through the API resets that timer, with no dummy commits.
+# If they were disabled anyway: Actions tab -> pick the workflow -> "Enable workflow" (see docs/setup.md).
+on:
+  schedule:
+    - cron: "0 12 1,15 * *"
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          for wf in scrape.yml audit.yml review.yml links.yml maintenance.yml keepalive.yml; do
+            gh api -X PUT "repos/$REPO/actions/workflows/$wf/enable" && echo "enabled $wf"
+          done

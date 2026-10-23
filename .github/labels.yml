@@ -1,0 +1,11 @@
+- {name: submission, color: "0e8a16", description: "New opportunity from the submit form"}
+- {name: correction, color: "fbca04", description: "Correction to a listing"}
+- {name: takedown, color: "b60205", description: "Removal request (48-hour promise)"}
+- {name: permission, color: "5319e7", description: "Written permission from a site"}
+- {name: source-suggestion, color: "1d76db", description: "Suggested calendar or source"}
+- {name: source-review, color: "0052cc", description: "Owner sign-off for audited sources"}
+- {name: review, color: "c5def5", description: "Daily review of held-back items"}
+- {name: health, color: "d93f0b", description: "A source is failing or changed"}
+- {name: links, color: "e99695", description: "Dead links"}
+- {name: dependencies, color: "0366d6", description: "Dependency updates"}
+- {name: ai, color: "bfdadc", description: "Opened or proposed by the AI helper"}

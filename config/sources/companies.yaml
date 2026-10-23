@@ -1,0 +1,213 @@
+# Generated from research/companies.yaml by scripts/research_to_config.py.
+# Entries with `hand_tuned: true` are never overwritten.
+sources:
+- id: bmo-student-events
+  name: BMO student events (on-campus and in-office)
+  adapter: html
+  url: https://jobs.bmo.com/ca/en/student-events
+  owner: bmo
+  enabled: true
+  reviewed: false
+  hand_tuned: true
+  page_budget: 2
+  default_roles:
+  - participant
+  eligibility:
+  - undergrad
+  - grad
+  location:
+    country: CA
+  options:
+    organizer: BMO
+    filter: all
+    item: div.phw-card-block
+    item_filter: Session Type
+    title: h3 > span
+    date: h3 strong
+    strip:
+    - 'Virtual/In-person:'
+    - Location\s*:\s*Canada
+- id: scotiabank-campus-events
+  name: Scotiabank campus events
+  adapter: html
+  url: https://www.scotiabank.com/careers/en/careers/campus-events.html
+  owner: scotiabank
+  enabled: true
+  reviewed: false
+  hand_tuned: true
+  page_budget: 2
+  default_type: info_session
+  eligibility:
+  - undergrad
+  - grad
+  options:
+    organizer: Scotiabank
+    filter: all
+    item: div.card--marketing
+    item_filter: 20\d\d
+    title: h3
+    title_template: 'Scotiabank on campus: {title}'
+    registration: school_portal_login
+  notes: 'Terms restrict republishing substantial parts: facts and link only (our policy). In-person events register
+    through each school''s career portal.'
+- id: scotiabank-jobs-student-programs
+  name: Scotiabank jobs site - student hackathon / competition postings (SHACKS, Canada's Top Students)
+  adapter: html
+  url: https://jobs.scotiabank.com/search/?q=student
+  owner: scotiabank
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: all
+    landing_url: https://jobs.scotiabank.com/job/Toronto-SHACKS-2026-Scotiabank-x-Tangerine-Student-Hackathon-ON/604450317/
+  notes: NEEDS SELECTORS before enabling. SAP SuccessFactors Career Site (rmkcdn.successfactors.com). Student hackathon
+    (SHACKS, Aug 21-22 2026, for 2028-2030 grads, deadline Jul 27) and Canada's Top Students (1st/2nd-year case
+    competition, Nov 13-14 2026, deadline Sep 25) are posted as job requisitions; SHACKS posting now shows "not
+    accepting further applicants". Search results are server-rendered HTML. N
+- id: rbc-students-graduates
+  name: RBC Careers - Students & Graduates (Campus events anchor)
+  adapter: headless
+  url: https://jobs.rbc.com/ca/en/students-graduates
+  owner: rbc
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+    landing_url: https://jobs.rbc.com/ca/en/students-graduates#Campusevents
+  notes: 'NEEDS SELECTORS before enabling. Phenom People site (cdn.phenompeople.com, CareerConnectResources/RBCAA0088).
+    "Meet RBC recruiters on campus" links to #Campusevents but no events appear in fetched content (either empty
+    this cycle or JS-loaded widget). Re-check during Aug-Oct recruiting season. RBC events otherwise surface only
+    on university career-centre calendars.'
+- id: cibc-student-campus-events
+  name: CIBC - Student and campus events
+  adapter: html
+  url: https://www.cibc.com/en/about-cibc/careers/students-and-graduates/student-and-campus-events.html
+  owner: cibc
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+  notes: NEEDS SELECTORS before enabling. Descriptive page only (mentions "CIBC's Innovation Challenge and Hackathons",
+    case competitions, networking, workshops) with no dated events. Jobs on Workday (cibc.wd3.myworkdayjobs.com/en-US/campus).
+    Low value as a feed; useful as a landing link / change-detection target.
+- id: kpmg-ca-student-programs
+  name: KPMG Canada - Student programs (Ace the Case, Experience a Day)
+  adapter: html
+  url: https://kpmg.com/ca/en/careers/students/student-programs.html
+  owner: kpmg-ca
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+    landing_url: https://kpmg.com/ca/en/careers/students/student-programs/kpmg-ace-the-case.html
+  notes: NEEDS SELECTORS before enabling. Program pages, not an event calendar. Ace the Case reopens in fall. KPMG
+    Canada general events at https://kpmg.com/ca/en/events.html (mostly professional webinars).
+- id: bain-toronto-students
+  name: Bain & Company - University of Toronto students page (programs + events)
+  adapter: html
+  url: https://www.bain.com/careers/work-with-us/students/toronto/
+  owner: bain
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+  notes: NEEDS SELECTORS before enabling. "Our Events" section was empty in fetched content (may be JS-populated);
+    program deadlines are in HTML. BEL applies via careers.bain.com/recruits (login-walled candidate portal - do
+    not use). Other Canadian campus pages follow /careers/work-with-us/students/<school>/. robots disallows only
+    */?filters=* etc.
+- id: bcg-on-campus-toronto
+  name: BCG Careers - On-campus page, University of Toronto (and other Canadian schools)
+  adapter: html
+  url: https://careers.bcg.com/global/en/on-campus/university-of-toronto
+  owner: bcg
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: cs
+  notes: NEEDS SELECTORS before enabling. Phenom People site (cdn.phenompeople.com/CareerConnectResources/BCG1US);
+    talent community on Eightfold (bcg.eightfold.ai). Page renders "There are no events to display" in HTML, so
+    events would appear server-side when present. Same template for /on-campus/mcgill-university (NextGen Leaders,
+    first-year program), /on-campus/wilfrid-laurier-university, /on-campus/conc
+- id: janestreet-programs-events
+  name: Jane Street - Programs and Events
+  adapter: html
+  url: https://www.janestreet.com/join-jane-street/programs-and-events/
+  owner: jane-street
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: all
+  notes: NEEDS SELECTORS before enabling. Server-rendered list of ~12 programs with status ("ACCEPTING APPLICATIONS"),
+    eligibility and format, but few explicit dates/locations. Includes WiSE, INSIGHT, SEE, FOCUS, IN FOCUS, AMP.
+    robots.txt disallows some careers sub-paths (position/application pages) but not programs-and-events. No JSON-LD.
+- id: optiver-recruitment-events
+  name: Optiver - Recruitment events
+  adapter: html
+  url: https://optiver.com/recruitment-events/
+  owner: optiver
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: all
+  notes: NEEDS SELECTORS before enabling. Optimizely CMS; events listed in HTML with date/time/location/status (Open/Closed/External)
+    and audience tabs (Students & new grads). Shows 18 of 20 with "Load more" (remaining may need a second request).
+    Current listings are mostly UK/EU; US/Canada programs (e.g. Women in Tech & Trading for US/Canadian universities,
+    FutureFocus Chicago) appear seasonally under /re
+- id: imc-prosperity
+  name: IMC Prosperity - global student trading/algorithmic challenge
+  adapter: html
+  url: https://www.imc.com/us/corporate-news/prosperity-4
+  owner: imc
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: all
+    landing_url: https://prosperity.imc.com
+  notes: NEEDS SELECTORS before enabling. Annual (spring) online algorithmic trading challenge for STEM university
+    students worldwide, Python bots, USD 25k top prize. Announcement article per edition; registration at prosperity.imc.com
+    (not fetched).
+- id: twosigma-new-seekers-summit
+  name: Two Sigma - New Seekers Summit (1st/2nd-year undergrads)
+  adapter: html
+  url: https://www.twosigma.com/new-seekers-summit/
+  owner: two-sigma
+  enabled: false
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: all
+  default_type: early_career_program
+  notes: NEEDS SELECTORS before enabling. Static WordPress program page; no dates/deadline on page currently. Use
+    as change-detection landing page only.
+- id: bmo-virtual-workshops
+  name: BMO virtual student workshops
+  adapter: html
+  url: https://jobs.bmo.com/ca/en/student-events
+  owner: bmo
+  enabled: true
+  reviewed: false
+  hand_tuned: true
+  page_budget: 2
+  default_type: workshop
+  eligibility:
+  - undergrad
+  - grad
+  options:
+    organizer: BMO
+    filter: all
+    item: div.phw-card-block
+    item_filter: Register for an upcoming session
+    title: h3
+    each_date: true
+    infer_year: true
+    default_mode: online
+  notes: Sessions are listed without a year; infer_year (next occurrence) is enabled for this source only.

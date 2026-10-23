@@ -1,0 +1,85 @@
+name: Issue forms
+
+# Validates submission, correction, takedown and permission issues, replies on the issue, and opens a PR
+# with the change. The issue body is untrusted: it is passed through a file, never interpolated into a shell.
+on:
+  issues:
+    types: [opened, edited, labeled]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: issue-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
+jobs:
+  handle:
+    if: >-
+      contains(github.event.issue.labels.*.name, 'submission') ||
+      contains(github.event.issue.labels.*.name, 'correction') ||
+      contains(github.event.issue.labels.*.name, 'takedown') ||
+      (contains(github.event.issue.labels.*.name, 'permission') &&
+       contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v6
+        with: {enable-cache: true}
+      - run: uv sync --frozen
+      - name: Which form?
+        id: kind
+        env:
+          LABELS: ${{ toJSON(github.event.issue.labels.*.name) }}
+        run: |
+          for k in submission:submit correction:correct takedown:takedown permission:permission; do
+            label="${k%%:*}"; kind="${k##*:}"
+            if echo "$LABELS" | grep -q "\"$label\""; then echo "kind=$kind" >> "$GITHUB_OUTPUT"; break; fi
+          done
+      - name: Validate and apply
+        id: run
+        env:
+          BODY: ${{ github.event.issue.body }}
+          N: ${{ github.event.issue.number }}
+          KIND: ${{ steps.kind.outputs.kind }}
+        run: |
+          printf '%s' "$BODY" > "$RUNNER_TEMP/body.md"
+          if uv run openroster submission --kind "$KIND" --issue "$N" --body "$RUNNER_TEMP/body.md" \
+               --write --comment-file "$RUNNER_TEMP/comment.md" > "$RUNNER_TEMP/result.json"; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Reply on the issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          N: ${{ github.event.issue.number }}
+        run: gh issue comment "$N" --body-file "$RUNNER_TEMP/comment.md" --edit-last || gh issue comment "$N" --body-file "$RUNNER_TEMP/comment.md"
+      - name: Open or update the PR
+        if: steps.run.outputs.ok == 'true'
+        id: pr
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/issue-${{ github.event.issue.number }}
+          title: "${{ steps.kind.outputs.kind }}: ${{ github.event.issue.title }}"
+          body: |
+            From #${{ github.event.issue.number }}. Checked by the bot; merge to publish.
+
+            Closes #${{ github.event.issue.number }}
+          commit-message: "${{ steps.kind.outputs.kind }}: from issue #${{ github.event.issue.number }}"
+          add-paths: |
+            config/submissions/*.yaml
+            config/overrides.yaml
+            config/known_verdicts.yaml
+            data/takedowns.json
+          labels: ${{ steps.kind.outputs.kind }}
+          delete-branch: true
+      - name: Run CI on the PR
+        if: steps.pr.outputs.pull-request-number
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: bot/issue-${{ github.event.issue.number }}
+        run: gh workflow run ci.yml --ref "$BRANCH"

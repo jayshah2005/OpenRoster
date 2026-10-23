@@ -1,0 +1,46 @@
+name: Daily review
+
+# One PR, updated in place, with held-back items (unclear dates, possible duplicates, records that vanished
+# from their source) and new volunteer / mentor / judge calls. Fill in config/manual/pending-review.yaml in
+# the PR, or set `ignore: true`, then merge.
+on:
+  schedule:
+    - cron: "5 11 * * *"       # 07:05 Toronto (EDT)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: data
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v6
+        with: {enable-cache: true}
+      - run: uv sync --frozen
+      - run: uv run openroster review
+      - name: Open or update the review PR
+        id: pr
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/daily-review
+          title: "Daily review"
+          body-path: reports/review.md
+          add-paths: |
+            config/manual/pending-review.yaml
+            config/manual/resolved.yaml
+            data/review/ignored.json
+            reports/review.md
+          commit-message: "review: update daily review"
+          labels: review
+      - name: Run CI on the PR
+        if: steps.pr.outputs.pull-request-number
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: gh workflow run ci.yml --ref bot/daily-review

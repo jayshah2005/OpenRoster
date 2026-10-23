@@ -1,0 +1,105 @@
+name: Submit an opportunity
+description: Add a hackathon, info session, talk, career fair, workshop, competition, program, or a volunteer / mentor / judge call.
+title: "Submit: "
+labels: [submission]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! A bot checks this form and opens a pull request; a maintainer approves it, usually within a day.
+        Please use facts only and **no personal names, emails or photos**. Ordinary job and internship postings are not listed.
+  - type: input
+    id: title
+    attributes: {label: Title, description: "Official name of the event or program."}
+    validations: {required: true}
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options: [hackathon, info_session, tech_talk, career_fair, networking, workshop, conference, case_competition, early_career_program, other]
+    validations: {required: true}
+  - type: input
+    id: organizer
+    attributes: {label: Organizer, description: "Organization, club or company (not a person)."}
+    validations: {required: true}
+  - type: input
+    id: url
+    attributes: {label: Official link, description: "The official page or registration link (Devpost / MLH / Luma links are fine as links)."}
+    validations: {required: true}
+  - type: input
+    id: start
+    attributes: {label: Start, description: "Date and time, e.g. 2026-11-28 09:00 (date only for all-day events)."}
+    validations: {required: true}
+  - type: input
+    id: end
+    attributes: {label: End, description: "Optional, same format."}
+  - type: dropdown
+    id: timezone
+    attributes:
+      label: Time zone
+      options: [America/Toronto, America/Vancouver, America/Edmonton, America/Winnipeg, America/Regina, America/Halifax, America/St_Johns, America/New_York, America/Chicago, America/Denver, America/Los_Angeles]
+      default: 0
+    validations: {required: true}
+  - type: dropdown
+    id: mode
+    attributes: {label: Format, options: [in_person, online, hybrid]}
+    validations: {required: true}
+  - type: input
+    id: city
+    attributes: {label: City, description: "Leave empty for online events."}
+  - type: input
+    id: region
+    attributes: {label: Province or state, description: "Two letters, e.g. ON, BC, NY."}
+  - type: dropdown
+    id: country
+    attributes: {label: Country, options: [CA, US, Other], default: 0}
+  - type: checkboxes
+    id: roles
+    attributes:
+      label: Ways to take part
+      options:
+        - label: participant
+        - label: volunteer
+        - label: mentor
+        - label: judge
+        - label: organizer_team
+        - label: workshop_lead
+  - type: textarea
+    id: deadlines
+    attributes:
+      label: Deadlines
+      description: "One per line as role: date, e.g. `participant: 2026-11-20 23:59` or `mentor: 2026-11-01`."
+  - type: textarea
+    id: role_links
+    attributes:
+      label: Role links
+      description: "Optional application links per role, e.g. `volunteer: https://forms.gle/...`."
+  - type: checkboxes
+    id: eligibility
+    attributes:
+      label: Who can join
+      options:
+        - label: open_to_all
+        - label: school_only
+        - label: high_school
+        - label: undergrad
+        - label: grad
+  - type: input
+    id: schools
+    attributes: {label: Schools, description: "If limited to certain schools, their names (comma-separated). Otherwise leave empty."}
+  - type: dropdown
+    id: cost
+    attributes: {label: Cost, options: [free, paid, unknown], default: 2}
+  - type: dropdown
+    id: travel
+    attributes: {label: "Travel support offered?", options: ["no / not stated", "yes"], default: 0}
+  - type: textarea
+    id: summary
+    attributes: {label: Short summary, description: "At most 200 characters, in your own words. Do not paste the event description."}
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmations
+      options:
+        - label: The details are public and correct, and I included no personal data.
+          required: true

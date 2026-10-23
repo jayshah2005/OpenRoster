@@ -1,0 +1,130 @@
+# Hand-configured feeds (RSS and JSON) found by the research agents. Not touched by research_to_config.py.
+# Every source still needs the owner's `reviewed: true` after reading its audit.
+sources:
+- id: brock-experiencebu-rss
+  name: Brock University ExperienceBU events (Engage RSS)
+  adapter: rss
+  url: https://experiencebu.brocku.ca/events.rss
+  owner: brock
+  enabled: true
+  reviewed: false
+  page_budget: 1
+  schools: [brock]
+  location: {city: St. Catharines, region: CA-ON, country: CA}
+  options:
+    landing_url: https://experiencebu.brocku.ca/events
+    filter: cs
+    include: ["Computer Science", "Career Education", "Brock LINC", "GDG", "Google Developer", "Hack", "Game Jam", "Co-op", "Goodman"]
+    registration: school_portal_login
+  notes: Brock's main calendar (brocku.ca/events redirects here). ~850 public events; the CS/career filter keeps the relevant ones. The Engage JSON API is disallowed by robots.txt, so only the RSS is used.
+
+- id: sheridan-ssu-engage-rss
+  name: Sheridan clubs (Engage RSS)
+  adapter: rss
+  url: https://sheridancollege.campuslabs.ca/engage/events.rss
+  owner: sheridan
+  enabled: true
+  reviewed: false
+  page_budget: 1
+  schools: [sheridan]
+  location: {city: Oakville, region: CA-ON, country: CA}
+  options:
+    landing_url: https://sheridancollege.campuslabs.ca/engage/events
+    filter: cs
+    registration: school_portal_login
+
+- id: western-events-json
+  name: Western University events (JSON)
+  adapter: json
+  url: https://www.uwo.ca/events/_data/current-live.json
+  owner: western
+  enabled: true
+  reviewed: false
+  page_budget: 1
+  location: {city: London, region: CA-ON, country: CA}
+  options:
+    landing_url: https://www.uwo.ca/events/
+    filter: cs
+    items: events
+    id: id
+    title: title
+    url: url
+    start: startDate
+    end: endDate
+    all_day: allDay
+    location: additionDetails.0.text
+    text: [description, filter1, filter5]
+  notes: Contact names and emails in this feed are never read. Terms restrict copying content, so facts and links only.
+
+- id: carleton-events-api
+  name: Carleton University central events (WordPress REST)
+  adapter: json
+  url: https://events.carleton.ca/wp-json/wp/v2/cu_event?per_page=100
+  owner: carleton
+  enabled: true
+  reviewed: false
+  page_budget: 4
+  location: {city: Ottawa, region: CA-ON, country: CA}
+  options: &carleton
+    paginate: wp
+    filter: cs
+    id: id
+    title: title
+    url: link
+    start: acf.cu_event_start_date
+    end: acf.cu_event_end_date
+    location: acf.cu_building
+    text: [excerpt.rendered]
+
+- id: carleton-scs-events-api
+  name: Carleton School of Computer Science events (WordPress REST)
+  adapter: json
+  url: https://carleton.ca/scs/wp-json/wp/v2/cu_event?per_page=100
+  owner: carleton
+  enabled: true
+  reviewed: false
+  page_budget: 3
+  location: {city: Ottawa, region: CA-ON, country: CA}
+  options:
+    <<: *carleton
+    filter: all
+
+- id: carleton-career-events-api
+  name: Carleton Career Services events (WordPress REST)
+  adapter: json
+  url: https://carleton.ca/career/wp-json/wp/v2/cu_event?per_page=100
+  owner: carleton
+  enabled: true
+  reviewed: false
+  page_budget: 3
+  schools: [carleton]
+  location: {city: Ottawa, region: CA-ON, country: CA}
+  options:
+    <<: *carleton
+    filter: all
+    registration: school_portal_login
+
+- id: queens-events-rss
+  name: Queen's University events calendar (RSS)
+  adapter: rss
+  url: https://www.queensu.ca/eventscalendar/calendar/rss/monthly/all
+  owner: queens
+  enabled: true
+  reviewed: false
+  page_budget: 1
+  location: {city: Kingston, region: CA-ON, country: CA}
+  options:
+    filter: cs
+  notes: Event dates are in the description text, so the rule-based date parser runs; unclear dates go to review.
+
+- id: stclair-events-rss
+  name: St. Clair College events (RSS)
+  adapter: rss
+  url: https://www.stclaircollege.ca/events.xml
+  owner: st-clair
+  enabled: true
+  reviewed: false
+  page_budget: 1
+  location: {city: Windsor, region: CA-ON, country: CA}
+  options:
+    filter: cs

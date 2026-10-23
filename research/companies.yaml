@@ -1,0 +1,341 @@
+generated: 2026-10-23
+agent: companies
+sources:
+  # ---------------- Canadian banks ----------------
+  - id: bmo-student-events
+    name: BMO Careers - Student Events (Canada)
+    owner: bmo
+    url: https://jobs.bmo.com/ca/en/student-events
+    landing_url: https://jobs.bmo.com/ca/en/student-events
+    platform: html
+    expected_types: [workshop, info_session, networking, case_competition, hackathon]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["HerHacks Hackathon (Nov 28, 2026)", "AI at BMO: Learn Today, Lead Tomorrow", "BMO Den Pitch Competition (Nov 4, 2026)"]
+    robots: allowed
+    terms_url: https://jobs.bmo.com/ca/en/personal-information
+    terms_notes: "Footer only links a Personal Information page; no scraping clause found."
+    blocked_by: null
+    outreach_contact: campus.recruiting@bmo.com
+    notes: >-
+      Phenom People careers site (assets on cdn.phenompeople.com). Event list is present in the fetched
+      page content (Phenom server-renders page data), so plain HTML parsing works. Two blocks: "Virtual Workshops"
+      (dates without year, ET times) and "On-campus or In-office" cards (dated 2026, tags like Networking /
+      Case Competition / Information Session). Virtual workshops link to detail pages like
+      https://jobs.bmo.com/ca/en/event/<24-hex-id>/<slug>; on-campus cards have no detail links.
+      robots.txt only disallows apply/chatbot/jobcart/phenom-tracking paths; sitemaps at /ca/en/sitemap_index.xml
+      (sitemap1.xml, sitemap2.xml; not confirmed to contain /event/ URLs). US page: /us/en/student-events-us.
+      No JSON-LD or iCal seen. Phenom internal widget APIs exist but were not called.
+
+  - id: scotiabank-campus-events
+    name: Scotiabank Careers - Campus Events
+    owner: scotiabank
+    url: https://www.scotiabank.com/careers/en/careers/campus-events.html
+    landing_url: https://www.scotiabank.com/careers/en/careers/campus-events.html
+    platform: html
+    expected_types: [info_session, networking, career_fair]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["University of Waterloo (Sep 21, 2026, 11:30am-1:30pm ET)", "Discover Scotiabank (Sep 18, 2026, virtual)", "Indigenous Student Gathering - McMaster University (Sep 14, 2026)"]
+    robots: allowed
+    terms_url: https://www.scotiabank.com/ca/en/about/contact-us/legal.html
+    terms_notes: "Copyright clause: users \"may not republish nor reproduce any substantial part of the Work in any manner whatsoever\" without permission. No crawling clause."
+    blocked_by: null
+    outreach_contact: null
+    notes: >-
+      Adobe AEM static page; ~25 events in the HTML (per-campus fall tour stops, Indigenous Student Gatherings,
+      virtual "Discover Scotiabank" sessions). Virtual registration goes to gem.scotiabank.com; in-person
+      registration is through each school's career portal (not linked). Titles are mostly the school name, so
+      the scraper should synthesize "Scotiabank on campus @ <school>". Store only facts (title/date/link), given
+      the republish clause. No JSON-LD/ICS.
+
+  - id: scotiabank-jobs-student-programs
+    name: Scotiabank jobs site - student hackathon / competition postings (SHACKS, Canada's Top Students)
+    owner: scotiabank
+    url: https://jobs.scotiabank.com/search/?q=student
+    landing_url: https://jobs.scotiabank.com/job/Toronto-SHACKS-2026-Scotiabank-x-Tangerine-Student-Hackathon-ON/604450317/
+    platform: html
+    expected_types: [hackathon, case_competition, early_career_program]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["SHACKS 2026: Scotiabank x Tangerine Student Hackathon", "Canada's Top Students 2025"]
+    robots: allowed
+    terms_url: https://www.scotiabank.com/ca/en/about/contact-us/legal.html
+    terms_notes: "Same republish clause as above."
+    blocked_by: null
+    outreach_contact: null
+    notes: >-
+      SAP SuccessFactors Career Site (rmkcdn.successfactors.com). Student hackathon (SHACKS, Aug 21-22 2026,
+      for 2028-2030 grads, deadline Jul 27) and Canada's Top Students (1st/2nd-year case competition, Nov 13-14
+      2026, deadline Sep 25) are posted as job requisitions; SHACKS posting now shows "not accepting further
+      applicants". Search results are server-rendered HTML. No RSS link exposed on the search page, so none
+      recorded. Filter by title keywords (hackathon, SHACKS, Top Students, Discover). Requires keyword filtering
+      to drop ordinary jobs.
+
+  - id: rbc-students-graduates
+    name: RBC Careers - Students & Graduates (Campus events anchor)
+    owner: rbc
+    url: https://jobs.rbc.com/ca/en/students-graduates
+    landing_url: https://jobs.rbc.com/ca/en/students-graduates#Campusevents
+    platform: js_only
+    expected_types: [info_session, networking]
+    cs_relevance: medium
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: unknown
+    terms_url: null
+    terms_notes: "not checked"
+    blocked_by: null
+    outreach_contact: null
+    notes: >-
+      Phenom People site (cdn.phenompeople.com, CareerConnectResources/RBCAA0088). "Meet RBC recruiters on campus"
+      links to #Campusevents but no events appear in fetched content (either empty this cycle or JS-loaded
+      widget). Re-check during Aug-Oct recruiting season. RBC events otherwise surface only on university
+      career-centre calendars.
+
+  - id: cibc-student-campus-events
+    name: CIBC - Student and campus events
+    owner: cibc
+    url: https://www.cibc.com/en/about-cibc/careers/students-and-graduates/student-and-campus-events.html
+    platform: html
+    expected_types: [case_competition, hackathon, networking, workshop]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: []
+    robots: unknown
+    terms_url: null
+    terms_notes: "not checked"
+    blocked_by: null
+    outreach_contact: null
+    notes: >-
+      Descriptive page only (mentions "CIBC's Innovation Challenge and Hackathons", case competitions,
+      networking, workshops) with no dated events. Jobs on Workday (cibc.wd3.myworkdayjobs.com/en-US/campus).
+      Low value as a feed; useful as a landing link / change-detection target.
+
+  # ---------------- Big 4 / consulting ----------------
+  - id: kpmg-ca-student-programs
+    name: KPMG Canada - Student programs (Ace the Case, Experience a Day)
+    owner: kpmg-ca
+    url: https://kpmg.com/ca/en/careers/students/student-programs.html
+    landing_url: https://kpmg.com/ca/en/careers/students/student-programs/kpmg-ace-the-case.html
+    platform: html
+    expected_types: [case_competition, early_career_program]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["KPMG Ace the Case (1st-3rd year business/STEM; 2026 applications closed)", "Experience a Day with KPMG in Canada (Forage)"]
+    robots: unknown
+    terms_url: null
+    terms_notes: "not checked"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Program pages, not an event calendar. Ace the Case reopens in fall. KPMG Canada general events at https://kpmg.com/ca/en/events.html (mostly professional webinars)."
+
+  - id: bain-toronto-students
+    name: Bain & Company - University of Toronto students page (programs + events)
+    owner: bain
+    url: https://www.bain.com/careers/work-with-us/students/toronto/
+    platform: html
+    expected_types: [early_career_program, info_session]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Building Entrepreneurial Leaders (BEL) - deadline Nov 30, 2026", "Connecting and Resourcing Empowered Women (CREW) - deadline Nov 30, 2026"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "not checked"
+    blocked_by: null
+    outreach_contact: null
+    notes: >-
+      "Our Events" section was empty in fetched content (may be JS-populated); program deadlines are in HTML.
+      BEL applies via careers.bain.com/recruits (login-walled candidate portal - do not use). Other Canadian
+      campus pages follow /careers/work-with-us/students/<school>/. robots disallows only */?filters=* etc.
+
+  - id: bcg-on-campus-toronto
+    name: BCG Careers - On-campus page, University of Toronto (and other Canadian schools)
+    owner: bcg
+    url: https://careers.bcg.com/global/en/on-campus/university-of-toronto
+    platform: html
+    expected_types: [info_session, early_career_program]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: []
+    robots: unknown
+    terms_url: null
+    terms_notes: "not checked"
+    blocked_by: null
+    outreach_contact: null
+    notes: >-
+      Phenom People site (cdn.phenompeople.com/CareerConnectResources/BCG1US); talent community on Eightfold
+      (bcg.eightfold.ai). Page renders "There are no events to display" in HTML, so events would appear
+      server-side when present. Same template for /on-campus/mcgill-university (NextGen Leaders, first-year
+      program), /on-campus/wilfrid-laurier-university, /on-campus/concordia-university. Low volume.
+
+  # ---------------- Trading / finance / tech ----------------
+  - id: janestreet-programs-events
+    name: Jane Street - Programs and Events
+    owner: jane-street
+    url: https://www.janestreet.com/join-jane-street/programs-and-events/
+    platform: html
+    expected_types: [early_career_program, fellowship]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["FTTP (first-year university students)", "Bridge (first- and second-year students)", "Graduate Research Fellowship (PhD)"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "not checked"
+    blocked_by: null
+    outreach_contact: null
+    notes: >-
+      Server-rendered list of ~12 programs with status ("ACCEPTING APPLICATIONS"), eligibility and format, but
+      few explicit dates/locations. Includes WiSE, INSIGHT, SEE, FOCUS, IN FOCUS, AMP. robots.txt disallows some
+      careers sub-paths (position/application pages) but not programs-and-events. No JSON-LD.
+
+  - id: optiver-recruitment-events
+    name: Optiver - Recruitment events
+    owner: optiver
+    url: https://optiver.com/recruitment-events/
+    platform: html
+    expected_types: [career_fair, info_session, workshop, hackathon, early_career_program]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["Optiver Coding Challenge with DoCSoc (Nov 23, 2026)", "Research-Driven Trading (Optiver x Algo Trading Society)", "Cambridge Computer Science Annual Recruitment Fair"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "not checked"
+    blocked_by: null
+    outreach_contact: null
+    notes: >-
+      Optimizely CMS; events listed in HTML with date/time/location/status (Open/Closed/External) and
+      audience tabs (Students & new grads). Shows 18 of 20 with "Load more" (remaining may need a second request).
+      Current listings are mostly UK/EU; US/Canada programs (e.g. Women in Tech & Trading for US/Canadian
+      universities, FutureFocus Chicago) appear seasonally under /recruitment-events/<slug>/. Filter by
+      location for North America. robots disallows only /externalContentView/.
+
+  - id: imc-greenhouse-board
+    name: IMC Trading - Greenhouse job board (includes student events/programs)
+    owner: imc
+    url: https://boards-api.greenhouse.io/v1/boards/imc/jobs
+    landing_url: https://job-boards.eu.greenhouse.io/imc
+    platform: api
+    expected_types: [early_career_program, hackathon, networking, info_session]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["EU Campus - Aarhus Hackahton IMCity", "2027 US Chess Academy Interest Form", "Aarhus Networking event | IMC Trading"]
+    robots: allowed
+    terms_url: https://developers.greenhouse.io/job-board.html
+    terms_notes: "Greenhouse Job Board API is publicly documented for reading published jobs."
+    blocked_by: null
+    outreach_contact: null
+    notes: >-
+      Documented public Greenhouse Job Board API (JSON). IMC posts student programs/events (Launchpad for
+      2nd-years, Chess Academy, Prosperity webinars, networking events, hackathons) as Greenhouse "jobs".
+      Must keyword-filter titles (event, webinar, academy, launchpad, prosperity, hackathon, networking,
+      insight) and drop normal roles. Large payload (~240 KB). imc.com robots: Allow /.
+
+  - id: imc-prosperity
+    name: IMC Prosperity - global student trading/algorithmic challenge
+    owner: imc
+    url: https://www.imc.com/us/corporate-news/prosperity-4
+    landing_url: https://prosperity.imc.com
+    platform: html
+    expected_types: [hackathon, coding_competition]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["PROSPERITY 4: IMC's latest global trading challenge (starts April 14, 16 days)"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "not checked"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Annual (spring) online algorithmic trading challenge for STEM university students worldwide, Python bots, USD 25k top prize. Announcement article per edition; registration at prosperity.imc.com (not fetched)."
+
+  - id: twosigma-new-seekers-summit
+    name: Two Sigma - New Seekers Summit (1st/2nd-year undergrads)
+    owner: two-sigma
+    url: https://www.twosigma.com/new-seekers-summit/
+    platform: html
+    expected_types: [early_career_program]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["New Seekers Summit for Undergraduates"]
+    robots: unknown
+    terms_url: null
+    terms_notes: "not checked"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Static WordPress program page; no dates/deadline on page currently. Use as change-detection landing page only."
+
+  - id: cohere-ashby-board
+    name: Cohere - Ashby job board (Cohere Labs Research Scholar program)
+    owner: cohere
+    url: https://api.ashbyhq.com/posting-api/job-board/cohere
+    landing_url: https://jobs.ashbyhq.com/cohere
+    platform: api
+    expected_types: [fellowship]
+    cs_relevance: high
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: unknown
+    terms_url: https://developers.ashbyhq.com/docs/public-job-posting-api
+    terms_notes: "Ashby public job posting API is documented."
+    blocked_by: null
+    outreach_contact: null
+    notes: >-
+      Not fetched. The Cohere Labs Scholars Program ("Research Scholar", 8-month research apprenticeship,
+      Jan-Aug 2026 cycle, applications ~Aug) is posted as a job on Ashby. Filter title "Research Scholar".
+      Verify before use.
+
+not_usable:
+  - name: TD Careers - Students & New Grads (events such as "TD Future Connect" are posted only as job requisitions)
+    url: https://careers.td.com/student-new-grads
+    reason: js_only_no_feed
+  - name: Deloitte Canada Early Talent Central - events subpage (candidate hub SPA, #/subpage/events)
+    url: https://earlytalentcentral.deloitte.ca/deloitte-candidate-hub#/subpage/events
+    reason: js_only_no_feed
+  - name: Deloitte Canada campus programs and events (descriptive only; points to the hub above and LinkedIn)
+    url: https://www.deloitte.com/ca/en/careers/explore-your-fit/students/campus-programs-and-events.html
+    reason: js_only_no_feed
+  - name: JPMorganChase careers events (event list empty in raw HTML, filter UI only)
+    url: https://www.jpmorganchase.com/careers/events
+    reason: js_only_no_feed
+  - name: Google Build Your Future events (empty shell in raw HTML)
+    url: https://buildyourfuture.withgoogle.com/events
+    reason: js_only_no_feed
+  - name: Citadel students careers (HTTP 403 to fetcher; Datathon / discovery programs not checked)
+    url: https://www.citadel.com/careers/students/
+    reason: bot_check  # HTTP 403; enum has no bot_check value, see blocked_by in BRIEF
+  - name: Goldman Sachs students programs (HTTP 403 to fetcher)
+    url: https://www.goldmansachs.com/careers/students/programs-and-internships
+    reason: bot_check  # HTTP 403; enum has no bot_check value, see blocked_by in BRIEF
+  - name: Bloomberg early careers (HTTP 403 to fetcher; site is WordPress, CodeCon at codecon.bloomberg.com)
+    url: https://www.bloomberg.com/company/early-careers
+    reason: bot_check  # HTTP 403; enum has no bot_check value, see blocked_by in BRIEF
+  - name: Morgan Stanley students events (fetch timed out twice)
+    url: https://www.morganstanley.com/people-opportunities/students-graduates/events
+    reason: dead  # timeout; retry later
+  - name: Bain BEL application portal (candidate login)
+    url: https://careers.bain.com/recruits/signin?folderId=19160
+    reason: login_required
+
+# No public student events/programs page found (search + spot checks) for: National Bank (emplois.bnc.ca
+# studentsandintership is a jobs page), Desjardins, Manulife, Sun Life (program descriptions only at
+# sunlife.ca/en/careers/student-and-new-graduate-programs/), Canada Life, Intact, PwC Canada, EY Canada,
+# Accenture Canada, McKinsey (students page timed out), Shopify, Microsoft, Amazon, Meta, Apple, Wealthsimple,
+# Kinaxis, OpenText, Ciena, Nokia, Ericsson, AMD Markham, Huawei Canada (only global "Huawei Hackathon Software
+# Challenge" via HKUST calendar), Hudson River Trading (programs only on job boards), Capital One Canada, Faire,
+# Ada, 1Password, Clio, Coinbase, Stripe, Databricks, CRA, Bank of Canada, Canadian Digital Service.
+# For these firms, events appear on university career-centre calendars (U of T MFE, York events.yorku.ca,
+# Guelph Lang, McMaster DeGroote, UBC) - those are better collected by the school agents.

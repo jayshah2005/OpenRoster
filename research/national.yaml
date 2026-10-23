@@ -1,0 +1,893 @@
+generated: 2026-10-23
+agent: national
+notes: >-
+  "responds" means the official site answered a WebFetch on 2026-10-23. Many hackathon sites are JS-only, so a
+  response with only a <title> still counts as responds: true, but details then come from search results or
+  third-party pages (marked in notes). Luma calendar IDs were read from the public luma.com calendar page HTML
+  (curl, no JSON/API endpoints used) and each iCal URL was fetched and confirmed to start with BEGIN:VCALENDAR.
+  Devpost and MLH were not fetched, with one exception: fetching fellowship.mlh.io returned a 302 redirect to
+  fellowship.mlh.com, which was not followed.
+
+sources:
+  - id: hackclub-hackathons-api-upcoming
+    name: Hack Club Hackathons API (upcoming events)
+    owner: hackclub
+    url: https://hackathons.hackclub.com/api/events/upcoming
+    landing_url: https://hackathons.hackclub.com/data
+    platform: api
+    expected_types: [hackathon]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["Hack Peel", "ONHacks", "Teens Hack Houston"]
+    robots: no_robots
+    terms_url: https://hackathons.hackclub.com/data
+    terms_notes: "If you use it, you must credit \"Hack Club Hackathons\" with a link to hackathons.hackclub.com."
+    blocked_by: null
+    outreach_contact: null
+    notes: >-
+      JSON array of objects with keys id, name, website, start, end, createdAt, logo, banner, city, state, country,
+      countryCode, latitude, longitude, virtual, hybrid, mlhAssociated, hack_club_event, apac. Has no query
+      parameters, so filter on countryCode == "CA" on the client side. There were 14 upcoming events worldwide,
+      2 of them in Canada. Mostly high-school hackathons. /api/events/all also works but is large (about 1 MB).
+  - id: vector-institute-events
+    name: Vector Institute events (The Events Calendar REST)
+    owner: vector-institute
+    url: https://vectorinstitute.ai/wp-json/tribe/events/v1/events
+    landing_url: https://vectorinstitute.ai/events/
+    platform: tribe
+    expected_types: [workshop, info_session, tech_talk, early_career_program]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["Vector Business Insights: Personal Productivity & Shadow AI", "AI Data Governance – Applied Project Insights"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "not checked"
+    blocked_by: null
+    outreach_contact: null
+    notes: >-
+      7 upcoming events. Mostly industry events, but it also lists student programs such as the FastLane MLA
+      cohort calls (for grad students and recent grads). An iCal export is also at /events/?ical=1.
+
+hackathons:
+  # ---------------- Ontario ----------------
+  - name: Hack the North
+    url: https://hackthenorth.com
+    host: University of Waterloo students (Techyon)
+    city: Waterloo
+    region: CA-ON
+    usual_month: September
+    volunteer_mentor_judge_apps: true
+    site_responds: true
+    notes: >-
+      The site is JS-only (WebFetch saw only the title). Search results show hackthenorth.com/join (organizer
+      application, closes in January, Waterloo post-secondary students only), a mentor FAQ PDF, a workshop-lead FAQ
+      on Notion, and a homepage banner reading "Volunteer applications are now open!". The 2026 edition ran Sep 18-20.
+  - name: DeltaHacks
+    url: https://deltahacks.com
+    host: McMaster University (DeltaHacks student team)
+    city: Hamilton
+    region: CA-ON
+    usual_month: January
+    volunteer_mentor_judge_apps: false
+    site_responds: true
+    notes: "DeltaHacks 13 runs Jan 9-10, 2027. Portal is at portal.deltahacks.com. Mentors are mentioned, but there is no application."
+  - name: McMaster Engineering Competition (MEC)
+    url: https://macengsociety.ca/mec
+    host: McMaster Engineering Society
+    city: Hamilton
+    region: CA-ON
+    usual_month: November
+    volunteer_mentor_judge_apps: unknown
+    site_responds: unknown
+    notes: "Not fetched. Listed on McMaster's hackathons page (https://ses.eng.mcmaster.ca/experiences/hackathons/), which also lists external hackathons."
+  - name: Hack Western
+    url: https://hackwestern.com
+    host: Western University students
+    city: London
+    region: CA-ON
+    usual_month: November
+    volunteer_mentor_judge_apps: false
+    site_responds: true
+    notes: "Hack Western 13 runs Nov 20-22, 2026. The only application is the hacker one (/apply, open Oct 2-18)."
+  - name: UofTHacks
+    url: https://uofthacks.com
+    host: University of Toronto students
+    city: Toronto
+    region: CA-ON
+    usual_month: January
+    volunteer_mentor_judge_apps: false
+    site_responds: true
+    notes: "UofTHacks 14 is in January 2027 (13 ran Jan 16-18, 2026). The page lists no role applications."
+  - name: NewHacks
+    url: https://newhacks.ca
+    host: University of Toronto (beginner-friendly)
+    city: Toronto
+    region: CA-ON
+    usual_month: October
+    volunteer_mentor_judge_apps: unknown
+    site_responds: false
+    notes: "DNS for newhacks.ca failed (ENOTFOUND) on 2026-10-23. The 2025 edition ran Oct 25-26 at the Bahen Centre (IEEE vTools listing). The event may be dormant."
+  - name: Hack the 6ix
+    url: https://hackthe6ix.com
+    host: Hack the 6ix (independent student non-profit)
+    city: Toronto
+    region: CA-ON
+    usual_month: July
+    volunteer_mentor_judge_apps: false
+    site_responds: true
+    notes: "The 2026 edition ran Jul 17-19. Contact: hello@hackthe6ix.com."
+  - name: QHacks
+    url: https://qhacks.io
+    host: Queen's University students
+    city: Kingston
+    region: CA-ON
+    usual_month: February
+    volunteer_mentor_judge_apps: unknown
+    site_responds: true
+    notes: "The site shows the \"QHacks 2027\" brand only (JS-heavy). The 2026 edition was around Feb 1 (per McMaster's list)."
+  - name: Hack the Valley
+    url: https://hackthevalley.io
+    host: University of Toronto Scarborough students
+    city: Toronto (Scarborough)
+    region: CA-ON
+    usual_month: October
+    volunteer_mentor_judge_apps: true
+    site_responds: true
+    notes: "Hack the Valley 11 ran Oct 16-18, 2026. The site has a \"Become a Volunteer\" button."
+  - name: cuHacking
+    url: https://cuhacking.ca
+    host: Carleton University students
+    city: Ottawa
+    region: CA-ON
+    usual_month: July
+    volunteer_mentor_judge_apps: false
+    site_responds: true
+    notes: "cuHacking 2026 ran Jul 10-12 (it moved from its earlier spring/winter slot). Contact: info@cuhacking.ca."
+  - name: uOttaHack
+    url: https://uottahack.ca
+    host: University of Ottawa (with the Faculty of Engineering)
+    city: Ottawa
+    region: CA-ON
+    usual_month: January
+    volunteer_mentor_judge_apps: unknown
+    site_responds: true
+    notes: "uOttaHack 9 runs Jan 15-17, 2027 (per search). /volunteer returned 404."
+  - name: Hack the Hill
+    url: https://hackthehill.com
+    host: Capital Technology Network (uOttawa and Carleton students)
+    city: Ottawa
+    region: CA-ON
+    usual_month: September
+    volunteer_mentor_judge_apps: false
+    site_responds: true
+    notes: "Hack the Hill III ran Sep 25-27, 2026 at uOttawa. Contact: sponsorship@hackthehill.com."
+  - name: GoldenHack
+    url: null
+    host: unknown
+    city: unknown
+    region: CA-ON
+    usual_month: unknown
+    volunteer_mentor_judge_apps: unknown
+    site_responds: false
+    notes: "No official site found. goldenhack.ca does not resolve, and searches only find UNC Charlotte's \"Golden Hack\". Laurier's hackathon is HawkHacks (see below)."
+  - name: HawkHacks
+    url: https://hawkhacks.ca
+    host: Wilfrid Laurier University students
+    city: Waterloo
+    region: CA-ON
+    usual_month: May
+    volunteer_mentor_judge_apps: unknown
+    site_responds: unknown
+    notes: "WebFetch failed with a TLS error (\"unable to get local issuer certificate\"), so the site exists but could not be read."
+  - name: JAMHacks
+    url: https://jamhacks.ca
+    host: JAMHacks (high-school hackathon, supported by UWaterloo)
+    city: Waterloo
+    region: CA-ON
+    usual_month: May-June
+    volunteer_mentor_judge_apps: true
+    site_responds: true
+    notes: "For high-school students. The FAQ says non-high-schoolers can join as a mentor or judge (no form linked). JAMHacks 11 is next."
+  - name: Ignition Hacks
+    url: https://www.ignitionhacks.org
+    host: Ignition Hacks (student-run, middle and high school)
+    city: online / Ontario
+    region: CA-ON
+    usual_month: August
+    volunteer_mentor_judge_apps: unknown
+    site_responds: true
+    notes: "The site responded with the title only (JS-only). Historically a virtual event."
+  - name: Hack Canada
+    url: https://hackcanada.org
+    host: Hack Canada (began with GDG on Campus Laurier; now held at UofT Myhal Centre)
+    city: Toronto
+    region: CA-ON
+    usual_month: January
+    volunteer_mentor_judge_apps: true
+    site_responds: true
+    notes: "Hack Canada 2027 runs Jan 8-10, 2027. The page has an \"Interested in judging?\" section with a contact email. Hacker applications are at app.hackcanada.org/apply."
+  - name: SpurHacks
+    url: https://www.spurhacks.com
+    host: Spur Innovation Center
+    city: Waterloo
+    region: CA-ON
+    usual_month: June
+    volunteer_mentor_judge_apps: unknown
+    site_responds: unknown
+    notes: "WebFetch failed with a TLS certificate error. The 2025 edition ran Jun 20-22 at the RIM campus."
+  - name: ElleHacks
+    url: https://ellehacks.com
+    host: York University (Lassonde, women and gender-diverse students)
+    city: Toronto
+    region: CA-ON
+    usual_month: February
+    volunteer_mentor_judge_apps: unknown
+    site_responds: true
+    notes: "The site shows the title \"ElleHacks 2026\" only (JS-only)."
+  - name: RU Hacks
+    url: https://ruhacks.com
+    host: Toronto Metropolitan University students
+    city: Toronto
+    region: CA-ON
+    usual_month: unknown
+    volunteer_mentor_judge_apps: unknown
+    site_responds: false
+    notes: "Returned HTTP 520 (Cloudflare origin error). No recent editions found; possibly dormant."
+  - name: TerraHacks
+    url: https://terrahacks.ca
+    host: TerraHacks (held at Toronto Metropolitan University)
+    city: Toronto
+    region: CA-ON
+    usual_month: August
+    volunteer_mentor_judge_apps: false
+    site_responds: true
+    notes: "The site still shows the 2025 edition (Aug 1-3). Contact: contact@terrahacks.ca."
+  - name: Hack the World (TMU)
+    url: https://www.torontomu.ca/innovation-boost-zone/hacktheworld/
+    host: TMU Innovation Boost Zone
+    city: Toronto
+    region: CA-ON
+    usual_month: November
+    volunteer_mentor_judge_apps: unknown
+    site_responds: unknown
+    notes: "Not fetched. A search snippet shows the Fall 2025 edition (an SDG competition, Nov 3-20)."
+  - name: UNHACK (YSpace Lassonde)
+    url: https://events.yorku.ca/
+    host: York University – YSpace / Lassonde
+    city: Toronto
+    region: CA-ON
+    usual_month: November
+    volunteer_mentor_judge_apps: unknown
+    site_responds: unknown
+    notes: "For York undergraduates. Nov 7-8 (2026), $15 deposit. Found via search; the page was not fetched."
+  - name: UTRA Hacks
+    url: https://hackathon.utra.ca/
+    host: University of Toronto Robotics Association
+    city: Toronto
+    region: CA-ON
+    usual_month: January-February
+    volunteer_mentor_judge_apps: true
+    site_responds: true
+    notes: "The 2026 edition ran Jan 31-Feb 1. Mentor and volunteer interest forms (Google Forms) are linked. Contact: hackinfo@utra.ca."
+  - name: MakeUofT
+    url: https://makeuoft.ca
+    host: IEEE University of Toronto Student Branch
+    city: Toronto
+    region: CA-ON
+    usual_month: February
+    volunteer_mentor_judge_apps: false
+    site_responds: true
+    notes: "A hardware makeathon. 2027 dates are TBD. Contact: hello@makeuoft.ca."
+  - name: GenAI Genesis
+    url: https://genaigenesis.ca/
+    host: GenAI Genesis (UofT students)
+    city: Toronto
+    region: CA-ON
+    usual_month: March
+    volunteer_mentor_judge_apps: true
+    site_responds: true
+    notes: "The 2027 edition is in March. The site has a \"Become a judge\" call. Contact: contact@genaigenesis.ca."
+  - name: Hackville
+    url: https://www.hackville.io
+    host: Sheridan College (Hackville club)
+    city: Mississauga (Sheridan HMC campus)
+    region: CA-ON
+    usual_month: January
+    volunteer_mentor_judge_apps: false
+    site_responds: true
+    notes: "Hackville 2027 runs Jan 23-24. Apply at apply.hackville.io."
+  - name: WinHacks
+    url: https://www.winhacks.ca
+    host: University of Windsor Computer Science Society
+    city: Windsor
+    region: CA-ON
+    usual_month: February
+    volunteer_mentor_judge_apps: false
+    site_responds: true
+    notes: "WinHacks 2026 ran Feb 7-8. Contact: support@winhacks.ca."
+  - name: Hackhive
+    url: https://www.hackhive.ca/
+    host: Ontario Tech University
+    city: Oshawa
+    region: CA-ON
+    usual_month: January
+    volunteer_mentor_judge_apps: unknown
+    site_responds: false
+    notes: "hackhive.ca returned 404 on 2026-10-23. Event page: https://events.ontariotechu.ca/2026/01/ontario-tech-university-hackathon-2026-hackhive.php (2026 edition Jan 23-25)."
+  - name: HackTrent
+    url: https://hacktrent.ca
+    host: Trent Computer Science Club Association (TCSCA)
+    city: Peterborough
+    region: CA-ON
+    usual_month: November
+    volunteer_mentor_judge_apps: true
+    site_responds: true
+    notes: "Trent News says volunteers and mentors register through the HackTrent site. The site shows the title \"HackTrent 2026\" only (JS). Contact: tcsca@trentu.ca."
+  - name: GDG Hacks (Guelph)
+    url: https://gdg.community.dev/events/details/google-gdg-on-campus-university-of-guelph-guelph-canada-presents-gdg-hacks-3/
+    host: GDG on Campus University of Guelph
+    city: Guelph
+    region: CA-ON
+    usual_month: May
+    volunteer_mentor_judge_apps: unknown
+    site_responds: unknown
+    notes: "Not fetched. 24-hour event, May 9-10 (year unclear)."
+  - name: EurekaHacks
+    url: https://www.eurekahacks.ca/
+    host: EurekaHACKS team (high school)
+    city: Waterloo
+    region: CA-ON
+    usual_month: May
+    volunteer_mentor_judge_apps: false
+    site_responds: true
+    notes: "For high-school students only. Held at the Accelerator Centre."
+  - name: Hack Peel
+    url: https://hackpeel.ca
+    host: hack::peel (high school)
+    city: Mississauga
+    region: CA-ON
+    usual_month: December
+    volunteer_mentor_judge_apps: unknown
+    site_responds: true
+    notes: "Found via the Hack Club API (2026-12-12). The site is JS-only."
+  - name: ONHacks
+    url: https://onhacks.ca
+    host: ONHacks
+    city: Toronto
+    region: CA-ON
+    usual_month: November
+    volunteer_mentor_judge_apps: unknown
+    site_responds: true
+    notes: "Found via the Hack Club API (2026-11-15). The site is JS-only."
+  - name: MathHacks
+    url: https://mathhacks.ca/
+    host: MathHacks (high school)
+    city: Toronto
+    region: CA-ON
+    usual_month: February, October
+    volunteer_mentor_judge_apps: unknown
+    site_responds: unknown
+    notes: "Found via the Hack Club API (Feb 2026 and Oct 2026 editions). Not fetched."
+  - name: Redshifted Catalyst
+    url: https://catalyst.redshifted.ca/
+    host: Redshifted (high-school hardware hackathon)
+    city: Ottawa
+    region: CA-ON
+    usual_month: March
+    volunteer_mentor_judge_apps: false
+    site_responds: true
+    notes: "Found via the Hack Club API."
+  - name: Brock / Niagara hackathons
+    url: null
+    host: Brock University CSC / Niagara College
+    city: St. Catharines
+    region: CA-ON
+    usual_month: unknown
+    volunteer_mentor_judge_apps: unknown
+    site_responds: false
+    notes: "No current Brock or Niagara hackathon found. Only past items appear (Brock CSC Local Hack Day 2019, a 2017 Datathon, an undated Brock Library HackFest)."
+
+  # ---------------- Elsewhere in Canada ----------------
+  - name: nwHacks
+    url: https://nwhacks.io
+    host: nwPlus (UBC)
+    city: Vancouver
+    region: CA-BC
+    usual_month: January
+    volunteer_mentor_judge_apps: false
+    site_responds: true
+    notes: "nwHacks 2027 runs Jan 16-17 at UBC. For now there is only an interest form."
+  - name: McHacks
+    url: https://mchacks.ca
+    host: McHacks (McGill University)
+    city: Montreal
+    region: CA-QC
+    usual_month: January
+    volunteer_mentor_judge_apps: true
+    site_responds: true
+    notes: "McHacks 14 runs Jan 16-17, 2027. The site has \"Become a Judge\", \"Become a Mentor\" and \"Volunteer with Us\" sections (Google Form interest link). Contact: contact@mchacks.ca."
+  - name: ConUHacks
+    url: https://conuhacks.io
+    host: HackConcordia (Concordia University)
+    city: Montreal
+    region: CA-QC
+    usual_month: January
+    volunteer_mentor_judge_apps: true
+    site_responds: true
+    notes: "ConUHacks X ran Jan 24-25, 2026. The page links a mentor/judge Google Form."
+  - name: HackED
+    url: null
+    host: Computer Engineering Club, University of Alberta
+    city: Edmonton
+    region: CA-AB
+    usual_month: January
+    volunteer_mentor_judge_apps: unknown
+    site_responds: false
+    notes: "No current official site confirmed. hacked.compeclub.com shows only the text \"HACKED\"."
+  - name: CalgaryHacks
+    url: https://calgaryhacks.ca
+    host: Computer Science Undergraduate Society, University of Calgary
+    city: Calgary
+    region: CA-AB
+    usual_month: February
+    volunteer_mentor_judge_apps: unknown
+    site_responds: false
+    notes: "The apex domain reset the connection and www does not resolve. The 2026 edition ran Feb 14-15. A mirror is at calgaryhacks.ca.csus.cpsc.ucalgary.ca."
+  - name: Hack Club events (Canada)
+    url: https://hackathons.hackclub.com/
+    host: Hack Club
+    city: various
+    region: CA
+    usual_month: year-round
+    volunteer_mentor_judge_apps: false
+    site_responds: true
+    notes: "This is a directory of mostly high-school hackathons with a public JSON API (see apis_and_feeds). Canadian 2026 entries include Equinox Vancouver Hackathon, Horizons Polaris (Toronto), EurekaHacks, MathHacks, Redshifted Catalyst, ONHacks and Hack Peel."
+
+programs:
+  - name: CEOx1Day
+    organization: Odgers (Odgers Berndtson)
+    url: https://www.odgers.com/en-ca/about-us/ceox1day-north-america/
+    type: early_career_program
+    application_window: "Fall (2026-27 cycle; see the Key Dates page)"
+    eligibility: "Ambitious undergraduate students (mainly 3rd and 4th year in Canada)."
+    verified: true
+    notes: "Includes a full day shadowing a CEO, a leadership assessment, and networking."
+  - name: Jane Street FTTP (First-Year Trading and Technology Program)
+    organization: Jane Street
+    url: https://www.janestreet.com/join-jane-street/programs-and-events/
+    type: insight_program
+    application_window: "Rolling; listed as accepting applications"
+    eligibility: "First-year university students"
+    verified: true
+    notes: "A couple of days in the office. The same page lists Bridge (1st/2nd year, one day), FOCUS, INSIGHT, SEE, WiSE, IN FOCUS and Preview."
+  - name: Jane Street Bridge / INSIGHT / SEE
+    organization: Jane Street
+    url: https://www.janestreet.com/join-jane-street/programs-and-events/
+    type: insight_program
+    application_window: "Accepting applications (no dates given)"
+    eligibility: "Bridge: 1st/2nd year. INSIGHT: women, trans and gender-expansive students. SEE: university students."
+    verified: true
+    notes: ""
+  - name: Scotiabank Canada's Top Students (CTS)
+    organization: Scotiabank
+    url: https://jobs.scotiabank.com/
+    type: insight_program
+    application_window: "Applications close in late September; event in mid-November (2026: Nov 13-14, Toronto)"
+    eligibility: "First- or second-year students at a Canadian college or university, any discipline"
+    verified: false
+    notes: "A case-competition-style insight event. Found via search; the posting itself was not fetched."
+  - name: Tech@RBC
+    organization: RBC
+    url: https://web.cs.toronto.edu/news-events/news/inside-techrbc-students-gain-insight-confidence-and-a-clearer-vision-for-their-careers
+    type: insight_program
+    application_window: "unknown"
+    eligibility: "Students (UofT CS partnership; year of study unclear)"
+    verified: false
+    notes: "A three-year series of 12 events on AI, cybersecurity and innovation."
+  - name: Goldman Sachs Possibilities Series
+    organization: Goldman Sachs
+    url: https://www.goldmansachs.com/careers/students/programs-and-internships/americas/possibilities-series
+    type: insight_program
+    application_window: "Feb-Mar (2026: Feb 1 - Mar 22)"
+    eligibility: "First-year undergraduates at US colleges only. Not open to Canadian schools."
+    verified: false
+    notes: "Recorded for completeness only (US-only)."
+  - name: Google Developer Groups on Campus – Lead application
+    organization: Google
+    url: https://developers.google.com/community/gdsc
+    type: student_leadership
+    application_window: "Usually spring to summer for the next academic year"
+    eligibility: "Students at a university with (or starting) a GDG on Campus chapter"
+    verified: true
+    notes: "The \"Lead a GDG on Campus\" button points to https://app.advocu.com/gdg/join. Formerly called GDSC."
+  - name: Microsoft Student Ambassadors (formerly Learn Student Ambassadors)
+    organization: Microsoft
+    url: https://mvp.microsoft.com/studentambassadors
+    type: student_leadership
+    application_window: "Rolling registration"
+    eligibility: "18+, full-time at an accredited institution, with an Azure for Students account"
+    verified: false
+    notes: "The page responded with the title only. A Microsoft Q&A answer (January 2026) says the program was renamed and approval became open registration."
+  - name: GitHub Campus Experts
+    organization: GitHub
+    url: https://github.com/education/students/campus-expert
+    type: student_leadership
+    application_window: "Periodic; check the page"
+    eligibility: "Students 18+ at a higher-education institution who are part of the GitHub Student Developer Pack"
+    verified: true
+    notes: "education.github.com/experts redirects to github.com/education/students, which links the Campus Expert page."
+  - name: MLH Fellowship
+    organization: Major League Hacking
+    url: https://fellowship.mlh.com/
+    type: fellowship
+    application_window: "Rolling (spring, summer and fall batches)"
+    eligibility: "Students and recent grads, 18+"
+    verified: false
+    notes: "Link only. MLH is a blocked domain, so the page was not fetched or scraped."
+  - name: Shopify Dev Degree
+    organization: Shopify
+    url: https://www.shopify.com/careers/devdegree
+    type: work_integrated_degree
+    application_window: "Roughly Dec - mid-Feb for the fall intake"
+    eligibility: "Incoming students admitted to CS at partner schools (Carleton, York)"
+    verified: false
+    notes: "The URL returned 404 on 2026-10-23, so the program page has moved or the program has changed. Info sessions are usually held in the fall and winter."
+  - name: Schulich Leader Scholarships
+    organization: Schulich Foundation
+    url: https://www.schulichleaders.com/
+    type: other
+    application_window: "Nominations by late January, applications by mid-February (2027: Jan 27 / Feb 17)"
+    eligibility: "Graduating high-school students entering STEM at 20 partner universities (one nominee per school)"
+    verified: true
+    notes: "A scholarship, not an event."
+  - name: Loran Award
+    organization: Loran Scholars Foundation
+    url: https://www.loranscholar.ca/
+    type: other
+    application_window: "Fall (2027 cycle closed as of 2026-10-23)"
+    eligibility: "Graduating high-school and CEGEP students; character-based selection"
+    verified: true
+    notes: "A scholarship."
+  - name: Venture for Canada (Internship / Intrapreneurship / Fellowship Academy)
+    organization: Venture for Canada
+    url: https://www.ventureforcanada.ca/
+    type: fellowship
+    application_window: "Varies by program"
+    eligibility: "Post-secondary students (internship, intrapreneurship); recent grads (Fellowship Academy)"
+    verified: true
+    notes: "Run info sessions and bootcamps. Program pages are under /programs/."
+  - name: Next 36
+    organization: NEXT Canada
+    url: https://www.nextcanada.com/next-36/
+    type: fellowship
+    application_window: "Mid-August to mid-October (2026: Aug 13 - Oct 14)"
+    eligibility: "Undergrad and master's students and recent grads in Canada; citizens, PRs or visa holders"
+    verified: true
+    notes: "Part-time Jan-Apr, then full-time in person in Toronto May-Aug. No fee or equity required."
+  - name: Mitacs (Accelerate Entrepreneur, Business Strategy Internship, RISE-Globalink)
+    organization: Mitacs
+    url: https://www.mitacs.ca/our-programs/
+    type: other
+    application_window: "Varies by program"
+    eligibility: "College, undergrad and grad students at Canadian institutions (varies). Globalink is for international undergrads."
+    verified: true
+    notes: "Research and work placements, mostly internship-like. Include only the info sessions."
+  - name: NSERC USRA (info sessions only)
+    organization: NSERC
+    url: https://nserc-crsng.canada.ca/en/funding-opportunity/undergraduate-student-research-awards
+    type: other
+    application_window: "Students apply through their university, usually Jan-Feb for summer"
+    eligibility: "Canadian citizens and PRs in natural sciences or engineering undergraduate programs"
+    verified: false
+    notes: "The old URL 302-redirects here. Track the university info sessions, not the award itself."
+  - name: Vector Institute FastLane Machine Learning Associates
+    organization: Vector Institute
+    url: https://vectorinstitute.ai/events/
+    type: fellowship
+    application_window: "Fall intake for Winter cohorts"
+    eligibility: "Grad students and recent grads of Canadian institutions (AI-related)"
+    verified: true
+    notes: "Appears in the Vector events feed."
+
+conferences_and_competitions:
+  - name: CUSEC (Canadian University Software Engineering Conference)
+    url: https://cusec.net
+    month: January
+    city: Montreal
+    volunteer_roles: unknown
+    verified: true
+    notes: "CUSEC 2027 runs Jan 7-9 in Montréal (2027.cusec.net). No volunteer call is posted. Contact: info@cusec.net."
+  - name: CUCSC (Canadian Undergraduate Computer Science Conference)
+    url: https://cucsc.ca
+    month: July (historically)
+    city: rotating
+    volunteer_roles: false
+    verified: true
+    notes: "The site still shows the 2019 Windsor edition. Likely dormant."
+  - name: CUTC (Canadian Undergraduate Technology Conference)
+    url: https://www.cutc.ca
+    month: "Year-round series (Jan-Oct; flagship in fall)"
+    city: Toronto (also Waterloo, Montreal, Vancouver, St. John's)
+    volunteer_roles: false
+    verified: true
+    notes: "Free tickets. Also has a Luma calendar (see luma_calendars). Contact: team@cutc.ca."
+  - name: Web Summit Vancouver (successor to Collision)
+    url: https://vancouver.websummit.com
+    month: May
+    city: Vancouver
+    volunteer_roles: true
+    verified: true
+    notes: "The 2027 edition is May 25-28. Volunteer page: https://vancouver.websummit.com/volunteers."
+  - name: Toronto Tech Week
+    url: https://www.torontotechweek.com
+    month: May-June
+    city: Toronto
+    volunteer_roles: unknown
+    verified: true
+    notes: "The 2027 edition is May 31 - Jun 4. Anyone can host events, and it has student ambassadors. The Luma calendar is listed below."
+  - name: Waterloo Tech Week
+    url: https://luma.com/waterlootechweek
+    month: September
+    city: Waterloo
+    volunteer_roles: unknown
+    verified: true
+    notes: "Run by the Hack the North team alongside Hack the North. The Luma iCal is listed below."
+  - name: ICPC East Central North America Regional
+    url: https://ec.na.icpc.global/
+    month: November
+    city: Windsor (Ontario site)
+    volunteer_roles: false
+    verified: true
+    notes: "The next contest is Sunday, Nov 8, 2026. The Ontario site is the University of Windsor. Covers Eastern Ontario teams."
+  - name: CCC / CCO (Canadian Computing Competition / Olympiad)
+    url: https://cemc.uwaterloo.ca/contests/ccc
+    month: February (CCC), spring (CCO)
+    city: online / Waterloo
+    volunteer_roles: false
+    verified: true
+    notes: "Low relevance. Any full-time student may write the CCC, but official status requires a birth date on or after Jul 1, 2007, so it is mainly for high school."
+  - name: CPA Ontario Fall Case Competition
+    url: https://www.cpaontario.ca/become-a-cpa/post-secondary-student/events/case-competition
+    month: Fall
+    city: Ontario
+    volunteer_roles: false
+    verified: false
+    notes: "For first- and second-year undergraduates only. The page returned 403 to WebFetch; details come from a search snippet."
+  - name: KPMG Ace the Case
+    url: https://kpmg.com/ca/en/careers/students/student-programs/kpmg-ace-the-case.html
+    month: Winter
+    city: Canada (multiple campuses)
+    volunteer_roles: false
+    verified: false
+    notes: "For 1st- to 3rd-year business or STEM students. Cases are solved through business, digital and CPA lenses."
+  - name: JDC Central
+    url: https://cabsonline.ca/jdcc/
+    month: January (2027 dates TBD)
+    city: rotating (Central Canada)
+    volunteer_roles: false
+    verified: true
+    notes: "Business school case, debate and sports competition, with no tech category. jdccentral.ca redirects here."
+  - name: Ivey Scotiabank International Case Competition
+    url: https://www.ivey.uwo.ca/scotiabank-digital-banking-lab/education/scotiabank-international-case-competition/
+    month: unknown
+    city: London, ON
+    volunteer_roles: unknown
+    verified: false
+    notes: "Undergraduate, run by students, hosted by the Scotiabank Digital Banking Lab. Not a dedicated tech track."
+  - name: Sprott Business Technology Case Competition
+    url: https://sprott.carleton.ca/event/business-technology-case-competition-2026/
+    month: February-March
+    city: Ottawa
+    volunteer_roles: unknown
+    verified: false
+    notes: "A business-technology case competition at Carleton (Sprott)."
+  - name: Rotman case competitions
+    url: https://inside.rotman.utoronto.ca/gbc1new/2408-2/rotman-life/case-competitions/
+    month: various
+    city: Toronto
+    volunteer_roles: unknown
+    verified: false
+    notes: "No current tech track found. The Rotman Business Technology Group has run a tech strategy case in the past."
+  - name: CAN-CWiC (Canadian Celebration of Women in Computing)
+    url: https://cscan-infocan.ca/
+    month: November
+    city: rotating (2026 at the University of Waterloo, Nov 20-21)
+    volunteer_roles: true
+    verified: false
+    notes: "Run by CS-CAN | INFOCAN. Volunteers get free registration (via UW WiCS). Found via search."
+  - name: Grace Hopper Celebration (US)
+    url: https://ghc.anitab.org
+    month: October
+    city: Anaheim, CA (2026)
+    volunteer_roles: false
+    verified: true
+    notes: "The 2026 edition runs Oct 27-30. Kamala Scholars program: ghc.anitab.org/kamala-scholars."
+  - name: Upper Bound (Amii)
+    url: https://www.upperbound.ai
+    month: May
+    city: Edmonton
+    volunteer_roles: false
+    verified: true
+    notes: "The 2027 edition is May 18-21. Has a bursaries page (/bursaries)."
+
+apis_and_feeds:
+  - name: Hack Club Hackathons API
+    url: https://hackathons.hackclub.com/api/events/upcoming
+    alt_urls: ["https://hackathons.hackclub.com/api/events/all"]
+    docs: https://hackathons.hackclub.com/data
+    verified: true
+    format: "JSON array of objects: {id, name, website, start, end, createdAt, logo, banner, city, state, country, countryCode, latitude, longitude, virtual, hybrid, mlhAssociated, hack_club_event, apac}"
+    notes: "No query parameters, so filter on countryCode == 'CA'. Requires a credit link to hackathons.hackclub.com. Source code: github.com/hackclub/hackathons."
+  - name: Hack Club community events API
+    url: https://events.hackclub.com/api/events/upcoming
+    verified: true
+    format: "JSON array: {id, slug, title, desc, leader, cal, start, end, youtube, ama, amaForm, amaId, amaAvatar, avatar, approved, tags, interestCount, leaderSlackId, rsvpFormUrl}"
+    notes: "Hack Club Slack community calls and AMAs, not hackathons. Low relevance."
+  - name: Vector Institute events (Tribe REST)
+    url: https://vectorinstitute.ai/wp-json/tribe/events/v1/events
+    verified: true
+    format: "The Events Calendar v1 JSON"
+    notes: "robots.txt allows all paths."
+  - name: Luma calendar iCal
+    url: "https://api.lu.ma/ics/get?entity=calendar&id=<cal-id>"
+    verified: true
+    format: "iCalendar (VCALENDAR)"
+    notes: "The only allowed Luma access. See luma_calendars."
+
+also_useful:
+  - name: SimplifyJobs Summer 2027 Internships
+    url: https://github.com/SimplifyJobs/Summer2027-Internships
+    description: "Daily-updated list of Summer 2027 SWE, data, AI, quant, PM and hardware internships (Simplify and Pitt CSC). Has a README-Off-Season.md."
+    live: true
+  - name: SimplifyJobs New-Grad-Positions
+    url: https://github.com/SimplifyJobs/New-Grad-Positions
+    description: "Full-time SWE, quant and PM roles for new grads."
+    live: true
+  - name: vanshb03 Summer2027-Internships (CSCareers)
+    url: https://github.com/vanshb03/Summer2027-Internships
+    description: "Summer, Fall and Spring 2027 tech internships in the US, Canada and remote."
+    live: true
+  - name: speedyapply 2027-SWE-College-Jobs
+    url: https://github.com/speedyapply/2027-SWE-College-Jobs
+    description: "Daily-updated 2027 SWE internship and new-grad list."
+    live: true
+  - name: Canadian-Tech-Internships-2027
+    url: https://github.com/negarprh/Canadian-Tech-Internships-2027
+    description: "Curated list of Canadian tech internships (Summer, Fall and Winter 2027) across Canadian cities and remote roles."
+    live: true
+  - name: Canadian-Internship-List
+    url: https://github.com/Bobwillrule/Canadian-Internship-List
+    description: "Canadian tech internships and co-ops for 2027 (SWE, AI, data, DevOps)."
+    live: unknown
+  - name: Canada-CS-Internships-New-Grad
+    url: https://github.com/mazentalsam/Canada-CS-Internships-New-Grad
+    description: "Canadian internships, co-ops and new-grad roles for 2027, updated hourly."
+    live: unknown
+  - name: Big4Events
+    url: https://big4events.com
+    description: "Independent aggregator of Deloitte, EY, KPMG and PwC events and early-career roles. Mostly Europe and US, with few Canadian listings."
+    live: true
+
+luma_calendars:
+  - name: Canadian Undergraduate Technology Conference (CUTC)
+    landing_url: https://luma.com/cutc
+    ical_url: https://api.lu.ma/ics/get?entity=calendar&id=cal-oYQx6BHc1owy2ip
+    city: Toronto
+    student_focus: true
+    verified: true
+    sample_event_titles: ["CUTC: Transform Hackathon", "Connect & Create: Intern Picnic", "CUTC 2026: Transform"]
+  - name: Toronto Tech Week
+    landing_url: https://luma.com/torontotechweek
+    ical_url: https://api.lu.ma/ics/get?entity=calendar&id=cal-DdUEFsYsDVh7osG
+    city: Toronto
+    student_focus: false
+    verified: true
+    sample_event_titles: ["Co-Founder Connect With BEA & Yspace", "Toronto Tech Week 2027 - Live Q&A November"]
+  - name: TechTO
+    landing_url: https://luma.com/TechTO-Events
+    ical_url: https://api.lu.ma/ics/get?entity=calendar&id=cal-NFIKWffXs4kAUi3
+    city: Toronto (some Ottawa/Montreal)
+    student_focus: false
+    verified: true
+    sample_event_titles: ["TechTO x SAAS NORTH AI 2026", "The Growth Table: SAAS NORTH AI"]
+  - name: TorontoAI
+    landing_url: https://luma.com/torontoai
+    ical_url: https://api.lu.ma/ics/get?entity=calendar&id=cal-05jPeXeBQT1g9n3
+    city: Toronto
+    student_focus: false
+    verified: true
+    sample_event_titles: ["AI Summit", "Toronto Coffee Club | Early-Stage B2B Founders & Funders"]
+  - name: Waterloo Tech (+adjacent) Events
+    landing_url: https://luma.com/waterlooevents
+    ical_url: https://api.lu.ma/ics/get?entity=calendar&id=cal-rJoHBmPlHGvg5F8
+    city: Waterloo
+    student_focus: false
+    verified: true
+    sample_event_titles: ["CivicTechWR Hacknight", "AI x Learning | AI Builders Waterloo"]
+  - name: Waterloo Tech Week
+    landing_url: https://luma.com/waterlootechweek
+    ical_url: https://api.lu.ma/ics/get?entity=calendar&id=cal-N301eCjDJFPPHxA
+    city: Waterloo
+    student_focus: true
+    verified: true
+    sample_event_titles: ["U Waterloo Campus Liminal Scavenger Hunt", "Scale Canadian Tech Connect Mixer"]
+  - name: Socratica
+    landing_url: https://luma.com/socratica
+    ical_url: https://api.lu.ma/ics/get?entity=calendar&id=cal-cBMgU2QXqXZQSv1
+    city: Waterloo / Toronto
+    student_focus: true
+    verified: true
+    sample_event_titles: ["Socratica Symposium (W26)", "Session Signups Have Moved!"]
+    notes: "Says it has moved to wygo.world/o/socratica, so the feed may go stale."
+  - name: Ottawa Tech Thursday
+    landing_url: https://luma.com/ottawatechthursday
+    ical_url: https://api.lu.ma/ics/get?entity=calendar&id=cal-yiYZCjVML6OJg7I
+    city: Ottawa
+    student_focus: false
+    verified: true
+    sample_event_titles: ["Threat, Talent, Resilience: Inside Canada's Cyber Frontline"]
+  - name: Careerin Tech Society
+    landing_url: https://luma.com/careerintechevents
+    ical_url: https://api.lu.ma/ics/get?entity=calendar&id=cal-gUADv2P40s4rWOB
+    city: Vancouver (also Toronto, Surrey, Richmond)
+    student_focus: false
+    verified: true
+    sample_event_titles: ["Toronto Tech Community Coffee Meetup", "Richmond Tech Community Coffee Meetup"]
+  - name: Tech2Step Events
+    landing_url: https://luma.com/tech2step
+    ical_url: https://api.lu.ma/ics/get?entity=calendar&id=cal-W6q2oD1np3YfMjq
+    city: Vancouver (also Ottawa)
+    student_focus: false
+    verified: true
+    sample_event_titles: ["Tech2Step Walk & Connect – Vancouver"]
+  - name: Tech Walk and Talk (Montreal)
+    landing_url: https://luma.com/calendar/cal-HL5D5MWKDM5EIX7
+    ical_url: https://api.lu.ma/ics/get?entity=calendar&id=cal-HL5D5MWKDM5EIX7
+    city: Montreal
+    student_focus: false
+    verified: true
+    sample_event_titles: []
+    notes: "Returns VCALENDAR, but the first event seen was from 2024, so it is low activity."
+
+not_usable:
+  - name: Devpost hackathon listings
+    url: https://devpost.com
+    reason: blocked_domain
+  - name: MLH season schedule / MLH Fellowship page
+    url: https://www.mlh.com/seasons/2027/events
+    reason: blocked_domain
+  - name: GDG community.dev search API
+    url: https://gdg.community.dev/api/search/?result_types=upcoming_event&country_code=CA
+    reason: terms_forbid
+    notes: "Returns JSON, but robots.txt disallows /api/ for all user agents. Event detail pages could be used as HTML instead."
+  - name: Google CS Research Mentorship Program (CSRMP)
+    url: https://research.google/programs-and-events/csrmp/
+    reason: dead
+    notes: "Page title reads 2018-2023 and is written in the past tense."
+  - name: Citadel programs and events
+    url: https://www.citadel.com/careers/programs-and-events/
+    reason: js_only_no_feed
+    notes: "Returned HTTP 403 to WebFetch (likely a bot check)."
+  - name: CPA Ontario case competition page
+    url: https://www.cpaontario.ca/become-a-cpa/post-secondary-student/events/case-competition
+    reason: js_only_no_feed
+    notes: "Returned HTTP 403 to WebFetch."
+  - name: NewHacks site
+    url: https://newhacks.ca
+    reason: dead
+  - name: Hackhive site
+    url: https://www.hackhive.ca/
+    reason: dead
+  - name: Shopify Dev Degree page
+    url: https://www.shopify.com/careers/devdegree
+    reason: dead
+  - name: CUTC Luma slug ICS (non-cal-id form)
+    url: https://api.lu.ma/ics/get?entity=calendar&id=cutc
+    reason: dead
+    notes: "The ICS endpoint needs the cal- ID, not the page slug."
+  - name: Montreal Agentic Luma calendar
+    url: https://api.lu.ma/ics/get?entity=calendar&id=cal-u1BLMUIkJ9m8nPU
+    reason: dead
+    notes: "Valid VCALENDAR but contains 0 events."

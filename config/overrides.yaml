@@ -1,0 +1,5 @@
+# Owner-approved corrections, keyed by record id. Written by the correction workflow; reviewed in its PR.
+# Example:
+#   2026-11-bmo-herhacks-hackathon-597b:
+#     title: HerHacks 2026
+overrides: {}

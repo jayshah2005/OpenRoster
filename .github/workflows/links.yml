@@ -1,0 +1,44 @@
+name: Link check
+
+# Daily check of every listing's source link and the Also useful page. Dead links are reported in one issue.
+on:
+  schedule:
+    - cron: "33 13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Collect links
+        run: |
+          python3 - <<'PY'
+          import glob, json, yaml
+          urls = set()
+          for f in glob.glob("data/records/*.json"):
+              d = json.load(open(f))
+              urls.update(s["url"] for s in d["sources"])
+          for l in (yaml.safe_load(open("config/also_useful.yaml")) or {}).get("links", []):
+              urls.add(l["url"])
+          open("links.txt", "w").write("\n".join(sorted(urls)) + "\n")
+          PY
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress --max-concurrency 2 --max-retries 2 --accept 200,201,204,301,302,307,308,403,429
+            --user-agent "OpenRosterBot/0.1 (+https://github.com/${{ github.repository }})" links.txt
+          fail: false
+          output: lychee.md
+      - name: Report
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: |
+          if grep -q "Errors per input" lychee.md 2>/dev/null; then
+            n=$(gh issue list --label links --state open --json number --jq '.[0].number')
+            if [ -n "$n" ]; then gh issue comment "$n" --body-file lychee.md;
+            else gh issue create --title "[links] dead links" --label links --body-file lychee.md; fi
+          fi

@@ -1,0 +1,164 @@
+# Generated from research/national.yaml by scripts/research_to_config.py.
+# Entries with `hand_tuned: true` are never overwritten.
+sources:
+- id: hackclub-hackathons-api-upcoming
+  name: Hack Club Hackathons API (upcoming events)
+  adapter: hackclub
+  url: https://hackathons.hackclub.com/api/events/upcoming
+  owner: hackclub
+  enabled: true
+  reviewed: false
+  page_budget: 3
+  options:
+    filter: all
+    landing_url: https://hackathons.hackclub.com/data
+  default_type: hackathon
+  notes: JSON array of objects with keys id, name, website, start, end, createdAt, logo, banner, city, state, country,
+    countryCode, latitude, longitude, virtual, hybrid, mlhAssociated, hack_club_event, apac. Has no query parameters,
+    so filter on countryCode == "CA" on the client side. There were 14 upcoming events worldwide, 2 of them in Canada.
+    Mostly high-school hackathons. /api/events/all also works but
+- id: vector-institute-events
+  name: Vector Institute events (The Events Calendar REST)
+  adapter: tribe
+  url: https://vectorinstitute.ai/wp-json/tribe/events/v1/events
+  owner: vector-institute
+  enabled: true
+  reviewed: false
+  page_budget: 10
+  options:
+    filter: cs
+    landing_url: https://vectorinstitute.ai/events/
+  notes: 7 upcoming events. Mostly industry events, but it also lists student programs such as the FastLane MLA
+    cohort calls (for grad students and recent grads). An iCal export is also at /events/?ical=1.
+- id: luma-canadian-undergraduate-technology-conference-cutc
+  name: Canadian Undergraduate Technology Conference (CUTC) (Luma iCal)
+  adapter: ics
+  url: https://api.lu.ma/ics/get?entity=calendar&id=cal-oYQx6BHc1owy2ip
+  owner: canadian-undergraduate-technology-conference-cutc
+  enabled: true
+  reviewed: false
+  page_budget: 2
+  options:
+    filter: all
+    landing_url: https://luma.com/cutc
+  notes: 'City: Toronto'
+- id: luma-toronto-tech-week
+  name: Toronto Tech Week (Luma iCal)
+  adapter: ics
+  url: https://api.lu.ma/ics/get?entity=calendar&id=cal-DdUEFsYsDVh7osG
+  owner: toronto-tech-week
+  enabled: true
+  reviewed: false
+  page_budget: 2
+  options:
+    filter: cs
+    landing_url: https://luma.com/torontotechweek
+  notes: 'City: Toronto'
+- id: luma-techto
+  name: TechTO (Luma iCal)
+  adapter: ics
+  url: https://api.lu.ma/ics/get?entity=calendar&id=cal-NFIKWffXs4kAUi3
+  owner: techto
+  enabled: true
+  reviewed: false
+  page_budget: 2
+  options:
+    filter: cs
+    landing_url: https://luma.com/TechTO-Events
+  notes: 'City: Toronto (some Ottawa/Montreal)'
+- id: luma-torontoai
+  name: TorontoAI (Luma iCal)
+  adapter: ics
+  url: https://api.lu.ma/ics/get?entity=calendar&id=cal-05jPeXeBQT1g9n3
+  owner: torontoai
+  enabled: true
+  reviewed: false
+  page_budget: 2
+  options:
+    filter: cs
+    landing_url: https://luma.com/torontoai
+  notes: 'City: Toronto'
+- id: luma-waterloo-tech-adjacent-events
+  name: Waterloo Tech (+adjacent) Events (Luma iCal)
+  adapter: ics
+  url: https://api.lu.ma/ics/get?entity=calendar&id=cal-rJoHBmPlHGvg5F8
+  owner: waterloo-tech-adjacent-events
+  enabled: true
+  reviewed: false
+  page_budget: 2
+  options:
+    filter: cs
+    landing_url: https://luma.com/waterlooevents
+  notes: 'City: Waterloo'
+- id: luma-waterloo-tech-week
+  name: Waterloo Tech Week (Luma iCal)
+  adapter: ics
+  url: https://api.lu.ma/ics/get?entity=calendar&id=cal-N301eCjDJFPPHxA
+  owner: waterloo-tech-week
+  enabled: true
+  reviewed: false
+  page_budget: 2
+  options:
+    filter: all
+    landing_url: https://luma.com/waterlootechweek
+  notes: 'City: Waterloo'
+- id: luma-socratica
+  name: Socratica (Luma iCal)
+  adapter: ics
+  url: https://api.lu.ma/ics/get?entity=calendar&id=cal-cBMgU2QXqXZQSv1
+  owner: socratica
+  enabled: true
+  reviewed: false
+  page_budget: 2
+  options:
+    filter: all
+    landing_url: https://luma.com/socratica
+  notes: 'City: Waterloo / Toronto'
+- id: luma-ottawa-tech-thursday
+  name: Ottawa Tech Thursday (Luma iCal)
+  adapter: ics
+  url: https://api.lu.ma/ics/get?entity=calendar&id=cal-yiYZCjVML6OJg7I
+  owner: ottawa-tech-thursday
+  enabled: true
+  reviewed: false
+  page_budget: 2
+  options:
+    filter: cs
+    landing_url: https://luma.com/ottawatechthursday
+  notes: 'City: Ottawa'
+- id: luma-careerin-tech-society
+  name: Careerin Tech Society (Luma iCal)
+  adapter: ics
+  url: https://api.lu.ma/ics/get?entity=calendar&id=cal-gUADv2P40s4rWOB
+  owner: careerin-tech-society
+  enabled: true
+  reviewed: false
+  page_budget: 2
+  options:
+    filter: cs
+    landing_url: https://luma.com/careerintechevents
+  notes: 'City: Vancouver (also Toronto, Surrey, Richmond)'
+- id: luma-tech2step-events
+  name: Tech2Step Events (Luma iCal)
+  adapter: ics
+  url: https://api.lu.ma/ics/get?entity=calendar&id=cal-W6q2oD1np3YfMjq
+  owner: tech2step-events
+  enabled: true
+  reviewed: false
+  page_budget: 2
+  options:
+    filter: cs
+    landing_url: https://luma.com/tech2step
+  notes: 'City: Vancouver (also Ottawa)'
+- id: luma-tech-walk-and-talk-montreal
+  name: Tech Walk and Talk (Montreal) (Luma iCal)
+  adapter: ics
+  url: https://api.lu.ma/ics/get?entity=calendar&id=cal-HL5D5MWKDM5EIX7
+  owner: tech-walk-and-talk-montreal
+  enabled: true
+  reviewed: false
+  page_budget: 2
+  options:
+    filter: cs
+    landing_url: https://luma.com/calendar/cal-HL5D5MWKDM5EIX7
+  notes: 'City: Montreal'

@@ -1,0 +1,21 @@
+name: Permission received (maintainers)
+description: Record that a site granted written permission (for example MLH). The bot updates config/known_verdicts.yaml in a PR.
+title: "Permission: "
+labels: [permission]
+body:
+  - type: input
+    id: host
+    attributes: {label: Site, description: "Domain, e.g. mlh.io"}
+    validations: {required: true}
+  - type: input
+    id: granted
+    attributes: {label: Date granted, description: "YYYY-MM-DD"}
+    validations: {required: true}
+  - type: textarea
+    id: scope
+    attributes: {label: Scope, description: "What exactly was permitted (pages, fields, conditions)."}
+    validations: {required: true}
+  - type: input
+    id: evidence
+    attributes: {label: Evidence, description: "Where the written permission is kept (do not paste private email contents)."}
+    validations: {required: true}

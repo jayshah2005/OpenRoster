@@ -1,0 +1,1144 @@
+generated: 2026-10-23
+agent: rest-of-ontario
+schools:
+  - id: western
+    name: Western University
+    kind: university
+    website: https://www.uwo.ca
+    campuses:
+      - name: Main campus
+        city: London
+        region: CA-ON
+        lat: 43.0096
+        lon: -81.2737
+    hackathons:
+      - name: Hack Western
+        url: https://hackwestern.com/
+        usual_month: November
+        notes: "Hack Western 13 runs Nov 20-22, 2026 (hacker applications Oct 2-18). Student-run; site invites sponsors, no public volunteer/mentor call seen on the homepage."
+      - name: UWORCS (Western University Research in Computer Science conference)
+        url: https://www.uwo.ca/events/2026/04/western-university-research-in-computer-science-conference-uworcs.html
+        usual_month: April
+        notes: "Student-run CS research conference, not a hackathon; listed on the main uwo.ca events calendar."
+  - id: fanshawe
+    name: Fanshawe College
+    kind: college
+    website: https://www.fanshawec.ca
+    campuses:
+      - name: London campus
+        city: London
+        region: CA-ON
+        lat: 43.0129
+        lon: -81.1999
+    hackathons: []
+  - id: uwindsor
+    name: University of Windsor
+    kind: university
+    website: https://www.uwindsor.ca
+    campuses:
+      - name: Main campus
+        city: Windsor
+        region: CA-ON
+        lat: 42.3043
+        lon: -83.0660
+    hackathons:
+      - name: WinHacks
+        url: https://winhacks.ca/
+        usual_month: February
+        notes: "Run by the UWindsor Computer Science Society. 2026 edition Feb 7-8 at the Ed Lumley Centre for Engineering Innovation; 2025 edition Feb 15-16. Sponsor package at winhacks.ca/2026.pdf."
+  - id: stclair
+    name: St. Clair College
+    kind: college
+    website: https://www.stclaircollege.ca
+    campuses:
+      - name: South Windsor campus
+        city: Windsor
+        region: CA-ON
+        lat: 42.2475
+        lon: -83.0189
+      - name: Chatham campus
+        city: Chatham
+        region: CA-ON
+        lat: 42.3925
+        lon: -82.2104
+    hackathons: []
+  - id: queens
+    name: Queen's University
+    kind: university
+    website: https://www.queensu.ca
+    campuses:
+      - name: Main campus
+        city: Kingston
+        region: CA-ON
+        lat: 44.2253
+        lon: -76.4951
+    hackathons:
+      - name: QHacks
+        url: https://qhacks.io/
+        usual_month: January
+        notes: "Queen's annual 36-hour hackathon (AMS lists it as the only annual Queen's hackathon). qhacks.io shows only 'QHacks 2027' with no dates yet; a third-party listing says Jan 25-27, 2027 (unconfirmed)."
+      - name: Designathon (Queen's UX Club)
+        url: https://www.cs.queensu.ca/calendar
+        usual_month: November
+        notes: "Designathon 2026 on Nov 6, listed on the School of Computing calendar."
+      - name: CUCAI (Canadian Undergraduate Conference on AI, run by QMIND)
+        url: https://www.cs.queensu.ca/calendar
+        usual_month: March
+        notes: "National student AI conference, Mar 7, 2026 per School of Computing calendar. Conference, not a hackathon."
+  - id: stlawrence
+    name: St. Lawrence College
+    kind: college
+    website: https://www.stlawrencecollege.ca
+    campuses:
+      - name: Kingston campus
+        city: Kingston
+        region: CA-ON
+        lat: 44.2232
+        lon: -76.5269
+      - name: Brockville campus
+        city: Brockville
+        region: CA-ON
+        lat: 44.6046
+        lon: -75.6911
+      - name: Cornwall campus
+        city: Cornwall
+        region: CA-ON
+        lat: 45.0293
+        lon: -74.7559
+    hackathons: []
+  - id: trent
+    name: Trent University
+    kind: university
+    website: https://www.trentu.ca
+    campuses:
+      - name: Symons campus
+        city: Peterborough
+        region: CA-ON
+        lat: 44.3573
+        lon: -78.2905
+      - name: Trent Durham GTA
+        city: Oshawa
+        region: CA-ON
+        lat: 43.9446
+        lon: -78.8963
+    hackathons: []
+  - id: fleming
+    name: Fleming College
+    kind: college
+    website: https://flemingcollege.ca
+    campuses:
+      - name: Sutherland campus
+        city: Peterborough
+        region: CA-ON
+        lat: 44.2887
+        lon: -78.3446
+      - name: Frost campus
+        city: Lindsay
+        region: CA-ON
+        lat: 44.3681
+        lon: -78.7435
+    hackathons: []
+  - id: uottawa
+    name: University of Ottawa
+    kind: university
+    website: https://www.uottawa.ca
+    campuses:
+      - name: Main campus
+        city: Ottawa
+        region: CA-ON
+        lat: 45.4231
+        lon: -75.6831
+    hackathons:
+      - name: uOttaHack
+        url: https://2027.uottahack.ca/
+        usual_month: January
+        notes: "uOttaHack 9 announced for January 2027, in person at uOttawa (exact days not yet on site). uOttaHack 8 ran Jan 16-18, 2026. Main site https://www.uottahack.ca/."
+  - id: carleton
+    name: Carleton University
+    kind: university
+    website: https://carleton.ca
+    campuses:
+      - name: Main campus
+        city: Ottawa
+        region: CA-ON
+        lat: 45.3876
+        lon: -75.6960
+    hackathons:
+      - name: cuHacking
+        url: https://cuhacking.ca/
+        usual_month: March
+        notes: "Edition timing moves around: cuHacking 6 ran Mar 14-16, 2025 (Richcraft Hall); cuHacking 2026 ran Jul 10-12, 2026. No 2027 date on the official site yet. Contact info@cuhacking.ca. SCS also lists it at https://carleton.ca/scs/cu-events/cuhacking-6/."
+  - id: algonquin
+    name: Algonquin College
+    kind: college
+    website: https://www.algonquincollege.com
+    campuses:
+      - name: Ottawa (Woodroffe) campus
+        city: Ottawa
+        region: CA-ON
+        lat: 45.3496
+        lon: -75.7569
+      - name: Pembroke campus
+        city: Pembroke
+        region: CA-ON
+        lat: 45.8130
+        lon: -77.1170
+      - name: Perth campus
+        city: Perth
+        region: CA-ON
+        lat: 44.9002
+        lon: -76.2489
+    hackathons:
+      - name: School of Advanced Technology Technology Project Showcase
+        url: https://www.algonquincollege.com/news/2026/08/06/algonquin-college-technology-project-showcase-highlights-creative-solutions-and-technical-problem-solving/
+        usual_month: August
+        notes: "Not a hackathon: capstone showcase with 60+ projects and 40+ industry guest judges (judge-call opportunity). No current Algonquin hackathon found."
+  - id: laurentian
+    name: Laurentian University
+    kind: university
+    website: https://laurentian.ca
+    campuses:
+      - name: Main campus
+        city: Sudbury
+        region: CA-ON
+        lat: 46.4667
+        lon: -80.9737
+    hackathons: []
+  - id: lakehead
+    name: Lakehead University
+    kind: university
+    website: https://www.lakeheadu.ca
+    campuses:
+      - name: Thunder Bay campus
+        city: Thunder Bay
+        region: CA-ON
+        lat: 48.4206
+        lon: -89.2589
+      - name: Orillia campus
+        city: Orillia
+        region: CA-ON
+        lat: 44.5996
+        lon: -79.4180
+    hackathons: []
+  - id: nipissing
+    name: Nipissing University
+    kind: university
+    website: https://www.nipissingu.ca
+    campuses:
+      - name: Main campus
+        city: North Bay
+        region: CA-ON
+        lat: 46.3430
+        lon: -79.4937
+    hackathons: []
+  - id: algoma
+    name: Algoma University
+    kind: university
+    website: https://algomau.ca
+    campuses:
+      - name: Sault Ste. Marie campus
+        city: Sault Ste. Marie
+        region: CA-ON
+        lat: 46.5300
+        lon: -84.3112
+      - name: Brampton campus
+        city: Brampton
+        region: CA-ON
+        lat: 43.6853
+        lon: -79.7593
+    hackathons: []
+  - id: georgian
+    name: Georgian College
+    kind: college
+    website: https://www.georgiancollege.ca
+    campuses:
+      - name: Barrie campus
+        city: Barrie
+        region: CA-ON
+        lat: 44.4117
+        lon: -79.6683
+    hackathons: []
+  - id: loyalist
+    name: Loyalist College
+    kind: college
+    website: https://loyalistcollege.com
+    campuses:
+      - name: Belleville campus
+        city: Belleville
+        region: CA-ON
+        lat: 44.1951
+        lon: -77.3389
+    hackathons: []
+  - id: cambrian
+    name: Cambrian College
+    kind: college
+    website: https://cambriancollege.ca
+    campuses:
+      - name: Barrydowne campus
+        city: Sudbury
+        region: CA-ON
+        lat: 46.5231
+        lon: -80.9449
+    hackathons: []
+  - id: canadore
+    name: Canadore College
+    kind: college
+    website: https://www.canadorecollege.ca
+    campuses:
+      - name: College Drive campus
+        city: North Bay
+        region: CA-ON
+        lat: 46.3418
+        lon: -79.4975
+    hackathons: []
+  - id: confederation
+    name: Confederation College
+    kind: college
+    website: https://www.confederationcollege.ca
+    campuses:
+      - name: Thunder Bay campus
+        city: Thunder Bay
+        region: CA-ON
+        lat: 48.4013
+        lon: -89.2726
+    hackathons: []
+  - id: northern
+    name: Northern College
+    kind: college
+    website: https://www.northerncollege.ca
+    campuses:
+      - name: Porcupine campus
+        city: Timmins
+        region: CA-ON
+        lat: 48.531
+        lon: -81.2015
+    hackathons: []
+  - id: sault
+    name: Sault College
+    kind: college
+    website: https://www.saultcollege.ca
+    campuses:
+      - name: Sault Ste. Marie campus
+        city: Sault Ste. Marie
+        region: CA-ON
+        lat: 46.533
+        lon: -84.3127
+    hackathons: []
+sources:
+  # ---------------- Western ----------------
+  - id: western-events-json
+    name: Western University events calendar (JSON export)
+    owner: western
+    url: https://www.uwo.ca/events/_data/current-live.json
+    landing_url: https://www.uwo.ca/events/
+    platform: api
+    expected_types: [tech_talk, workshop, info_session, conference, networking, career_fair]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["What is Uncomputable?", "AI Fundamentals: Concepts and Guiding Principles", "Working in Canada – What You Need to Know"]
+    robots: allowed
+    terms_url: https://www.uwo.ca/terms-of-use.html
+    terms_notes: "No scraping clause. Says users may not 'copy or distribute by any means the Content or any portion of it' without Western's prior written consent; link back rather than republish descriptions."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Large JSON (~550 KB, ~515 events). Fields: id, title, url, startDate, endDate, description, additionDetails, filter1 (event type, e.g. 'Lecture / Seminar', 'Training / Workshop'), filter4 (audience), filter5 (organizing unit). Filter on filter5 for Computer Science / Engineering / Careers units. Same CMS also publishes _data/current.ics, _data/current.rss and _data/current.xml. events.westernu.ca (older calendar host) refused connections."
+  - id: western-events-ics
+    name: Western University events calendar (iCal)
+    owner: western
+    url: https://www.uwo.ca/events/_data/current.ics
+    landing_url: https://www.uwo.ca/events/
+    platform: ics
+    expected_types: [tech_talk, workshop, info_session, conference]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["Resumes & Cover Letters: Creating Compelling Correspondence", "Jira Helpdesk: Lifecycle of a Ticket", "Microsoft 365 Copilot In Action"]
+    robots: allowed
+    terms_url: https://www.uwo.ca/terms-of-use.html
+    terms_notes: "Same as western-events-json."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Alternative to the JSON feed; ~200 KB. JSON is preferable because it carries the unit/type filters."
+  - id: western-career-events
+    name: Western Career Education events & workshops
+    owner: western
+    url: https://career.uwo.ca/take_action/events_workshops/index.html
+    landing_url: https://career.uwo.ca/
+    platform: html
+    expected_types: [workshop, career_fair, info_session]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Career Summit", "I'm Graduating, What's Next?"]
+    robots: allowed
+    terms_url: https://www.uwo.ca/terms-of-use.html
+    terms_notes: "Same as western-events-json."
+    blocked_by: null
+    outreach_contact: careereducation@uwo.ca
+    notes: "Static HTML with a few dated events (no year in text). Registration and the full calendar (employer info sessions, hirewesternu Career Fair) live in Western Connect (connect.uwo.ca), which needs a Western login. Related static pages: take_action/hirewesternu_fairs.html, take_action/information_sessions.html."
+  - id: western-csd-news
+    name: Western Computer Science department news
+    owner: western
+    url: https://www.csd.uwo.ca/news/
+    landing_url: https://www.csd.uwo.ca/
+    platform: html
+    expected_types: [tech_talk, networking]
+    cs_relevance: high
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: allowed
+    terms_url: https://www.uwo.ca/terms-of-use.html
+    terms_notes: "Same as western-events-json."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Department homepage shows news (e.g. 2026 Computer Science Meet and Greet) but no events or seminar listing; /news-events/index.html is a 404. CS seminars appear on the main uwo.ca events JSON instead (filter5 = Computer Science). Low value as its own source."
+  # ---------------- Fanshawe ----------------
+  - id: fsu-events-ics
+    name: Fanshawe Student Union events calendar (iCal)
+    owner: fanshawe
+    url: https://www.fsu.ca/fsucalendar.ics
+    landing_url: https://www.fsu.ca/events
+    platform: ics
+    expected_types: [networking, workshop]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["The Ultimate Pool Tournament", "Coffee and Treats", "London Knights Hockey Game"]
+    robots: no_robots
+    terms_url: null
+    terms_notes: "No terms page found."
+    blocked_by: null
+    outreach_contact: fsuclubs@fanshawec.ca
+    notes: "Mostly social events. /events page also lists events in HTML. Clubs directory at https://www.fsu.ca/clubs lists Fanshawe AI Club (club-view?clubID=47) and Fanshawe Engineering Club (club-view?clubID=9); no programming/cyber club listed. robots.txt returned 404."
+  - id: fanshawe-career-services-events
+    name: Fanshawe Career Services events & workshops
+    owner: fanshawe
+    url: https://www.fanshawec.ca/students/support/employment/career-services/events-workshops
+    landing_url: https://www.fanshawec.ca/careerfair
+    platform: html
+    expected_types: [career_fair, info_session, workshop]
+    cs_relevance: low
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: allowed
+    terms_url: https://www.fanshawec.ca/site-policies
+    terms_notes: "Not reviewed in detail."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Page describes the Career Opportunities Fair (usually March, London campus) and employer online info sessions but carries no dates. The dated career events calendar is inside FanshaweOnline (login). Main fanshawec.ca/events page (Drupal) showed no event listings in the fetched HTML."
+  # ---------------- Windsor ----------------
+  - id: uwindsor-cs-event-calendar
+    name: UWindsor School of Computer Science event calendar
+    owner: uwindsor
+    url: https://www.uwindsor.ca/science/computerscience/event-calendar
+    landing_url: https://www.uwindsor.ca/science/computerscience/event-calendar
+    platform: html
+    expected_types: [tech_talk, workshop, conference]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["Sterling Cybersecurity Workshop Series", "MSc Thesis Proposal: A Multimodal Learner-State Recognition Module for Adaptive E-Tutoring"]
+    robots: allowed
+    terms_url: https://www.uwindsor.ca/394207/terms-and-conditions
+    terms_notes: "No clause on scraping, crawling or republishing found."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Drupal calendar, server-rendered; month/week/day views at /event-calendar/month/YYYY-MM, /week/YYYY-Www. The 'Add to My Calendar' webcal links (/science/computerscience/ical/2026-10/events.ics and /ical/%2A/events.ics) return a VCALENDAR header with NO VEVENTs, so they are not usable; scrape the HTML. robots.txt has Crawl-delay: 10. Many entries are thesis defences; also colloquia and workshops (some by the Computer Science Society and WiCyS Windsor)."
+  - id: uwindsor-event-calendar
+    name: University of Windsor main event calendar
+    owner: uwindsor
+    url: https://www.uwindsor.ca/event-calendar
+    landing_url: https://www.uwindsor.ca/event-calendar
+    platform: html
+    expected_types: [workshop, tech_talk, career_fair, info_session]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Fall 2026 convocation", "Reading week (except Law)"]
+    robots: allowed
+    terms_url: https://www.uwindsor.ca/394207/terms-and-conditions
+    terms_notes: "No clause on scraping, crawling or republishing found."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Drupal month view at /event-calendar/month/YYYY-MM with category filters (lectures, workshops...). Mostly academic dates; low CS value. Crawl-delay: 10."
+  - id: uwindsor-css-events
+    name: UWindsor Computer Science Society events
+    owner: uwindsor
+    url: https://css.uwindsor.ca/events
+    landing_url: https://css.uwindsor.ca/
+    platform: html
+    expected_types: [workshop, networking, hackathon]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["CSS Annual Fall Picnic", "CSS Welcome Party & Raffle Draw", "Craft Night"]
+    robots: unknown
+    terms_url: null
+    terms_notes: "No terms found."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Homepage 'Recent Events' block rendered event titles/dates (some 'Loading...' placeholders, so part of the page may be JS). CSS runs WinHacks. No ics feed seen. Contact via Discord/socials only."
+  # ---------------- St. Clair ----------------
+  - id: stclair-events-rss
+    name: St. Clair College events (RSS)
+    owner: stclair
+    url: https://www.stclaircollege.ca/events.xml
+    landing_url: https://www.stclaircollege.ca/events
+    platform: other
+    expected_types: [info_session, networking]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["St. Clair College Fall Open House 2026", "Movie Night", "Bowling"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "Footer has no terms-of-use page, only policies (privacy, social media)."
+    blocked_by: null
+    outreach_contact: careercentral@stclaircollege.ca
+    notes: "Drupal RSS 2.0 feed (pubDate is publish date, event date is in the description). /events also server-renders events as HTML. The page also embeds Google Calendar stclairmarketing@gmail.com (https://calendar.google.com/calendar/ical/stclairmarketing%40gmail.com/public/basic.ics); it returns VCALENDAR but the visible entries are from 2022, so it looks stale."
+  - id: stclair-career-fairs
+    name: St. Clair College career fairs & industry events
+    owner: stclair
+    url: https://stclaircollege.ca/career-fairs
+    landing_url: https://www.stclaircollege.ca/career-central
+    platform: html
+    expected_types: [career_fair]
+    cs_relevance: low
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: allowed
+    terms_url: null
+    terms_notes: "No terms page found."
+    blocked_by: null
+    outreach_contact: careercentral@stclaircollege.ca
+    notes: "Lists only past fairs (e.g. Business and Information Technology Career Fair, usually March/April). Student registration is in the CareerCentral portal (login)."
+  # ---------------- Queen's ----------------
+  - id: queens-computing-calendar-ics
+    name: Queen's School of Computing calendar (Google Calendar iCal)
+    owner: queens
+    url: https://calendar.google.com/calendar/ical/nssp17qbbcimvjluc71msmvimc%40group.calendar.google.com/public/basic.ics
+    landing_url: https://www.cs.queensu.ca/calendar
+    platform: ics
+    expected_types: [tech_talk, info_session, workshop, conference, hackathon, networking]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["Designathon 2026 (Queen's UX Club)", "QMIND Workshop: \"Getting Started with MCP, ADK and A2A\"", "Queen's Undergraduate Internship Program (QUIP) Information Session (Online)"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "No university-wide terms page found; unit pages (e.g. https://www.queensu.ca/artsci/terms-and-conditions) are generic, no scraping clause seen."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Large feed (~790 KB, history back to 2023+). Includes distinguished seminars, QCSP speaker series, club events (QMIND, UX Club), CUCAI, Can-CWiC, internship info sessions, plus academic dates to filter out. The HTML calendar at cs.queensu.ca/calendar is also server-rendered."
+  - id: queens-events-rss
+    name: Queen's University events calendar (RSS)
+    owner: queens
+    url: https://www.queensu.ca/eventscalendar/calendar/rss/monthly/all
+    landing_url: https://www.queensu.ca/eventscalendar/
+    platform: other
+    expected_types: [workshop, tech_talk, info_session, career_fair, networking]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["WEBINAR - AI Does (Not) Matter: What Leaders Do That Technology Can't", "Research Unlocked: Open Journal Systems 3.5 Workshop", "Islamic History Month Open House"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "No central terms found."
+    blocked_by: null
+    outreach_contact: null
+    notes: "RSS 2.0. Pattern /eventscalendar/calendar/rss/{daily|weekly|monthly}/{tag ids|all}; only future events returned. Tag IDs are documented at https://www.queensu.ca/eventscalendar/calendar/rss (page did not render via fetch). Monthly/all is ~220 KB. Queen's Career Services fairs have appeared here historically. robots.txt Crawl-delay: 10."
+  - id: queens-ams-events
+    name: Queen's Alma Mater Society events (Tribe)
+    owner: queens
+    url: https://www.myams.org/wp-json/tribe/events/v1/events
+    landing_url: https://www.myams.org/
+    platform: tribe
+    expected_types: [networking, hackathon]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Queen's EngSoc Terry Fox Run", "Consent Week 2025"]
+    robots: unknown
+    terms_url: null
+    terms_notes: "Not checked."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Endpoint works but has 0 upcoming events and only 11 since 2025-01-01 (verified with ?start_date=2025-01-01). Low volume. AMS also hosts club pages, e.g. https://www.myams.org/club/qmind/ and /event/qhacks-hackathon/."
+  - id: compsa-events
+    name: COMPSA (Queen's Computing Students' Association) events
+    owner: queens
+    url: https://compsa.ca/events
+    landing_url: https://compsa.ca/
+    platform: js_only
+    expected_types: [workshop, info_session, networking, hackathon]
+    cs_relevance: high
+    login_required: false
+    verified: false
+    sample_event_titles: ["Soccer Tournament"]
+    robots: unknown
+    terms_url: null
+    terms_notes: "Only a privacy policy linked."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Events calendar (filters for COMPSA, QBT, QDAA and other clubs) and the Computing Clubs Roundtable page https://compsa.ca/ccr (9 member clubs) load via JS; no feed found. Homepage server-renders one featured event. Worth asking COMPSA for a feed or API; generic contact is behind Cloudflare email obfuscation (not recorded). Many of these club events also flow into the School of Computing Google Calendar."
+  - id: queens-career-services
+    name: Queen's Career Services events
+    owner: queens
+    url: https://careers.queensu.ca/events-workshops/career/networking-events
+    landing_url: https://careers.queensu.ca/
+    platform: html
+    expected_types: [career_fair, info_session, networking, workshop]
+    cs_relevance: medium
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: unknown
+    terms_url: null
+    terms_notes: "Not checked."
+    blocked_by: bot_check
+    outreach_contact: mycareer@queensu.ca
+    notes: "Fetch returned HTTP 403. Search results show a Career & Further Education Fair (October), Engineering & Technology Fair (twice a year), Summer & Part-Time Opportunities Fair (January). Full schedule is in MyCareer (login)."
+  # ---------------- St. Lawrence ----------------
+  - id: stlawrence-eventscalendar
+    name: St. Lawrence College events calendar
+    owner: stlawrence
+    url: https://www.stlawrencecollege.ca/eventscalendar
+    landing_url: https://www.stlawrencecollege.ca/eventscalendar
+    platform: html
+    expected_types: [info_session, career_fair]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["CICE Virtual Information Session", "CICE Information Session"]
+    robots: allowed
+    terms_url: https://www.stlawrencecollege.ca/terms-of-service
+    terms_notes: "Not reviewed in detail."
+    blocked_by: null
+    outreach_contact: careerservices@sl.on.ca
+    notes: "Agility CMS, server-rendered list, no feed. Career Services runs a Winter Job Fair at Kingston/Brockville/Cornwall in early March. Sitemap at /sitemap.xml."
+  # ---------------- Trent ----------------
+  - id: trent-events
+    name: Trent University events
+    owner: trent
+    url: https://www.trentu.ca/events
+    landing_url: https://www.trentu.ca/events
+    platform: html
+    expected_types: [workshop, tech_talk, career_fair]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Grad Skills Retreat", "The 2026 Jack Matthews Fellowship featuring Edward Burtynsky"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "Footer has only Privacy Policy (/access-privacy/privacy); no terms page."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Drupal, server-rendered; no ics/rss seen."
+  - id: trent-careerspace-expo
+    name: Trent Careerspace expos
+    owner: trent
+    url: https://www.trentu.ca/careerspace/expo
+    landing_url: https://www.trentu.ca/careerspace/keywords/event
+    platform: html
+    expected_types: [career_fair, networking]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Volunteer Expo", "Graduate + Further Education Expo"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "No terms page."
+    blocked_by: null
+    outreach_contact: careerspace@trentu.ca
+    notes: "Static page with a few dated expos per year (Trent Employer Advantage Career Expo Series, Trent Durham Career Expo)."
+  # ---------------- Fleming ----------------
+  - id: fleming-career-job-fairs
+    name: Fleming College Career Services job fairs and events
+    owner: fleming
+    url: https://department.flemingcollege.ca/careers/career-job-fairs/
+    landing_url: https://department.flemingcollege.ca/careers/
+    platform: html
+    expected_types: [career_fair]
+    cs_relevance: low
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: unknown
+    terms_url: null
+    terms_notes: "Not checked."
+    blocked_by: null
+    outreach_contact: careerservices@flemingcollege.ca
+    notes: "WordPress; tribe endpoint returned 401. Winter job fairs by school (Jan-Mar) at Sutherland and Frost campuses; announced in news posts. Main flemingcollege.ca/events is 404; no central events calendar found. On-campus job board is behind MyCampus SSO."
+  # ---------------- uOttawa ----------------
+  - id: uottawa-events-all
+    name: University of Ottawa events (all)
+    owner: uottawa
+    url: https://www.uottawa.ca/about-us/events-all
+    landing_url: https://www.uottawa.ca/about-us/events-all
+    platform: html
+    expected_types: [career_fair, info_session, workshop, tech_talk, hackathon]
+    cs_relevance: medium
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: allowed
+    terms_url: null
+    terms_notes: "Could not load site pages to check."
+    blocked_by: bot_check
+    outreach_contact: null
+    notes: "Every www.uottawa.ca page fetched (events-all, /en/events, /faculty-engineering/events) returned HTTP 402 Payment Required, which looks like a pay-per-crawl / bot gate, so treat as blocked; robots.txt itself loaded and does not disallow events paths. Per search results the Drupal calendar has faculty filters and per-faculty paths (/faculty-engineering/events-all/..., /campus-life/events-all/...), and Career Corner fairs (uOttawa Career Fair fall/winter editions, Employer and Industry Fair Oct 1, Employer Connect Series) and Entrepreneurship Hub events (/study/career-experiential-learning/entrepreneurship-hub/workshops-events, Entrepreneurship Month in November) live there. Worth asking uOttawa web team for access or a feed."
+  - id: uottawa-cssa
+    name: uOttawa Computer Science Student Association (CSSA/AEI)
+    owner: uottawa
+    url: https://cssa-aei.ca/
+    landing_url: https://cssa-aei.ca/
+    platform: js_only
+    expected_types: [networking, workshop, info_session]
+    cs_relevance: high
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: unknown
+    terms_url: null
+    terms_notes: "None found."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Site raw HTML contains only 'CSSA' (JS app). Runs 101 Week (Sept); kit sales via a Jotform (not opened). Instagram @cssa.aei."
+  # ---------------- Carleton ----------------
+  - id: carleton-events-api
+    name: Carleton University central events (WordPress REST cu_event)
+    owner: carleton
+    url: https://events.carleton.ca/wp-json/wp/v2/cu_event?per_page=100
+    landing_url: https://events.carleton.ca/
+    platform: api
+    expected_types: [workshop, tech_talk, info_session, networking, conference]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["Using Generative AI in Your Work: From Guidelines to Practice", "Science Café – Artificial Intelligence in the Physical World", "Enhancing the Employability of Carleton Students: We All Play a Role"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "No site-wide terms page found (carleton.ca/terms-of-use/ is 404). Web & Digital Content Policy says Carleton owns copyright in its site content: https://carleton.ca/secretariat/wp-content/uploads/sites/158/Web-Digital-Content-Policy.pdf"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Custom post type cu_event. Event dates are in acf.cu_event_start_date / acf.cu_event_end_date ('YYYY-MM-DD HH:MM:SS'); location in acf.cu_building, acf.cu_event_meeting_room, acf.cu_event_location_type. cu_event_type/cu_event_audience taxonomies were empty. Order is by publish date, not event date, so page through and filter. The /feed/ RSS has no items and the tribe endpoint is 404. The same cu_event endpoint exists on every carleton.ca WordPress sub-site (pattern https://carleton.ca/<site>/wp-json/wp/v2/cu_event)."
+  - id: carleton-scs-events-api
+    name: Carleton School of Computer Science events (cu_event)
+    owner: carleton
+    url: https://carleton.ca/scs/wp-json/wp/v2/cu_event?per_page=100
+    landing_url: https://carleton.ca/scs/
+    platform: api
+    expected_types: [tech_talk, networking, workshop, hackathon]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["CUIDS Distinguished Speaker Series: AI Needs a Trust Layer: Is Blockchain the Answer?", "CCSS Event: Video Game Night", "CUIDS Distinguished Speaker Series: Context-Aware and Dynamic XR through Generative AI"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "See carleton-events-api."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Carries SCS seminars, CUIDS speaker series and Carleton Computer Science Society (CCSS) club events, plus cuHacking pages (/scs/cu-events/...)."
+  - id: carleton-career-events-api
+    name: Carleton Career Services events (cu_event)
+    owner: carleton
+    url: https://carleton.ca/career/wp-json/wp/v2/cu_event?per_page=100
+    landing_url: https://carleton.ca/career/
+    platform: api
+    expected_types: [info_session, career_fair, networking, early_career_program]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["Pepsi Information Session", "GeoVerra Recruitment & Networking Event", "CEOx1Day Applications Open (Deadline to apply Oct. 28)"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "See carleton-events-api."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Employer info sessions, recruitment events, site tours, and early-career program deadlines. Registration itself may go through the Carleton career portal (login)."
+  # ---------------- Algonquin ----------------
+  - id: algonquin-sa-events
+    name: Algonquin Students' Association events (Tribe)
+    owner: algonquin
+    url: https://www.algonquinsa.com/wp-json/tribe/events/v1/events
+    landing_url: https://www.algonquinsa.com/
+    platform: tribe
+    expected_types: [networking, workshop]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Fresh for $5: Fruit & Veggie Bag Sale", "Wolves Varsity Basketball vs. George Brown Huskies"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "Not checked."
+    blocked_by: null
+    outreach_contact: null
+    notes: "89 upcoming events over 9 pages. Mostly social/athletics; tech clubs (Tech Forge, Code Frontier Club, Game Core Club) have pages on algonquinsa.com and may post events here. Clubs Portal linked from Clubs and Communities page."
+  - id: algonquin-student-support-events
+    name: Algonquin Student Support Services / AC Hub events
+    owner: algonquin
+    url: https://www.algonquincollege.com/studentsupportservices/events/
+    landing_url: https://www.algonquincollege.com/studentsupportservices/career-employment/
+    platform: html
+    expected_types: [career_fair, workshop, info_session]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["The Organized Student Workshop", "Speed Friending"]
+    robots: allowed
+    terms_url: https://www.algonquincollege.com/policies/privacy/
+    terms_notes: "Footer has only a Privacy Statement; no terms of use found."
+    blocked_by: null
+    outreach_contact: hubmail@algonquincollege.com
+    notes: "Server-rendered list linking to /studentsupportservices/event/<slug>/ (career fairs like Ottawa Grad Career Fair and Career Fair Prep Workshop appear here). Site uses All-in-One Event Calendar in places, but robots.txt disallows its exporter (*controller=ai1ec_exporter_controller*) and /events/action~* paths, so do not use the ai1ec iCal export. Tribe endpoint 404."
+  - id: algonquin-coop-career-fairs
+    name: Algonquin Co-op & Career Centre career fairs
+    owner: algonquin
+    url: https://www.algonquincollege.com/coop-career-centre/career-fairs/
+    landing_url: https://www.algonquincollege.com/coop-career-centre/
+    platform: html
+    expected_types: [career_fair, networking]
+    cs_relevance: medium
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: allowed
+    terms_url: null
+    terms_notes: "No terms page."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Career Networking Fair runs each February (2026: Feb 10, DARE District, 70+ employers; page /coop-career-centre/career-networking-fair-2026/). Job postings in HireAC (login, out of scope)."
+  - id: algonquin-events
+    name: Algonquin College main events page
+    owner: algonquin
+    url: https://www.algonquincollege.com/events/
+    landing_url: https://www.algonquincollege.com/events/
+    platform: html
+    expected_types: [info_session]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["AC Open House", "Degree Discovery Night", "Pembroke Campus Open House"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "No terms page."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Mostly recruitment/open-house events; low value."
+  # ---------------- Laurentian ----------------
+  - id: laurentian-events
+    name: Laurentian University events
+    owner: laurentian
+    url: https://laurentian.ca/events
+    landing_url: https://laurentian.ca/events
+    platform: html
+    expected_types: [career_fair, info_session, workshop]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Graduate Studies Fair", "Fall Open House 2026", "Student Access Collective - Drop-In Coffee Chats"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "Footer has only Privacy and Accessibility policies."
+    blocked_by: null
+    outreach_contact: careerhub@laurentian.ca
+    notes: "Drupal, server-rendered; event pages under /about/news/events/<slug>. Career Hub events (Career Week late Sept/early Oct, winter career fair) post here, e.g. /about/news/events/career-week-2025. Career Hub landing: https://laurentian.ca/services/student-success-centre/career-hub. robots Crawl-delay: 10."
+  # ---------------- Lakehead ----------------
+  - id: lakehead-events
+    name: Lakehead University events
+    owner: lakehead
+    url: https://www.lakeheadu.ca/about/news-and-events/events
+    landing_url: https://www.lakeheadu.ca/about/news-and-events/events
+    platform: html
+    expected_types: [workshop, career_fair, info_session]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Visa: Preparing the best Letter of Intent", "Research in Archives", "(OR) Naloxone Training"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "Footer has only Privacy (/digital-privacy-statement) and Accessibility."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Drupal 7, server-rendered. robots Crawl-delay: 10. Career fairs (e.g. Careers in Health, Science and the Environment, Oct 29, 2026) are promoted on https://ec.lakeheadu.ca/career-services/ (WordPress, no tribe endpoint)."
+  # ---------------- Nipissing ----------------
+  - id: nipissing-events
+    name: Nipissing University events
+    owner: nipissing
+    url: https://www.nipissingu.ca/events
+    landing_url: https://www.nipissingu.ca/events
+    platform: html
+    expected_types: [career_fair, workshop, info_session]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Graduate Studies Fair", "Mental Health First Aid Certification", "Fall Open House"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "No terms link found."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Drupal, server-rendered, page includes a JSON-LD block (type not confirmed). Joint Nipissing-Canadore career fair usually in March (e.g. /events/career-fair-2023)."
+  # ---------------- Algoma ----------------
+  - id: algoma-events
+    name: Algoma University events
+    owner: algoma
+    url: https://algomau.ca/events/
+    landing_url: https://algomau.ca/events/
+    platform: html
+    expected_types: [career_fair]
+    cs_relevance: low
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: unknown
+    terms_url: https://algomau.ca/privacy/notice-of-website-privacy/
+    terms_notes: "Combined 'Notice of Website Privacy, Terms and Conditions'; not reviewed."
+    blocked_by: null
+    outreach_contact: null
+    notes: "WordPress month grid showed 'No Events' for every day of Oct 2026; tribe endpoint 404. Community Career Fair (early March, George Leach Centre) has had pages like /events/community-career-fair. Low value."
+  # ---------------- Georgian ----------------
+  - id: georgian-events
+    name: Georgian College events
+    owner: georgian
+    url: https://www.georgiancollege.ca/events/
+    landing_url: https://www.georgiancollege.ca/events/
+    platform: js_only
+    expected_types: [career_fair, info_session]
+    cs_relevance: low
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: unknown
+    terms_url: https://www.georgiancollege.ca/privacy-policy/
+    terms_notes: "Footer has only 'Privacy and access information'."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Raw HTML shows category filters and an Oct 2026 grid but no events (JS-rendered). Headless WordPress at content.georgiancollege.ca but tribe endpoint 404. Event detail pages exist under /news-events/events/<slug> (e.g. barrie-career-fair, Jan 29, 2026; Connect 2 Careers job fair, Jan/Feb)."
+  # ---------------- Loyalist ----------------
+  - id: loyalist-events-tribe
+    name: Loyalist College events (Tribe)
+    owner: loyalist
+    url: https://loyalistcollege.com/wp-json/tribe/events/v1/events
+    landing_url: https://www.loyalistcollege.com/events/
+    platform: tribe
+    expected_types: [career_fair, info_session, networking]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Basketball Home Opener and Gym Grand Opening", "Off-campus adventure to Fort Fright", "Ghouls night out"]
+    robots: allowed
+    terms_url: https://loyalistcollege.com/about/privacy-legal-and-edi-data/
+    terms_notes: "Combined privacy/legal page; not reviewed in detail."
+    blocked_by: null
+    outreach_contact: null
+    notes: "61 upcoming events. iCal also offered: https://loyalistcollege.com/events/list/?ical=1. Mostly student life/athletics."
+  # ---------------- Cambrian ----------------
+  - id: cambrian-events
+    name: Cambrian College events
+    owner: cambrian
+    url: https://cambriancollege.ca/events/
+    landing_url: https://cambriancollege.ca/events/
+    platform: html
+    expected_types: [career_fair, info_session]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Cambrian Career Fair Conference (Powered by Palladino Auto Group)", "Fall Open House", "New Student Orientation"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "No terms link in footer."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Server-rendered list; tribe endpoint 404. Career Fair Conference early February (2027: Feb 2); Laurentian students also attend."
+  # ---------------- Canadore ----------------
+  - id: canadore-events
+    name: Canadore College events
+    owner: canadore
+    url: https://www.canadorecollege.ca/events
+    landing_url: https://www.canadorecollege.ca/events
+    platform: other
+    expected_types: [career_fair]
+    cs_relevance: low
+    login_required: true
+    verified: false
+    sample_event_titles: []
+    robots: unknown
+    terms_url: https://www.canadorecollege.ca/about/privacy-and-conditions-of-use
+    terms_notes: "Not reviewed."
+    blocked_by: login
+    outreach_contact: null
+    notes: "Agility CMS page with no listings; events and registration are in iSucceed (https://isucceed.canadorecollege.ca/students), a student portal. Co-hosts the Nipissing-Canadore career fair (March) listed on nipissingu.ca/events."
+  # ---------------- Confederation ----------------
+  - id: confederation-events
+    name: Confederation College events
+    owner: confederation
+    url: https://www.confederationcollege.ca/events
+    landing_url: https://www.confederationcollege.ca/news-events
+    platform: html
+    expected_types: [career_fair]
+    cs_relevance: low
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: unknown
+    terms_url: null
+    terms_notes: "Could not load."
+    blocked_by: bot_check
+    outreach_contact: null
+    notes: "Fetch returned HTTP 403. Search shows event pages like /events/career-and-job-fair-2026/ (Career & Job Fair, early February, Shuniah Building, 70+ employers)."
+  # ---------------- Northern ----------------
+  - id: northern-events
+    name: Northern College events & activities
+    owner: northern
+    url: https://www.northerncollege.ca/events/
+    landing_url: https://www.northerncollege.ca/events/
+    platform: html
+    expected_types: [workshop]
+    cs_relevance: low
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: unknown
+    terms_url: https://www.northerncollege.ca/terms/
+    terms_notes: "Not reviewed."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Descriptive page only (mentions a Computer Bootcamp, no dates); says event announcements for current students are on Blackboard (login). Not useful for scraping."
+  # ---------------- Sault ----------------
+  - id: sault-career-fair
+    name: Sault College Annual Career Fair
+    owner: sault
+    url: https://www.saultcollege.ca/careerfair
+    landing_url: https://www.saultcollege.ca/careerfair
+    platform: html
+    expected_types: [career_fair]
+    cs_relevance: low
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: unknown
+    terms_url: null
+    terms_notes: "Not checked."
+    blocked_by: null
+    outreach_contact: studentjobcentre@saultcollege.ca
+    notes: "No central events calendar found (/events is 404). Annual Career Fair each early February (2026: Feb 4, F-Wing gym), run by the Student Job Centre and Employment Solutions. Single static page; low value."
+  # ---------------- Regional ecosystem ----------------
+  - id: invest-ottawa-events
+    name: Invest Ottawa event calendar
+    owner: invest-ottawa
+    url: https://www.investottawa.ca/events/
+    landing_url: https://www.investottawa.ca/events/
+    platform: html
+    expected_types: [workshop, networking, conference, tech_talk]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["E-Commerce Holiday Series: Organic Customer Acquisition", "Validating Your Business Concept: Cash Flow Meets Startup Canvas (In Person)", "Cover Your Assets: The Unfiltered Guide to Negotiating Killer Deals"]
+    robots: allowed
+    terms_url: https://www.investottawa.ca/terms-and-conditions/
+    terms_notes: "No scraping clause. Section 1: 'Material on this website may not be copied, reproduced, republished, uploaded, posted' except with written permission of Invest Ottawa. Link out rather than copy descriptions."
+    blocked_by: null
+    outreach_contact: null
+    notes: "WordPress + EventON. REST endpoint https://www.investottawa.ca/wp-json/wp/v2/ajde_events returns event titles but no event dates (only publish dates), so scrape the HTML list or ask for a feed. Also has 'event' and 'eventbrite_events' post types (Eventbrite-sourced, do not follow those links). robots Crawl-delay: 10. Mostly founder/SME programming; some student-relevant tech talks."
+  - id: techalliance-events
+    name: TechAlliance of Southwestern Ontario events
+    owner: techalliance-london
+    url: https://www.techalliance.ca/news/event-type/techalliance-events/
+    landing_url: https://www.techalliance.ca/
+    platform: html
+    expected_types: [networking, workshop, conference, case_competition]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["Tech Meetup in St. Thomas", "Thrive + Prosper: Driving Business Value with AI", "Thrive + Prosper: Innovation North Executive Course"]
+    robots: allowed
+    terms_url: https://www.techalliance.ca/terms-conditions/
+    terms_notes: "Terms page is JS-rendered; text could not be read."
+    blocked_by: null
+    outreach_contact: null
+    notes: "WordPress + EventON (post type ajde_events at /wp-json/wp/v2/ajde_events, likely without dates like Invest Ottawa). Event pages under /news/events/<slug>. Runs monthly Networking Tech Meetups (London, St. Thomas, Woodstock), Polaris Pitch Competition (Feb 9, 2027), Techstars Startup Weekend London, TechConnect for Newcomers. Tribe endpoint 404. Related London source not checked in depth: LEDC events at https://ledc.com/event/ (lists Fanshawe career fairs)."
+  - id: wetech-alliance-events
+    name: WEtech Alliance events (Windsor-Essex)
+    owner: wetech-alliance
+    url: https://www.wetech-alliance.com/wp-json/tribe/events/v1/events
+    landing_url: https://www.wetech-alliance.com/events/
+    platform: tribe
+    expected_types: [workshop, networking, hackathon, tech_talk]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["AquaHacking Binational Challenge Grand Finale", "Generative AI for Small Business (virtual)", "BDC | Using Acquisitions to Accelerate Growth (virtual)"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "Footer has only an Accessibility Statement; no terms page found."
+    blocked_by: null
+    outreach_contact: null
+    notes: "41 upcoming events. iCal alternative: https://www.wetech-alliance.com/events/list/?ical=1. robots.txt disallows tribe view params (eventDisplay=, eventDate=, post_type=tribe_events) and /events/*/page/, but /wp-json and /events/ are allowed, so use the REST API, not the webcal URL (which carries post_type=tribe_events)."
+  - id: launch-lab-events
+    name: Launch Lab (Kingston) events
+    owner: launch-lab-kingston
+    url: https://www.launchlab.ca/events?format=json
+    landing_url: https://www.launchlab.ca/events
+    platform: api
+    expected_types: [workshop, networking, conference]
+    cs_relevance: low
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: unknown
+    terms_url: null
+    terms_notes: "Footer not visible in fetch."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Squarespace site; the events collection JSON works but reports itemCount 0 ('There are no upcoming events at this time'). Announcement bar mentions RISE 2026 (Apr 16). Old WordPress past-event pages (e.g. /venue/fractal-workspace-2/) are stale. Re-check later; low volume."
+not_usable:
+  - name: Western Connect (career events calendar, Own Your Future workshops)
+    url: https://connect.uwo.ca/home.htm
+    reason: login_required
+  - name: Western USC clubs directory (Rubric)
+    url: https://campus.hellorubric.com/search?type=societies&country=CA&state=Ontario&universityid=542
+    reason: js_only_no_feed
+  - name: Fanshawe career events calendar (FanshaweOnline)
+    url: https://www.fanshawec.ca/students/support/employment/career-services/events-workshops
+    reason: login_required
+  - name: UWindsor mySuccess career events calendar
+    url: https://www.uwindsor.ca/career-development-experiential/313/events
+    reason: login_required
+  - name: UWindsor CS webcal export (empty)
+    url: https://www.uwindsor.ca/science/computerscience/ical/%2A/events.ics
+    reason: dead
+  - name: Queen's MyCareer (career events calendar)
+    url: https://careers.queensu.ca/
+    reason: login_required
+  - name: Fleming Career Services tribe API
+    url: https://department.flemingcollege.ca/careers/wp-json/tribe/events/v1/events
+    reason: login_required
+  - name: uOttawa main site (all www.uottawa.ca pages return HTTP 402, apparent bot/pay-per-crawl gate)
+    url: https://www.uottawa.ca/about-us/events-all
+    reason: blocked_domain
+  - name: Algonquin ai1ec iCal exporter (robots-disallowed)
+    url: https://www.algonquincollege.com/events/
+    reason: terms_forbid
+  - name: Algonquin HireAC
+    url: https://www.algonquincollege.com/coop-career-centre/
+    reason: login_required
+  - name: Canadore iSucceed (events and registration)
+    url: https://isucceed.canadorecollege.ca/students
+    reason: login_required
+  - name: Northern College event announcements (Blackboard)
+    url: https://www.northerncollege.ca/events/
+    reason: login_required
+  - name: Confederation College events (HTTP 403)
+    url: https://www.confederationcollege.ca/events
+    reason: blocked_domain
+  - name: Queen's Career Services site (HTTP 403)
+    url: https://careers.queensu.ca/
+    reason: blocked_domain
+  - name: Invest Ottawa EventON REST (no event dates)
+    url: https://www.investottawa.ca/wp-json/wp/v2/ajde_events
+    reason: js_only_no_feed

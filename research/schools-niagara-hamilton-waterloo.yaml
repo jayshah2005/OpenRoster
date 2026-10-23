@@ -1,0 +1,811 @@
+generated: 2026-10-23
+agent: niagara-hamilton-waterloo
+schools:
+  - id: brock
+    name: Brock University
+    kind: university
+    website: https://brocku.ca
+    campuses:
+      - name: Main campus
+        city: St. Catharines
+        region: CA-ON
+        lat: 43.1176
+        lon: -79.2477
+      - name: Rankin Family Pavilion / Marilyn I. Walker School (downtown)
+        city: St. Catharines
+        region: CA-ON
+        lat: 43.1566
+        lon: -79.2439
+    hackathons:
+      - name: Spooky Game Jam (Centre for Digital Humanities)
+        url: https://brocku.ca/brock-news/in-focus/game-jam-a-spooktacular-success/
+        usual_month: October
+        notes: "12-hour Halloween-themed game jam open to all Brock students; ~40+ students per edition. Announced via Brock News and ExperienceBU."
+      - name: Computer Science Club Game Jam
+        url: https://brockcsc.ca/events
+        usual_month: unknown
+        notes: "CSC runs an annual Game Jam plus coding competitions (per dept page, 2023). CSC also ran MLH Local Hack Day in 2019; no current recurring hackathon named BrockHacks found."
+      - name: Mother of All Game Jams
+        url: https://brockpress.com/students-can-learn-to-create-video-and-board-games-at-the-mother-of-all-game-jams/
+        usual_month: unknown
+        notes: "Two-day beginner-friendly video/board game jam at the Rankin Family Pavilion; recurrence not confirmed."
+  - id: niagara-college
+    name: Niagara College
+    kind: college
+    website: https://www.niagaracollege.ca
+    campuses:
+      - name: Welland Campus
+        city: Welland
+        region: CA-ON
+        lat: 43.0077
+        lon: -79.2647
+      - name: Daniel J. Patterson Campus
+        city: Niagara-on-the-Lake
+        region: CA-ON
+        lat: 43.1330
+        lon: -79.1530
+    hackathons:
+      - name: Global Game Jam site (Game Development program)
+        url: https://educationnewscanada.com/article/education/region/ontario/27/745152/niagara-collegejanuary-28-2019-gamers-unite-at-niagara-college-for-fourth-annual-global-game-jam.html
+        usual_month: January
+        notes: "Welland Campus hosted a Global Game Jam site for several years (4th annual in 2019); current status unconfirmed."
+  - id: mcmaster
+    name: McMaster University
+    kind: university
+    website: https://www.mcmaster.ca
+    campuses:
+      - name: Main campus
+        city: Hamilton
+        region: CA-ON
+        lat: 43.2609
+        lon: -79.9192
+    hackathons:
+      - name: DeltaHacks
+        url: https://deltahacks.com/
+        usual_month: January
+        notes: "McMaster's annual hackathon for change, fully in person. DeltaHacks 13 is January 9-10, 2027. Applications via portal.deltahacks.com; contact hello@deltahacks.com. No public volunteer/mentor/judge call on the homepage yet."
+  - id: mohawk
+    name: Mohawk College
+    kind: college
+    website: https://www.mohawkcollege.ca
+    campuses:
+      - name: Fennell Campus
+        city: Hamilton
+        region: CA-ON
+        lat: 43.2386
+        lon: -79.8880
+      - name: Stoney Creek Campus
+        city: Hamilton
+        region: CA-ON
+        lat: 43.2140
+        lon: -79.7380
+      - name: Institute for Applied Health Sciences (at McMaster)
+        city: Hamilton
+        region: CA-ON
+        lat: 43.2560
+        lon: -79.9100
+    hackathons: []
+  - id: sheridan
+    name: Sheridan College
+    kind: college
+    website: https://www.sheridancollege.ca
+    campuses:
+      - name: Trafalgar Road Campus
+        city: Oakville
+        region: CA-ON
+        lat: 43.4695
+        lon: -79.6990
+      - name: Davis Campus
+        city: Brampton
+        region: CA-ON
+        lat: 43.6556
+        lon: -79.7393
+      - name: Hazel McCallion Campus
+        city: Mississauga
+        region: CA-ON
+        lat: 43.5911
+        lon: -79.6472
+    hackathons:
+      - name: Hackville
+        url: https://hackville.io/
+        usual_month: January
+        notes: "24-hour hackathon at Hazel McCallion Campus (Mississauga), 200+ students, run by Hackademics Club / GDG on Campus Sheridan since 2019. Applications at apply.hackville.io. 2026 edition Jan 17-18."
+      - name: BearHacks
+        url: https://bearhacks.com/
+        usual_month: April
+        notes: "36-hour hackathon at Hazel McCallion Campus; 2026 edition April 24-26 (GDG on Campus Sheridan)."
+      - name: Sheridan Datathon
+        url: https://gdg.community.dev/gdg-on-campus-sheridan-college-trafalgar-road-campus-oakville-canada/
+        usual_month: November
+        notes: "24-hour data hackathon (DevFest: Sheridan Datathon 2026, Nov 7-8) by GDG, TechBiz Society and Women in Business and Technology."
+      - name: Sheridan / Adobe Design Hackathon
+        url: https://www.sheridancollege.ca/events/2026/02/hackathon
+        usual_month: February
+        notes: "One-day design hackathon at Trafalgar campus (Faculty of Animation, Arts and Design with Adobe), Feb 26, 2026."
+  - id: uwaterloo
+    name: University of Waterloo
+    kind: university
+    website: https://uwaterloo.ca
+    campuses:
+      - name: Main campus
+        city: Waterloo
+        region: CA-ON
+        lat: 43.4723
+        lon: -80.5449
+    hackathons:
+      - name: Hack the North
+        url: https://hackthenorth.com/
+        usual_month: September
+        notes: "Canada's largest hackathon, 36 hours in person; 2026 edition Sept 18-20. Homepage is JS-rendered (no content in raw HTML)."
+      - name: Technovation Waterloo Mini-Hackathon (WiCS)
+        url: https://uwaterloo.ca/women-in-computer-science/events
+        usual_month: November
+        notes: "Women in Computer Science mini-hackathon, Nov 7, 2026 (from WiCS ICS)."
+  - id: laurier
+    name: Wilfrid Laurier University
+    kind: university
+    website: https://www.wlu.ca
+    campuses:
+      - name: Waterloo campus
+        city: Waterloo
+        region: CA-ON
+        lat: 43.4738
+        lon: -80.5275
+      - name: Brantford campus
+        city: Brantford
+        region: CA-ON
+        lat: 43.1394
+        lon: -80.2644
+    hackathons:
+      - name: HawkHacks
+        url: https://hawkhacks.ca/
+        usual_month: May
+        notes: "Student-run hackathon at Laurier (~1,000 attendees claimed). hawkhacks.ca failed TLS verification when fetched; 2026 edition not confirmed."
+      - name: HackCanada (GDG on Campus Laurier co-hosted)
+        url: https://gdg.community.dev/gdg-on-campus-wilfrid-laurier-university-waterloo-canada/
+        usual_month: March
+        notes: "Listed on the Laurier GDG chapter page as 'HackCanada - Build With AI Hackathon', 6 Mar 2026."
+  - id: uoguelph
+    name: University of Guelph
+    kind: university
+    website: https://www.uoguelph.ca
+    campuses:
+      - name: Main campus
+        city: Guelph
+        region: CA-ON
+        lat: 43.5323
+        lon: -80.2253
+    hackathons:
+      - name: GDG Hacks
+        url: https://gdghacks.com/
+        usual_month: May
+        notes: "24-hour hackathon run by GDG on Campus Guelph at Rozanski Hall; 2026 edition May 9-10 with ~130 students. GryphHacks (2022, virtual) appears dormant."
+  - id: conestoga
+    name: Conestoga College
+    kind: college
+    website: https://www.conestogac.on.ca
+    campuses:
+      - name: Doon Campus
+        city: Kitchener
+        region: CA-ON
+        lat: 43.3895
+        lon: -80.4040
+      - name: Waterloo Campus
+        city: Waterloo
+        region: CA-ON
+        lat: 43.4790
+        lon: -80.5180
+      - name: Cambridge Campus
+        city: Cambridge
+        region: CA-ON
+        lat: 43.3600
+        lon: -80.3140
+    hackathons:
+      - name: ConHacks
+        url: https://gdg.community.dev/events/details/google-gdg-on-campus-conestoga-college-waterloo-campus-waterloo-canada-presents-conhacks-2026-registrations-open/
+        usual_month: April
+        notes: "36-hour hackathon at Waterloo campus by School of Applied Computer Science & IT with GDG on Campus Conestoga. Editions: Oct 2023, Feb-Mar 2025, Apr 28-30 2026; month varies."
+sources:
+  - id: brock-experiencebu-rss
+    name: Brock University ExperienceBU (Anthology/CampusLabs Engage) public events RSS
+    owner: brock
+    url: https://experiencebu.brocku.ca/events.rss
+    landing_url: https://experiencebu.brocku.ca/events
+    platform: other
+    expected_types: [info_session, workshop, career_fair, networking, tech_talk, club_event]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["BMO: Kickstart Your Career", "2026 Paramedic Career Fair", "CYPRIOT ARCHAEOLOGY AT BROCK"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "No terms page found on brocku.ca footer (only Privacy / University policies); no scraping clause found."
+    blocked_by: null
+    outreach_contact: experiencebu@brocku.ca
+    notes: "Brock's main campus calendar: brocku.ca/calendar-events and brocku.ca/events redirect here. Engage RSS 2.0 with host org, start time, location per item; ~2.3 MB, covers all public events incl. Career Education, Brock LINC, clubs (CS Club, Math Club). Filter by host/keywords for CS relevance. The Engage JSON API (/api/discovery/event/search, returned 998 upcoming events) works without login but /api/ is Disallowed in robots.txt, so use the RSS. Event detail pages (/event/<id>) are JS-rendered. Per-org RSS (/organization/<slug>/events.rss) returned 404."
+  - id: brock-busu-events
+    name: Brock University Students' Union (BUSU) events
+    owner: brock
+    url: https://www.brockbusu.ca/whats-on/events/
+    landing_url: https://www.brockbusu.ca/events
+    platform: html
+    expected_types: [social, club_event, workshop]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Club Ratification", "Free Grab & Go Breakfast", "Free Hot Breakfast"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "No terms link in footer (Accessibility, Governance, Contact only)."
+    blocked_by: null
+    outreach_contact: null
+    notes: "MSL (ukmsl.net) student union platform, server-rendered list. Clubs directory at /organisation/<id> (e.g. Computer Science Club = /organisation/8492). Mostly social/union events; most club events are on ExperienceBU instead."
+  - id: brock-csc-site
+    name: Brock Computer Science Club website
+    owner: brock
+    url: https://brockcsc.ca/events
+    landing_url: https://brockcsc.ca/
+    platform: js_only
+    expected_types: [workshop, hackathon, tech_talk, social]
+    cs_relevance: high
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: unknown
+    terms_url: null
+    terms_notes: "no clause found"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Next.js site; events load client-side ('Loading events'), no feed or calendar embed visible. Club contact is via Discord. Club events also appear on ExperienceBU RSS, which is the better source."
+  - id: brock-linc-events
+    name: Brock LINC (Generator at One successor) entrepreneurship events
+    owner: brock-linc
+    url: https://brocku.ca/linc/entrepreneurship-events/
+    landing_url: https://brocku.ca/linc/entrepreneurship-events/
+    platform: html
+    expected_types: [networking, workshop, pitch_competition]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["Innovation Unlocked", "Brock LINC Holiday Market", "LINC Up! Networking Event"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "no clause found"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Static descriptions of recurring LINC events with no dates; page says all Brock LINC events are posted on ExperienceBU, so scrape the ExperienceBU RSS and filter host 'Brock LINC'. The original 'Generator at One' (nGen, 1 St. Paul St) incubator has no current web presence found (sources are 2012-2014)."
+  - id: niagara-college-events
+    name: Niagara College events calendar (The Events Calendar)
+    owner: niagara-college
+    url: https://www.niagaracollege.ca/events/list/
+    landing_url: https://www.niagaracollege.ca/events/
+    platform: tribe
+    expected_types: [info_session, workshop, social, career_fair]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Friday Night Pizza + Pints", "NC Cares Step Up Challenge", "Fall Mid-Term Break 2026"]
+    robots: disallowed
+    terms_url: https://www.niagaracollege.ca/disclaimer/
+    terms_notes: "Copyright notice: content 'is not to be copied, reproduced, or transmitted in any form, by any means, in whole or in part' without written consent. No explicit scraping clause."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Tribe REST API at /wp-json/tribe/events/v1/events works (33 upcoming; categories incl. student-events, staff-events) BUT robots.txt disallows /wp-json/ and /events/*?* (so ?ical=1 export too), /events/month/, /events/day/. /events/list/ (first page) is allowed and server-rendered; tribe list views normally also embed Event JSON-LD (not confirmed through fetch tool). robots marked disallowed because the API path is blocked; HTML list path is allowed. Very little CS content; mostly staff/student life."
+  - id: innovate-niagara-events
+    name: Innovate Niagara tech events
+    owner: innovate-niagara
+    url: https://www.innovateniagara.com/site/tech-events-niagara
+    landing_url: https://www.innovateniagara.com/site/tech-events-niagara
+    platform: html
+    expected_types: [networking, tech_talk, workshop, pitch_competition]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["Innovate Niagara Tech Tour Series: Intuitive Shipping", "Niagara AI Peer-to-Peer Group: AI for Lead Generation: Automate Your Sales Process", "Grimsby Start-Up Showcase"]
+    robots: allowed
+    terms_url: https://www.innovateniagara.com/site/privacy-policy
+    terms_notes: "Only a privacy policy in footer; no terms or scraping clause found."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Server-rendered Upcoming / Past lists with date+time text; each links to an internal blog page with details. Hosted site-builder (/site/ paths, CloudFront images). No feed."
+  - id: mcmaster-news-events-ics
+    name: McMaster University central events (news.mcmaster.ca, Events Manager)
+    owner: mcmaster
+    url: https://news.mcmaster.ca/events.ics
+    landing_url: https://news.mcmaster.ca/events/
+    platform: ics
+    expected_types: [tech_talk, conference, info_session, networking]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["2026 Carl Moore Lecture – A Primary Care Approach to Childhood Trauma", "Indigenous Research Day 2026", "Innovation Showcase 2026"]
+    robots: allowed
+    terms_url: https://www.mcmaster.ca/website-terms-of-use
+    terms_notes: "Sec. 5: content 'may not otherwise be used, reproduced, broadcast, published or re-disseminated' without prior written permission. Sec. 8: may not use any device/software 'to interfere' with the site. No explicit scraping clause."
+    blocked_by: null
+    outreach_contact: null
+    notes: "WordPress (MacSites) with Events Manager plugin (PRODID wp-events-plugin.com). Old dailynews.mcmaster.ca/events redirects here. Events Manager REST (/wp-json/events-manager/v1/events) returns 401; use the ICS. University-wide, mostly research/health; filter."
+  - id: mcmaster-engineering-events
+    name: McMaster Faculty of Engineering events (incl. Computing and Software)
+    owner: mcmaster
+    url: https://www.eng.mcmaster.ca/about-us/events/
+    landing_url: https://www.eng.mcmaster.ca/about-us/events/
+    platform: html
+    expected_types: [info_session, tech_talk, networking, workshop, career_fair]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["Maroon Friday x Mac Eng Coffeehouse", "Discover graduate studies at McMaster Engineering", "John Hodgins Memorial Lecture – Stephen Howe '90"]
+    robots: allowed
+    terms_url: https://www.mcmaster.ca/website-terms-of-use
+    terms_notes: "Same McMaster terms (republishing needs permission; no explicit scraping clause)."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Server-rendered WordPress (MacSites) list with monthly/weekly views; no ICS (/events.ics 404). cas.mcmaster.ca redirects to eng.mcmaster.ca/cas, which has no separate events page. Some registrations go through OSCARplus (login)."
+  - id: mcmaster-gdg-on-campus
+    name: GDG on Campus McMaster University (Bevy chapter page)
+    owner: mcmaster
+    url: https://gdg.community.dev/gdg-on-campus-mcmaster-university-hamilton-canada/
+    landing_url: https://gdg.community.dev/gdg-on-campus-mcmaster-university-hamilton-canada/
+    platform: html
+    expected_types: [workshop, tech_talk, hackathon, info_session]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["Recruiter Series #1: AMA w/ BobaTalks"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "Bevy/Google community platform terms not checked."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Bevy chapter page lists upcoming and past events in HTML (dates in mixed-locale abbreviations). /api/ is Disallowed in gdg.community.dev robots.txt. Same Bevy pattern applies to other GDG on Campus chapters (e.g. gdg-on-campus-wilfrid-laurier-university-waterloo-canada). ~1,800 members."
+  - id: msu-mcmaster-events
+    name: McMaster Students Union clubs events calendar
+    owner: mcmaster
+    url: https://msumcmaster.ca/clubs/events-calendar/
+    landing_url: https://msumcmaster.ca/clubs/events-calendar/
+    platform: js_only
+    expected_types: [club_event, social, workshop]
+    cs_relevance: low
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: unknown
+    terms_url: https://www.mcmaster.ca/website-terms-of-use
+    terms_notes: "MacSites; McMaster terms likely apply."
+    blocked_by: null
+    outreach_contact: clubs@msu.mcmaster.ca
+    notes: "Calendar page renders no events in raw HTML. msumcmaster.ca/events.ics exists (Events Manager) but returned an empty VCALENDAR. Clubs directory at https://msumcmaster.ca/clubs/clubs-directory/ (McMaster Cyber Society, Software Engineering Society ses.eng.mcmaster.ca, GDG). Campus events contact eventsprogramming@msu.mcmaster.ca."
+  - id: mohawk-events
+    name: Mohawk College events
+    owner: mohawk
+    url: https://www.mohawkcollege.ca/events
+    landing_url: https://www.mohawkcollege.ca/events
+    platform: html
+    expected_types: [info_session, workshop, career_fair, social]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Most scans wins! Friendlier Container Contest", "Immigration Questions Drop-in"]
+    robots: allowed
+    terms_url: https://www.mohawkcollege.ca/about-mohawk/leadership-and-administration/policies/privacy-and-legal-statements
+    terms_notes: "Copyright notice: 'All materials provided on the Mohawk College website are protected by copyright'; reuse needs written permission from the webmaster. No scraping clause."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Drupal, server-rendered list with title/date/summary; also /events/calendar view. No ICS/RSS found."
+  - id: mohawk-msa-events
+    name: Mohawk Students' Association events
+    owner: mohawk
+    url: https://mohawkstudents.ca/get-involved/events/
+    landing_url: https://mohawkstudents.ca/get-involved/events/
+    platform: html
+    expected_types: [social, club_event, workshop]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Wellness Fair (IAHS)", "Flu Shot Clinics (All Campuses)", "Carve & Paint Pumpkins"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "no terms link found"
+    blocked_by: null
+    outreach_contact: null
+    notes: "WordPress custom event posts (/events/<slug>/), no tribe API or wp/v2 events route. Clubs at https://mohawkstudents.ca/get-involved/clubs-and-communities/ (Mohawk Cyber Club does CTFs, Code Ready). CS/IT dept student page (mohawkcollege.ca/node/2043) lists a recurring LAN party."
+  - id: innovation-factory-events
+    name: Innovation Factory (Hamilton) events calendar
+    owner: innovation-factory
+    url: https://www.innovationfactory.ca/events/
+    landing_url: https://www.innovationfactory.ca/events/
+    platform: html
+    expected_types: [workshop, networking, pitch_competition, conference]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["Legal/IP Mentorship – Office Hours with Robinson Banwatt Law", "Introduction to Financial Forecasting", "Office Hours with RBCx"]
+    robots: allowed
+    terms_url: https://www.innovationfactory.ca/terms-and-conditions/
+    terms_notes: "no clause found"
+    blocked_by: null
+    outreach_contact: null
+    notes: "WordPress + Elementor month calendar, server-rendered. Tribe REST at /wp-json/tribe/events/v1/events returns 401 and /wp-json/ is Disallowed in robots; ?ical=1 returns HTML, not ICS. Big events: The Big DiF, HERhalton, Synapse competition."
+  - id: sheridan-ssu-engage-rss
+    name: Sheridan Student Union clubs (Campus Labs Engage) public events RSS
+    owner: sheridan
+    url: https://sheridancollege.campuslabs.ca/engage/events.rss
+    landing_url: https://sheridancollege.campuslabs.ca/engage/events
+    platform: other
+    expected_types: [hackathon, networking, workshop, case_competition, club_event]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["Social Battery 2: Tech Networking Party!", "Sheridan Datathon 2026", "Halloween Design Challenge"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "not checked (Anthology Engage hosted)"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Engage RSS 2.0 with host orgs per item. Active tech clubs: Google Developer Group, Sheridan Computer Science Club, Sheridan TechBiz Society, Information Security Sessions, Women in Business and Technology, PixelPerfect. robots.txt disallows the /engage API area only."
+  - id: sheridan-ssu-events
+    name: Sheridan Student Union events
+    owner: sheridan
+    url: https://www.thessu.ca/events
+    landing_url: https://www.thessu.ca/events
+    platform: html
+    expected_types: [social, workshop]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["SSU Presents: 5th Annual Family Halloween Party (HMC)", "SSU Presents: Services Fair (ALL CAMPUSES)", "SSU Presents: Farmers Market (ALL CAMPUSES)"]
+    robots: unknown
+    terms_url: null
+    terms_notes: "not checked"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Squarespace site, server-rendered list. Squarespace collections usually support ?format=rss / ?format=ical (not verified)."
+  - id: sheridan-gdg-on-campus
+    name: GDG on Campus Sheridan College (Bevy chapter page)
+    owner: sheridan
+    url: https://gdg.community.dev/gdg-on-campus-sheridan-college-trafalgar-road-campus-oakville-canada/
+    landing_url: https://gdg.community.dev/gdg-on-campus-sheridan-college-trafalgar-road-campus-oakville-canada/
+    platform: html
+    expected_types: [hackathon, workshop, case_competition, networking]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["Get into Gear - Social Battery 2", "DevFest: Sheridan Datathon 2026", "Get into Gear - Case Closed: Sheridan's Official Case Study Competition"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "not checked"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Very active chapter: runs Hackville, BearHacks, Datathon. Bevy /api/ is disallowed in robots."
+  - id: uwaterloo-central-events-ics
+    name: University of Waterloo central events calendar (WCMS iCal)
+    owner: uwaterloo
+    url: https://uwaterloo.ca/events/events/ical
+    landing_url: https://uwaterloo.ca/events
+    platform: ics
+    expected_types: [info_session, tech_talk, workshop, conference, networking]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["Fall 2026 Writing Retreat", "Queer Space and Trans Life", "Employer Information Sessions for October 23, 2026"]
+    robots: no_robots
+    terms_url: https://uwaterloo.ca/copyright
+    terms_notes: "Noncommercial URL references permitted ('permission to include URL references to this information for noncommercial purposes is granted'); other uses need permission. No scraping clause."
+    blocked_by: null
+    outreach_contact: null
+    notes: "uwaterloo.ca/robots.txt returns 404. Every WCMS site exposes <site>/events/ical (and events.xml RSS with a date filter). Central calendar includes daily Employer Information Sessions (registration via WaterlooWorks, login)."
+  - id: uwaterloo-cs-events-ics
+    name: Cheriton School of Computer Science events (iCal)
+    owner: uwaterloo
+    url: https://cs.uwaterloo.ca/events/ical
+    landing_url: https://cs.uwaterloo.ca/events
+    platform: ics
+    expected_types: [tech_talk, workshop, conference]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["ML Theory Workshop (SOLT 4th edition)", "Seminar • Algorithms and Complexity • Quality Control Algorithms for Pattern Counting", "PhD Seminar • Computer Graphics • A Generalizable Light Transport 3D Embedding for Global Illumination"]
+    robots: unknown
+    terms_url: https://uwaterloo.ca/copyright
+    terms_notes: "Same UW copyright terms."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Mostly research seminars and PhD defences; RSS also at /events/events.xml. robots.txt on cs.uwaterloo.ca not checked."
+  - id: uwaterloo-engineering-events-ics
+    name: Waterloo Engineering events (iCal)
+    owner: uwaterloo
+    url: https://uwaterloo.ca/engineering/events/ical
+    landing_url: https://uwaterloo.ca/engineering/events
+    platform: ics
+    expected_types: [conference, info_session, networking]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["Fusion Conference 2026", "Waterloo Engineering Alumni Ski Days 2027"]
+    robots: no_robots
+    terms_url: https://uwaterloo.ca/copyright
+    terms_notes: "Same UW copyright terms."
+    blocked_by: null
+    outreach_contact: null
+    notes: "WCMS iCal."
+  - id: uwaterloo-wics-events-ics
+    name: Waterloo Women in Computer Science events (iCal)
+    owner: uwaterloo
+    url: https://uwaterloo.ca/women-in-computer-science/events/ical
+    landing_url: https://uwaterloo.ca/women-in-computer-science/events
+    platform: ics
+    expected_types: [workshop, hackathon, tech_talk, social]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["Leveraging AI to Build Security Tooling —and Staying Employed in the Process", "Technovation Waterloo Mini-Hackathon 2026", "Study Together Cafe"]
+    robots: no_robots
+    terms_url: https://uwaterloo.ca/copyright
+    terms_notes: "Same UW copyright terms."
+    blocked_by: null
+    outreach_contact: null
+    notes: "WCMS iCal."
+  - id: uwaterloo-csclub-ics
+    name: UW Computer Science Club events (iCal)
+    owner: uwaterloo
+    url: https://csclub.uwaterloo.ca/events.ics
+    landing_url: https://csclub.uwaterloo.ca/events
+    platform: ics
+    expected_types: [workshop, tech_talk, social, networking]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["Trivia & Networking with Zip-hq", "Rust 101 Workshop", "Prof Talk: Gregor Richards"]
+    robots: unknown
+    terms_url: null
+    terms_notes: "no terms page found"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Full history ICS (~440 KB); filter by DTSTART. Latest events seen in the first 100 KB were from spring 2026; Fall 2026 events presumably later in file (not confirmed)."
+  - id: wusa-events-tribe
+    name: Waterloo Undergraduate Student Association (WUSA) events incl. clubs
+    owner: uwaterloo
+    url: https://wusa.ca/wp-json/tribe/events/v1/events
+    landing_url: https://wusa.ca/events
+    platform: tribe
+    expected_types: [club_event, workshop, social]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Thrift Sidewalk Sale", "Into the Open: A conversation about affordable education resources", "Picture Perfect: Makeup 101 Masterclass + LinkedIn Headshots"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "not checked"
+    blocked_by: null
+    outreach_contact: null
+    notes: "The Events Calendar; 38 upcoming. Also ICS: webcal://wusa.ca/?post_type=tribe_events&ical=1&eventDisplay=list. Includes some club events (Chess Club, Cooking Club). Clubs directory https://wusa.ca/clubs/."
+  - id: velocity-events
+    name: Velocity (UW) events
+    owner: velocity
+    url: https://www.velocityincubator.com/events
+    landing_url: https://www.velocityincubator.com/events
+    platform: html
+    expected_types: [workshop, pitch_competition, hackathon, networking, early_career_program]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["Startup 2 Scaleup: Recruitment Roadmap", "The Blockchain Innovation Challenge powered by Stellar", "The Co-op Workplace Simulation by Velocity"]
+    robots: allowed
+    terms_url: https://www.velocityincubator.com/code-of-conduct
+    terms_notes: "No terms of service link in footer; only Code of Conduct. no clause found"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Webflow CMS, server-rendered list linking to /programs-events/<slug>. robots.txt only lists the sitemap (https://www.velocityincubator.com/sitemap.xml), which can enumerate event pages."
+  - id: accelerator-centre-tribe
+    name: Accelerator Centre (Waterloo) events
+    owner: accelerator-centre
+    url: https://www.acceleratorcentre.com/wp-json/tribe/events/v1/events
+    landing_url: https://www.acceleratorcentre.com/events-listings/list/
+    platform: tribe
+    expected_types: [networking, workshop, pitch_competition]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["AC Open House: Meet the Mentors", "AC Innovation Showcase"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "not checked"
+    blocked_by: null
+    outreach_contact: null
+    notes: "The Events Calendar REST; low volume (2 upcoming)."
+  - id: communitech-events
+    name: Communitech events
+    owner: communitech
+    url: https://communitech.ca/events
+    landing_url: https://communitech.ca/events
+    platform: other
+    expected_types: [networking, tech_talk, workshop, conference]
+    cs_relevance: medium
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: unknown
+    terms_url: null
+    terms_notes: "could not fetch"
+    blocked_by: bot_check
+    outreach_contact: null
+    notes: "communitech.ca returns HTTP 403 for /events, /robots.txt and /wp-json/tribe/events/v1/events (likely a WAF/bot protection). Not bypassed."
+  - id: laurier-events-ics
+    name: Wilfrid Laurier University events calendar (iCal)
+    owner: laurier
+    url: https://events.wlu.ca/_data/current.ics
+    landing_url: https://events.wlu.ca/index.html
+    platform: ics
+    expected_types: [info_session, career_fair, workshop, networking, tech_talk]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["Hawk Talk and Trivia Night: How to Fix the Democratic Crisis", "Careers in Insurance Fair", "Lazaridis MSc in Management Analytics Information Session"]
+    robots: no_robots
+    terms_url: null
+    terms_notes: "No terms-of-use link in footer; no clause found."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Custom static calendar (Hannon Hill-style _data feeds). Also RSS _data/current.rss, XML _data/current.xml, JSON _data/current-live.json. Filters for campus (Waterloo, Brantford, Milton...), audience, category. Includes Career Centre fairs and employer recruiting events. events.wlu.ca/robots.txt returns 404; /api/2/events 404 (not Localist)."
+  - id: laurier-gdg-on-campus
+    name: GDG on Campus Wilfrid Laurier University (Bevy chapter page)
+    owner: laurier
+    url: https://gdg.community.dev/gdg-on-campus-wilfrid-laurier-university-waterloo-canada/
+    landing_url: https://gdg.community.dev/gdg-on-campus-wilfrid-laurier-university-waterloo-canada/
+    platform: html
+    expected_types: [workshop, hackathon, networking]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["From Prompt to Pipeline: Automating Workflows With AI", "HackCanada - Build With AI Hackathon", "Laurier Connect: Mixer & Info Session 2025"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "not checked"
+    blocked_by: null
+    outreach_contact: null
+    notes: "No upcoming events at time of check. Bevy /api/ disallowed in robots."
+  - id: uoguelph-news-events-tribe
+    name: University of Guelph central events (news.uoguelph.ca, The Events Calendar)
+    owner: uoguelph
+    url: https://news.uoguelph.ca/wp-json/tribe/events/v1/events
+    landing_url: https://news.uoguelph.ca/events/
+    platform: tribe
+    expected_types: [info_session, tech_talk, conference, social]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["U of G Campus Ghost Walk Tour", "Planets, Stars, Galaxies and the Universe Lecture Series", "Fall Open House"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "Terms page not found (uoguelph.ca/web/terms-of-use 404)."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Only /events/list/page/ disallowed in robots. Department sites on uoguelph.ca (Drupal) have their own /events pages."
+  - id: uoguelph-gryphlife-campusgroups-ics
+    name: University of Guelph GryphLife (CampusGroups) public iCal
+    owner: uoguelph
+    url: https://uoguelph.campusgroups.com/ical/uoguelph/ical_uoguelph.ics
+    landing_url: https://uoguelph.campusgroups.com/
+    platform: ics
+    expected_types: [club_event, workshop, info_session, career_fair, hackathon]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["Create a Web App with Google Antigravity - Google Developer Group Guelph", "Preparing to Graduate: Post Graduation Work Permit (PGWP) Info Session"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "not checked (CampusGroups hosted)"
+    blocked_by: null
+    outreach_contact: null
+    notes: "gryphlife.uoguelph.ca now 301-redirects to uoguelph.campusgroups.com. The .ics 302-redirects to https://static-prod-ca-central-1.campusgroups.com/ical/uoguelph/ical_uoguelph.ics (~2.7 MB, includes clubs like GDG Guelph and Student Experience/career sessions). Only the first 100 KB was inspected (events up to Sept 2026)."
+  - id: uoguelph-computing-events
+    name: Guelph School of Computer Science / CCMPS events
+    owner: uoguelph
+    url: https://www.uoguelph.ca/computing/events
+    landing_url: https://www.uoguelph.ca/computing/events
+    platform: html
+    expected_types: [tech_talk, social, hackathon]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["Jason Bere MSc Seminar", "Ahmed El-Gaaly MSc Seminar", "CCMPS Aurora Borealis Student Gala (Semi-formal)"]
+    robots: unknown
+    terms_url: null
+    terms_notes: "not found"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Drupal, server-rendered list; no feed link seen. College-level events also at https://www.uoguelph.ca/ccmps/events."
+  - id: conestoga-events
+    name: Conestoga College events
+    owner: conestoga
+    url: https://blogs1.conestogac.on.ca/events
+    landing_url: https://blogs1.conestogac.on.ca/events
+    platform: html
+    expected_types: [info_session, workshop, career_fair]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["School of Business information session", "School of Hospitality & Culinary Arts information session", "SheMeansBusiness: Career exploration"]
+    robots: allowed
+    terms_url: https://www.conestogac.on.ca/website-terms-of-use
+    terms_notes: "Use beyond private, not-for-profit purposes requires prior written approval; 'you may not frame the Site or any part thereof'. No scraping clause."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Monthly table pages at /events/YYYY/MM/. Mostly admissions info sessions. conestogac.on.ca/events is 404."
+  - id: conestoga-csi-events
+    name: Conestoga Students Inc. (CSI) events
+    owner: conestoga
+    url: https://www.conestogastudents.com/getinvolved/eventslist/
+    landing_url: https://www.conestogastudents.com/events
+    platform: html
+    expected_types: [social, club_event]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Graduation Pictures", "Annual General Meeting", "Coffee with the President - November"]
+    robots: unknown
+    terms_url: null
+    terms_notes: "not checked"
+    blocked_by: null
+    outreach_contact: null
+    notes: "MSL platform (same as Brock BUSU); event pages /ents/event/<id>/. Clubs at /getinvolved/csiclubs/."
+  - id: conestoga-gdg-on-campus
+    name: GDG on Campus Conestoga College (Bevy chapter page)
+    owner: conestoga
+    url: https://gdg.community.dev/gdg-on-campus-conestoga-college-waterloo-campus-waterloo-canada/
+    landing_url: https://gdg.community.dev/gdg-on-campus-conestoga-college-waterloo-campus-waterloo-canada/
+    platform: html
+    expected_types: [hackathon, workshop, tech_talk]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["DevFest Waterloo: Who Gets to Build, Own, and Define the Future?", "Demo Nights", "Understanding the Design of Everyday Things"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "not checked"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Active chapter (DevFest Waterloo Nov 7 2026, Demo Nights); co-runs ConHacks. Same Bevy HTML pattern as other chapters."
+  - id: uoguelph-gdg-on-campus
+    name: GDG on Campus University of Guelph (Bevy chapter page)
+    owner: uoguelph
+    url: https://gdg.community.dev/gdg-on-campus-university-of-guelph-guelph-canada/
+    landing_url: https://gdg.community.dev/gdg-on-campus-university-of-guelph-guelph-canada/
+    platform: html
+    expected_types: [hackathon, workshop]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["GDG Guelph Kick-Off", "GDG Hacks 3", "Google Gemini API workshop"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "not checked"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Runs GDG Hacks (May). No upcoming events at check time."
+not_usable:
+  - name: Niagara College Student Administrative Council (NCSAC) events
+    url: https://yourncsac.ca/yourevents
+    reason: login_required
+  - name: Generator at One (nGen) incubator
+    url: https://www.marsdd.com/news/approvedngen-an-innovation-generator-in-the-niagara-region
+    reason: dead
+  - name: McMaster OSCARplus (career/co-op portal)
+    url: https://oscarplusmcmaster.ca
+    reason: login_required
+  - name: Sheridan College main events page
+    url: https://www.sheridancollege.ca/events
+    reason: js_only_no_feed
+  - name: Waterloo co-op events iCal (stale, last event 2024)
+    url: https://uwaterloo.ca/co-operative-education/events/ical
+    reason: dead
+  - name: WaterlooWorks (co-op/career portal, info session registration)
+    url: https://waterlooworks.uwaterloo.ca
+    reason: login_required
+  - name: Laurier Students' Union clubs (Wix site, no event feed found)
+    url: https://yourstudentsunion.ca/clubs
+    reason: js_only_no_feed
+  - name: Brock ExperienceBU Engage JSON API (works, but /api/ disallowed in robots.txt; use events.rss)
+    url: https://experiencebu.brocku.ca/api/discovery/event/search
+    reason: terms_forbid

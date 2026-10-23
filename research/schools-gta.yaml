@@ -1,0 +1,754 @@
+generated: 2026-10-23
+agent: gta
+schools:
+  - id: uoft
+    name: University of Toronto
+    kind: university
+    website: https://www.utoronto.ca
+    campuses:
+      - name: St. George
+        city: Toronto
+        region: CA-ON
+        lat: 43.6629
+        lon: -79.3957
+      - name: Mississauga (UTM)
+        city: Mississauga
+        region: CA-ON
+        lat: 43.5483
+        lon: -79.6627
+      - name: Scarborough (UTSC)
+        city: Toronto
+        region: CA-ON
+        lat: 43.7845
+        lon: -79.1864
+    hackathons:
+      - name: UofTHacks
+        url: https://uofthacks.com/
+        usual_month: January
+        notes: "St. George; held at Myhal Centre. UofTHacks 14 announced as upcoming, no dates on site yet (checked 2026-10-23)."
+      - name: DeerHacks
+        url: https://deerhacks.ca/
+        usual_month: February
+        notes: "UTM's hackathon (MCSS-affiliated). DeerHacks 2027 announced, dates TBA."
+  - id: tmu
+    name: Toronto Metropolitan University
+    kind: university
+    website: https://www.torontomu.ca
+    campuses:
+      - name: Downtown campus
+        city: Toronto
+        region: CA-ON
+        lat: 43.6577
+        lon: -79.3788
+    hackathons:
+      - name: SolutionHacks (GDG on Campus TMU)
+        url: https://gdg.community.dev/gdg-on-campus-toronto-metropolitan-university-toronto-canada/
+        usual_month: July
+        notes: "Run by GDG on Campus TMU; 2025 edition late June, 2026 edition July 24-26 at Daphne Cockwell Complex."
+  - id: yorku
+    name: York University
+    kind: university
+    website: https://www.yorku.ca
+    campuses:
+      - name: Keele
+        city: Toronto
+        region: CA-ON
+        lat: 43.7735
+        lon: -79.5019
+      - name: Markham
+        city: Markham
+        region: CA-ON
+        lat: 43.8535
+        lon: -79.3125
+    hackathons:
+      - name: ElleHacks
+        url: https://ellehacks.com/
+        usual_month: February
+        notes: "Lassonde student club hackathon for women and gender-diverse students. Next edition dates not posted on site at check time."
+      - name: UNHACK (YSpace / Lassonde)
+        url: https://events.yorku.ca/
+        usual_month: November
+        notes: "SDG-themed undergrad hackathon at Bergeron Centre, Nov 7-8 2026 per events listing; registration via Eventbrite (not fetched)."
+  - id: ocadu
+    name: OCAD University
+    kind: university
+    website: https://www.ocadu.ca
+    campuses:
+      - name: Main campus (McCaul St)
+        city: Toronto
+        region: CA-ON
+        lat: 43.6532
+        lon: -79.3913
+    hackathons: []
+  - id: ontariotechu
+    name: Ontario Tech University
+    kind: university
+    website: https://ontariotechu.ca
+    campuses:
+      - name: North Oshawa
+        city: Oshawa
+        region: CA-ON
+        lat: 43.9455
+        lon: -78.8968
+      - name: Downtown Oshawa
+        city: Oshawa
+        region: CA-ON
+        lat: 43.8971
+        lon: -78.8658
+    hackathons:
+      - name: Hackhive
+        url: https://www.hackhive.ca/
+        usual_month: January
+        notes: "Ontario Tech's annual hackathon; 2026 edition Jan 23-25 in the Science Building."
+  - id: humber
+    name: Humber Polytechnic
+    kind: college
+    website: https://humber.ca
+    campuses:
+      - name: North campus
+        city: Toronto
+        region: CA-ON
+        lat: 43.7286
+        lon: -79.6074
+      - name: Lakeshore campus
+        city: Toronto
+        region: CA-ON
+        lat: 43.5970
+        lon: -79.5185
+    hackathons:
+      - name: Humber Student Hackathon (CICan Skills for Success)
+        url: https://humber.ca/staff/node/20354
+        usual_month: March
+        notes: "Ran March 22-23, 2025; recurrence not confirmed. humber.ca returns 403 to fetches, so not verified directly. Barrett Centre for Technology Innovation also runs 'TechBridge' networking evenings."
+  - id: seneca
+    name: Seneca Polytechnic
+    kind: college
+    website: https://www.senecapolytechnic.ca
+    campuses:
+      - name: Newnham
+        city: Toronto
+        region: CA-ON
+        lat: 43.7956
+        lon: -79.3496
+      - name: Seneca@York
+        city: Toronto
+        region: CA-ON
+        lat: 43.7710
+        lon: -79.4993
+      - name: Markham
+        city: Markham
+        region: CA-ON
+        lat: 43.8496
+        lon: -79.3693
+      - name: King
+        city: King City
+        region: CA-ON
+        lat: 43.9556
+        lon: -79.5181
+    hackathons:
+      - name: Seneca annual hackathons (School of IT Administration & Security)
+        url: https://students.senecapolytechnic.ca/spaces/14/school-of-information-technology-administration-security/wiki/view/7685/annual-hackathons
+        usual_month: unknown
+        notes: "Student-portal wiki mentions annual hackathons (e.g. 2022 Sustainability Hackathon); no current edition found."
+  - id: centennial
+    name: Centennial College
+    kind: college
+    website: https://www.centennialcollege.ca
+    campuses:
+      - name: Progress campus
+        city: Toronto
+        region: CA-ON
+        lat: 43.7848
+        lon: -79.2273
+      - name: Morningside campus
+        city: Toronto
+        region: CA-ON
+        lat: 43.7856
+        lon: -79.1904
+      - name: Story Arts Centre
+        city: Toronto
+        region: CA-ON
+        lat: 43.6905
+        lon: -79.3287
+    hackathons:
+      - name: CentennialHacks
+        url: https://edu.ieee.org/ca-centennial-college/
+        usual_month: August
+        notes: "12-hour hackathon run by the IEEE Centennial College Student Branch at Progress Campus (Aug 15 per organizer posts). No standalone official site found; the IEEE branch site mentions 'Centennial Hacks 2026'. An MLH listing exists but was not fetched."
+  - id: georgebrown
+    name: George Brown Polytechnic
+    kind: college
+    website: https://www.georgebrown.ca
+    campuses:
+      - name: Casa Loma
+        city: Toronto
+        region: CA-ON
+        lat: 43.6760
+        lon: -79.4106
+      - name: St. James
+        city: Toronto
+        region: CA-ON
+        lat: 43.6510
+        lon: -79.3700
+      - name: Waterfront
+        city: Toronto
+        region: CA-ON
+        lat: 43.6440
+        lon: -79.3654
+    hackathons: []
+  - id: durham
+    name: Durham College
+    kind: college
+    website: https://durhamcollege.ca
+    campuses:
+      - name: Oshawa campus
+        city: Oshawa
+        region: CA-ON
+        lat: 43.9446
+        lon: -78.8966
+      - name: Whitby campus
+        city: Whitby
+        region: CA-ON
+        lat: 43.8834
+        lon: -78.9426
+    hackathons: []
+sources:
+  - id: uoft-engineering-events
+    name: U of T Faculty of Applied Science & Engineering events
+    owner: uoft
+    url: https://www.engineering.utoronto.ca/wp-json/tribe/events/v1/events
+    landing_url: https://www.engineering.utoronto.ca/engineering-events/
+    platform: tribe
+    expected_types: [info_session, workshop, hackathon, tech_talk, networking]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["Online Info Session: MASc and PhD in CivMin", "Emerging Leaders Workshop – Leadership 101", "2026 Fall Study Break: No Classes"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "no terms page found in footer (privacy only)"
+    blocked_by: null
+    outreach_contact: null
+    notes: "St. George. robots.txt sets Crawl-delay: 60 for * and disallows ai1ec calendar action~ views, but not wp-json. 23 events across 3 pages at check time. Has hosted UofTHacks event page."
+  - id: uoft-engineering-undergrad-events
+    name: U of T Engineering undergraduate events (incl. PEY Co-op)
+    owner: uoft
+    url: https://undergrad.engineering.utoronto.ca/wp-json/tribe/events/v1/events
+    landing_url: https://undergrad.engineering.utoronto.ca/events/
+    platform: tribe
+    expected_types: [info_session, career_fair, workshop, early_career_program]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["PEY Co-op: Career Portal Opens for Summer Co-op Work Term", "Info Session: DAAD RISE Germany – Research Internships in Science & Engineering"]
+    robots: unknown
+    terms_url: null
+    terms_notes: "no terms page found"
+    blocked_by: null
+    outreach_contact: null
+    notes: "17 events at check time; overlaps with engineering.utoronto.ca feed. Includes ECE/EngSci (computer engineering) items."
+  - id: uoft-entrepreneurship-events
+    name: U of T Entrepreneurship (Banting/ICUBE/Hatchery/CDL network) events
+    owner: uoft
+    url: https://entrepreneurs.utoronto.ca/wp-json/wp/v2/event?per_page=50
+    landing_url: https://entrepreneurs.utoronto.ca/events/community-events/
+    platform: api
+    expected_types: [networking, tech_talk, workshop, case_competition, conference]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["The Hinton Lectures 2026", "ARIA", "The Art of \"Menteeship\": A Book Talk and Conversation with Dr. Maria LaMonaca Wisdom"]
+    robots: unknown
+    terms_url: null
+    terms_notes: "no terms link in footer (Privacy/Code of Conduct only)"
+    blocked_by: null
+    outreach_contact: null
+    notes: "WordPress REST custom post type 'event' (NOT tribe; /wp-json/tribe/... returns 404). Landing page renders list client-side. Event dates live in post meta/content; scraper should parse each item."
+  - id: uoft-sop-events
+    name: U of T Student Organization Portal (Resource Finder) events
+    owner: uoft
+    url: https://sop.utoronto.ca/wp-json/tribe/events/v1/events
+    landing_url: https://sop.utoronto.ca/
+    platform: tribe
+    expected_types: [workshop, hackathon, networking, tech_talk]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["AICIA Demo Day: Showcase Your AI Projects, Prototypes & Ideas!", "Khodemooni (St. George Campus)"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "no terms page checked/found"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Tri-campus clubs directory (groups at /group/<slug>/). Only 4 events in the feed at check time - clubs rarely post events here, but it's the canonical club list (CSSU, CSEC, MCSS, etc.)."
+  - id: uoft-utm-events
+    name: UTM events listing
+    owner: uoft
+    url: https://www.utm.utoronto.ca/events
+    platform: html
+    expected_types: [info_session, workshop, career_fair, tech_talk]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Careers in Biology: A Fireside Chat", "IMI Grad Open House", "Open House: Accessibility Services"]
+    robots: allowed
+    terms_url: https://www.utm.utoronto.ca/privacy-policy
+    terms_notes: "no terms of use page; privacy policy only"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Drupal, server-rendered. No feed found. Career Centre events are in CLNx (login)."
+  - id: uoft-utsc-cms-events
+    name: UTSC Computer & Mathematical Sciences department events
+    owner: uoft
+    url: https://utsc.utoronto.ca/cms/events
+    platform: html
+    expected_types: [tech_talk, conference, workshop]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["CMS Undergraduate Research Symposium F26", "Math in Motion... Girls in Gear!"]
+    robots: unknown
+    terms_url: null
+    terms_notes: "no terms page found"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Drupal, server-rendered, low volume. UTSC central 'top events' page (utsc.utoronto.ca/news-events/top-events) showed 'No Events Currently Available' at check time."
+  - id: uoft-central-events
+    name: U of T central events aggregator
+    owner: uoft
+    url: https://www.utoronto.ca/events
+    platform: html
+    expected_types: [tech_talk, info_session, conference, workshop]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["SRI Seminar Series: Lydia T. Liu, \"Expertise in age of human-AI collaboration\"", "CfE Connects Lunch & Launch: Spooky Startup Stories"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "footer has Privacy (privacy.utoronto.ca) but no terms of use"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Drupal aggregator showing ~5 items per unit; links out to unit calendars (engineering, entrepreneurs, UTM, UTSC, Schwartz Reisman, Fields). Better to scrape unit feeds directly."
+  - id: uoft-hart-house-events
+    name: Hart House events
+    owner: uoft
+    url: https://harthouse.ca/events
+    platform: other
+    expected_types: [workshop, networking, conference]
+    cs_relevance: low
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: unknown
+    terms_url: null
+    terms_notes: "not reachable"
+    blocked_by: bot_check
+    outreach_contact: null
+    notes: "HTTP 403 on both the events page and /wp-json/tribe/events/v1/events from WebFetch; looks like a WAF/bot filter. Not retried."
+  - id: tmu-cs-seminar-calendar
+    name: TMU Computer Science student seminar calendar (Google Calendar)
+    owner: tmu
+    url: https://calendar.google.com/calendar/ical/ryerson.ca_1889os4nvg1iujhlil4onene40e9k%40resource.calendar.google.com/public/basic.ics
+    landing_url: https://www.torontomu.ca/cs/
+    platform: ics
+    expected_types: [tech_talk]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["Master's seminar", "MSc thesis defence", "PhD dissertation defence"]
+    robots: allowed
+    terms_url: https://www.torontomu.ca/terms-conditions/
+    terms_notes: "\"No part of the Site may be reproduced, modified, distributed, sold, published, broadcast, or retransmitted in any form\" without prior written consent."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Room-resource calendar; mostly grad seminars/defences, ~800KB with full history - filter by date. Faculty seminar calendar is a Google Sheet (not used)."
+  - id: tmu-exploretmu
+    name: ExploreTMU (Campus Labs Engage) student life and club events
+    owner: tmu
+    url: https://exploretmu.torontomu.ca/events
+    landing_url: https://exploretmu.torontomu.ca/
+    platform: other
+    expected_types: [workshop, networking, hackathon, info_session, tech_talk]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["Passport Program Launch", "Blue and Gold Day: MBB/WBB vs. Lakehead"]
+    robots: disallowed
+    terms_url: https://www.torontomu.ca/terms-conditions/
+    terms_notes: "TMU site terms forbid reproduction/republishing without prior written consent (see tmu-cs-seminar-calendar)."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Campus Labs Engage; HTML is a JS SPA. The Engage JSON API (/api/discovery/event/search) returns data (13k+ events total incl. past) but robots.txt disallows /api/ for * - DO NOT use. Event detail pages (/event/<id>) and sitemap.xml are allowed; a sitemap-driven scraper could work. Org pages: /organization/tmustudentlife. CS course union (CSCU, tmucscu.com) and WiCS post here and on Instagram."
+  - id: dmz-flagship-events
+    name: DMZ (TMU) flagship events and programs
+    owner: dmz
+    url: https://dmz.torontomu.ca/
+    platform: html
+    expected_types: [conference, networking, early_career_program]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["Black Innovation Summit 2026", "Women Innovation Summit", "Incubator Spring 2027 Cohort"]
+    robots: unknown
+    terms_url: https://www.torontomu.ca/terms-conditions/
+    terms_notes: "uses TMU terms: reproduction/republishing requires prior written consent"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Webflow site; events live in the homepage #events section (no standalone events page, /events is 404). Low volume, mostly startup programs and summits. TMU Zone Learning news-events page renders events client-side (empty in HTML)."
+  - id: gdg-toronto
+    name: Google Developer Groups Toronto (GDG Toronto)
+    owner: gdg-toronto
+    url: https://gdg.community.dev/gdg-toronto/
+    platform: html
+    expected_types: [tech_talk, workshop, hackathon, conference, networking]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["DevFest Toronto: Build, Secure, Scale: Developers and Builders in the Agentic Era", "NASA Space Apps Challenge Toronto 2026", "Serving Open Models on Google Cloud Run and GKE"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "not checked (Bevy-hosted community platform)"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Bevy platform; chapter page server-renders upcoming and past events with detail links (/events/details/google-gdg-toronto-presents-<slug>/). robots.txt disallows /api/, /gql/, /accounts/, /u/ and asks Crawl-delay: 2 - use chapter HTML only, never the API. Same pattern works for GDG on Campus chapters (see gdg-on-campus-tmu; GDG on Campus York posts on YU Connect instead)."
+  - id: gdg-on-campus-tmu
+    name: GDG on Campus Toronto Metropolitan University
+    owner: tmu
+    url: https://gdg.community.dev/gdg-on-campus-toronto-metropolitan-university-toronto-canada/
+    platform: html
+    expected_types: [workshop, hackathon, tech_talk]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["GDG TMU x CSCU: Intro to Github", "Programming Essentials: CSCU x GDG x ECE STORMS", "SolutionHacks: Building AI Solutions for Real Problems"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "not checked (Bevy)"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Bevy chapter page, server-rendered. Do not use /api/ (robots-disallowed). Co-hosts with TMU CS Course Union."
+  - id: yorku-events-calendar
+    name: York University events calendar
+    owner: yorku
+    url: https://events.yorku.ca/wp-json/wp/v2/mec-events?per_page=100
+    landing_url: https://events.yorku.ca/
+    platform: api
+    expected_types: [info_session, workshop, hackathon, career_fair, tech_talk]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["Science Co-op Q&A Panel", "Explore York Science: Opportunities for Students from Iran", "AI and Education (Online – 21 Sept.-23 Oct., 2026)"]
+    robots: allowed
+    terms_url: https://www.yorku.ca/about/privacy-legal/
+    terms_notes: "\"You shall not, without our prior written permission, use the Site for purposes other than your own personal, non-commercial use.\""
+    blocked_by: null
+    outreach_contact: null
+    notes: "WordPress + Modern Events Calendar (MEC). /wp-json/wp/v2/mec-events returns JSON (dates may be in meta; check). MEC iCal feed /?mec-ical-feed=1 timed out (60s) - untested. HTML list at events.yorku.ca is server-rendered as fallback. York's www.yorku.ca/events redirects here."
+  - id: yorku-yuconnect-ical
+    name: YU Connect (CampusGroups) all public club events iCal
+    owner: yorku
+    url: https://yuconnect.yorku.ca/ical/yorku/ical_yorku.ics
+    landing_url: https://yuconnect.yorku.ca/events
+    platform: ics
+    expected_types: [workshop, hackathon, networking, tech_talk, info_session, case_competition]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["Spark Workshop 1 | AI Ignite at York", "GDG YorkU, Day One.", "CSHub Meet & Greet"]
+    robots: allowed
+    terms_url: https://www.yorku.ca/about/privacy-legal/
+    terms_notes: "York terms: personal, non-commercial use only without written permission."
+    blocked_by: null
+    outreach_contact: yuengage@yorku.ca
+    notes: "CampusGroups (Ready Education). Official subscribe link from /ics_helper; 302-redirects to static-prod-ca-central-1.campusgroups.com. Per-club feeds follow /ical/yorku/ical_club_<ID>.ics, e.g. Computing Students Hub (Lassonde) 35483, CSHub @ Markham 35991, GDG on Campus York 36114, IEEE York 35518, ElleHacks 35686, Data Science Club 35846, Cyber Security & Cloud Computing 35905, AWS Cloud Club 36096, AI Ignite 36128, Lassonde Engineering Society 35616, Product Management Club 36051, Startup Ecosystem Canada YorkU 36097, NSBE York 35978. School-wide feed (~70+ events) covers all of them."
+  - id: yorku-lassonde-events
+    name: Lassonde School of Engineering events (incl. EECS)
+    owner: yorku
+    url: https://lassonde.yorku.ca/events/
+    platform: html
+    expected_types: [info_session, tech_talk, workshop]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["Computer Engineering & Software Engineering Program Showcase", "Electrical Engineering Program Showcase", "Drop-in Session: Master of Engineering (MEng) in Sustainable Energy Systems"]
+    robots: unknown
+    terms_url: https://www.yorku.ca/about/privacy-legal/
+    terms_notes: "York terms: personal, non-commercial use only without written permission."
+    blocked_by: null
+    outreach_contact: null
+    notes: "WordPress custom theme, custom events list (not tribe; tribe endpoint 404). Server-rendered with 'Load More'."
+  - id: ocadu-events
+    name: OCAD University events and exhibitions
+    owner: ocadu
+    url: https://www.ocadu.ca/events
+    platform: html
+    expected_types: [workshop, career_fair, conference]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["GradEx 112", "WIA Symposium", "OCAD U – 150 Years of Impact Showcase"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "no terms link in footer"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Drupal, server-rendered with pager (?page=N). Mostly art/exhibitions; relevant items are Digital Futures (DFX thesis show, occasional game jams) and the Design Career Fair. Career portal is Symplicity (login)."
+  - id: ontariotechu-events
+    name: Ontario Tech University events calendar
+    owner: ontariotechu
+    url: https://events.ontariotechu.ca/
+    platform: js_only
+    expected_types: [hackathon, info_session, workshop, career_fair, tech_talk]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["Ontario Tech University Hackathon 2026: Hackhive"]
+    robots: no_robots
+    terms_url: https://ontariotechu.ca/terms-of-use.php
+    terms_notes: "Site and Content \"may not be reproduced, modified, republished, uploaded, posted, transmitted, sold, distributed\" without prior written permission."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Listing page is rendered client-side (filters for Type/Audience/Category; no events in raw HTML). Individual event pages are server-rendered at /YYYY/MM/<slug>.php and each has a per-event iCal at the same path with .ics. No sitemap.xml or robots.txt (404). Need to find the JSON the listing loads (not found) before this is scrapable."
+  - id: humber-ignite-events
+    name: IGNITE (Humber & University of Guelph-Humber student union) events
+    owner: humber
+    url: https://ignitestudentunion.ca/wp-json/tribe/events/v1/events
+    landing_url: https://ignitestudentunion.ca/events/
+    platform: tribe
+    expected_types: [workshop, networking]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Study Break Social, North", "HOUSE Workshop: Tenancy Disputes", "Students Write Back – UofGH"]
+    robots: allowed
+    terms_url: https://ignitestudentunion.ca/terms-of-use/
+    terms_notes: "Permitted Use prohibits: \"Scrape or harvest information.\" Also: \"You may not reproduce or distribute any content without prior written consent.\""
+    blocked_by: terms
+    outreach_contact: null
+    notes: "The Events Calendar; also public iCal https://ignitestudentunion.ca/events/list/?ical=1. robots Crawl-delay: 10. Terms explicitly forbid scraping - ask permission before use. Old domain ignitestudentlife.com 301s here."
+  - id: humber-main-site
+    name: Humber Polytechnic website (events, staff events)
+    owner: humber
+    url: https://humber.ca/events
+    platform: other
+    expected_types: [info_session, hackathon, networking]
+    cs_relevance: low
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: unknown
+    terms_url: null
+    terms_notes: "not reachable"
+    blocked_by: bot_check
+    outreach_contact: null
+    notes: "humber.ca/events and humber.ca/staff/events both returned HTTP 403 to WebFetch (WAF). Not retried."
+  - id: seneca-mynews
+    name: Seneca student portal MyNews (Axero)
+    owner: seneca
+    url: https://students.senecapolytechnic.ca/spaces/112/mynews/home
+    platform: html
+    expected_types: [info_session, workshop, career_fair]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Explore and Ask Week", "Explore your options after graduation"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "no terms link found; main site footer has Privacy Notice only"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Axero intranet; home page renders news and an upcoming-events sidebar without login. The calendar view (/spaces/112/mynews/calendar) only renders 'Loading...' (JS), no feed. Weak source."
+  - id: seneca-future-students-events
+    name: Seneca future students events and webinars
+    owner: seneca
+    url: https://www.senecapolytechnic.ca/futurestudents/events-and-webinars.html
+    platform: html
+    expected_types: [info_session]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Webinar Week", "Open House"]
+    robots: unknown
+    terms_url: null
+    terms_notes: "footer has Privacy Notice only"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Adobe Experience Manager; recruitment events only (incl. Bachelor of Computer Science / AI program webinars). Low value for current students."
+  - id: centennial-events
+    name: Centennial College events and academic deadlines
+    owner: centennial
+    url: https://www.centennialcollege.ca/college-events-and-academic-deadlines/
+    landing_url: https://www.centennialcollege.ca/events
+    platform: html
+    expected_types: [info_session, career_fair]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Fall Open House", "Post-Secondary Partners Pathway Fair", "College Information Program"]
+    robots: allowed
+    terms_url: https://www.centennialcollege.ca/legal/
+    terms_notes: "Section 7(c) bars \"The framing, mirroring, scraping, data-mining (or any variation thereof) of the Web Site\"."
+    blocked_by: terms
+    outreach_contact: null
+    notes: "Umbraco CMS, server-rendered, no feed; October 2026 view showed 'No events found'. Terms forbid scraping - needs permission."
+  - id: centennial-ieee-branch
+    name: IEEE Centennial College Student Branch events
+    owner: centennial
+    url: https://edu.ieee.org/ca-centennial-college/calendar
+    landing_url: https://edu.ieee.org/ca-centennial-college/
+    platform: html
+    expected_types: [hackathon, workshop, tech_talk, networking, case_competition]
+    cs_relevance: high
+    login_required: false
+    verified: true
+    sample_event_titles: ["IEEE CSYP 2026 Pitch Competition", "IEEE DAY 2026", "Networking Night Event"]
+    robots: unknown
+    terms_url: null
+    terms_notes: "not checked (IEEE edu.ieee.org WordPress multisite)"
+    blocked_by: null
+    outreach_contact: null
+    notes: "WordPress posts page mixing current and old events (2022-2026), dates in post text. Also /future-events page. Runs CentennialHacks. IEEE vTools also lists branch events (events.vtools.ieee.org) - not checked here."
+  - id: georgebrown-main-site
+    name: George Brown Polytechnic events
+    owner: georgebrown
+    url: https://www.georgebrown.ca/events
+    platform: other
+    expected_types: [info_session, workshop, hackathon]
+    cs_relevance: low
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: unknown
+    terms_url: null
+    terms_notes: "not reachable"
+    blocked_by: bot_check
+    outreach_contact: null
+    notes: "georgebrown.ca/events and /robots.txt both return HTTP 403 to WebFetch (WAF). Relevant pages if reachable: /current-students/events, /current-students/orientation/events, /arts-design-information-technology/news-events (School of Computer Technology)."
+  - id: georgebrown-sagbc-events
+    name: Student Association of George Brown College events
+    owner: georgebrown
+    url: https://studentassociation.ca/events
+    platform: js_only
+    expected_types: [workshop, networking]
+    cs_relevance: low
+    login_required: false
+    verified: false
+    sample_event_titles: []
+    robots: unknown
+    terms_url: https://www.studentassociation.ca/terms-of-use/
+    terms_notes: "may not \"copy, reproduce, republish, post, transmit, display\" Content without written permission from SAGBC; no scraping clause."
+    blocked_by: null
+    outreach_contact: null
+    notes: "Calendar plugin with Agenda/Month/Grid/Map views showed '0 Events loaded / No events found' - loaded client-side or empty. No feed found."
+  - id: durham-events
+    name: Durham College events calendar
+    owner: durham
+    url: https://durhamcollege.ca/wp-json/tribe/events/v1/events?categories=academic
+    landing_url: https://durhamcollege.ca/events/
+    platform: tribe
+    expected_types: [info_session, workshop, career_fair]
+    cs_relevance: low
+    login_required: false
+    verified: true
+    sample_event_titles: ["Sign Up: Strike Out Hunger Bowling Tournament", "Group Fitness – Yoga 101", "Women's History Month"]
+    robots: allowed
+    terms_url: null
+    terms_notes: "not found"
+    blocked_by: null
+    outreach_contact: null
+    notes: "The Events Calendar (Pro, has /series/). 327 events total; categories: Current Students (academic, 297), Future Students, Employees, Community, Alumni. robots.txt disallows /events/* (HTML views) but not /wp-json - use the API only. Mostly fitness/student-life items; AI Hub events (e.g. 'AI in Action') occasionally appear."
+  - id: mars-events
+    name: MaRS Discovery District events
+    owner: mars
+    url: https://www.marsdd.com/events/
+    platform: js_only
+    expected_types: [tech_talk, networking, conference, workshop]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["12x & Climbing: Controlling AI Spend", "The Lean Finance Playbook", "Femtech Canada Forum: Turning Strategy into Impact"]
+    robots: allowed
+    terms_url: https://www.marsdd.com/terms-conditions/
+    terms_notes: "Section 2 prohibits using a \"robot, spider or other automatic program or device\" to extract information, and to \"Copy any content onto your own or any other website.\""
+    blocked_by: terms
+    outreach_contact: null
+    notes: "WordPress with custom 'event' post type (/wp-json/wp/v2/event returns titles, but no event dates in acf). robots.txt 'Disallow: /wp-' covers /wp-json. Events page renders client-side. Terms explicitly forbid automated extraction - only usable with permission. Has a 'Youth Program' event-type filter."
+  - id: techto-events
+    name: TechTO events
+    owner: techto
+    url: https://techto.org/events
+    platform: html
+    expected_types: [networking, tech_talk, conference]
+    cs_relevance: medium
+    login_required: false
+    verified: true
+    sample_event_titles: ["Together Toronto & Ecosystem Showcase", "\"What Happens After Dark\" Presented by TechTO"]
+    robots: no_robots
+    terms_url: https://docs.google.com/document/d/e/2PACX-1vQd_C_Nt9pwEy5bLQ075wA0QfHpXD922eHMN659rUTw32wK-IckCGhFisWCMI0W2a-Pq8gSd8YxEw4N/pub
+    terms_notes: "terms are a published Google Doc; not opened"
+    blocked_by: null
+    outreach_contact: null
+    notes: "Webflow; upcoming events server-rendered with detail pages at /event/<slug>. robots.txt has only a Sitemap line (no rules). Some events defer to Luma for tickets (Luma not fetched, per instructions). Events often sell out; adult/professional audience."
+not_usable:
+  - name: U of T Computer Science (St. George) department events
+    url: https://web.cs.toronto.edu/news-events/events
+    reason: js_only_no_feed
+    notes: "Squarespace; events block empty in raw HTML and ?format=ical returns no calendar."
+  - name: U of T CLNx (career centre events, all three campuses)
+    url: https://clnx.utoronto.ca/home.htm
+    reason: login_required
+    notes: "UTM event aggregator page returned 403."
+  - name: CSSU (Computer Science Student Union)
+    url: https://cssu.ca/
+    reason: js_only_no_feed
+    notes: "Next.js site, no events or calendar. Generic contact cssu@cdf.toronto.edu."
+  - name: UTSC Computer Science Enrichment Club
+    url: https://csec.club/
+    reason: dead
+    notes: "Fetch failed (socket closed) on 2026-10-23; retry later."
+  - name: YSpace (York entrepreneurship) events
+    url: https://www.yorku.ca/yspace/wp-json/tribe/events/v1/events
+    reason: dead
+    notes: "HTTP 403 (likely WAF/bot filter, blocked_by: bot_check). UNHACK hackathon also appears on events.yorku.ca."
+  - name: York Co-op & Career Centre events (Experience portal)
+    url: https://experience.yorku.ca
+    reason: login_required
+    notes: "Public landing page https://www.yorku.ca/career-ready/networking-events/ only describes programs (Career Fairs, Career Ready Conference)."
+  - name: U of T legacy events calendar (events.utoronto.ca)
+    url: https://www.events.utoronto.ca/
+    reason: dead
+    notes: "Connection refused on 2026-10-23."
+  - name: CentennialHacks MLH listing
+    url: events.mlh.com (not fetched)
+    reason: blocked_domain
+    notes: "Appeared in search results only; never opened."
+  - name: Seneca student calendar (Axero)
+    url: https://students.senecapolytechnic.ca/spaces/112/mynews/calendar
+    reason: js_only_no_feed
+  - name: Seneca orientation calendar (All-in-One Event Calendar)
+    url: https://blogs.senecapolytechnic.ca/orientation/calendar/
+    reason: js_only_no_feed
+    notes: "Returned empty content; search hits are 2017-2019 era."
+  - name: Seneca Student Federation events
+    url: https://www.ssfinc.ca/events
+    reason: dead
+    notes: "404; no current SSF events page found."
+  - name: TMU central events page
+    url: https://www.torontomu.ca/news-events/events/
+    reason: js_only_no_feed
+    notes: "Upcoming Events section empty in HTML; TMU student events actually live in ExploreTMU (Campus Labs Engage). /events/ is 404."
+  - name: TMU Zone Learning news & events
+    url: https://www.torontomu.ca/zone-learning/news-events/
+    reason: js_only_no_feed
+  - name: TMU CS Course Union (CSCU)
+    url: https://www.tmucscu.com/
+    reason: js_only_no_feed
+    notes: "Empty HTML (JS app). CSCU events appear via GDG on Campus TMU and ExploreTMU."
+  - name: Creative Destruction Lab
+    url: https://www.creativedestructionlab.com/
+    reason: dead
+    notes: "No public events page or student-facing events; only a 'CDL Intro Webinar' page. UTEST not checked further (no student event listing found in search). Skipped per task rule (student events only)."
+  - name: U of T Entrepreneurship community events page (HTML)
+    url: https://entrepreneurs.utoronto.ca/events/community-events/
+    reason: js_only_no_feed
+    notes: "Use the wp/v2/event API source (uoft-entrepreneurship-events) instead."

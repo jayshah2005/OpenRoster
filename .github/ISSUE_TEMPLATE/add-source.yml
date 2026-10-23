@@ -1,0 +1,23 @@
+name: Suggest a calendar or source
+description: Share a public calendar feed (iCal), events page or hackathon site we should check.
+title: "Source: "
+labels: [source-suggestion]
+body:
+  - type: input
+    id: url
+    attributes: {label: Link, description: "A public iCal link (Google Calendar → Settings → Public address in iCal format), an events page, or a hackathon's official site."}
+    validations: {required: true}
+  - type: dropdown
+    id: kind
+    attributes: {label: "What is it?", options: [Calendar feed (iCal), Events page, Hackathon website, Other]}
+    validations: {required: true}
+  - type: input
+    id: owner
+    attributes: {label: "Who runs it?", description: "Club, school, company or community."}
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: This is public, and I'm allowed to share it.
+          required: true

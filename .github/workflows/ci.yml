@@ -1,0 +1,79 @@
+name: CI
+
+# Also runs on workflow_dispatch so bot-opened PRs (created with GITHUB_TOKEN, which does not trigger
+# `pull_request`) can be checked: the bot dispatches this workflow on the PR branch.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v6
+        with: {enable-cache: true}
+      - run: uv sync --frozen
+      - name: Lint
+        run: uv run ruff check openroster tests scripts
+      - name: Types
+        run: uv run mypy openroster
+      - name: Tests (every adapter against saved fixtures; no network)
+        run: uv run pytest -q
+      - name: Schema is up to date
+        run: uv run openroster schema --check
+      - name: Validate data and config (JSON Schema, no personal data)
+        run: uv run openroster validate
+
+  web:
+    runs-on: ubuntu-latest
+    defaults:
+      run: {working-directory: web}
+    env:
+      OPENROSTER_DATA: ${{ github.workspace }}/.preview-data
+    steps:
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v6
+        with: {enable-cache: true}
+      - uses: actions/setup-node@v5
+        with: {node-version: 22, cache: npm, cache-dependency-path: web/package-lock.json}
+      - run: npm ci
+      - name: Lint and types
+        run: npm run lint && npm run typecheck
+      - name: Unit tests
+        run: npm test
+      - name: Preview data from fixtures (site checks must not depend on live sites)
+        working-directory: .
+        run: uv sync --frozen && uv run python scripts/preview_from_fixtures.py
+      - name: Build
+        run: npm run build
+      - name: Start
+        run: |
+          (npx next start -p 3123 &)
+          for i in $(seq 1 60); do curl -sf -o /dev/null http://localhost:3123/ && break; sleep 1; done
+      - name: First-load size budget (300 kB gzipped)
+        run: npm run check-size
+      - name: Internal link check
+        run: npm run check-links
+      - name: End-to-end, no-JS and accessibility tests
+        run: npx playwright install --with-deps chromium && npx playwright test --reporter=line
+
+  real-data-build:
+    # The site must also build with the committed data, not only with fixtures.
+    runs-on: ubuntu-latest
+    defaults:
+      run: {working-directory: web}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: {node-version: 22, cache: npm, cache-dependency-path: web/package-lock.json}
+      - run: npm ci && npm run build

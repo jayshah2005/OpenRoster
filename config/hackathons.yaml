@@ -1,0 +1,690 @@
+# Hackathons checked by the hackathon site checker. Seeded by hand (owner-approved), never from a
+# directory scrape. `reviewed: true` is the owner's sign-off after the audit.
+hackathons:
+- id: bearhacks
+  name: BearHacks
+  url: https://bearhacks.com/
+  host: sheridan
+  city: null
+  region: CA-ON
+  country: CA
+  usual_month: April
+  reviewed: false
+  enabled: true
+  notes: 36-hour hackathon at Hazel McCallion Campus; 2026 edition April 24-26 (GDG on Campus Sheridan).
+- id: calgaryhacks
+  name: CalgaryHacks
+  url: https://calgaryhacks.ca
+  host: Computer Science Undergraduate Society, University of Calgary
+  city: Calgary
+  region: CA-AB
+  country: CA
+  usual_month: February
+  reviewed: false
+  enabled: false
+  notes: The apex domain reset the connection and www does not resolve. The 2026 edition ran Feb 14-15. A mirror
+    is at calgaryhacks.ca.csus.cpsc.ucalgary.ca.
+- id: centennialhacks
+  name: CentennialHacks
+  url: https://edu.ieee.org/ca-centennial-college/
+  host: centennial
+  city: null
+  region: CA-ON
+  country: CA
+  usual_month: August
+  reviewed: false
+  enabled: true
+  notes: 12-hour hackathon run by the IEEE Centennial College Student Branch at Progress Campus (Aug 15 per organizer
+    posts). No standalone official site found; the IEEE branch site mentions 'Centennial Hacks 2026'. An MLH listing
+    exists but was not fetched.
+- id: computer-science-club-game-jam
+  name: Computer Science Club Game Jam
+  url: https://brockcsc.ca/events
+  host: brock
+  city: null
+  region: CA-ON
+  country: CA
+  usual_month: unknown
+  reviewed: false
+  enabled: true
+  notes: CSC runs an annual Game Jam plus coding competitions (per dept page, 2023). CSC also ran MLH Local Hack
+    Day in 2019; no current recurring hackathon named BrockHacks found.
+- id: conhacks
+  name: ConHacks
+  url: https://gdg.community.dev/events/details/google-gdg-on-campus-conestoga-college-waterloo-campus-waterloo-canada-presents-conhacks-2026-registrations-open/
+  host: conestoga
+  city: null
+  region: CA-ON
+  country: CA
+  usual_month: April
+  reviewed: false
+  enabled: true
+  notes: '36-hour hackathon at Waterloo campus by School of Applied Computer Science & IT with GDG on Campus Conestoga.
+    Editions: Oct 2023, Feb-Mar 2025, Apr 28-30 2026; month varies.'
+- id: conuhacks
+  name: ConUHacks
+  url: https://conuhacks.io
+  host: HackConcordia (Concordia University)
+  city: Montreal
+  region: CA-QC
+  country: CA
+  usual_month: January
+  reviewed: false
+  enabled: true
+  notes: ConUHacks X ran Jan 24-25, 2026. The page links a mentor/judge Google Form.
+- id: cucai-canadian-undergraduate-conference-on-ai-run-by-qmind
+  name: CUCAI (Canadian Undergraduate Conference on AI, run by QMIND)
+  url: https://www.cs.queensu.ca/calendar
+  host: queens
+  city: null
+  region: CA-ON
+  country: CA
+  usual_month: March
+  reviewed: false
+  enabled: true
+  notes: National student AI conference, Mar 7, 2026 per School of Computing calendar. Conference, not a hackathon.
+- id: cuhacking
+  name: cuHacking
+  url: https://cuhacking.ca
+  host: Carleton University students
+  city: Ottawa
+  region: CA-ON
+  country: CA
+  usual_month: July
+  reviewed: false
+  enabled: true
+  notes: 'cuHacking 2026 ran Jul 10-12 (it moved from its earlier spring/winter slot). Contact: info@cuhacking.ca.'
+- id: deerhacks
+  name: DeerHacks
+  url: https://deerhacks.ca/
+  host: uoft
+  city: null
+  region: CA-ON
+  country: CA
+  usual_month: February
+  reviewed: false
+  enabled: true
+  notes: UTM's hackathon (MCSS-affiliated). DeerHacks 2027 announced, dates TBA.
+- id: deltahacks
+  name: DeltaHacks
+  url: https://deltahacks.com
+  host: McMaster University (DeltaHacks student team)
+  city: Hamilton
+  region: CA-ON
+  country: CA
+  usual_month: January
+  reviewed: false
+  enabled: true
+  notes: DeltaHacks 13 runs Jan 9-10, 2027. Portal is at portal.deltahacks.com. Mentors are mentioned, but there
+    is no application.
+- id: designathon-queen-s-ux-club
+  name: Designathon (Queen's UX Club)
+  url: https://www.cs.queensu.ca/calendar
+  host: queens
+  city: null
+  region: CA-ON
+  country: CA
+  usual_month: November
+  reviewed: false
+  enabled: true
+  notes: Designathon 2026 on Nov 6, listed on the School of Computing calendar.
+- id: ellehacks
+  name: ElleHacks
+  url: https://ellehacks.com
+  host: York University (Lassonde, women and gender-diverse students)
+  city: Toronto
+  region: CA-ON
+  country: CA
+  usual_month: February
+  reviewed: false
+  enabled: true
+  notes: The site shows the title "ElleHacks 2026" only (JS-only).
+- id: eurekahacks
+  name: EurekaHacks
+  url: https://www.eurekahacks.ca/
+  host: EurekaHACKS team (high school)
+  city: Waterloo
+  region: CA-ON
+  country: CA
+  usual_month: May
+  reviewed: false
+  enabled: true
+  notes: For high-school students only. Held at the Accelerator Centre.
+- id: gdg-hacks
+  name: GDG Hacks
+  url: https://gdghacks.com/
+  host: uoguelph
+  city: null
+  region: CA-ON
+  country: CA
+  usual_month: May
+  reviewed: false
+  enabled: true
+  notes: 24-hour hackathon run by GDG on Campus Guelph at Rozanski Hall; 2026 edition May 9-10 with ~130 students.
+    GryphHacks (2022, virtual) appears dormant.
+- id: gdg-hacks-guelph
+  name: GDG Hacks (Guelph)
+  url: https://gdg.community.dev/events/details/google-gdg-on-campus-university-of-guelph-guelph-canada-presents-gdg-hacks-3/
+  host: GDG on Campus University of Guelph
+  city: Guelph
+  region: CA-ON
+  country: CA
+  usual_month: May
+  reviewed: false
+  enabled: true
+  notes: Not fetched. 24-hour event, May 9-10 (year unclear).
+- id: genai-genesis
+  name: GenAI Genesis
+  url: https://genaigenesis.ca/
+  host: GenAI Genesis (UofT students)
+  city: Toronto
+  region: CA-ON
+  country: CA
+  usual_month: March
+  reviewed: false
+  enabled: true
+  notes: 'The 2027 edition is in March. The site has a "Become a judge" call. Contact: contact@genaigenesis.ca.'
+- id: global-game-jam-site-game-development-program
+  name: Global Game Jam site (Game Development program)
+  url: https://educationnewscanada.com/article/education/region/ontario/27/745152/niagara-collegejanuary-28-2019-gamers-unite-at-niagara-college-for-fourth-annual-global-game-jam.html
+  host: niagara-college
+  city: null
+  region: CA-ON
+  country: CA
+  usual_month: January
+  reviewed: false
+  enabled: true
+  notes: Welland Campus hosted a Global Game Jam site for several years (4th annual in 2019); current status unconfirmed.
+- id: hack-canada
+  name: Hack Canada
+  url: https://hackcanada.org
+  host: Hack Canada (began with GDG on Campus Laurier; now held at UofT Myhal Centre)
+  city: Toronto
+  region: CA-ON
+  country: CA
+  usual_month: January
+  reviewed: false
+  enabled: true
+  notes: Hack Canada 2027 runs Jan 8-10, 2027. The page has an "Interested in judging?" section with a contact email.
+    Hacker applications are at app.hackcanada.org/apply.
+- id: hack-club-events-canada
+  name: Hack Club events (Canada)
+  url: https://hackathons.hackclub.com/
+  host: Hack Club
+  city: various
+  region: CA
+  country: CA
+  usual_month: year-round
+  reviewed: false
+  enabled: true
+  notes: This is a directory of mostly high-school hackathons with a public JSON API (see apis_and_feeds). Canadian
+    2026 entries include Equinox Vancouver Hackathon, Horizons Polaris (Toronto), EurekaHacks, MathHacks, Redshifted
+    Catalyst, ONHacks and Hack Peel.
+- id: hack-peel
+  name: Hack Peel
+  url: https://hackpeel.ca
+  host: hack::peel (high school)
+  city: Mississauga
+  region: CA-ON
+  country: CA
+  usual_month: December
+  reviewed: false
+  enabled: true
+  notes: Found via the Hack Club API (2026-12-12). The site is JS-only.
+- id: hack-the-6ix
+  name: Hack the 6ix
+  url: https://hackthe6ix.com
+  host: Hack the 6ix (independent student non-profit)
+  city: Toronto
+  region: CA-ON
+  country: CA
+  usual_month: July
+  reviewed: false
+  enabled: true
+  notes: 'The 2026 edition ran Jul 17-19. Contact: hello@hackthe6ix.com.'
+- id: hack-the-hill
+  name: Hack the Hill
+  url: https://hackthehill.com
+  host: Capital Technology Network (uOttawa and Carleton students)
+  city: Ottawa
+  region: CA-ON
+  country: CA
+  usual_month: September
+  reviewed: false
+  enabled: true
+  notes: 'Hack the Hill III ran Sep 25-27, 2026 at uOttawa. Contact: sponsorship@hackthehill.com.'
+- id: hack-the-north
+  name: Hack the North
+  url: https://hackthenorth.com
+  host: University of Waterloo students (Techyon)
+  city: Waterloo
+  region: CA-ON
+  country: CA
+  usual_month: September
+  reviewed: false
+  enabled: true
+  notes: The site is JS-only (WebFetch saw only the title). Search results show hackthenorth.com/join (organizer
+    application, closes in January, Waterloo post-secondary students only), a mentor FAQ PDF, a workshop-lead FAQ
+    on Notion, and a homepage banner reading "Volunteer applications are now open!". The 2
+- id: hack-the-valley
+  name: Hack the Valley
+  url: https://hackthevalley.io
+  host: University of Toronto Scarborough students
+  city: Toronto (Scarborough)
+  region: CA-ON
+  country: CA
+  usual_month: October
+  reviewed: false
+  enabled: true
+  notes: Hack the Valley 11 ran Oct 16-18, 2026. The site has a "Become a Volunteer" button.
+- id: hack-the-world-tmu
+  name: Hack the World (TMU)
+  url: https://www.torontomu.ca/innovation-boost-zone/hacktheworld/
+  host: TMU Innovation Boost Zone
+  city: Toronto
+  region: CA-ON
+  country: CA
+  usual_month: November
+  reviewed: false
+  enabled: true
+  notes: Not fetched. A search snippet shows the Fall 2025 edition (an SDG competition, Nov 3-20).
+- id: hack-western
+  name: Hack Western
+  url: https://hackwestern.com
+  host: Western University students
+  city: London
+  region: CA-ON
+  country: CA
+  usual_month: November
+  reviewed: false
+  enabled: true
+  notes: Hack Western 13 runs Nov 20-22, 2026. The only application is the hacker one (/apply, open Oct 2-18).
+- id: hackcanada-gdg-on-campus-laurier-co-hosted
+  name: HackCanada (GDG on Campus Laurier co-hosted)
+  url: https://gdg.community.dev/gdg-on-campus-wilfrid-laurier-university-waterloo-canada/
+  host: laurier
+  city: null
+  region: CA-ON
+  country: CA
+  usual_month: March
+  reviewed: false
+  enabled: true
+  notes: Listed on the Laurier GDG chapter page as 'HackCanada - Build With AI Hackathon', 6 Mar 2026.
+- id: hackhive
+  name: Hackhive
+  url: https://www.hackhive.ca/
+  host: Ontario Tech University
+  city: Oshawa
+  region: CA-ON
+  country: CA
+  usual_month: January
+  reviewed: false
+  enabled: false
+  notes: 'hackhive.ca returned 404 on 2026-10-23. Event page: https://events.ontariotechu.ca/2026/01/ontario-tech-university-hackathon-2026-hackhive.php
+    (2026 edition Jan 23-25).'
+- id: hacktrent
+  name: HackTrent
+  url: https://hacktrent.ca
+  host: Trent Computer Science Club Association (TCSCA)
+  city: Peterborough
+  region: CA-ON
+  country: CA
+  usual_month: November
+  reviewed: false
+  enabled: true
+  notes: 'Trent News says volunteers and mentors register through the HackTrent site. The site shows the title "HackTrent
+    2026" only (JS). Contact: tcsca@trentu.ca.'
+- id: hackville
+  name: Hackville
+  url: https://www.hackville.io
+  host: Sheridan College (Hackville club)
+  city: Mississauga (Sheridan HMC campus)
+  region: CA-ON
+  country: CA
+  usual_month: January
+  reviewed: false
+  enabled: true
+  notes: Hackville 2027 runs Jan 23-24. Apply at apply.hackville.io.
+- id: hawkhacks
+  name: HawkHacks
+  url: https://hawkhacks.ca
+  host: Wilfrid Laurier University students
+  city: Waterloo
+  region: CA-ON
+  country: CA
+  usual_month: May
+  reviewed: false
+  enabled: true
+  notes: WebFetch failed with a TLS error ("unable to get local issuer certificate"), so the site exists but could
+    not be read.
+- id: humber-student-hackathon-cican-skills-for-success
+  name: Humber Student Hackathon (CICan Skills for Success)
+  url: https://humber.ca/staff/node/20354
+  host: humber
+  city: null
+  region: CA-ON
+  country: CA
+  usual_month: March
+  reviewed: false
+  enabled: true
+  notes: Ran March 22-23, 2025; recurrence not confirmed. humber.ca returns 403 to fetches, so not verified directly.
+    Barrett Centre for Technology Innovation also runs 'TechBridge' networking evenings.
+- id: ignition-hacks
+  name: Ignition Hacks
+  url: https://www.ignitionhacks.org
+  host: Ignition Hacks (student-run, middle and high school)
+  city: online / Ontario
+  region: CA-ON
+  country: CA
+  usual_month: August
+  reviewed: false
+  enabled: true
+  notes: The site responded with the title only (JS-only). Historically a virtual event.
+- id: jamhacks
+  name: JAMHacks
+  url: https://jamhacks.ca
+  host: JAMHacks (high-school hackathon, supported by UWaterloo)
+  city: Waterloo
+  region: CA-ON
+  country: CA
+  usual_month: May-June
+  reviewed: false
+  enabled: true
+  notes: For high-school students. The FAQ says non-high-schoolers can join as a mentor or judge (no form linked).
+    JAMHacks 11 is next.
+- id: makeuoft
+  name: MakeUofT
+  url: https://makeuoft.ca
+  host: IEEE University of Toronto Student Branch
+  city: Toronto
+  region: CA-ON
+  country: CA
+  usual_month: February
+  reviewed: false
+  enabled: true
+  notes: 'A hardware makeathon. 2027 dates are TBD. Contact: hello@makeuoft.ca.'
+- id: mathhacks
+  name: MathHacks
+  url: https://mathhacks.ca/
+  host: MathHacks (high school)
+  city: Toronto
+  region: CA-ON
+  country: CA
+  usual_month: February, October
+  reviewed: false
+  enabled: true
+  notes: Found via the Hack Club API (Feb 2026 and Oct 2026 editions). Not fetched.
+- id: mchacks
+  name: McHacks
+  url: https://mchacks.ca
+  host: McHacks (McGill University)
+  city: Montreal
+  region: CA-QC
+  country: CA
+  usual_month: January
+  reviewed: false
+  enabled: true
+  notes: 'McHacks 14 runs Jan 16-17, 2027. The site has "Become a Judge", "Become a Mentor" and "Volunteer with
+    Us" sections (Google Form interest link). Contact: contact@mchacks.ca.'
+- id: mcmaster-engineering-competition-mec
+  name: McMaster Engineering Competition (MEC)
+  url: https://macengsociety.ca/mec
+  host: McMaster Engineering Society
+  city: Hamilton
+  region: CA-ON
+  country: CA
+  usual_month: November
+  reviewed: false
+  enabled: true
+  notes: Not fetched. Listed on McMaster's hackathons page (https://ses.eng.mcmaster.ca/experiences/hackathons/),
+    which also lists external hackathons.
+- id: mother-of-all-game-jams
+  name: Mother of All Game Jams
+  url: https://brockpress.com/students-can-learn-to-create-video-and-board-games-at-the-mother-of-all-game-jams/
+  host: brock
+  city: null
+  region: CA-ON
+  country: CA
+  usual_month: unknown
+  reviewed: false
+  enabled: true
+  notes: Two-day beginner-friendly video/board game jam at the Rankin Family Pavilion; recurrence not confirmed.
+- id: newhacks
+  name: NewHacks
+  url: https://newhacks.ca
+  host: University of Toronto (beginner-friendly)
+  city: Toronto
+  region: CA-ON
+  country: CA
+  usual_month: October
+  reviewed: false
+  enabled: false
+  notes: DNS for newhacks.ca failed (ENOTFOUND) on 2026-10-23. The 2025 edition ran Oct 25-26 at the Bahen Centre
+    (IEEE vTools listing). The event may be dormant.
+- id: nwhacks
+  name: nwHacks
+  url: https://nwhacks.io
+  host: nwPlus (UBC)
+  city: Vancouver
+  region: CA-BC
+  country: CA
+  usual_month: January
+  reviewed: false
+  enabled: true
+  notes: nwHacks 2027 runs Jan 16-17 at UBC. For now there is only an interest form.
+- id: onhacks
+  name: ONHacks
+  url: https://onhacks.ca
+  host: ONHacks
+  city: Toronto
+  region: CA-ON
+  country: CA
+  usual_month: November
+  reviewed: false
+  enabled: true
+  notes: Found via the Hack Club API (2026-11-15). The site is JS-only.
+- id: qhacks
+  name: QHacks
+  url: https://qhacks.io
+  host: Queen's University students
+  city: Kingston
+  region: CA-ON
+  country: CA
+  usual_month: February
+  reviewed: false
+  enabled: true
+  notes: The site shows the "QHacks 2027" brand only (JS-heavy). The 2026 edition was around Feb 1 (per McMaster's
+    list).
+- id: redshifted-catalyst
+  name: Redshifted Catalyst
+  url: https://catalyst.redshifted.ca/
+  host: Redshifted (high-school hardware hackathon)
+  city: Ottawa
+  region: CA-ON
+  country: CA
+  usual_month: March
+  reviewed: false
+  enabled: true
+  notes: Found via the Hack Club API.
+- id: ru-hacks
+  name: RU Hacks
+  url: https://ruhacks.com
+  host: Toronto Metropolitan University students
+  city: Toronto
+  region: CA-ON
+  country: CA
+  usual_month: unknown
+  reviewed: false
+  enabled: false
+  notes: Returned HTTP 520 (Cloudflare origin error). No recent editions found; possibly dormant.
+- id: school-of-advanced-technology-technology-project-showcase
+  name: School of Advanced Technology Technology Project Showcase
+  url: https://www.algonquincollege.com/news/2026/08/06/algonquin-college-technology-project-showcase-highlights-creative-solutions-and-technical-problem-solving/
+  host: algonquin
+  city: null
+  region: CA-ON
+  country: CA
+  usual_month: August
+  reviewed: false
+  enabled: true
+  notes: 'Not a hackathon: capstone showcase with 60+ projects and 40+ industry guest judges (judge-call opportunity).
+    No current Algonquin hackathon found.'
+- id: seneca-annual-hackathons-school-of-it-administration-securit
+  name: Seneca annual hackathons (School of IT Administration & Security)
+  url: https://students.senecapolytechnic.ca/spaces/14/school-of-information-technology-administration-security/wiki/view/7685/annual-hackathons
+  host: seneca
+  city: null
+  region: CA-ON
+  country: CA
+  usual_month: unknown
+  reviewed: false
+  enabled: true
+  notes: Student-portal wiki mentions annual hackathons (e.g. 2022 Sustainability Hackathon); no current edition
+    found.
+- id: sheridan-adobe-design-hackathon
+  name: Sheridan / Adobe Design Hackathon
+  url: https://www.sheridancollege.ca/events/2026/02/hackathon
+  host: sheridan
+  city: null
+  region: CA-ON
+  country: CA
+  usual_month: February
+  reviewed: false
+  enabled: true
+  notes: One-day design hackathon at Trafalgar campus (Faculty of Animation, Arts and Design with Adobe), Feb 26,
+    2026.
+- id: sheridan-datathon
+  name: Sheridan Datathon
+  url: https://gdg.community.dev/gdg-on-campus-sheridan-college-trafalgar-road-campus-oakville-canada/
+  host: sheridan
+  city: null
+  region: CA-ON
+  country: CA
+  usual_month: November
+  reviewed: false
+  enabled: true
+  notes: '24-hour data hackathon (DevFest: Sheridan Datathon 2026, Nov 7-8) by GDG, TechBiz Society and Women in
+    Business and Technology.'
+- id: solutionhacks-gdg-on-campus-tmu
+  name: SolutionHacks (GDG on Campus TMU)
+  url: https://gdg.community.dev/gdg-on-campus-toronto-metropolitan-university-toronto-canada/
+  host: tmu
+  city: null
+  region: CA-ON
+  country: CA
+  usual_month: July
+  reviewed: false
+  enabled: true
+  notes: Run by GDG on Campus TMU; 2025 edition late June, 2026 edition July 24-26 at Daphne Cockwell Complex.
+- id: spooky-game-jam-centre-for-digital-humanities
+  name: Spooky Game Jam (Centre for Digital Humanities)
+  url: https://brocku.ca/brock-news/in-focus/game-jam-a-spooktacular-success/
+  host: brock
+  city: null
+  region: CA-ON
+  country: CA
+  usual_month: October
+  reviewed: false
+  enabled: true
+  notes: 12-hour Halloween-themed game jam open to all Brock students; ~40+ students per edition. Announced via
+    Brock News and ExperienceBU.
+- id: spurhacks
+  name: SpurHacks
+  url: https://www.spurhacks.com
+  host: Spur Innovation Center
+  city: Waterloo
+  region: CA-ON
+  country: CA
+  usual_month: June
+  reviewed: false
+  enabled: true
+  notes: WebFetch failed with a TLS certificate error. The 2025 edition ran Jun 20-22 at the RIM campus.
+- id: technovation-waterloo-mini-hackathon-wics
+  name: Technovation Waterloo Mini-Hackathon (WiCS)
+  url: https://uwaterloo.ca/women-in-computer-science/events
+  host: uwaterloo
+  city: null
+  region: CA-ON
+  country: CA
+  usual_month: November
+  reviewed: false
+  enabled: true
+  notes: Women in Computer Science mini-hackathon, Nov 7, 2026 (from WiCS ICS).
+- id: terrahacks
+  name: TerraHacks
+  url: https://terrahacks.ca
+  host: TerraHacks (held at Toronto Metropolitan University)
+  city: Toronto
+  region: CA-ON
+  country: CA
+  usual_month: August
+  reviewed: false
+  enabled: true
+  notes: 'The site still shows the 2025 edition (Aug 1-3). Contact: contact@terrahacks.ca.'
+- id: unhack-yspace-lassonde
+  name: UNHACK (YSpace Lassonde)
+  url: https://events.yorku.ca/
+  host: York University – YSpace / Lassonde
+  city: Toronto
+  region: CA-ON
+  country: CA
+  usual_month: November
+  reviewed: false
+  enabled: true
+  notes: For York undergraduates. Nov 7-8 (2026), $15 deposit. Found via search; the page was not fetched.
+- id: uofthacks
+  name: UofTHacks
+  url: https://uofthacks.com
+  host: University of Toronto students
+  city: Toronto
+  region: CA-ON
+  country: CA
+  usual_month: January
+  reviewed: false
+  enabled: true
+  notes: UofTHacks 14 is in January 2027 (13 ran Jan 16-18, 2026). The page lists no role applications.
+- id: uottahack
+  name: uOttaHack
+  url: https://uottahack.ca
+  host: University of Ottawa (with the Faculty of Engineering)
+  city: Ottawa
+  region: CA-ON
+  country: CA
+  usual_month: January
+  reviewed: false
+  enabled: true
+  notes: uOttaHack 9 runs Jan 15-17, 2027 (per search). /volunteer returned 404.
+- id: utra-hacks
+  name: UTRA Hacks
+  url: https://hackathon.utra.ca/
+  host: University of Toronto Robotics Association
+  city: Toronto
+  region: CA-ON
+  country: CA
+  usual_month: January-February
+  reviewed: false
+  enabled: true
+  notes: 'The 2026 edition ran Jan 31-Feb 1. Mentor and volunteer interest forms (Google Forms) are linked. Contact:
+    hackinfo@utra.ca.'
+- id: uworcs-western-university-research-in-computer-science-confe
+  name: UWORCS (Western University Research in Computer Science conference)
+  url: https://www.uwo.ca/events/2026/04/western-university-research-in-computer-science-conference-uworcs.html
+  host: western
+  city: null
+  region: CA-ON
+  country: CA
+  usual_month: April
+  reviewed: false
+  enabled: true
+  notes: Student-run CS research conference, not a hackathon; listed on the main uwo.ca events calendar.
+- id: winhacks
+  name: WinHacks
+  url: https://www.winhacks.ca
+  host: University of Windsor Computer Science Society
+  city: Windsor
+  region: CA-ON
+  country: CA
+  usual_month: February
+  reviewed: false
+  enabled: true
+  notes: 'WinHacks 2026 ran Feb 7-8. Contact: support@winhacks.ca.'

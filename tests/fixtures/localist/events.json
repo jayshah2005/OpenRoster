@@ -1,0 +1,16 @@
+{"events": [
+ {"event": {"id": 101, "title": "Google Info Session for CS Students", "url": "https://events.example.edu/event/google",
+  "localist_url": "https://events.example.edu/event/google_info_session", "location_name": "Engineering Hall",
+  "description_text": "Learn about internships and new grad roles. Free pizza.", "experience": "inperson", "free": true,
+  "geo": {"latitude": "43.4723", "longitude": "-80.5449", "city": "Waterloo"},
+  "filters": {"event_types": [{"name": "Career"}]},
+  "event_instances": [{"event_instance": {"id": 9001, "start": "2026-11-05T17:30:00-05:00", "end": "2026-11-05T19:00:00-05:00", "all_day": false}}]}},
+ {"event": {"id": 102, "title": "Data Science Workshop Series", "localist_url": "https://events.example.edu/event/ds",
+  "description_text": "Hands-on Python workshop.", "experience": "virtual", "free": true, "geo": {},
+  "event_instances": [
+   {"event_instance": {"id": 9002, "start": "2026-11-03T18:00:00-05:00", "end": "2026-11-03T19:00:00-05:00"}},
+   {"event_instance": {"id": 9003, "start": "2026-11-10T18:00:00-05:00", "end": "2026-11-10T19:00:00-05:00"}}]}},
+ {"event": {"id": 103, "title": "Choir rehearsal", "localist_url": "https://events.example.edu/event/choir",
+  "description_text": "Weekly rehearsal.", "experience": "inperson",
+  "event_instances": [{"event_instance": {"id": 9004, "start": "2026-11-04T19:00:00-05:00"}}]}}
+], "page": {"current": 1, "size": 3, "total": 1}}

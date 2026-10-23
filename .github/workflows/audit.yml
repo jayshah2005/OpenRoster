@@ -1,0 +1,60 @@
+name: Source audit
+
+# Audits every configured source (robots.txt, terms, platform), commits the results (a source whose audit
+# turns "blocked" stops running immediately), and opens or updates one "Source review" PR that marks
+# audited-as-allowed sources `reviewed: true`. Merging that PR is the owner's sign-off.
+on:
+  push:
+    branches: [main]
+    paths: ["config/sources/**", "config/hackathons.yaml", "config/known_verdicts.yaml"]
+  schedule:
+    - cron: "41 9 * * *"       # daily: catches robots.txt / terms changes
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: data
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      OPENROSTER_CONTACT: ${{ vars.OPENROSTER_CONTACT }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v6
+        with: {enable-cache: true}
+      - run: uv sync --frozen
+      - name: Audit all sources
+        run: uv run openroster audit --all
+      - name: Commit audit results
+        run: |
+          git config user.name "openroster-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/audit reports/source-audit.md
+          git diff --cached --quiet || (git commit -m "audit: update source audits" && git pull --rebase --autostash && git push)
+      - name: Propose sign-off for newly allowed sources
+        run: uv run openroster propose-approvals
+      - name: Open or update the Source review PR
+        id: pr
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/source-review
+          title: "Source review: sign off audited sources"
+          body-path: reports/source-review.md
+          add-paths: |
+            config/sources/*.yaml
+            config/hackathons.yaml
+          commit-message: "config: propose sign-off for audited sources"
+          labels: source-review
+          delete-branch: true
+      - name: Run CI on the PR
+        if: steps.pr.outputs.pull-request-number
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: gh workflow run ci.yml --ref bot/source-review

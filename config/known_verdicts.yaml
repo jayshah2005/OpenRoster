@@ -1,0 +1,59 @@
+# Verdicts that override any automated audit. The fetcher enforces `blocked`,
+# `permission_required` (until `permission` is recorded) and `link_only` in code.
+# Host patterns match the host and all of its subdomains.
+verdicts:
+  - hosts: [devpost.com]
+    verdict: blocked
+    reason: "Terms of service forbid scraping and crawling. Hackathons hosted there enter through submissions or the hackathon's own site."
+    reviewed: 2026-10-23
+
+  - hosts: [mlh.io, mlh.com]
+    verdict: permission_required
+    reason: "Terms limit content to personal, non-commercial use and forbid republishing without written consent."
+    outreach: docs/outreach/mlh-permission.md
+    permission: null          # set to {granted: YYYY-MM-DD, scope: "...", evidence: "<link>"} after a written yes
+    reviewed: 2026-10-23
+
+  - hosts: [eventbrite.com, eventbrite.ca, eventbrite.co.uk]
+    verdict: blocked
+    reason: "Terms forbid scraping."
+    reviewed: 2026-10-23
+
+  - hosts: [linkedin.com]
+    verdict: blocked
+    reason: "Terms forbid scraping; content requires login."
+    reviewed: 2026-10-23
+
+  - hosts: [joinhandshake.com]
+    verdict: blocked
+    reason: "Requires login; terms forbid automated access."
+    reviewed: 2026-10-23
+
+  - hosts: [lu.ma, luma.com]
+    verdict: blocked
+    reason: "Only official iCal subscription links may be used; unofficial JSON endpoints and pages are never fetched."
+    allow_paths: []           # page fetches are never allowed
+    reviewed: 2026-10-23
+
+  - hosts: [api.lu.ma]
+    verdict: allowed
+    reason: "Official Luma iCal subscription export only."
+    allow_paths: ["/ics/get"]
+    reviewed: 2026-10-23
+
+  - hosts: [docs.google.com, forms.gle, forms.office.com, tally.so, typeform.com, jotform.com, form.jotform.com]
+    verdict: link_only
+    reason: "Form hosts: link to them, never fetch or submit."
+    allow_paths: []
+    reviewed: 2026-10-23
+
+  - hosts: [calendar.google.com]
+    verdict: allowed
+    reason: "Public Google Calendar iCal feeds published by their owners."
+    allow_paths: ["/calendar/ical/"]
+    reviewed: 2026-10-23
+
+  - hosts: [gdg.community.dev]
+    verdict: blocked
+    reason: "robots.txt disallows /api/; event pages are rendered from that API."
+    reviewed: 2026-10-23

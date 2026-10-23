@@ -1,0 +1,19 @@
+name: Takedown request
+description: Ask us to remove a listing or stop collecting from your site. We act within 48 hours.
+title: "Takedown: "
+labels: [takedown]
+body:
+  - type: markdown
+    attributes:
+      value: This issue is public. Do not include private contact details here; if you prefer, email the address in TAKEDOWN.md instead.
+  - type: input
+    id: target
+    attributes: {label: Listing link or site address, description: "An OpenRoster listing link (…/o/<id>/) or your site's domain (example.com)."}
+    validations: {required: true}
+  - type: dropdown
+    id: relationship
+    attributes: {label: Your relationship to it, options: [I organize this event, I run this site, Other]}
+    validations: {required: true}
+  - type: textarea
+    id: reason
+    attributes: {label: Anything else (optional)}
