@@ -17,10 +17,36 @@ from ..pipeline import store
 HEALTHY_RUNS_TO_CLOSE = 2
 
 
+def pipeline_flags(pipeline: dict[str, Any]) -> list[dict[str, str]]:
+    """Red flags for the whole pipeline. An empty site must never look like a quiet success."""
+    if not pipeline:
+        return []
+    flags: list[dict[str, str]] = []
+    if pipeline.get("approved", 0) == 0:
+        flags.append({"source": "pipeline", "kind": "no_approved_sources", "detail":
+                      f"0 of {pipeline.get('configured', 0)} configured sources are approved (`reviewed: true`), so "
+                      "nothing is scraped. Merge the Source review PR (Actions must be allowed to create PRs)."})
+    elif pipeline.get("runnable", 0) == 0:
+        flags.append({"source": "pipeline", "kind": "no_runnable_sources", "detail":
+                      f"{pipeline['approved']} sources are approved but none can run: their latest audits are not "
+                      "`allowed`, or they are disabled. Check reports/source-audit.md."})
+    if pipeline.get("listings", 0) == 0:
+        flags.append({"source": "pipeline", "kind": "no_listings", "detail":
+                      f"The site has 0 listings after the run on {pipeline.get('last_run')}. "
+                      f"Runnable sources: {pipeline.get('runnable', 0)}, failing: {pipeline.get('failing', 0)}, "
+                      f"held for review: {pipeline.get('held_for_review', 0)}."})
+    elif pipeline.get("runnable", 0) and pipeline.get("failing", 0) > pipeline["runnable"] / 2:
+        flags.append({"source": "pipeline", "kind": "most_sources_failing", "detail":
+                      f"{pipeline['failing']} of {pipeline['runnable']} runnable sources failed. Network or fetcher problem?"})
+    return flags
+
+
 def problems(state: dict[str, Any] | None = None) -> list[dict[str, str]]:
     state = state if state is not None else store.load_json(store.STATE, {})
-    out: list[dict[str, str]] = []
+    out: list[dict[str, str]] = pipeline_flags(state.get("pipeline") or {})
     for sid, s in sorted(state.get("sources", {}).items()):
+        if not isinstance(s, dict):
+            continue
         if s.get("refused"):
             out.append({"source": sid, "kind": "refused", "detail": s.get("error") or "refused by policy"})
         elif not s.get("ok"):
@@ -35,8 +61,32 @@ def problems(state: dict[str, Any] | None = None) -> list[dict[str, str]]:
     return out
 
 
+def status_markdown(state: dict[str, Any] | None = None) -> str:
+    """A short report of where the pipeline stands, with red flags first. Used in the Actions run summary."""
+    state = state if state is not None else store.load_json(store.STATE, {})
+    p = state.get("pipeline") or {}
+    probs = problems(state)
+    lines = ["## OpenRoster status", ""]
+    if probs:
+        lines += ["### Red flags", ""] + [f"- **{x['source']}** ({x['kind']}): {x['detail']}" for x in probs] + [""]
+    else:
+        lines += ["No red flags.", ""]
+    lines += [
+        "| Configured sources | Approved | Runnable | Failing this run | Listings | Held for review | Last run |",
+        "|---|---|---|---|---|---|---|",
+        f"| {p.get('configured', '?')} | {p.get('approved', '?')} | {p.get('runnable', '?')} | {p.get('failing', '?')} | "
+        f"{p.get('listings', '?')} | {p.get('held_for_review', '?')} | {p.get('last_run', 'never')} |",
+        "",
+    ]
+    return "\n".join(lines)
+
+
 def issue_body(p: dict[str, str]) -> str:
     hints = {
+        "no_approved_sources": "Until a person approves sources, the scraper runs nothing and the site stays empty.",
+        "no_runnable_sources": "Approved sources exist but none passes its audit. Re-run the Source audit workflow.",
+        "no_listings": "An empty site is treated as a failure. The numbers above say where the pipeline stopped.",
+        "most_sources_failing": "Look at the scrape log for a shared cause, such as a fetcher bug or a network block.",
         "fetch_error": "The site may be down, or the URL moved. Check the source URL in config/sources/.",
         "zero_results": "The page may have been redesigned, or the event list is empty this season. "
         "If redesigned, update the selectors (run `openroster suggest-selectors <id>`).",
@@ -75,7 +125,7 @@ def sync_issues(dry_run: bool = False) -> dict[str, list[str]]:
                 _gh("issue", "create", "--title", f"[health] {sid}", "--label", "health", "--body", body)
             done["opened"].append(sid)
     for sid, number in by_source.items():
-        streak = state.get("sources", {}).get(sid, {}).get("healthy_streak", 0)
+        streak = HEALTHY_RUNS_TO_CLOSE if sid == "pipeline" else state.get("sources", {}).get(sid, {}).get("healthy_streak", 0)
         if sid not in probs and streak >= HEALTHY_RUNS_TO_CLOSE:
             if not dry_run:
                 _gh("issue", "close", str(number), "--comment", f"Healthy for {streak} runs in a row; closing.")

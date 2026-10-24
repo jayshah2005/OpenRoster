@@ -141,3 +141,17 @@ def test_audience_tags():
     assert {"women_nonbinary", "first_year", "beginner_friendly"} <= set(o.tags)
     plain = normalize(C(title="Distributed systems talk", uid="plain", text="Room 101"), S(), NOW)
     assert not {"women_nonbinary", "first_year"} & set(plain.tags)
+
+
+def test_pipeline_red_flags():
+    from openroster.ops.health import pipeline_flags, status_markdown
+
+    none_approved = {"configured": 118, "approved": 0, "runnable": 0, "failing": 0, "listings": 0,
+                     "held_for_review": 0, "last_run": "2026-10-24"}
+    kinds = {f["kind"] for f in pipeline_flags(none_approved)}
+    assert kinds == {"no_approved_sources", "no_listings"}
+    healthy = {**none_approved, "approved": 90, "runnable": 85, "failing": 3, "listings": 240}
+    assert pipeline_flags(healthy) == []
+    broken = {**healthy, "failing": 60}
+    assert {f["kind"] for f in pipeline_flags(broken)} == {"most_sources_failing"}
+    assert "Red flags" in status_markdown({"pipeline": none_approved, "sources": {}})

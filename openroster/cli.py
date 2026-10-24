@@ -69,6 +69,17 @@ def cmd_schema(a: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_status(a: argparse.Namespace) -> int:
+    from .ops.health import status_markdown
+
+    text = status_markdown()
+    print(text)
+    if a.summary_file:  # GitHub Actions job summary ($GITHUB_STEP_SUMMARY)
+        with open(a.summary_file, "a") as fh:
+            fh.write(text + "\n")
+    return 0
+
+
 def cmd_health(a: argparse.Namespace) -> int:
     from .ops.health import problems, sync_issues
 
@@ -172,6 +183,10 @@ def main(argv: list[str] | None = None) -> int:
     s = sub.add_parser("schema", help="export the JSON Schema")
     s.add_argument("--check", action="store_true")
     s.set_defaults(fn=cmd_schema)
+
+    s = sub.add_parser("status", help="pipeline numbers and red flags (why the site might be empty)")
+    s.add_argument("--summary-file", help="also append the report here, e.g. $GITHUB_STEP_SUMMARY")
+    s.set_defaults(fn=cmd_status)
 
     s = sub.add_parser("health", help="print source health problems; --sync opens/updates/closes GitHub issues")
     s.add_argument("--sync", action="store_true")

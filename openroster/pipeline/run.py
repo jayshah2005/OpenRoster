@@ -197,7 +197,17 @@ def run(
             "consecutive_failures": 0 if h.ok else prev.get("consecutive_failures", 0) + 1,
             "healthy_streak": 0 if problem else min(prev.get("healthy_streak", 0) + 1, HEALTHY_RUNS_TO_CLOSE),
         }
-    store.write_if_changed(store.STATE, store.dump({"misses": state.misses, "sources": sources_state}))
+    # Pipeline-level numbers for the red-flag checks (ops/health.py) and the public status page.
+    pipeline = {
+        "configured": len(sources),
+        "approved": sum(1 for s in sources if s.reviewed),
+        "runnable": sum(1 for s in sources if s.runnable),
+        "failing": sum(1 for h in report.health.values() if not h.ok),
+        "listings": len(live),
+        "held_for_review": len(review),
+        "last_run": now.date().isoformat(),
+    }
+    store.write_if_changed(store.STATE, store.dump({"misses": state.misses, "sources": sources_state, "pipeline": pipeline}))
 
     ignored = set(store.load_json(store.REVIEW / "ignored.json", []))
     review_doc: dict[str, list] = {
