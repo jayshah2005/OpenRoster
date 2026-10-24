@@ -5,6 +5,7 @@ import { type ChangeEvent, type FormEvent, useRef, useState } from "react";
 import { type Filters, parseFilters, toQuery } from "@/lib/filter";
 import { AUDIENCE_LABEL, COUNTRY_LABEL, ELIG_LABEL, MODE_LABEL, REGION_LABEL, TYPE_LABEL } from "@/lib/labels";
 import type { Facets } from "@/lib/data";
+import { Icon } from "./Icon";
 
 type Props = { facets: Facets; schoolNames: Record<string, string> };
 
@@ -57,9 +58,12 @@ export function FilterForm({ facets, schoolNames }: Props) {
   return (
     <form className="filters" role="search" aria-label="Filter opportunities" onSubmit={onSubmit}>
       <div className="filter-row">
-        <label className="grow">
-          Search
-          <input type="search" name="q" value={q} onChange={onSearch} placeholder="hackathon, Google, Brock…" autoComplete="off" />
+        <label className="grow search">
+          <span className="sr-only">Search</span>
+          <span className="search-field">
+            <Icon name="search" size={18} />
+            <input type="search" name="q" value={q} onChange={onSearch} placeholder="Search hackathons, companies, schools…" autoComplete="off" />
+          </span>
         </label>
         <label>
           I want to

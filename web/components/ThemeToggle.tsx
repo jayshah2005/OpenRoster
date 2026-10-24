@@ -1,5 +1,7 @@
 "use client";
 
+import { Icon } from "./Icon";
+
 /** Flips between light and dark, starting from whatever is showing now (saved choice or system setting). */
 export function ThemeToggle() {
   function toggle() {
@@ -16,7 +18,7 @@ export function ThemeToggle() {
 
   return (
     <button type="button" className="theme-toggle" onClick={toggle} aria-label="Toggle dark mode" title="Toggle dark mode">
-      <span aria-hidden="true">◐</span>
+      <Icon name="sun" size={18} />
     </button>
   );
 }

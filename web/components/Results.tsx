@@ -5,6 +5,7 @@ import type { ReactNode } from "react";
 import { applyFilters, isEmpty, parseFilters, toQuery } from "@/lib/filter";
 import { SITE_URL } from "@/lib/labels";
 import { CardList } from "./Card";
+import { Icon } from "./Icon";
 import { useIndex } from "./useIndex";
 
 /**
@@ -24,11 +25,13 @@ export function Results({ children, baseQuery = "" }: { children: ReactNode; bas
   const items = applyFilters(index, f, new Date());
   return (
     <>
-      <p className="result-count" aria-live="polite">
-        {items.length} {items.length === 1 ? "match" : "matches"}
-      </p>
+      <div className="results-bar">
+        <p className="result-count" aria-live="polite">
+          {items.length} {items.length === 1 ? "match" : "matches"}
+        </p>
+        <SubscribeLinks query={toQuery(f)} />
+      </div>
       <CardList items={items} nowIso={new Date().toISOString()} />
-      <SubscribeLinks query={toQuery(f)} />
     </>
   );
 }
@@ -37,8 +40,12 @@ export function SubscribeLinks({ query, staticSlug }: { query?: string; staticSl
   const ics = staticSlug ? `/feeds/${staticSlug}.ics` : `/api/feed.ics${query ? `?${query}` : ""}`;
   const rss = staticSlug ? `/feeds/${staticSlug}.rss` : `/api/feed.rss${query ? `?${query}` : ""}`;
   return (
-    <p className="subscribe">
-      <span>Follow this view:</span> <a href={ics}>Calendar (.ics)</a> · <a href={`${SITE_URL.replace(/^https?:/, "webcal:")}${ics}`}>Subscribe in calendar app</a> · <a href={rss}>RSS</a>
-    </p>
+    <div className="subscribe" role="group" aria-label="Follow this view">
+      <a className="pill-link" href={`${SITE_URL.replace(/^https?:/, "webcal:")}${ics}`}>
+        <Icon name="calendar" size={14} /> Subscribe
+      </a>
+      <a className="pill-link" href={ics}>Calendar (.ics)</a>
+      <a className="pill-link" href={rss}><Icon name="rss" size={14} /> RSS</a>
+    </div>
   );
 }
