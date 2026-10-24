@@ -60,7 +60,8 @@ sources:
   options:
     filter: all
     landing_url: https://jobs.scotiabank.com/job/Toronto-SHACKS-2026-Scotiabank-x-Tangerine-Student-Hackathon-ON/604450317/
-  notes: NEEDS SELECTORS before enabling. SAP SuccessFactors Career Site (rmkcdn.successfactors.com). Student hackathon (SHACKS, Aug 21-22 2026, for 2028-2030 grads, deadline Jul 27) and Canada's Top Students (1st/2nd-year case competition, Nov 13-14 2026, deadline Sep 25) are posted as job requisitions; SHACKS posting now shows "not accepting further applicants". Search results are server-rendered HTML. N
+    autoselect: false
+  notes: "Kept off by hand: Job postings; the dates on the page are posting dates, not event dates. NEEDS SELECTORS before enabling. SAP SuccessFactors Career Site (rmkcdn.successfactors.com). Student hackathon (SHACKS, Aug 21-22 2026, for 2028-2030 grads, deadline Jul 27) and Canada's Top Students (1st/2nd-year case competition, Nov 13-14 2026, deadline Sep 25) are posted as job requisitions; SHACKS posting now shows \"not accepting further applicants\". Search results are server-rendered HTML. N"
 - id: rbc-students-graduates
   name: RBC Careers - Students & Graduates (Campus events anchor)
   adapter: headless
@@ -139,7 +140,8 @@ sources:
   page_budget: 3
   options:
     filter: all
-  notes: NEEDS SELECTORS before enabling. Optimizely CMS; events listed in HTML with date/time/location/status (Open/Closed/External) and audience tabs (Students & new grads). Shows 18 of 20 with "Load more" (remaining may need a second request). Current listings are mostly UK/EU; US/Canada programs (e.g. Women in Tech & Trading for US/Canadian universities, FutureFocus Chicago) appear seasonally under /re
+    autoselect: false
+  notes: 'Kept off by hand: Mostly UK and European campus fairs, outside our coverage. NEEDS SELECTORS before enabling. Optimizely CMS; events listed in HTML with date/time/location/status (Open/Closed/External) and audience tabs (Students & new grads). Shows 18 of 20 with "Load more" (remaining may need a second request). Current listings are mostly UK/EU; US/Canada programs (e.g. Women in Tech & Trading for US/Canadian universities, FutureFocus Chicago) appear seasonally under /re'
 - id: imc-prosperity
   name: IMC Prosperity - global student trading/algorithmic challenge
   adapter: html

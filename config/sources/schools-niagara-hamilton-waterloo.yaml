@@ -311,7 +311,8 @@ sources:
   page_budget: 3
   options:
     filter: all
-  notes: NEEDS SELECTORS before enabling. Drupal, server-rendered list; no feed link seen. College-level events also at https://www.uoguelph.ca/ccmps/events.
+    autoselect: false
+  notes: 'Kept off by hand: Titles name students (MSc seminars), which we must not publish. NEEDS SELECTORS before enabling. Drupal, server-rendered list; no feed link seen. College-level events also at https://www.uoguelph.ca/ccmps/events.'
 - id: conestoga-events
   name: Conestoga College events
   adapter: html

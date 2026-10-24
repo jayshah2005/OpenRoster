@@ -64,12 +64,14 @@ sources:
   adapter: html
   url: https://www.utoronto.ca/events
   owner: uoft
-  enabled: false
+  enabled: true
   reviewed: true
   page_budget: 3
   options:
     filter: cs
-  notes: NEEDS SELECTORS before enabling. Drupal aggregator showing ~5 items per unit; links out to unit calendars (engineering, entrepreneurs, UTM, UTSC, Schwartz Reisman, Fields). Better to scrape unit feeds directly.
+    item: tr
+    title: a
+  notes: Selectors proposed by `openroster autoselect`; check the fixture test. Drupal aggregator showing ~5 items per unit; links out to unit calendars (engineering, entrepreneurs, UTM, UTSC, Schwartz Reisman, Fields). Better to scrape unit feeds directly.
 - id: tmu-cs-seminar-calendar
   name: TMU Computer Science student seminar calendar (Google Calendar)
   adapter: ics
