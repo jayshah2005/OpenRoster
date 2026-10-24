@@ -50,3 +50,16 @@ def test_engage_feed_is_detected_and_proposed_as_rss(monkeypatch):
     monkeypatch.setattr(disc.store, "load_records", lambda: {})
     found = disc.discover()
     assert any(s["adapter"] == "rss" and s["url"].endswith("/engage/events.rss") for s in found.sources)
+
+
+def test_autoselect_finds_working_selectors_without_network():
+    from pathlib import Path
+
+    from openroster.config import Source
+    from openroster.ops.autoselect import candidates_for
+
+    html = (Path(__file__).parent / "fixtures/sources/scotiabank-campus-events.html").read_text()
+    src = Source(id="x", name="x", adapter="html", url="https://www.scotiabank.com/careers/", owner="x",
+                 options={"filter": "all"})
+    chosen, dated = candidates_for(html, src)
+    assert chosen and chosen["item"] and dated >= 10

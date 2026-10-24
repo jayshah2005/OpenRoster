@@ -101,6 +101,15 @@ def cmd_submission(a: argparse.Namespace) -> int:
     return 0 if result["ok"] else 1
 
 
+def cmd_autoselect(a: argparse.Namespace) -> int:
+    from .ops.autoselect import autoselect, report
+
+    outcomes = autoselect(only=set(a.only) if a.only else None)
+    report(outcomes)
+    print(f"selectors proposed for {sum(o.ok for o in outcomes)} of {len(outcomes)} source(s)")
+    return 0
+
+
 def cmd_listings(a: argparse.Namespace) -> int:
     from .ops.listings import write_listings
 
@@ -168,6 +177,10 @@ def main(argv: list[str] | None = None) -> int:
     s.add_argument("--sync", action="store_true")
     s.add_argument("--dry-run", action="store_true")
     s.set_defaults(fn=cmd_health)
+
+    s = sub.add_parser("autoselect", help="propose selectors for approved HTML sources that have none (fetches each once)")
+    s.add_argument("--only", nargs="*")
+    s.set_defaults(fn=cmd_autoselect)
 
     s = sub.add_parser("listings", help="write LISTINGS.md (the upcoming list as a Markdown table for GitHub)")
     s.set_defaults(fn=cmd_listings)
