@@ -1,6 +1,7 @@
 name: Dependabot auto-merge
 
-# Minor and patch dependency updates merge themselves once CI passes (branch protection requires CI).
+# Minor and patch dependency updates merge themselves only after CI passes on the PR. The job waits for the
+# checks itself, so this holds even before branch protection is turned on.
 on: pull_request_target
 
 permissions:
@@ -11,6 +12,7 @@ jobs:
   automerge:
     if: github.event.pull_request.user.login == 'dependabot[bot]'
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - id: meta
         uses: dependabot/fetch-metadata@v2
@@ -18,4 +20,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           PR: ${{ github.event.pull_request.html_url }}
-        run: gh pr merge --auto --squash "$PR"
+        run: |
+          sleep 30   # let the CI checks register on the PR
+          gh pr checks "$PR" --watch --fail-fast --interval 30
+          gh pr merge --squash "$PR"
