@@ -1,4 +1,13 @@
 {
   "misses": {},
+  "pipeline": {
+    "approved": 0,
+    "configured": 118,
+    "failing": 0,
+    "held_for_review": 0,
+    "last_run": "2026-10-24",
+    "listings": 0,
+    "runnable": 0
+  },
   "sources": {}
 }
