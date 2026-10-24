@@ -61,6 +61,7 @@ config/  ─►  openroster scrape  ─►  data/records/*.json  ─►  web (ne
 | `audit.yml` | Daily and on config changes: audit every source and open the Source review PR that the owner merges to approve sources |
 | `discover.yml` | Weekly: rule-based discovery plus an optional search agent; proposes new sources and events in a PR |
 | `review.yml` | Daily PR with held-back items as fill-in YAML stubs |
+| `selectors.yml` | Weekly: rule-based selectors for approved HTML sources that have none, proposed in a PR |
 | `submission.yml` | Turns issue forms (submit, correct, takedown, permission) into PRs |
 | `ci.yml` | Lint, types, tests with saved fixtures, site build, size budget, link check, accessibility |
 | `ai.yml` | Optional helpers: selector repair, review suggestions, terms summaries, `@claude` |

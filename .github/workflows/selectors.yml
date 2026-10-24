@@ -1,0 +1,53 @@
+name: Selector proposals
+
+# For approved HTML sources that have no selectors yet: fetch each page once (polite fetcher), pick rule-based
+# selectors that yield dated events, save a sanitized fixture, and propose it all in one PR. Merging enables the
+# sources. Pages the rules cannot handle are listed for a person or the AI repair helper.
+on:
+  schedule:
+    - cron: "30 14 * * 2"      # Tuesdays, after Monday's discovery
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["config/sources/**"]
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: data
+  cancel-in-progress: false
+
+jobs:
+  autoselect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      OPENROSTER_CONTACT: ${{ vars.OPENROSTER_CONTACT }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v6
+        with: {enable-cache: true}
+      - run: uv sync --frozen
+      - name: Propose selectors
+        run: uv run openroster autoselect
+      - name: Check the proposals parse their fixtures
+        run: uv run pytest -q tests/test_html_sources.py && uv run openroster validate
+      - name: Open or update the PR
+        id: pr
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/selectors
+          title: "Selector proposals for approved HTML sources"
+          body-path: reports/autoselect.md
+          commit-message: "feat/config: propose selectors for html sources"
+          add-paths: |
+            config/sources/*.yaml
+            tests/fixtures/sources/*.html
+          labels: source-review
+      - name: Run CI on the PR
+        if: steps.pr.outputs.pull-request-number
+        env: {GH_TOKEN: "${{ github.token }}"}
+        run: gh workflow run ci.yml --ref bot/selectors

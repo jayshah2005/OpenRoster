@@ -19,6 +19,6 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
         run: |
-          for wf in scrape.yml audit.yml review.yml discover.yml links.yml maintenance.yml keepalive.yml; do
+          for wf in scrape.yml audit.yml review.yml discover.yml selectors.yml links.yml maintenance.yml keepalive.yml; do
             gh api -X PUT "repos/$REPO/actions/workflows/$wf/enable" && echo "enabled $wf"
           done
