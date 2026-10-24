@@ -116,7 +116,7 @@ def event_to_candidate(e: dict, page_url: str, source: Source, adapter: str = "j
     if isinstance(offers, dict) and offers.get("price") is not None:
         cost = "free" if str(offers.get("price")) in ("0", "0.0", "0.00") else f"{offers.get('price')} {offers.get('priceCurrency', '')}".strip()
     text = f"{title} {desc} {venue or ''}"
-    if not keep(source, text):
+    if not keep(source, text, title):
         return None
     return Candidate(
         source_id=source.id,

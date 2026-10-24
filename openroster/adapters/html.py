@@ -72,7 +72,7 @@ def parse_html_list(html_text: str, page_url: str, source: Source) -> AdapterRes
         url = urljoin(page_url, href) if href else page_url
         date_text = " ".join(_text(n) for n in item.css(o["date"])) if o.get("date") else item_text
         loc_text = _text(item.css_first(o["location"])) if o.get("location") else ""
-        if not keep(source, item_text):
+        if not keep(source, item_text, title):
             continue
         class_text = item_text
         for rx in o.get("strip", []):  # labels like "Virtual/In-person:" that would confuse keyword rules

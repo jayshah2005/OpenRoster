@@ -48,7 +48,7 @@ def parse_rss(xml_text: str, source: Source) -> AdapterResult:
         tree = HTMLParser(desc_html) if desc_html else None
         desc_text = clean(desc_html)
         text = f"{title} {host} {cats} {desc_text[:1500]}"
-        if not title or not keep(source, text):
+        if not title or not keep(source, text, f"{title} {host} {cats}"):
             continue
         start = to_zone(_rfc822(item.findtext(f"{EVENTS_NS}start")), source.timezone)
         end = to_zone(_rfc822(item.findtext(f"{EVENTS_NS}end")), source.timezone)
@@ -140,7 +140,7 @@ def parse_json_items(payload: Any, source: Source) -> AdapterResult:
         texts = " ".join(_text(get_path(it, p)) for p in o.get("text", []))
         venue = _text(get_path(it, o["location"])) if o.get("location") else ""
         text = f"{title} {texts} {venue}"
-        if not title or not keep(source, text):
+        if not title or not keep(source, text, title):
             continue
         start, all_day = parse_structured(_norm_dt(get_path(it, o.get("start", "start"))), source.timezone)
         end, _ = parse_structured(_norm_dt(get_path(it, o.get("end", "end"))), source.timezone)

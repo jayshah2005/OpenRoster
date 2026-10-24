@@ -33,11 +33,12 @@ def first_url(text: str | None) -> str | None:
     return m.group(0).rstrip(".,;") if m else None
 
 
-def keep(source: Source, text: str) -> bool:
+def keep(source: Source, text: str, title: str | None = None) -> bool:
     """Relevance filter configured per source.
 
     options.filter: "all" keeps everything (dedicated CS/tech sources); "cs" (default for campus-wide
-    calendars) keeps items that match CS/tech/career keywords. options.include / options.exclude are extra
+    calendars) keeps items that match CS/tech/career keywords (see extract/classify.py: broad words count only in
+    `title`, which adapters pass as title + host + categories). options.include / options.exclude are extra
     regexes applied on top.
     """
     opts = source.options
@@ -50,7 +51,7 @@ def keep(source: Source, text: str) -> bool:
     mode = opts.get("filter", "all")
     if mode == "all":
         return not opts.get("include")
-    return is_cs_relevant(text)
+    return is_cs_relevant(text, title)
 
 
 def parse_structured(value: str | None, tz: str) -> tuple[datetime | None, bool]:

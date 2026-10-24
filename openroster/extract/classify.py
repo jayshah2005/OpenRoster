@@ -25,12 +25,28 @@ ROLE_RULES: list[tuple[str, re.Pattern[str]]] = [
     ("workshop_lead", re.compile(r"\b(?:workshop (?:lead|host|facilitator|proposal)s?|run a workshop|host a workshop|call for (?:speakers|workshops|proposals))", re.I)),
 ]
 
-CS_KEYWORDS = re.compile(
-    r"\b(?:hack|code|coding|program(?:ming|mer)|software|developer|dev\b|computer|computing|comp ?sci|\bcs\b|"
-    r"data|machine learning|\bml\b|\bai\b|artificial intelligence|cyber|security|cloud|web|app\b|apps\b|"
-    r"tech|technology|engineer|startup|entrepreneur|innovation|digital|robot|quant|fintech|product|ux|ui\b|"
-    r"devops|github|google|microsoft|amazon|aws|azure|python|java\b|javascript|blockchain|game dev|"
-    r"career fair|co-?op|internship|recruit|info(?:rmation)? session|resume|interview)",
+# Relevance for campus-wide calendars (sources with `filter: cs`). Strong terms count anywhere, including the
+# description. Broad terms ("tech", "data", "app", "career") show up in the descriptions of almost any campus event
+# ("download the app", "data collection"), so they count only in the title, host or categories.
+CS_STRONG = re.compile(
+    r"\b(?:hackathons?|hack ?(?:nights?|days?)|\w*hacks\b|coding|programming|programmers?|software|developers?|computer science|"
+    r"comp ?sci|computing|machine learning|artificial intelligence|deep learning|data science|cyber ?security|"
+    r"robotics|fintech|quantitative|devops|github|python|javascript|java\b|blockchain|game dev(?:elopment)?|"
+    r"tech talks?|career fairs?|job fairs?|women in (?:tech|stem|computing)|in tech\b|ctf\b|capture the flag)",
+    re.I,
+)
+# Campus admin and teaching-staff items that mention tech words but are not opportunities for students.
+NOT_OPPORTUNITY = re.compile(
+    r"\b(?:for tas?\b|teaching assistants?|faculty fellows?|brightspace|academic integrity|last day to|"
+    r"registration (?:opens|closes|deadline)|deadline to (?:drop|add|withdraw)|senate|board of governors|"
+    r"convocation|exam (?:period|schedule)|reading week|tuition)",
+    re.I,
+)
+CS_FOCUS = re.compile(
+    r"\b(?:hack(?:s|ing)?|tech|technology|technical|\bai\b|\bml\b|\bcs\b|data|analytics|engineer(?:s|ing)?|startups?|"
+    r"entrepreneur(?:s|ship)?|innovation|digital|web|apps?\b|ux|ui\b|cloud|cyber|product management|"
+    r"google|microsoft|amazon|aws|azure|ibm|shopify|quant|stem\b|co-?op|internships?|recruit(?:ing|ment)?|"
+    r"resumes?|cv\b|interviews?|job search|linkedin|careers?|networking|pitch|incubator|accelerator)",
     re.I,
 )
 
@@ -100,8 +116,14 @@ def mentions_travel_support(text: str) -> bool:
     return bool(TRAVEL.search(text))
 
 
-def is_cs_relevant(text: str) -> bool:
-    return bool(CS_KEYWORDS.search(text))
+def is_cs_relevant(text: str, title: str | None = None) -> bool:
+    """`text` is everything known about the item; `title` is its title plus host and categories, when the
+    adapter can tell them apart. Without a title, only the strong terms count."""
+    if title and NOT_OPPORTUNITY.search(title):
+        return False
+    if CS_STRONG.search(text):
+        return True
+    return bool(title and (CS_STRONG.search(title) or CS_FOCUS.search(title)))
 
 
 # Who an opportunity is aimed at. Tags only: they power the "Who it's for" filter and never hide anything.

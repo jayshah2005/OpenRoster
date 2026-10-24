@@ -202,3 +202,16 @@ def test_hackathon_dates_from_js_rendered_site():
     cand, _ = _event_dates(Hackathon(id="d", name="DeltaHacks", url="https://deltahacks.example"), [page], [html])
     assert cand is not None and cand.start.date().isoformat() == "2027-01-09"
     assert cand.end.date().isoformat() == "2027-01-10"
+
+
+def test_campus_calendar_relevance():
+    # Broad words only count in the title; strong ones count anywhere; campus admin items never count.
+    from openroster.extract.classify import is_cs_relevant
+
+    assert is_cs_relevant("Free Soup. Download the app and fill in the web form for data.", "Free Soup") is False
+    assert is_cs_relevant("Info Session: Classics (MA)", "Info Session: Classics (MA)") is False
+    assert is_cs_relevant("Join our team for a weekend of building.", "WinterHacks 2026")
+    assert is_cs_relevant("A workshop on Python for beginners.", "Saturday workshop")
+    assert is_cs_relevant("Meet recruiters.", "Tech Career Night")
+    assert is_cs_relevant("Learn Brightspace tools.", "Brightspace for TAs: AI in grading") is False
+    assert is_cs_relevant("Students who code: join us", None) is False  # no title: strong words only

@@ -41,7 +41,7 @@ def parse_ics(text: str, source: Source, now: datetime | None = None) -> Adapter
         desc = clean(str(ev.get("DESCRIPTION", "")))
         loc = clean(str(ev.get("LOCATION", "")))
         text = f"{title} {desc} {loc}"
-        if not title or not keep(source, text):
+        if not title or not keep(source, text, title):
             continue
         start, all_day = _as_dt(ev.decoded("DTSTART"), cal_tz)
         end = None
