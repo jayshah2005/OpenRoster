@@ -1,3 +1,6 @@
+# Dependency updates, batched so there are at most two PRs per ecosystem each week:
+# minor/patch updates in one PR (auto-merged once CI passes, see workflows/automerge.yml) and
+# major upgrades in another PR for a person to review. GitHub Actions updates come as one PR.
 version: 2
 updates:
   - package-ecosystem: uv
@@ -5,14 +8,27 @@ updates:
     schedule: {interval: weekly}
     labels: [dependencies]
     groups:
-      python: {patterns: ["*"], update-types: [minor, patch]}
+      python:
+        patterns: ["*"]
+        update-types: [minor, patch]
+      python-major:
+        patterns: ["*"]
+        update-types: [major]
   - package-ecosystem: npm
     directory: /web
     schedule: {interval: weekly}
     labels: [dependencies]
     groups:
-      web: {patterns: ["*"], update-types: [minor, patch]}
+      web:
+        patterns: ["*"]
+        update-types: [minor, patch]
+      web-major:
+        patterns: ["*"]
+        update-types: [major]
   - package-ecosystem: github-actions
     directory: /
     schedule: {interval: weekly}
     labels: [dependencies]
+    groups:
+      actions:
+        patterns: ["*"]
