@@ -37,7 +37,7 @@ or push when the user asks. A PreToolUse hook (`.claude/hooks/check_git_conventi
 
 ## Hard rules (never break, never weaken)
 
-- **Free only.** No paid APIs or hosting. The scraper and site use no AI. AI jobs (`.github/workflows/ai.yml`) are advisory: they never fetch the web, never merge, and their output is a PR or comment.
+- **Free only.** No paid APIs or hosting. The scraper and site use no AI. AI jobs (`.github/workflows/ai.yml`, `discover.yml`) are advisory: they never fetch web pages (the weekly discovery agent may use web *search*), never merge, and their output is a PR or comment that a person merges.
 - **Fetching.** All network access goes through `openroster/fetch.py`:
   - honest User-Agent with the repo URL and contact address
   - ≥ 2 s per host, or robots.txt Crawl-delay if longer, with no parallel requests to one host
