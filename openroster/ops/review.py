@@ -34,7 +34,7 @@ def _dump(path: Path, entries: list[dict], header: str) -> None:
     store.write_if_changed(path, text)
 
 
-def write_review() -> Path:
+def write_review() -> tuple[Path, int]:
     queue = store.load_json(store.REVIEW / "queue.json", {})
     ignored: list[str] = store.load_json(IGNORED, [])
     pending = _load(PENDING)
@@ -109,4 +109,5 @@ def write_review() -> Path:
         lines.append("")
     REPORT.parent.mkdir(parents=True, exist_ok=True)
     store.write_if_changed(REPORT, "\n".join(lines) + "\n")
-    return REPORT
+    to_review = len(still) + len(dupes) + len(missing) + len(calls)
+    return REPORT, to_review

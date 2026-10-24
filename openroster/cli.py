@@ -82,8 +82,11 @@ def cmd_health(a: argparse.Namespace) -> int:
 def cmd_review(a: argparse.Namespace) -> int:
     from .ops.review import write_review
 
-    path = write_review()
-    print(f"wrote {path}")
+    path, pending = write_review()
+    print(f"wrote {path.relative_to(ROOT)}: {pending} item(s) to review")
+    if a.github_output:  # lets the workflow skip the PR when there is nothing to review
+        with open(a.github_output, "a") as fh:
+            fh.write(f"pending={pending}\n")
     return 0
 
 
@@ -181,6 +184,7 @@ def main(argv: list[str] | None = None) -> int:
     s.set_defaults(fn=cmd_suggest)
 
     s = sub.add_parser("review", help="write the review file for the daily review PR")
+    s.add_argument("--github-output", help="append pending=<n> to this file (GitHub Actions step output)")
     s.set_defaults(fn=cmd_review)
 
     s = sub.add_parser("submission", help="parse and validate an issue-form body")
