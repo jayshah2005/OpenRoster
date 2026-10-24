@@ -76,11 +76,10 @@ jobs:
 
             Closes #${{ github.event.issue.number }}
           commit-message: "${{ steps.kind.outputs.message }}"
+          # Directories, not files: a listed file that does not exist makes the action fail.
           add-paths: |
-            config/submissions/*.yaml
-            config/overrides.yaml
-            config/known_verdicts.yaml
-            data/takedowns.json
+            config
+            data
           labels: ${{ steps.kind.outputs.kind }}
           delete-branch: true
       - name: Run CI on the PR

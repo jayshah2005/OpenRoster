@@ -89,10 +89,9 @@ jobs:
           title: "Weekly discovery: new sources and events"
           body-path: ${{ runner.temp }}/body.md
           commit-message: "feat/config: add weekly discovered sources"
+          # Directories, not files: a listed file that does not exist makes the action fail.
           add-paths: |
-            config/sources/discovered.yaml
-            config/hackathons.yaml
-            config/manual/discovered.yaml
+            config
           labels: source-suggestion
       - name: Run CI on the PR
         if: steps.pr.outputs.pull-request-number
