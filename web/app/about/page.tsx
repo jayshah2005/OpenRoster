@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { REPO_URL } from "@/lib/labels";
+import Link from "next/link";
+import { CONTACT_EMAIL, REPO_URL } from "@/lib/labels";
 
 export const metadata: Metadata = { title: "About" };
 
@@ -7,47 +8,60 @@ export default function AboutPage() {
   return (
     <article className="prose">
       <h1>About OpenRoster</h1>
-      <p>
-        OpenRoster collects opportunities for computer science students in one filterable place: hackathons, info
-        sessions, tech talks, career fairs, networking events, workshops, conferences, case competitions and
-        early-career programs, plus calls for volunteers, mentors, judges, organizers and workshop leads. It covers
-        Ontario first, then the rest of Canada and the US.
+      <p className="lede">
+        OpenRoster collects the events and programs that early-career computer science students usually hear about too
+        late: bank and tech company info sessions, student hackathons and their volunteer calls, career fairs, case
+        competitions, insight days and fellowships. It covers Ontario first, then the rest of Canada and the US.
       </p>
-      <h2>Where the data comes from</h2>
+      <p>
+        Event sites like Eventbrite and Luma carry some of this. Much of it lives elsewhere: on company careers pages,
+        campus calendars, club calendars and hackathon websites. OpenRoster checks those places every 6 hours and puts
+        what it finds in one list you can filter by school, distance, role and deadline.
+      </p>
+
+      <h2>Where listings come from</h2>
       <ul>
-        <li>Public calendar feeds (iCal) from schools, clubs and communities, including official Luma iCal links.</li>
-        <li>Public campus calendar APIs and pages that publish schema.org event data.</li>
-        <li>Public event pages from companies and organizations, read with per-site rules.</li>
-        <li>Hackathon websites, checked for dates and volunteer, mentor and judge calls.</li>
+        <li>Public calendar feeds from schools, clubs and student communities.</li>
+        <li>Campus event calendars and pages that publish structured event data.</li>
+        <li>Student event pages from companies, read with a separate set of rules for each site.</li>
+        <li>Hackathon websites, checked for dates and for volunteer, mentor and judge calls.</li>
         <li>
-          Hack Club&apos;s public hackathon list, which is mostly high-school events (credit:{" "}
+          Hack Club&apos;s public hackathon list, which is mostly high-school events (thanks to{" "}
           <a href="https://hackathons.hackclub.com">hackathons.hackclub.com</a>).
         </li>
-        <li>Submissions from students, clubs, organizers and companies, and a hand-curated list of programs.</li>
+        <li>Submissions from students, clubs, organizers and companies, and a weekly search for new sources.</li>
       </ul>
-      <h2>Rules we follow</h2>
-      <ul>
-        <li>
-          A person approves every source after an audit of its robots.txt and terms of use. Sites that forbid
-          automated access, need a login, or show a bot check are never scraped.
-        </li>
-        <li>The bot names itself, waits at least two seconds between requests to a site, and caches pages.</li>
-        <li>
-          We store facts only (title, organizer, dates, place, eligibility, deadlines) and a short summary in our own
-          words, and always link to the original. We copy no descriptions, images or logos.
-        </li>
-        <li>We store no personal data about attendees, speakers, organizers or volunteers.</li>
-        <li>Dates are read with fixed rules. An unclear date is never guessed; a person checks it first.</li>
-      </ul>
+
+      <h2>How we collect it</h2>
+      <p>
+        Before any site is read, we check its robots.txt and its terms of use, and a maintainer approves it. Sites that
+        forbid automated access, need a login or show a bot check are left alone; their events can still be submitted by
+        hand. Our bot names itself, waits at least two seconds between requests to a site and reuses cached pages.
+      </p>
+      <p>
+        We keep only the facts (title, organizer, dates, place, eligibility and deadlines) and a short summary in our own
+        words, and we always link to the original page. We do not copy descriptions, images or logos, and we do not store
+        names or contact details of attendees, speakers or organizers. Dates are read with fixed rules. When a date is
+        unclear, a person checks it before the listing appears.
+      </p>
+
       <h2>Privacy</h2>
       <p>
-        No accounts, analytics or tracking cookies. Filters live only in the page address. Your dark-mode choice is
-        stored in your browser.
+        There are no accounts, analytics or tracking cookies. Your filters live in the page address and your dark mode
+        choice stays in your browser.
       </p>
+
+      <h2>Who runs it</h2>
+      <p>
+        OpenRoster was started by a computer science student at Brock University and is open source. Questions and
+        removal requests go to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. To help, see{" "}
+        <Link href="/contribute/">Contribute</Link> or the code at <a href={REPO_URL}>{REPO_URL.replace("https://", "")}</a>.
+      </p>
+
       <h2>Credits</h2>
       <p>
-        Place names and coordinates: <a href="https://www.geonames.org/">GeoNames</a> (CC BY 4.0). OpenRoster is open
-        source: <a href={REPO_URL}>{REPO_URL}</a>.
+        Place names and coordinates come from <a href="https://www.geonames.org/">GeoNames</a> (CC BY 4.0). Code is MIT
+        licensed.
       </p>
     </article>
   );

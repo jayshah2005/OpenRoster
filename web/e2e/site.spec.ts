@@ -43,7 +43,7 @@ test("filtered views offer a matching feed", async ({ page, request }) => {
   expect(await res.text()).toContain("BEGIN:VCALENDAR");
 });
 
-for (const path of ["/", "/calendar/", "/about/"]) {
+for (const path of ["/", "/calendar/", "/about/", "/start/", "/programs/", "/contribute/", "/data/"]) {
   for (const scheme of ["light", "dark"] as const) {
     test(`no serious accessibility problems on ${path} (${scheme})`, async ({ browser }) => {
       const page = await (await browser.newContext({ colorScheme: scheme })).newPage();

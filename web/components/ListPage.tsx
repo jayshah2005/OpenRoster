@@ -11,7 +11,7 @@ export const PAGE_SIZE = 100;
 
 type Props = {
   title: string;
-  intro?: string;
+  intro?: React.ReactNode;
   items: Entry[];
   total: number;
   page?: number;
@@ -44,8 +44,13 @@ export function ListPage({ title, intro, items, total, page = 1, pages = 1, feed
       <section className="intro">
         <h1>{title}</h1>
         <p>
-          {intro ??
-            "Hackathons, info sessions, tech talks, career fairs and early-career programs for CS students, plus volunteer, mentor and judge calls. Soonest deadline first."}
+          {intro ?? (
+            <>
+              Hackathons, info sessions, career fairs, workshops and early-career programs for CS students, plus calls for
+              volunteers, mentors and judges. The nearest application deadline is first. New here?{" "}
+              <Link href="/start/">Start with the guide</Link>.
+            </>
+          )}
         </p>
       </section>
       <Suspense fallback={<FilterFormFallback />}>

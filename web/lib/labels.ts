@@ -1,6 +1,8 @@
 export const SITE_NAME = "OpenRoster";
 export const REPO_URL = "https://github.com/jayshah2005/OpenRoster";
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://openroster.vercel.app").replace(/\/$/, "");
+/** Public contact address for takedowns and people without a GitHub account. */
+export const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "openroster@jayshah.xyz";
 
 export const TYPE_LABEL: Record<string, string> = {
   hackathon: "Hackathon",
@@ -57,6 +59,18 @@ export const REGION_LABEL: Record<string, string> = {
   "CA-ON": "Ontario", "CA-QC": "Quebec", "CA-BC": "British Columbia", "CA-AB": "Alberta", "CA-MB": "Manitoba",
   "CA-SK": "Saskatchewan", "CA-NS": "Nova Scotia", "CA-NB": "New Brunswick", "CA-NL": "Newfoundland and Labrador",
   "CA-PE": "Prince Edward Island", "CA-YT": "Yukon", "CA-NT": "Northwest Territories", "CA-NU": "Nunavut",
+};
+
+/** Audience tags set by the pipeline's keyword rules (openroster/extract/classify.py), shown as "Who it's for". */
+export const AUDIENCE_LABEL: Record<string, string> = {
+  first_year: "First-year students",
+  second_year: "Second-year students",
+  beginner_friendly: "Beginners welcome",
+  women_nonbinary: "Women and non-binary students",
+  black_students: "Black students",
+  indigenous_students: "Indigenous students",
+  lgbtq: "2SLGBTQIA+ students",
+  high_school: "High-school students",
 };
 
 export const COUNTRY_LABEL: Record<string, string> = { CA: "Canada", US: "United States" };

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: { default: `${SITE_NAME}: opportunities for CS students`, template: `%s · ${SITE_NAME}` },
   description:
-    "Hackathons, info sessions, tech talks, career fairs and early-career programs for computer science students in Ontario and across Canada, in one place.",
+    "Hackathons, info sessions, career fairs, workshops and early-career programs for computer science students in Ontario and across Canada, with deadlines first.",
   alternates: { types: { "application/rss+xml": "/feeds/all.rss" } },
 };
 
@@ -40,11 +40,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link className="brand" href="/">Open<span>Roster</span></Link>
             <nav aria-label="Main">
               <ul>
-                <li><Link href="/">List</Link></li>
+                <li><Link href="/">Opportunities</Link></li>
                 <li><Link href="/calendar/">Calendar</Link></li>
                 <li><Link href="/digest/">This week</Link></li>
-                <li><Link href="/submit/">Submit</Link></li>
-                <li><Link href="/about/">About</Link></li>
+                <li><Link href="/programs/">Programs</Link></li>
+                <li><Link href="/start/">Start here</Link></li>
+                <li><Link href="/contribute/">Contribute</Link></li>
               </ul>
             </nav>
             <ThemeToggle />
@@ -54,13 +55,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="site-footer">
           <div className="wrap">
             <p>
-              OpenRoster lists facts and links to the original pages. Data refreshes every 6 hours; last update{" "}
-              {fmtDateTime(meta.built)}.
+              OpenRoster lists the facts and links to each organizer&apos;s page. Listings refresh every 6 hours; last
+              update {fmtDateTime(meta.built)}.
             </p>
             <p>
-              <Link href="/also-useful/">Also useful</Link> · <Link href="/archive/">Past events</Link> ·{" "}
-              <Link href="/takedown/">Takedown requests</Link> · <a href={REPO_URL}>Source code</a> ·{" "}
-              <a href="/feeds/all.rss">RSS</a> · <a href="/feeds/all.ics">Calendar feed</a>
+              <Link href="/about/">About</Link> · <Link href="/data/">Data and feeds</Link> ·{" "}
+              <Link href="/also-useful/">Internship lists</Link> · <Link href="/archive/">Past events</Link> ·{" "}
+              <Link href="/takedown/">Remove a listing</Link> · <a href={REPO_URL}>GitHub</a> ·{" "}
+              <a href={`${REPO_URL}/blob/main/LISTINGS.md`}>LISTINGS.md</a>
             </p>
           </div>
         </footer>

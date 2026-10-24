@@ -87,3 +87,18 @@ export interface Link {
   url: string;
   description: string;
 }
+
+/** A recurring early-career program from config/programs.yaml. Dates change yearly, so it links out. */
+export interface Program {
+  name: string;
+  organization: string | null;
+  url: string;
+  kind: string;
+  timing: string | null;
+  who: string;
+  /** Years of study it targets; 0 means high school. Empty when the program does not say. */
+  years: number[];
+  link_only: boolean;
+  notes: string | null;
+  checked: string;
+}

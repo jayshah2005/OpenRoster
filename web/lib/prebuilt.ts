@@ -1,7 +1,7 @@
 // Prebuilt (static) feeds: all, each type/role/region/school, type×role and role×region.
 // Any other filter combination is served by /api/feed.{ics,rss}, which shares lib/filter.ts.
 import { facets, liveEntries, meta } from "./data";
-import { selectFacet } from "./facetPages";
+import { facetValues, selectFacet } from "./facetPages";
 import type { Entry } from "./types";
 
 export function prebuiltFeeds(): Map<string, Entry[]> {
@@ -13,8 +13,8 @@ export function prebuiltFeeds(): Map<string, Entry[]> {
     ["digest", liveEntries.filter((e) => e.first_seen >= since(7))],
     ["new-today", liveEntries.filter((e) => e.first_seen >= since(1))],
   ]);
-  for (const t of fx.type) feeds.set(`type-${t}`, selectFacet("type", t));
-  for (const r of fx.role) feeds.set(`role-${r}`, selectFacet("role", r));
+  for (const t of facetValues("type")) feeds.set(`type-${t}`, selectFacet("type", t));
+  for (const r of facetValues("role")) feeds.set(`role-${r}`, selectFacet("role", r));
   for (const rg of fx.region) feeds.set(`region-${rg}`, selectFacet("region", rg));
   for (const s of fx.school) feeds.set(`school-${s}`, selectFacet("school", s));
   for (const t of fx.type) {

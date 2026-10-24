@@ -27,7 +27,7 @@ export function fmtWhen(o: { start: string; end: string | null; timezone: string
   if (o.all_day) {
     const s = parts(o.start, tz, { weekday: "short", month: "short", day: "numeric", year: "numeric" });
     if (o.end && !sameDay) {
-      return `${parts(o.start, tz, { weekday: "short", month: "short", day: "numeric" })} – ${parts(o.end, tz, {
+      return `${parts(o.start, tz, { weekday: "short", month: "short", day: "numeric" })} to ${parts(o.end, tz, {
         weekday: "short", month: "short", day: "numeric", year: "numeric" })}`;
     }
     return s;
@@ -40,7 +40,7 @@ export function fmtWhen(o: { start: string; end: string | null; timezone: string
   const end = sameDay
     ? parts(o.end, tz, { hour: "numeric", minute: "2-digit" })
     : parts(o.end, tz, { weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
-  return `${start} – ${end} ${zone}`;
+  return `${start} to ${end} ${zone}`;
 }
 
 /** Monday (YYYY-MM-DD) of the week containing iso, in Toronto time. */

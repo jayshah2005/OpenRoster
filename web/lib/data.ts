@@ -4,9 +4,10 @@ import archiveJson from "@/generated/archive.json";
 import alsoUsefulJson from "@/generated/also-useful.json";
 import indexJson from "@/generated/index.json";
 import metaJson from "@/generated/meta.json";
+import programsJson from "@/generated/programs.json";
 import recordsJson from "@/generated/records.json";
 import schoolsJson from "@/generated/schools.json";
-import type { Entry, Link, Opportunity, School } from "./types";
+import type { Entry, Link, Opportunity, Program, School } from "./types";
 
 const records = recordsJson as unknown as Opportunity[];
 const archive = archiveJson as unknown as Opportunity[];
@@ -16,6 +17,8 @@ export const entries = indexJson as unknown as Entry[];
 export const schools = schoolsJson as School[];
 export const schoolById = new Map(schools.map((s) => [s.id, s]));
 export const alsoUseful = alsoUsefulJson as Link[];
+/** Recurring early-career programs from config/programs.yaml (hand-curated). */
+export const programs = programsJson as Program[];
 
 /** Soonest open deadline first, then start time. */
 export function sortKey(o: { roles: { closes: string | null; status: string }[]; start: string }): string {

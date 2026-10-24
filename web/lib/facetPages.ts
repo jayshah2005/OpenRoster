@@ -36,9 +36,12 @@ export function facetTitle(kind: FacetKind, value: string): string {
 }
 
 export function facetValues(kind: FacetKind): string[] {
+  // Every type and role always gets a page (and a feed), even with no listings yet, so links never break.
+  if (kind === "type") return Object.keys(TYPE_PLURAL);
+  if (kind === "role") return Object.keys(ROLE_LABEL);
   const values = facets()[kind];
   // ensureStatic requires at least one param set even before any data exists.
-  return values.length ? values : [kind === "type" ? "hackathon" : kind === "role" ? "participant" : kind === "region" ? "CA-ON" : "brock"];
+  return values.length ? values : [kind === "region" ? "CA-ON" : "brock"];
 }
 
 export function baseQueryFor(kind: FacetKind, value: string): string {

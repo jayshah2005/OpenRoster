@@ -37,6 +37,7 @@ const schools = readYaml(join(root, "config", "schools.yaml"), "schools").map((s
   campuses: (s.campuses ?? []).map((c) => ({ name: c.name ?? "", city: c.city ?? null })),
 }));
 const alsoUseful = readYaml(join(root, "config", "also_useful.yaml"), "links");
+const programs = readYaml(join(root, "config", "programs.yaml"), "programs");
 
 // Compact entry: everything the list, filters and feeds need, without history or evidence.
 const compact = (o) => ({
@@ -72,6 +73,7 @@ writeFileSync(join(gen, "archive.json"), JSON.stringify(archive));
 writeFileSync(join(gen, "index.json"), JSON.stringify(index));
 writeFileSync(join(gen, "schools.json"), JSON.stringify(schools));
 writeFileSync(join(gen, "also-useful.json"), JSON.stringify(alsoUseful));
+writeFileSync(join(gen, "programs.json"), JSON.stringify(programs));
 writeFileSync(join(gen, "meta.json"), JSON.stringify({ built, count: index.length }));
 
 // Client index: one file while small, split by month once large so the first load stays light.
