@@ -8,14 +8,14 @@ OpenRoster lists the events and programs that early-career computer science stud
 
 It covers Ontario first, then the rest of Canada and the US. Everything is free, sorted by the nearest deadline, and linked to the organizer's own page.
 
-**Site:** https://openroster.vercel.app · **Browse on GitHub:** [LISTINGS.md](LISTINGS.md) · **Add something:** [submission form](../../issues/new?template=submit-opportunity.yml)
+**Site:** https://openroster-seven.vercel.app · **Browse on GitHub:** [LISTINGS.md](LISTINGS.md) · **Add something:** [submission form](../../issues/new?template=submit-opportunity.yml)
 
 ## What you can do with it
 
 - **Filter the list:** by what you want to do (attend, volunteer, mentor, judge), type, school or distance from a campus, date, eligibility, and who an event is for (first-year students, beginners, women and non-binary students and more). Filters live in the address, so any view can be bookmarked or shared.
 - **Subscribe:** every view has a calendar feed. Events appear in Google Calendar, Apple Calendar or Outlook on their own, with an "Apply by" reminder the day before each deadline. RSS and a weekly digest are there too.
-- **Read the guides:** the [Start here guide](https://openroster.vercel.app/start/) explains each kind of opportunity and how to prepare. The [programs directory](https://openroster.vercel.app/programs/) lists insight days, first- and second-year programs, fellowships and scholarships that come back every year.
-- **Use the data:** calendar feeds, RSS and JSON are documented on the [data page](https://openroster.vercel.app/data/).
+- **Read the guides:** the [Start here guide](https://openroster-seven.vercel.app/start/) explains each kind of opportunity and how to prepare. The [programs directory](https://openroster-seven.vercel.app/programs/) lists insight days, first- and second-year programs, fellowships and scholarships that come back every year.
+- **Use the data:** calendar feeds, RSS and JSON are documented on the [data page](https://openroster-seven.vercel.app/data/).
 
 ## How it works
 
@@ -60,4 +60,4 @@ You can add events, share calendars and fix listings without writing code, from 
 | [docs/decisions.md](docs/decisions.md) | Why things are built the way they are |
 | [reports/source-audit.md](reports/source-audit.md) | The audit of every configured source |
 
-Place names come from [GeoNames](https://www.geonames.org/) (CC BY 4.0). Some hackathon listings come from [Hack Club](https://hackathons.hackclub.com). Code is MIT licensed.
+Place names come from [GeoNames](https://www.geonames.org/) (CC BY 4.0). Some hackathon listings come from [Hack Club](https://hackathons.hackclub.com).
