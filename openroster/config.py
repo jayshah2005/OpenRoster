@@ -19,7 +19,7 @@ GEO = ROOT / "data" / "geo"
 
 REPO_URL = "https://github.com/jayshah2005/OpenRoster"
 # The contact address is public. It is read from the environment so it can be set before the alias exists.
-CONTACT = os.environ.get("OPENROSTER_CONTACT", "")
+CONTACT = os.environ.get("OPENROSTER_CONTACT") or "openroster@jayshah.xyz"
 
 
 def user_agent() -> str:
