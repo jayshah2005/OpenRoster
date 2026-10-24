@@ -98,6 +98,14 @@ def cmd_submission(a: argparse.Namespace) -> int:
     return 0 if result["ok"] else 1
 
 
+def cmd_discover(a: argparse.Namespace) -> int:
+    from .discover import discover, write
+
+    counts = write(discover())
+    print(f"discovered {counts['sources']} new feed(s) and {counts['hackathons']} new hackathon site(s); see reports/discovery.md")
+    return 0
+
+
 def cmd_propose(a: argparse.Namespace) -> int:
     from .ops.approvals import propose
 
@@ -150,6 +158,9 @@ def main(argv: list[str] | None = None) -> int:
     s.add_argument("--sync", action="store_true")
     s.add_argument("--dry-run", action="store_true")
     s.set_defaults(fn=cmd_health)
+
+    s = sub.add_parser("discover", help="propose new sources from audits and existing data (no network)")
+    s.set_defaults(fn=cmd_discover)
 
     s = sub.add_parser("propose-approvals", help="set reviewed: true on audited-allowed sources (for the sign-off PR)")
     s.set_defaults(fn=cmd_propose)
