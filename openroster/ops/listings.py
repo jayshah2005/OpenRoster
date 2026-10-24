@@ -11,7 +11,7 @@ from ..model import Opportunity
 from ..pipeline import store
 
 LISTINGS = ROOT / "LISTINGS.md"
-SITE = "https://openroster.vercel.app"
+SITE = "https://openroster-seven.vercel.app"
 TYPE = {
     "hackathon": "Hackathon", "info_session": "Info session", "tech_talk": "Tech talk", "career_fair": "Career fair",
     "networking": "Networking", "workshop": "Workshop", "conference": "Conference",

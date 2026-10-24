@@ -1,7 +1,7 @@
 // Site constants and the human-readable labels for every enum value in the data.
 export const SITE_NAME = "OpenRoster";
 export const REPO_URL = "https://github.com/jayshah2005/OpenRoster";
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://openroster.vercel.app").replace(/\/$/, "");
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://openroster-seven.vercel.app").replace(/\/$/, "");
 /** Public contact address for takedowns and people without a GitHub account. */
 export const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "openroster@jayshah.xyz";
 

@@ -145,7 +145,7 @@ def test_takedown_by_listing_and_by_site(tmp_path, monkeypatch):
     from openroster.pipeline import store
 
     monkeypatch.setattr(store, "TAKEDOWNS", tmp_path / "takedowns.json")
-    r1 = parse_issue("### Listing link or site address\n\nhttps://openroster.vercel.app/o/2026-11-x-ab12/\n\n"
+    r1 = parse_issue("### Listing link or site address\n\nhttps://openroster-seven.vercel.app/o/2026-11-x-ab12/\n\n"
                      "### Your relationship to it\n\nI organize this event", kind="takedown", write=True)
     r2 = parse_issue("### Listing link or site address\n\nwww.example.com\n\n### Your relationship to it\n\nI run this site",
                      kind="takedown", write=True)
