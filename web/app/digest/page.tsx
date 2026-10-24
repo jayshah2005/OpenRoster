@@ -1,12 +1,29 @@
 // /digest/: this week's deadlines, events and new listings, rebuilt with every data refresh.
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { CardList, nextDeadline } from "@/components/Card";
-import { liveEntries, meta } from "@/lib/data";
-import { weekOf } from "@/lib/format";
+import { FilterForm, FilterFormFallback } from "@/components/FilterForm";
+import { Results } from "@/components/Results";
+import { facets, liveEntries, meta, schools } from "@/lib/data";
+import type { Entry } from "@/lib/types";
+import { fmtDate, weekOf } from "@/lib/format";
 
 export const metadata: Metadata = { title: "This week" };
 
 const DAY = 86_400_000;
+
+// One digest section: the full list from the build, narrowed in the browser when filters are set.
+function Section({ id, title, items, now }: { id: string; title: string; items: Entry[]; now: string }) {
+  const list = <CardList items={items} nowIso={now} />;
+  return (
+    <section aria-labelledby={id}>
+      <h2 id={id}>{title} ({items.length})</h2>
+      <Suspense fallback={list}>
+        <Results within={items.map((e) => e.id)}>{list}</Results>
+      </Suspense>
+    </section>
+  );
+}
 
 export default function DigestPage() {
   // "Now" is the data build time: the page is rebuilt on every data refresh (every 6 hours).
@@ -30,23 +47,17 @@ export default function DigestPage() {
 
   return (
     <>
-      <h1>This week · week of {monday}</h1>
-      <p>
-        Deadlines first. Updated with every data refresh. <a href="/feeds/digest.rss">RSS for new listings</a> ·{" "}
+      <h1>This week</h1>
+      <p className="lede">
+        Week of {fmtDate(`${monday}T12:00:00Z`)}. Deadlines first, updated with every data refresh. <a href="/feeds/digest.rss">RSS for new listings</a> ·{" "}
         <a href="/feeds/new-today.rss">New today (RSS)</a>
       </p>
-      <section aria-labelledby="dl-h">
-        <h2 id="dl-h">Deadlines in the next 14 days ({deadlines.length})</h2>
-        <CardList items={deadlines} nowIso={now} />
-      </section>
-      <section aria-labelledby="wk-h">
-        <h2 id="wk-h">Happening this week ({thisWeek.length})</h2>
-        <CardList items={thisWeek} nowIso={now} />
-      </section>
-      <section aria-labelledby="new-h">
-        <h2 id="new-h">New this week ({fresh.length})</h2>
-        <CardList items={fresh} nowIso={now} />
-      </section>
+      <Suspense fallback={<FilterFormFallback />}>
+        <FilterForm facets={facets()} schoolNames={Object.fromEntries(schools.map((x) => [x.id, x.name]))} />
+      </Suspense>
+      <Section id="dl-h" title="Deadlines in the next 14 days" items={deadlines} now={now} />
+      <Section id="wk-h" title="Happening this week" items={thisWeek} now={now} />
+      <Section id="new-h" title="New this week" items={fresh} now={now} />
     </>
   );
 }

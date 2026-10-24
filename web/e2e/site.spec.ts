@@ -20,9 +20,36 @@ test("a filtered URL reproduces the same view in a fresh browser (AC4)", async (
 
 test("changing a filter updates the URL", async ({ page }) => {
   await page.goto("/");
-  await page.getByLabel("Type").selectOption("hackathon");
+  const type = page.getByRole("combobox", { name: "Type" });
+  await type.fill("hack");
+  await expect(page.getByRole("option", { name: "Hackathon" })).toBeVisible();
+  await type.press("Enter");
   await expect(page).toHaveURL(/type=hackathon/);
   await expect(page.locator(".result-count")).toContainText("match");
+  await expect(type).toHaveValue("Hackathon");
+});
+
+test("dropdowns can be picked with the mouse and cleared", async ({ page }) => {
+  await page.goto("/");
+  await page.getByRole("combobox", { name: "I want to" }).click();
+  await page.getByRole("option", { name: "volunteer" }).click();
+  await expect(page).toHaveURL(/role=volunteer/);
+  await page.getByRole("combobox", { name: "I want to" }).click();
+  await page.getByRole("option", { name: "do anything" }).click();
+  await expect(page).not.toHaveURL(/role=/);
+});
+
+test("the digest and programs pages have filters", async ({ page }) => {
+  await page.goto("/digest/");
+  await expect(page.getByRole("search", { name: "Filter opportunities" })).toBeVisible();
+  await page.goto("/programs/");
+  const total = await page.locator(".programs .card").count();
+  expect(total).toBeGreaterThan(0);
+  await page.getByRole("combobox", { name: "My year" }).fill("first");
+  await page.getByRole("combobox", { name: "My year" }).press("Enter");
+  const firstYear = await page.locator(".programs .card").count();
+  expect(firstYear).toBeGreaterThan(0);
+  expect(firstYear).toBeLessThan(total);
 });
 
 test("the list works without JavaScript", async ({ browser }) => {

@@ -169,15 +169,35 @@ pre code { background: none; padding: 0; }
 .filters { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; box-shadow: var(--shadow); }
 .filter-row { display: flex; gap: 10px; flex-wrap: wrap; align-items: flex-end; }
 .filter-row .grow { flex: 1 1 280px; }
-.filters label { display: flex; flex-direction: column; gap: 6px; font-size: .78rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; min-width: 150px; }
-.filters input, .filters select {
+.filters label, .filters .combo { display: flex; flex-direction: column; gap: 6px; font-size: .78rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; min-width: 150px; }
+.filters input {
   font: inherit; font-size: .95rem; font-weight: 450; text-transform: none; letter-spacing: 0; color: var(--text);
   background: var(--bg-soft); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 10px 12px; min-height: 44px; width: 100%;
 }
-.filters input:hover, .filters select:hover { border-color: var(--border-strong); }
-.filters input:focus, .filters select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
-.filters select:disabled { opacity: .5; }
-@media (max-width: 560px) { .filters label:not(.check) { flex: 1 1 100%; } }
+.filters input:hover { border-color: var(--border-strong); }
+.filters input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.filters input:disabled { opacity: .5; cursor: not-allowed; }
+@media (max-width: 560px) { .filters label:not(.check), .filters .combo { flex: 1 1 100%; } }
+
+/* Combobox: a text field with a list that narrows as you type */
+.filters .combo { position: relative; }
+.filters .combo > label { min-width: 0; }
+.combo-field { position: relative; display: flex; align-items: center; }
+.combo-field input { padding-right: 36px; cursor: pointer; text-overflow: ellipsis; }
+.combo-field input:focus { cursor: text; }
+.combo-caret { position: absolute; right: 12px; color: var(--faint); pointer-events: none; transition: transform .15s ease; }
+.combo[data-open] .combo-caret { transform: rotate(180deg); }
+.combo-list {
+  position: absolute; z-index: 30; top: calc(100% + 6px); left: 0; right: 0; min-width: 200px; max-height: 280px; overflow-y: auto;
+  margin: 0; padding: 6px; list-style: none; background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); box-shadow: 0 12px 32px rgb(0 0 0 / .14);
+  font-size: .95rem; font-weight: 450; text-transform: none; letter-spacing: 0; color: var(--text);
+}
+.combo-list li { padding: 8px 10px; border-radius: 6px; cursor: pointer; }
+.combo-list li[data-active] { background: var(--surface-2); }
+.combo-list li[aria-selected="true"] { color: var(--link); font-weight: 600; }
+.combo-list li:first-child { color: var(--muted); }
+.combo-list .combo-none { color: var(--faint); cursor: default; }
 .search-field { position: relative; display: flex; align-items: center; }
 .search-field .icon { position: absolute; left: 14px; color: var(--faint); pointer-events: none; }
 .search-field input { padding-left: 42px; font-size: 1rem; }
@@ -196,6 +216,7 @@ pre code { background: none; padding: 0; }
 .more-filters summary::-webkit-details-marker { display: none; }
 .filter-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; margin-top: 12px; }
 .filter-actions { display: flex; gap: 12px; align-items: center; margin-top: 10px; }
+.filters + .result-count { margin: 16px 0 12px; }
 .filters-static .hint { margin: 0; color: var(--muted); font-size: .92rem; }
 
 /* Results */

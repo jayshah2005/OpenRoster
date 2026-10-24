@@ -5,6 +5,7 @@ import { type ChangeEvent, type FormEvent, useRef, useState } from "react";
 import { type Filters, parseFilters, toQuery } from "@/lib/filter";
 import { AUDIENCE_LABEL, COUNTRY_LABEL, ELIG_LABEL, MODE_LABEL, REGION_LABEL, TYPE_LABEL } from "@/lib/labels";
 import type { Facets } from "@/lib/data";
+import { Combobox } from "./Combobox";
 import { Icon } from "./Icon";
 
 type Props = { facets: Facets; schoolNames: Record<string, string> };
@@ -13,6 +14,8 @@ const ROLE_OPTIONS: [string, string][] = [
   ["participant", "attend"], ["volunteer", "volunteer"], ["mentor", "mentor"], ["judge", "judge"],
   ["organizer_team", "organize"], ["workshop_lead", "lead a workshop"],
 ];
+const DEADLINE_OPTIONS: [string, string][] = [3, 7, 14, 30].map((d) => [String(d), `${d} days`]);
+const KM_OPTIONS: [string, string][] = [25, 50, 100].map((k) => [String(k), `within ${k} km`]);
 
 export function FilterForm({ facets, schoolNames }: Props) {
   const router = useRouter();
@@ -36,12 +39,9 @@ export function FilterForm({ facets, schoolNames }: Props) {
     router.replace(next ? `${pathname}?${next}` : pathname, { scroll: false });
   }
 
-  const sel = (key: keyof Filters) => (ev: ChangeEvent<HTMLSelectElement | HTMLInputElement>) => {
-    const v = ev.target.value;
-    if (["type", "role", "mode", "elig", "audience"].includes(key)) update({ [key]: v ? [v] : [] } as Partial<Filters>);
-    else if (key === "deadline" || key === "km") update({ [key]: v ? Number(v) : null } as Partial<Filters>);
-    else update({ [key]: v } as Partial<Filters>);
-  };
+  // Single-pick fields that the URL stores as lists (type=hackathon,workshop is still valid in a shared link).
+  const pickList = (key: "type" | "role" | "mode" | "elig" | "audience") => (v: string) =>
+    update({ [key]: v ? [v] : [] });
 
   function onSearch(ev: ChangeEvent<HTMLInputElement>) {
     setQ(ev.target.value);
@@ -65,20 +65,10 @@ export function FilterForm({ facets, schoolNames }: Props) {
             <input type="search" name="q" value={q} onChange={onSearch} placeholder="Search hackathons, companies, schools…" autoComplete="off" />
           </span>
         </label>
-        <label>
-          I want to
-          <select name="role" value={f.role[0] ?? ""} onChange={sel("role")}>
-            <option value="">do anything</option>
-            {ROLE_OPTIONS.map(([v, l]) => <option key={v} value={v}>{l}</option>)}
-          </select>
-        </label>
-        <label>
-          Type
-          <select name="type" value={f.type[0] ?? ""} onChange={sel("type")}>
-            <option value="">all types</option>
-            {facets.type.map((t) => <option key={t} value={t}>{TYPE_LABEL[t]}</option>)}
-          </select>
-        </label>
+        <Combobox label="I want to" name="role" value={f.role[0] ?? ""} anyLabel="do anything"
+          options={ROLE_OPTIONS} onChange={pickList("role")} />
+        <Combobox label="Type" name="type" value={f.type[0] ?? ""} anyLabel="all types"
+          options={facets.type.map((t) => [t, TYPE_LABEL[t]])} onChange={pickList("type")} />
       </div>
       <label className="check">
         <input type="checkbox" name="open" checked={f.open} onChange={(ev) => update({ open: ev.target.checked })} />
@@ -87,72 +77,27 @@ export function FilterForm({ facets, schoolNames }: Props) {
       <details className="more-filters" open={advancedSet || undefined}>
         <summary>More filters</summary>
         <div className="filter-grid">
-          <label>From<input type="date" name="from" value={f.from} onChange={sel("from")} /></label>
-          <label>To<input type="date" name="to" value={f.to} onChange={sel("to")} /></label>
-          <label>
-            Deadline within
-            <select name="deadline" value={f.deadline ?? ""} onChange={sel("deadline")}>
-              <option value="">any time</option>
-              {[3, 7, 14, 30].map((d) => <option key={d} value={d}>{d} days</option>)}
-            </select>
-          </label>
-          <label>
-            Mode
-            <select name="mode" value={f.mode[0] ?? ""} onChange={sel("mode")}>
-              <option value="">any</option>
-              {facets.mode.map((m) => <option key={m} value={m}>{MODE_LABEL[m]}</option>)}
-            </select>
-          </label>
-          <label>
-            Country
-            <select name="country" value={f.country} onChange={sel("country")}>
-              <option value="">any</option>
-              {facets.country.map((c) => <option key={c} value={c}>{COUNTRY_LABEL[c] ?? c}</option>)}
-            </select>
-          </label>
-          <label>
-            Province / state
-            <select name="region" value={f.region} onChange={sel("region")}>
-              <option value="">any</option>
-              {facets.region.map((r) => <option key={r} value={r}>{REGION_LABEL[r] ?? r}</option>)}
-            </select>
-          </label>
-          <label>
-            School
-            <select name="school" value={f.school} onChange={sel("school")}>
-              <option value="">any</option>
-              {facets.school.map((s) => <option key={s} value={s}>{schoolNames[s] ?? s}</option>)}
-            </select>
-          </label>
-          <label>
-            Distance
-            <select name="km" value={f.km ?? ""} onChange={sel("km")} disabled={!f.school}>
-              <option value="">open to its students</option>
-              {[25, 50, 100].map((k) => <option key={k} value={k}>within {k} km</option>)}
-            </select>
-          </label>
-          <label>
-            Who it&apos;s for
-            <select name="for" value={f.audience[0] ?? ""} onChange={sel("audience")}>
-              <option value="">everyone</option>
-              {Object.entries(AUDIENCE_LABEL).map(([v, l]) => <option key={v} value={v}>{l}</option>)}
-            </select>
-          </label>
-          <label>
-            Eligibility
-            <select name="elig" value={f.elig[0] ?? ""} onChange={sel("elig")}>
-              <option value="">any</option>
-              {facets.eligibility.map((e) => <option key={e} value={e}>{ELIG_LABEL[e]}</option>)}
-            </select>
-          </label>
-          <label>
-            Cost
-            <select name="cost" value={f.cost} onChange={sel("cost")}>
-              <option value="">any</option>
-              <option value="free">free</option>
-              <option value="paid">paid</option>
-            </select>
-          </label>
+          <label>From<input type="date" name="from" value={f.from} onChange={(ev) => update({ from: ev.target.value })} /></label>
+          <label>To<input type="date" name="to" value={f.to} onChange={(ev) => update({ to: ev.target.value })} /></label>
+          <Combobox label="Deadline within" name="deadline" value={String(f.deadline ?? "")} anyLabel="any time"
+            options={DEADLINE_OPTIONS} onChange={(v) => update({ deadline: v ? Number(v) : null })} />
+          <Combobox label="Mode" name="mode" value={f.mode[0] ?? ""} anyLabel="any"
+            options={facets.mode.map((m) => [m, MODE_LABEL[m]])} onChange={pickList("mode")} />
+          <Combobox label="Country" name="country" value={f.country} anyLabel="any"
+            options={facets.country.map((c) => [c, COUNTRY_LABEL[c] ?? c])} onChange={(v) => update({ country: v })} />
+          <Combobox label="Province / state" name="region" value={f.region} anyLabel="any"
+            options={facets.region.map((r) => [r, REGION_LABEL[r] ?? r])} onChange={(v) => update({ region: v })} />
+          <Combobox label="School" name="school" value={f.school} anyLabel="any"
+            options={facets.school.map((x) => [x, schoolNames[x] ?? x])}
+            onChange={(v) => update({ school: v, km: v ? f.km : null })} />
+          <Combobox label="Distance" name="km" value={String(f.km ?? "")} anyLabel="open to its students"
+            options={KM_OPTIONS} onChange={(v) => update({ km: v ? Number(v) : null })} disabled={!f.school} />
+          <Combobox label="Who it's for" name="for" value={f.audience[0] ?? ""} anyLabel="everyone"
+            options={Object.entries(AUDIENCE_LABEL)} onChange={pickList("audience")} />
+          <Combobox label="Eligibility" name="elig" value={f.elig[0] ?? ""} anyLabel="any"
+            options={facets.eligibility.map((e) => [e, ELIG_LABEL[e]])} onChange={pickList("elig")} />
+          <Combobox label="Cost" name="cost" value={f.cost} anyLabel="any"
+            options={[["free", "free"], ["paid", "paid"]]} onChange={(v) => update({ cost: v })} />
         </div>
       </details>
       <div className="filter-actions">
@@ -168,8 +113,8 @@ export function FilterFormFallback() {
   return (
     <div className="filters filters-static">
       <p className="hint">
-        Filters need JavaScript. You can still browse by type, role, region or school with the links at the bottom of
-        the page, or subscribe to a feed.
+        Filters need JavaScript. You can still browse by type, role, region or school from the links on the home page,
+        or subscribe to a feed.
       </p>
     </div>
   );

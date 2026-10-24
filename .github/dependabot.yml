@@ -25,6 +25,11 @@ updates:
       web-major:
         patterns: ["*"]
         update-types: [major]
+    ignore:
+      # typescript-eslint (used by eslint-config-next) refuses TypeScript 7 for now. Lift this once
+      # https://github.com/typescript-eslint/typescript-eslint/issues/10940 is resolved.
+      - dependency-name: typescript
+        versions: [">=7"]
   - package-ecosystem: github-actions
     directory: /
     schedule: {interval: weekly}

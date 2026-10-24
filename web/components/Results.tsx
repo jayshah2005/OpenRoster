@@ -11,8 +11,9 @@ import { useIndex } from "./useIndex";
 /**
  * With no filters in the URL, shows the server-rendered list it was given. With filters, loads the compact
  * index and renders the matching entries, so a shared URL reproduces the same view on any device.
+ * `within` limits the results to those ids, in that order (the digest's sections); those views have no feed.
  */
-export function Results({ children, baseQuery = "" }: { children: ReactNode; baseQuery?: string }) {
+export function Results({ children, baseQuery = "", within }: { children: ReactNode; baseQuery?: string; within?: string[] }) {
   const params = useSearchParams();
   const merged = new URLSearchParams(baseQuery);
   params.forEach((v, k) => merged.set(k, v));
@@ -22,14 +23,18 @@ export function Results({ children, baseQuery = "" }: { children: ReactNode; bas
 
   if (!active) return <>{children}</>;
   if (!index) return <p className="result-count" aria-live="polite">Loading…</p>;
-  const items = applyFilters(index, f, new Date());
+  let items = applyFilters(index, f, new Date());
+  if (within) {
+    const order = new Map(within.map((id, i) => [id, i]));
+    items = items.filter((e) => order.has(e.id)).sort((a, b) => order.get(a.id)! - order.get(b.id)!);
+  }
   return (
     <>
       <div className="results-bar">
         <p className="result-count" aria-live="polite">
           {items.length} {items.length === 1 ? "match" : "matches"}
         </p>
-        <SubscribeLinks query={toQuery(f)} />
+        {!within && <SubscribeLinks query={toQuery(f)} />}
       </div>
       <CardList items={items} nowIso={new Date().toISOString()} />
     </>
