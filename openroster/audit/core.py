@@ -83,6 +83,11 @@ def scan_terms(text: str) -> tuple[bool, bool, list[str]]:
     return bool(auto), bool(repub), (auto[:2] + repub[:2])
 
 
+def gen_hint(html: str) -> str:
+    m = re.search(r'<meta[^>]+name=["\']generator["\'][^>]+content=["\']([^"\']+)', html, re.I)
+    return m.group(1) if m else ""
+
+
 def detect_platform(url: str, html: str, fetcher: Fetcher, res: AuditResult) -> None:
     tree = HTMLParser(html)
     p = urlsplit(url)
@@ -96,6 +101,10 @@ def detect_platform(url: str, html: str, fetcher: Fetcher, res: AuditResult) -> 
         cal_id = unquote(m.group(1))
         res.feeds.append(f"https://calendar.google.com/calendar/ical/{quote(cal_id, safe='')}/public/basic.ics")
     res.feeds.extend(LUMA_ICS.findall(html))
+    # Campus Labs Engage (used by Brock, Sheridan and others) publishes every public event as RSS.
+    if "campuslabs" in html.lower() or "engage" in gen_hint(html).lower():
+        prefix = "/engage" if p.path.startswith("/engage") else ""
+        res.feeds.append(f"{origin}{prefix}/events.rss")
     res.feeds = list(dict.fromkeys(res.feeds))[:10]
     res.jsonld_events = len(extract_events(html))
     body_text = clean(tree.body.text(separator=" ")) if tree.body else ""

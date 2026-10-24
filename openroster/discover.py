@@ -70,7 +70,7 @@ def discover() -> Discovery:
             found.sources.append({
                 "id": f"{sid}-feed-{len([s for s in found.sources if s['id'].startswith(sid)]) + 1}",
                 "name": f"Calendar feed found on {parent.name if parent else sid}",
-                "adapter": "ics",
+                "adapter": "rss" if re.search(r"\.rss\b|/rss\b|feed=rss|\.xml\b", feed) else "ics",
                 "url": feed,
                 "owner": parent.owner if parent else sid.split(":")[-1],
                 "enabled": True,

@@ -33,3 +33,20 @@ def test_discover_feeds_and_hackathons(monkeypatch):
     assert [s["url"] for s in found.sources] == ["https://calendar.google.com/calendar/ical/club%40gmail.com/public/basic.ics"]
     assert found.sources[0]["reviewed"] is False
     assert [h["name"] for h in found.hackathons] == ["NewHacks 2026"]
+
+
+def test_engage_feed_is_detected_and_proposed_as_rss(monkeypatch):
+    from openroster.audit.core import AuditResult, detect_platform
+
+    class NoNet:
+        def get(self, *a, **k):
+            raise AssertionError("no network in tests")
+
+    res = AuditResult(url="https://newschool.campuslabs.ca/engage/events", checked="x")
+    detect_platform(res.url, "<html><body><script src='https://static.campuslabs.com/x.js'></script></body></html>", NoNet(), res)
+    assert "https://newschool.campuslabs.ca/engage/events.rss" in res.feeds
+
+    monkeypatch.setattr(disc, "load_results", lambda: {"x": {"verdict": "allowed", "url": res.url, "feeds": res.feeds}})
+    monkeypatch.setattr(disc.store, "load_records", lambda: {})
+    found = disc.discover()
+    assert any(s["adapter"] == "rss" and s["url"].endswith("/engage/events.rss") for s in found.sources)
