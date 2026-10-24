@@ -27,8 +27,8 @@ jobs:
     env:
       OPENROSTER_CONTACT: ${{ vars.OPENROSTER_CONTACT }}
     steps:
-      - uses: actions/checkout@v5
-      - uses: astral-sh/setup-uv@v6
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v7
         with: {enable-cache: true}
       - run: uv sync --frozen
       - name: Propose selectors
@@ -37,7 +37,7 @@ jobs:
         run: uv run pytest -q tests/test_html_sources.py && uv run openroster validate
       - name: Open or update the PR
         id: pr
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           branch: bot/selectors
           title: "Selector proposals for approved HTML sources"
