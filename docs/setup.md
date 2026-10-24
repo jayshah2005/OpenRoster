@@ -9,7 +9,7 @@ Create a forwarding address on your domain, such as `openroster@yourdomain.com`.
 Then:
 
 ```bash
-gh variable set OPENROSTER_CONTACT --body "openroster@yourdomain.com"
+gh variable set OPENROSTER_CONTACT --body "openroster@jayshah.xyz"   # done
 ```
 
 Also put the address in `TAKEDOWN.md`. The bot's User-Agent picks it up from this variable.
@@ -28,17 +28,24 @@ gh api -X PUT repos/{owner}/OpenRoster/actions/permissions/workflow \
 
 ## 3. Vercel (Hobby, free)
 
-```bash
-cd web && npx vercel link        # create or link the project; root directory: web
-gh secret set VERCEL_TOKEN       # from vercel.com/account/tokens
-gh secret set VERCEL_ORG_ID     --body "$(jq -r .orgId .vercel/project.json)"
-gh secret set VERCEL_PROJECT_ID --body "$(jq -r .projectId .vercel/project.json)"
-gh variable set SITE_URL --body "https://openroster.vercel.app"   # or your custom domain
-```
+Already done: the Vercel project `openroster` exists (team `jayshah3616`), `web/` is linked to it, and the
+`VERCEL_ORG_ID` and `VERCEL_PROJECT_ID` secrets are set. One step is left, and only the account owner can do it:
 
-The site is built in GitHub Actions and uploaded with `vercel deploy --prebuilt`, so Vercel build minutes stay at zero. Every page is static. The only function is the per-filter feed, cached for 6 hours on Vercel's CDN.
+1. Create a token at https://vercel.com/account/tokens (name it `openroster-github-actions`, scope it to the
+   `openroster` project if offered).
+2. Save it as a repository secret: `gh secret set VERCEL_TOKEN -R jayshah2005/OpenRoster` and paste it.
+3. Run Actions → **Deploy** → Run workflow.
 
-To use your own domain, add it in Vercel → Project → Domains (for example `openroster.yourdomain.com`), then update `SITE_URL`.
+Until the token exists, the Deploy workflow skips with a notice instead of failing.
+
+The site is built in GitHub Actions and uploaded with `vercel deploy --prebuilt`, so Vercel build minutes stay at
+zero. Every page is static; the only function is the per-filter feed, cached for 6 hours on Vercel's CDN.
+
+Alternative: install the Vercel GitHub app on the repository and run `npx vercel git connect` in `web/`. Vercel then
+deploys every push itself and the token is not needed.
+
+To use your own domain, add it in Vercel → Project → Domains (for example `openroster.jayshah.xyz`), then
+`gh variable set SITE_URL --body "https://openroster.jayshah.xyz"`.
 
 ## 4. AI helpers (optional)
 
