@@ -60,7 +60,14 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "chore/data: update listings $(date -u +%Y-%m-%d)"
-            git pull --rebase --autostash && git push
+            # If someone changed data/ while this ran, the rebase can conflict. Fail loudly instead of reporting
+            # success with nothing pushed; the next run starts from the new main and redoes the work.
+            if ! git pull --rebase --autostash; then
+              git rebase --abort || true
+              echo "::error::main changed data/ during this run and the data commit conflicts; nothing was pushed."
+              exit 1
+            fi
+            git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
       - name: Status and red flags (shown on the run's summary page)
