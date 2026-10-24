@@ -86,3 +86,16 @@ def test_deadline():
     r = find_deadline("Mentor applications close November 30, 2026. Event is Jan 10, 2027.", "America/Toronto",
                       today=TODAY)
     assert r.start.date() == date(2026, 11, 30) and r.start.hour == 23
+
+
+@pytest.mark.parametrize(("text", "start", "end"), [
+    ("Nov 28, 2026, 18:00-20:00", (18, 0), (20, 0)),
+    ("Nov 28, 2026 at noon", (12, 0), None),
+    ("Nov 28, 2026 from 12 noon to 2pm", (12, 0), (14, 0)),
+    ("Dec. 3, 2026 | 5:30 – 7:00 PM ET", (17, 30), (19, 0)),
+    ("Thursday, December 3rd, 2026 5:30PM", (17, 30), None),
+])
+def test_more_time_formats(text, start, end):
+    r = p(text)
+    assert (r.start.hour, r.start.minute) == start
+    assert (end is None and r.end is None) or (r.end.hour, r.end.minute) == end

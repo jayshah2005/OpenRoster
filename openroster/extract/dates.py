@@ -89,8 +89,18 @@ def _to_24(h: str, m: str | None, ampm: str | None) -> time | None:
     return time(hour, minute)
 
 
+TIME24_RANGE = re.compile(r"\b([01]?\d|2[0-3]):([0-5]\d)\s*(?:-|–|—|to)\s*([01]?\d|2[0-3]):([0-5]\d)\b")
+_NOON = re.compile(r"\b(?:12\s*)?noon\b", re.I)
+_MIDNIGHT = re.compile(r"\b(?:12\s*)?midnight\b", re.I)
+
+
 def _times(text: str) -> tuple[time | None, time | None]:
+    # Words for times become clock times first, so "12 noon to 2pm" reads as 12:00-14:00.
+    text = _MIDNIGHT.sub("12:00 am", _NOON.sub("12:00 pm", text))
+    m24 = TIME24_RANGE.search(text)
     m = TIME_RANGE.search(text)
+    if m24 and not (m and (m.group(3) or m.group(6)) and m.start() <= m24.start()):
+        return time(int(m24.group(1)), int(m24.group(2))), time(int(m24.group(3)), int(m24.group(4)))
     if m and (m.group(3) or m.group(6)):
         h1, m1, a1, h2, m2, a2 = m.groups()
         # "6-8pm": the meridiem of the end applies to the start
