@@ -39,6 +39,28 @@ const schools = readYaml(join(root, "config", "schools.yaml"), "schools").map((s
 const alsoUseful = readYaml(join(root, "config", "also_useful.yaml"), "links");
 const programs = readYaml(join(root, "config", "programs.yaml"), "programs");
 
+// Status page data: what is configured, approved and audited, and what the last run produced.
+const sourceFiles = existsSync(join(root, "config", "sources"))
+  ? readdirSync(join(root, "config", "sources")).filter((f) => f.endsWith(".yaml"))
+  : [];
+const sources = sourceFiles.flatMap((f) => readYaml(join(root, "config", "sources", f), "sources"));
+const auditDir = join(dataDir, "audit");
+const audits = existsSync(auditDir) ? readJsonDir(auditDir) : [];
+const verdicts = audits.reduce((acc, a) => ({ ...acc, [a.verdict]: (acc[a.verdict] ?? 0) + 1 }), {});
+const statePath = join(dataDir, "health", "state.json");
+const state = existsSync(statePath) ? JSON.parse(readFileSync(statePath, "utf8")) : {};
+const status = {
+  configured: sources.length,
+  approved: sources.filter((s) => s.reviewed === true).length,
+  enabled: sources.filter((s) => s.enabled !== false).length,
+  audited: audits.length,
+  verdicts,
+  lastRun: state.pipeline ?? null,
+  failing: Object.entries(state.sources ?? {})
+    .filter(([, s]) => s && s.ok === false)
+    .map(([id, s]) => ({ id, error: String(s.error ?? "").slice(0, 160) })),
+};
+
 // Compact entry: everything the list, filters and feeds need, without history or evidence.
 const compact = (o) => ({
   id: o.id,
@@ -74,6 +96,7 @@ writeFileSync(join(gen, "index.json"), JSON.stringify(index));
 writeFileSync(join(gen, "schools.json"), JSON.stringify(schools));
 writeFileSync(join(gen, "also-useful.json"), JSON.stringify(alsoUseful));
 writeFileSync(join(gen, "programs.json"), JSON.stringify(programs));
+writeFileSync(join(gen, "status.json"), JSON.stringify(status));
 writeFileSync(join(gen, "meta.json"), JSON.stringify({ built, count: index.length }));
 
 // Client index: one file while small, split by month once large so the first load stays light.

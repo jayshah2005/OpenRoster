@@ -7,6 +7,7 @@ import metaJson from "@/generated/meta.json";
 import programsJson from "@/generated/programs.json";
 import recordsJson from "@/generated/records.json";
 import schoolsJson from "@/generated/schools.json";
+import statusJson from "@/generated/status.json";
 import type { Entry, Link, Opportunity, Program, School } from "./types";
 
 const records = recordsJson as unknown as Opportunity[];
@@ -19,6 +20,31 @@ export const schoolById = new Map(schools.map((s) => [s.id, s]));
 export const alsoUseful = alsoUsefulJson as Link[];
 /** Recurring early-career programs from config/programs.yaml (hand-curated). */
 export const programs = programsJson as Program[];
+
+export interface PipelineStatus {
+  configured: number;
+  approved: number;
+  enabled: number;
+  audited: number;
+  verdicts: Record<string, number>;
+  lastRun: { runnable: number; failing: number; listings: number; held_for_review: number; last_run: string } | null;
+  failing: { id: string; error: string }[];
+}
+/** Pipeline numbers for /status/ (scripts/gen-data.mjs reads config, audits and data/health/state.json). */
+export const status = statusJson as PipelineStatus;
+
+/** Red flags, mirroring openroster/ops/health.py: an empty or stale site must say why. */
+export function redFlags(s: PipelineStatus = status, listings = records.length): string[] {
+  const flags: string[] = [];
+  if (s.approved === 0) {
+    flags.push(`None of the ${s.configured} configured sources is approved yet, so nothing is collected. A maintainer approves sources after reading their audit.`);
+  }
+  if (listings === 0) flags.push("There are no listings right now.");
+  if (s.lastRun && s.lastRun.runnable > 0 && s.lastRun.failing > s.lastRun.runnable / 2) {
+    flags.push(`${s.lastRun.failing} of ${s.lastRun.runnable} sources failed in the last run.`);
+  }
+  return flags;
+}
 
 /** Soonest open deadline first, then start time. */
 export function sortKey(o: { roles: { closes: string | null; status: string }[]; start: string }): string {
