@@ -1,21 +1,23 @@
 {
-  "checked": "2026-10-24T16:34:01.507541+00:00",
-  "dated_items_in_html": 0,
+  "checked": "2026-10-24T16:50:56.059726+00:00",
+  "dated_items_in_html": 6,
   "feeds": [],
-  "http_status": 403,
+  "http_status": 200,
   "jsonld_events": 0,
   "known_verdict": null,
-  "login_wall": true,
-  "platform": "unknown",
+  "login_wall": false,
+  "platform": "html",
   "reasons": [
-    "HTTP 403: login wall or bot protection; not bypassed"
+    "terms page not readable: https://wusa.ca/wp-json/tribe/events/v1/\\\"https:\\/\\/www.instagram.com\\/wusaocc\\\": HTTP 404"
   ],
-  "robots": "no_robots",
-  "sitemaps": [],
+  "robots": "allowed",
+  "sitemaps": [
+    "https://wusa.ca/wp-sitemap.xml"
+  ],
   "terms_forbid_automated": null,
   "terms_forbid_republish": null,
   "terms_quotes": [],
-  "terms_url": null,
+  "terms_url": "https://wusa.ca/wp-json/tribe/events/v1/\\\"https:\\/\\/www.instagram.com\\/wusaocc\\\"",
   "url": "https://wusa.ca/wp-json/tribe/events/v1/events",
-  "verdict": "blocked"
+  "verdict": "allowed"
 }

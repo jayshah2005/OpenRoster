@@ -1,8 +1,8 @@
 # Source audit report
 
-Generated 2026-10-24 16:36 UTC by `openroster audit --all`. A source runs only when its verdict is **allowed** and the owner set `reviewed: true`.
+Generated 2026-10-24 16:53 UTC by `openroster audit --all`. A source runs only when its verdict is **allowed** and the owner set `reviewed: true`.
 
-Summary: allowed: 153, blocked: 24, unknown: 1
+Summary: allowed: 154, blocked: 22, unknown: 2
 
 ## Known verdicts (always enforced in code)
 
@@ -88,7 +88,7 @@ Summary: allowed: 153, blocked: 24, unknown: 1
 | `uwaterloo-engineering-events-ics` | [Waterloo Engineering events (iCal)](https://uwaterloo.ca/engineering/events/ical) | **allowed** | no_robots | - | - | html_no_dates | yes | 2026-10-24 |
 | `uwaterloo-wics-events-ics` | [Waterloo Women in Computer Science events (iCal)](https://uwaterloo.ca/women-in-computer-science/events/ical) | **allowed** | no_robots | - | - | html | yes | 2026-10-24 |
 | `uwaterloo-csclub-ics` | [UW Computer Science Club events (iCal)](https://csclub.uwaterloo.ca/events.ics) | **allowed** | no_robots | - | - | html | yes | 2026-10-24 |
-| `wusa-events-tribe` | [Waterloo Undergraduate Student Association (WUSA) events incl. clubs](https://wusa.ca/wp-json/tribe/events/v1/events) | **blocked** | no_robots | - | - | unknown | yes | 2026-10-24 |
+| `wusa-events-tribe` | [Waterloo Undergraduate Student Association (WUSA) events incl. clubs](https://wusa.ca/wp-json/tribe/events/v1/events) | **allowed** | allowed | [terms](https://wusa.ca/wp-json/tribe/events/v1/\"https:\/\/www.instagram.com\/wusaocc\") | - | html | yes | 2026-10-24 |
 | `velocity-events` | [Velocity (UW) events](https://www.velocityincubator.com/events) | **allowed** | allowed | - | - | html | yes | 2026-10-24 |
 | `accelerator-centre-tribe` | [Accelerator Centre (Waterloo) events](https://www.acceleratorcentre.com/wp-json/tribe/events/v1/events) | **allowed** | allowed | - | - | html_no_dates | yes | 2026-10-24 |
 | `laurier-events-ics` | [Wilfrid Laurier University events calendar (iCal)](https://events.wlu.ca/_data/current.ics) | **allowed** | no_robots | - | - | html | yes | 2026-10-24 |
@@ -185,7 +185,7 @@ Summary: allowed: 153, blocked: 24, unknown: 1
 | `hackathon:onhacks` | [ONHacks](https://onhacks.ca) | **allowed** | no_robots | - | - | html_no_dates | yes | 2026-10-24 |
 | `hackathon:qhacks` | [QHacks](https://qhacks.io) | **allowed** | no_robots | - | - | html_no_dates | yes | 2026-10-24 |
 | `hackathon:redshifted-catalyst` | [Redshifted Catalyst](https://catalyst.redshifted.ca/) | **allowed** | allowed | - | - | html_no_dates | yes | 2026-10-24 |
-| `hackathon:ru-hacks` | [RU Hacks](https://ruhacks.com) | **blocked** | disallowed | - | - | unknown | no | 2026-10-24 |
+| `hackathon:ru-hacks` | [RU Hacks](https://ruhacks.com) | **unknown** | allowed | - | - | unknown | no | 2026-10-24 |
 | `hackathon:school-of-advanced-technology-technology-project-showcase` | [School of Advanced Technology Technology Project Showcase](https://www.algonquincollege.com/news/2026/08/06/algonquin-college-technology-project-showcase-highlights-creative-solutions-and-technical-problem-solving/) | **allowed** | allowed | - | - | html | yes | 2026-10-24 |
 | `hackathon:seneca-annual-hackathons-school-of-it-administration-securit` | [Seneca annual hackathons (School of IT Administration & Security)](https://students.senecapolytechnic.ca/spaces/14/school-of-information-technology-administration-security/wiki/view/7685/annual-hackathons) | **allowed** | allowed | [terms](https://students.senecapolytechnic.ca/spaces/14/school-of-information-technology-administration-security/albums) | - | html_no_dates | yes | 2026-10-24 |
 | `hackathon:sheridan-adobe-design-hackathon` | [Sheridan / Adobe Design Hackathon](https://www.sheridancollege.ca/events/2026/02/hackathon) | **allowed** | allowed | [terms](https://www.sheridancollege.ca/privacy-legal) | terms: republishing | html | yes | 2026-10-24 |
