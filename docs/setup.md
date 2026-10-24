@@ -23,7 +23,7 @@ gh api -X PUT repos/{owner}/OpenRoster/actions/permissions/workflow \
 ```
 
 - **Settings → Actions → General:** "Allow GitHub Actions to create and approve pull requests". The command above sets this.
-- **Branch protection on `main`:** require the `CI` checks before merging. Dependabot auto-merge depends on this.
+- **Branch protection:** not needed. The data workflows commit to `main` directly, and Dependabot auto-merge waits for passing checks on its own. If you add protection later, let GitHub Actions bypass it.
 - **Labels:** the Maintenance workflow creates them from `.github/labels.yml` on its first run.
 
 ## 3. Vercel (Hobby, free)
