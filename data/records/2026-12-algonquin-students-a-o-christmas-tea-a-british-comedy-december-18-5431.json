@@ -1,0 +1,93 @@
+{
+  "ai_suggested": [],
+  "all_day": true,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-19T03:59:59-05:00",
+  "first_seen": "2026-10-24T17:55:21.786445Z",
+  "geo": {
+    "lat": 42.98339,
+    "lon": -81.23304,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-12-algonquin-students-a-o-christmas-tea-a-british-comedy-december-18-5431",
+  "last_seen": "2026-10-24T17:55:21.786445Z",
+  "last_verified": "2026-10-24T17:55:21.786445Z",
+  "location": {
+    "city": "London",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 4.2,
+      "school_id": "fanshawe"
+    },
+    {
+      "km": 4.4,
+      "school_id": "western"
+    },
+    {
+      "km": 77.9,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 79.0,
+      "school_id": "laurier"
+    },
+    {
+      "km": 80.0,
+      "school_id": "conestoga"
+    }
+  ],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "Algonquin Students' Association events (Tribe)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.algonquinsa.com/event/o-christmas-tea-a-british-comedy-december-18/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T17:55:21.786445Z",
+      "source_id": "algonquin-sa-events",
+      "url": "https://www.algonquinsa.com/event/o-christmas-tea-a-british-comedy-december-18/"
+    }
+  ],
+  "start": "2026-12-18T04:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Free event by Algonquin Students' Association events (Tribe) in London.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "O Christmas Tea: A British Comedy – December 18",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

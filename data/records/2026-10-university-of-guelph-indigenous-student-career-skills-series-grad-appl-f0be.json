@@ -8,10 +8,23 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-10-26T18:30:00Z",
+  "end": "2026-10-26T23:00:00Z",
   "first_seen": "2026-10-24T17:14:00.319152Z",
   "geo": null,
-  "history": [],
+  "history": [
+    {
+      "at": "2026-10-24T17:55:21.786445Z",
+      "field": "start",
+      "new": "2026-10-26T21:30:00+00:00",
+      "old": "2026-10-26T17:30:00+00:00"
+    },
+    {
+      "at": "2026-10-24T17:55:21.786445Z",
+      "field": "start",
+      "new": "2026-10-26T22:00:00+00:00",
+      "old": "2026-10-26T21:30:00+00:00"
+    }
+  ],
   "id": "2026-10-university-of-guelph-indigenous-student-career-skills-series-grad-appl-f0be",
   "last_seen": "2026-10-24T17:14:00.319152Z",
   "last_verified": "2026-10-24T17:14:00.319152Z",
@@ -29,7 +42,7 @@
   "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
   "registration": {
     "route": "public_link",
-    "url": "https://uoguelph.campusgroups.com/rsvp?id=375985"
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=379614"
   },
   "review": null,
   "roles": [
@@ -66,18 +79,18 @@
       "url": "https://uoguelph.campusgroups.com/rsvp?id=379614"
     }
   ],
-  "start": "2026-10-26T17:30:00Z",
-  "status": "scheduled",
-  "summary": "Workshop by University of Guelph GryphLife (CampusGroups) public iCal for Indigenous students.",
+  "start": "2026-10-26T22:00:00Z",
+  "status": "moved",
+  "summary": "Event by University of Guelph GryphLife (CampusGroups) public iCal for women and non-binary students.",
   "tags": [
     "indigenous_students",
     "women_nonbinary"
   ],
   "timezone": "America/Toronto",
-  "title": "Indigenous Student Career Skills Series: Grad Applications",
+  "title": "Pumpkins and Pearls",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "workshop"
+  "type": "other"
 }

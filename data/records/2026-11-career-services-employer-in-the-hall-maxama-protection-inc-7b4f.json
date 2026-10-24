@@ -75,7 +75,21 @@
     "route": "public_link",
     "url": "https://loyalistcollege.com/event/employer-in-the-hall-maxama-protection-inc-2/"
   },
-  "review": null,
+  "review": {
+    "evidence": [
+      {
+        "text": "missing from the last 2 successful fetches",
+        "url": "https://loyalistcollege.com/event/employer-in-the-hall-maxama-protection-inc/"
+      },
+      {
+        "text": "missing from the last 2 successful fetches",
+        "url": "https://loyalistcollege.com/event/employer-in-the-hall-maxama-protection-inc-2/"
+      }
+    ],
+    "reasons": [
+      "no longer listed by its source (possibly cancelled or moved)"
+    ]
+  },
   "roles": [
     {
       "closes": null,
@@ -105,7 +119,7 @@
     }
   ],
   "start": "2026-11-10T10:00:00-05:00",
-  "status": "moved",
+  "status": "needs_review",
   "summary": "Event by Loyalist College events (Tribe) in Belleville.",
   "tags": [],
   "timezone": "America/Toronto",
