@@ -1,14 +1,15 @@
 {
   "misses": {
-    "2026-10-careerin-tech-societ-richmond-tech-community-coffee-meetup-59a0": 1,
-    "2026-10-hackforge-intro-to-openstreetmap-contributions-3579": 1,
+    "2026-10-careerin-tech-societ-richmond-tech-community-coffee-meetup-59a0": 2,
+    "2026-10-hackforge-intro-to-openstreetmap-contributions-3579": 2,
     "2026-10-u-of-t-engineering-u-2026-fall-study-break-no-classes-28f6": 1,
-    "2026-11-techto-luma-ical-together-toronto-ecosystem-showcase-e195": 1,
-    "2026-11-u-of-t-engineering-u-deadline-to-designate-fall-term-course-as-extra-3b87": 1,
-    "2026-11-waterloo-engineering-fusion-conference-2026-80c2": 1,
-    "2026-12-u-of-t-engineering-u-last-day-of-arts-science-fall-classes-e38e": 1,
+    "2026-11-accelerator-centre-ac-innovation-showcase-9cba": 1,
+    "2026-11-techto-luma-ical-together-toronto-ecosystem-showcase-e195": 2,
+    "2026-11-u-of-t-engineering-u-deadline-to-designate-fall-term-course-as-extra-3b87": 2,
+    "2026-11-waterloo-engineering-fusion-conference-2026-80c2": 2,
+    "2026-12-u-of-t-engineering-u-last-day-of-arts-science-fall-classes-e38e": 2,
     "2026-12-u-of-t-engineering-u-winter-break-university-closed-642d": 1,
-    "2027-01-u-of-t-engineering-u-first-day-of-2027-winter-term-classes-aef4": 1
+    "2027-01-u-of-t-engineering-u-first-day-of-2027-winter-term-classes-aef4": 2
   },
   "pipeline": {
     "approved": 106,
@@ -16,13 +17,13 @@
     "failing": 2,
     "held_for_review": 33,
     "last_run": "2026-10-24",
-    "listings": 403,
+    "listings": 319,
     "runnable": 48
   },
   "sources": {
     "accelerator-centre-tribe": {
       "consecutive_failures": 0,
-      "count": 1,
+      "count": 0,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
@@ -74,7 +75,7 @@
     },
     "brock-experiencebu-rss": {
       "consecutive_failures": 0,
-      "count": 141,
+      "count": 94,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
@@ -100,7 +101,7 @@
     },
     "carleton-events-api": {
       "consecutive_failures": 0,
-      "count": 61,
+      "count": 57,
       "error": "page budget reached; results are partial",
       "fingerprint": null,
       "healthy_streak": 2,
@@ -126,7 +127,7 @@
     },
     "durham-events": {
       "consecutive_failures": 0,
-      "count": 10,
+      "count": 9,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
@@ -776,7 +777,7 @@
     },
     "laurier-events-ics": {
       "consecutive_failures": 0,
-      "count": 6,
+      "count": 5,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
@@ -945,7 +946,7 @@
     },
     "mcmaster-news-events-ics": {
       "consecutive_failures": 0,
-      "count": 1,
+      "count": 0,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
@@ -957,7 +958,7 @@
       "refused": false
     },
     "niagara-college-events": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "count": 0,
       "error": "https://www.niagaracollege.ca/wp-json/tribe/events/v1/events?start_date=2026-10-24&per_page=50: disallowed by robots.txt",
       "fingerprint": null,
@@ -984,7 +985,7 @@
     },
     "queens-events-rss": {
       "consecutive_failures": 0,
-      "count": 16,
+      "count": 13,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
@@ -1036,7 +1037,7 @@
     },
     "uoft-central-events": {
       "consecutive_failures": 0,
-      "count": 23,
+      "count": 22,
       "error": null,
       "fingerprint": "2582d80484a2",
       "healthy_streak": 2,
@@ -1048,7 +1049,7 @@
       "refused": false
     },
     "uoft-engineering-events": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "count": 0,
       "error": "ZoneInfoNotFoundError: 'No time zone found with key UTC+0'",
       "fingerprint": null,
@@ -1088,15 +1089,15 @@
     },
     "uoguelph-gryphlife-campusgroups-ics": {
       "consecutive_failures": 0,
-      "count": 21,
+      "count": 19,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 720,
+      "last_nonzero": 718,
       "last_ok": "2026-10-24",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 720,
+      "raw_count": 718,
       "refused": false
     },
     "uoguelph-news-events-tribe": {
@@ -1192,20 +1193,20 @@
     },
     "western-events-ics": {
       "consecutive_failures": 0,
-      "count": 23,
+      "count": 20,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 254,
+      "last_nonzero": 252,
       "last_ok": "2026-10-24",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 254,
+      "raw_count": 252,
       "refused": false
     },
     "western-events-json": {
       "consecutive_failures": 0,
-      "count": 68,
+      "count": 61,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
@@ -1218,7 +1219,7 @@
     },
     "wetech-alliance-events": {
       "consecutive_failures": 0,
-      "count": 25,
+      "count": 20,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
@@ -1234,7 +1235,7 @@
       "count": 0,
       "error": null,
       "fingerprint": null,
-      "healthy_streak": 1,
+      "healthy_streak": 2,
       "last_nonzero": 33,
       "last_ok": "2026-10-24",
       "ok": true,
@@ -1244,7 +1245,7 @@
     },
     "yorku-yuconnect-ical": {
       "consecutive_failures": 0,
-      "count": 36,
+      "count": 0,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,

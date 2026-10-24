@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-10-26T10:30:00-04:00",
+  "first_seen": "2026-10-24T17:34:32.575071Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-10-goodman-school-of-bu-hooks-that-grab-attention-4c07",
+  "last_seen": "2026-10-24T17:34:32.575071Z",
+  "last_verified": "2026-10-24T17:34:32.575071Z",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "https://teams.microsoft.com/meet/2996342961923878?p=M13efzA6s4vhB5l7Ru"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Goodman School of Business",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://experiencebu.brocku.ca/event/335575"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "brock"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-24T17:34:32.575071Z",
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/335575"
+    }
+  ],
+  "start": "2026-10-26T09:30:00-04:00",
+  "status": "scheduled",
+  "summary": "Online workshop by Goodman School of Business.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Hooks that Grab Attention",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

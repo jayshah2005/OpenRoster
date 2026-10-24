@@ -11,7 +11,14 @@
   "end": "2026-11-10T15:00:00-05:00",
   "first_seen": "2026-10-24T17:14:00.319152Z",
   "geo": null,
-  "history": [],
+  "history": [
+    {
+      "at": "2026-10-24T17:34:32.575071Z",
+      "field": "start",
+      "new": "2026-11-10T13:30:00-05:00",
+      "old": "2026-11-10T13:00:00-05:00"
+    }
+  ],
   "id": "2026-11-wilfrid-laurier-univ-careers-in-criminology-fair-3029",
   "last_seen": "2026-10-24T17:14:00.319152Z",
   "last_verified": "2026-10-24T17:14:00.319152Z",
@@ -54,12 +61,12 @@
       "url": "https://events.wlu.ca/index.html"
     }
   ],
-  "start": "2026-11-10T13:00:00-05:00",
-  "status": "scheduled",
+  "start": "2026-11-10T13:30:00-05:00",
+  "status": "moved",
   "summary": "Event by Wilfrid Laurier University events calendar (iCal).",
   "tags": [],
   "timezone": "America/New_York",
-  "title": "Careers in Criminology Fair",
+  "title": "CBRCanada French Community-Based Research Orientation",
   "travel_support": {
     "note": null,
     "stated": false

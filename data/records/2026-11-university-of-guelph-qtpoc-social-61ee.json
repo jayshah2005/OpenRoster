@@ -1,0 +1,71 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-05T00:00:00Z",
+  "first_seen": "2026-10-24T17:34:32.575071Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-university-of-guelph-qtpoc-social-61ee",
+  "last_seen": "2026-10-24T17:34:32.575071Z",
+  "last_verified": "2026-10-24T17:34:32.575071Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "Sign in to download the location"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
+  "registration": {
+    "route": "public_link",
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=379716"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "uoguelph-gryphlife-campusgroups-ics:1a9cccb50658",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T17:34:32.575071Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=379716"
+    }
+  ],
+  "start": "2026-11-04T22:30:00Z",
+  "status": "scheduled",
+  "summary": "Free networking event by University of Guelph GryphLife (CampusGroups) public iCal for Indigenous students and 2SLGBTQIA+ students.",
+  "tags": [
+    "indigenous_students",
+    "lgbtq"
+  ],
+  "timezone": "America/Toronto",
+  "title": "QTPOC Social",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "networking"
+}

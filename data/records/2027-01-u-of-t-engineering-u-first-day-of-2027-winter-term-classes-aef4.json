@@ -31,7 +31,17 @@
     "route": "public_link",
     "url": "https://undergrad.engineering.utoronto.ca/event/first-day-of-2027-winter-term-classes/"
   },
-  "review": null,
+  "review": {
+    "evidence": [
+      {
+        "text": "missing from the last 2 successful fetches",
+        "url": "https://undergrad.engineering.utoronto.ca/event/first-day-of-2027-winter-term-classes/"
+      }
+    ],
+    "reasons": [
+      "no longer listed by its source (possibly cancelled or moved)"
+    ]
+  },
   "roles": [
     {
       "closes": null,
@@ -55,7 +65,7 @@
     }
   ],
   "start": "2027-01-11T00:00:00-05:00",
-  "status": "scheduled",
+  "status": "needs_review",
   "summary": "Event by U of T Engineering undergraduate events (incl. PEY Co-op).",
   "tags": [],
   "timezone": "America/Toronto",

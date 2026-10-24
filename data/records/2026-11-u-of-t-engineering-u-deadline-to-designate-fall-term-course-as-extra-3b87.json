@@ -31,7 +31,17 @@
     "route": "public_link",
     "url": "https://undergrad.engineering.utoronto.ca/event/deadline-to-designate-fall-term-course-as-extra-2/"
   },
-  "review": null,
+  "review": {
+    "evidence": [
+      {
+        "text": "missing from the last 2 successful fetches",
+        "url": "https://undergrad.engineering.utoronto.ca/event/deadline-to-designate-fall-term-course-as-extra-2/"
+      }
+    ],
+    "reasons": [
+      "no longer listed by its source (possibly cancelled or moved)"
+    ]
+  },
   "roles": [
     {
       "closes": "2026-11-17T23:59:00-05:00",
@@ -55,7 +65,7 @@
     }
   ],
   "start": "2026-11-17T00:00:00-05:00",
-  "status": "scheduled",
+  "status": "needs_review",
   "summary": "Event by U of T Engineering undergraduate events (incl. PEY Co-op). Apply by Nov 17.",
   "tags": [],
   "timezone": "America/Toronto",

@@ -1,0 +1,145 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-03T19:00:00Z",
+  "first_seen": "2026-10-24T17:34:32.575071Z",
+  "geo": {
+    "lat": 43.54594,
+    "lon": -80.25599,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-university-of-guelph-learn-to-3d-print-fb0b",
+  "last_seen": "2026-10-24T17:34:32.575071Z",
+  "last_verified": "2026-10-24T17:34:32.575071Z",
+  "location": {
+    "city": "Guelph",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Sign in to download the location"
+  },
+  "mode": "in_person",
+  "near_schools": [
+    {
+      "km": 2.9,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 21.1,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 23.3,
+      "school_id": "laurier"
+    },
+    {
+      "km": 24.7,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 41.8,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 42.7,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 42.9,
+      "school_id": "algoma"
+    },
+    {
+      "km": 43.4,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 47.8,
+      "school_id": "uoft"
+    },
+    {
+      "km": 56.0,
+      "school_id": "humber"
+    },
+    {
+      "km": 65.7,
+      "school_id": "yorku"
+    },
+    {
+      "km": 65.8,
+      "school_id": "seneca"
+    },
+    {
+      "km": 69.6,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 70.6,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 71.7,
+      "school_id": "tmu"
+    },
+    {
+      "km": 76.4,
+      "school_id": "centennial"
+    },
+    {
+      "km": 92.6,
+      "school_id": "brock"
+    },
+    {
+      "km": 96.7,
+      "school_id": "fanshawe"
+    }
+  ],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
+  "registration": {
+    "route": "public_link",
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=376759"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "uoguelph-gryphlife-campusgroups-ics:d2c5f697afb1",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T17:34:32.575071Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=376759"
+    }
+  ],
+  "start": "2026-11-03T17:00:00Z",
+  "status": "scheduled",
+  "summary": "Free workshop by University of Guelph GryphLife (CampusGroups) public iCal in Guelph.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Learn to 3D Print",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

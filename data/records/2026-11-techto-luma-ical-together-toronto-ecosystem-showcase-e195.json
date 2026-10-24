@@ -132,7 +132,17 @@
     "route": "public_link",
     "url": "https://luma.com/together-toronto-november-2-2026"
   },
-  "review": null,
+  "review": {
+    "evidence": [
+      {
+        "text": "missing from the last 2 successful fetches",
+        "url": "https://luma.com/together-toronto-november-2-2026"
+      }
+    ],
+    "reasons": [
+      "no longer listed by its source (possibly cancelled or moved)"
+    ]
+  },
   "roles": [
     {
       "closes": null,
@@ -156,7 +166,7 @@
     }
   ],
   "start": "2026-11-02T21:00:00Z",
-  "status": "scheduled",
+  "status": "needs_review",
   "summary": "Event by TechTO (Luma iCal) in Toronto.",
   "tags": [],
   "timezone": "America/Toronto",

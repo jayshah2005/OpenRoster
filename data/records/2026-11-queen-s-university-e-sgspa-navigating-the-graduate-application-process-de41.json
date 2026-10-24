@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-04T13:00:00-05:00",
+  "first_seen": "2026-10-24T17:34:32.575071Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-queen-s-university-e-sgspa-navigating-the-graduate-application-process-de41",
+  "last_seen": "2026-10-24T17:34:32.575071Z",
+  "last_verified": "2026-10-24T17:34:32.575071Z",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": null
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Queen's University events calendar (RSS)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.queensu.ca/eventscalendar/events/sgspa-navigating-graduate-application-process"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-24T17:34:32.575071Z",
+      "source_id": "queens-events-rss",
+      "url": "https://www.queensu.ca/eventscalendar/events/sgspa-navigating-graduate-application-process"
+    }
+  ],
+  "start": "2026-11-04T12:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Online workshop by Queen's University events calendar (RSS).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "SGSPA: Navigating the Graduate Application Process",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}
