@@ -29,7 +29,8 @@ ROLE_RULES: list[tuple[str, re.Pattern[str]]] = [
 # description. Broad terms ("tech", "data", "app", "career") show up in the descriptions of almost any campus event
 # ("download the app", "data collection"), so they count only in the title, host or categories.
 CS_STRONG = re.compile(
-    r"\b(?:hackathons?|hack ?(?:nights?|days?)|\w*hacks\b|coding|programming|programmers?|software|developers?|computer science|"
+    r"\b(?:hackathons?|hack ?(?:nights?|days?)|\w*hacks\b|coding|competitive programming|programming languages?|"
+    r"software (?:engineer|developer|development)\w*|computer science|"
     r"comp ?sci|computing|machine learning|artificial intelligence|deep learning|data science|cyber ?security|"
     r"robotics|fintech|quantitative|devops|github|python|javascript|java\b|blockchain|game dev(?:elopment)?|"
     r"tech talks?|career fairs?|job fairs?|women in (?:tech|stem|computing)|in tech\b|ctf\b|capture the flag)",
@@ -45,7 +46,7 @@ NOT_OPPORTUNITY = re.compile(
     re.I,
 )
 CS_FOCUS = re.compile(
-    r"\b(?:hack(?:s|ing)?|code|tech|technology|technical|\bai\b|\bml\b|\bcs\b|data|analytics|engineer(?:s|ing)?|startups?|"
+    r"\b(?:hack(?:s|ing)?|code|devfest|gdg|quantum|qiskit|arduino|3d print\w*|neurips|programming|programmers?|developers?|software|tech|technology|technical|\bai\b|\bml\b|\bcs\b|data|analytics|engineer(?:s|ing)?|startups?|"
     r"entrepreneur(?:s|ship)?|web|apps?\b|ux|ui\b|cloud|cyber|product management|"
     r"google|microsoft|amazon|aws|azure|ibm|shopify|quant|stem\b|co-?op|internships?|recruit(?:ing|ment)?|"
     r"resumes?|cv\b|interviews?|job search|linkedin|careers?|pitch|incubator|accelerator|case comp(?:etition)?s?)",

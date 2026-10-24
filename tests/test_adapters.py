@@ -215,6 +215,9 @@ def test_campus_calendar_relevance():
     assert is_cs_relevant("Meet recruiters.", "Tech Career Night")
     assert is_cs_relevant("Learn Brightspace tools.", "Brightspace for TAs: AI in grading") is False
     assert is_cs_relevant("Students who code: join us", None) is False  # no title: strong words only
+    # Campus offices say "programming" for their event line-up; developers can be property developers.
+    assert is_cs_relevant("Part of our holiday programming.", "O Christmas Tea: A British Comedy") is False
+    assert is_cs_relevant("Intro session.", "Programming 101")
     assert is_cs_relevant("Async module.", "TA Workshop: Open Educational Resources") is False
     assert is_cs_relevant("Grad writing.", "Write to Publish: Your Literature Review (with AI)") is False
     assert is_cs_relevant("Library session.", "Developing a digital scholarly identity Centre for Teaching Innovation") is False
