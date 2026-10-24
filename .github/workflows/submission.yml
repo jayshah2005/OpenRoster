@@ -35,9 +35,15 @@ jobs:
         env:
           LABELS: ${{ toJSON(github.event.issue.labels.*.name) }}
         run: |
-          for k in submission:submit correction:correct takedown:takedown permission:permission; do
-            label="${k%%:*}"; kind="${k##*:}"
-            if echo "$LABELS" | grep -q "\"$label\""; then echo "kind=$kind" >> "$GITHUB_OUTPUT"; break; fi
+          N=${{ github.event.issue.number }}
+          for k in "submission:submit:feat/config: add submission from #$N" \
+                   "correction:correct:fix/config: apply correction from #$N" \
+                   "takedown:takedown:chore/data: apply takedown from #$N" \
+                   "permission:permission:chore/config: record permission from #$N"; do
+            label="${k%%:*}"; rest="${k#*:}"; kind="${rest%%:*}"; msg="${rest#*:}"
+            if echo "$LABELS" | grep -q "\"$label\""; then
+              echo "kind=$kind" >> "$GITHUB_OUTPUT"; echo "message=$msg" >> "$GITHUB_OUTPUT"; break
+            fi
           done
       - name: Validate and apply
         id: run
@@ -69,7 +75,7 @@ jobs:
             From #${{ github.event.issue.number }}. Checked by the bot; merge to publish.
 
             Closes #${{ github.event.issue.number }}
-          commit-message: "${{ steps.kind.outputs.kind }}: from issue #${{ github.event.issue.number }}"
+          commit-message: "${{ steps.kind.outputs.message }}"
           add-paths: |
             config/submissions/*.yaml
             config/overrides.yaml

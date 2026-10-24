@@ -38,7 +38,7 @@ jobs:
             config/manual/resolved.yaml
             data/review/ignored.json
             reports/review.md
-          commit-message: "review: update daily review"
+          commit-message: "chore/config: update daily review"
           labels: review
       - name: Run CI on the PR
         if: steps.pr.outputs.pull-request-number

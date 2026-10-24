@@ -115,6 +115,7 @@ jobs:
         with:
           branch: ai/repair-${{ steps.src.outputs.id }}
           title: "AI: selector fix for ${{ steps.src.outputs.id }}"
+          commit-message: "fix/config: repair selectors for ${{ steps.src.outputs.id }}"
           body: "Proposed by the AI helper for #${{ github.event.issue.number }}. Verified against a fresh fixture by `tests/test_html_sources.py`. Review before merging."
           add-paths: |
             config/sources/*.yaml
@@ -166,7 +167,7 @@ jobs:
             Only if the evidence states the date explicitly (day, month and year, or a clearly stated weekday+date in the
             same paragraph), fill `start` (and `end` if stated) in ISO 8601 local time and add `ai_suggested: [start]`.
             Never infer or guess. Leave everything else unchanged. Then commit to this branch with message
-            "review: AI-suggested dates (needs human check)".
+            "chore/config: add ai-suggested review dates".
           claude_args: >-
             --model ${{ env.MODEL }} --max-turns 15 --disallowedTools ${{ env.NO_WEB }}
             --allowedTools "Read,Edit,Bash(git add:*),Bash(git commit:*),Bash(git push:*)"
