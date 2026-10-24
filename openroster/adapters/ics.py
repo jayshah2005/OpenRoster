@@ -1,4 +1,4 @@
-"""iCalendar feeds: club Google Calendars, official Luma iCal links, campus exports."""
+"""iCalendar feeds: official Luma iCal links, campus and club exports. (Google Calendar feeds are blocked by its robots.txt.)"""
 
 from __future__ import annotations
 

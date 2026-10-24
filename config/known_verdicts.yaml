@@ -48,9 +48,9 @@ verdicts:
     reviewed: 2026-10-23
 
   - hosts: [calendar.google.com]
-    verdict: allowed
-    reason: "Public Google Calendar iCal feeds published by their owners."
-    allow_paths: ["/calendar/ical/"]
+    verdict: blocked
+    reason: "Google's robots.txt disallows /calendar/ical/ for automated clients (found by the 2026-10-24 audit). Club Google Calendars can still be submitted event by event."
+    allow_paths: []
     reviewed: 2026-10-23
 
   - hosts: [gdg.community.dev]

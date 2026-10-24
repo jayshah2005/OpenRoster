@@ -42,6 +42,7 @@ def ok_robots(request: httpx.Request) -> httpx.Response | None:
         "https://tally.so/r/abc",
         "https://www.linkedin.com/events/1",
         "ftp://example.com/x",
+        "https://calendar.google.com/calendar/ical/x%40group.calendar.google.com/public/basic.ics",
     ],
 )
 def test_policy_refuses_known_blocked(url):
@@ -53,7 +54,6 @@ def test_policy_refuses_known_blocked(url):
     "url",
     [
         "https://api.lu.ma/ics/get?entity=calendar&id=cal-abc",
-        "https://calendar.google.com/calendar/ical/x%40group.calendar.google.com/public/basic.ics",
         "https://brocku.ca/events/",
     ],
 )

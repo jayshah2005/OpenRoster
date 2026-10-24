@@ -1,7 +1,7 @@
 """Rule-based discovery of new sources. Runs weekly and makes no network requests of its own.
 
 It reuses what the pipeline already knows:
-- calendar feeds (iCal links, Google Calendar embeds, official Luma iCal links) that the audit found on pages of
+- calendar feeds (iCal links, RSS, official Luma iCal links) that the audit found on pages of
   allowed sources, and
 - hackathons that appear in the data (Hack Club, submissions, other feeds) with an official website that is not
   in config/hackathons.yaml yet.

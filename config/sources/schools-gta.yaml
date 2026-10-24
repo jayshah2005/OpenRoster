@@ -25,8 +25,8 @@ sources:
   options:
     filter: cs
     landing_url: https://undergrad.engineering.utoronto.ca/events/
-  notes: 17 events at check time; overlaps with engineering.utoronto.ca feed. Includes ECE/EngSci (computer engineering)
-    items.
+  notes: 17 events at check time; overlaps with engineering.utoronto.ca feed. Includes ECE/EngSci (computer 
+    engineering) items.
 - id: uoft-sop-events
   name: U of T Student Organization Portal (Resource Finder) events
   adapter: tribe
@@ -38,8 +38,8 @@ sources:
   options:
     filter: cs
     landing_url: https://sop.utoronto.ca/
-  notes: Tri-campus clubs directory (groups at /group/<slug>/). Only 4 events in the feed at check time - clubs
-    rarely post events here, but it's the canonical club list (CSSU, CSEC, MCSS, etc.).
+  notes: Tri-campus clubs directory (groups at /group/<slug>/). Only 4 events in the feed at check time - 
+    clubs rarely post events here, but it's the canonical club list (CSSU, CSEC, MCSS, etc.).
 - id: uoft-utm-events
   name: UTM events listing
   adapter: html
@@ -50,8 +50,8 @@ sources:
   page_budget: 3
   options:
     filter: cs
-  notes: NEEDS SELECTORS before enabling. Drupal, server-rendered. No feed found. Career Centre events are in CLNx
-    (login).
+  notes: NEEDS SELECTORS before enabling. Drupal, server-rendered. No feed found. Career Centre events are in 
+    CLNx (login).
 - id: uoft-utsc-cms-events
   name: UTSC Computer & Mathematical Sciences department events
   adapter: html
@@ -62,8 +62,8 @@ sources:
   page_budget: 3
   options:
     filter: all
-  notes: NEEDS SELECTORS before enabling. Drupal, server-rendered, low volume. UTSC central 'top events' page (utsc.utoronto.ca/news-events/top-events)
-    showed 'No Events Currently Available' at check time.
+  notes: NEEDS SELECTORS before enabling. Drupal, server-rendered, low volume. UTSC central 'top events' page 
+    (utsc.utoronto.ca/news-events/top-events) showed 'No Events Currently Available' at check time.
 - id: uoft-central-events
   name: U of T central events aggregator
   adapter: html
@@ -74,22 +74,24 @@ sources:
   page_budget: 3
   options:
     filter: cs
-  notes: NEEDS SELECTORS before enabling. Drupal aggregator showing ~5 items per unit; links out to unit calendars
-    (engineering, entrepreneurs, UTM, UTSC, Schwartz Reisman, Fields). Better to scrape unit feeds directly.
+  notes: NEEDS SELECTORS before enabling. Drupal aggregator showing ~5 items per unit; links out to unit 
+    calendars (engineering, entrepreneurs, UTM, UTSC, Schwartz Reisman, Fields). Better to scrape unit feeds 
+    directly.
 - id: tmu-cs-seminar-calendar
   name: TMU Computer Science student seminar calendar (Google Calendar)
   adapter: ics
-  url: https://calendar.google.com/calendar/ical/ryerson.ca_1889os4nvg1iujhlil4onene40e9k%40resource.calendar.google.com/public/basic.ics
+  url: 
+    https://calendar.google.com/calendar/ical/ryerson.ca_1889os4nvg1iujhlil4onene40e9k%40resource.calendar.google.com/public/basic.ics
   owner: tmu
-  enabled: true
+  enabled: false
   reviewed: false
   page_budget: 3
   options:
     filter: cs
     landing_url: https://www.torontomu.ca/cs/
   default_type: tech_talk
-  notes: Room-resource calendar; mostly grad seminars/defences, ~800KB with full history - filter by date. Faculty
-    seminar calendar is a Google Sheet (not used).
+  notes: "Disabled: Google's robots.txt disallows /calendar/ical/ (audit 2026-10-24). Ask the club for another feed
+    or submit events by hand."
 - id: dmz-flagship-events
   name: DMZ (TMU) flagship events and programs
   adapter: html
@@ -127,8 +129,8 @@ sources:
   page_budget: 3
   options:
     filter: all
-  notes: NEEDS SELECTORS before enabling. Bevy chapter page, server-rendered. Do not use /api/ (robots-disallowed).
-    Co-hosts with TMU CS Course Union.
+  notes: NEEDS SELECTORS before enabling. Bevy chapter page, server-rendered. Do not use /api/ 
+    (robots-disallowed). Co-hosts with TMU CS Course Union.
 - id: yorku-yuconnect-ical
   name: YU Connect (CampusGroups) all public club events iCal
   adapter: ics
@@ -140,10 +142,10 @@ sources:
   options:
     filter: all
     landing_url: https://yuconnect.yorku.ca/events
-  notes: CampusGroups (Ready Education). Official subscribe link from /ics_helper; 302-redirects to static-prod-ca-central-1.campusgroups.com.
-    Per-club feeds follow /ical/yorku/ical_club_<ID>.ics, e.g. Computing Students Hub (Lassonde) 35483, CSHub @
-    Markham 35991, GDG on Campus York 36114, IEEE York 35518, ElleHacks 35686, Data Science Club 35846, Cyber Security
-    & Cloud Computing 35905, AWS Cloud Club 360
+  notes: CampusGroups (Ready Education). Official subscribe link from /ics_helper; 302-redirects to 
+    static-prod-ca-central-1.campusgroups.com. Per-club feeds follow /ical/yorku/ical_club_<ID>.ics, e.g. 
+    Computing Students Hub (Lassonde) 35483, CSHub @ Markham 35991, GDG on Campus York 36114, IEEE York 35518,
+    ElleHacks 35686, Data Science Club 35846, Cyber Security & Cloud Computing 35905, AWS Cloud Club 360
 - id: yorku-lassonde-events
   name: Lassonde School of Engineering events (incl. EECS)
   adapter: html
@@ -154,8 +156,8 @@ sources:
   page_budget: 3
   options:
     filter: all
-  notes: NEEDS SELECTORS before enabling. WordPress custom theme, custom events list (not tribe; tribe endpoint
-    404). Server-rendered with 'Load More'.
+  notes: NEEDS SELECTORS before enabling. WordPress custom theme, custom events list (not tribe; tribe 
+    endpoint 404). Server-rendered with 'Load More'.
 - id: ocadu-events
   name: OCAD University events and exhibitions
   adapter: html
@@ -166,9 +168,9 @@ sources:
   page_budget: 3
   options:
     filter: cs
-  notes: NEEDS SELECTORS before enabling. Drupal, server-rendered with pager (?page=N). Mostly art/exhibitions;
-    relevant items are Digital Futures (DFX thesis show, occasional game jams) and the Design Career Fair. Career
-    portal is Symplicity (login).
+  notes: NEEDS SELECTORS before enabling. Drupal, server-rendered with pager (?page=N). Mostly 
+    art/exhibitions; relevant items are Digital Futures (DFX thesis show, occasional game jams) and the Design
+    Career Fair. Career portal is Symplicity (login).
 - id: ontariotechu-events
   name: Ontario Tech University events calendar
   adapter: headless
@@ -179,10 +181,10 @@ sources:
   page_budget: 3
   options:
     filter: cs
-  notes: NEEDS SELECTORS before enabling. Listing page is rendered client-side (filters for Type/Audience/Category;
-    no events in raw HTML). Individual event pages are server-rendered at /YYYY/MM/<slug>.php and each has a per-event
-    iCal at the same path with .ics. No sitemap.xml or robots.txt (404). Need to find the JSON the listing loads
-    (not found) before this is scrapable.
+  notes: NEEDS SELECTORS before enabling. Listing page is rendered client-side (filters for 
+    Type/Audience/Category; no events in raw HTML). Individual event pages are server-rendered at 
+    /YYYY/MM/<slug>.php and each has a per-event iCal at the same path with .ics. No sitemap.xml or robots.txt
+    (404). Need to find the JSON the listing loads (not found) before this is scrapable.
 - id: seneca-mynews
   name: Seneca student portal MyNews (Axero)
   adapter: html
@@ -193,9 +195,9 @@ sources:
   page_budget: 3
   options:
     filter: cs
-  notes: NEEDS SELECTORS before enabling. Axero intranet; home page renders news and an upcoming-events sidebar
-    without login. The calendar view (/spaces/112/mynews/calendar) only renders 'Loading...' (JS), no feed. Weak
-    source.
+  notes: NEEDS SELECTORS before enabling. Axero intranet; home page renders news and an upcoming-events 
+    sidebar without login. The calendar view (/spaces/112/mynews/calendar) only renders 'Loading...' (JS), no 
+    feed. Weak source.
 - id: seneca-future-students-events
   name: Seneca future students events and webinars
   adapter: html
@@ -207,8 +209,8 @@ sources:
   options:
     filter: cs
   default_type: info_session
-  notes: NEEDS SELECTORS before enabling. Adobe Experience Manager; recruitment events only (incl. Bachelor of Computer
-    Science / AI program webinars). Low value for current students.
+  notes: NEEDS SELECTORS before enabling. Adobe Experience Manager; recruitment events only (incl. Bachelor of
+    Computer Science / AI program webinars). Low value for current students.
 - id: centennial-ieee-branch
   name: IEEE Centennial College Student Branch events
   adapter: html
@@ -220,9 +222,9 @@ sources:
   options:
     filter: all
     landing_url: https://edu.ieee.org/ca-centennial-college/
-  notes: NEEDS SELECTORS before enabling. WordPress posts page mixing current and old events (2022-2026), dates
-    in post text. Also /future-events page. Runs CentennialHacks. IEEE vTools also lists branch events (events.vtools.ieee.org)
-    - not checked here.
+  notes: NEEDS SELECTORS before enabling. WordPress posts page mixing current and old events (2022-2026), 
+    dates in post text. Also /future-events page. Runs CentennialHacks. IEEE vTools also lists branch events 
+    (events.vtools.ieee.org) - not checked here.
 - id: georgebrown-sagbc-events
   name: Student Association of George Brown College events
   adapter: headless
@@ -233,8 +235,8 @@ sources:
   page_budget: 3
   options:
     filter: cs
-  notes: NEEDS SELECTORS before enabling. Calendar plugin with Agenda/Month/Grid/Map views showed '0 Events loaded
-    / No events found' - loaded client-side or empty. No feed found.
+  notes: NEEDS SELECTORS before enabling. Calendar plugin with Agenda/Month/Grid/Map views showed '0 Events 
+    loaded / No events found' - loaded client-side or empty. No feed found.
 - id: durham-events
   name: Durham College events calendar
   adapter: tribe
@@ -259,6 +261,6 @@ sources:
   page_budget: 3
   options:
     filter: cs
-  notes: NEEDS SELECTORS before enabling. Webflow; upcoming events server-rendered with detail pages at /event/<slug>.
-    robots.txt has only a Sitemap line (no rules). Some events defer to Luma for tickets (Luma not fetched, per
-    instructions). Events often sell out; adult/professional audience.
+  notes: NEEDS SELECTORS before enabling. Webflow; upcoming events server-rendered with detail pages at 
+    /event/<slug>. robots.txt has only a Sitemap line (no rules). Some events defer to Luma for tickets (Luma 
+    not fetched, per instructions). Events often sell out; adult/professional audience.

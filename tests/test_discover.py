@@ -13,7 +13,8 @@ def test_discover_feeds_and_hackathons(monkeypatch):
         "brock-experiencebu-rss": {
             "verdict": "allowed", "url": "https://experiencebu.brocku.ca/events",
             "feeds": [
-                "https://calendar.google.com/calendar/ical/club%40gmail.com/public/basic.ics",
+                "https://csclub.example.ca/events.ics",
+                "https://calendar.google.com/calendar/ical/club%40gmail.com/public/basic.ics",  # robots.txt: blocked
                 "https://lu.ma/some-page",                      # blocked host: never proposed
                 "https://experiencebu.brocku.ca/events.rss",    # already configured
             ],
@@ -30,7 +31,7 @@ def test_discover_feeds_and_hackathons(monkeypatch):
                                   country="CA", date_confidence="structured"), None, now)
     monkeypatch.setattr(disc.store, "load_records", lambda: {rec.id: rec, devpost.id: devpost})
     found = disc.discover()
-    assert [s["url"] for s in found.sources] == ["https://calendar.google.com/calendar/ical/club%40gmail.com/public/basic.ics"]
+    assert [s["url"] for s in found.sources] == ["https://csclub.example.ca/events.ics"]
     assert found.sources[0]["reviewed"] is False
     assert [h["name"] for h in found.hackathons] == ["NewHacks 2026"]
 
