@@ -126,8 +126,9 @@ sources:
   enabled: true
   reviewed: true
   page_budget: 3
+  hand_tuned: true  # filter changed by hand: this feed is every club's events, not just CS ones
   options:
-    filter: all
+    filter: cs
     landing_url: https://yuconnect.yorku.ca/events
   notes: CampusGroups (Ready Education). Official subscribe link from /ics_helper; 302-redirects to static-prod-ca-central-1.campusgroups.com. Per-club feeds follow /ical/yorku/ical_club_<ID>.ics, e.g. Computing Students Hub (Lassonde) 35483, CSHub @ Markham 35991, GDG on Campus York 36114, IEEE York 35518, ElleHacks 35686, Data Science Club 35846, Cyber Security & Cloud Computing 35905, AWS Cloud Club 360
 - id: yorku-lassonde-events

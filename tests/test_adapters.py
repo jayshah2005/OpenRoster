@@ -219,3 +219,4 @@ def test_campus_calendar_relevance():
     assert is_cs_relevant("Grad writing.", "Write to Publish: Your Literature Review (with AI)") is False
     assert is_cs_relevant("Library session.", "Developing a digital scholarly identity Centre for Teaching Innovation") is False
     assert is_cs_relevant("Help kids build games.", "Volunteers wanted: teaching kids to code")
+    assert is_cs_relevant("Snacks.", "Halloween Social Networking") is False  # clubs tag socials "Networking"
