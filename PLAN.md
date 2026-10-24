@@ -52,7 +52,7 @@ config/*.yaml ──► adapters (ICS, Tribe, Localist, JSON-LD, sitemap, HTML, 
 | Parsing | `icalendar`, `recurring-ical-events`, `extruct`, `selectolax`, strict `dateutil` plus my own patterns (D-006) | Free. No fuzzy date guessing. |
 | Headless | Playwright, enabled per source only when the audit shows JS-only (D-007) | Free last resort |
 | Site | **Next.js 16** in `web/`, every page prerendered (`ensureStatic = "navigation"`), small client components for filters (D-008) | Owner's choice. Works without JS. Measured first load: 190 kB gzipped (budget 300 kB). |
-| Hosting | Vercel Hobby. Actions builds `dist/` and runs `vercel deploy --prebuilt`, so Vercel build minutes stay at zero (D-022). | Static files are served from the CDN; about 4 deploys a day, far under the limit |
+| Hosting | Vercel Hobby, connected to GitHub: `main` deploys to production and each PR gets a preview (D-031, replaces D-022). | Static files are served from the CDN; about 4 data deploys a day, far under the Hobby limits |
 | Feeds | Next route handlers `/api/feed.ics` and `/api/feed.rss` return a feed for **any** filter, using the same filter code as the page, with a 6-hour CDN cache. Common feeds are prebuilt as static files (D-009). | Exact live feeds for every filtered view, while cached responses keep function invocations tiny |
 | Location | Offline gazetteer (GeoNames `cities15000`, CC-BY, bundled) gives every record lat/lon. School filters are computed by distance from each campus (D-023). | No geocoding API, so no rate limits or terms risk |
 | Runtime AI | `anthropics/claude-code-action` with your `CLAUDE_CODE_OAUTH_TOKEN`, with tools restricted (no web, no merge) and a turn and run budget for each job (D-020) | Covers what rules can't do well (review triage, selector repair, summaries) while humans stay the gate |
@@ -322,7 +322,7 @@ accessibility tests, the size budget and the link check.
 - The first full audit covered 178 sources and hackathon sites in about 4 minutes, running sites in parallel with one worker per host. 152 were allowed and 25 blocked by robots.txt, terms or a known verdict.
 - Update data (scrape, validate, LISTINGS.md, health), Daily review, Link check, Keepalive and Maintenance all run successfully.
 - Weekly discovery found 5 feeds on its first run.
-- Deploy skips cleanly until a Vercel token exists.
+- Vercel deploys `main` and PR previews through its GitHub app; no token needed.
 
 **Added since the first build:**
 - **Discovery and selectors:** weekly discovery (rule-based, plus an optional search-only agent), and rule-based selector proposals for HTML sources.

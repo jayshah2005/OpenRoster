@@ -28,21 +28,18 @@ gh api -X PUT repos/{owner}/OpenRoster/actions/permissions/workflow \
 
 ## 3. Vercel (Hobby, free)
 
-Already done: the Vercel project `openroster` exists (team `jayshah3616`), `web/` is linked to it, and the
-`VERCEL_ORG_ID` and `VERCEL_PROJECT_ID` secrets are set. One step is left, and only the account owner can do it:
+Done: the Vercel project `openroster` (team `jayshah3616`) is connected to this repository through the Vercel
+GitHub app, with Root Directory `web` and "Include files outside the Root Directory" on (the build reads `data/`
+and `config/`). From then on:
 
-1. Create a token at https://vercel.com/account/tokens (name it `openroster-github-actions`, scope it to the
-   `openroster` project if offered).
-2. Save it as a repository secret: `gh secret set VERCEL_TOKEN -R jayshah2005/OpenRoster` and paste it.
-3. Run Actions → **Deploy** → Run workflow.
+- every push to `main` deploys to production at https://openroster-seven.vercel.app, including the data
+  commits the Update data workflow makes every 6 hours;
+- every pull request gets its own preview URL, which Vercel posts on the PR;
+- `NEXT_PUBLIC_SITE_URL` and `NEXT_PUBLIC_CONTACT_EMAIL` are set in Vercel for Production and Preview.
 
-Until the token exists, the Deploy workflow skips with a notice instead of failing.
-
-The site is built in GitHub Actions and uploaded with `vercel deploy --prebuilt`, so Vercel build minutes stay at
-zero. Every page is static; the only function is the per-filter feed, cached for 6 hours on Vercel's CDN.
-
-Alternative: install the Vercel GitHub app on the repository and run `npx vercel git connect` in `web/`. Vercel then
-deploys every push itself and the token is not needed.
+No token or deploy workflow is needed. Every page is static; the only function is the per-filter feed, cached for
+6 hours on Vercel's CDN. If a token named `openroster-github-actions` exists at https://vercel.com/account/tokens
+from the old Actions deploy, it can be deleted, along with the `VERCEL_ORG_ID` and `VERCEL_PROJECT_ID` secrets.
 
 To use your own domain, add it in Vercel → Project → Domains (for example `openroster.jayshah.xyz`), then
 `gh variable set SITE_URL --body "https://openroster.jayshah.xyz"`.
@@ -60,7 +57,7 @@ Without this secret the AI jobs are skipped and everything else still works.
 
 1. Actions → **Source audit** → Run workflow. It audits every source and opens a **Source review** PR.
 2. Read the PR table (robots.txt result, terms link, quoted clauses), remove any `reviewed: true` lines you don't approve, then merge.
-3. Actions → **Update data** → Run workflow (tick "Deploy even if no data changed" the first time).
+3. Actions → **Update data** → Run workflow. Its data commit deploys the site.
 
 ## If scheduled workflows were disabled
 
