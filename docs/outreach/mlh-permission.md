@@ -17,8 +17,9 @@ If you'd prefer a feed or an export instead, I'm happy to use that. I'd be glad 
 
 Thank you for considering it.
 
-[Your name]
-OpenRoster · [contact address]
+Jay
+OpenRoster · openroster@jayshah.xyz
+LinkedIn: https://www.linkedin.com/in/jayshah3616/
 
 ---
 

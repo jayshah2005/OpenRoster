@@ -5,7 +5,7 @@ If you organize an event listed on OpenRoster, or run a site we collect from, yo
 ## How to ask
 
 - **GitHub:** [open a takedown request](../../issues/new?template=takedown.yml). It is public, so don't include private details.
-- **Email:** `OPENROSTER_CONTACT` (the maintainer will put the real address here once the alias exists). Include the listing link (`…/o/<id>/`) or your site's domain.
+- **Email:** openroster@jayshah.xyz. Include the listing link (`…/o/<id>/`) or your site's domain.
 
 ## What happens
 

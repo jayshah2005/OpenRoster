@@ -13,4 +13,4 @@ The easiest way is a **public calendar link**. In Google Calendar: Settings → 
 If a feed isn't possible, you can also submit events through our form: https://github.com/jayshah2005/OpenRoster/issues/new?template=submit-opportunity.yml
 
 Thanks!
-[Your name] · OpenRoster · [contact address]
+[Your name] · OpenRoster · openroster@jayshah.xyz
