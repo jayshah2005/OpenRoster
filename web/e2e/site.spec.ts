@@ -36,6 +36,8 @@ test("the list works without JavaScript", async ({ browser }) => {
 
 test("filtered views offer a matching feed", async ({ page, request }) => {
   await page.goto("/?type=hackathon");
+  // Wait for the filtered results; until then the server-rendered list (with the all.ics link) is showing.
+  await expect(page.locator(".result-count")).toContainText("match");
   const href = await page.getByRole("link", { name: "Calendar (.ics)" }).getAttribute("href");
   expect(href).toContain("/api/feed.ics?type=hackathon");
   const res = await request.get(href!);
