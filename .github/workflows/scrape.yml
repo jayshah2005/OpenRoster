@@ -35,7 +35,7 @@ jobs:
         with: {enable-cache: true}
       - run: uv sync --frozen
       - name: HTTP cache (ETag / Last-Modified validators)
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: data/cache
           key: http-cache-${{ github.run_id }}
