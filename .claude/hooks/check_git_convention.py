@@ -18,6 +18,9 @@ from pathlib import Path
 SKILL = Path(__file__).resolve().parent.parent / "skills" / "commit-convention" / "SKILL.md"
 TYPES = ("feat", "fix", "refactor", "chore")
 EXEMPT_BRANCH_PREFIXES = ("bot/", "ai/")
+# A heredoc: the line that opens it ("head", up to and including the newline) and its body up to the delimiter.
+HEREDOC = re.compile(r"(?P<head>[^\n]*<<-?\s*['\"]?(?P<tag>\w+)['\"]?[^\n]*\n)(?P<body>.*?\n)\s*(?P=tag)\b", re.S)
+COMMIT_AT = re.compile(r"\bgit\b(?:\s+-\S+(?:\s+\S+)?)*\s+commit\b")
 
 
 def scopes() -> set[str]:
@@ -103,6 +106,12 @@ def main() -> int:
         return 0
     allowed = scopes()
     problems: list[str] = []
+    # Heredoc bodies fed to other programs (scripts, data files) are not shell commands: blank them out so a
+    # line like "git commit ..." inside a test fixture is not checked. Bodies of `git commit` heredocs stay.
+    command = HEREDOC.sub(lambda m: m.group(0) if re.search(r"\bgit\b[^\n]*\bcommit\b", m.group("head")) else m.group("head"), command)
+    # Positions of each `git commit`, so the nth commit is paired with its own heredoc message.
+    commit_starts = [m.start() for m in COMMIT_AT.finditer(command)]
+    commit_no = 0
     for seg in segments(command):
         tokens = tokenize(seg)
         try:
@@ -117,9 +126,10 @@ def main() -> int:
             continue
         sub, args = rest[0], rest[1:]
         if sub == "commit":
-            # Only a heredoc that starts after this `git commit` can be its message (not an earlier script's).
-            at = re.search(r"\bgit\b(?:\s+-\S+(?:\s+\S+)?)*\s+commit\b", command)
-            subject = commit_subject(seg, args, command[at.start():] if at else seg)
+            # Only a heredoc that starts after this `git commit` can be its message (not an earlier one's).
+            start = commit_starts[commit_no] if commit_no < len(commit_starts) else None
+            commit_no += 1
+            subject = commit_subject(seg, args, command[start:] if start is not None else seg)
             if subject is False:
                 continue
             if subject is None:
