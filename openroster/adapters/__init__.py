@@ -1,3 +1,8 @@
+"""Source adapters. Each turns one kind of source (iCal, campus API, RSS, HTML, ...) into Candidates.
+
+To add a kind of source: subclass Adapter in a new module, register it in ADAPTERS below, and add a fixture test.
+"""
+
 from .api import HackClubAdapter
 from .base import Adapter
 from .campus import LocalistAdapter, TribeAdapter
