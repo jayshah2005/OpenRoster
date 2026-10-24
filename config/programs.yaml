@@ -1,0 +1,197 @@
+# Recurring early-career programs shown on the Programs page. Hand-curated; dates move every year, so each
+# entry links to the official page. `years` lists the years of study a program targets (0 = high school).
+programs:
+- name: CEOx1Day
+  organization: Odgers (Odgers Berndtson)
+  url: https://www.odgers.com/en-ca/about-us/ceox1day-north-america/
+  kind: program
+  timing: Fall (2026-27 cycle; see the Key Dates page)
+  who: Undergraduate students in Canada, mostly in third and fourth year.
+  years:
+  - 3
+  - 4
+  link_only: false
+  notes: Includes a full day shadowing a CEO, a leadership assessment, and networking.
+  checked: '2026-10-23'
+- name: Jane Street FTTP (First-Year Trading and Technology Program)
+  organization: Jane Street
+  url: https://www.janestreet.com/join-jane-street/programs-and-events/
+  kind: insight
+  timing: Rolling; listed as accepting applications
+  who: First-year university students
+  years:
+  - 1
+  link_only: false
+  notes: A couple of days in the office. The same page lists Bridge (1st/2nd year, one day), FOCUS, INSIGHT, SEE,
+    WiSE, IN FOCUS and Preview.
+  checked: '2026-10-23'
+- name: Jane Street Bridge / INSIGHT / SEE
+  organization: Jane Street
+  url: https://www.janestreet.com/join-jane-street/programs-and-events/
+  kind: insight
+  timing: Accepting applications (no dates given)
+  who: 'Bridge: 1st/2nd year. INSIGHT: women, trans and gender-expansive students. SEE: university students.'
+  years:
+  - 1
+  - 2
+  link_only: false
+  notes: null
+  checked: '2026-10-23'
+- name: Scotiabank Canada's Top Students (CTS)
+  organization: Scotiabank
+  url: https://jobs.scotiabank.com/
+  kind: insight
+  timing: 'Applications close in late September; event in mid-November (2026: Nov 13-14, Toronto)'
+  who: First- or second-year students at a Canadian college or university, any discipline
+  years:
+  - 1
+  - 2
+  link_only: false
+  notes: A case-competition-style insight event. Found via search; the posting itself was not fetched.
+  checked: '2026-10-23'
+- name: Tech@RBC
+  organization: RBC
+  url: https://web.cs.toronto.edu/news-events/news/inside-techrbc-students-gain-insight-confidence-and-a-clearer-vision-for-their-careers
+  kind: insight
+  timing: unknown
+  who: Students (UofT CS partnership; year of study unclear)
+  years: []
+  link_only: false
+  notes: A three-year series of 12 events on AI, cybersecurity and innovation.
+  checked: '2026-10-23'
+- name: Goldman Sachs Possibilities Series
+  organization: Goldman Sachs
+  url: https://www.goldmansachs.com/careers/students/programs-and-internships/americas/possibilities-series
+  kind: insight
+  timing: 'Feb-Mar (2026: Feb 1 - Mar 22)'
+  who: First-year undergraduates at US colleges only. Not open to Canadian schools.
+  years:
+  - 1
+  link_only: false
+  notes: Recorded for completeness only (US-only).
+  checked: '2026-10-23'
+- name: 'Google Developer Groups on Campus: Lead application'
+  organization: Google
+  url: https://developers.google.com/community/gdsc
+  kind: program
+  timing: Usually spring to summer for the next academic year
+  who: Students at a university with (or starting) a GDG on Campus chapter
+  years: []
+  link_only: false
+  notes: The "Lead a GDG on Campus" button points to https://app.advocu.com/gdg/join. Formerly called GDSC.
+  checked: '2026-10-23'
+- name: Microsoft Student Ambassadors (formerly Learn Student Ambassadors)
+  organization: Microsoft
+  url: https://mvp.microsoft.com/studentambassadors
+  kind: program
+  timing: Rolling registration
+  who: 18+, full-time at an accredited institution, with an Azure for Students account
+  years: []
+  link_only: false
+  notes: The page responded with the title only. A Microsoft Q&A answer (January 2026) says the program was renamed
+    and approval became open registration.
+  checked: '2026-10-23'
+- name: GitHub Campus Experts
+  organization: GitHub
+  url: https://github.com/education/students/campus-expert
+  kind: program
+  timing: Periodic; check the page
+  who: Students 18+ at a higher-education institution who are part of the GitHub Student Developer Pack
+  years: []
+  link_only: false
+  notes: education.github.com/experts redirects to github.com/education/students, which links the Campus Expert
+    page.
+  checked: '2026-10-23'
+- name: MLH Fellowship
+  organization: Major League Hacking
+  url: https://fellowship.mlh.com/
+  kind: fellowship
+  timing: Rolling (spring, summer and fall batches)
+  who: Students and recent grads, 18+
+  years: []
+  link_only: true
+  notes: Link only. MLH is a blocked domain, so the page was not fetched or scraped.
+  checked: '2026-10-23'
+- name: Shopify Dev Degree
+  organization: Shopify
+  url: https://www.shopify.com/careers/devdegree
+  kind: program
+  timing: Roughly Dec - mid-Feb for the fall intake
+  who: Incoming students admitted to CS at partner schools (Carleton, York)
+  years: []
+  link_only: false
+  notes: The URL returned 404 on 2026-10-23, so the program page has moved or the program has changed. Info sessions
+    are usually held in the fall and winter.
+  checked: '2026-10-23'
+- name: Schulich Leader Scholarships
+  organization: Schulich Foundation
+  url: https://www.schulichleaders.com/
+  kind: program
+  timing: 'Nominations by late January, applications by mid-February (2027: Jan 27 / Feb 17)'
+  who: Graduating high-school students entering STEM at 20 partner universities (one nominee per school)
+  years:
+  - 0
+  link_only: false
+  notes: A scholarship, not an event.
+  checked: '2026-10-23'
+- name: Loran Award
+  organization: Loran Scholars Foundation
+  url: https://www.loranscholar.ca/
+  kind: program
+  timing: Fall (2027 cycle closed as of 2026-10-23)
+  who: Graduating high-school and CEGEP students; character-based selection
+  years:
+  - 0
+  link_only: false
+  notes: A scholarship.
+  checked: '2026-10-23'
+- name: Venture for Canada (Internship / Intrapreneurship / Fellowship Academy)
+  organization: Venture for Canada
+  url: https://www.ventureforcanada.ca/
+  kind: fellowship
+  timing: Varies by program
+  who: Post-secondary students (internship, intrapreneurship); recent grads (Fellowship Academy)
+  years: []
+  link_only: false
+  notes: Run info sessions and bootcamps. Program pages are under /programs/.
+  checked: '2026-10-23'
+- name: Next 36
+  organization: NEXT Canada
+  url: https://www.nextcanada.com/next-36/
+  kind: fellowship
+  timing: 'Mid-August to mid-October (2026: Aug 13 - Oct 14)'
+  who: Undergrad and master's students and recent grads in Canada; citizens, PRs or visa holders
+  years: []
+  link_only: false
+  notes: Part-time Jan-Apr, then full-time in person in Toronto May-Aug. No fee or equity required.
+  checked: '2026-10-23'
+- name: Mitacs (Accelerate Entrepreneur, Business Strategy Internship, RISE-Globalink)
+  organization: Mitacs
+  url: https://www.mitacs.ca/our-programs/
+  kind: program
+  timing: Varies by program
+  who: College, undergrad and grad students at Canadian institutions (varies). Globalink is for international undergrads.
+  years: []
+  link_only: false
+  notes: Research and work placements, mostly internship-like. Include only the info sessions.
+  checked: '2026-10-23'
+- name: NSERC USRA (info sessions only)
+  organization: NSERC
+  url: https://nserc-crsng.canada.ca/en/funding-opportunity/undergraduate-student-research-awards
+  kind: program
+  timing: Students apply through their university, usually Jan-Feb for summer
+  who: Canadian citizens and PRs in natural sciences or engineering undergraduate programs
+  years: []
+  link_only: false
+  notes: The old URL 302-redirects here. Track the university info sessions, not the award itself.
+  checked: '2026-10-23'
+- name: Vector Institute FastLane Machine Learning Associates
+  organization: Vector Institute
+  url: https://vectorinstitute.ai/events/
+  kind: fellowship
+  timing: Fall intake for Winter cohorts
+  who: Grad students and recent grads of Canadian institutions (AI-related)
+  years: []
+  link_only: false
+  notes: Appears in the Vector events feed.
+  checked: '2026-10-23'

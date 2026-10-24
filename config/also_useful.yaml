@@ -2,8 +2,8 @@
 links:
 - name: SimplifyJobs Summer 2027 Internships
   url: https://github.com/SimplifyJobs/Summer2027-Internships
-  description: Daily-updated list of Summer 2027 SWE, data, AI, quant, PM and hardware internships (Simplify and
-    Pitt CSC). Has a README-Off-Season.md.
+  description: Summer 2027 software, data, AI, quant, PM and hardware internships, updated daily. Also has an
+    off-season list.
 - name: SimplifyJobs New-Grad-Positions
   url: https://github.com/SimplifyJobs/New-Grad-Positions
   description: Full-time SWE, quant and PM roles for new grads.
@@ -12,7 +12,7 @@ links:
   description: Summer, Fall and Spring 2027 tech internships in the US, Canada and remote.
 - name: speedyapply 2027-SWE-College-Jobs
   url: https://github.com/speedyapply/2027-SWE-College-Jobs
-  description: Daily-updated 2027 SWE internship and new-grad list.
+  description: 2027 software internships and new grad roles, updated daily.
 - name: Canadian-Tech-Internships-2027
   url: https://github.com/negarprh/Canadian-Tech-Internships-2027
   description: Curated list of Canadian tech internships (Summer, Fall and Winter 2027) across Canadian cities and
