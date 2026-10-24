@@ -5,7 +5,7 @@ Thanks for helping. Most contributions need no code at all.
 ## Without writing code
 
 - **Add an event or program.** Use the [submission form](../../issues/new?template=submit-opportunity.yml). A bot checks it, opens a pull request, and a maintainer merges it. No GitHub account? Email the details to openroster@jayshah.xyz, or use the email button on the site's [Contribute page](https://openroster.vercel.app/contribute/).
-- **Share a calendar.** If your club or school has a public Google Calendar, Luma calendar or events page, [suggest it](../../issues/new?template=add-source.yml). One calendar can bring in every future event automatically.
+- **Share a calendar or events page.** If your club or school has a public events page, a Luma calendar or an RSS or iCal feed, [suggest it](../../issues/new?template=add-source.yml). One source can bring in every future event automatically. Google Calendar links are the exception: Google's robots.txt disallows automated reading, so submit those events one by one.
 - **Fix a listing.** Every listing on the site has a "Report a problem" link that opens a [correction form](../../issues/new?template=correct-opportunity.yml) with the listing filled in.
 - **Review.** Each week the discovery PR and each day the review PR list things a person should check. Comments on those PRs help.
 

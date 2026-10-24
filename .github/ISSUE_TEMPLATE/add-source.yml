@@ -5,7 +5,7 @@ labels: [source-suggestion]
 body:
   - type: input
     id: url
-    attributes: {label: Link, description: "A public iCal link (Google Calendar → Settings → Public address in iCal format), an events page, or a hackathon's official site."}
+    attributes: {label: Link, description: "A public events page, an official Luma calendar, an RSS or iCal feed, or a hackathon's official site. Google Calendar links cannot be read automatically (Google's robots.txt disallows it), so submit those events one by one instead."}
     validations: {required: true}
   - type: dropdown
     id: kind

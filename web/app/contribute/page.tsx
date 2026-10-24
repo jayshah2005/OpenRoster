@@ -51,11 +51,15 @@ export default function ContributePage() {
 
       <h2>Share a club or campus calendar</h2>
       <p>
-        If your club keeps a public Google Calendar, every event on it can appear here automatically. In Google Calendar,
-        open the calendar&apos;s settings and copy &quot;Public address in iCal format&quot;, then{" "}
-        <a href={issue("add-source.yml")}>send us the link</a>. Events pages, Luma calendars and hackathon websites are
-        welcome too. Before anything is collected, we check the site&apos;s robots.txt and terms, and a maintainer
-        approves it.
+        If your club or school posts events on a public page, a Luma calendar, or an RSS or iCal feed,{" "}
+        <a href={issue("add-source.yml")}>send us the link</a> and every future event can appear here automatically.
+        Hackathon websites are welcome too. Before anything is collected, we check the site&apos;s robots.txt and terms,
+        and a maintainer approves it.
+      </p>
+      <p>
+        Google Calendar is the exception. Google&apos;s robots.txt does not allow automated reading of calendar feeds,
+        so if your club only uses Google Calendar, submit the events one at a time, or publish them on a Luma calendar
+        as well.
       </p>
 
       <h2>Fix a listing</h2>
