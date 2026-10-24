@@ -12,9 +12,9 @@ It covers Ontario first, then the rest of Canada and the US. Everything is free,
 
 ## What you can do with it
 
-- **Filter the list:** by what you want to do (attend, volunteer, mentor, judge), type, school or distance from a campus, date, eligibility, and who an event is for (first-year students, beginners, women and non-binary students and more). Filters live in the address, so any view can be bookmarked or shared.
+- **Filter the list:** events and recurring programs share one list, with filters in the left column: your year of study, what you want to do (attend, volunteer, mentor, judge), type, format, school or distance from a campus, dates, cost and who an event is for (first-year students, beginners, women and non-binary students and more). Your browser remembers your filters for next time, and they also live in the address, so any view can be bookmarked or shared.
 - **Subscribe:** every view has a calendar feed. Events appear in Google Calendar, Apple Calendar or Outlook on their own, with an "Apply by" reminder the day before each deadline. RSS and a weekly digest are there too.
-- **Read the guides:** the [Start here guide](https://openroster-seven.vercel.app/start/) explains each kind of opportunity and how to prepare. The [programs directory](https://openroster-seven.vercel.app/programs/) lists insight days, first- and second-year programs, fellowships and scholarships that come back every year.
+- **Read the guides:** the [Start here guide](https://openroster-seven.vercel.app/start/) explains each kind of opportunity and how to prepare. Insight days, first- and second-year programs, fellowships and scholarships that come back every year are in the main list too, and [/programs/](https://openroster-seven.vercel.app/programs/) shows only those.
 - **Use the data:** calendar feeds, RSS and JSON are documented on the [data page](https://openroster-seven.vercel.app/data/).
 
 ## How it works

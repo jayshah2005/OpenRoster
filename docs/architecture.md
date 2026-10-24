@@ -78,7 +78,7 @@ The Python side of each job lives in `openroster/ops/`. The CLI (`openroster/cli
 | Recognize a new date format | `openroster/extract/dates.py` and `tests/test_dates.py` |
 | Improve type, role or audience rules | `openroster/extract/classify.py` |
 | Add a field to listings | `openroster/model.py`, then `uv run openroster schema`, then `web/lib/types.ts` and `web/scripts/gen-data.mjs` |
-| Add a filter to the site | `web/lib/filter.ts` (logic and URL key), `web/components/FilterForm.tsx` (control), `web/tests/filter.test.ts` |
+| Add a filter to the site | `web/lib/filter.ts` (logic and URL key), `web/lib/directory.ts` (how it treats programs), `web/components/FilterSidebar.tsx` (control), `web/tests/filter.test.ts` |
 | Change site copy | `web/app/**/page.tsx`. Keep it plain; see `.claude/skills/humanizer/SKILL.md` |
 
 ## Rules that the code enforces
