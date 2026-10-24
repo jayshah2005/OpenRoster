@@ -28,7 +28,7 @@ jobs:
       OPENROSTER_CONTACT: ${{ vars.OPENROSTER_CONTACT }}
     steps:
       - uses: actions/checkout@v5
-      - uses: astral-sh/setup-uv@v6
+      - uses: astral-sh/setup-uv@v7
         with: {enable-cache: true}
       - run: uv sync --frozen
       - name: Audit all sources
