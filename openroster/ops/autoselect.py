@@ -17,6 +17,7 @@ from ruamel.yaml import YAML
 from ..adapters.html import parse_html_list
 from ..config import CONFIG, ROOT, Source, load_sources
 from ..fetch import Fetcher, FetchError, FetchRefused
+from .sanitize import sanitize
 from .selectors import suggest
 
 FIXTURES = ROOT / "tests" / "fixtures" / "sources"
@@ -66,8 +67,6 @@ def _write_options(source_id: str, chosen: dict) -> bool:
 
 
 def autoselect(only: set[str] | None = None, fetcher: Fetcher | None = None) -> list[Outcome]:
-    from scripts.sanitize_fixture import sanitize  # helper script, shared so fixtures are always sanitized
-
     fetcher = fetcher or Fetcher()
     out: list[Outcome] = []
     for src in load_sources():

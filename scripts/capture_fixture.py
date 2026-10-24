@@ -15,7 +15,7 @@ sys.path.insert(0, str(ROOT))
 
 from openroster.config import load_sources  # noqa: E402
 from openroster.fetch import Fetcher  # noqa: E402
-from scripts.sanitize_fixture import sanitize  # noqa: E402
+from openroster.ops.sanitize import sanitize  # noqa: E402
 
 
 def main(sid: str) -> int:
