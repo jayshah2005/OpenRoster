@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-10T15:00:00-05:00",
+  "first_seen": "2026-10-24T20:50:34.963793Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-wilfrid-laurier-univ-careers-in-criminology-fair-3029",
+  "last_seen": "2026-10-24T20:50:34.963793Z",
+  "last_verified": "2026-10-24T20:50:34.963793Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Wilfrid Laurier University events calendar (iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://events.wlu.ca/index.html"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "laurier-events-ics:654738393b58",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T20:50:34.963793Z",
+      "source_id": "laurier-events-ics",
+      "url": "https://events.wlu.ca/index.html"
+    }
+  ],
+  "start": "2026-11-10T13:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Event by Wilfrid Laurier University events calendar (iCal).",
+  "tags": [],
+  "timezone": "America/New_York",
+  "title": "Careers in Criminology Fair",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

@@ -2,7 +2,7 @@
 
 Hackathons, info sessions, talks, career fairs, workshops, competitions and early-career programs for CS students, soonest deadline first. Filter, subscribe to a calendar, or see details at https://openroster-seven.vercel.app.
 
-250 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
+247 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
 
 | Apply by | Starts | Opportunity | Organizer | Type | Where | Ways to take part |
 |---|---|---|---|---|---|---|
@@ -85,7 +85,6 @@ Hackathons, info sessions, talks, career fairs, workshops, competitions and earl
 | Not listed | Nov 3 | [Learn to 3D Print](https://openroster-seven.vercel.app/o/2026-11-university-of-guelph-learn-to-3d-print-fb0b/) | University of Guelph GryphLife (CampusGroups) public iCal | Workshop | Guelph, ON | attend |
 | Not listed | Nov 3 | [Drafting Your First Tri‑Agency Narrative CV](https://openroster-seven.vercel.app/o/2026-11-brock-library-drafting-your-first-tri-agency-narrative-cv-431a/) | Brock Library | Workshop | Online | attend |
 | Not listed | Nov 3 | [Indigenous Data Sovereignty: Foundations for Researchers](https://openroster-seven.vercel.app/o/2026-11-university-of-guelph-indigenous-data-sovereignty-foundations-for-resea-e7f9/) | University of Guelph central events (news.uoguelph.ca, The Events Calendar) | Workshop | Online | attend |
-| Not listed | Nov 3 | [Screening Studies in Covidence: Supporting Systematic and Scoping Reviews](https://openroster-seven.vercel.app/o/2026-11-brock-library-screening-studies-in-covidence-supporting-systemat-1c5f/) | Brock Library | Workshop | Online | attend |
 | Not listed | Nov 3 | [Exploring Careers in Law, Security and Government](https://openroster-seven.vercel.app/o/2026-11-career-education-exploring-careers-in-law-security-and-government-c4e2/) | Career Education | Info session | St. Catharines, ON | attend |
 | Not listed | Nov 3 | ["What Happens After Dark" Presented by TechTO & LaBarge Weinstein LLP](https://openroster-seven.vercel.app/o/2026-11-techto-luma-ical-what-happens-after-dark-presented-by-techto-labarg-cca2/) | TechTO (Luma iCal) | Other | TBA | attend |
 | Not listed | Nov 4 | [BMO Den Pitch Competition](https://openroster-seven.vercel.app/o/2026-11-bmo-den-pitch-competition-4dde/) | BMO | Case competition | Online | attend |
@@ -96,7 +95,6 @@ Hackathons, info sessions, talks, career fairs, workshops, competitions and earl
 | Not listed | Nov 4 | [PhD Seminar • Data Systems • Rethinking Data Integration Through Reference: The Abstract Relational Model](https://openroster-seven.vercel.app/o/2026-11-cheriton-school-of-c-phd-seminar-data-systems-rethinking-data-integrat-483e/) | Cheriton School of Computer Science events (iCal) | Tech talk | Waterloo, ON | attend |
 | Not listed | Nov 4 | [Non-Techincal Wednesday](https://openroster-seven.vercel.app/o/2026-11-waterloo-tech-adjace-non-techincal-wednesday-0744/) | Waterloo Tech (+adjacent) Events (Luma iCal) | Other | King, ON | attend |
 | Not listed | Nov 4 | [Secure to Scale \| Cybersecurity as a Foundation for Growth & Customer Trust (virtual)](https://openroster-seven.vercel.app/o/2026-11-wetech-alliance-secure-to-scale-cybersecurity-as-a-foundation-for-e0f2/) | WEtech Alliance | Workshop | TBA | attend |
-| Not listed | Nov 4 | [QTPOC Social](https://openroster-seven.vercel.app/o/2026-11-university-of-guelph-qtpoc-social-61ee/) | University of Guelph GryphLife (CampusGroups) public iCal | Networking | TBA | attend |
 | Not listed | Nov 4 | [AI Power Hours: Hiring your first 5 AI employees](https://openroster-seven.vercel.app/o/2026-11-waterloo-tech-adjace-ai-power-hours-hiring-your-first-5-ai-employees-deda/) | Waterloo Tech (+adjacent) Events (Luma iCal) | Other | Kitchener, ON | attend |
 | Not listed | Nov 4 | [Health-Care Career Night](https://openroster-seven.vercel.app/o/2026-11-carleton-university-health-care-career-night-4118/) | Carleton University central events (WordPress REST) | Other | Ottawa, ON | attend |
 | Not listed | Nov 4 | [The Growth Table: SAAS NORTH AI](https://openroster-seven.vercel.app/o/2026-11-techto-luma-ical-the-growth-table-saas-north-ai-fc19/) | TechTO (Luma iCal) | Other | TBA | attend |
@@ -124,7 +122,7 @@ Hackathons, info sessions, talks, career fairs, workshops, competitions and earl
 | Not listed | Nov 10 | [Future-Fit Disability Inclusion: Leveraging the Technology - The 8th Annual Malcolm Peat Lectureship](https://openroster-seven.vercel.app/o/2026-11-queen-s-university-e-future-fit-disability-inclusion-leveraging-the-te-24c6/) | Queen's University events calendar (RSS) | Tech talk | Online | attend |
 | Not listed | Nov 10 | [Kick-Starting Entrepreneurship: Market Vendor Readiness](https://openroster-seven.vercel.app/o/2026-11-brock-linc-kick-starting-entrepreneurship-market-vendor-readi-7a64/) | Brock LINC | Workshop | Niagara Falls, ON | attend |
 | Not listed | Nov 10 | [Understanding AI Agents (virtual)](https://openroster-seven.vercel.app/o/2026-11-wetech-alliance-even-understanding-ai-agents-virtual-2654/) | WEtech Alliance events (Windsor-Essex) | Workshop | Online | attend |
-| Not listed | Nov 10 | [CBRCanada French Community-Based Research Orientation](https://openroster-seven.vercel.app/o/2026-11-wilfrid-laurier-univ-careers-in-criminology-fair-3029/) | Wilfrid Laurier University events calendar (iCal) | Other | TBA | attend |
+| Not listed | Nov 10 | [Careers in Criminology Fair](https://openroster-seven.vercel.app/o/2026-11-wilfrid-laurier-univ-careers-in-criminology-fair-3029/) | Wilfrid Laurier University events calendar (iCal) | Other | TBA | attend |
 | Not listed | Nov 10 | [Careers at the Competition Bureau: Information Session](https://openroster-seven.vercel.app/o/2026-11-department-of-econom-careers-at-the-competition-bureau-information-ses-69c3/) | Department of Economics | Info session | St. Catharines, ON | attend |
 | Not listed | Nov 11 | [Virtual Seminar — "Decoding Magnesium Degradation: Local Electrochemical Signatures and High-throughput Discovery of..."](https://openroster-seven.vercel.app/o/2026-11-queen-s-university-e-virtual-seminar-decoding-magnesium-degradation-lo-eb11/) | Queen's University events calendar (RSS) | Workshop | Online | attend |
 | Not listed | Nov 11 | [Technical Wednesday](https://openroster-seven.vercel.app/o/2026-11-waterloo-tech-adjace-technical-wednesday-b5c4/) | Waterloo Tech (+adjacent) Events (Luma iCal) | Other | King, ON | attend |
@@ -248,7 +246,6 @@ Hackathons, info sessions, talks, career fairs, workshops, competitions and earl
 | Not listed | Jan 11 | [Submit Fall Job Shadow Program Reflection for CCR (FASS & FPGA)](https://openroster-seven.vercel.app/o/2027-01-carleton-career-serv-submit-fall-job-shadow-program-reflection-for-ccr-3b60/) | Carleton Career Services events (WordPress REST) | Other | Ottawa, ON | attend |
 | Not listed | Jan 16 | [nwHacks](https://openroster-seven.vercel.app/o/2027-01-nwhacks-9a63/) | nwHacks | Hackathon | Vancouver, BC | attend |
 | Jan 16 | Jan 16 | [McHacks](https://openroster-seven.vercel.app/o/2027-01-mchacks-bf85/) | McHacks | Hackathon | Montreal, QC | attend |
-| Not listed | Jan 19 | [Start Strong at DC: Mature Student Orientation](https://openroster-seven.vercel.app/o/2027-01-durham-college-event-start-strong-at-dc-mature-student-orientation-f992/) | Durham College events calendar | Info session | Oshawa, ON | attend |
 | Not listed | Jan 19 | [Geography, Tourism & Environmental Sustainability Alumni Career Night](https://openroster-seven.vercel.app/o/2027-01-department-of-geogra-geography-tourism-environmental-sustainability-al-004a/) | Department of Geography and Tourism Studies | Networking | St. Catharines, ON | attend |
 | Not listed | Jan 22 | [Waterloo Engineering Alumni Ski Days 2027](https://openroster-seven.vercel.app/o/2027-01-waterloo-engineering-alumni-ski-days-2027-a81c/) | Waterloo Engineering events (iCal) | Other | Collingwood, ON | attend |
 | Not listed | Jan 27 | [Experience Expo 2027](https://openroster-seven.vercel.app/o/2027-01-career-education-experience-expo-2027-f252/) | Career Education | Info session | St. Catharines, ON | attend |

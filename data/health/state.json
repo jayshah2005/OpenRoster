@@ -1,10 +1,12 @@
 {
   "misses": {
-    "2026-10-careerin-tech-societ-richmond-tech-community-coffee-meetup-59a0": 4,
+    "2026-10-black-boys-code-sequencing-robots-in-motion-free-lego-robotics-wor-810d": 1,
+    "2026-10-careerin-tech-societ-richmond-tech-community-coffee-meetup-59a0": 5,
     "2026-10-hackforge-intro-to-openstreetmap-contributions-3579": 2,
     "2026-10-u-of-t-engineering-u-2026-fall-study-break-no-classes-28f6": 1,
     "2026-11-accelerator-centre-ac-innovation-showcase-9cba": 2,
     "2026-11-career-services-employer-in-the-hall-maxama-protection-inc-7b4f": 2,
+    "2026-11-hackforge-gis-day-2026-d852": 1,
     "2026-11-techto-luma-ical-together-toronto-ecosystem-showcase-e195": 2,
     "2026-11-u-of-t-engineering-u-deadline-to-designate-fall-term-course-as-extra-3b87": 2,
     "2026-11-waterloo-engineering-fusion-conference-2026-80c2": 2,
@@ -18,7 +20,7 @@
     "failing": 2,
     "held_for_review": 33,
     "last_run": "2026-10-24",
-    "listings": 259,
+    "listings": 256,
     "runnable": 48
   },
   "sources": {
@@ -76,7 +78,7 @@
     },
     "brock-experiencebu-rss": {
       "consecutive_failures": 0,
-      "count": 40,
+      "count": 39,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
@@ -128,7 +130,7 @@
     },
     "durham-events": {
       "consecutive_failures": 0,
-      "count": 9,
+      "count": 8,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
@@ -145,11 +147,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 10,
+      "last_nonzero": 9,
       "last_ok": "2026-10-24",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 10,
+      "raw_count": 9,
       "refused": false
     },
     "hackathon:bearhacks": {
@@ -778,15 +780,15 @@
     },
     "laurier-events-ics": {
       "consecutive_failures": 0,
-      "count": 5,
+      "count": 4,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 111,
+      "last_nonzero": 107,
       "last_ok": "2026-10-24",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 111,
+      "raw_count": 107,
       "refused": false
     },
     "loyalist-events-tribe": {
@@ -959,7 +961,7 @@
       "refused": false
     },
     "niagara-college-events": {
-      "consecutive_failures": 5,
+      "consecutive_failures": 6,
       "count": 0,
       "error": "https://www.niagaracollege.ca/wp-json/tribe/events/v1/events?start_date=2026-10-24&per_page=50: disallowed by robots.txt",
       "fingerprint": null,
@@ -990,11 +992,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 117,
+      "last_nonzero": 118,
       "last_ok": "2026-10-24",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 117,
+      "raw_count": 118,
       "refused": false
     },
     "scotiabank-campus-events": {
@@ -1050,7 +1052,7 @@
       "refused": false
     },
     "uoft-engineering-events": {
-      "consecutive_failures": 5,
+      "consecutive_failures": 6,
       "count": 0,
       "error": "ZoneInfoNotFoundError: 'No time zone found with key UTC+0'",
       "fingerprint": null,
@@ -1090,15 +1092,15 @@
     },
     "uoguelph-gryphlife-campusgroups-ics": {
       "consecutive_failures": 0,
-      "count": 19,
+      "count": 16,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 718,
+      "last_nonzero": 714,
       "last_ok": "2026-10-24",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 718,
+      "raw_count": 714,
       "refused": false
     },
     "uoguelph-news-events-tribe": {
@@ -1198,16 +1200,16 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 252,
+      "last_nonzero": 248,
       "last_ok": "2026-10-24",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 252,
+      "raw_count": 248,
       "refused": false
     },
     "western-events-json": {
       "consecutive_failures": 0,
-      "count": 61,
+      "count": 59,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
@@ -1220,7 +1222,7 @@
     },
     "wetech-alliance-events": {
       "consecutive_failures": 0,
-      "count": 19,
+      "count": 18,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
