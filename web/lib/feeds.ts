@@ -38,7 +38,13 @@ function localDate(iso: string, tz: string, addDays = 0): string {
   return dt.toISOString().slice(0, 10).replace(/-/g, "");
 }
 
-export function toICS(entries: Entry[], name: string): string {
+/**
+ * Calendar feed. Each opportunity is one event; with `deadlines` (the default), every upcoming application
+ * deadline is also its own short "Apply by" event, so a subscribed calendar reminds people before it closes.
+ */
+export function toICS(entries: Entry[], name: string, opts: { deadlines?: boolean; now?: string } = {}): string {
+  const withDeadlines = opts.deadlines ?? true;
+  const now = opts.now ?? new Date().toISOString();
   const lines = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
@@ -73,6 +79,29 @@ export function toICS(entries: Entry[], name: string): string {
     lines.push(`CATEGORIES:${icsEscape(TYPE_LABEL[e.type] ?? e.type)}`);
     if (e.status === "cancelled") lines.push("STATUS:CANCELLED");
     lines.push("END:VEVENT");
+    if (withDeadlines && e.status !== "cancelled") {
+      for (const r of e.roles) {
+        if (!r.closes || r.closes < now) continue;
+        const end = new Date(new Date(r.closes).getTime()).toISOString();
+        const start = new Date(new Date(r.closes).getTime() - 30 * 60_000).toISOString();
+        lines.push(
+          "BEGIN:VEVENT",
+          `UID:${e.id}-${r.role}-deadline@openroster`,
+          `DTSTAMP:${utc(e.last_verified)}`,
+          `DTSTART:${utc(start)}`,
+          `DTEND:${utc(end)}`,
+          `SUMMARY:${icsEscape(`Apply by: ${e.title} (${ROLE_LABEL[r.role].toLowerCase()})`)}`,
+          `DESCRIPTION:${icsEscape(`Applications close for ${e.title}.\nDetails: ${SITE_URL}/o/${e.id}/`)}`,
+          `URL:${r.url ?? `${SITE_URL}/o/${e.id}/`}`,
+          "BEGIN:VALARM",
+          "ACTION:DISPLAY",
+          `DESCRIPTION:${icsEscape(`Applications for ${e.title} close soon`)}`,
+          "TRIGGER:-P1D",
+          "END:VALARM",
+          "END:VEVENT",
+        );
+      }
+    }
   }
   lines.push("END:VCALENDAR");
   return lines.map(fold).join("\r\n") + "\r\n";

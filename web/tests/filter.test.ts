@@ -65,6 +65,22 @@ describe("filters", () => {
 });
 
 describe("feeds", () => {
+  it("adds an 'Apply by' reminder for each upcoming deadline", () => {
+    const ics = toICS([base], "test", { now: "2026-11-01T00:00:00Z" });
+    expect(ics).toContain("UID:2026-11-herhacks-1234-mentor-deadline@openroster");
+    expect(ics).toContain("SUMMARY:Apply by: HerHacks Hackathon (mentor)");
+    expect(ics).toContain("TRIGGER:-P1D");
+    expect(toICS([base], "t", { now: "2026-12-01T00:00:00Z" })).not.toContain("Apply by");
+    expect(toICS([base], "t", { deadlines: false, now: "2026-11-01T00:00:00Z" })).not.toContain("Apply by");
+  });
+  it("filters by audience and by open-now", () => {
+    const tagged = { ...base, id: "t", tags: ["first_year"] };
+    const f = parseFilters(new URLSearchParams("for=first_year"));
+    expect(applyFilters([base, tagged], f, NOW).map((e) => e.id)).toEqual(["t"]);
+    const open = parseFilters(new URLSearchParams("open=1"));
+    expect(applyFilters([base], open, NOW).map((e) => e.id)).toEqual([base.id]);
+    expect(applyFilters([base], open, new Date("2026-12-01T00:00:00Z"))).toEqual([]);
+  });
   it("writes valid iCalendar with folded lines and UTC times", () => {
     const ics = toICS([base], "test");
     expect(ics.startsWith("BEGIN:VCALENDAR\r\n")).toBe(true);

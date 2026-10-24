@@ -13,7 +13,8 @@ export function feedResponse(req: Request, format: "ics" | "rss"): Response {
   const items = applyFilters(liveEntries, f, new Date());
   const name = describe(f, { type: TYPE_LABEL, role: ROLE_LABEL });
   if (format === "ics") {
-    return new Response(toICS(items, name), {
+    const deadlines = url.searchParams.get("deadlines") !== "0";
+    return new Response(toICS(items, name, { deadlines }), {
       headers: { "content-type": "text/calendar; charset=utf-8", "cache-control": CACHE },
     });
   }

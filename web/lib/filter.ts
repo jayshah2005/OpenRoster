@@ -16,10 +16,15 @@ export interface Filters {
   km: number | null;
   elig: string[];
   cost: string;
+  /** Audience tags from the pipeline, e.g. first_year, women_nonbinary, beginner_friendly. */
+  audience: string[];
+  /** Only opportunities that are taking applications right now. */
+  open: boolean;
 }
 
 export const FILTER_KEYS = [
   "q", "type", "role", "from", "to", "deadline", "mode", "country", "region", "school", "km", "elig", "cost",
+  "for", "open",
 ] as const;
 
 const list = (v: string | null) => (v ? v.split(",").map((s) => s.trim()).filter(Boolean) : []);
@@ -40,13 +45,19 @@ export function parseFilters(p: URLSearchParams): Filters {
     km: num(p.get("km")),
     elig: list(p.get("elig")),
     cost: p.get("cost") ?? "",
+    audience: list(p.get("for")),
+    open: p.get("open") === "1",
   };
 }
+
+// URL key -> Filters field, where they differ ("for" is a reserved word in JS).
+const FIELD: Record<string, keyof Filters> = { for: "audience" };
 
 export function toQuery(f: Partial<Filters>): string {
   const p = new URLSearchParams();
   for (const k of FILTER_KEYS) {
-    const v = f[k];
+    const raw = f[FIELD[k] ?? (k as keyof Filters)];
+    const v = typeof raw === "boolean" ? (raw ? "1" : "") : raw;
     if (v === undefined || v === null || v === "" || (Array.isArray(v) && v.length === 0)) continue;
     p.set(k, Array.isArray(v) ? v.join(",") : String(v));
   }
@@ -66,6 +77,8 @@ export function matches(e: Entry, f: Filters, now: Date): boolean {
   if (f.country && e.country !== f.country) return false;
   if (f.region && e.region !== f.region) return false;
   if (f.cost && e.cost !== f.cost) return false;
+  if (f.audience.length && !f.audience.some((t) => e.tags.includes(t) || (t === "high_school" && e.eligibility.includes("high_school")))) return false;
+  if (f.open && !isOpenNow(e, now)) return false;
   if (f.elig.length && !e.eligibility.some((x) => f.elig.includes(x))) return false;
   const day = e.start.slice(0, 10);
   if (f.from && (e.end ?? e.start).slice(0, 10) < f.from) return false;
@@ -90,6 +103,16 @@ export function matches(e: Entry, f: Filters, now: Date): boolean {
     if (!norm(f.q).split(/\s+/).every((w) => hay.includes(w))) return false;
   }
   return true;
+}
+
+/** Taking applications now: a role is marked open, or its window includes now. */
+export function isOpenNow(e: Entry, now: Date): boolean {
+  const t = now.toISOString();
+  return e.roles.some((r) => {
+    if (r.status === "closed" || (r.closes && r.closes < t)) return false; // a passed deadline beats a stale status
+    if (r.opens && r.opens > t) return false;
+    return r.status === "open" || !!r.closes;
+  });
 }
 
 export function applyFilters(entries: Entry[], f: Filters, now: Date): Entry[] {

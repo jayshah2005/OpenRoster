@@ -3,7 +3,7 @@
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { type ChangeEvent, type FormEvent, useRef, useState } from "react";
 import { type Filters, parseFilters, toQuery } from "@/lib/filter";
-import { COUNTRY_LABEL, ELIG_LABEL, MODE_LABEL, REGION_LABEL, TYPE_LABEL } from "@/lib/labels";
+import { AUDIENCE_LABEL, COUNTRY_LABEL, ELIG_LABEL, MODE_LABEL, REGION_LABEL, TYPE_LABEL } from "@/lib/labels";
 import type { Facets } from "@/lib/data";
 
 type Props = { facets: Facets; schoolNames: Record<string, string> };
@@ -22,7 +22,7 @@ export function FilterForm({ facets, schoolNames }: Props) {
   const [urlQ, setUrlQ] = useState(f.q);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const advancedSet = !!(f.from || f.to || f.deadline !== null || f.mode.length || f.country || f.region ||
-    f.school || f.elig.length || f.cost);
+    f.school || f.elig.length || f.cost || f.audience.length);
 
   // When the URL's search term changes from outside the box (back button, "Clear filters"), follow it.
   if (f.q !== urlQ) {
@@ -37,7 +37,7 @@ export function FilterForm({ facets, schoolNames }: Props) {
 
   const sel = (key: keyof Filters) => (ev: ChangeEvent<HTMLSelectElement | HTMLInputElement>) => {
     const v = ev.target.value;
-    if (["type", "role", "mode", "elig"].includes(key)) update({ [key]: v ? [v] : [] } as Partial<Filters>);
+    if (["type", "role", "mode", "elig", "audience"].includes(key)) update({ [key]: v ? [v] : [] } as Partial<Filters>);
     else if (key === "deadline" || key === "km") update({ [key]: v ? Number(v) : null } as Partial<Filters>);
     else update({ [key]: v } as Partial<Filters>);
   };
@@ -76,6 +76,10 @@ export function FilterForm({ facets, schoolNames }: Props) {
           </select>
         </label>
       </div>
+      <label className="check">
+        <input type="checkbox" name="open" checked={f.open} onChange={(ev) => update({ open: ev.target.checked })} />
+        Only show what is open for applications now
+      </label>
       <details className="more-filters" open={advancedSet || undefined}>
         <summary>More filters</summary>
         <div className="filter-grid">
@@ -121,6 +125,13 @@ export function FilterForm({ facets, schoolNames }: Props) {
             <select name="km" value={f.km ?? ""} onChange={sel("km")} disabled={!f.school}>
               <option value="">open to its students</option>
               {[25, 50, 100].map((k) => <option key={k} value={k}>within {k} km</option>)}
+            </select>
+          </label>
+          <label>
+            Who it&apos;s for
+            <select name="for" value={f.audience[0] ?? ""} onChange={sel("audience")}>
+              <option value="">everyone</option>
+              {Object.entries(AUDIENCE_LABEL).map(([v, l]) => <option key={v} value={v}>{l}</option>)}
             </select>
           </label>
           <label>

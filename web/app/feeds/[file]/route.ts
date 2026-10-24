@@ -15,7 +15,7 @@ export async function GET(_req: Request, ctx: RouteContext<"/feeds/[file]">) {
   if (!m || !items) return new Response("Not found", { status: 404 });
   const name = m[1].replace("--", " · ");
   if (m[2] === "ics") {
-    return new Response(toICS(items, name), { headers: { "content-type": "text/calendar; charset=utf-8" } });
+    return new Response(toICS(items, name, { now: meta.built }), { headers: { "content-type": "text/calendar; charset=utf-8" } });
   }
   return new Response(toRSS(items, `OpenRoster: ${name}`, `${SITE_URL}/`), {
     headers: { "content-type": "application/rss+xml; charset=utf-8", "x-built": meta.built },

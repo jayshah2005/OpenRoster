@@ -1,4 +1,4 @@
-import { allIds, getOpportunity, toEntry } from "@/lib/data";
+import { allIds, getOpportunity, meta, toEntry } from "@/lib/data";
 import { toICS } from "@/lib/feeds";
 
 export function generateStaticParams() {
@@ -10,7 +10,7 @@ export async function GET(_req: Request, ctx: RouteContext<"/o/[id]/event.ics">)
   const { id } = await ctx.params;
   const o = getOpportunity(id);
   if (!o) return new Response("Not found", { status: 404 });
-  return new Response(toICS([toEntry(o)], o.title), {
+  return new Response(toICS([toEntry(o)], o.title, { now: meta.built }), {
     headers: {
       "content-type": "text/calendar; charset=utf-8",
       "content-disposition": `attachment; filename="${id}.ics"`,

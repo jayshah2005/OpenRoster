@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { fmtDate, fmtWhen } from "@/lib/format";
-import { MODE_LABEL, ROLE_LABEL, TYPE_LABEL, regionName } from "@/lib/labels";
+import { AUDIENCE_LABEL, MODE_LABEL, ROLE_LABEL, TYPE_LABEL, regionName } from "@/lib/labels";
 import type { Entry } from "@/lib/types";
 
 export function nextDeadline(e: Entry, nowIso: string): string | null {
@@ -18,6 +18,7 @@ export function Card({ e, nowIso }: { e: Entry; nowIso: string }) {
         {e.status === "moved" && <span className="badge badge-warn">Date changed</span>}
         {e.tags.includes("mostly_high_school") && <span className="badge">Mostly high school</span>}
         {e.cost === "free" && <span className="badge">Free</span>}
+        {e.tags.filter((t) => t in AUDIENCE_LABEL).map((t) => <span key={t} className="badge">{AUDIENCE_LABEL[t]}</span>)}
       </div>
       <h3 className="card-title">
         <Link href={`/o/${e.id}/`} prefetch={false}>{e.title}</Link>
