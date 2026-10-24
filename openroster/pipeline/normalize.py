@@ -12,6 +12,7 @@ from ..adapters.base import Candidate
 from ..config import Source, known_verdict_for
 from ..extract.classify import (
     classify_type,
+    detect_audience,
     detect_cost,
     detect_eligibility,
     detect_mode,
@@ -181,7 +182,7 @@ def normalize(c: Candidate, source: Source | None, now: datetime) -> Opportunity
     else:
         lat, lon = None, None
 
-    tags = list(dict.fromkeys([*(source.tags if source else []), *c.tags]))
+    tags = list(dict.fromkeys([*(source.tags if source else []), *c.tags, *detect_audience(f"{c.title} {c.text}")]))
     if c.date_confidence == "inferred_year":
         tags.append("year_inferred")
     eligibility = c.eligibility or (source.eligibility if source else None) or detect_eligibility(text)

@@ -102,3 +102,19 @@ def mentions_travel_support(text: str) -> bool:
 
 def is_cs_relevant(text: str) -> bool:
     return bool(CS_KEYWORDS.search(text))
+
+
+# Who an opportunity is aimed at. Tags only: they power the "Who it's for" filter and never hide anything.
+AUDIENCE_RULES: list[tuple[str, re.Pattern[str]]] = [
+    ("first_year", re.compile(r"\b(?:first[- ]year|1st[- ]year|freshm(?:an|en)|year 1 students|first and second[- ]year|1st/2nd)\b", re.I)),
+    ("second_year", re.compile(r"\b(?:second[- ]year|2nd[- ]year|sophomores?|first and second[- ]year|1st/2nd)\b", re.I)),
+    ("women_nonbinary", re.compile(r"\b(?:women|woman|female|non-?binary|gender[- ]diverse|gender[- ]expansive|she\+|herhacks|ellehacks|wit\b|women in (?:tech|stem|computing))", re.I)),
+    ("black_students", re.compile(r"\b(?:black (?:students|engineers|in tech|professionals)|afro|nsbe)\b", re.I)),
+    ("indigenous_students", re.compile(r"\b(?:indigenous|first nations|m[eé]tis|inuit)\b", re.I)),
+    ("lgbtq", re.compile(r"\b(?:lgbtq\+?|2slgbtqia\+?|queer|pride)\b", re.I)),
+    ("beginner_friendly", re.compile(r"\b(?:beginners?(?:[- ]friendly)?|no experience (?:needed|required)|first[- ]time hackers?|newcomers? welcome)\b", re.I)),
+]
+
+
+def detect_audience(text: str) -> list[str]:
+    return [tag for tag, rx in AUDIENCE_RULES if rx.search(text)]

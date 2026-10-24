@@ -134,3 +134,10 @@ def test_takedown_suppresses(tmpdata):
 
 def test_candidate_key_stable():
     assert candidate_key(C(uid="u")) == "s1|u"
+
+
+def test_audience_tags():
+    o = normalize(C(title="HerHacks: beginner-friendly hackathon for first-year students", uid="aud"), S(), NOW)
+    assert {"women_nonbinary", "first_year", "beginner_friendly"} <= set(o.tags)
+    plain = normalize(C(title="Distributed systems talk", uid="plain", text="Room 101"), S(), NOW)
+    assert not {"women_nonbinary", "first_year"} & set(plain.tags)
