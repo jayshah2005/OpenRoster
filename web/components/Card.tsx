@@ -8,7 +8,9 @@ import type { Entry, Program } from "@/lib/types";
 import { Icon } from "./Icon";
 
 export function nextDeadline(e: Entry, nowIso: string): string | null {
-  return e.roles.map((r) => r.closes).filter((d): d is string => !!d && d >= nowIso).sort()[0] ?? null;
+  const now = Date.parse(nowIso);
+  const open = e.roles.map((r) => r.closes).filter((d): d is string => !!d && Date.parse(d) >= now);
+  return open.sort((a, b) => Date.parse(a) - Date.parse(b))[0] ?? null; // parse: offsets differ (-04:00, Z)
 }
 
 function tile(iso: string, tz: string): { month: string; day: string } {

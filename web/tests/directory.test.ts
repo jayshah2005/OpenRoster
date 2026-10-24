@@ -63,3 +63,13 @@ describe("programs in the directory", () => {
     expect(items.filter((i) => itemMatches(i, f("type=workshop,program"), NOW))).toHaveLength(2);
   });
 });
+
+describe("deadline-first order", () => {
+  it("sorts an event already under way by its end, not its long-past start", () => {
+    const ongoing = event({ id: "ongoing", start: "2026-10-01T08:00:00-04:00", end: "2026-11-30T17:00:00-05:00" });
+    const soon = event({ id: "soon", start: "2026-11-10T09:00:00-05:00" });
+    const order = sortItems([{ kind: "event", e: ongoing }, { kind: "event", e: soon }], "deadline", NOW)
+      .map((i) => (i.kind === "event" ? i.e.id : ""));
+    expect(order).toEqual(["soon", "ongoing"]);
+  });
+});

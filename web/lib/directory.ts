@@ -54,15 +54,20 @@ export function itemMatches(it: Item, f: Filters, now: Date): boolean {
 export type Sort = "deadline" | "start" | "new";
 export const SORT_LABEL: Record<Sort, string> = { deadline: "Deadline first", start: "Starting soonest", new: "Newest" };
 
+// Dates arrive with local offsets (-04:00, -05:00); compare them as UTC so string order is time order.
+const utc = (iso: string) => new Date(iso).toISOString();
+
 function nextOpenDeadline(e: Entry, nowIso: string): string | null {
-  return e.roles.filter((r) => r.status !== "closed" && r.closes && r.closes >= nowIso).map((r) => r.closes!).sort()[0] ?? null;
+  return e.roles.filter((r) => r.status !== "closed" && r.closes && utc(r.closes) >= nowIso).map((r) => utc(r.closes!)).sort()[0] ?? null;
 }
 
 /** Events in the chosen order, then programs by name (they have no dates to sort by). */
 export function sortItems(items: Item[], sort: Sort, now: Date): Item[] {
   const nowIso = now.toISOString();
+  // An event already under way sorts by when it ends, so a month-long one that began weeks ago doesn't sit on top.
+  const when = (e: Entry) => (utc(e.start) >= nowIso ? utc(e.start) : utc(e.end ?? e.start));
   const key = (e: Entry) =>
-    sort === "new" ? e.first_seen : sort === "start" ? e.start : `${nextOpenDeadline(e, nowIso) ?? e.start}|${e.start}`;
+    sort === "new" ? utc(e.first_seen) : sort === "start" ? when(e) : `${nextOpenDeadline(e, nowIso) ?? when(e)}|${utc(e.start)}`;
   const events = items.filter((i) => i.kind === "event") as Extract<Item, { kind: "event" }>[];
   const programs = items.filter((i) => i.kind === "program") as Extract<Item, { kind: "program" }>[];
   events.sort((a, b) => key(a.e).localeCompare(key(b.e)));

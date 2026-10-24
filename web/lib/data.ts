@@ -46,14 +46,18 @@ export function redFlags(s: PipelineStatus = status, listings = records.length):
   return flags;
 }
 
-/** Soonest open deadline first, then start time. */
-export function sortKey(o: { roles: { closes: string | null; status: string }[]; start: string }): string {
-  const now = meta.built;
+// Dates carry local offsets (-04:00, Z); compare as UTC so string order is time order.
+const utc = (iso: string) => new Date(iso).toISOString();
+
+/** Soonest open deadline first, then start time (or end time, for events already under way). */
+export function sortKey(o: { roles: { closes: string | null; status: string }[]; start: string; end: string | null }): string {
+  const now = utc(meta.built);
   const deadlines = o.roles
-    .filter((r) => r.closes && r.status !== "closed" && r.closes >= now)
-    .map((r) => r.closes as string)
+    .filter((r) => r.closes && r.status !== "closed" && utc(r.closes) >= now)
+    .map((r) => utc(r.closes as string))
     .sort();
-  return `${deadlines[0] ?? o.start}|${o.start}`;
+  const when = utc(o.start) >= now ? utc(o.start) : utc(o.end ?? o.start);
+  return `${deadlines[0] ?? when}|${utc(o.start)}`;
 }
 
 export const live: Opportunity[] = [...records].sort((a, b) => sortKey(a).localeCompare(sortKey(b)));
@@ -83,7 +87,8 @@ export function allIds(): string[] {
 }
 
 export function nextDeadline(o: { roles: { closes: string | null }[] }, now = meta.built): string | null {
-  const ds = o.roles.map((r) => r.closes).filter((d): d is string => !!d && d >= now).sort();
+  const ds = o.roles.map((r) => r.closes).filter((d): d is string => !!d && utc(d) >= utc(now))
+    .sort((a, b) => utc(a).localeCompare(utc(b)));
   return ds[0] ?? null;
 }
 

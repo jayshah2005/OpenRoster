@@ -71,6 +71,9 @@ export function isEmpty(f: Filters): boolean {
   return toQuery(f) === "";
 }
 
+/** Dates carry local offsets (-04:00); compare as UTC so string order matches time order. */
+const utc = (iso: string) => new Date(iso).toISOString();
+
 const norm = (s: string) => s.normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase();
 
 export function matches(e: Entry, f: Filters, now: Date): boolean {
@@ -91,7 +94,7 @@ export function matches(e: Entry, f: Filters, now: Date): boolean {
     const limit = new Date(now.getTime() + f.deadline * 86_400_000).toISOString();
     const nowIso = now.toISOString();
     const relevant = e.roles.filter((r) => !f.role.length || f.role.includes(r.role));
-    if (!relevant.some((r) => r.closes && r.closes >= nowIso && r.closes <= limit)) return false;
+    if (!relevant.some((r) => r.closes && utc(r.closes) >= nowIso && utc(r.closes) <= limit)) return false;
   }
   if (f.school) {
     if (f.km !== null) {
@@ -129,8 +132,8 @@ export function matchesYear(e: Entry, year: number): boolean {
 export function isOpenNow(e: Entry, now: Date): boolean {
   const t = now.toISOString();
   return e.roles.some((r) => {
-    if (r.status === "closed" || (r.closes && r.closes < t)) return false; // a passed deadline beats a stale status
-    if (r.opens && r.opens > t) return false;
+    if (r.status === "closed" || (r.closes && utc(r.closes) < t)) return false; // a passed deadline beats a stale status
+    if (r.opens && utc(r.opens) > t) return false;
     return r.status === "open" || !!r.closes;
   });
 }

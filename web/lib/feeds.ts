@@ -81,7 +81,7 @@ export function toICS(entries: Entry[], name: string, opts: { deadlines?: boolea
     lines.push("END:VEVENT");
     if (withDeadlines && e.status !== "cancelled") {
       for (const r of e.roles) {
-        if (!r.closes || r.closes < now) continue;
+        if (!r.closes || Date.parse(r.closes) < Date.parse(now)) continue;
         const end = new Date(new Date(r.closes).getTime()).toISOString();
         const start = new Date(new Date(r.closes).getTime() - 30 * 60_000).toISOString();
         lines.push(
