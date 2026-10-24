@@ -1,6 +1,6 @@
 # Source audit report
 
-Generated 2026-10-24 05:37 UTC by `openroster audit --all`. A source runs only when its verdict is **allowed** and the owner set `reviewed: true`.
+Generated 2026-10-24 05:43 UTC by `openroster audit --all`. A source runs only when its verdict is **allowed** and the owner set `reviewed: true`.
 
 Summary: allowed: 152, blocked: 25, unknown: 1
 
@@ -16,7 +16,7 @@ Summary: allowed: 152, blocked: 25, unknown: 1
 | lu.ma, luma.com | **blocked** | Only official iCal subscription links may be used; unofficial JSON endpoints and pages are never fetched. |
 | api.lu.ma | **allowed** | Official Luma iCal subscription export only. |
 | docs.google.com, forms.gle, forms.office.com, tally.so, typeform.com, jotform.com, form.jotform.com | **link_only** | Form hosts: link to them, never fetch or submit. |
-| calendar.google.com | **allowed** | Public Google Calendar iCal feeds published by their owners. |
+| calendar.google.com | **blocked** | Google's robots.txt disallows /calendar/ical/ for automated clients (found by the 2026-10-24 audit). Club Google Calendars can still be submitted event by event. |
 | gdg.community.dev | **blocked** | robots.txt disallows /api/; event pages are rendered from that API. |
 
 ## Configured sources and hackathons
@@ -55,7 +55,7 @@ Summary: allowed: 152, blocked: 25, unknown: 1
 | `uoft-utm-events` | [UTM events listing](https://www.utm.utoronto.ca/events) | **allowed** | allowed | - | - | html | no | 2026-10-24 |
 | `uoft-utsc-cms-events` | [UTSC Computer & Mathematical Sciences department events](https://utsc.utoronto.ca/cms/events) | **allowed** | allowed | - | - | html_no_dates | no | 2026-10-24 |
 | `uoft-central-events` | [U of T central events aggregator](https://www.utoronto.ca/events) | **allowed** | allowed | - | - | html | no | 2026-10-24 |
-| `tmu-cs-seminar-calendar` | [TMU Computer Science student seminar calendar (Google Calendar)](https://calendar.google.com/calendar/ical/ryerson.ca_1889os4nvg1iujhlil4onene40e9k%40resource.calendar.google.com/public/basic.ics) | **blocked** | disallowed | - | - | unknown | no | 2026-10-24 |
+| `tmu-cs-seminar-calendar` | [TMU Computer Science student seminar calendar (Google Calendar)](https://calendar.google.com/calendar/ical/ryerson.ca_1889os4nvg1iujhlil4onene40e9k%40resource.calendar.google.com/public/basic.ics) | **blocked** | not_checked | - | - | unknown | no | 2026-10-24 |
 | `dmz-flagship-events` | [DMZ (TMU) flagship events and programs](https://dmz.torontomu.ca/) | **allowed** | allowed | [terms](https://dmz.torontomu.ca/dmz-slsc) | - | html | no | 2026-10-24 |
 | `gdg-toronto` | [Google Developer Groups Toronto (GDG Toronto)](https://gdg.community.dev/gdg-toronto/) | **blocked** | not_checked | - | - | unknown | no | 2026-10-24 |
 | `gdg-on-campus-tmu` | [GDG on Campus Toronto Metropolitan University](https://gdg.community.dev/gdg-on-campus-toronto-metropolitan-university-toronto-canada/) | **blocked** | not_checked | - | - | unknown | no | 2026-10-24 |
@@ -109,7 +109,7 @@ Summary: allowed: 152, blocked: 25, unknown: 1
 | `uwindsor-event-calendar` | [University of Windsor main event calendar](https://www.uwindsor.ca/event-calendar) | **allowed** | allowed | [terms](https://www.uwindsor.ca/394207/terms-and-conditions) | - | html | no | 2026-10-24 |
 | `uwindsor-css-events` | [UWindsor Computer Science Society events](https://css.uwindsor.ca/events) | **blocked** | no_robots | - | - | unknown | no | 2026-10-24 |
 | `stclair-career-fairs` | [St. Clair College career fairs & industry events](https://stclaircollege.ca/career-fairs) | **allowed** | allowed | - | - | html_no_dates | no | 2026-10-24 |
-| `queens-computing-calendar-ics` | [Queen's School of Computing calendar (Google Calendar iCal)](https://calendar.google.com/calendar/ical/nssp17qbbcimvjluc71msmvimc%40group.calendar.google.com/public/basic.ics) | **blocked** | disallowed | - | - | unknown | no | 2026-10-24 |
+| `queens-computing-calendar-ics` | [Queen's School of Computing calendar (Google Calendar iCal)](https://calendar.google.com/calendar/ical/nssp17qbbcimvjluc71msmvimc%40group.calendar.google.com/public/basic.ics) | **blocked** | not_checked | - | - | unknown | no | 2026-10-24 |
 | `queens-ams-events` | [Queen's Alma Mater Society events (Tribe)](https://www.myams.org/wp-json/tribe/events/v1/events) | **allowed** | allowed | - | - | html_no_dates | no | 2026-10-24 |
 | `compsa-events` | [COMPSA (Queen's Computing Students' Association) events](https://compsa.ca/events) | **allowed** | allowed | - | - | html_no_dates | no | 2026-10-24 |
 | `stlawrence-eventscalendar` | [St. Lawrence College events calendar](https://www.stlawrencecollege.ca/eventscalendar) | **allowed** | allowed | [terms](https://www.stlawrencecollege.ca/terms-of-service) | terms: republishing | html | no | 2026-10-24 |

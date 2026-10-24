@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-24T05:35:18.361336+00:00",
+  "checked": "2026-10-24T05:40:30.096751+00:00",
   "dated_items_in_html": 0,
   "feeds": [],
   "http_status": 200,
@@ -14,8 +14,8 @@
   "robots": "allowed",
   "sitemaps": [
     "https://careers.bcg.com/ca/fr/sitemap_index.xml",
-    "https://careers.bcg.com/global/en/sitemap_index.xml",
-    "https://careers.bcg.com/jp/ja/sitemap_index.xml"
+    "https://careers.bcg.com/jp/ja/sitemap_index.xml",
+    "https://careers.bcg.com/global/en/sitemap_index.xml"
   ],
   "terms_forbid_automated": true,
   "terms_forbid_republish": true,
