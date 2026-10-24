@@ -2,16 +2,23 @@
   "ai_suggested": [],
   "all_day": false,
   "cost": {
-    "kind": "unknown",
+    "kind": "free",
     "note": null
   },
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-10-26T17:30:00Z",
+  "end": "2026-10-27T00:00:00Z",
   "first_seen": "2026-10-24T16:53:41.410358Z",
   "geo": null,
-  "history": [],
+  "history": [
+    {
+      "at": "2026-10-24T17:14:00.319152Z",
+      "field": "start",
+      "new": "2026-10-26T21:30:00+00:00",
+      "old": "2026-10-26T16:00:00+00:00"
+    }
+  ],
   "id": "2026-10-university-of-guelph-write-to-publish-turning-your-literature-review-i-04dd",
   "last_seen": "2026-10-24T16:53:41.410358Z",
   "last_verified": "2026-10-24T16:53:41.410358Z",
@@ -19,7 +26,7 @@
     "city": null,
     "country": null,
     "region": null,
-    "venue_name": "Online Event"
+    "venue_name": "Sign in to download the location"
   },
   "mode": "online",
   "near_schools": [],
@@ -29,7 +36,7 @@
   "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
   "registration": {
     "route": "public_link",
-    "url": "https://uoguelph.campusgroups.com/rsvp?id=377567"
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=376767"
   },
   "review": null,
   "roles": [
@@ -70,14 +77,22 @@
       "fetched_at": "2026-10-24T16:53:41.410358Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=379649"
+    },
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T17:14:00.319152Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=379614"
     }
   ],
-  "start": "2026-10-26T16:00:00Z",
-  "status": "scheduled",
-  "summary": "Online workshop by University of Guelph GryphLife (CampusGroups) public iCal.",
-  "tags": [],
+  "start": "2026-10-26T21:30:00Z",
+  "status": "moved",
+  "summary": "Free workshop by University of Guelph GryphLife (CampusGroups) public iCal.",
+  "tags": [
+    "women_nonbinary"
+  ],
   "timezone": "America/Toronto",
-  "title": "Write to Publish: Turning Your Literature Review into a Publishable Article (with AI support)",
+  "title": "IdeaLab Sprint - Learn to Think Like an Entrepreneur",
   "travel_support": {
     "note": null,
     "stated": false

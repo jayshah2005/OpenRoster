@@ -1,0 +1,161 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "paid",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-14T19:00:00-05:00",
+  "first_seen": "2026-10-24T17:14:00.319152Z",
+  "geo": {
+    "lat": 43.5789,
+    "lon": -79.6583,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-brock-lego-club-bricks-in-the-six-2026-473e",
+  "last_seen": "2026-10-24T17:14:00.319152Z",
+  "last_verified": "2026-10-24T17:14:00.319152Z",
+  "location": {
+    "city": "Mississauga",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Hilton Mississauga/Meadowvale"
+  },
+  "mode": "in_person",
+  "near_schools": [
+    {
+      "km": 1.6,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 3.4,
+      "school_id": "uoft"
+    },
+    {
+      "km": 11.4,
+      "school_id": "humber"
+    },
+    {
+      "km": 14.4,
+      "school_id": "algoma"
+    },
+    {
+      "km": 22.7,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 23.0,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 24.1,
+      "school_id": "tmu"
+    },
+    {
+      "km": 24.9,
+      "school_id": "seneca"
+    },
+    {
+      "km": 25.0,
+      "school_id": "yorku"
+    },
+    {
+      "km": 29.3,
+      "school_id": "centennial"
+    },
+    {
+      "km": 41.1,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 41.2,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 46.0,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 57.7,
+      "school_id": "brock"
+    },
+    {
+      "km": 58.2,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 64.2,
+      "school_id": "niagara-college"
+    },
+    {
+      "km": 66.7,
+      "school_id": "durham"
+    },
+    {
+      "km": 69.2,
+      "school_id": "laurier"
+    },
+    {
+      "km": 72.5,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 72.8,
+      "school_id": "ontariotechu"
+    },
+    {
+      "km": 73.5,
+      "school_id": "trent"
+    },
+    {
+      "km": 92.6,
+      "school_id": "georgian"
+    }
+  ],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Brock Lego Club",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://experiencebu.brocku.ca/event/333124"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "brock"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-24T17:14:00.319152Z",
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/333124"
+    }
+  ],
+  "start": "2026-11-14T09:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Info session by Brock Lego Club in Mississauga.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Bricks in the Six 2026",
+  "travel_support": {
+    "note": null,
+    "stated": true
+  },
+  "type": "info_session"
+}

@@ -1,0 +1,93 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-10-29T19:00:00Z",
+  "first_seen": "2026-10-24T17:14:00.319152Z",
+  "geo": null,
+  "history": [
+    {
+      "at": "2026-10-24T17:14:00.319152Z",
+      "field": "start",
+      "new": "2026-10-29T16:00:00+00:00",
+      "old": "2026-10-29T13:00:00+00:00"
+    },
+    {
+      "at": "2026-10-24T17:14:00.319152Z",
+      "field": "start",
+      "new": "2026-10-29T18:00:00+00:00",
+      "old": "2026-10-29T16:00:00+00:00"
+    }
+  ],
+  "id": "2026-10-university-of-guelph-research-lifecycle-arcgis-pro-2-more-analysis-in-e632",
+  "last_seen": "2026-10-24T17:14:00.319152Z",
+  "last_verified": "2026-10-24T17:14:00.319152Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "Sign in to download the location"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
+  "registration": {
+    "route": "public_link",
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=378437"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "uoguelph-gryphlife-campusgroups-ics:adfd7bc5e159",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T17:14:00.319152Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=379369"
+    },
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T17:14:00.319152Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=377608"
+    },
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T17:14:00.319152Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=378437"
+    }
+  ],
+  "start": "2026-10-29T18:00:00Z",
+  "status": "moved",
+  "summary": "Online info session by University of Guelph GryphLife (CampusGroups) public iCal.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Public Health Career Info Session",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

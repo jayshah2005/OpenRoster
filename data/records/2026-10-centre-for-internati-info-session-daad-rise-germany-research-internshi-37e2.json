@@ -8,14 +8,21 @@
   "eligibility": [
     "undergrad"
   ],
-  "end": "2026-10-28T16:00:00-04:00",
+  "end": null,
   "first_seen": "2026-10-24T16:53:41.410358Z",
   "geo": {
     "lat": 53.61094,
     "lon": -113.5534,
     "source": "gazetteer"
   },
-  "history": [],
+  "history": [
+    {
+      "at": "2026-10-24T17:14:00.319152Z",
+      "field": "start",
+      "new": "2026-10-28T00:00:00-04:00",
+      "old": "2026-10-28T15:00:00-04:00"
+    }
+  ],
   "id": "2026-10-centre-for-internati-info-session-daad-rise-germany-research-internshi-37e2",
   "last_seen": "2026-10-24T16:53:41.410358Z",
   "last_verified": "2026-10-24T16:53:41.410358Z",
@@ -65,8 +72,8 @@
       "url": "https://www.engineering.utoronto.ca/event/info-session-daad-rise-germany-research-internships-in-science-engineering/"
     }
   ],
-  "start": "2026-10-28T15:00:00-04:00",
-  "status": "scheduled",
+  "start": "2026-10-28T00:00:00-04:00",
+  "status": "moved",
   "summary": "Hybrid info session by Centre for International Experience in Cumberland for undergraduates.",
   "tags": [],
   "timezone": "America/Toronto",

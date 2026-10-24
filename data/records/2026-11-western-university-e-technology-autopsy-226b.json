@@ -55,7 +55,7 @@
   "organizer": "Western University events calendar (iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://www.uwo.ca/events/"
+    "url": "https://www.uwo.ca/events/2026/11/technology-autopsy.html"
   },
   "review": null,
   "roles": [
@@ -88,7 +88,7 @@
   ],
   "start": "2026-11-25T12:00:00-05:00",
   "status": "scheduled",
-  "summary": "Event by Western University events calendar (iCal) for graduate students.",
+  "summary": "Tech talk by Western University events (JSON) in London for graduate students.",
   "tags": [],
   "timezone": "America/New_York",
   "title": "Technology Autopsy",
@@ -96,5 +96,5 @@
     "note": null,
     "stated": false
   },
-  "type": "other"
+  "type": "tech_talk"
 }

@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-18T15:00:00-05:00",
+  "first_seen": "2026-10-24T17:14:00.319152Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-office-of-people-cul-developing-your-career-virtual-session-employee-w-9f9f",
+  "last_seen": "2026-10-24T17:14:00.319152Z",
+  "last_verified": "2026-10-24T17:14:00.319152Z",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "https://teams.microsoft.com/meet/284937867511400?p=xaQB86hCGksvn9V2ch"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Office of People & Culture",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://experiencebu.brocku.ca/event/329969"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "brock"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-24T17:14:00.319152Z",
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/329969"
+    }
+  ],
+  "start": "2026-11-18T14:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Online info session by Office of People & Culture.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Developing Your Career (Virtual Session) - Employee Workshop",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

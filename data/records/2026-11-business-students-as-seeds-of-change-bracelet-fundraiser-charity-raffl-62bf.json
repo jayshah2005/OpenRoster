@@ -1,0 +1,165 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-06T12:00:00-05:00",
+  "first_seen": "2026-10-24T17:14:00.319152Z",
+  "geo": {
+    "lat": 43.64455,
+    "lon": -79.40712,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-business-students-as-seeds-of-change-bracelet-fundraiser-charity-raffl-62bf",
+  "last_seen": "2026-10-24T17:14:00.319152Z",
+  "last_verified": "2026-10-24T17:14:00.319152Z",
+  "location": {
+    "city": "Niagara",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Goodman Gate"
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 1.6,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 2.2,
+      "school_id": "uoft"
+    },
+    {
+      "km": 2.7,
+      "school_id": "tmu"
+    },
+    {
+      "km": 3.1,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 8.1,
+      "school_id": "centennial"
+    },
+    {
+      "km": 10.4,
+      "school_id": "humber"
+    },
+    {
+      "km": 15.9,
+      "school_id": "seneca"
+    },
+    {
+      "km": 16.2,
+      "school_id": "yorku"
+    },
+    {
+      "km": 20.2,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 28.7,
+      "school_id": "algoma"
+    },
+    {
+      "km": 45.8,
+      "school_id": "durham"
+    },
+    {
+      "km": 51.7,
+      "school_id": "ontariotechu"
+    },
+    {
+      "km": 52.9,
+      "school_id": "trent"
+    },
+    {
+      "km": 54.8,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 55.8,
+      "school_id": "brock"
+    },
+    {
+      "km": 59.4,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 60.5,
+      "school_id": "niagara-college"
+    },
+    {
+      "km": 67.1,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 79.7,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 87.8,
+      "school_id": "georgian"
+    },
+    {
+      "km": 89.2,
+      "school_id": "laurier"
+    },
+    {
+      "km": 93.7,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 96.4,
+      "school_id": "fleming"
+    }
+  ],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Business Students' Association",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://experiencebu.brocku.ca/event/335851"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "brock"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-24T17:14:00.319152Z",
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/335851"
+    }
+  ],
+  "start": "2026-11-06T11:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Free event by Business Students' Association in Niagara.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Seeds of Change: Bracelet Fundraiser & Charity Raffle",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

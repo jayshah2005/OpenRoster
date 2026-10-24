@@ -131,7 +131,7 @@
   "organizer": "Western University events calendar (iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://www.uwo.ca/events/"
+    "url": "https://www.uwo.ca/events/2026/11/western-engineering-leaders-reception.html"
   },
   "review": null,
   "roles": [
@@ -164,7 +164,7 @@
   ],
   "start": "2026-11-12T18:00:00-05:00",
   "status": "scheduled",
-  "summary": "Networking event by Western University events calendar (iCal).",
+  "summary": "Tech talk by Western University events (JSON) in Toronto.",
   "tags": [],
   "timezone": "America/New_York",
   "title": "Western Engineering Leaders' Reception 2026",
@@ -172,5 +172,5 @@
     "note": null,
     "stated": false
   },
-  "type": "networking"
+  "type": "tech_talk"
 }

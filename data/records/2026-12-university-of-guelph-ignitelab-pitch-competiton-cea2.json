@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-03T17:30:00Z",
+  "first_seen": "2026-10-24T17:14:00.319152Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-12-university-of-guelph-ignitelab-pitch-competiton-cea2",
+  "last_seen": "2026-10-24T17:14:00.319152Z",
+  "last_verified": "2026-10-24T17:14:00.319152Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "Sign in to download the location"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
+  "registration": {
+    "route": "public_link",
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=376771"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "uoguelph-gryphlife-campusgroups-ics:7ff1a733ac46",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T17:14:00.319152Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=376771"
+    }
+  ],
+  "start": "2026-12-03T15:00:00Z",
+  "status": "scheduled",
+  "summary": "Case competition by University of Guelph GryphLife (CampusGroups) public iCal.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "IgniteLab Pitch Competiton",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "case_competition"
+}

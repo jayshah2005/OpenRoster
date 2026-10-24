@@ -8,14 +8,21 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-04T19:00:00Z",
+  "end": "2026-11-04T23:30:00Z",
   "first_seen": "2026-10-24T16:53:41.410358Z",
   "geo": {
     "lat": 43.70643,
     "lon": -79.39864,
     "source": "gazetteer"
   },
-  "history": [],
+  "history": [
+    {
+      "at": "2026-10-24T17:14:00.319152Z",
+      "field": "start",
+      "new": "2026-11-04T21:00:00+00:00",
+      "old": "2026-11-04T17:00:00+00:00"
+    }
+  ],
   "id": "2026-11-yu-connect-campusgro-women-s-wednesday-pool-8336",
   "last_seen": "2026-10-24T16:53:41.410358Z",
   "last_verified": "2026-10-24T16:53:41.410358Z",
@@ -23,7 +30,7 @@
     "city": "Toronto",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "Break Room, 4700 Keele St, S172, Ross Building, Toronto, ON M3J 1P3, Canada"
+    "venue_name": "Sign in to download the location"
   },
   "mode": "in_person",
   "near_schools": [
@@ -130,7 +137,7 @@
   "organizer": "YU Connect (CampusGroups) all public club events iCal",
   "registration": {
     "route": "public_link",
-    "url": "https://yuconnect.yorku.ca/rsvp?id=376055"
+    "url": "https://yuconnect.yorku.ca/rsvp?id=376205"
   },
   "review": null,
   "roles": [
@@ -161,14 +168,14 @@
       "url": "https://yuconnect.yorku.ca/rsvp?id=376205"
     }
   ],
-  "start": "2026-11-04T17:00:00Z",
-  "status": "scheduled",
-  "summary": "Event by YU Connect (CampusGroups) all public club events iCal in Toronto for women and non-binary students.",
+  "start": "2026-11-04T21:00:00Z",
+  "status": "moved",
+  "summary": "Event by YU Connect (CampusGroups) all public club events iCal.",
   "tags": [
     "women_nonbinary"
   ],
   "timezone": "America/Toronto",
-  "title": "Women's Wednesday Pool",
+  "title": "SCLD Study Break: Cozy Craft Cafe",
   "travel_support": {
     "note": null,
     "stated": false

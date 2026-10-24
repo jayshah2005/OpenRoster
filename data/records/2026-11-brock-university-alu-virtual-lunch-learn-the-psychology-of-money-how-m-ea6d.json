@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-26T13:00:00-05:00",
+  "first_seen": "2026-10-24T17:14:00.319152Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-brock-university-alu-virtual-lunch-learn-the-psychology-of-money-how-m-ea6d",
+  "last_seen": "2026-10-24T17:14:00.319152Z",
+  "last_verified": "2026-10-24T17:14:00.319152Z",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "https://brocku.ca/alumni/webinar-registration/"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Brock University Alumni Relations",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://experiencebu.brocku.ca/event/334851"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "brock"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-24T17:14:00.319152Z",
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/334851"
+    }
+  ],
+  "start": "2026-11-26T12:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Free online workshop by Brock University Alumni Relations.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Virtual Lunch & Learn: The Psychology of Money - How Mindset Drives Financial Habits",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

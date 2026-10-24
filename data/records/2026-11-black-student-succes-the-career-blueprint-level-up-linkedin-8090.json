@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-19T15:00:00-05:00",
+  "first_seen": "2026-10-24T17:14:00.319152Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-black-student-succes-the-career-blueprint-level-up-linkedin-8090",
+  "last_seen": "2026-10-24T17:14:00.319152Z",
+  "last_verified": "2026-10-24T17:14:00.319152Z",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Black Student Success Centre (TH 131)"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Black Student Success Centre",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://experiencebu.brocku.ca/event/332849"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "brock"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-24T17:14:00.319152Z",
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/332849"
+    }
+  ],
+  "start": "2026-11-19T14:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Online workshop by Black Student Success Centre.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "The Career Blueprint - Level Up LinkedIn",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

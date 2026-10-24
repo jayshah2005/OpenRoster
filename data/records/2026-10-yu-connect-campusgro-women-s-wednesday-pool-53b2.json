@@ -8,14 +8,27 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-10-28T18:00:00Z",
+  "end": "2026-10-29T00:00:00Z",
   "first_seen": "2026-10-24T16:53:41.410358Z",
   "geo": {
     "lat": 43.70643,
     "lon": -79.39864,
     "source": "gazetteer"
   },
-  "history": [],
+  "history": [
+    {
+      "at": "2026-10-24T17:14:00.319152Z",
+      "field": "start",
+      "new": "2026-10-28T20:30:00+00:00",
+      "old": "2026-10-28T16:00:00+00:00"
+    },
+    {
+      "at": "2026-10-24T17:14:00.319152Z",
+      "field": "start",
+      "new": "2026-10-28T22:00:00+00:00",
+      "old": "2026-10-28T20:30:00+00:00"
+    }
+  ],
   "id": "2026-10-yu-connect-campusgro-women-s-wednesday-pool-53b2",
   "last_seen": "2026-10-24T16:53:41.410358Z",
   "last_verified": "2026-10-24T16:53:41.410358Z",
@@ -23,7 +36,7 @@
     "city": "Toronto",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "Break Room, 4700 Keele St, S172, Ross Building, Toronto, ON M3J 1P3, Canada"
+    "venue_name": "Sign in to download the location"
   },
   "mode": "in_person",
   "near_schools": [
@@ -130,7 +143,7 @@
   "organizer": "YU Connect (CampusGroups) all public club events iCal",
   "registration": {
     "route": "public_link",
-    "url": "https://yuconnect.yorku.ca/rsvp?id=376054"
+    "url": "https://yuconnect.yorku.ca/rsvp?id=376232"
   },
   "review": null,
   "roles": [
@@ -173,17 +186,17 @@
       "url": "https://yuconnect.yorku.ca/rsvp?id=376232"
     }
   ],
-  "start": "2026-10-28T16:00:00Z",
-  "status": "scheduled",
-  "summary": "Event by YU Connect (CampusGroups) all public club events iCal in Toronto for women and non-binary students.",
+  "start": "2026-10-28T22:00:00Z",
+  "status": "moved",
+  "summary": "Networking event by YU Connect (CampusGroups) all public club events iCal.",
   "tags": [
     "women_nonbinary"
   ],
   "timezone": "America/Toronto",
-  "title": "Women's Wednesday Pool",
+  "title": "WIB Learn to Network Event",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "other"
+  "type": "networking"
 }

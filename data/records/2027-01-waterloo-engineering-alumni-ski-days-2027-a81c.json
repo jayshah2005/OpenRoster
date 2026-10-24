@@ -8,14 +8,21 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2027-01-21T17:00:00-05:00",
+  "end": "2027-01-22T17:00:00-05:00",
   "first_seen": "2026-10-24T16:53:41.410358Z",
   "geo": {
     "lat": 44.4834,
     "lon": -80.21638,
     "source": "gazetteer"
   },
-  "history": [],
+  "history": [
+    {
+      "at": "2026-10-24T17:14:00.319152Z",
+      "field": "start",
+      "new": "2027-01-22T08:30:00-05:00",
+      "old": "2027-01-21T08:30:00-05:00"
+    }
+  ],
   "id": "2027-01-waterloo-engineering-alumni-ski-days-2027-a81c",
   "last_seen": "2026-10-24T16:53:41.410358Z",
   "last_verified": "2026-10-24T16:53:41.410358Z",
@@ -87,8 +94,8 @@
       "url": "https://uwaterloo.ca/engineering/events/waterloo-engineering-alumni-ski-days-2027"
     }
   ],
-  "start": "2027-01-21T08:30:00-05:00",
-  "status": "scheduled",
+  "start": "2027-01-22T08:30:00-05:00",
+  "status": "moved",
   "summary": "Event by Waterloo Engineering events (iCal) in Collingwood.",
   "tags": [],
   "timezone": "America/Toronto",

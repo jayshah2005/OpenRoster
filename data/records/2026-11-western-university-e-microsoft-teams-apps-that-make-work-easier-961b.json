@@ -55,7 +55,7 @@
   "organizer": "Western University events calendar (iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://www.uwo.ca/events/"
+    "url": "https://www.uwo.ca/events/2026/11/wts-microsoft-teams-apps-that-make-work-easier.html"
   },
   "review": null,
   "roles": [
@@ -88,7 +88,7 @@
   ],
   "start": "2026-11-03T10:00:00-05:00",
   "status": "scheduled",
-  "summary": "Event by Western University events calendar (iCal).",
+  "summary": "Workshop by Western University events (JSON) in London.",
   "tags": [],
   "timezone": "America/New_York",
   "title": "Microsoft Teams: Apps That Make Work Easier",
@@ -96,5 +96,5 @@
     "note": null,
     "stated": false
   },
-  "type": "other"
+  "type": "workshop"
 }
