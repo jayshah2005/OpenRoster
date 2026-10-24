@@ -98,6 +98,13 @@ def cmd_submission(a: argparse.Namespace) -> int:
     return 0 if result["ok"] else 1
 
 
+def cmd_listings(a: argparse.Namespace) -> int:
+    from .ops.listings import write_listings
+
+    print(f"LISTINGS.md: {write_listings()} opportunities")
+    return 0
+
+
 def cmd_discover(a: argparse.Namespace) -> int:
     from .discover import discover, write
 
@@ -158,6 +165,9 @@ def main(argv: list[str] | None = None) -> int:
     s.add_argument("--sync", action="store_true")
     s.add_argument("--dry-run", action="store_true")
     s.set_defaults(fn=cmd_health)
+
+    s = sub.add_parser("listings", help="write LISTINGS.md (the upcoming list as a Markdown table for GitHub)")
+    s.set_defaults(fn=cmd_listings)
 
     s = sub.add_parser("discover", help="propose new sources from audits and existing data (no network)")
     s.set_defaults(fn=cmd_discover)
