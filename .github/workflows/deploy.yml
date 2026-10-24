@@ -26,7 +26,7 @@ jobs:
       NEXT_PUBLIC_SITE_URL: ${{ vars.SITE_URL }}
       NEXT_PUBLIC_CONTACT_EMAIL: ${{ vars.OPENROSTER_CONTACT }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
         with: {ref: main}
       - uses: actions/setup-node@v5
         with: {node-version: 24, cache: npm, cache-dependency-path: web/package-lock.json}

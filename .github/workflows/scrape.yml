@@ -30,7 +30,7 @@ jobs:
     env:
       OPENROSTER_CONTACT: ${{ vars.OPENROSTER_CONTACT }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
       - uses: astral-sh/setup-uv@v6
         with: {enable-cache: true}
       - run: uv sync --frozen
