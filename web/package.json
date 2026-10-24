@@ -10,7 +10,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "node scripts/gen-data.mjs && next typegen && tsc --noEmit",
     "test": "vitest run",
     "e2e": "playwright test",
     "check-size": "node scripts/check-size.mjs",
