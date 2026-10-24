@@ -7,6 +7,7 @@ import re
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 from urllib.parse import urlsplit
+from zoneinfo import ZoneInfo
 
 from ..adapters.base import Candidate
 from ..config import Source, known_verdict_for
@@ -80,17 +81,36 @@ def strip_person_names(title: str) -> str:
     return title
 
 
-def build_summary(type_: str, organizer: str, mode: str, city: str | None, roles: list[str], tags: list[str]) -> str:
-    where = "Online" if mode == "online" else city or ""
-    s = f"{TYPE_LABEL.get(type_, 'Event')} hosted by {organizer}"
-    if where:
-        s += f" ({where})"
-    s += "."
-    extra = [ROLE_PHRASE[r] for r in roles if r in ROLE_PHRASE]
-    if extra:
-        s += " Also looking for " + ", ".join(extra) + "."
+AUDIENCE_PHRASE = {
+    "first_year": "first-year students", "second_year": "second-year students",
+    "women_nonbinary": "women and non-binary students", "black_students": "Black students",
+    "indigenous_students": "Indigenous students", "lgbtq": "2SLGBTQIA+ students",
+}
+ELIG_PHRASE = {"undergrad": "undergraduates", "grad": "graduate students", "high_school": "high-school students"}
+
+
+def build_summary(type_: str, organizer: str, mode: str, city: str | None, roles: list[dict], tags: list[str],
+                  eligibility: list[str], cost: str, tz: str) -> str:
+    """A one-line summary in our own words, built only from facts we already store (never from source text)."""
+    words = ["free" if cost == "free" else "", {"online": "online", "hybrid": "hybrid"}.get(mode, ""),
+             TYPE_LABEL.get(type_, "Event").lower()]
+    s = " ".join(w for w in words if w).capitalize() + f" by {organizer}"
+    if city and mode != "online":
+        s += f" in {city}"
+    who = [AUDIENCE_PHRASE[t] for t in tags if t in AUDIENCE_PHRASE] or [ELIG_PHRASE[e] for e in eligibility if e in ELIG_PHRASE]
     if "mostly_high_school" in tags:
-        s += " Mostly for high-school students."
+        who = ["mostly high-school students"]
+    if who:
+        s += " for " + " and ".join(who[:2])
+    s += "."
+    if "beginner_friendly" in tags:
+        s += " Beginners welcome."
+    participant = next((r for r in roles if r["role"] == "participant" and r.get("closes")), None)
+    if participant:
+        s += f" Apply by {participant['closes'].astimezone(ZoneInfo(tz)):%b %-d}."
+    extra = [ROLE_PHRASE[r["role"]] for r in roles if r["role"] in ROLE_PHRASE]
+    if extra:
+        s += " Also looking for " + (", ".join(extra[:-1]) + " and " + extra[-1] if len(extra) > 1 else extra[0]) + "."
     return s[:200]
 
 
@@ -218,7 +238,7 @@ def normalize(c: Candidate, source: Source | None, now: datetime) -> Opportunity
         "cost": {"kind": cost},
         "travel_support": {"stated": travel},
         "tags": tags,
-        "summary": c.summary or build_summary(type_, organizer, mode, city, role_names, tags),
+        "summary": c.summary or build_summary(type_, organizer, mode, city, roles, tags, eligibility, cost, tz),
         "sources": [{"url": c.url, "adapter": c.adapter, "source_id": c.source_id, "fetched_at": now}],
         "obtained_via": [c.adapter],
         "first_seen": now,
