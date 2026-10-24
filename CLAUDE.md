@@ -1,6 +1,6 @@
 # OpenRoster: notes for Claude
 
-Open-source tracker of opportunities for CS students. The Python pipeline (`openroster/`) writes
+Open-source tracker of opportunities for CS students (start with docs/architecture.md). The Python pipeline (`openroster/`) writes
 `data/records/*.json`. The Next.js site (`web/`) reads that data at build time and deploys to Vercel.
 
 ## Commands
@@ -15,6 +15,9 @@ uv run openroster validate                    # JSON Schema + no-personal-data c
 uv run openroster schema                      # re-export schema/opportunity.schema.json after model changes
 uv run openroster review                      # daily review report + fill-in stubs
 uv run openroster suggest-selectors <id> --html <file>
+uv run openroster autoselect [--only <ids>]    # rule-based selectors for approved HTML sources (fetches once each)
+uv run openroster discover                    # propose new feeds/hackathons from audits and data (no network)
+uv run openroster listings                    # regenerate LISTINGS.md
 uv run openroster submission --kind submit|correct|takedown|permission --body <file> [--write]
 OPENROSTER_DATA=/tmp/p uv run python scripts/preview_from_fixtures.py   # preview data, no network
 
