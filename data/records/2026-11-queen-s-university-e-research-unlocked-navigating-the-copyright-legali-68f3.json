@@ -1,0 +1,73 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "undergrad",
+    "grad"
+  ],
+  "end": "2026-11-18T12:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 46.88026,
+    "lon": -71.51464,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-queen-s-university-e-research-unlocked-navigating-the-copyright-legali-68f3",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Shannon",
+    "country": "CA",
+    "region": "CA-QC",
+    "venue_name": null
+  },
+  "mode": "in_person",
+  "near_schools": [],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Queen's University events calendar (RSS)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.queensu.ca/eventscalendar/events/research-unlocked-navigating-copyright-legalities-training-using-ai"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "queens-events-rss",
+      "url": "https://www.queensu.ca/eventscalendar/events/research-unlocked-navigating-copyright-legalities-training-using-ai"
+    }
+  ],
+  "start": "2026-11-18T11:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Workshop by Queen's University events calendar (RSS) in Shannon for undergraduates and graduate students.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Research Unlocked: Navigating the Copyright Legalities of Training and Using AI",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

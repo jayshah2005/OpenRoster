@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-10-26T15:00:00-04:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-10-queen-s-university-e-royal-society-of-canada-navigating-the-nomination-5f91",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": null
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Queen's University events calendar (RSS)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.queensu.ca/eventscalendar/events/royal-society-canada-navigating-nomination-process-natural-physical-sciences"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "queens-events-rss",
+      "url": "https://www.queensu.ca/eventscalendar/events/royal-society-canada-navigating-nomination-process-natural-physical-sciences"
+    }
+  ],
+  "start": "2026-10-26T13:00:00-04:00",
+  "status": "scheduled",
+  "summary": "Online workshop by Queen's University events calendar (RSS).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Royal Society of Canada: Navigating the Nomination Process (Natural and Physical Sciences)",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

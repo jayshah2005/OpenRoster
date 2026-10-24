@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-10-29T13:15:00-04:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-10-carleton-university-re-climate-webinar-getting-to-yes-in-my-backyard-o-5e39",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "False"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "api"
+  ],
+  "organizer": "Carleton University central events (WordPress REST)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://us02web.zoom.us/webinar/register/WN_il5olcVuRMO7HuWqeKrVAg"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "api",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "carleton-events-api",
+      "url": "https://us02web.zoom.us/webinar/register/WN_il5olcVuRMO7HuWqeKrVAg"
+    }
+  ],
+  "start": "2026-10-29T12:00:00-04:00",
+  "status": "scheduled",
+  "summary": "Online event by Carleton University central events (WordPress REST).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Re.Climate webinar: Getting to “Yes in My Backyard” on clean energy projects",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

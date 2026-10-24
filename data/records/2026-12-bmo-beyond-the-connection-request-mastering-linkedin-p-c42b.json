@@ -1,0 +1,71 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "undergrad",
+    "grad"
+  ],
+  "end": "2026-12-29T17:30:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-12-bmo-beyond-the-connection-request-mastering-linkedin-p-c42b",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "html"
+  ],
+  "organizer": "BMO",
+  "registration": {
+    "route": "public_link",
+    "url": "https://jobs.bmo.com/ca/en/event/6a90a57b94ad778dc887c0ee/Beyond-the-Connection-Request-Mastering-LinkedIn-Personal-Branding"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "bmo-virtual-workshops:31e797214c75",
+  "sources": [
+    {
+      "adapter": "html",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "bmo-virtual-workshops",
+      "url": "https://jobs.bmo.com/ca/en/event/6a90a57b94ad778dc887c0ee/Beyond-the-Connection-Request-Mastering-LinkedIn-Personal-Branding"
+    }
+  ],
+  "start": "2026-12-29T16:30:00-05:00",
+  "status": "scheduled",
+  "summary": "Online workshop by BMO for undergraduates and graduate students.",
+  "tags": [
+    "year_inferred"
+  ],
+  "timezone": "America/Toronto",
+  "title": "Beyond the Connection Request: Mastering LinkedIn & Personal Branding",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

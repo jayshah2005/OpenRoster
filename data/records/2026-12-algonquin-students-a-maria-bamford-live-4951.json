@@ -1,0 +1,147 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "paid",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-19T19:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 43.46475,
+    "lon": -80.52185,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-12-algonquin-students-a-maria-bamford-live-4951",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Central",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 1.1,
+      "school_id": "laurier"
+    },
+    {
+      "km": 1.6,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 2.0,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 25.1,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 53.7,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 54.6,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 66.1,
+      "school_id": "algoma"
+    },
+    {
+      "km": 66.4,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 69.9,
+      "school_id": "uoft"
+    },
+    {
+      "km": 74.4,
+      "school_id": "fanshawe"
+    },
+    {
+      "km": 79.2,
+      "school_id": "western"
+    },
+    {
+      "km": 79.3,
+      "school_id": "humber"
+    },
+    {
+      "km": 89.0,
+      "school_id": "yorku"
+    },
+    {
+      "km": 89.1,
+      "school_id": "seneca"
+    },
+    {
+      "km": 92.6,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 93.5,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 94.6,
+      "school_id": "tmu"
+    },
+    {
+      "km": 99.3,
+      "school_id": "centennial"
+    }
+  ],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "Algonquin Students' Association events (Tribe)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.algonquinsa.com/event/maria-bamford-live/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "algonquin-sa-events",
+      "url": "https://www.algonquinsa.com/event/maria-bamford-live/"
+    }
+  ],
+  "start": "2026-12-19T19:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Event by Algonquin Students' Association events (Tribe) in Central for women and non-binary students.",
+  "tags": [
+    "women_nonbinary"
+  ],
+  "timezone": "America/Toronto",
+  "title": "Maria Bamford Live",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

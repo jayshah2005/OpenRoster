@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": true,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2027-01-05T23:59:59-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-12-u-of-t-engineering-u-winter-break-university-closed-642d",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "U of T Engineering undergraduate events (incl. PEY Co-op)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://undergrad.engineering.utoronto.ca/event/winter-break-university-closed-4/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": "2026-12-24T23:59:00-05:00",
+      "evidence": "Closed The university will be closed from December 24, 2026, to January 5, 2027. The",
+      "opens": null,
+      "role": "participant",
+      "status": "open",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "uoft-engineering-undergrad-events",
+      "url": "https://undergrad.engineering.utoronto.ca/event/winter-break-university-closed-4/"
+    }
+  ],
+  "start": "2026-12-24T00:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Event by U of T Engineering undergraduate events (incl. PEY Co-op). Apply by Dec 24.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Winter Break: University Closed",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

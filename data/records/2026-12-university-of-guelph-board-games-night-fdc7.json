@@ -1,0 +1,169 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-03T03:00:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 43.54594,
+    "lon": -80.25599,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-12-university-of-guelph-board-games-night-fdc7",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Guelph",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "UC 225, 222, and 224, 50 Stone Rd E, Guelph, Ontario N1G 2W1, Canada"
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 2.9,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 21.1,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 23.3,
+      "school_id": "laurier"
+    },
+    {
+      "km": 24.7,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 41.8,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 42.7,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 42.9,
+      "school_id": "algoma"
+    },
+    {
+      "km": 43.4,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 47.8,
+      "school_id": "uoft"
+    },
+    {
+      "km": 56.0,
+      "school_id": "humber"
+    },
+    {
+      "km": 65.7,
+      "school_id": "yorku"
+    },
+    {
+      "km": 65.8,
+      "school_id": "seneca"
+    },
+    {
+      "km": 69.6,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 70.6,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 71.7,
+      "school_id": "tmu"
+    },
+    {
+      "km": 76.4,
+      "school_id": "centennial"
+    },
+    {
+      "km": 92.6,
+      "school_id": "brock"
+    },
+    {
+      "km": 96.7,
+      "school_id": "fanshawe"
+    }
+  ],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
+  "registration": {
+    "route": "public_link",
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=377140"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "uoguelph-gryphlife-campusgroups-ics:77caa3432a42",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=377140"
+    },
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=378326"
+    },
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=378351"
+    },
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=376771"
+    },
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=376281"
+    }
+  ],
+  "start": "2026-12-03T00:00:00Z",
+  "status": "scheduled",
+  "summary": "Event by University of Guelph GryphLife (CampusGroups) public iCal in Guelph.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Board Games Night",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

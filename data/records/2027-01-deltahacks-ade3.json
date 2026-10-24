@@ -1,0 +1,147 @@
+{
+  "ai_suggested": [],
+  "all_day": true,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "high_school"
+  ],
+  "end": "2027-01-10T23:59:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 43.25011,
+    "lon": -79.84963,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2027-01-deltahacks-ade3",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Hamilton",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": null
+  },
+  "mode": "hybrid",
+  "near_schools": [
+    {
+      "km": 3.4,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 5.8,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 27.3,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 35.8,
+      "school_id": "laurier"
+    },
+    {
+      "km": 36.4,
+      "school_id": "uoft"
+    },
+    {
+      "km": 39.5,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 43.7,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 46.9,
+      "school_id": "humber"
+    },
+    {
+      "km": 48.9,
+      "school_id": "algoma"
+    },
+    {
+      "km": 50.2,
+      "school_id": "brock"
+    },
+    {
+      "km": 54.6,
+      "school_id": "niagara-college"
+    },
+    {
+      "km": 58.1,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 58.7,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 59.1,
+      "school_id": "tmu"
+    },
+    {
+      "km": 61.4,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 64.4,
+      "school_id": "seneca"
+    },
+    {
+      "km": 64.5,
+      "school_id": "centennial"
+    },
+    {
+      "km": 64.6,
+      "school_id": "yorku"
+    }
+  ],
+  "obtained_via": [
+    "hackathon_site"
+  ],
+  "organizer": "DeltaHacks",
+  "registration": {
+    "route": "public_link",
+    "url": "https://deltahacks.com"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "open",
+      "url": "https://deltahacks.com"
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "hackathon_site",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "hackathon:deltahacks",
+      "url": "https://deltahacks.com"
+    }
+  ],
+  "start": "2027-01-09T00:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Free hybrid hackathon by DeltaHacks in Hamilton for high-school students. Beginners welcome.",
+  "tags": [
+    "beginner_friendly"
+  ],
+  "timezone": "America/Toronto",
+  "title": "DeltaHacks",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "hackathon"
+}

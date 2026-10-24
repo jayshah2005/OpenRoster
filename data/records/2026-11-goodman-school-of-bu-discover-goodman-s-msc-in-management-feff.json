@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "grad"
+  ],
+  "end": "2026-11-10T12:30:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-goodman-school-of-bu-discover-goodman-s-msc-in-management-feff",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "https://us02web.zoom.us/webinar/register/WN_e20Z-ZkURvmgwok4fvaBnQ"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Goodman School of Business",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://experiencebu.brocku.ca/event/209625"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "brock"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/209625"
+    }
+  ],
+  "start": "2026-11-10T11:30:00-05:00",
+  "status": "scheduled",
+  "summary": "Online info session by Goodman School of Business for graduate students.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Discover Goodman's MSc in Management",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

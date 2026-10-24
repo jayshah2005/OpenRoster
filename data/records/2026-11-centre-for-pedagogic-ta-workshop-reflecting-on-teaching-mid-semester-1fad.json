@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-05T11:50:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-centre-for-pedagogic-ta-workshop-reflecting-on-teaching-mid-semester-1fad",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "https://teams.microsoft.com/meet/277110294995559?p=q2PL6KPA5JLdpKPW1O"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Centre for Pedagogical Innovation",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://experiencebu.brocku.ca/event/333210"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "brock"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/333210"
+    }
+  ],
+  "start": "2026-11-05T11:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Online workshop by Centre for Pedagogical Innovation.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "TA Workshop: Reflecting on Teaching Mid-Semester",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

@@ -1,0 +1,72 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-10-26T00:00:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 49.2846,
+    "lon": -122.78217,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-10-tech2step-walk-and-connect-lafarge-lake-coquitlam-ec0f",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Coquitlam",
+    "country": "CA",
+    "region": "CA-BC",
+    "venue_name": "https://luma.com/event/evt-YXxEECaMY8xxIo7"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Tech2Step Events (Luma iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://luma.com/l4qsnwog"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "luma-tech2step-events:51b531825cfd",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "luma-tech2step-events",
+      "url": "https://luma.com/l4qsnwog"
+    }
+  ],
+  "start": "2026-10-25T23:00:00Z",
+  "status": "scheduled",
+  "summary": "Event by Tech2Step Events (Luma iCal) in Coquitlam.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Tech2Step Walk and Connect- Lafarge Lake, Coquitlam",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

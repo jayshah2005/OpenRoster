@@ -1,0 +1,81 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-23T21:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 42.30008,
+    "lon": -83.01654,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-hackforge-tech-recycling-day-at-hackforge-33af",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Windsor",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Hackforge"
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 4.1,
+      "school_id": "uwindsor"
+    },
+    {
+      "km": 5.8,
+      "school_id": "stclair"
+    }
+  ],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "Hackforge",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.wetech-alliance.com/event/tech-recycling-day-at-hackforge/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "wetech-alliance-events",
+      "url": "https://www.wetech-alliance.com/event/tech-recycling-day-at-hackforge/"
+    }
+  ],
+  "start": "2026-11-23T19:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Free networking event by Hackforge in Windsor.",
+  "tags": [],
+  "timezone": "America/Detroit",
+  "title": "Tech Recycling Day at Hackforge",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "networking"
+}

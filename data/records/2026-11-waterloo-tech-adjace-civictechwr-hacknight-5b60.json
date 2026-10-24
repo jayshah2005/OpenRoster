@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-26T01:00:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-waterloo-tech-adjace-civictechwr-hacknight-5b60",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "https://luma.com/event/evt-U9iSkJtV995Ufk0"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Waterloo Tech (+adjacent) Events (Luma iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://luma.com/1b6nuekm"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "luma-waterloo-tech-adjacent-events:c544b13b0007",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "luma-waterloo-tech-adjacent-events",
+      "url": "https://luma.com/1b6nuekm"
+    }
+  ],
+  "start": "2026-11-25T23:00:00Z",
+  "status": "scheduled",
+  "summary": "Hackathon by Waterloo Tech (+adjacent) Events (Luma iCal).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "CivicTechWR Hacknight",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "hackathon"
+}

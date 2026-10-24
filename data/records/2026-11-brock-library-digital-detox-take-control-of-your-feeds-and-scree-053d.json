@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-26T13:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-brock-library-digital-detox-take-control-of-your-feeds-and-scree-053d",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "https://teams.microsoft.com/meet/283243101350820?p=Q8Ld4Z92TQlWibJtKf"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Brock Library",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://experiencebu.brocku.ca/event/328900"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "brock"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/328900"
+    }
+  ],
+  "start": "2026-11-26T12:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Online workshop by Brock Library.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Digital Detox: Take Control of your Feeds and Screen Time",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

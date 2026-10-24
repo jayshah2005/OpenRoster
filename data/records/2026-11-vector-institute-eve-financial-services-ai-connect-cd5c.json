@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "grad"
+  ],
+  "end": "2026-11-26T15:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-vector-institute-eve-financial-services-ai-connect-cd5c",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "in_person",
+  "near_schools": [],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "Vector Institute events (The Events Calendar REST)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://vectorinstitute.swoogo.com/financial-services-ai-connect/13205220?ref=Website"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "vector-institute-events",
+      "url": "https://vectorinstitute.ai/event/financial-services-ai-connect/"
+    }
+  ],
+  "start": "2026-11-26T13:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Event by Vector Institute events (The Events Calendar REST) for graduate students.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Financial Services AI Connect",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

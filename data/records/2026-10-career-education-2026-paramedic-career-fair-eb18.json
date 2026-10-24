@@ -1,0 +1,169 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-10-25T16:00:00-04:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 43.70643,
+    "lon": -79.39864,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-10-career-education-2026-paramedic-career-fair-eb18",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Toronto",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Toronto Congress Centre"
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 3.5,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 4.8,
+      "school_id": "uoft"
+    },
+    {
+      "km": 5.6,
+      "school_id": "tmu"
+    },
+    {
+      "km": 5.9,
+      "school_id": "centennial"
+    },
+    {
+      "km": 5.9,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 10.7,
+      "school_id": "seneca"
+    },
+    {
+      "km": 11.2,
+      "school_id": "yorku"
+    },
+    {
+      "km": 15.5,
+      "school_id": "humber"
+    },
+    {
+      "km": 23.8,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 29.1,
+      "school_id": "algoma"
+    },
+    {
+      "km": 41.6,
+      "school_id": "durham"
+    },
+    {
+      "km": 47.7,
+      "school_id": "ontariotechu"
+    },
+    {
+      "km": 48.2,
+      "school_id": "trent"
+    },
+    {
+      "km": 61.2,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 62.4,
+      "school_id": "brock"
+    },
+    {
+      "km": 64.9,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 66.8,
+      "school_id": "niagara-college"
+    },
+    {
+      "km": 69.3,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 81.3,
+      "school_id": "georgian"
+    },
+    {
+      "km": 83.2,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 90.3,
+      "school_id": "fleming"
+    },
+    {
+      "km": 94.1,
+      "school_id": "laurier"
+    },
+    {
+      "km": 95.9,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 99.3,
+      "school_id": "lakehead"
+    }
+  ],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Career Education",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://experiencebu.brocku.ca/event/335159"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "brock"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/335159"
+    }
+  ],
+  "start": "2026-10-25T12:00:00-04:00",
+  "status": "scheduled",
+  "summary": "Free career fair by Career Education in Toronto.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "2026 Paramedic Career Fair",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "career_fair"
+}

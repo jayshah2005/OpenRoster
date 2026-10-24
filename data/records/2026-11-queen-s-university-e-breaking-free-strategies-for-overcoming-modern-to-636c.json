@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-04T10:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-queen-s-university-e-breaking-free-strategies-for-overcoming-modern-to-636c",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": null
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Queen's University events calendar (RSS)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.queensu.ca/eventscalendar/events/breaking-free-strategies-overcoming-modern-tobacco-vaping-challenges-thrive-month"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "queens-events-rss",
+      "url": "https://www.queensu.ca/eventscalendar/events/breaking-free-strategies-overcoming-modern-tobacco-vaping-challenges-thrive-month"
+    }
+  ],
+  "start": "2026-11-04T09:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Free online workshop by Queen's University events calendar (RSS).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Breaking Free: strategies for overcoming modern tobacco and vaping challenges (Thrive Month)",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

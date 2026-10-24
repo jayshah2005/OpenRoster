@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-10T11:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-12-wetech-alliance-even-ipon-digital-toolkit-info-sessions-virtual-1699",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "WEtech Alliance events (Windsor-Essex)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.wetech-alliance.com/event/ipon-digital-toolkit-info-sessions-virtual-4/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "wetech-alliance-events",
+      "url": "https://www.wetech-alliance.com/event/ipon-digital-toolkit-info-sessions-virtual-4/"
+    }
+  ],
+  "start": "2026-12-10T10:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Free online info session by WEtech Alliance events (Windsor-Essex).",
+  "tags": [],
+  "timezone": "America/Detroit",
+  "title": "IPON Digital Toolkit | Info Sessions (virtual)",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

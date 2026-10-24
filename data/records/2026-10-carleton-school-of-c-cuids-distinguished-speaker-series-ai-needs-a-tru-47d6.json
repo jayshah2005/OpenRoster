@@ -1,0 +1,89 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-10-27T12:00:00-04:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 45.41117,
+    "lon": -75.69812,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-10-carleton-school-of-c-cuids-distinguished-speaker-series-ai-needs-a-tru-47d6",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Ottawa",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "HP"
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 1.8,
+      "school_id": "uottawa"
+    },
+    {
+      "km": 2.6,
+      "school_id": "carleton"
+    },
+    {
+      "km": 8.2,
+      "school_id": "algonquin"
+    },
+    {
+      "km": 85.1,
+      "school_id": "stlawrence"
+    }
+  ],
+  "obtained_via": [
+    "api"
+  ],
+  "organizer": "Carleton School of Computer Science events (WordPress REST)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://carleton.ca/scs/event/cuids-distinguished-speaker-series-ai-needs-a-trust-layer-is-blockchain-the-answer/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "api",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "carleton-scs-events-api",
+      "url": "https://carleton.ca/scs/event/cuids-distinguished-speaker-series-ai-needs-a-trust-layer-is-blockchain-the-answer/"
+    }
+  ],
+  "start": "2026-10-27T11:00:00-04:00",
+  "status": "scheduled",
+  "summary": "Tech talk by Carleton School of Computer Science events (WordPress REST) in Ottawa.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "CUIDS Distinguished Speaker Series-AI Needs a Trust Layer: Is Blockchain the Answer?",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "tech_talk"
+}

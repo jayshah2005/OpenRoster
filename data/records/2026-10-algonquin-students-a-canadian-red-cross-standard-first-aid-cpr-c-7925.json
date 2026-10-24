@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-10-31T17:00:00-04:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-10-algonquin-students-a-canadian-red-cross-standard-first-aid-cpr-c-7925",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "Algonquin Students' Association events (Tribe)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.algonquinsa.com/event/canadian-red-cross-standard-first-aid-cpr-c-2026-10-31/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "algonquin-sa-events",
+      "url": "https://www.algonquinsa.com/event/canadian-red-cross-standard-first-aid-cpr-c-2026-10-31/"
+    }
+  ],
+  "start": "2026-10-31T09:00:00-04:00",
+  "status": "scheduled",
+  "summary": "Event by Algonquin Students' Association events (Tribe).",
+  "tags": [],
+  "timezone": "America/New_York",
+  "title": "Canadian Red Cross Standard First Aid & CPR – C",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

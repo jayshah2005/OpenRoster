@@ -1,0 +1,72 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-11T03:30:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 49.24966,
+    "lon": -123.11934,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-12-careerin-tech-societ-vancouver-tech-community-connect-7fad",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Vancouver",
+    "country": "CA",
+    "region": "CA-BC",
+    "venue_name": "Convergence, 777 Hornby St #1500, Vancouver, BC V6Z 1S4, Canada"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Careerin Tech Society (Luma iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://luma.com/VancouverTech2026Dec10"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "luma-careerin-tech-society:3d39535a681d",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "luma-careerin-tech-society",
+      "url": "https://luma.com/VancouverTech2026Dec10"
+    }
+  ],
+  "start": "2026-12-11T00:30:00Z",
+  "status": "scheduled",
+  "summary": "Event by Careerin Tech Society (Luma iCal) in Vancouver.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Vancouver Tech Community: Connect",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

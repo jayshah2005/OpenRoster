@@ -1,6 +1,559 @@
 {
   "flagged_missing": [],
-  "items": [],
-  "possible_duplicates": [],
-  "role_calls": []
+  "items": [
+    {
+      "evidence": " Sheridan College's largest hackathon this year, bringing students from across the GTA to come and build meaningful software together. BearHacks 2026 Sheridan College's largest hackathon this year, bringing students from across the GTA to come and build meaningful software together. Sheridan College",
+      "key": "hackathon:bearhacks|hackathon:bearhacks",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:bearhacks",
+      "title": "BearHacks",
+      "url": "https://bearhacks.com/"
+    },
+    {
+      "evidence": "Skip to content IEEE.org IEEE Xplore Digital Library IEEE Standards IEEE Spectrum More Sites MENU Email address What would you like to search for? SEARCH Home Events Future Events Past Events Gallery Announcements About About the IEEE Join IEEE About Us Affiliations Centennial College CES2026 IEEE C",
+      "key": "hackathon:centennialhacks|hackathon:centennialhacks",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:centennialhacks",
+      "title": "CentennialHacks",
+      "url": "https://edu.ieee.org/ca-centennial-college/"
+    },
+    {
+      "evidence": "Skip to content BROCK CSC Home Team Events CS Guide Portal Join Discord Events Stay in the loop. From technical workshops to social mixers, see what's happening in the Brock CS community. Past Events What we've hosted. BROCK CSC © 2026 Brock Computer Science - All Rights Reserved Instagram Discord L",
+      "key": "hackathon:computer-science-club-game-jam|hackathon:computer-science-club-game-jam",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:computer-science-club-game-jam",
+      "title": "Computer Science Club Game Jam",
+      "url": "https://brockcsc.ca/events"
+    },
+    {
+      "evidence": "ConUHacks X About Statistics Sponsors Team FAQ ConUHacks X January 24-25, 2026 In-Person Concordia University CONUHACKS Register Now What is ConUHacks? ConUHacks is a 24-hour competition where a team of up to four students build a software or hardware project, referred to as a 'hack'. Our theme and ",
+      "key": "hackathon:conuhacks|hackathon:conuhacks",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:conuhacks",
+      "title": "ConUHacks",
+      "url": "https://conuhacks.io"
+    },
+    {
+      "evidence": "Skip to main content (Press Enter) Outlook MyQueensU onQ Toggle navigation About Contact Us 557 Goodwin Hall Queen's University Kingston, Ontario, Canada K7L 2N8 Phone: (613) 533-6050 Give to Computing The School Student Life Outreach EDII Events Nov 5 Distinguished Seminar: Learning Patient-Specifi",
+      "key": "hackathon:cucai-canadian-undergraduate-conference-on-ai-run-by-qmind|hackathon:cucai-canadian-undergraduate-conference-on-ai-run-by-qmind",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:cucai-canadian-undergraduate-conference-on-ai-run-by-qmind",
+      "title": "CUCAI (Canadian Undergraduate Conference on AI, run by QMIND)",
+      "url": "https://www.cs.queensu.ca/calendar"
+    },
+    {
+      "evidence": "Work in progress DeerHacks 2027 More coming soon Polishing antlers... We're putting together something new for UTM's premier hackathon. Follow us for dates, applications, and sneak peeks. (c) 2027 DeerHacks. Made with ♥️ at UTM. DeerHacks 2027 is under construction. Follow us for dates, applications",
+      "key": "hackathon:deerhacks|hackathon:deerhacks",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:deerhacks",
+      "title": "DeerHacks",
+      "url": "https://deerhacks.ca/"
+    },
+    {
+      "evidence": "Skip to main content (Press Enter) Outlook MyQueensU onQ Toggle navigation About Contact Us 557 Goodwin Hall Queen's University Kingston, Ontario, Canada K7L 2N8 Phone: (613) 533-6050 Give to Computing The School Student Life Outreach EDII Events Nov 5 Distinguished Seminar: Learning Patient-Specifi",
+      "key": "hackathon:designathon-queen-s-ux-club|hackathon:designathon-queen-s-ux-club",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:designathon-queen-s-ux-club",
+      "title": "Designathon (Queen's UX Club)",
+      "url": "https://www.cs.queensu.ca/calendar"
+    },
+    {
+      "evidence": " ElleHacks 2026 — Canada’s largest hackathon for women and non-binary hackers.",
+      "key": "hackathon:ellehacks|hackathon:ellehacks",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:ellehacks",
+      "title": "ElleHacks",
+      "url": "https://ellehacks.com"
+    },
+    {
+      "evidence": "ABOUT FAQ LAST YEAR DASHBOARD EUREKA ​ HACKS May 1st-2nd, Waterloo Accelerator Centre APPLY NOW 100+ HACKERS $10k+ IN PRIZES 24H OF HACKING Who are we? We're the largest high school hackathon in Canada! EurekaHACKS was founded on passion, catering to all levels and encourages participates to break e",
+      "key": "hackathon:eurekahacks|hackathon:eurekahacks",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:eurekahacks",
+      "title": "EurekaHacks",
+      "url": "https://www.eurekahacks.ca/"
+    },
+    {
+      "evidence": "Skip to content GenAI Genesis Home About Previous Winners Sponsors FAQ Apply Menu Toronto · March 2027 Build what comes next. Bringing together 1000+ students, researchers, designers, and creators from around the world for Canada's largest AI hackathon. Become a judge Partner with us Get notified wh",
+      "key": "hackathon:genai-genesis|hackathon:genai-genesis",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:genai-genesis",
+      "title": "GenAI Genesis",
+      "url": "https://genaigenesis.ca/"
+    },
+    {
+      "evidence": "﻿ Niagara College - Gamers unite at Niagara College for fourth annual Global Game Jam { \"@context\" : \"https://schema.org\", \"@type\" : \"Organization\", \"name\" : \"Education News Canada\", \"url\" : \"https://educationnewscanada.com\", \"logo\" : \"https://educationnewscanada.com/CE/top_logo_reseau.png\", \"sameAs",
+      "key": "hackathon:global-game-jam-site-game-development-program|hackathon:global-game-jam-site-game-development-program",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:global-game-jam-site-game-development-program",
+      "title": "Global Game Jam site (Game Development program)",
+      "url": "https://educationnewscanada.com/article/education/region/ontario/27/745152/niagara-collegejanuary-28-2019-gamers-unite-at-niagara-college-for-fourth-annual-global-game-jam.html"
+    },
+    {
+      "evidence": "nlineEventAttendanceMode https://pixelforgehackathons.info/ 2026-08-15T04:00:00.000Z 2026-08-22T20:00:00.000Z In-Pers",
+      "key": "hackathon:hack-club-events-canada|hackathon:hack-club-events-canada",
+      "reasons": [
+        "invalid: 1 validation error for Opportunity\nlocation.region\n  String should match pattern '^[A-Z]{2}-[A-Z0-9]{1,3}$' [type=string_pattern_mismatch, input_value='CA', input_type=str]\n    For further in"
+      ],
+      "source_id": "hackathon:hack-club-events-canada",
+      "title": "Hack Club events (Canada)",
+      "url": "https://hackathons.hackclub.com/"
+    },
+    {
+      "evidence": " hack::peel is a student-run hackathon for high school developers, designers, and entrepreneurs in Peel Region. Join workshops, build projects, win prizes, and meet peers. hack::peel hack::peel is a student-run hackathon for high school developers, designers, and entrepreneurs in Peel Region. Join w",
+      "key": "hackathon:hack-peel|hackathon:hack-peel",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:hack-peel",
+      "title": "Hack Peel",
+      "url": "https://hackpeel.ca"
+    },
+    {
+      "evidence": "About Sponsors Projects FAQ Contact Us July 17-19, 2026 ⋅ Toronto ⋅ In‑Person Hack the 6ix Tumble down the rabbit hole and create Applications are now closed. All decisions will be released on July 2nd on the dashboard! Go to Dashboard 197 schools 131 projects $15K in prizes 500+ hackers 15 mentors ",
+      "key": "hackathon:hack-the-6ix|hackathon:hack-the-6ix",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:hack-the-6ix",
+      "title": "Hack the 6ix",
+      "url": "https://hackthe6ix.com"
+    },
+    {
+      "evidence": "Skip to Main Content Toggle navigation Toggle information Toggle search Search Site and People Info for Future Students Current Students Faculty and Staff Teachers and Counsellors Alumni Media Donors Future Students Current Students Faculty and Staff Teachers and Counsellors Alumni Media Donors Abou",
+      "key": "hackathon:hack-the-world-tmu|hackathon:hack-the-world-tmu",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:hack-the-world-tmu",
+      "title": "Hack the World (TMU)",
+      "url": "https://www.torontomu.ca/innovation-boost-zone/hacktheworld/"
+    },
+    {
+      "evidence": "",
+      "key": "hackathon:hacktrent|hackathon:hacktrent",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:hacktrent",
+      "title": "HackTrent",
+      "url": "https://hacktrent.ca"
+    },
+    {
+      "evidence": "",
+      "key": "hackathon:ignition-hacks|hackathon:ignition-hacks",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:ignition-hacks",
+      "title": "Ignition Hacks",
+      "url": "https://www.ignitionhacks.org"
+    },
+    {
+      "evidence": "About Schedule FAQ Sponsors Contact Register Your Interest About Schedule FAQ Sponsors Contact Register Your Interest menu MakeUofT 2027 Canada's Largest Makeathon Make·a·thon a hackathon where hardware-based projects are manifested University of Toronto TBD, 2027 View MLH Code of Conduct Register Y",
+      "key": "hackathon:makeuoft|hackathon:makeuoft",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:makeuoft",
+      "title": "MakeUofT",
+      "url": "https://makeuoft.ca"
+    },
+    {
+      "evidence": "Facebook Instagram X HOME NEWS FEATURES SPORTS ARTS OPINION VIDEOS Search Saturday, October 24, 2026 Facebook Instagram X Brock's Only Independent Student Newspaper One of the only worker-managed newspapers in Canada Search NEWS FEATURES SPORTS ARTS OPINION PODCAST MORE ABOUT Beginner’s Guide ARCHIV",
+      "key": "hackathon:mother-of-all-game-jams|hackathon:mother-of-all-game-jams",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:mother-of-all-game-jams",
+      "title": "Mother of All Game Jams",
+      "url": "https://brockpress.com/students-can-learn-to-create-video-and-board-games-at-the-mother-of-all-game-jams/"
+    },
+    {
+      "evidence": "",
+      "key": "hackathon:onhacks|hackathon:onhacks",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:onhacks",
+      "title": "ONHacks",
+      "url": "https://onhacks.ca"
+    },
+    {
+      "evidence": "QHacks 2027 QHacks 2027, Queen's University's annual hackathon.",
+      "key": "hackathon:qhacks|hackathon:qhacks",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:qhacks",
+      "title": "QHacks",
+      "url": "https://qhacks.io"
+    },
+    {
+      "evidence": " Join Canada's first high-school hardware hackathon. A 14-hour innovation sprint where teams go from idea to working prototype. Catalyst - Canada's First High School Hardware Hackathon Join Canada's first high-school hardware hackathon. A 14-hour innovation sprint where teams go from idea to working",
+      "key": "hackathon:redshifted-catalyst|hackathon:redshifted-catalyst",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:redshifted-catalyst",
+      "title": "Redshifted Catalyst",
+      "url": "https://catalyst.redshifted.ca/"
+    },
+    {
+      "evidence": "If you're seeing this message - that means some of our site's content isn't loading properly. Click here to reload and try another method. Site Index Campus Maps Skip to content (Press ENTER) Ottawa Ottawa Pembroke Online Future Students Current Students International Students Programs Employees Fin",
+      "key": "hackathon:school-of-advanced-technology-technology-project-showcase|hackathon:school-of-advanced-technology-technology-project-showcase",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:school-of-advanced-technology-technology-project-showcase",
+      "title": "School of Advanced Technology Technology Project Showcase",
+      "url": "https://www.algonquincollege.com/news/2026/08/06/algonquin-college-technology-project-showcase-highlights-creative-solutions-and-technical-problem-solving/"
+    },
+    {
+      "evidence": "Loading ... Annual Hackathons | School of Information Technology Administration & Security | Seneca Students Stop Impersonating Menu Seneca campuses remain open today but day and evening in-person classes will move online where possible, due to snowfall. Read more Home Browse Spaces Spaces Spaces My",
+      "key": "hackathon:seneca-annual-hackathons-school-of-it-administration-securit|hackathon:seneca-annual-hackathons-school-of-it-administration-securit",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:seneca-annual-hackathons-school-of-it-administration-securit",
+      "title": "Seneca annual hackathons (School of IT Administration & Security)",
+      "url": "https://students.senecapolytechnic.ca/spaces/14/school-of-information-technology-administration-security/wiki/view/7685/annual-hackathons"
+    },
+    {
+      "evidence": "Skip to content Skip to main navigation Skip to search Welcome to Brock University Information for Future students Current students International Co-op Professional and Continuing Studies Community partners Alumni and donors Academics Faculties & Departments Graduate Studies and Postdocs Teaching & ",
+      "key": "hackathon:spooky-game-jam-centre-for-digital-humanities|hackathon:spooky-game-jam-centre-for-digital-humanities",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:spooky-game-jam-centre-for-digital-humanities",
+      "title": "Spooky Game Jam (Centre for Digital Humanities)",
+      "url": "https://brocku.ca/brock-news/in-focus/game-jam-a-spooktacular-success/"
+    },
+    {
+      "evidence": "Skip to main content Jump to Jump to Admissions About Waterloo Faculties & Academics Offices & Services Support Waterloo Open Search Location Search for Search Location On all sites On this site Women in Computer Science Menu Women in Computer Science Home About About Contacts WiCS Feedback Form His",
+      "key": "hackathon:technovation-waterloo-mini-hackathon-wics|hackathon:technovation-waterloo-mini-hackathon-wics",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:technovation-waterloo-mini-hackathon-wics",
+      "title": "Technovation Waterloo Mini-Hackathon (WiCS)",
+      "url": "https://uwaterloo.ca/women-in-computer-science/events"
+    },
+    {
+      "evidence": "About Sponsors FAQ Team Contact Application Portal Click Here To Start August 1st - 3rd, 2025 Toronto Metropolitan University August 1st 2025 - August 3rd 2025 Hosted at Toronto Metropolitan University ABOUT TERRAHACKS Formed from the passion of making tech opportunities open to all, TerraHacks was ",
+      "key": "hackathon:terrahacks|hackathon:terrahacks",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:terrahacks",
+      "title": "TerraHacks",
+      "url": "https://terrahacks.ca"
+    },
+    {
+      "evidence": "Couldn't load the next scene. Please refresh and try again. ↓ Continue Identity Matrix Project Horizon Shop-A-Sketch I dentity Matrix What if your “online presence” didn't stop when you closed your laptop? Identity Matrix is a real-time multiplayer simulation where your avatar transforms into a stat",
+      "key": "hackathon:uofthacks|hackathon:uofthacks",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:uofthacks",
+      "title": "UofTHacks",
+      "url": "https://uofthacks.com"
+    },
+    {
+      "evidence": "Ottawa's Largest Hackathon Ottawa's Largest Hackathon Ottawa's Largest Hackathon See 2027 uOttaHack is Ottawa’s Premier Hackathon community since 2017. It is organized by a student group directly with the University of Ottawa's Faculty of Engineering and the President and Vice-Chancellor's team to d",
+      "key": "hackathon:uottahack|hackathon:uottahack",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:uottahack",
+      "title": "uOttaHack",
+      "url": "https://uottahack.ca"
+    },
+    {
+      "evidence": "About Schedule FAQ Sponsors January 31 - February 1, 2026 • In-person event Login to Hacker Portal Interested in becoming a sponsor? Mentor Interest Form Volunteer Interest Form At UTRA, we aim to inspire creativity , enable collaboration , and foster skill development . Participants can connect fac",
+      "key": "hackathon:utra-hacks|hackathon:utra-hacks",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:utra-hacks",
+      "title": "UTRA Hacks",
+      "url": "https://hackathon.utra.ca/"
+    },
+    {
+      "evidence": "Faculty/Staff Search First Name Last Name OR Department/Unit Search Search String Toggle navigation About Western Future Students Academics Campus Life Research Search Website QUICK LINKS: WebMail Directory Events Weather Updates OWL Brightspace Student Services Libraries Maps Parking Home 2026 Apri",
+      "key": "hackathon:uworcs-western-university-research-in-computer-science-confe|hackathon:uworcs-western-university-research-in-computer-science-confe",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:uworcs-western-university-research-in-computer-science-confe",
+      "title": "UWORCS (Western University Research in Computer Science conference)",
+      "url": "https://www.uwo.ca/events/2026/04/western-university-research-in-computer-science-conference-uworcs.html"
+    },
+    {
+      "evidence": "WIN HACKS 2026 create. compete. conquer. Home About Schedule FAQ Sponsors Join Us WIN HACKS 2026 February 7 - 8 Get Ready to Create! Event Starts In: 0 DAYS 0 HOURS 0 MINUTES 0 SECONDS About WinHacks Welcome to Windsor's annual hackathon that brings together innovators, creators, and problem-solvers",
+      "key": "hackathon:winhacks|hackathon:winhacks",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:winhacks",
+      "title": "WinHacks",
+      "url": "https://www.winhacks.ca"
+    },
+    {
+      "evidence": "Movie Night Alumni Days supersccadmin Tue, 06/30/2026 - 4:08pm Read more about Movie Night Download the St. Clair Alumni Perks app and stay updated for future events! Chrysler Theatre, 201 Riverside Drive, West Windsor, ON, N9A 5K4 Category Alumni Days",
+      "key": "stclair-events-rss|21975 at https://www.stclaircollege.ca",
+      "reasons": [
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "stclair-events-rss",
+      "title": "Movie Night",
+      "url": "https://www.stclaircollege.ca/events/movie-night"
+    },
+    {
+      "evidence": "Bowling Alumni Day supersccadmin Tue, 06/30/2026 - 4:21pm Read more about Bowling Download the St. Clair Alumni Perks app and stay updated for future events! Revs Rose Bowl • 2482 Dougall Ave, Windsor, ON N8X 1T2 Category Alumni Days",
+      "key": "stclair-events-rss|21977 at https://www.stclaircollege.ca",
+      "reasons": [
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "stclair-events-rss",
+      "title": "Bowling",
+      "url": "https://www.stclaircollege.ca/events/bowling"
+    },
+    {
+      "evidence": "Alumni Varsity Basketball Night Alumni Days supersccadmin Tue, 06/30/2026 - 4:25pm Read more about Alumni Varsity Basketball Night Women: 4 PM Men: 6 PM Download the St. Clair Alumni Perks app and stay updated for future events! St. Clair College SportsPlex, Main Windsor Campus Category Alumni Days",
+      "key": "stclair-events-rss|21978 at https://www.stclaircollege.ca",
+      "reasons": [
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "stclair-events-rss",
+      "title": "Alumni Varsity Basketball Night",
+      "url": "https://www.stclaircollege.ca/events/alumni-varsity-basketball-night"
+    },
+    {
+      "evidence": "Breakfast With Santa Alumni Days supersccadmin Tue, 06/30/2026 - 4:31pm Read more about Breakfast With Santa Get 2 FREE Tickets on the Perks App! Download the St. Clair Alumni Perks app and stay updated for future events! St. Clair College Centre for the Arts, 201 Riverside Drive West, Windsor, Onta",
+      "key": "stclair-events-rss|21979 at https://www.stclaircollege.ca",
+      "reasons": [
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "stclair-events-rss",
+      "title": "Breakfast With Santa",
+      "url": "https://www.stclaircollege.ca/events/breakfast-santa-0"
+    },
+    {
+      "evidence": "Swim Saturdays Alumni Days supersccadmin Tue, 06/30/2026 - 4:35pm Read more about Swim Saturdays Download the St. Clair Alumni Perks app and stay updated for future events! Windsor Main Campus Pool Category Alumni Days",
+      "key": "stclair-events-rss|21980 at https://www.stclaircollege.ca",
+      "reasons": [
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "stclair-events-rss",
+      "title": "Swim Saturdays",
+      "url": "https://www.stclaircollege.ca/events/swim-saturdays"
+    },
+    {
+      "evidence": "Alumni Days at Adventure Bay supersccadmin Tue, 06/30/2026 - 4:40pm Read more about Alumni Days at Adventure Bay Join us on Saturday, February 6 & 20th. Download the St. Clair Alumni Perks app and stay updated for future events! 401 Pitt St W, Windsor, ON N9A 0B2 Category Alumni Days",
+      "key": "stclair-events-rss|21981 at https://www.stclaircollege.ca",
+      "reasons": [
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "stclair-events-rss",
+      "title": "Alumni Days at Adventure Bay",
+      "url": "https://www.stclaircollege.ca/events/alumni-days-adventure-bay"
+    },
+    {
+      "evidence": "Windsor Express Alumni Arena Takeover Alumni Day supersccadmin Tue, 06/30/2026 - 4:44pm Read more about Windsor Express Alumni Arena Takeover Date TBA Download the St. Clair Alumni Perks app and stay updated for future events! WFCU Centre • 8787 McHugh St, Windsor, ON N8S 0A1 Category Alumni Days",
+      "key": "stclair-events-rss|21982 at https://www.stclaircollege.ca",
+      "reasons": [
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "stclair-events-rss",
+      "title": "Windsor Express Alumni Arena Takeover",
+      "url": "https://www.stclaircollege.ca/events/windsor-express-alumni-arena-takeover"
+    },
+    {
+      "evidence": "Alumni Day at Art Windsor-Essex supersccadmin Tue, 06/30/2026 - 4:47pm Read more about Alumni Day at Art Windsor-Essex Join us every Saturday in March from 1 to 4 PM. Download the St. Clair Alumni Perks app and stay updated for future events! 401 Riverside Dr W, Windsor, ON N9A 7J1 Category Alumni D",
+      "key": "stclair-events-rss|21983 at https://www.stclaircollege.ca",
+      "reasons": [
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "stclair-events-rss",
+      "title": "Alumni Day at Art Windsor-Essex",
+      "url": "https://www.stclaircollege.ca/events/alumni-day-art-windsor-essex"
+    },
+    {
+      "evidence": "Easter Breakfast Alumni Day supersccadmin Tue, 06/30/2026 - 4:50pm Read more about Easter Breakfast Download the St. Clair Alumni Perks app and stay updated for future events! St. Clair College Centre for the Arts, 201 Riverside Drive West, Windsor, Ontario Category Alumni Days",
+      "key": "stclair-events-rss|21984 at https://www.stclaircollege.ca",
+      "reasons": [
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "stclair-events-rss",
+      "title": "Easter Breakfast",
+      "url": "https://www.stclaircollege.ca/events/easter-breakfast"
+    }
+  ],
+  "possible_duplicates": [
+    {
+      "existing": "2026-11-u-of-t-engineering-u-last-day-to-withdraw-from-fall-term-without-acade-62c5",
+      "new": "2026-11-u-of-t-engineering-u-last-day-to-drop-fall-term-courses-without-academ-6939",
+      "score": 87.6
+    },
+    {
+      "existing": "2026-12-u-of-t-engineering-u-last-day-of-arts-science-fall-classes-e38e",
+      "new": "2026-12-u-of-t-engineering-u-last-day-of-engineering-fall-classes-86f7",
+      "score": 80.0
+    },
+    {
+      "existing": "2026-11-western-university-e-tri-agency-open-access-policy-info-sessions-93d8",
+      "new": "2026-11-western-university-e-tri-agency-oa-policy-info-session-87c9",
+      "score": 84.2
+    },
+    {
+      "existing": "2026-11-algonquin-students-a-wolves-varsity-basketball-vs-st-lawrence-surge-96e6",
+      "new": "2026-11-algonquin-students-a-wolves-varsity-basketball-vs-loyalist-lancers-99f5",
+      "score": 81.3
+    },
+    {
+      "existing": "2026-11-algonquin-students-a-wolves-varsity-volleyball-vs-seneca-sting-252f",
+      "new": "2026-11-algonquin-students-a-wolves-varsity-volleyball-vs-georgian-grizzlies-c083",
+      "score": 81.2
+    },
+    {
+      "existing": "2026-10-brock-university-stu-free-grab-go-breakfast-7f0d",
+      "new": "2026-10-brock-university-stu-free-hot-breakfast-45f8",
+      "score": 87.5
+    },
+    {
+      "existing": "2026-10-brock-international-immigration-virtual-appointments-590b",
+      "new": "2026-10-brock-international-immigration-virtual-drop-ins-62af",
+      "score": 80.9
+    },
+    {
+      "existing": "2026-11-english-ma-information-session-1bef",
+      "new": "2026-11-faculty-of-humanitie-info-session-english-ma-41a0",
+      "score": 87.8
+    },
+    {
+      "existing": "2026-11-brock-international-immigration-virtual-appointments-769d",
+      "new": "2026-11-brock-international-immigration-virtual-drop-ins-4c31",
+      "score": 80.9
+    },
+    {
+      "existing": "2026-11-university-of-guelph-study-permit-101-d86a",
+      "new": "2026-11-brock-international-applying-for-an-initial-study-permit-outside-of-ca-1e05",
+      "score": 85.7
+    },
+    {
+      "existing": "2026-11-brock-international-immigration-virtual-appointments-08d1",
+      "new": "2026-11-brock-international-immigration-virtual-drop-ins-ba12",
+      "score": 80.9
+    },
+    {
+      "existing": "2026-11-brock-international-immigration-virtual-appointments-d756",
+      "new": "2026-11-brock-international-immigration-virtual-drop-ins-2e20",
+      "score": 80.9
+    },
+    {
+      "existing": "2026-11-brock-international-immigration-virtual-appointments-a344",
+      "new": "2026-11-brock-international-immigration-virtual-drop-ins-428c",
+      "score": 80.9
+    },
+    {
+      "existing": "2026-12-brock-international-immigration-virtual-appointments-d0e4",
+      "new": "2026-12-brock-international-immigration-virtual-drop-ins-7627",
+      "score": 80.9
+    },
+    {
+      "existing": "2026-12-brock-international-immigration-virtual-appointments-2b26",
+      "new": "2026-12-brock-international-immigration-virtual-drop-ins-0e95",
+      "score": 80.9
+    },
+    {
+      "existing": "2026-12-brock-international-immigration-virtual-appointments-f95d",
+      "new": "2026-12-brock-international-immigration-virtual-drop-ins-31ea",
+      "score": 80.9
+    },
+    {
+      "existing": "2027-01-brock-international-immigration-virtual-appointments-d713",
+      "new": "2027-01-brock-international-immigration-virtual-drop-ins-0c4e",
+      "score": 80.9
+    },
+    {
+      "existing": "2027-01-brock-university-stu-free-grab-go-breakfast-d595",
+      "new": "2027-01-brock-recreation-free-hot-breakfast-4524",
+      "score": 87.5
+    },
+    {
+      "existing": "2027-01-brock-international-immigration-virtual-appointments-0367",
+      "new": "2027-01-brock-international-immigration-virtual-drop-ins-d3cd",
+      "score": 80.9
+    },
+    {
+      "existing": "2027-01-brock-international-immigration-virtual-appointments-b956",
+      "new": "2027-01-brock-international-immigration-virtual-drop-ins-c708",
+      "score": 80.9
+    },
+    {
+      "existing": "2027-01-brock-international-immigration-virtual-appointments-475f",
+      "new": "2027-01-brock-international-immigration-virtual-drop-ins-ba2b",
+      "score": 80.9
+    }
+  ],
+  "role_calls": [
+    "2026-10-community-engagement-volunteer-opportunity-trick-or-eat-2026-flyer-dro-a81d",
+    "2026-11-bmo-mentorship-session-start-strong-finding-mentors-an-6d15",
+    "2026-11-brock-international-fall-preview-day-volunteers-needed-e5c2",
+    "2026-11-hack-western-603f"
+  ]
 }

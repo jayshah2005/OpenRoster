@@ -1,0 +1,72 @@
+{
+  "ai_suggested": [],
+  "all_day": true,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": null,
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 49.38299,
+    "lon": -121.44144,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-u-of-t-central-event-hope-in-action-building-hope-reimagining-institut-d83a",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Hope",
+    "country": "CA",
+    "region": "CA-BC",
+    "venue_name": null
+  },
+  "mode": "hybrid",
+  "near_schools": [],
+  "obtained_via": [
+    "html"
+  ],
+  "organizer": "U of T central events aggregator",
+  "registration": {
+    "route": "public_link",
+    "url": "https://stmikes.utoronto.ca/event/hope-in-action-building-hope-reimagining-institutions-for-human-flourishing-continuing-education-free-webinar"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "html",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "uoft-central-events",
+      "url": "https://stmikes.utoronto.ca/event/hope-in-action-building-hope-reimagining-institutions-for-human-flourishing-continuing-education-free-webinar"
+    }
+  ],
+  "start": "2026-11-18T00:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Free hybrid event by U of T central events aggregator in Hope.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Hope in Action: Building Hope: Reimagining Institutions for Human Flourishing (Continuing Education Free Webinar)",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

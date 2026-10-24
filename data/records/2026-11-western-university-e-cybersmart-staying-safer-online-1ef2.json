@@ -1,0 +1,75 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-27T11:30:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-western-university-e-cybersmart-staying-safer-online-1ef2",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Registration Required"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "api",
+    "ics"
+  ],
+  "organizer": "Western University events calendar (iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.uwo.ca/events/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "western-events-ics:692e8973fd82",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "western-events-ics",
+      "url": "https://www.uwo.ca/events/"
+    },
+    {
+      "adapter": "api",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "western-events-json",
+      "url": "https://www.uwo.ca/events/2026/11/wts-cybersmart-staying-safer-online.html"
+    }
+  ],
+  "start": "2026-11-27T10:30:00-05:00",
+  "status": "scheduled",
+  "summary": "Online event by Western University events calendar (iCal).",
+  "tags": [],
+  "timezone": "America/New_York",
+  "title": "CyberSmart: Staying Safer Online",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

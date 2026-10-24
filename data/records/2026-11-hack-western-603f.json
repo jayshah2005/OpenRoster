@@ -1,0 +1,105 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "paid",
+    "note": null
+  },
+  "eligibility": [
+    "high_school",
+    "undergrad"
+  ],
+  "end": null,
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 42.98339,
+    "lon": -81.23304,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-hack-western-603f",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "London",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": null
+  },
+  "mode": "in_person",
+  "near_schools": [
+    {
+      "km": 4.2,
+      "school_id": "fanshawe"
+    },
+    {
+      "km": 4.4,
+      "school_id": "western"
+    },
+    {
+      "km": 77.9,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 79.0,
+      "school_id": "laurier"
+    },
+    {
+      "km": 80.0,
+      "school_id": "conestoga"
+    }
+  ],
+  "obtained_via": [
+    "hackathon_site"
+  ],
+  "organizer": "Hack Western",
+  "registration": {
+    "route": "public_link",
+    "url": "https://hackwestern.com"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "open",
+      "url": "https://hackwestern.com"
+    },
+    {
+      "closes": null,
+      "evidence": "link: Aleeza Jahan Design Organizer",
+      "opens": null,
+      "role": "organizer_team",
+      "status": "unknown",
+      "url": "https://aleezajahan.com"
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "hackathon_site",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "hackathon:hack-western",
+      "url": "https://hackwestern.com"
+    }
+  ],
+  "start": "2026-11-20T09:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Hackathon by Hack Western in London for first-year students. Beginners welcome. Also looking for organizers.",
+  "tags": [
+    "first_year",
+    "beginner_friendly"
+  ],
+  "timezone": "America/Toronto",
+  "title": "Hack Western",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "hackathon"
+}

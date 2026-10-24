@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": true,
+  "cost": {
+    "kind": "paid",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-17T03:59:59-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-algonquin-students-a-book-your-graduation-photos-now-845f",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "Algonquin Students' Association events (Tribe)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.algonquinsa.com/event/book-your-graduation-photos-pembroke-11-16-2026/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "algonquin-sa-events",
+      "url": "https://www.algonquinsa.com/event/book-your-graduation-photos-pembroke-11-16-2026/"
+    }
+  ],
+  "start": "2026-11-16T04:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Online event by Algonquin Students' Association events (Tribe).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Book Your Graduation Photos Now!",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": true,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-26T23:59:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-09-u-of-t-central-event-2026-future-student-information-sessions-383a",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "html"
+  ],
+  "organizer": "U of T central events aggregator",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.dlsph.utoronto.ca/event/2026-future-student-information-sessions/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "html",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "uoft-central-events",
+      "url": "https://www.dlsph.utoronto.ca/event/2026-future-student-information-sessions/"
+    }
+  ],
+  "start": "2026-09-29T00:00:00-04:00",
+  "status": "scheduled",
+  "summary": "Info session by U of T central events aggregator.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "2026 Future Student Information Sessions",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

@@ -1,0 +1,70 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "high_school"
+  ],
+  "end": "2026-10-31T18:00:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-10-founding-100-9681",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "api"
+  ],
+  "organizer": "Founding-100",
+  "registration": {
+    "route": "public_link",
+    "url": "https://founding-100.waycode.in/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "api",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "hackclub-hackathons-api-upcoming",
+      "url": "https://founding-100.waycode.in/"
+    }
+  ],
+  "start": "2026-10-22T18:00:00Z",
+  "status": "scheduled",
+  "summary": "Online hackathon by Founding-100 for mostly high-school students.",
+  "tags": [
+    "mostly_high_school"
+  ],
+  "timezone": "America/Toronto",
+  "title": "Founding-100",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "hackathon"
+}

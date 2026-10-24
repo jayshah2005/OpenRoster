@@ -1,0 +1,93 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-05T18:30:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 42.98339,
+    "lon": -81.23304,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-12-careerin-tech-societ-richmond-tech-community-coffee-meetup-5315",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "London",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Waves Coffee House - London Plaza, 5951 Number 3 Rd #180, Richmond, BC V6X 2E3, Canada"
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 4.2,
+      "school_id": "fanshawe"
+    },
+    {
+      "km": 4.4,
+      "school_id": "western"
+    },
+    {
+      "km": 77.9,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 79.0,
+      "school_id": "laurier"
+    },
+    {
+      "km": 80.0,
+      "school_id": "conestoga"
+    }
+  ],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Careerin Tech Society (Luma iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://luma.com/RichmondTechCoffee2026Dec5"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "luma-careerin-tech-society:d9168104e32f",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "luma-careerin-tech-society",
+      "url": "https://luma.com/RichmondTechCoffee2026Dec5"
+    }
+  ],
+  "start": "2026-12-05T17:00:00Z",
+  "status": "scheduled",
+  "summary": "Networking event by Careerin Tech Society (Luma iCal) in London.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Richmond Tech Community Coffee Meetup",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "networking"
+}

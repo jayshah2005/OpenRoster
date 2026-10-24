@@ -1,0 +1,72 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-14T13:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 48.78293,
+    "lon": -123.70266,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-faculty-of-humanitie-dramatic-arts-mainstage-production-people-places-ef80",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Duncan",
+    "country": "CA",
+    "region": "CA-BC",
+    "venue_name": "Marilyn I. Walker Theatre"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Faculty of Humanities",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://experiencebu.brocku.ca/event/334562"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "brock"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/334562"
+    }
+  ],
+  "start": "2026-11-06T12:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Event by Faculty of Humanities in Duncan.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Dramatic Arts mainstage production: 'People, Places & Things' by Duncan Macmillan",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

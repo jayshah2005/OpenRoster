@@ -1,0 +1,71 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "undergrad",
+    "grad"
+  ],
+  "end": "2026-12-30T14:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-12-bmo-interviewing-101-c7d3",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "html"
+  ],
+  "organizer": "BMO",
+  "registration": {
+    "route": "public_link",
+    "url": "https://jobs.bmo.com/ca/en/event/6a90a485acced97d63ac6c07/Interviews-101"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "bmo-virtual-workshops:becb340d644a",
+  "sources": [
+    {
+      "adapter": "html",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "bmo-virtual-workshops",
+      "url": "https://jobs.bmo.com/ca/en/event/6a90a485acced97d63ac6c07/Interviews-101"
+    }
+  ],
+  "start": "2026-12-30T13:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Online workshop by BMO for undergraduates and graduate students.",
+  "tags": [
+    "year_inferred"
+  ],
+  "timezone": "America/Toronto",
+  "title": "Interviewing 101",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

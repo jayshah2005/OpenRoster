@@ -1,0 +1,72 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-05T20:00:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 49.3286,
+    "lon": -123.16019,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-12-careerin-tech-societ-west-vancouver-tech-community-coffee-meetup-aeff",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "West Vancouver",
+    "country": "CA",
+    "region": "CA-BC",
+    "venue_name": "Tesla West Vancouver - Park Royal, 860 Main St D3, West Vancouver, BC V7T 2Z3, Canada"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Careerin Tech Society (Luma iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://luma.com/WestVanTechCoffee2026Dec5"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "luma-careerin-tech-society:582022ad2af5",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "luma-careerin-tech-society",
+      "url": "https://luma.com/WestVanTechCoffee2026Dec5"
+    }
+  ],
+  "start": "2026-12-05T18:00:00Z",
+  "status": "scheduled",
+  "summary": "Networking event by Careerin Tech Society (Luma iCal) in West Vancouver.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "West Vancouver Tech Community Coffee Meetup",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "networking"
+}

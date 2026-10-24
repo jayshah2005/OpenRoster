@@ -1,0 +1,70 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "high_school"
+  ],
+  "end": "2026-12-08T09:30:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-pixel-forge-mega-jam-d2b3",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "api"
+  ],
+  "organizer": "Pixel Forge Mega Jam",
+  "registration": {
+    "route": "public_link",
+    "url": "https://pixelforgejam.org/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "api",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "hackclub-hackathons-api-upcoming",
+      "url": "https://pixelforgejam.org/"
+    }
+  ],
+  "start": "2026-11-28T09:30:00Z",
+  "status": "scheduled",
+  "summary": "Online hackathon by Pixel Forge Mega Jam for mostly high-school students.",
+  "tags": [
+    "mostly_high_school"
+  ],
+  "timezone": "America/Toronto",
+  "title": "Pixel Forge Mega Jam",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "hackathon"
+}

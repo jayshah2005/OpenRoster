@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-15T12:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-12-vector-institute-eve-vector-business-insights-emerging-ai-applications-74fb",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "Virtual"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "Vector Institute events (The Events Calendar REST)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://vectorinstitute.swoogo.com/vbi-emerging-ai-applications-year-end-recap/13483289?ref=Website"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "vector-institute-events",
+      "url": "https://vectorinstitute.ai/event/vector-business-insights-emerging-ai-applications-and-year-end-recap/"
+    }
+  ],
+  "start": "2026-12-15T10:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Online tech talk by Vector Institute events (The Events Calendar REST).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Vector Business Insights: Emerging AI Applications and Year End Recap",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "tech_talk"
+}

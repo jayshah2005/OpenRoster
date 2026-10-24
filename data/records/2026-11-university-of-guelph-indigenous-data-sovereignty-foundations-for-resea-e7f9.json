@@ -1,0 +1,70 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-03T14:30:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-university-of-guelph-indigenous-data-sovereignty-foundations-for-resea-e7f9",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "ONLINE"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "University of Guelph central events (news.uoguelph.ca, The Events Calendar)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.eventbrite.ca/e/indigenous-data-sovereignty-foundations-for-researchers-tickets-2000995998898?aff=oddtdtcreator&amp;keep_tld=true"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "uoguelph-news-events-tribe",
+      "url": "https://news.uoguelph.ca/event/indigenous-data-sovereignty-foundations-for-researchers/"
+    }
+  ],
+  "start": "2026-11-03T13:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Online workshop by University of Guelph central events (news.uoguelph.ca, The Events Calendar) for Indigenous students.",
+  "tags": [
+    "indigenous_students"
+  ],
+  "timezone": "America/Toronto",
+  "title": "Indigenous Data Sovereignty: Foundations for Researchers",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

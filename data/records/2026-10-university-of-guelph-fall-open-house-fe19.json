@@ -1,0 +1,145 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "school_only"
+  ],
+  "end": "2026-10-25T16:00:00-04:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 43.54594,
+    "lon": -80.25599,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-10-university-of-guelph-fall-open-house-fe19",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Guelph",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Guelph Campus"
+  },
+  "mode": "in_person",
+  "near_schools": [
+    {
+      "km": 2.9,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 21.1,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 23.3,
+      "school_id": "laurier"
+    },
+    {
+      "km": 24.7,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 41.8,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 42.7,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 42.9,
+      "school_id": "algoma"
+    },
+    {
+      "km": 43.4,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 47.8,
+      "school_id": "uoft"
+    },
+    {
+      "km": 56.0,
+      "school_id": "humber"
+    },
+    {
+      "km": 65.7,
+      "school_id": "yorku"
+    },
+    {
+      "km": 65.8,
+      "school_id": "seneca"
+    },
+    {
+      "km": 69.6,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 70.6,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 71.7,
+      "school_id": "tmu"
+    },
+    {
+      "km": 76.4,
+      "school_id": "centennial"
+    },
+    {
+      "km": 92.6,
+      "school_id": "brock"
+    },
+    {
+      "km": 96.7,
+      "school_id": "fanshawe"
+    }
+  ],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "University of Guelph central events (news.uoguelph.ca, The Events Calendar)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.uoguelph.ca/admission/undergraduate/events/fall-open-house"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "uoguelph-news-events-tribe",
+      "url": "https://news.uoguelph.ca/event/fall-open-house-2/"
+    }
+  ],
+  "start": "2026-10-25T10:00:00-04:00",
+  "status": "scheduled",
+  "summary": "Info session by University of Guelph central events (news.uoguelph.ca, The Events Calendar) in Guelph.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Fall Open House",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

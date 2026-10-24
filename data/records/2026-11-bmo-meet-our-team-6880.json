@@ -1,0 +1,71 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "undergrad",
+    "grad"
+  ],
+  "end": "2026-11-12T17:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-bmo-meet-our-team-6880",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "html"
+  ],
+  "organizer": "BMO",
+  "registration": {
+    "route": "public_link",
+    "url": "https://jobs.bmo.com/ca/en/event/6a90a53494ad778dc887c0ea/Recruiter-Ask-Us-Anything-Session"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "html",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "bmo-virtual-workshops",
+      "url": "https://jobs.bmo.com/ca/en/event/6a90a53494ad778dc887c0ea/Recruiter-Ask-Us-Anything-Session"
+    }
+  ],
+  "start": "2026-11-12T16:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Online info session by BMO for undergraduates and graduate students.",
+  "tags": [
+    "year_inferred"
+  ],
+  "timezone": "America/Toronto",
+  "title": "Meet our team",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

@@ -1,0 +1,91 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-20T12:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 44.22976,
+    "lon": -76.48098,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-queen-s-university-e-intro-to-knitting-101-things-to-know-to-get-start-e46a",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Kingston",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": null
+  },
+  "mode": "in_person",
+  "near_schools": [
+    {
+      "km": 1.2,
+      "school_id": "queens"
+    },
+    {
+      "km": 3.7,
+      "school_id": "stlawrence"
+    },
+    {
+      "km": 68.5,
+      "school_id": "loyalist"
+    },
+    {
+      "km": 76.8,
+      "school_id": "algonquin"
+    }
+  ],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Queen's University events calendar (RSS)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.queensu.ca/eventscalendar/events/intro-knitting-101-things-know-get-started-thrive-month-session-2"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "queens-events-rss",
+      "url": "https://www.queensu.ca/eventscalendar/events/intro-knitting-101-things-know-get-started-thrive-month-session-2"
+    }
+  ],
+  "start": "2026-11-20T11:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Workshop by Queen's University events calendar (RSS) in Kingston. Beginners welcome.",
+  "tags": [
+    "beginner_friendly"
+  ],
+  "timezone": "America/Toronto",
+  "title": "Intro to Knitting 101: Things to Know to Get Started (Thrive Month) Session 2",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

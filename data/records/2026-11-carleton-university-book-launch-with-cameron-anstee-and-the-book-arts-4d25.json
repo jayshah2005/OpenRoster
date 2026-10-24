@@ -1,0 +1,72 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-06T00:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 49.25619,
+    "lon": -122.90671,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-carleton-university-book-launch-with-cameron-anstee-and-the-book-arts-4d25",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Cameron",
+    "country": "CA",
+    "region": "CA-BC",
+    "venue_name": "ML"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "api"
+  ],
+  "organizer": "Carleton University central events (WordPress REST)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://events.carleton.ca/event/book-launch-with-cameron-anstee-and-the-book-arts-lab/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "api",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "carleton-events-api",
+      "url": "https://events.carleton.ca/event/book-launch-with-cameron-anstee-and-the-book-arts-lab/"
+    }
+  ],
+  "start": "2026-11-06T00:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Event by Carleton University central events (WordPress REST) in Cameron.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Book Launch with Cameron Anstee and the Book Arts Lab",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

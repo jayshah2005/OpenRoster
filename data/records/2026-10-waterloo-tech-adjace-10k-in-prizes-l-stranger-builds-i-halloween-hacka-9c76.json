@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-01T01:00:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-10-waterloo-tech-adjace-10k-in-prizes-l-stranger-builds-i-halloween-hacka-9c76",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "https://luma.com/event/evt-SBhOKcI3zFixPkT"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Waterloo Tech (+adjacent) Events (Luma iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://luma.com/strangerbuilds-online"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "luma-waterloo-tech-adjacent-events:4334efd31a8c",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "luma-waterloo-tech-adjacent-events",
+      "url": "https://luma.com/strangerbuilds-online"
+    }
+  ],
+  "start": "2026-10-31T17:00:00Z",
+  "status": "scheduled",
+  "summary": "Online hackathon by Waterloo Tech (+adjacent) Events (Luma iCal).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "10k in PRIZES l STRANGER BUILDS I Halloween hackathon (ONLINE)",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "hackathon"
+}

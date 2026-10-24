@@ -1,0 +1,74 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "undergrad"
+  ],
+  "end": "2026-10-28T11:30:00-04:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 48.42979,
+    "lon": -123.34424,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-10-centre-for-pedagogic-book-launch-colonized-classrooms-2nd-edition-raci-52ad",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Fernwood",
+    "country": "CA",
+    "region": "CA-BC",
+    "venue_name": "Welch Hall Atrium"
+  },
+  "mode": "hybrid",
+  "near_schools": [],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Centre for Pedagogical Innovation",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://experiencebu.brocku.ca/event/335864"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "brock"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/335864"
+    }
+  ],
+  "start": "2026-10-28T10:30:00-04:00",
+  "status": "scheduled",
+  "summary": "Hybrid event by Centre for Pedagogical Innovation in Fernwood for Indigenous students.",
+  "tags": [
+    "indigenous_students"
+  ],
+  "timezone": "America/Toronto",
+  "title": "Book Launch: Colonized Classrooms, 2nd Edition - Racism, Trauma, and Resistance in Post-secondary Education",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

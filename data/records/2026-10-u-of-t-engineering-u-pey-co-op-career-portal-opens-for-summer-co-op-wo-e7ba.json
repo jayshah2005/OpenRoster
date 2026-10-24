@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": true,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-10-26T23:59:59-04:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-10-u-of-t-engineering-u-pey-co-op-career-portal-opens-for-summer-co-op-wo-e7ba",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "U of T Engineering undergraduate events (incl. PEY Co-op)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://undergrad.engineering.utoronto.ca/event/pey-co-op-career-portal-opens-for-summer-co-op-work-term/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "uoft-engineering-undergrad-events",
+      "url": "https://undergrad.engineering.utoronto.ca/event/pey-co-op-career-portal-opens-for-summer-co-op-work-term/"
+    }
+  ],
+  "start": "2026-10-26T00:00:00-04:00",
+  "status": "scheduled",
+  "summary": "Event by U of T Engineering undergraduate events (incl. PEY Co-op).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "PEY Co-op: Career Portal Opens for Summer Co-op Work Term",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

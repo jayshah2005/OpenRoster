@@ -1,0 +1,77 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-03T16:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-12-western-university-e-5-steps-to-boosting-your-financial-health-7868",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Register here"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "api",
+    "ics"
+  ],
+  "organizer": "Western University events calendar (iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.uwo.ca/events/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "western-events-ics:3762dc230ad1",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "western-events-ics",
+      "url": "https://www.uwo.ca/events/"
+    },
+    {
+      "adapter": "api",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "western-events-json",
+      "url": "https://www.uwo.ca/events/2026/12/hr-pension-fwws-5steps-dec3.html"
+    }
+  ],
+  "start": "2026-12-03T15:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Online event by Western University events calendar (iCal). Beginners welcome.",
+  "tags": [
+    "beginner_friendly"
+  ],
+  "timezone": "America/New_York",
+  "title": "5 steps to boosting your financial health",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

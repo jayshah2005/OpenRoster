@@ -1,0 +1,89 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-18T14:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 45.41117,
+    "lon": -75.69812,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-carleton-career-serv-ungava-tulattavik-health-center-recruitment-infor-2f0d",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Ottawa",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "RB"
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 1.8,
+      "school_id": "uottawa"
+    },
+    {
+      "km": 2.6,
+      "school_id": "carleton"
+    },
+    {
+      "km": 8.2,
+      "school_id": "algonquin"
+    },
+    {
+      "km": 85.1,
+      "school_id": "stlawrence"
+    }
+  ],
+  "obtained_via": [
+    "api"
+  ],
+  "organizer": "Carleton Career Services events (WordPress REST)",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://carleton.ca/career/event/ungava-recruitment-information-session/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "carleton"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "api",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "carleton-career-events-api",
+      "url": "https://carleton.ca/career/event/ungava-recruitment-information-session/"
+    }
+  ],
+  "start": "2026-11-18T12:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Info session by Carleton Career Services events (WordPress REST) in Ottawa.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Ungava Tulattavik Health Center Recruitment Information Session",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

@@ -1,0 +1,100 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-05T13:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 42.98339,
+    "lon": -81.23304,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-western-university-e-go-abroad-info-session-aad6",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "London",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Register"
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 4.2,
+      "school_id": "fanshawe"
+    },
+    {
+      "km": 4.4,
+      "school_id": "western"
+    },
+    {
+      "km": 77.9,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 79.0,
+      "school_id": "laurier"
+    },
+    {
+      "km": 80.0,
+      "school_id": "conestoga"
+    }
+  ],
+  "obtained_via": [
+    "api",
+    "ics"
+  ],
+  "organizer": "Western University events calendar (iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.uwo.ca/events/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "western-events-ics:1df54631fd5c",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "western-events-ics",
+      "url": "https://www.uwo.ca/events/"
+    },
+    {
+      "adapter": "api",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "western-events-json",
+      "url": "https://www.uwo.ca/events/2026/11/wi-go-abroad-info-session.html"
+    }
+  ],
+  "start": "2026-11-05T12:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Info session by Western University events calendar (iCal).",
+  "tags": [],
+  "timezone": "America/New_York",
+  "title": "Go Abroad Info Session",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

@@ -1,0 +1,161 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-18T20:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 43.5789,
+    "lon": -79.6583,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-digital-enterprise-m-dema-td-insurance-beyond-the-numbers-data-ai-actu-5740",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Mississauga",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "UTMSU Presentation Room"
+  },
+  "mode": "in_person",
+  "near_schools": [
+    {
+      "km": 1.6,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 3.4,
+      "school_id": "uoft"
+    },
+    {
+      "km": 11.4,
+      "school_id": "humber"
+    },
+    {
+      "km": 14.4,
+      "school_id": "algoma"
+    },
+    {
+      "km": 22.7,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 23.0,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 24.1,
+      "school_id": "tmu"
+    },
+    {
+      "km": 24.9,
+      "school_id": "seneca"
+    },
+    {
+      "km": 25.0,
+      "school_id": "yorku"
+    },
+    {
+      "km": 29.3,
+      "school_id": "centennial"
+    },
+    {
+      "km": 41.1,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 41.2,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 46.0,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 57.7,
+      "school_id": "brock"
+    },
+    {
+      "km": 58.2,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 64.2,
+      "school_id": "niagara-college"
+    },
+    {
+      "km": 66.7,
+      "school_id": "durham"
+    },
+    {
+      "km": 69.2,
+      "school_id": "laurier"
+    },
+    {
+      "km": 72.5,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 72.8,
+      "school_id": "ontariotechu"
+    },
+    {
+      "km": 73.5,
+      "school_id": "trent"
+    },
+    {
+      "km": 92.6,
+      "school_id": "georgian"
+    }
+  ],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "Digital Enterprise Management Association (DEMA)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://dema-website.vercel.app/#top"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "uoft-sop-events",
+      "url": "https://sop.utoronto.ca/event/dema-x-td-insurance-beyond-the-numbers-data-ai-actuarial-careers/"
+    }
+  ],
+  "start": "2026-11-18T18:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Tech talk by Digital Enterprise Management Association (DEMA) in Mississauga.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "DEMA × TD Insurance | Beyond the Numbers: Data, AI & Actuarial Careers",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "tech_talk"
+}

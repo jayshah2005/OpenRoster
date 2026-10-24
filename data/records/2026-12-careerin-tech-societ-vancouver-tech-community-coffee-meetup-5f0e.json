@@ -1,0 +1,72 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-12T17:00:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 49.24966,
+    "lon": -123.11934,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-12-careerin-tech-societ-vancouver-tech-community-coffee-meetup-5f0e",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Vancouver",
+    "country": "CA",
+    "region": "CA-BC",
+    "venue_name": "Deville Coffee-The Post, 366 Dunsmuir St, Vancouver, BC V6B 0T5, Canada"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Careerin Tech Society (Luma iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://luma.com/VanTechCoffee2026Dec12"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "luma-careerin-tech-society:1072884125da",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "luma-careerin-tech-society",
+      "url": "https://luma.com/VanTechCoffee2026Dec12"
+    }
+  ],
+  "start": "2026-12-12T16:00:00Z",
+  "status": "scheduled",
+  "summary": "Networking event by Careerin Tech Society (Luma iCal) in Vancouver.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Vancouver Tech Community Coffee Meetup",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "networking"
+}

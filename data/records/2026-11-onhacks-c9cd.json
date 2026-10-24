@@ -1,0 +1,167 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "high_school"
+  ],
+  "end": "2026-11-15T21:00:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 43.65709700792,
+    "lon": -79.395621409358,
+    "source": "venue"
+  },
+  "history": [],
+  "id": "2026-11-onhacks-c9cd",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Toronto",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": null
+  },
+  "mode": "in_person",
+  "near_schools": [
+    {
+      "km": 0.6,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 0.6,
+      "school_id": "uoft"
+    },
+    {
+      "km": 1.4,
+      "school_id": "tmu"
+    },
+    {
+      "km": 2.2,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 6.5,
+      "school_id": "centennial"
+    },
+    {
+      "km": 11.9,
+      "school_id": "humber"
+    },
+    {
+      "km": 15.2,
+      "school_id": "seneca"
+    },
+    {
+      "km": 15.5,
+      "school_id": "yorku"
+    },
+    {
+      "km": 21.5,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 29.4,
+      "school_id": "algoma"
+    },
+    {
+      "km": 44.2,
+      "school_id": "durham"
+    },
+    {
+      "km": 50.2,
+      "school_id": "ontariotechu"
+    },
+    {
+      "km": 51.3,
+      "school_id": "trent"
+    },
+    {
+      "km": 56.5,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 57.0,
+      "school_id": "brock"
+    },
+    {
+      "km": 61.0,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 61.5,
+      "school_id": "niagara-college"
+    },
+    {
+      "km": 68.2,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 81.1,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 86.7,
+      "school_id": "georgian"
+    },
+    {
+      "km": 90.8,
+      "school_id": "laurier"
+    },
+    {
+      "km": 94.7,
+      "school_id": "fleming"
+    },
+    {
+      "km": 94.9,
+      "school_id": "uwaterloo"
+    }
+  ],
+  "obtained_via": [
+    "api"
+  ],
+  "organizer": "ONHacks",
+  "registration": {
+    "route": "public_link",
+    "url": "https://onhacks.ca"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "api",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "hackclub-hackathons-api-upcoming",
+      "url": "https://onhacks.ca"
+    }
+  ],
+  "start": "2026-11-15T09:00:00Z",
+  "status": "scheduled",
+  "summary": "Hackathon by ONHacks in Toronto for mostly high-school students.",
+  "tags": [
+    "mostly_high_school"
+  ],
+  "timezone": "America/Toronto",
+  "title": "ONHacks",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "hackathon"
+}

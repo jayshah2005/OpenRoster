@@ -1,0 +1,157 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-05T19:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 43.45011,
+    "lon": -79.68292,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-the-fashion-sewing-c-visible-mending-workshop-4b15",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Oakville",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Sheridan College Trafalgar - Room C200"
+  },
+  "mode": "in_person",
+  "near_schools": [
+    {
+      "km": 2.5,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 11.0,
+      "school_id": "uoft"
+    },
+    {
+      "km": 21.0,
+      "school_id": "humber"
+    },
+    {
+      "km": 26.6,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 26.9,
+      "school_id": "algoma"
+    },
+    {
+      "km": 28.4,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 32.6,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 33.4,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 33.7,
+      "school_id": "tmu"
+    },
+    {
+      "km": 38.6,
+      "school_id": "seneca"
+    },
+    {
+      "km": 38.8,
+      "school_id": "yorku"
+    },
+    {
+      "km": 39.1,
+      "school_id": "centennial"
+    },
+    {
+      "km": 44.7,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 48.2,
+      "school_id": "brock"
+    },
+    {
+      "km": 52.0,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 55.5,
+      "school_id": "niagara-college"
+    },
+    {
+      "km": 58.4,
+      "school_id": "laurier"
+    },
+    {
+      "km": 69.6,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 76.6,
+      "school_id": "durham"
+    },
+    {
+      "km": 82.4,
+      "school_id": "ontariotechu"
+    },
+    {
+      "km": 83.8,
+      "school_id": "trent"
+    }
+  ],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "The Fashion & Sewing Club (Trafalgar)",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://sheridancollege.campuslabs.ca/engage/event/335759"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "sheridan"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "sheridan-ssu-engage-rss",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/335759"
+    }
+  ],
+  "start": "2026-11-05T18:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Workshop by The Fashion & Sewing Club (Trafalgar) in Oakville.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Visible Mending Workshop",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

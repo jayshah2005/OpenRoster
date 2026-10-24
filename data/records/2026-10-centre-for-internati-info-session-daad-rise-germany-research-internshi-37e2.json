@@ -1,0 +1,79 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "undergrad"
+  ],
+  "end": "2026-10-28T16:00:00-04:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 53.61094,
+    "lon": -113.5534,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-10-centre-for-internati-info-session-daad-rise-germany-research-internshi-37e2",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Cumberland",
+    "country": "CA",
+    "region": "CA-AB",
+    "venue_name": "Hybrid – Online or at Cumberland House (33 St. George St.)"
+  },
+  "mode": "hybrid",
+  "near_schools": [],
+  "obtained_via": [
+    "html",
+    "tribe"
+  ],
+  "organizer": "Centre for International Experience",
+  "registration": {
+    "route": "public_link",
+    "url": "https://folio.utoronto.ca/students/events/detail/7878166"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "uoft-engineering-undergrad-events",
+      "url": "https://undergrad.engineering.utoronto.ca/event/info-session-daad-rise-germany-research-internships-in-science-engineering/"
+    },
+    {
+      "adapter": "html",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "uoft-central-events",
+      "url": "https://www.engineering.utoronto.ca/event/info-session-daad-rise-germany-research-internships-in-science-engineering/"
+    }
+  ],
+  "start": "2026-10-28T15:00:00-04:00",
+  "status": "scheduled",
+  "summary": "Hybrid info session by Centre for International Experience in Cumberland for undergraduates.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Info Session: DAAD RISE Germany – Research Internships in Science & Engineering",
+  "travel_support": {
+    "note": null,
+    "stated": true
+  },
+  "type": "info_session"
+}

@@ -1,0 +1,69 @@
+{
+  "ai_suggested": [],
+  "all_day": true,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "undergrad",
+    "grad"
+  ],
+  "end": null,
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-bmo-first-stride-networking-event-recruiter-ask-me-any-ffb0",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "in_person",
+  "near_schools": [],
+  "obtained_via": [
+    "html"
+  ],
+  "organizer": "BMO",
+  "registration": {
+    "route": "public_link",
+    "url": "https://jobs.bmo.com/ca/en/student-events"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "html",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "bmo-student-events",
+      "url": "https://jobs.bmo.com/ca/en/student-events"
+    }
+  ],
+  "start": "2026-11-06T00:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Workshop by BMO for undergraduates and graduate students.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "First Stride Networking Event | Recruiter Ask Me Anything | BMO Coffee & Career Chats",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

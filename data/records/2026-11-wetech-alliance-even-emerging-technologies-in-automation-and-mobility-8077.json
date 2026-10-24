@@ -1,0 +1,81 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-19T17:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 42.30008,
+    "lon": -83.01654,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-wetech-alliance-even-emerging-technologies-in-automation-and-mobility-8077",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Windsor",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Caesar’s Windsor"
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 4.1,
+      "school_id": "uwindsor"
+    },
+    {
+      "km": 5.8,
+      "school_id": "stclair"
+    }
+  ],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "WEtech Alliance events (Windsor-Essex)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.emergingtechnologies.ca/about/about-emerging-technologies/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "wetech-alliance-events",
+      "url": "https://www.wetech-alliance.com/event/emerging-technologies-in-automation-and-mobility-transformation/"
+    }
+  ],
+  "start": "2026-11-19T08:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Conference by WEtech Alliance events (Windsor-Essex) in Windsor.",
+  "tags": [],
+  "timezone": "America/Detroit",
+  "title": "Emerging Technologies in Automation and Mobility Transformation",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "conference"
+}

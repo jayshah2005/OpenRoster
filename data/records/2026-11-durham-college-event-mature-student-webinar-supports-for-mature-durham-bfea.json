@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-11T19:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-durham-college-event-mature-student-webinar-supports-for-mature-durham-bfea",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Online",
+    "country": null,
+    "region": null,
+    "venue_name": "Online – webinar"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "Durham College events calendar",
+  "registration": {
+    "route": "public_link",
+    "url": "https://us06web.zoom.us/meeting/register/8E5kPKjaS36nSjynh5sLVA"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "durham-events",
+      "url": "https://durhamcollege.ca/event/mature-student-webinar-supports-for-mature-durham-college-students-2"
+    }
+  ],
+  "start": "2026-11-11T18:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Free online info session by Durham College events calendar.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Mature Student Webinar: Supports for Mature Durham College Students",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

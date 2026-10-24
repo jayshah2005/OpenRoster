@@ -1,0 +1,72 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-21T16:30:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 45.48341,
+    "lon": -73.59918,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-waterloo-engineering-fusion-conference-2026-80c2",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Westmount",
+    "country": "CA",
+    "region": "CA-QC",
+    "venue_name": "UTD - United College 190 Westmount Road North Waterloo ON N2L 3G5 Canada"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Waterloo Engineering events (iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://uwaterloo.ca/engineering/events/fusion-conference-2026"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "uwaterloo-engineering-events-ics:ac049a96f63b",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "uwaterloo-engineering-events-ics",
+      "url": "https://uwaterloo.ca/engineering/events/fusion-conference-2026"
+    }
+  ],
+  "start": "2026-11-21T08:30:00-05:00",
+  "status": "scheduled",
+  "summary": "Case competition by Waterloo Engineering events (iCal) in Westmount.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Fusion Conference 2026",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "case_competition"
+}

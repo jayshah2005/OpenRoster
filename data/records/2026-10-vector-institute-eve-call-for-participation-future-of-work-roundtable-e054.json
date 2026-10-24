@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-10-27T14:00:00-04:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-10-vector-institute-eve-call-for-participation-future-of-work-roundtable-e054",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "Virtual"
+  },
+  "mode": "hybrid",
+  "near_schools": [],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "Vector Institute events (The Events Calendar REST)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://vectorinstitute.swoogo.com/cfp-future-of-work-roundtable/13192733?ref=Website"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "vector-institute-events",
+      "url": "https://vectorinstitute.ai/event/call-for-participation-future-of-work-roundtable/"
+    }
+  ],
+  "start": "2026-10-27T13:00:00-04:00",
+  "status": "scheduled",
+  "summary": "Hybrid info session by Vector Institute events (The Events Calendar REST).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Call for Participation: Future of Work Roundtable",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

@@ -1,0 +1,171 @@
+{
+  "ai_suggested": [],
+  "all_day": true,
+  "cost": {
+    "kind": "paid",
+    "note": null
+  },
+  "eligibility": [
+    "high_school"
+  ],
+  "end": "2027-01-10T23:59:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 43.70643,
+    "lon": -79.39864,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2027-01-hack-canada-d6a1",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Toronto",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": null
+  },
+  "mode": "in_person",
+  "near_schools": [
+    {
+      "km": 3.5,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 4.8,
+      "school_id": "uoft"
+    },
+    {
+      "km": 5.6,
+      "school_id": "tmu"
+    },
+    {
+      "km": 5.9,
+      "school_id": "centennial"
+    },
+    {
+      "km": 5.9,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 10.7,
+      "school_id": "seneca"
+    },
+    {
+      "km": 11.2,
+      "school_id": "yorku"
+    },
+    {
+      "km": 15.5,
+      "school_id": "humber"
+    },
+    {
+      "km": 23.8,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 29.1,
+      "school_id": "algoma"
+    },
+    {
+      "km": 41.6,
+      "school_id": "durham"
+    },
+    {
+      "km": 47.7,
+      "school_id": "ontariotechu"
+    },
+    {
+      "km": 48.2,
+      "school_id": "trent"
+    },
+    {
+      "km": 61.2,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 62.4,
+      "school_id": "brock"
+    },
+    {
+      "km": 64.9,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 66.8,
+      "school_id": "niagara-college"
+    },
+    {
+      "km": 69.3,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 81.3,
+      "school_id": "georgian"
+    },
+    {
+      "km": 83.2,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 90.3,
+      "school_id": "fleming"
+    },
+    {
+      "km": 94.1,
+      "school_id": "laurier"
+    },
+    {
+      "km": 95.9,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 99.3,
+      "school_id": "lakehead"
+    }
+  ],
+  "obtained_via": [
+    "hackathon_site"
+  ],
+  "organizer": "Hack Canada",
+  "registration": {
+    "route": "public_link",
+    "url": "https://hackcanada.org"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "open",
+      "url": "https://hackcanada.org"
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "hackathon_site",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "hackathon:hack-canada",
+      "url": "https://hackcanada.org"
+    }
+  ],
+  "start": "2027-01-08T00:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Hackathon by Hack Canada in Toronto for high-school students. Beginners welcome.",
+  "tags": [
+    "beginner_friendly"
+  ],
+  "timezone": "America/Toronto",
+  "title": "Hack Canada",
+  "travel_support": {
+    "note": null,
+    "stated": true
+  },
+  "type": "hackathon"
+}

@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-16T19:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-12-durham-college-event-mature-student-webinar-newcomers-to-canada-db29",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Online",
+    "country": null,
+    "region": null,
+    "venue_name": "Online – webinar"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "Durham College events calendar",
+  "registration": {
+    "route": "public_link",
+    "url": "https://us06web.zoom.us/meeting/register/5snJjl0USselxHkMxXnsyA"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "durham-events",
+      "url": "https://durhamcollege.ca/event/mature-student-webinar-newcomers-to-canada"
+    }
+  ],
+  "start": "2026-12-16T18:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Free online workshop by Durham College events calendar.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Mature Student Webinar: Newcomers to Canada",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

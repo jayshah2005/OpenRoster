@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-12T18:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-waterloo-women-in-co-leveraging-ai-to-build-security-tooling-and-stayi-bd24",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Waterloo Women in Computer Science events (iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://uwaterloo.ca/women-in-computer-science/events/leveraging-ai-build-security-tooling-and-staying-employed"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "uwaterloo-wics-events-ics:f6e5b37eab09",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "uwaterloo-wics-events-ics",
+      "url": "https://uwaterloo.ca/women-in-computer-science/events/leveraging-ai-build-security-tooling-and-staying-employed"
+    }
+  ],
+  "start": "2026-11-12T16:30:00-05:00",
+  "status": "scheduled",
+  "summary": "Event by Waterloo Women in Computer Science events (iCal).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Leveraging AI to Build Security Tooling —and Staying Employed in the Process",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

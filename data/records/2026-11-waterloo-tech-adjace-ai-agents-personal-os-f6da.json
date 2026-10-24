@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-20T01:30:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-waterloo-tech-adjace-ai-agents-personal-os-f6da",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "https://luma.com/event/evt-S4KCICrUGvbjMQv"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Waterloo Tech (+adjacent) Events (Luma iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://luma.com/2yn1kqpr"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "luma-waterloo-tech-adjacent-events:cce58e6ed5e3",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "luma-waterloo-tech-adjacent-events",
+      "url": "https://luma.com/2yn1kqpr"
+    }
+  ],
+  "start": "2026-11-19T22:30:00Z",
+  "status": "scheduled",
+  "summary": "Event by Waterloo Tech (+adjacent) Events (Luma iCal).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "AI Agents × Personal OS",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

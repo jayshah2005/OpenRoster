@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-04T21:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-university-of-guelph-the-anger-iceberg-signal-or-saboteur-8068",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "ONLINE"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "University of Guelph central events (news.uoguelph.ca, The Events Calendar)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.selfregulationskills.ca/stress-awareness-day/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "uoguelph-news-events-tribe",
+      "url": "https://news.uoguelph.ca/event/the-anger-iceberg-signal-or-saboteur/"
+    }
+  ],
+  "start": "2026-11-04T19:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Free online workshop by University of Guelph central events (news.uoguelph.ca, The Events Calendar).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "The Anger ‘Iceberg’ – Signal or Saboteur?",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

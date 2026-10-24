@@ -1,0 +1,70 @@
+{
+  "ai_suggested": [],
+  "all_day": true,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "high_school"
+  ],
+  "end": "2027-01-17T23:59:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2027-01-mchacks-bf85",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Montreal",
+    "country": "CA",
+    "region": "CA-QC",
+    "venue_name": null
+  },
+  "mode": "in_person",
+  "near_schools": [],
+  "obtained_via": [
+    "hackathon_site"
+  ],
+  "organizer": "McHacks",
+  "registration": {
+    "route": "public_link",
+    "url": "https://mchacks.ca"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": "2027-01-16T23:59:00-05:00",
+      "evidence": "Close Menu McHacks 14 Jan. 16-17, 2027 | In-Person | McGill University McHacks 14 Int",
+      "opens": null,
+      "role": "participant",
+      "status": "open",
+      "url": "https://mchacks.ca"
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "hackathon_site",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "hackathon:mchacks",
+      "url": "https://mchacks.ca"
+    }
+  ],
+  "start": "2027-01-16T00:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Free hackathon by McHacks in Montreal for high-school students. Beginners welcome. Apply by Jan 16.",
+  "tags": [
+    "beginner_friendly"
+  ],
+  "timezone": "America/Toronto",
+  "title": "McHacks",
+  "travel_support": {
+    "note": null,
+    "stated": true
+  },
+  "type": "hackathon"
+}

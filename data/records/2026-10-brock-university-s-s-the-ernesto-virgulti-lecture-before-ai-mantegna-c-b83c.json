@@ -1,0 +1,74 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-10-29T20:30:00-04:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 53.54021,
+    "lon": -113.49907,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-10-brock-university-s-s-the-ernesto-virgulti-lecture-before-ai-mantegna-c-b83c",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Downtown",
+    "country": "CA",
+    "region": "CA-AB",
+    "venue_name": "School of Fine and Performing Arts, Room 156"
+  },
+  "mode": "in_person",
+  "near_schools": [],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Brock University's Society for Medieval and Renaissance Studies",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://experiencebu.brocku.ca/event/335192"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "brock"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/335192"
+    }
+  ],
+  "start": "2026-10-29T19:00:00-04:00",
+  "status": "scheduled",
+  "summary": "Workshop by Brock University's Society for Medieval and Renaissance Studies in Downtown for women and non-binary students.",
+  "tags": [
+    "women_nonbinary"
+  ],
+  "timezone": "America/Toronto",
+  "title": "The Ernesto Virgulti Lecture - Before AI: Mantegna, Caravaggio, and the Art of Recombination by Dr. Sally Hickson",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

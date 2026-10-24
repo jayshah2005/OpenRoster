@@ -1,0 +1,121 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-10-28T16:45:00-04:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 42.8334,
+    "lon": -80.29967,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-10-queen-s-university-e-pricing-in-the-age-of-ai-special-book-release-3049",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Simcoe",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 34.1,
+      "school_id": "laurier"
+    },
+    {
+      "km": 56.1,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 56.7,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 58.6,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 73.8,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 76.0,
+      "school_id": "fanshawe"
+    },
+    {
+      "km": 77.9,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 81.7,
+      "school_id": "western"
+    },
+    {
+      "km": 85.9,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 86.5,
+      "school_id": "niagara-college"
+    },
+    {
+      "km": 91.2,
+      "school_id": "brock"
+    },
+    {
+      "km": 94.8,
+      "school_id": "uoft"
+    }
+  ],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Queen's University events calendar (RSS)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.queensu.ca/eventscalendar/events/pricing-age-ai-special-book-release"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "queens-events-rss",
+      "url": "https://www.queensu.ca/eventscalendar/events/pricing-age-ai-special-book-release"
+    }
+  ],
+  "start": "2026-10-28T15:45:00-04:00",
+  "status": "scheduled",
+  "summary": "Free tech talk by Queen's University events calendar (RSS) in Simcoe.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Pricing in the Age of AI | Special Book Release",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "tech_talk"
+}

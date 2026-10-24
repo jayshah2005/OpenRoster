@@ -1,0 +1,147 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "school_only"
+  ],
+  "end": "2027-01-19T16:15:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 43.90012,
+    "lon": -78.84957,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2027-01-durham-college-event-start-strong-at-dc-mature-student-orientation-f992",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Oshawa",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "First Peoples Indigenous Centre, Centre for Collaborative Education (CFCE 141)"
+  },
+  "mode": "in_person",
+  "near_schools": [
+    {
+      "km": 1.3,
+      "school_id": "ontariotechu"
+    },
+    {
+      "km": 6.2,
+      "school_id": "durham"
+    },
+    {
+      "km": 6.2,
+      "school_id": "trent"
+    },
+    {
+      "km": 29.9,
+      "school_id": "uoft"
+    },
+    {
+      "km": 30.2,
+      "school_id": "centennial"
+    },
+    {
+      "km": 37.5,
+      "school_id": "yorku"
+    },
+    {
+      "km": 41.7,
+      "school_id": "seneca"
+    },
+    {
+      "km": 50.1,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 50.3,
+      "school_id": "tmu"
+    },
+    {
+      "km": 51.4,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 52.7,
+      "school_id": "fleming"
+    },
+    {
+      "km": 63.4,
+      "school_id": "humber"
+    },
+    {
+      "km": 72.7,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 76.8,
+      "school_id": "algoma"
+    },
+    {
+      "km": 86.6,
+      "school_id": "georgian"
+    },
+    {
+      "km": 88.6,
+      "school_id": "brock"
+    },
+    {
+      "km": 88.7,
+      "school_id": "niagara-college"
+    },
+    {
+      "km": 90.0,
+      "school_id": "lakehead"
+    }
+  ],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "Durham College events calendar",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.eventbrite.com/e/start-strong-at-dc-mature-student-orientation-tickets-2001231123161?aff=oddtdtcreator"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "durham-events",
+      "url": "https://durhamcollege.ca/event/start-strong-at-dc-mature-student-orientation-2"
+    }
+  ],
+  "start": "2027-01-19T14:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Info session by Durham College events calendar in Oshawa for Indigenous students.",
+  "tags": [
+    "indigenous_students"
+  ],
+  "timezone": "America/Toronto",
+  "title": "Start Strong at DC: Mature Student Orientation",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

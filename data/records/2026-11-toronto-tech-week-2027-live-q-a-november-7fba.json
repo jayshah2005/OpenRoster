@@ -1,0 +1,169 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-24T19:00:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 43.70643,
+    "lon": -79.39864,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-toronto-tech-week-2027-live-q-a-november-7fba",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Toronto",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "https://luma.com/event/evt-AkEDwcvJNiS6f7L"
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 3.5,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 4.8,
+      "school_id": "uoft"
+    },
+    {
+      "km": 5.6,
+      "school_id": "tmu"
+    },
+    {
+      "km": 5.9,
+      "school_id": "centennial"
+    },
+    {
+      "km": 5.9,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 10.7,
+      "school_id": "seneca"
+    },
+    {
+      "km": 11.2,
+      "school_id": "yorku"
+    },
+    {
+      "km": 15.5,
+      "school_id": "humber"
+    },
+    {
+      "km": 23.8,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 29.1,
+      "school_id": "algoma"
+    },
+    {
+      "km": 41.6,
+      "school_id": "durham"
+    },
+    {
+      "km": 47.7,
+      "school_id": "ontariotechu"
+    },
+    {
+      "km": 48.2,
+      "school_id": "trent"
+    },
+    {
+      "km": 61.2,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 62.4,
+      "school_id": "brock"
+    },
+    {
+      "km": 64.9,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 66.8,
+      "school_id": "niagara-college"
+    },
+    {
+      "km": 69.3,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 81.3,
+      "school_id": "georgian"
+    },
+    {
+      "km": 83.2,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 90.3,
+      "school_id": "fleming"
+    },
+    {
+      "km": 94.1,
+      "school_id": "laurier"
+    },
+    {
+      "km": 95.9,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 99.3,
+      "school_id": "lakehead"
+    }
+  ],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Toronto Tech Week (Luma iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://luma.com/TTWQA2"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "luma-toronto-tech-week:c02c07b846b7",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "luma-toronto-tech-week",
+      "url": "https://luma.com/TTWQA2"
+    }
+  ],
+  "start": "2026-11-24T18:00:00Z",
+  "status": "scheduled",
+  "summary": "Conference by Toronto Tech Week (Luma iCal) in Toronto.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Toronto Tech Week 2027 - Live Q&A November",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "conference"
+}

@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-04T02:30:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-techto-luma-ical-what-happens-after-dark-presented-by-techto-labarg-cca2",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "https://luma.com/event/evt-FUG03qDDoXGCJWM"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "TechTO (Luma iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://luma.com/saasnorth2026-welcome-afterparty"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "luma-techto:b8f1b86cb75b",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "luma-techto",
+      "url": "https://luma.com/saasnorth2026-welcome-afterparty"
+    }
+  ],
+  "start": "2026-11-04T00:00:00Z",
+  "status": "scheduled",
+  "summary": "Event by TechTO (Luma iCal).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "\"What Happens After Dark\" Presented by TechTO & LaBarge Weinstein LLP",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-05T02:00:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-techto-luma-ical-the-growth-table-saas-north-ai-fc19",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "https://luma.com/event/evt-xmjLDRV0Wr1uAiZ"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "TechTO (Luma iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://luma.com/growth-table-ottawa-saasnorth2026"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "luma-techto:56df87ac2ea0",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "luma-techto",
+      "url": "https://luma.com/growth-table-ottawa-saasnorth2026"
+    }
+  ],
+  "start": "2026-11-04T23:00:00Z",
+  "status": "scheduled",
+  "summary": "Event by TechTO (Luma iCal).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "The Growth Table: SAAS NORTH AI",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

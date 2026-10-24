@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "grad"
+  ],
+  "end": "2026-10-28T13:20:00-04:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-10-western-university-e-ethics-workshop-with-dr-trevor-j-bieber-7869",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "FNB 4130 or Zoom Webinar"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "api"
+  ],
+  "organizer": "Western University events (JSON)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.uwo.ca/events/2026/10/fims-seminar-series-ethics-workshop.html"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "api",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "western-events-json",
+      "url": "https://www.uwo.ca/events/2026/10/fims-seminar-series-ethics-workshop.html"
+    }
+  ],
+  "start": "2026-10-28T12:00:00-04:00",
+  "status": "scheduled",
+  "summary": "Online workshop by Western University events (JSON) for graduate students.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Ethics Workshop with Dr. Trevor J. Bieber",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

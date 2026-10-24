@@ -1,0 +1,72 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "undergrad"
+  ],
+  "end": "2026-11-09T15:30:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 49.16667,
+    "lon": -123.16667,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-centre-for-pedagogic-beyond-the-hype-lessons-from-teaching-design-expe-2769",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Thompson",
+    "country": "CA",
+    "region": "CA-BC",
+    "venue_name": "RFP 214/215"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Centre for Pedagogical Innovation",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://experiencebu.brocku.ca/event/336239"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "brock"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/336239"
+    }
+  ],
+  "start": "2026-11-09T14:30:00-05:00",
+  "status": "scheduled",
+  "summary": "Info session by Centre for Pedagogical Innovation in Thompson for undergraduates.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Beyond the Hype: Lessons from Teaching, Design & Experimentation",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

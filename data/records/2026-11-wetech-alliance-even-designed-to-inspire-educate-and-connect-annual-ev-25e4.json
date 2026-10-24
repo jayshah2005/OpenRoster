@@ -1,0 +1,87 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-07T17:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 42.41224,
+    "lon": -82.18494,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-wetech-alliance-even-designed-to-inspire-educate-and-connect-annual-ev-25e4",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Chatham",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 3.0,
+      "school_id": "stclair"
+    },
+    {
+      "km": 73.4,
+      "school_id": "uwindsor"
+    },
+    {
+      "km": 99.8,
+      "school_id": "western"
+    }
+  ],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "WEtech Alliance events (Windsor-Essex)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.wetech-alliance.com/event/designed-to-inspire-educate-and-connect-annual-event/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "wetech-alliance-events",
+      "url": "https://www.wetech-alliance.com/event/designed-to-inspire-educate-and-connect-annual-event/"
+    }
+  ],
+  "start": "2026-11-07T13:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Workshop by WEtech Alliance events (Windsor-Essex) in Chatham for women and non-binary students.",
+  "tags": [
+    "women_nonbinary"
+  ],
+  "timezone": "America/Detroit",
+  "title": "Designed to Inspire, Educate and Connect (Annual Event)",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

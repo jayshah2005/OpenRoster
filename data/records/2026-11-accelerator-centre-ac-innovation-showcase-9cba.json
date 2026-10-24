@@ -1,0 +1,145 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "open_to_all"
+  ],
+  "end": "2026-11-10T16:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 43.4668,
+    "lon": -80.51639,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-accelerator-centre-ac-innovation-showcase-9cba",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Waterloo",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "The Cora Group Space at 300 Hagey Blvd, Waterloo, ON"
+  },
+  "mode": "in_person",
+  "near_schools": [
+    {
+      "km": 1.2,
+      "school_id": "laurier"
+    },
+    {
+      "km": 1.4,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 2.4,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 24.6,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 53.4,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 54.3,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 65.6,
+      "school_id": "algoma"
+    },
+    {
+      "km": 66.0,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 69.4,
+      "school_id": "uoft"
+    },
+    {
+      "km": 74.9,
+      "school_id": "fanshawe"
+    },
+    {
+      "km": 78.8,
+      "school_id": "humber"
+    },
+    {
+      "km": 79.7,
+      "school_id": "western"
+    },
+    {
+      "km": 88.5,
+      "school_id": "yorku"
+    },
+    {
+      "km": 88.6,
+      "school_id": "seneca"
+    },
+    {
+      "km": 92.1,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 93.0,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 94.1,
+      "school_id": "tmu"
+    },
+    {
+      "km": 98.9,
+      "school_id": "centennial"
+    }
+  ],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "Accelerator Centre",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.acceleratorcentre.com/event-page/ac-innovation-showcase/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "accelerator-centre-tribe",
+      "url": "https://www.acceleratorcentre.com/event-page/ac-innovation-showcase/"
+    }
+  ],
+  "start": "2026-11-10T12:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Free info session by Accelerator Centre in Waterloo.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "AC Innovation Showcase",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-10-28T17:30:00-04:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-10-mcmaster-university-2026-carl-moore-lecture-a-primary-care-approach-to-790a",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "McMaster University central events (news.mcmaster.ca, Events Manager)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://news.mcmaster.ca/events/2026-carl-moore-lecture-a-primary-care-approach-to-childhood-trauma/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "mcmaster-news-events-ics:2847177ae1eb",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "mcmaster-news-events-ics",
+      "url": "https://news.mcmaster.ca/events/2026-carl-moore-lecture-a-primary-care-approach-to-childhood-trauma/"
+    }
+  ],
+  "start": "2026-10-28T16:00:00-04:00",
+  "status": "scheduled",
+  "summary": "Tech talk by McMaster University central events (news.mcmaster.ca, Events Manager).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "2026 Carl Moore Lecture – A Primary Care Approach to Childhood Trauma",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "tech_talk"
+}

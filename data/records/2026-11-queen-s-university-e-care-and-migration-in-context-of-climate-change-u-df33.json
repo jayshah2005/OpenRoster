@@ -1,0 +1,74 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-13T13:30:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 52.13899,
+    "lon": -106.60402,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-queen-s-university-e-care-and-migration-in-context-of-climate-change-u-df33",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Sutherland",
+    "country": "CA",
+    "region": "CA-SK",
+    "venue_name": null
+  },
+  "mode": "in_person",
+  "near_schools": [],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Queen's University events calendar (RSS)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.queensu.ca/eventscalendar/events/care-migration-context-climate-change-using-mongolia-as-case-study-dr-ito-peng"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "queens-events-rss",
+      "url": "https://www.queensu.ca/eventscalendar/events/care-migration-context-climate-change-using-mongolia-as-case-study-dr-ito-peng"
+    }
+  ],
+  "start": "2026-11-13T12:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Tech talk by Queen's University events calendar (RSS) in Sutherland for women and non-binary students.",
+  "tags": [
+    "women_nonbinary"
+  ],
+  "timezone": "America/Toronto",
+  "title": "Care and Migration in Context of Climate Change: Using Mongolia as a Case Study with Dr. Ito Peng",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "tech_talk"
+}

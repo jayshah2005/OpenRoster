@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-24T14:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-wilfrid-laurier-univ-lazaridis-graduate-diploma-in-accounting-informat-30b4",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Wilfrid Laurier University events calendar (iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://events.wlu.ca/index.html"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "laurier-events-ics:5de714727d85",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "laurier-events-ics",
+      "url": "https://events.wlu.ca/index.html"
+    }
+  ],
+  "start": "2026-11-24T13:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Info session by Wilfrid Laurier University events calendar (iCal).",
+  "tags": [],
+  "timezone": "America/New_York",
+  "title": "Lazaridis Graduate Diploma in Accounting Information Session",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

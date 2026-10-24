@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": true,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": null,
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-10-u-of-t-central-event-bachelor-of-kinesiology-virtual-info-session-5fae",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "html"
+  ],
+  "organizer": "U of T central events aggregator",
+  "registration": {
+    "route": "public_link",
+    "url": "https://kpe.utoronto.ca/thu-10292026-1800/bachelor-kinesiology-virtual-info-session"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "html",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "uoft-central-events",
+      "url": "https://kpe.utoronto.ca/thu-10292026-1800/bachelor-kinesiology-virtual-info-session"
+    }
+  ],
+  "start": "2026-10-29T00:00:00-04:00",
+  "status": "scheduled",
+  "summary": "Online info session by U of T central events aggregator.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Bachelor of Kinesiology Virtual Info Session",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

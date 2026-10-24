@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-05T19:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-wetech-alliance-even-aquahacking-binational-challenge-grand-finale-b034",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "WEtech Alliance events (Windsor-Essex)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.wetech-alliance.com/event/aquahacking-binational-challenge-grand-finale/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "wetech-alliance-events",
+      "url": "https://www.wetech-alliance.com/event/aquahacking-binational-challenge-grand-finale/"
+    }
+  ],
+  "start": "2026-11-05T09:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Info session by WEtech Alliance events (Windsor-Essex).",
+  "tags": [],
+  "timezone": "America/Detroit",
+  "title": "AquaHacking Binational Challenge Grand Finale",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

@@ -1,0 +1,189 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-10-28T18:00:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 43.70643,
+    "lon": -79.39864,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-10-yu-connect-campusgro-women-s-wednesday-pool-53b2",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Toronto",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Break Room, 4700 Keele St, S172, Ross Building, Toronto, ON M3J 1P3, Canada"
+  },
+  "mode": "in_person",
+  "near_schools": [
+    {
+      "km": 3.5,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 4.8,
+      "school_id": "uoft"
+    },
+    {
+      "km": 5.6,
+      "school_id": "tmu"
+    },
+    {
+      "km": 5.9,
+      "school_id": "centennial"
+    },
+    {
+      "km": 5.9,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 10.7,
+      "school_id": "seneca"
+    },
+    {
+      "km": 11.2,
+      "school_id": "yorku"
+    },
+    {
+      "km": 15.5,
+      "school_id": "humber"
+    },
+    {
+      "km": 23.8,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 29.1,
+      "school_id": "algoma"
+    },
+    {
+      "km": 41.6,
+      "school_id": "durham"
+    },
+    {
+      "km": 47.7,
+      "school_id": "ontariotechu"
+    },
+    {
+      "km": 48.2,
+      "school_id": "trent"
+    },
+    {
+      "km": 61.2,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 62.4,
+      "school_id": "brock"
+    },
+    {
+      "km": 64.9,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 66.8,
+      "school_id": "niagara-college"
+    },
+    {
+      "km": 69.3,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 81.3,
+      "school_id": "georgian"
+    },
+    {
+      "km": 83.2,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 90.3,
+      "school_id": "fleming"
+    },
+    {
+      "km": 94.1,
+      "school_id": "laurier"
+    },
+    {
+      "km": 95.9,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 99.3,
+      "school_id": "lakehead"
+    }
+  ],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "YU Connect (CampusGroups) all public club events iCal",
+  "registration": {
+    "route": "public_link",
+    "url": "https://yuconnect.yorku.ca/rsvp?id=376054"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "yorku-yuconnect-ical:a2e0bcccc4e3",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "yorku-yuconnect-ical",
+      "url": "https://yuconnect.yorku.ca/rsvp?id=376054"
+    },
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "yorku-yuconnect-ical",
+      "url": "https://yuconnect.yorku.ca/rsvp?id=376218"
+    },
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "yorku-yuconnect-ical",
+      "url": "https://yuconnect.yorku.ca/rsvp?id=376165"
+    },
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "yorku-yuconnect-ical",
+      "url": "https://yuconnect.yorku.ca/rsvp?id=376232"
+    }
+  ],
+  "start": "2026-10-28T16:00:00Z",
+  "status": "scheduled",
+  "summary": "Event by YU Connect (CampusGroups) all public club events iCal in Toronto for women and non-binary students.",
+  "tags": [
+    "women_nonbinary"
+  ],
+  "timezone": "America/Toronto",
+  "title": "Women's Wednesday Pool",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

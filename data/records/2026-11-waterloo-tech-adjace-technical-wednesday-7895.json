@@ -1,0 +1,169 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-25T18:00:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 43.96514,
+    "lon": -79.59011,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-waterloo-tech-adjace-technical-wednesday-7895",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "King",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Builders Club, 165 King St W, Kitchener, ON N2G 1A7, Canada"
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 5.9,
+      "school_id": "seneca"
+    },
+    {
+      "km": 22.5,
+      "school_id": "yorku"
+    },
+    {
+      "km": 26.3,
+      "school_id": "humber"
+    },
+    {
+      "km": 33.9,
+      "school_id": "algoma"
+    },
+    {
+      "km": 35.2,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 35.3,
+      "school_id": "centennial"
+    },
+    {
+      "km": 36.4,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 37.1,
+      "school_id": "uoft"
+    },
+    {
+      "km": 38.2,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 38.2,
+      "school_id": "tmu"
+    },
+    {
+      "km": 50.0,
+      "school_id": "georgian"
+    },
+    {
+      "km": 52.6,
+      "school_id": "durham"
+    },
+    {
+      "km": 55.5,
+      "school_id": "ontariotechu"
+    },
+    {
+      "km": 55.6,
+      "school_id": "trent"
+    },
+    {
+      "km": 70.1,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 71.9,
+      "school_id": "lakehead"
+    },
+    {
+      "km": 81.0,
+      "school_id": "fleming"
+    },
+    {
+      "km": 82.7,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 83.0,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 89.0,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 93.1,
+      "school_id": "laurier"
+    },
+    {
+      "km": 94.1,
+      "school_id": "brock"
+    },
+    {
+      "km": 94.3,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 99.0,
+      "school_id": "niagara-college"
+    }
+  ],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Waterloo Tech (+adjacent) Events (Luma iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://luma.com/waterloo-q0lm"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "luma-waterloo-tech-adjacent-events:06f63676f7d5",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "luma-waterloo-tech-adjacent-events",
+      "url": "https://luma.com/waterloo-q0lm"
+    }
+  ],
+  "start": "2026-11-25T17:00:00Z",
+  "status": "scheduled",
+  "summary": "Event by Waterloo Tech (+adjacent) Events (Luma iCal) in King.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Technical Wednesday",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

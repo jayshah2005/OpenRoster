@@ -1,0 +1,152 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "school_only",
+    "undergrad"
+  ],
+  "end": "2027-01-08T12:30:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 43.88342,
+    "lon": -78.93287,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2027-01-durham-college-event-academic-welcome-day-faculties-of-hospitality-and-85b3",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Whitby",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Don Lovisa Building"
+  },
+  "mode": "in_person",
+  "near_schools": [
+    {
+      "km": 0.8,
+      "school_id": "durham"
+    },
+    {
+      "km": 5.6,
+      "school_id": "ontariotechu"
+    },
+    {
+      "km": 7.4,
+      "school_id": "trent"
+    },
+    {
+      "km": 23.1,
+      "school_id": "uoft"
+    },
+    {
+      "km": 23.3,
+      "school_id": "centennial"
+    },
+    {
+      "km": 30.6,
+      "school_id": "yorku"
+    },
+    {
+      "km": 34.8,
+      "school_id": "seneca"
+    },
+    {
+      "km": 43.6,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 43.7,
+      "school_id": "tmu"
+    },
+    {
+      "km": 44.8,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 56.0,
+      "school_id": "fleming"
+    },
+    {
+      "km": 56.8,
+      "school_id": "humber"
+    },
+    {
+      "km": 66.0,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 69.9,
+      "school_id": "algoma"
+    },
+    {
+      "km": 83.0,
+      "school_id": "georgian"
+    },
+    {
+      "km": 84.6,
+      "school_id": "brock"
+    },
+    {
+      "km": 85.3,
+      "school_id": "niagara-college"
+    },
+    {
+      "km": 88.5,
+      "school_id": "lakehead"
+    },
+    {
+      "km": 98.7,
+      "school_id": "mohawk"
+    }
+  ],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "Durham College events calendar",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.eventbrite.com/e/academic-welcome-day-hhs-sta-tickets-2002578164197?aff=oddtdtcreator"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "durham-events",
+      "url": "https://durhamcollege.ca/event/academic-welcome-day-faculties-of-hospitality-and-horticultural-science-hhs-and-skilled-trades-and-apprenticeship-sta"
+    }
+  ],
+  "start": "2027-01-08T09:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Free networking event by Durham College events calendar in Whitby for first-year students.",
+  "tags": [
+    "first_year"
+  ],
+  "timezone": "America/Toronto",
+  "title": "Academic Welcome Day: Faculties of Hospitality and Horticultural Science (HHS), and Skilled Trades and Apprenticeship (STA)",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "networking"
+}

@@ -1,0 +1,149 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-10-28T22:00:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 43.2,
+    "lon": -80.38333,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-10-university-of-guelph-france-italy-field-school-information-session-8713",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Paris",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Sign in to download the location"
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 11.8,
+      "school_id": "laurier"
+    },
+    {
+      "km": 18.7,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 33.0,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 38.2,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 38.9,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 39.1,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 62.9,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 69.5,
+      "school_id": "fanshawe"
+    },
+    {
+      "km": 69.9,
+      "school_id": "uoft"
+    },
+    {
+      "km": 73.8,
+      "school_id": "algoma"
+    },
+    {
+      "km": 75.3,
+      "school_id": "western"
+    },
+    {
+      "km": 82.6,
+      "school_id": "humber"
+    },
+    {
+      "km": 92.5,
+      "school_id": "brock"
+    },
+    {
+      "km": 93.3,
+      "school_id": "niagara-college"
+    },
+    {
+      "km": 94.6,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 94.7,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 95.5,
+      "school_id": "seneca"
+    },
+    {
+      "km": 95.5,
+      "school_id": "yorku"
+    },
+    {
+      "km": 95.8,
+      "school_id": "tmu"
+    }
+  ],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
+  "registration": {
+    "route": "public_link",
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=379523"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "uoguelph-gryphlife-campusgroups-ics:be5d0e790ee8",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=379523"
+    }
+  ],
+  "start": "2026-10-28T21:00:00Z",
+  "status": "scheduled",
+  "summary": "Info session by University of Guelph GryphLife (CampusGroups) public iCal in Paris.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "France-Italy Field School Information Session",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

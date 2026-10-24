@@ -1,0 +1,93 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-18T16:30:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 42.98339,
+    "lon": -81.23304,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-western-university-e-gis-days-open-house-abf3",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "London",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Weldon Library, Map & Data Centre and Scholars Lab"
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 4.2,
+      "school_id": "fanshawe"
+    },
+    {
+      "km": 4.4,
+      "school_id": "western"
+    },
+    {
+      "km": 77.9,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 79.0,
+      "school_id": "laurier"
+    },
+    {
+      "km": 80.0,
+      "school_id": "conestoga"
+    }
+  ],
+  "obtained_via": [
+    "api"
+  ],
+  "organizer": "Western University events (JSON)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.uwo.ca/events/2026/11/libraries-gis-days-open-house.html"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "api",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "western-events-json",
+      "url": "https://www.uwo.ca/events/2026/11/libraries-gis-days-open-house.html"
+    }
+  ],
+  "start": "2026-11-18T10:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Info session by Western University events (JSON) in London.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "GIS Days Open House",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

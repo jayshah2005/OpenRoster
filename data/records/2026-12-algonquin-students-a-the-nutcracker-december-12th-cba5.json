@@ -1,0 +1,95 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-12T16:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 45.41117,
+    "lon": -75.69812,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-12-algonquin-students-a-the-nutcracker-december-12th-cba5",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Ottawa",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 1.8,
+      "school_id": "uottawa"
+    },
+    {
+      "km": 2.6,
+      "school_id": "carleton"
+    },
+    {
+      "km": 8.2,
+      "school_id": "algonquin"
+    },
+    {
+      "km": 85.1,
+      "school_id": "stlawrence"
+    }
+  ],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "Algonquin Students' Association events (Tribe)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.algonquinsa.com/event/the-nutcracker-december-12th/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "algonquin-sa-events",
+      "url": "https://www.algonquinsa.com/event/the-nutcracker-december-12th/"
+    },
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "algonquin-sa-events",
+      "url": "https://www.algonquinsa.com/event/the-nutcracker-december-13th/"
+    }
+  ],
+  "start": "2026-12-12T16:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Event by Algonquin Students' Association events (Tribe) in Ottawa.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "The Nutcracker December 12th",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

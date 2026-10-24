@@ -1,0 +1,163 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "high_school"
+  ],
+  "end": "2026-12-13T19:00:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 43.562809188647,
+    "lon": -79.647838072687,
+    "source": "venue"
+  },
+  "history": [],
+  "id": "2026-12-hack-peel-26d6",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Mississauga",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": null
+  },
+  "mode": "in_person",
+  "near_schools": [
+    {
+      "km": 2.0,
+      "school_id": "uoft"
+    },
+    {
+      "km": 3.1,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 11.1,
+      "school_id": "humber"
+    },
+    {
+      "km": 16.3,
+      "school_id": "algoma"
+    },
+    {
+      "km": 22.9,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 23.0,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 24.1,
+      "school_id": "tmu"
+    },
+    {
+      "km": 26.1,
+      "school_id": "seneca"
+    },
+    {
+      "km": 26.2,
+      "school_id": "yorku"
+    },
+    {
+      "km": 29.3,
+      "school_id": "centennial"
+    },
+    {
+      "km": 39.5,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 40.1,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 46.7,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 55.7,
+      "school_id": "brock"
+    },
+    {
+      "km": 58.3,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 62.3,
+      "school_id": "niagara-college"
+    },
+    {
+      "km": 67.0,
+      "school_id": "durham"
+    },
+    {
+      "km": 68.6,
+      "school_id": "laurier"
+    },
+    {
+      "km": 73.0,
+      "school_id": "ontariotechu"
+    },
+    {
+      "km": 73.0,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 73.8,
+      "school_id": "trent"
+    },
+    {
+      "km": 94.4,
+      "school_id": "georgian"
+    }
+  ],
+  "obtained_via": [
+    "api"
+  ],
+  "organizer": "Hack Peel",
+  "registration": {
+    "route": "public_link",
+    "url": "https://hackpeel.ca"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "api",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "hackclub-hackathons-api-upcoming",
+      "url": "https://hackpeel.ca"
+    }
+  ],
+  "start": "2026-12-12T09:00:00Z",
+  "status": "scheduled",
+  "summary": "Hackathon by Hack Peel in Mississauga for mostly high-school students.",
+  "tags": [
+    "mostly_high_school"
+  ],
+  "timezone": "America/Toronto",
+  "title": "Hack Peel",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "hackathon"
+}

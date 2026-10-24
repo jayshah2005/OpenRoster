@@ -1,0 +1,74 @@
+{
+  "ai_suggested": [],
+  "all_day": true,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "open_to_all"
+  ],
+  "end": "2027-01-17T23:59:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "geo": {
+    "lat": 49.24966,
+    "lon": -123.11934,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2027-01-nwhacks-9a63",
+  "last_seen": "2026-10-24T16:53:41.410358Z",
+  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "location": {
+    "city": "Vancouver",
+    "country": "CA",
+    "region": "CA-BC",
+    "venue_name": null
+  },
+  "mode": "in_person",
+  "near_schools": [],
+  "obtained_via": [
+    "hackathon_site"
+  ],
+  "organizer": "nwHacks",
+  "registration": {
+    "route": "public_link",
+    "url": "https://nwhacks.io"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "open",
+      "url": "https://nwhacks.io"
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "hackathon_site",
+      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "source_id": "hackathon:nwhacks",
+      "url": "https://nwhacks.io"
+    }
+  ],
+  "start": "2027-01-16T00:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Hackathon by nwHacks in Vancouver for Indigenous students.",
+  "tags": [
+    "indigenous_students"
+  ],
+  "timezone": "America/Toronto",
+  "title": "nwHacks",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "hackathon"
+}
