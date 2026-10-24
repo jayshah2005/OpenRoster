@@ -221,3 +221,12 @@ def test_campus_calendar_relevance():
     assert is_cs_relevant("Help kids build games.", "Volunteers wanted: teaching kids to code")
     assert is_cs_relevant("Snacks.", "Halloween Social Networking") is False  # clubs tag socials "Networking"
     assert is_cs_relevant("Campus closed.", "Winter Break: University Closed") is False
+
+
+def test_include_patterns_match_title_and_host_not_descriptions():
+    from openroster.adapters.common import keep
+
+    s = src("rss", options={"filter": "cs", "include": ["Co-op"]})
+    assert keep(s, "Quizbowl practice. Bring your co-op friends!", "Quizbowl Practice Brock Quizbowl") is False
+    assert keep(s, "Drop in.", "Co-op Office Hours Brock Co-op")
+    assert keep(s, "Teams of four.", "Goodman Case Competition Goodman School")

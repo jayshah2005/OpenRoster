@@ -42,11 +42,14 @@ def keep(source: Source, text: str, title: str | None = None) -> bool:
     regexes applied on top.
     """
     opts = source.options
+    # include/exclude name clubs, offices and words in the title; matching them against descriptions let any
+    # event that mentioned, say, "Computer Science" in passing through.
+    scope = title if title is not None else text
     for rx in opts.get("exclude", []):
-        if re.search(rx, text, re.I):
+        if re.search(rx, scope, re.I):
             return False
     for rx in opts.get("include", []):
-        if re.search(rx, text, re.I):
+        if re.search(rx, scope, re.I):
             return True
     mode = opts.get("filter", "all")
     if mode == "all":

@@ -48,7 +48,7 @@ CS_FOCUS = re.compile(
     r"\b(?:hack(?:s|ing)?|code|tech|technology|technical|\bai\b|\bml\b|\bcs\b|data|analytics|engineer(?:s|ing)?|startups?|"
     r"entrepreneur(?:s|ship)?|web|apps?\b|ux|ui\b|cloud|cyber|product management|"
     r"google|microsoft|amazon|aws|azure|ibm|shopify|quant|stem\b|co-?op|internships?|recruit(?:ing|ment)?|"
-    r"resumes?|cv\b|interviews?|job search|linkedin|careers?|pitch|incubator|accelerator)",
+    r"resumes?|cv\b|interviews?|job search|linkedin|careers?|pitch|incubator|accelerator|case comp(?:etition)?s?)",
     re.I,
 )
 

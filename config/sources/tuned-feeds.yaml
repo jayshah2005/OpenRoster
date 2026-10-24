@@ -14,7 +14,8 @@ sources:
   options:
     landing_url: https://experiencebu.brocku.ca/events
     filter: cs
-    include: ["Computer Science", "Career Education", "Brock LINC", "GDG", "Google Developer", "Hack", "Game Jam", "Co-op", "Goodman"]
+    # Matched against title and host (the club or office running it), not descriptions.
+    include: ["Computer Science", "Career Education", "Brock LINC", "GDG", "Google Developer", "Hack", "Game Jam", "Co-op"]
     registration: school_portal_login
   notes: Brock's main calendar (brocku.ca/events redirects here). ~850 public events; the CS/career filter keeps the relevant ones. The Engage JSON API is disallowed by robots.txt, so only the RSS is used.
 
