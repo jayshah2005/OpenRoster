@@ -52,13 +52,26 @@
       "fetched_at": "2026-10-24T17:14:00.319152Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=375985"
+    },
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T17:42:56.855513Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=376767"
+    },
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-24T17:42:56.855513Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=379614"
     }
   ],
   "start": "2026-10-26T17:30:00Z",
   "status": "scheduled",
   "summary": "Workshop by University of Guelph GryphLife (CampusGroups) public iCal for Indigenous students.",
   "tags": [
-    "indigenous_students"
+    "indigenous_students",
+    "women_nonbinary"
   ],
   "timezone": "America/Toronto",
   "title": "Indigenous Student Career Skills Series: Grad Applications",

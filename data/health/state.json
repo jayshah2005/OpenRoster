@@ -1,9 +1,10 @@
 {
   "misses": {
-    "2026-10-careerin-tech-societ-richmond-tech-community-coffee-meetup-59a0": 2,
+    "2026-10-careerin-tech-societ-richmond-tech-community-coffee-meetup-59a0": 3,
     "2026-10-hackforge-intro-to-openstreetmap-contributions-3579": 2,
     "2026-10-u-of-t-engineering-u-2026-fall-study-break-no-classes-28f6": 1,
-    "2026-11-accelerator-centre-ac-innovation-showcase-9cba": 1,
+    "2026-11-accelerator-centre-ac-innovation-showcase-9cba": 2,
+    "2026-11-career-services-employer-in-the-hall-maxama-protection-inc-7b4f": 1,
     "2026-11-techto-luma-ical-together-toronto-ecosystem-showcase-e195": 2,
     "2026-11-u-of-t-engineering-u-deadline-to-designate-fall-term-course-as-extra-3b87": 2,
     "2026-11-waterloo-engineering-fusion-conference-2026-80c2": 2,
@@ -17,7 +18,7 @@
     "failing": 2,
     "held_for_review": 33,
     "last_run": "2026-10-24",
-    "listings": 319,
+    "listings": 303,
     "runnable": 48
   },
   "sources": {
@@ -75,7 +76,7 @@
     },
     "brock-experiencebu-rss": {
       "consecutive_failures": 0,
-      "count": 94,
+      "count": 84,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
@@ -790,7 +791,7 @@
     },
     "loyalist-events-tribe": {
       "consecutive_failures": 0,
-      "count": 3,
+      "count": 0,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
@@ -958,7 +959,7 @@
       "refused": false
     },
     "niagara-college-events": {
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "count": 0,
       "error": "https://www.niagaracollege.ca/wp-json/tribe/events/v1/events?start_date=2026-10-24&per_page=50: disallowed by robots.txt",
       "fingerprint": null,
@@ -985,7 +986,7 @@
     },
     "queens-events-rss": {
       "consecutive_failures": 0,
-      "count": 13,
+      "count": 10,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
@@ -1049,7 +1050,7 @@
       "refused": false
     },
     "uoft-engineering-events": {
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "count": 0,
       "error": "ZoneInfoNotFoundError: 'No time zone found with key UTC+0'",
       "fingerprint": null,
@@ -1219,7 +1220,7 @@
     },
     "wetech-alliance-events": {
       "consecutive_failures": 0,
-      "count": 20,
+      "count": 19,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
