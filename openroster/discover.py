@@ -114,7 +114,7 @@ def write(found: Discovery) -> dict[str, int]:
         DISCOVERED_SOURCES.write_text(
             "# Sources found by `openroster discover` and the weekly discovery agent. All start unreviewed:\n"
             "# the audit runs on them and the owner signs off in the Source review PR before anything is fetched.\n"
-            + yaml.safe_dump({"sources": existing + new_sources}, sort_keys=False, allow_unicode=True, width=110)
+            + yaml.safe_dump({"sources": existing + new_sources}, sort_keys=False, allow_unicode=True, width=10000)
         )
     path = CONFIG / "hackathons.yaml"
     doc = yaml.safe_load(path.read_text()) or {}
@@ -123,7 +123,7 @@ def write(found: Discovery) -> dict[str, int]:
     if new_hacks:
         doc["hackathons"] = sorted((doc.get("hackathons") or []) + new_hacks, key=lambda h: h["name"].lower())
         header = "".join(line for line in path.read_text().splitlines(keepends=True) if line.startswith("#"))
-        path.write_text(header + yaml.safe_dump(doc, sort_keys=False, allow_unicode=True, width=110))
+        path.write_text(header + yaml.safe_dump(doc, sort_keys=False, allow_unicode=True, width=10000))
     lines = ["# Weekly discovery", "", f"New calendar feeds: **{len(new_sources)}** · new hackathon sites: **{len(new_hacks)}**", ""]
     lines += [f"- feed `{s['id']}`: {s['url']}" for s in new_sources]
     lines += [f"- hackathon `{h['id']}`: [{h['name']}]({h['url']})" for h in new_hacks]

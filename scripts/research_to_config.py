@@ -119,7 +119,7 @@ def main() -> int:
             out_path.write_text(
                 f"# Generated from research/{f.name} by scripts/research_to_config.py.\n"
                 "# Entries with `hand_tuned: true` are never overwritten.\n"
-                + yaml.safe_dump({"sources": entries}, sort_keys=False, allow_unicode=True, width=110)
+                + yaml.safe_dump({"sources": entries}, sort_keys=False, allow_unicode=True, width=10000)
             )
             print(f"{out_path.relative_to(ROOT)}: {len(entries)} sources")
 
@@ -140,7 +140,7 @@ def main() -> int:
         (CONFIG / "schools.yaml").write_text(
             "# Schools and campus coordinates (used for 'near school' filters).\n"
             + yaml.safe_dump({"schools": sorted(schools.values(), key=lambda s: s["name"])},
-                             sort_keys=False, allow_unicode=True, width=110)
+                             sort_keys=False, allow_unicode=True, width=10000)
         )
         print(f"config/schools.yaml: {len(schools)} schools")
     for k, v in existing_h.items():
@@ -149,7 +149,7 @@ def main() -> int:
         "# Hackathons checked by the hackathon site checker. Seeded by hand (owner-approved), never from a\n"
         "# directory scrape. `reviewed: true` is the owner's sign-off after the audit.\n"
         + yaml.safe_dump({"hackathons": sorted(hackathons.values(), key=lambda h: h["name"].lower())},
-                         sort_keys=False, allow_unicode=True, width=110)
+                         sort_keys=False, allow_unicode=True, width=10000)
     )
     print(f"config/hackathons.yaml: {len(hackathons)} hackathons")
     return 0

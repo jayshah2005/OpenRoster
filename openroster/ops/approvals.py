@@ -20,7 +20,8 @@ BODY = ROOT / "reports" / "source-review.md"
 def _yaml() -> YAML:
     y = YAML()
     y.preserve_quotes = True
-    y.width = 110
+    y.width = 4096  # never re-wrap lines, so the PR diff shows only the real changes
+    y.indent(mapping=2, sequence=2, offset=0)
     return y
 
 

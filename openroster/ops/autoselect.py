@@ -49,7 +49,8 @@ def candidates_for(html: str, source: Source) -> tuple[dict | None, int]:
 def _write_options(source_id: str, chosen: dict) -> bool:
     y = YAML()
     y.preserve_quotes = True
-    y.width = 110
+    y.width = 4096  # never re-wrap lines, so the PR diff shows only the real changes
+    y.indent(mapping=2, sequence=2, offset=0)
     for path in sorted((CONFIG / "sources").glob("*.yaml")):
         doc = y.load(path.read_text())
         for entry in doc.get("sources") or []:
