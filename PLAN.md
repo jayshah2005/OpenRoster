@@ -315,7 +315,7 @@ A source runs only when the verdict is `allowed` **and** `reviewed: true`. Only 
 
 ## 10. Status (2026-10-24)
 
-Live at https://github.com/jayshah2005/OpenRoster. CI is green: 105 Python tests, 11 web unit tests, 18 browser and
+Live at https://github.com/jayshah2005/OpenRoster. CI is green: 103 Python tests, 11 web unit tests, 18 browser and
 accessibility tests, the size budget and the link check.
 
 **Verified on GitHub Actions:**
