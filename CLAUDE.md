@@ -29,6 +29,12 @@ npm run check-size && npm run check-links
 code: APIs differ from older versions. The root layout sets `ensureStatic = "navigation"`, so every page must
 stay static. The only request-time code is `app/api/feed.{ics,rss}`, which is CDN-cached for 6 hours.
 
+## Git
+
+Before any commit or new branch, load the `commit-convention` skill (`.claude/skills/commit-convention/SKILL.md`)
+and follow it: `type[/scope]: summary` with types feat/fix/refactor/chore and scopes from its allowlist. Only commit
+or push when the user asks. A PreToolUse hook (`.claude/hooks/check_git_convention.py`) blocks anything else.
+
 ## Hard rules (never break, never weaken)
 
 - **Free only.** No paid APIs or hosting. The scraper and site use no AI. AI jobs (`.github/workflows/ai.yml`) are advisory: they never fetch the web, never merge, and their output is a PR or comment.
