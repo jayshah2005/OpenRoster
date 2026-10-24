@@ -12,9 +12,7 @@ sources:
   options:
     filter: cs
     landing_url: https://www.brockbusu.ca/events
-  notes: NEEDS SELECTORS before enabling. MSL (ukmsl.net) student union platform, server-rendered list. Clubs directory
-    at /organisation/<id> (e.g. Computer Science Club = /organisation/8492). Mostly social/union events; most club
-    events are on ExperienceBU instead.
+  notes: NEEDS SELECTORS before enabling. MSL (ukmsl.net) student union platform, server-rendered list. Clubs directory at /organisation/<id> (e.g. Computer Science Club = /organisation/8492). Mostly social/union events; most club events are on ExperienceBU instead.
 - id: brock-csc-site
   name: Brock Computer Science Club website
   adapter: headless
@@ -26,9 +24,7 @@ sources:
   options:
     filter: all
     landing_url: https://brockcsc.ca/
-  notes: NEEDS SELECTORS before enabling. Next.js site; events load client-side ('Loading events'), no feed or calendar
-    embed visible. Club contact is via Discord. Club events also appear on ExperienceBU RSS, which is the better
-    source.
+  notes: NEEDS SELECTORS before enabling. Next.js site; events load client-side ('Loading events'), no feed or calendar embed visible. Club contact is via Discord. Club events also appear on ExperienceBU RSS, which is the better source.
 - id: brock-linc-events
   name: Brock LINC (Generator at One successor) entrepreneurship events
   adapter: html
@@ -39,10 +35,7 @@ sources:
   page_budget: 3
   options:
     filter: cs
-  notes: NEEDS SELECTORS before enabling. Static descriptions of recurring LINC events with no dates; page says
-    all Brock LINC events are posted on ExperienceBU, so scrape the ExperienceBU RSS and filter host 'Brock LINC'.
-    The original 'Generator at One' (nGen, 1 St. Paul St) incubator has no current web presence found (sources are
-    2012-2014).
+  notes: NEEDS SELECTORS before enabling. Static descriptions of recurring LINC events with no dates; page says all Brock LINC events are posted on ExperienceBU, so scrape the ExperienceBU RSS and filter host 'Brock LINC'. The original 'Generator at One' (nGen, 1 St. Paul St) incubator has no current web presence found (sources are 2012-2014).
 - id: niagara-college-events
   name: Niagara College events calendar (The Events Calendar)
   adapter: tribe
@@ -54,10 +47,7 @@ sources:
   options:
     filter: cs
     landing_url: https://www.niagaracollege.ca/events/
-  notes: Tribe REST API at /wp-json/tribe/events/v1/events works (33 upcoming; categories incl. student-events,
-    staff-events) BUT robots.txt disallows /wp-json/ and /events/*?* (so ?ical=1 export too), /events/month/, /events/day/.
-    /events/list/ (first page) is allowed and server-rendered; tribe list views normally also embed Event JSON-LD
-    (not confirmed through fetch tool). robots marked disallowed becaus
+  notes: Tribe REST API at /wp-json/tribe/events/v1/events works (33 upcoming; categories incl. student-events, staff-events) BUT robots.txt disallows /wp-json/ and /events/*?* (so ?ical=1 export too), /events/month/, /events/day/. /events/list/ (first page) is allowed and server-rendered; tribe list views normally also embed Event JSON-LD (not confirmed through fetch tool). robots marked disallowed becaus
 - id: innovate-niagara-events
   name: Innovate Niagara tech events
   adapter: html
@@ -68,8 +58,7 @@ sources:
   page_budget: 3
   options:
     filter: cs
-  notes: NEEDS SELECTORS before enabling. Server-rendered Upcoming / Past lists with date+time text; each links
-    to an internal blog page with details. Hosted site-builder (/site/ paths, CloudFront images). No feed.
+  notes: NEEDS SELECTORS before enabling. Server-rendered Upcoming / Past lists with date+time text; each links to an internal blog page with details. Hosted site-builder (/site/ paths, CloudFront images). No feed.
 - id: mcmaster-news-events-ics
   name: McMaster University central events (news.mcmaster.ca, Events Manager)
   adapter: ics
@@ -81,9 +70,7 @@ sources:
   options:
     filter: cs
     landing_url: https://news.mcmaster.ca/events/
-  notes: WordPress (MacSites) with Events Manager plugin (PRODID wp-events-plugin.com). Old dailynews.mcmaster.ca/events
-    redirects here. Events Manager REST (/wp-json/events-manager/v1/events) returns 401; use the ICS. University-wide,
-    mostly research/health; filter.
+  notes: WordPress (MacSites) with Events Manager plugin (PRODID wp-events-plugin.com). Old dailynews.mcmaster.ca/events redirects here. Events Manager REST (/wp-json/events-manager/v1/events) returns 401; use the ICS. University-wide, mostly research/health; filter.
 - id: mcmaster-engineering-events
   name: McMaster Faculty of Engineering events (incl. Computing and Software)
   adapter: html
@@ -94,9 +81,7 @@ sources:
   page_budget: 3
   options:
     filter: cs
-  notes: NEEDS SELECTORS before enabling. Server-rendered WordPress (MacSites) list with monthly/weekly views; no
-    ICS (/events.ics 404). cas.mcmaster.ca redirects to eng.mcmaster.ca/cas, which has no separate events page.
-    Some registrations go through OSCARplus (login).
+  notes: NEEDS SELECTORS before enabling. Server-rendered WordPress (MacSites) list with monthly/weekly views; no ICS (/events.ics 404). cas.mcmaster.ca redirects to eng.mcmaster.ca/cas, which has no separate events page. Some registrations go through OSCARplus (login).
 - id: mcmaster-gdg-on-campus
   name: GDG on Campus McMaster University (Bevy chapter page)
   adapter: html
@@ -107,9 +92,7 @@ sources:
   page_budget: 3
   options:
     filter: all
-  notes: NEEDS SELECTORS before enabling. Bevy chapter page lists upcoming and past events in HTML (dates in mixed-locale
-    abbreviations). /api/ is Disallowed in gdg.community.dev robots.txt. Same Bevy pattern applies to other GDG
-    on Campus chapters (e.g. gdg-on-campus-wilfrid-laurier-university-waterloo-canada). ~1,800 members.
+  notes: NEEDS SELECTORS before enabling. Bevy chapter page lists upcoming and past events in HTML (dates in mixed-locale abbreviations). /api/ is Disallowed in gdg.community.dev robots.txt. Same Bevy pattern applies to other GDG on Campus chapters (e.g. gdg-on-campus-wilfrid-laurier-university-waterloo-canada). ~1,800 members.
 - id: msu-mcmaster-events
   name: McMaster Students Union clubs events calendar
   adapter: headless
@@ -120,9 +103,7 @@ sources:
   page_budget: 3
   options:
     filter: cs
-  notes: NEEDS SELECTORS before enabling. Calendar page renders no events in raw HTML. msumcmaster.ca/events.ics
-    exists (Events Manager) but returned an empty VCALENDAR. Clubs directory at https://msumcmaster.ca/clubs/clubs-directory/
-    (McMaster Cyber Society, Software Engineering Society ses.eng.mcmaster.ca, GDG). Campus events contact eventsprogramming@msu.mcmaster.ca.
+  notes: NEEDS SELECTORS before enabling. Calendar page renders no events in raw HTML. msumcmaster.ca/events.ics exists (Events Manager) but returned an empty VCALENDAR. Clubs directory at https://msumcmaster.ca/clubs/clubs-directory/ (McMaster Cyber Society, Software Engineering Society ses.eng.mcmaster.ca, GDG). Campus events contact eventsprogramming@msu.mcmaster.ca.
 - id: mohawk-events
   name: Mohawk College events
   adapter: html
@@ -133,8 +114,7 @@ sources:
   page_budget: 3
   options:
     filter: cs
-  notes: NEEDS SELECTORS before enabling. Drupal, server-rendered list with title/date/summary; also /events/calendar
-    view. No ICS/RSS found.
+  notes: NEEDS SELECTORS before enabling. Drupal, server-rendered list with title/date/summary; also /events/calendar view. No ICS/RSS found.
 - id: mohawk-msa-events
   name: Mohawk Students' Association events
   adapter: html
@@ -145,9 +125,7 @@ sources:
   page_budget: 3
   options:
     filter: cs
-  notes: NEEDS SELECTORS before enabling. WordPress custom event posts (/events/<slug>/), no tribe API or wp/v2
-    events route. Clubs at https://mohawkstudents.ca/get-involved/clubs-and-communities/ (Mohawk Cyber Club does
-    CTFs, Code Ready). CS/IT dept student page (mohawkcollege.ca/node/2043) lists a recurring LAN party.
+  notes: NEEDS SELECTORS before enabling. WordPress custom event posts (/events/<slug>/), no tribe API or wp/v2 events route. Clubs at https://mohawkstudents.ca/get-involved/clubs-and-communities/ (Mohawk Cyber Club does CTFs, Code Ready). CS/IT dept student page (mohawkcollege.ca/node/2043) lists a recurring LAN party.
 - id: innovation-factory-events
   name: Innovation Factory (Hamilton) events calendar
   adapter: html
@@ -158,9 +136,7 @@ sources:
   page_budget: 3
   options:
     filter: cs
-  notes: 'NEEDS SELECTORS before enabling. WordPress + Elementor month calendar, server-rendered. Tribe REST at
-    /wp-json/tribe/events/v1/events returns 401 and /wp-json/ is Disallowed in robots; ?ical=1 returns HTML, not
-    ICS. Big events: The Big DiF, HERhalton, Synapse competition.'
+  notes: 'NEEDS SELECTORS before enabling. WordPress + Elementor month calendar, server-rendered. Tribe REST at /wp-json/tribe/events/v1/events returns 401 and /wp-json/ is Disallowed in robots; ?ical=1 returns HTML, not ICS. Big events: The Big DiF, HERhalton, Synapse competition.'
 - id: sheridan-ssu-events
   name: Sheridan Student Union events
   adapter: html
@@ -171,8 +147,7 @@ sources:
   page_budget: 3
   options:
     filter: cs
-  notes: NEEDS SELECTORS before enabling. Squarespace site, server-rendered list. Squarespace collections usually
-    support ?format=rss / ?format=ical (not verified).
+  notes: NEEDS SELECTORS before enabling. Squarespace site, server-rendered list. Squarespace collections usually support ?format=rss / ?format=ical (not verified).
 - id: sheridan-gdg-on-campus
   name: GDG on Campus Sheridan College (Bevy chapter page)
   adapter: html
@@ -183,8 +158,7 @@ sources:
   page_budget: 3
   options:
     filter: all
-  notes: 'NEEDS SELECTORS before enabling. Very active chapter: runs Hackville, BearHacks, Datathon. Bevy /api/
-    is disallowed in robots.'
+  notes: 'NEEDS SELECTORS before enabling. Very active chapter: runs Hackville, BearHacks, Datathon. Bevy /api/ is disallowed in robots.'
 - id: uwaterloo-central-events-ics
   name: University of Waterloo central events calendar (WCMS iCal)
   adapter: ics
@@ -196,9 +170,7 @@ sources:
   options:
     filter: cs
     landing_url: https://uwaterloo.ca/events
-  notes: uwaterloo.ca/robots.txt returns 404. Every WCMS site exposes <site>/events/ical (and events.xml RSS with
-    a date filter). Central calendar includes daily Employer Information Sessions (registration via WaterlooWorks,
-    login).
+  notes: uwaterloo.ca/robots.txt returns 404. Every WCMS site exposes <site>/events/ical (and events.xml RSS with a date filter). Central calendar includes daily Employer Information Sessions (registration via WaterlooWorks, login).
 - id: uwaterloo-cs-events-ics
   name: Cheriton School of Computer Science events (iCal)
   adapter: ics
@@ -210,8 +182,7 @@ sources:
   options:
     filter: all
     landing_url: https://cs.uwaterloo.ca/events
-  notes: Mostly research seminars and PhD defences; RSS also at /events/events.xml. robots.txt on cs.uwaterloo.ca
-    not checked.
+  notes: Mostly research seminars and PhD defences; RSS also at /events/events.xml. robots.txt on cs.uwaterloo.ca not checked.
 - id: uwaterloo-engineering-events-ics
   name: Waterloo Engineering events (iCal)
   adapter: ics
@@ -247,8 +218,7 @@ sources:
   options:
     filter: all
     landing_url: https://csclub.uwaterloo.ca/events
-  notes: Full history ICS (~440 KB); filter by DTSTART. Latest events seen in the first 100 KB were from spring
-    2026; Fall 2026 events presumably later in file (not confirmed).
+  notes: Full history ICS (~440 KB); filter by DTSTART. Latest events seen in the first 100 KB were from spring 2026; Fall 2026 events presumably later in file (not confirmed).
 - id: wusa-events-tribe
   name: Waterloo Undergraduate Student Association (WUSA) events incl. clubs
   adapter: tribe
@@ -260,8 +230,7 @@ sources:
   options:
     filter: cs
     landing_url: https://wusa.ca/events
-  notes: 'The Events Calendar; 38 upcoming. Also ICS: webcal://wusa.ca/?post_type=tribe_events&ical=1&eventDisplay=list.
-    Includes some club events (Chess Club, Cooking Club). Clubs directory https://wusa.ca/clubs/.'
+  notes: 'The Events Calendar; 38 upcoming. Also ICS: webcal://wusa.ca/?post_type=tribe_events&ical=1&eventDisplay=list. Includes some club events (Chess Club, Cooking Club). Clubs directory https://wusa.ca/clubs/.'
 - id: velocity-events
   name: Velocity (UW) events
   adapter: html
@@ -272,9 +241,7 @@ sources:
   page_budget: 3
   options:
     filter: all
-  notes: NEEDS SELECTORS before enabling. Webflow CMS, server-rendered list linking to /programs-events/<slug>.
-    robots.txt only lists the sitemap (https://www.velocityincubator.com/sitemap.xml), which can enumerate event
-    pages.
+  notes: NEEDS SELECTORS before enabling. Webflow CMS, server-rendered list linking to /programs-events/<slug>. robots.txt only lists the sitemap (https://www.velocityincubator.com/sitemap.xml), which can enumerate event pages.
 - id: accelerator-centre-tribe
   name: Accelerator Centre (Waterloo) events
   adapter: tribe
@@ -298,10 +265,7 @@ sources:
   options:
     filter: cs
     landing_url: https://events.wlu.ca/index.html
-  notes: Custom static calendar (Hannon Hill-style _data feeds). Also RSS _data/current.rss, XML _data/current.xml,
-    JSON _data/current-live.json. Filters for campus (Waterloo, Brantford, Milton...), audience, category. Includes
-    Career Centre fairs and employer recruiting events. events.wlu.ca/robots.txt returns 404; /api/2/events 404
-    (not Localist).
+  notes: Custom static calendar (Hannon Hill-style _data feeds). Also RSS _data/current.rss, XML _data/current.xml, JSON _data/current-live.json. Filters for campus (Waterloo, Brantford, Milton...), audience, category. Includes Career Centre fairs and employer recruiting events. events.wlu.ca/robots.txt returns 404; /api/2/events 404 (not Localist).
 - id: laurier-gdg-on-campus
   name: GDG on Campus Wilfrid Laurier University (Bevy chapter page)
   adapter: html
@@ -324,8 +288,7 @@ sources:
   options:
     filter: cs
     landing_url: https://news.uoguelph.ca/events/
-  notes: Only /events/list/page/ disallowed in robots. Department sites on uoguelph.ca (Drupal) have their own /events
-    pages.
+  notes: Only /events/list/page/ disallowed in robots. Department sites on uoguelph.ca (Drupal) have their own /events pages.
 - id: uoguelph-gryphlife-campusgroups-ics
   name: University of Guelph GryphLife (CampusGroups) public iCal
   adapter: ics
@@ -337,9 +300,7 @@ sources:
   options:
     filter: cs
     landing_url: https://uoguelph.campusgroups.com/
-  notes: gryphlife.uoguelph.ca now 301-redirects to uoguelph.campusgroups.com. The .ics 302-redirects to https://static-prod-ca-central-1.campusgroups.com/ical/uoguelph/ical_uoguelph.ics
-    (~2.7 MB, includes clubs like GDG Guelph and Student Experience/career sessions). Only the first 100 KB was
-    inspected (events up to Sept 2026).
+  notes: gryphlife.uoguelph.ca now 301-redirects to uoguelph.campusgroups.com. The .ics 302-redirects to https://static-prod-ca-central-1.campusgroups.com/ical/uoguelph/ical_uoguelph.ics (~2.7 MB, includes clubs like GDG Guelph and Student Experience/career sessions). Only the first 100 KB was inspected (events up to Sept 2026).
 - id: uoguelph-computing-events
   name: Guelph School of Computer Science / CCMPS events
   adapter: html
@@ -350,8 +311,7 @@ sources:
   page_budget: 3
   options:
     filter: all
-  notes: NEEDS SELECTORS before enabling. Drupal, server-rendered list; no feed link seen. College-level events
-    also at https://www.uoguelph.ca/ccmps/events.
+  notes: NEEDS SELECTORS before enabling. Drupal, server-rendered list; no feed link seen. College-level events also at https://www.uoguelph.ca/ccmps/events.
 - id: conestoga-events
   name: Conestoga College events
   adapter: html
@@ -362,8 +322,7 @@ sources:
   page_budget: 3
   options:
     filter: cs
-  notes: NEEDS SELECTORS before enabling. Monthly table pages at /events/YYYY/MM/. Mostly admissions info sessions.
-    conestogac.on.ca/events is 404.
+  notes: NEEDS SELECTORS before enabling. Monthly table pages at /events/YYYY/MM/. Mostly admissions info sessions. conestogac.on.ca/events is 404.
 - id: conestoga-csi-events
   name: Conestoga Students Inc. (CSI) events
   adapter: html
@@ -375,8 +334,7 @@ sources:
   options:
     filter: cs
     landing_url: https://www.conestogastudents.com/events
-  notes: NEEDS SELECTORS before enabling. MSL platform (same as Brock BUSU); event pages /ents/event/<id>/. Clubs
-    at /getinvolved/csiclubs/.
+  notes: NEEDS SELECTORS before enabling. MSL platform (same as Brock BUSU); event pages /ents/event/<id>/. Clubs at /getinvolved/csiclubs/.
 - id: conestoga-gdg-on-campus
   name: GDG on Campus Conestoga College (Bevy chapter page)
   adapter: html
@@ -387,8 +345,7 @@ sources:
   page_budget: 3
   options:
     filter: all
-  notes: NEEDS SELECTORS before enabling. Active chapter (DevFest Waterloo Nov 7 2026, Demo Nights); co-runs ConHacks.
-    Same Bevy HTML pattern as other chapters.
+  notes: NEEDS SELECTORS before enabling. Active chapter (DevFest Waterloo Nov 7 2026, Demo Nights); co-runs ConHacks. Same Bevy HTML pattern as other chapters.
 - id: uoguelph-gdg-on-campus
   name: GDG on Campus University of Guelph (Bevy chapter page)
   adapter: html

@@ -13,10 +13,7 @@ sources:
     filter: all
     landing_url: https://hackathons.hackclub.com/data
   default_type: hackathon
-  notes: JSON array of objects with keys id, name, website, start, end, createdAt, logo, banner, city, state, country,
-    countryCode, latitude, longitude, virtual, hybrid, mlhAssociated, hack_club_event, apac. Has no query parameters,
-    so filter on countryCode == "CA" on the client side. There were 14 upcoming events worldwide, 2 of them in Canada.
-    Mostly high-school hackathons. /api/events/all also works but
+  notes: JSON array of objects with keys id, name, website, start, end, createdAt, logo, banner, city, state, country, countryCode, latitude, longitude, virtual, hybrid, mlhAssociated, hack_club_event, apac. Has no query parameters, so filter on countryCode == "CA" on the client side. There were 14 upcoming events worldwide, 2 of them in Canada. Mostly high-school hackathons. /api/events/all also works but
 - id: vector-institute-events
   name: Vector Institute events (The Events Calendar REST)
   adapter: tribe
@@ -28,8 +25,7 @@ sources:
   options:
     filter: cs
     landing_url: https://vectorinstitute.ai/events/
-  notes: 7 upcoming events. Mostly industry events, but it also lists student programs such as the FastLane MLA
-    cohort calls (for grad students and recent grads). An iCal export is also at /events/?ical=1.
+  notes: 7 upcoming events. Mostly industry events, but it also lists student programs such as the FastLane MLA cohort calls (for grad students and recent grads). An iCal export is also at /events/?ical=1.
 - id: luma-canadian-undergraduate-technology-conference-cutc
   name: Canadian Undergraduate Technology Conference (CUTC) (Luma iCal)
   adapter: ics
