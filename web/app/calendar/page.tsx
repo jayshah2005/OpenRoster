@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Suspense } from "react";
 import { CalendarView } from "@/components/CalendarView";
-import { FilterForm, FilterFormFallback } from "@/components/FilterForm";
+import { FilterSidebar, SidebarFallback } from "@/components/FilterSidebar";
 import { facets, liveEntries, schools } from "@/lib/data";
 import { fmtWhen, weekOf } from "@/lib/format";
 import { TYPE_LABEL } from "@/lib/labels";
@@ -37,13 +37,22 @@ export default function CalendarPage() {
   );
   return (
     <>
-      <h1>Calendar</h1>
-      <Suspense fallback={<FilterFormFallback />}>
-        <FilterForm facets={facets()} schoolNames={Object.fromEntries(schools.map((s) => [s.id, s.name]))} />
-      </Suspense>
-      <Suspense fallback={agenda}>
-        <CalendarView>{agenda}</CalendarView>
-      </Suspense>
+      <section className="page-head">
+        <h1>Calendar</h1>
+        <p className="lede">Every dated listing by day. The filters on the left apply here too.</p>
+      </section>
+      <div className="directory">
+        <aside className="dir-side" aria-label="Filters">
+          <Suspense fallback={<SidebarFallback links={[]} />}>
+            <FilterSidebar facets={facets()} schoolNames={Object.fromEntries(schools.map((s) => [s.id, s.name]))} />
+          </Suspense>
+        </aside>
+        <div className="dir-main">
+          <Suspense fallback={agenda}>
+            <CalendarView>{agenda}</CalendarView>
+          </Suspense>
+        </div>
+      </div>
     </>
   );
 }

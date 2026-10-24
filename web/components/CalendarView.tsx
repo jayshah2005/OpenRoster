@@ -13,6 +13,10 @@ const TZ = "America/Toronto";
 const dayKey = (iso: string) =>
   new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date(iso));
 
+// "Monday, November 2" for screen readers, which skip the visual weekday header and day number.
+const dayLabel = (day: string) =>
+  new Intl.DateTimeFormat("en-CA", { weekday: "long", month: "long", day: "numeric", timeZone: "UTC" }).format(new Date(`${day}T12:00:00Z`));
+
 /** Month grid built in the browser; the server-rendered weekly agenda is the no-JS fallback. */
 export function CalendarView({ children }: { children: ReactNode }) {
   const qs = useSearchParams().toString();
@@ -48,15 +52,16 @@ export function CalendarView({ children }: { children: ReactNode }) {
         <h2>{label}</h2>
         <button type="button" onClick={() => setOffset((o) => o + 1)} aria-label="Next month">→</button>
       </div>
-      <div className="grid" role="grid">
+      <div className="grid">
         {["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].map((d) => (
-          <div key={d} className="dow" role="columnheader">{d}</div>
+          <div key={d} className="dow" aria-hidden="true">{d}</div>
         ))}
         {cells.map((day, i) => (
-          <div key={day ?? `pad-${i}`} className={`cell${day ? "" : " pad"}`} role="gridcell">
+          <div key={day ?? `pad-${i}`} className={`cell${day ? "" : " pad"}`}>
             {day && (
               <>
-                <span className="day-num">{Number(day.slice(8))}</span>
+                <span className="day-num" aria-hidden="true">{Number(day.slice(8))}</span>
+                <span className="sr-only">{dayLabel(day)}</span>
                 <ul>
                   {(byDay.get(day) ?? []).slice(0, 4).map((e) => (
                     <li key={e.id} className={`tag-${e.type}`}>

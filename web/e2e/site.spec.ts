@@ -8,48 +8,84 @@ test("a filtered URL reproduces the same view in a fresh browser (AC4)", async (
   const url = "/?type=hackathon&mode=in_person";
   const a = await (await browser.newContext()).newPage();
   await a.goto(url);
-  await expect(a.locator(".result-count")).toContainText("match");
+  await expect(a.locator(".result-count")).toContainText("result");
   const first = await ids(a);
   expect(first.length).toBeGreaterThan(0);
 
   const b = await (await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true })).newPage();
   await b.goto(url);
-  await expect(b.locator(".result-count")).toContainText("match");
+  await expect(b.locator(".result-count")).toContainText("result");
   expect(await ids(b)).toEqual(first);
 });
 
-test("changing a filter updates the URL", async ({ page }) => {
+test("ticking a filter updates the URL and the counts", async ({ page }) => {
   await page.goto("/");
-  const type = page.getByRole("combobox", { name: "Type" });
-  await type.fill("hack");
-  await expect(page.getByRole("option", { name: "Hackathon" })).toBeVisible();
-  await type.press("Enter");
+  const hack = page.getByRole("checkbox", { name: /^Hackathons/ });
+  await hack.check();
   await expect(page).toHaveURL(/type=hackathon/);
-  await expect(page.locator(".result-count")).toContainText("match");
-  await expect(type).toHaveValue("Hackathon");
+  await expect(page.locator(".result-count")).toContainText("result");
+  const shown = await page.locator(".cards .card").count();
+  expect(shown).toBeGreaterThan(0);
+  expect(await page.locator(".cards .card-program").count()).toBe(0);
+  await hack.uncheck();
+  await expect(page).not.toHaveURL(/type=/);
 });
 
-test("dropdowns can be picked with the mouse and cleared", async ({ page }) => {
+test("typeable dropdowns pick with the keyboard or the mouse", async ({ page }) => {
   await page.goto("/");
-  await page.getByRole("combobox", { name: "I want to" }).click();
-  await page.getByRole("option", { name: "volunteer" }).click();
-  await expect(page).toHaveURL(/role=volunteer/);
-  await page.getByRole("combobox", { name: "I want to" }).click();
-  await page.getByRole("option", { name: "do anything" }).click();
-  await expect(page).not.toHaveURL(/role=/);
+  const year = page.getByRole("combobox", { name: "My year of study" });
+  await year.fill("thi");
+  await expect(page.getByRole("option", { name: "Third year" })).toBeVisible();
+  await year.press("Enter");
+  await expect(page).toHaveURL(/year=3/);
+  await expect(year).toHaveValue("Third year");
+  await year.click();
+  await page.getByRole("option", { name: "any year" }).click();
+  await expect(page).not.toHaveURL(/year=/);
 });
 
-test("the digest and programs pages have filters", async ({ page }) => {
-  await page.goto("/digest/");
-  await expect(page.getByRole("search", { name: "Filter opportunities" })).toBeVisible();
+test("filters are remembered for the next visit, but a shared link wins", async ({ page }) => {
+  await page.goto("/");
+  await page.getByRole("checkbox", { name: /^Hackathons/ }).check();
+  await expect(page).toHaveURL(/type=hackathon/);
+  await page.goto("/");
+  await expect(page).toHaveURL(/type=hackathon/);
+  await expect(page.getByText("Showing your saved filters")).toBeVisible();
+  // Opening someone's link shows their view but keeps our saved filters.
+  await page.goto("/?type=workshop");
+  await expect(page).toHaveURL(/type=workshop$/);
+  await page.goto("/");
+  await expect(page).toHaveURL(/type=hackathon/);
+  await page.getByRole("button", { name: "Clear all" }).click();
+  await expect(page).not.toHaveURL(/\?/);
+  await page.goto("/");
+  await expect(page.locator(".result-count")).toContainText("result");
+  await expect(page).not.toHaveURL(/\?/);
+});
+
+test("events and recurring programs share one list", async ({ page }) => {
+  await page.goto("/");
+  await expect(page.locator(".result-count")).toContainText("result");
+  expect(await page.locator(".cards .card-program").count()).toBeGreaterThan(0);
   await page.goto("/programs/");
-  const total = await page.locator(".programs .card").count();
-  expect(total).toBeGreaterThan(0);
-  await page.getByRole("combobox", { name: "My year" }).fill("first");
-  await page.getByRole("combobox", { name: "My year" }).press("Enter");
-  const firstYear = await page.locator(".programs .card").count();
+  await expect(page.locator(".result-count")).toContainText("result");
+  const total = await page.locator(".cards .card-program").count();
+  await page.getByRole("combobox", { name: "My year of study" }).fill("first");
+  await page.getByRole("combobox", { name: "My year of study" }).press("Enter");
+  await expect(page).toHaveURL(/year=1/);
+  const firstYear = await page.locator(".cards .card-program").count();
   expect(firstYear).toBeGreaterThan(0);
   expect(firstYear).toBeLessThan(total);
+});
+
+test("on a phone the filters fold into a button", async ({ browser }) => {
+  const page = await (await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true })).newPage();
+  await page.goto("/digest/");
+  const toggle = page.getByRole("button", { name: /^Filters/ });
+  await expect(toggle).toBeVisible();
+  await expect(page.getByRole("combobox", { name: "My year of study" })).toBeHidden();
+  await toggle.click();
+  await expect(page.getByRole("combobox", { name: "My year of study" })).toBeVisible();
 });
 
 test("the list works without JavaScript", async ({ browser }) => {
@@ -64,7 +100,7 @@ test("the list works without JavaScript", async ({ browser }) => {
 test("filtered views offer a matching feed", async ({ page, request }) => {
   await page.goto("/?type=hackathon");
   // Wait for the filtered results; until then the server-rendered list (with the all.ics link) is showing.
-  await expect(page.locator(".result-count")).toContainText("match");
+  await expect(page.locator(".result-count")).toContainText("result");
   const href = await page.getByRole("link", { name: "Calendar (.ics)" }).getAttribute("href");
   expect(href).toContain("/api/feed.ics?type=hackathon");
   const res = await request.get(href!);
@@ -72,11 +108,12 @@ test("filtered views offer a matching feed", async ({ page, request }) => {
   expect(await res.text()).toContain("BEGIN:VCALENDAR");
 });
 
-for (const path of ["/", "/calendar/", "/about/", "/start/", "/programs/", "/contribute/", "/data/"]) {
+for (const path of ["/", "/calendar/", "/digest/", "/about/", "/start/", "/programs/", "/contribute/", "/data/"]) {
   for (const scheme of ["light", "dark"] as const) {
     test(`no serious accessibility problems on ${path} (${scheme})`, async ({ browser }) => {
       const page = await (await browser.newContext({ colorScheme: scheme })).newPage();
       await page.goto(path);
+      await page.waitForLoadState("networkidle"); // check the page with its filters loaded, not the fallback
       const results = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa"]).analyze();
       const serious = results.violations.filter((v) => v.impact === "serious" || v.impact === "critical");
       expect(serious.map((v) => `${v.id}: ${v.nodes[0]?.target}`)).toEqual([]);

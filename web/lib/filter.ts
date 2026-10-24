@@ -20,11 +20,13 @@ export interface Filters {
   audience: string[];
   /** Only opportunities that are taking applications right now. */
   open: boolean;
+  /** Year of study: "0" high school, "1"-"4" undergrad years, "5" grad school. See matchesYear. */
+  year: string;
 }
 
 export const FILTER_KEYS = [
   "q", "type", "role", "from", "to", "deadline", "mode", "country", "region", "school", "km", "elig", "cost",
-  "for", "open",
+  "for", "open", "year",
 ] as const;
 
 const list = (v: string | null) => (v ? v.split(",").map((s) => s.trim()).filter(Boolean) : []);
@@ -47,6 +49,7 @@ export function parseFilters(p: URLSearchParams): Filters {
     cost: p.get("cost") ?? "",
     audience: list(p.get("for")),
     open: p.get("open") === "1",
+    year: /^[0-5]$/.test(p.get("year") ?? "") ? p.get("year")! : "",
   };
 }
 
@@ -79,6 +82,7 @@ export function matches(e: Entry, f: Filters, now: Date): boolean {
   if (f.cost && e.cost !== f.cost) return false;
   if (f.audience.length && !f.audience.some((t) => e.tags.includes(t) || (t === "high_school" && e.eligibility.includes("high_school")))) return false;
   if (f.open && !isOpenNow(e, now)) return false;
+  if (f.year && !matchesYear(e, Number(f.year))) return false;
   if (f.elig.length && !e.eligibility.some((x) => f.elig.includes(x))) return false;
   const day = e.start.slice(0, 10);
   if (f.from && (e.end ?? e.start).slice(0, 10) < f.from) return false;
@@ -103,6 +107,22 @@ export function matches(e: Entry, f: Filters, now: Date): boolean {
     if (!norm(f.q).split(/\s+/).every((w) => hay.includes(w))) return false;
   }
   return true;
+}
+
+const YEAR_TAG: Record<string, number> = { first_year: 1, second_year: 2 };
+
+/**
+ * Can a student in this year of study take part? Events tagged for specific years (first_year, second_year) count
+ * only for those years; otherwise eligibility decides, and events that don't say are assumed open to undergrads.
+ */
+export function matchesYear(e: Entry, year: number): boolean {
+  const el = e.eligibility;
+  const said = el.filter((x) => x !== "unknown");
+  if (year === 0) return el.includes("high_school") || el.includes("open_to_all");
+  if (year === 5) return said.length === 0 || el.includes("grad") || el.includes("open_to_all");
+  const tagged = e.tags.filter((t) => t in YEAR_TAG).map((t) => YEAR_TAG[t]);
+  if (tagged.length) return tagged.includes(year);
+  return said.length === 0 || el.includes("undergrad") || el.includes("open_to_all") || el.includes("school_only");
 }
 
 /** Taking applications now: a role is marked open, or its window includes now. */

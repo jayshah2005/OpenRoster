@@ -1,7 +1,7 @@
 // /page/<n>/: further pages of the main list for browsing without JavaScript.
 import { notFound } from "next/navigation";
 import { ListPage, PAGE_SIZE } from "@/components/ListPage";
-import { liveEntries } from "@/lib/data";
+import { liveEntries, programs } from "@/lib/data";
 
 const pageCount = () => Math.max(1, Math.ceil(liveEntries.length / PAGE_SIZE));
 
@@ -23,6 +23,7 @@ export default async function Page({ params }: PageProps<"/page/[n]">) {
       page={n}
       pages={pages}
       feedSlug="all"
+      staticPrograms={n === pages ? programs : []}
     />
   );
 }

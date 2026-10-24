@@ -74,6 +74,12 @@ export const AUDIENCE_LABEL: Record<string, string> = {
   high_school: "High-school students",
 };
 
+/** Year of study for the "My year" filter; the key is the `year` URL value. */
+export const YEAR_OF_STUDY: [string, string][] = [
+  ["0", "High school"], ["1", "First year"], ["2", "Second year"], ["3", "Third year"], ["4", "Fourth year"],
+  ["5", "Grad school"],
+];
+
 export const COUNTRY_LABEL: Record<string, string> = { CA: "Canada", US: "United States" };
 
 export const ROUTE_LABEL: Record<string, string> = {

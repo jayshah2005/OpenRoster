@@ -3,7 +3,8 @@
 import Link from "next/link";
 import { fmtDate, fmtWhen } from "@/lib/format";
 import { AUDIENCE_LABEL, MODE_LABEL, ROLE_LABEL, TYPE_LABEL, regionName } from "@/lib/labels";
-import type { Entry } from "@/lib/types";
+import { YEAR_LABEL } from "@/lib/directory";
+import type { Entry, Program } from "@/lib/types";
 import { Icon } from "./Icon";
 
 export function nextDeadline(e: Entry, nowIso: string): string | null {
@@ -90,5 +91,50 @@ export function CardList({ items, nowIso }: { items: Entry[]; nowIso: string }) 
     <ul className="cards">
       {items.map((e) => <Card key={e.id} e={e} nowIso={nowIso} />)}
     </ul>
+  );
+}
+
+const SKIP = new Set(["the", "of", "and", "for", "a", "an", "&"]);
+
+/**
+ * A coloured tile with the organization's initials. We never copy logos or images (facts only, see TAKEDOWN.md),
+ * so this is drawn here: the colour comes from a hash of the name, so each organization keeps the same one.
+ */
+export function Monogram({ name }: { name: string }) {
+  const words = name.replace(/\(.*?\)/g, "").split(/[\s/-]+/).filter((w) => w && !SKIP.has(w.toLowerCase()));
+  const initials = (words.length > 1 ? words[0][0] + words[1][0] : (words[0] ?? "?").slice(0, 2)).toUpperCase();
+  let hue = 0;
+  for (const ch of name) hue = (hue * 31 + ch.charCodeAt(0)) % 360;
+  return (
+    <div className="monogram" style={{ "--hue": hue } as React.CSSProperties} aria-hidden="true">
+      {initials}
+    </div>
+  );
+}
+
+const KIND_LABEL: Record<string, string> = { program: "Program", insight: "Insight program", fellowship: "Fellowship" };
+
+/** A recurring program (config/programs.yaml): no fixed date, so it links straight to the official page. */
+export function ProgramCard({ p }: { p: Program }) {
+  const years = p.years.length ? p.years.map((y) => YEAR_LABEL[y] ?? `Year ${y}`).join(", ") : "Any year";
+  return (
+    <li className="card card-program">
+      <Monogram name={p.organization ?? p.name} />
+      <div className="card-body">
+        <div className="card-top">
+          <span className="tag tag-program">{KIND_LABEL[p.kind] ?? "Program"}</span>
+          <span className="badge">Recurring</span>
+        </div>
+        <h3 className="card-title">
+          <a href={p.url} rel="noopener">{p.name}</a>
+        </h3>
+        <ul className="card-meta">
+          {p.organization && <li><Icon name="org" size={14} /> {p.organization}</li>}
+          <li><Icon name="user" size={14} /> {years}</li>
+          {p.timing && <li><Icon name="clock" size={14} /> {p.timing}</li>}
+        </ul>
+        <p className="card-summary">{p.who}</p>
+      </div>
+    </li>
   );
 }

@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import { CardList, nextDeadline } from "@/components/Card";
-import { FilterForm, FilterFormFallback } from "@/components/FilterForm";
+import { FilterSidebar, SidebarFallback } from "@/components/FilterSidebar";
 import { Results } from "@/components/Results";
 import { facets, liveEntries, meta, schools } from "@/lib/data";
 import type { Entry } from "@/lib/types";
@@ -47,17 +47,25 @@ export default function DigestPage() {
 
   return (
     <>
-      <h1>This week</h1>
-      <p className="lede">
-        Week of {fmtDate(`${monday}T12:00:00Z`)}. Deadlines first, updated with every data refresh. <a href="/feeds/digest.rss">RSS for new listings</a> ·{" "}
-        <a href="/feeds/new-today.rss">New today (RSS)</a>
-      </p>
-      <Suspense fallback={<FilterFormFallback />}>
-        <FilterForm facets={facets()} schoolNames={Object.fromEntries(schools.map((x) => [x.id, x.name]))} />
-      </Suspense>
-      <Section id="dl-h" title="Deadlines in the next 14 days" items={deadlines} now={now} />
-      <Section id="wk-h" title="Happening this week" items={thisWeek} now={now} />
-      <Section id="new-h" title="New this week" items={fresh} now={now} />
+      <section className="page-head">
+        <h1>This week</h1>
+        <p className="lede">
+          Week of {fmtDate(`${monday}T12:00:00Z`)}. Deadlines first, updated with every data refresh.{" "}
+          <a href="/feeds/digest.rss">RSS for new listings</a> · <a href="/feeds/new-today.rss">New today (RSS)</a>
+        </p>
+      </section>
+      <div className="directory">
+        <aside className="dir-side" aria-label="Filters">
+          <Suspense fallback={<SidebarFallback links={[]} />}>
+            <FilterSidebar facets={facets()} schoolNames={Object.fromEntries(schools.map((x) => [x.id, x.name]))} />
+          </Suspense>
+        </aside>
+        <div className="dir-main">
+          <Section id="dl-h" title="Deadlines in the next 14 days" items={deadlines} now={now} />
+          <Section id="wk-h" title="Happening this week" items={thisWeek} now={now} />
+          <Section id="new-h" title="New this week" items={fresh} now={now} />
+        </div>
+      </div>
     </>
   );
 }
