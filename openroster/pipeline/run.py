@@ -12,6 +12,7 @@ from ..adapters.base import AdapterResult, Candidate
 from ..config import Source, load_sources, load_yaml
 from ..fetch import Fetcher, FetchError, FetchRefused
 from ..model import Opportunity
+from ..parallel import by_host
 from . import store
 from .merge import MergeState, apply_misses, ingest, is_past
 from .normalize import ReviewItem, candidate_key, host_of, normalize
@@ -72,20 +73,27 @@ def run(
     include_hackathons: bool = True,
 ) -> RunReport:
     now = now or datetime.now(UTC)
-    fetcher = fetcher or Fetcher()
     report = RunReport(started=now.isoformat())
     sources = load_sources()
     by_id = {s.id: s for s in sources}
 
     results: list[tuple[Source | None, AdapterResult]] = []
+    todo = []
     for s in sources:
         if only and s.id not in only:
             continue
         if not s.runnable:
             report.skipped.append(s.id)
             continue
+        todo.append(s)
+
+    def one(s: Source, f: Fetcher) -> tuple[AdapterResult | None, SourceHealth]:
         log.info("source %s (%s)", s.id, s.adapter)
-        res, health = run_source(s, fetcher)
+        return run_source(s, f)
+
+    # Sites run in parallel, one worker per host (parallel.py); a given fetcher (tests) runs everything in order.
+    done = [(s, one(s, fetcher)) for s in todo] if fetcher else by_host(todo, url_of=lambda s: s.url, work=one)
+    for s, (res, health) in done:
         report.health[s.id] = health
         if res:
             results.append((s, res))

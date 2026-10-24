@@ -240,11 +240,15 @@ def load_hackathons() -> list[Hackathon]:
     return [Hackathon(**h) for h in (load_yaml("hackathons.yaml").get("hackathons") or [])]
 
 
-def check_all(fetcher: Fetcher, only: set[str] | None = None) -> tuple[AdapterResult, dict]:
+def check_all(fetcher: Fetcher | None = None, only: set[str] | None = None) -> tuple[AdapterResult, dict]:
+    """Check every approved hackathon site. Sites are checked in parallel, one worker per host (parallel.py);
+    pass a `fetcher` to check them in order with it instead (tests)."""
+    from .parallel import by_host
     from .pipeline.run import SourceHealth
 
     res = AdapterResult()
     health: dict[str, SourceHealth] = {}
+    todo = []
     for h in load_hackathons():
         if only and h.id not in only:
             continue
@@ -255,10 +259,12 @@ def check_all(fetcher: Fetcher, only: set[str] | None = None) -> tuple[AdapterRe
         except FetchRefused as e:
             health[f"hackathon:{h.id}"] = SourceHealth(False, 0, 0, 0, str(e), refused=True)
             continue
-        cand, pages, errors = check(h, fetcher)
+        todo.append(h)
+
+    done = [(h, check(h, fetcher)) for h in todo] if fetcher else by_host(todo, url_of=lambda h: h.url, work=check)
+    for h, (cand, pages, errors) in done:
         res.candidates.append(cand)
         res.pages += pages
-        ok = pages > 0
-        health[f"hackathon:{h.id}"] = SourceHealth(ok, 1 if cand.start else 0, 1, pages,
+        health[f"hackathon:{h.id}"] = SourceHealth(pages > 0, 1 if cand.start else 0, 1, pages,
                                                     "; ".join(errors)[:300] or None)
     return res, health

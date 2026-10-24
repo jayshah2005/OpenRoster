@@ -8,6 +8,7 @@ from datetime import UTC, datetime
 from ..config import DATA, ROOT, known_verdicts, load_sources
 from ..fetch import Fetcher
 from ..hackathons import load_hackathons
+from ..parallel import by_host
 from ..pipeline.store import dump, write_if_changed
 from .core import AuditResult, audit_url, result_dict
 
@@ -27,12 +28,15 @@ def targets() -> list[tuple[str, str, str, bool]]:
 
 
 def audit_all(fetcher: Fetcher | None = None, only: set[str] | None = None) -> dict[str, AuditResult]:
-    fetcher = fetcher or Fetcher()
+    """Audit every source and hackathon. Different sites are audited in parallel (one worker per host, see
+    parallel.py); pass a `fetcher` to run sequentially with it instead (tests)."""
+    todo = [(sid, url) for sid, _name, url, _rev in targets() if not only or sid in only]
+    if fetcher is not None:
+        pairs = [((sid, url), audit_url(url, fetcher)) for sid, url in todo]
+    else:
+        pairs = by_host(todo, url_of=lambda t: t[1], work=lambda t, f: audit_url(t[1], f))
     results: dict[str, AuditResult] = {}
-    for sid, _name, url, _rev in targets():
-        if only and sid not in only:
-            continue
-        r = audit_url(url, fetcher)
+    for (sid, _url), r in pairs:
         results[sid] = r
         prev = json.loads(audit_path(sid).read_text()) if audit_path(sid).exists() else None
         d = result_dict(r)
