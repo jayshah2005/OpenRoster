@@ -13,6 +13,7 @@ from ..config import Source, load_sources, load_yaml
 from ..fetch import Fetcher, FetchError, FetchRefused
 from ..model import Opportunity
 from ..parallel import by_host
+from ..validate import pii_problems
 from . import store
 from .merge import MergeState, apply_misses, ingest, is_past
 from .normalize import ReviewItem, candidate_key, host_of, normalize
@@ -132,6 +133,12 @@ def run(
                 review.append(out)
                 continue
             if out.id in td["ids"] or (out.end or out.start) < now:
+                continue
+            # Something that looks like personal data (an email, phone or handle in a stored field) goes to a
+            # person instead of the site, so one bad item can't block the whole run at the validate step.
+            pii = pii_problems(out.model_dump(mode="json"), out.id)
+            if pii:
+                review.append(ReviewItem(candidate_key(c), c.source_id, c.title, c.url, pii[:3], c.title[:300]))
                 continue
             ingest(state, candidate_key(c), out, now)
 

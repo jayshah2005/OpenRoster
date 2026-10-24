@@ -155,3 +155,20 @@ def test_pipeline_red_flags():
     broken = {**healthy, "failing": 60}
     assert {f["kind"] for f in pipeline_flags(broken)} == {"most_sources_failing"}
     assert "Red flags" in status_markdown({"pipeline": none_approved, "sources": {}})
+
+
+def test_series_ids_never_store_email_shaped_uids():
+    # iCal UIDs such as "abc123@google.com" tripped the personal-data check and blocked every data commit.
+    o = normalize(C(uid="abc123@google.com", series_id="abc123@google.com"), S(), NOW)
+    assert isinstance(o, Opportunity)
+    assert o.series_id and "@" not in o.series_id and o.series_id.startswith("s1:")
+    assert normalize(C(uid="x", series_id="abc123@google.com"), S(), NOW).series_id == o.series_id  # stable
+    assert pii_problems(o.model_dump(mode="json"), "x") == []
+
+
+def test_personal_data_goes_to_review_not_the_site(tmpdata):
+    # One email-shaped string must not reach data/ (and must not fail the whole run at validate).
+    res = AdapterResult(candidates=[C(uid="ok"), C(title="Office hours with jane.doe@example.com", uid="pii")])
+    rep = run_mod.run(extra=[(S(), res)], now=NOW, include_hackathons=False)
+    assert len(rep.new) == 1
+    assert any("email" in " ".join(r["reasons"]) for r in rep.review)

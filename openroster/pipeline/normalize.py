@@ -74,6 +74,14 @@ def candidate_key(c: Candidate) -> str:
     return f"{c.source_id}|{c.url}|{day}|{c.title.lower()}"
 
 
+def series_key(source_id: str, raw: str | None) -> str | None:
+    """A stable, opaque id for a recurring series. Raw iCal UIDs often look like email addresses
+    (`abc123@calendar.example.ca`), and records must contain nothing email-shaped, so only a hash is stored."""
+    if not raw:
+        return None
+    return f"{source_id}:{hashlib.sha1(raw.encode()).hexdigest()[:12]}"
+
+
 def strip_person_names(title: str) -> str:
     m = _WITH_PERSON.search(title)
     if m and not _ORG_WORDS.search(m.group(0)):
@@ -223,7 +231,7 @@ def normalize(c: Candidate, source: Source | None, now: datetime) -> Opportunity
         "end": end,
         "timezone": tz,
         "all_day": c.all_day,
-        "series_id": c.series_id,
+        "series_id": series_key(c.source_id, c.series_id),
         "mode": mode,
         "location": {"venue_name": (c.venue or None) and c.venue[:120], "city": city, "region": region,
                      "country": country},
