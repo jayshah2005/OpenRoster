@@ -188,3 +188,17 @@ def test_path_and_datetime_helpers():
     assert get_path({"a": []}, "a.0.b") is None
     assert _norm_dt("2026-10-27 11:00:00") == "2026-10-27T11:00:00"
     assert _norm_dt("2026-11-24T12:30-0500") == "2026-11-24T12:30-05:00"
+
+
+# ---- Hackathon site checker ----------------------------------------------------------------------------
+def test_hackathon_dates_from_js_rendered_site():
+    from openroster.hackathons import Hackathon, _event_dates, _page
+
+    html = """<html><head><meta name="description" content="Ontario's student hackathon. Join us January 9-10, 2027 in Hamilton!">
+    <script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"tagline":"Volunteer applications are open"}}}</script>
+    </head><body><div id="__next"></div></body></html>"""
+    page = _page("https://deltahacks.example", html)
+    assert "Volunteer applications are open" in page.text
+    cand, _ = _event_dates(Hackathon(id="d", name="DeltaHacks", url="https://deltahacks.example"), [page], [html])
+    assert cand is not None and cand.start.date().isoformat() == "2027-01-09"
+    assert cand.end.date().isoformat() == "2027-01-10"

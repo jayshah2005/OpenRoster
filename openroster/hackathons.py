@@ -5,6 +5,7 @@ workshop-lead roles plus any deadline near them. Shallow and bounded: depth <= 2
 
 from __future__ import annotations
 
+import json
 import re
 from dataclasses import dataclass
 from urllib.parse import urldefrag, urljoin, urlsplit
@@ -60,13 +61,46 @@ class Page:
     links: list[tuple[str, str]]   # (absolute url, link text)
 
 
+def _strings(obj: object, out: list[str], limit: int = 400) -> None:
+    """Collect short string values from embedded JSON (dates and taglines live there on JS-rendered sites)."""
+    if len(out) >= limit:
+        return
+    if isinstance(obj, dict):
+        for v in obj.values():
+            _strings(v, out, limit)
+    elif isinstance(obj, list):
+        for v in obj:
+            _strings(v, out, limit)
+    elif isinstance(obj, str) and 3 < len(obj) < 300 and not obj.startswith(("http", "/", "{")):
+        out.append(obj)
+
+
+def _hidden_text(tree: HTMLParser) -> str:
+    """Text a browser would show but plain HTML hides: meta descriptions and Next.js / Nuxt page data.
+    Many hackathon sites are single-page apps whose dates only appear there."""
+    parts = [m.attributes.get("content") or "" for m in tree.css(
+        'meta[name="description"], meta[property="og:description"], meta[name="twitter:description"], meta[property="og:title"]')]
+    for sel in ("script#__NEXT_DATA__", "script#__NUXT_DATA__", 'script[type="application/json"]'):
+        for node in tree.css(sel):
+            try:
+                found: list[str] = []
+                _strings(json.loads(node.text() or "null"), found)
+                parts.extend(found)
+            except ValueError:
+                continue
+    return " ".join(p for p in parts if p)
+
+
 def _page(url: str, html: str) -> Page:
     tree = HTMLParser(html)
+    hidden = _hidden_text(tree)
     for bad in tree.css("script, style, noscript, svg"):
         if bad.attributes.get("type") != "application/ld+json":
             bad.decompose()
     body = tree.body or tree.root
     text = clean(body.text(separator=" ")) if body else ""
+    if hidden:
+        text = f"{text} {clean(hidden)}"
     links = []
     for a in tree.css("a[href]"):
         href = a.attributes.get("href") or ""
