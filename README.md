@@ -1,62 +1,63 @@
 # OpenRoster
 
-Hackathons, info sessions, tech talks, career fairs, workshops, case competitions and early-career programs for computer science students, plus volunteer, mentor and judge calls, in one place you can filter. It covers Ontario first, then the rest of Canada and the US.
+OpenRoster lists the events and programs that early-career computer science students usually hear about too late:
+- bank and tech company info sessions
+- student hackathons and their volunteer, mentor and judge calls
+- career fairs and case competitions
+- insight days and fellowships
 
-Event sites like Eventbrite and Luma miss things like bank info sessions, CEOx1Day-style programs, company-run student hackathons and volunteer calls posted on a hackathon's own site. OpenRoster collects these from public calendars, campus APIs, company pages, hackathon sites and community submissions. Everything runs on free tiers with no paid APIs.
+It covers Ontario first, then the rest of Canada and the US. Everything is free, sorted by the nearest deadline, and linked to the organizer's own page.
 
-**Site:** https://openroster.vercel.app · **Submit something:** [open the form](../../issues/new?template=submit-opportunity.yml)
+**Site:** https://openroster.vercel.app · **Browse on GitHub:** [LISTINGS.md](LISTINGS.md) · **Add something:** [submission form](../../issues/new?template=submit-opportunity.yml)
+
+## What you can do with it
+
+- **Filter the list:** by what you want to do (attend, volunteer, mentor, judge), type, school or distance from a campus, date, eligibility, and who an event is for (first-year students, beginners, women and non-binary students and more). Filters live in the address, so any view can be bookmarked or shared.
+- **Subscribe:** every view has a calendar feed. Events appear in Google Calendar, Apple Calendar or Outlook on their own, with an "Apply by" reminder the day before each deadline. RSS and a weekly digest are there too.
+- **Read the guides:** the [Start here guide](https://openroster.vercel.app/start/) explains each kind of opportunity and how to prepare. The [programs directory](https://openroster.vercel.app/programs/) lists insight days, first- and second-year programs, fellowships and scholarships that come back every year.
+- **Use the data:** calendar feeds, RSS and JSON are documented on the [data page](https://openroster.vercel.app/data/).
 
 ## How it works
 
-```
-config/            sources (audited + owner-approved), schools, hackathons, curated programs
-   │
-openroster/        Python: polite fetcher → adapters → rule-based extraction → dedupe/merge → data/records/*.json
-   │               (GitHub Actions, every 6 hours; commits only when data changes)
-data/              one JSON file per opportunity; git is the database
-   │
-web/               Next.js: static pages + one cached feed route, deployed to Vercel
-```
+A Python pipeline reads public sources every 6 hours:
+- school, club and Luma calendar feeds
+- campus event APIs
+- company student-event pages
+- hackathon websites
+- the Hack Club API
+- submissions from students and organizers
 
-| Part | What it does |
-|---|---|
-| `openroster/fetch.py` | All network access. Uses an honest User-Agent, waits 2 s per host (or the site's Crawl-delay), follows robots.txt, makes conditional requests, backs off on errors, has a page budget, and refuses blocked hosts in code. |
-| `openroster/adapters/` | iCal, WordPress Events Calendar, Localist, JSON-LD, sitemaps, RSS (Campus Labs Engage), JSON / WordPress REST, server-rendered HTML (per-source selectors), headless browser as a last resort, the Hack Club API, manual entries and submissions. |
-| `openroster/extract/` | Rule-based dates (never guessed; anything unclear goes to review), type/role/mode classification, and an offline gazetteer that places events relative to campuses. |
-| `openroster/pipeline/` | Normalize, deduplicate across sources (keeping every source link), track moved and cancelled events, archive past ones. |
-| `openroster/audit/` | `openroster audit <url>`: robots.txt, terms of use, platform detection, verdict. |
-| `web/` | Next.js 16 site. Filters live in the URL, plus calendar view, digest, `.ics` and RSS feeds for every filtered view, no-JS fallback, and dark mode. |
+It extracts dates and details with fixed rules, merges duplicates, and writes one JSON file per opportunity into `data/`. A Next.js site builds from those files and deploys to Vercel. GitHub Actions run all of it on the free tier. [docs/architecture.md](docs/architecture.md) has the details.
 
-## Commands
+Collection follows strict rules, enforced in code:
+- A person approves every source after an audit of its robots.txt and terms.
+- The bot identifies itself and waits at least two seconds between requests to a site.
+- Devpost, Eventbrite, LinkedIn, Handshake and login portals are never scraped. MLH needs written permission. Luma is read only through official calendar feeds.
+- We store facts and a short summary in our own words, never descriptions, images or personal data.
+- Unclear dates go to a person instead of being guessed.
+
+Organizers can have a listing removed within 48 hours; see [TAKEDOWN.md](TAKEDOWN.md).
+
+New sources are found every week: a rule-based pass checks the pages we already read for calendar feeds, and an optional agent searches the web. Both propose changes in a pull request that a person merges.
+
+## Run it locally
 
 ```bash
-uv sync                                    # Python 3.12 + dependencies
-uv run openroster audit https://example.edu/events   # verdict and reasons for any URL
-uv run openroster audit --all              # audit every configured source → reports/source-audit.md
-uv run openroster scrape                   # run every approved source, update data/
-uv run openroster validate                 # schema + no-personal-data checks
-uv run pytest                              # all adapters against saved fixtures (no network)
-
-cd web && npm ci
-npm run dev                                # site on http://localhost:3000 (reads ../data)
-npm test && npm run e2e                    # unit tests; browser, no-JS and accessibility tests
+uv sync && uv run pytest -q                                  # pipeline and its tests (no network)
+uv run openroster audit https://example.edu/events           # robots.txt, terms and a verdict for any URL
+OPENROSTER_DATA=/tmp/preview uv run python scripts/preview_from_fixtures.py
+cd web && npm ci && OPENROSTER_DATA=/tmp/preview npm run dev # the site with sample data
 ```
 
-## Rules
+## Contributing
 
-These are enforced in code and CI. See [CLAUDE.md](CLAUDE.md) for the full list.
+You can add events, share calendars and fix listings without writing code, from the site or from GitHub. [CONTRIBUTING.md](CONTRIBUTING.md) covers that and code contributions.
 
-- Public pages only, and only after an audit and the owner's sign-off (`reviewed: true`).
-- Devpost and Eventbrite are blocked. MLH needs written permission. LinkedIn, Handshake and login portals are blocked. From Luma only official iCal links are used. Form hosts are linked, never fetched.
-- Store facts and a ≤200-character summary in our own words, and link to the original. No copied descriptions, images or logos, and no personal data.
-- Removal within 48 hours: [TAKEDOWN.md](TAKEDOWN.md).
+| Document | What it covers |
+|---|---|
+| [docs/architecture.md](docs/architecture.md) | How the code fits together |
+| [docs/setup.md](docs/setup.md) | One-time setup for maintainers |
+| [docs/decisions.md](docs/decisions.md) | Why things are built the way they are |
+| [reports/source-audit.md](reports/source-audit.md) | The audit of every configured source |
 
-## Docs
-
-- [PLAN.md](PLAN.md): architecture and milestones
-- [docs/decisions.md](docs/decisions.md): choices and reasons
-- [docs/setup.md](docs/setup.md): one-time setup (GitHub, Vercel, secrets) and how to re-enable scheduled workflows
-- [CONTRIBUTING.md](CONTRIBUTING.md): add a source, fix selectors, run tests
-- [reports/source-audit.md](reports/source-audit.md): audit of every configured source
-
-Data: place names from [GeoNames](https://www.geonames.org/) (CC BY 4.0). Some hackathon listings come from [Hack Club](https://hackathons.hackclub.com). Code: MIT.
+Place names come from [GeoNames](https://www.geonames.org/) (CC BY 4.0). Some hackathon listings come from [Hack Club](https://hackathons.hackclub.com). Code is MIT licensed.
