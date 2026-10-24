@@ -9,6 +9,35 @@ import {
   ELIG_LABEL, REGION_LABEL, REPO_URL, ROLE_LABEL, ROUTE_LABEL, SITE_URL, TYPE_LABEL, TYPE_PLURAL,
 } from "@/lib/labels";
 
+const PREP: Record<string, string> = {
+  hackathon: "First hackathon? You do not need a team or an idea beforehand.",
+  info_session: "Going to an info session? Bring one question you could not answer from their website.",
+  career_fair: "Going to a career fair? Have a one-page resume ready and pick a few companies to visit first.",
+  case_competition: "Case competitions are team events; many welcome first- and second-year students.",
+  early_career_program: "Applying to a program? Draft short answers in a document first so you can reuse them.",
+};
+
+/** Google Calendar "add event" link, built from the listing (no request is made until the person clicks). */
+function googleCalendarUrl(o: { title: string; start: string; end: string | null; all_day: boolean; timezone: string; summary: string; id: string; location: { city: string | null }; mode: string }): string {
+  const stamp = (iso: string) => new Date(iso).toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
+  const day = (iso: string, add = 0) => {
+    const d = new Date(new Intl.DateTimeFormat("en-CA", { timeZone: o.timezone }).format(new Date(iso)) + "T12:00:00Z");
+    d.setUTCDate(d.getUTCDate() + add);
+    return d.toISOString().slice(0, 10).replace(/-/g, "");
+  };
+  const dates = o.all_day
+    ? `${day(o.start)}/${day(o.end ?? o.start, 1)}`
+    : `${stamp(o.start)}/${stamp(o.end ?? new Date(new Date(o.start).getTime() + 3_600_000).toISOString())}`;
+  const p = new URLSearchParams({
+    action: "TEMPLATE",
+    text: o.title,
+    dates,
+    details: `${o.summary}\n\n${SITE_URL}/o/${o.id}/`,
+    location: o.mode === "online" ? "Online" : o.location.city ?? "",
+  });
+  return `https://calendar.google.com/calendar/render?${p.toString()}`;
+}
+
 export function generateStaticParams() {
   const ids = allIds();
   return (ids.length ? ids : ["placeholder"]).map((id) => ({ id }));
@@ -96,7 +125,12 @@ export default async function OpportunityPage({ params }: PageProps<"/o/[id]">) 
 
       <p className="actions">
         <a className="button" href={original} rel="nofollow noopener">Go to the original page</a>
-        <a className="button button-quiet" href={`/o/${o.id}/event.ics`}>Add to calendar</a>
+        <a className="button button-quiet" href={googleCalendarUrl(o)} rel="noopener">Add to Google Calendar</a>
+        <a className="button button-quiet" href={`/o/${o.id}/event.ics`}>Download .ics</a>
+      </p>
+
+      <p className="muted">
+        {PREP[o.type] ?? "New to this?"} The <Link href={`/start/#${o.type === "hackathon" ? "prep" : "types"}`}>start guide</Link> has tips.
       </p>
 
       <h2>Sources</h2>
