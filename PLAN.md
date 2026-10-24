@@ -313,35 +313,26 @@ A source runs only when the verdict is `allowed` **and** `reviewed: true`. Only 
 
 ---
 
-## 10. Status (2026-10-23)
+## 10. Status (2026-10-24)
 
-**Built and tested locally:**
-- **Python pipeline (71 tests; ruff and mypy clean):**
-  - polite fetcher, including Crawl-delay
-  - audit command and report
-  - adapters: ICS, Tribe, Localist, JSON-LD, sitemap, HTML, headless, RSS (Engage), JSON / WordPress REST, Hack Club, manual, submissions
-  - rule-based dates, dedupe/merge/archive, hackathon site checker
-  - review stubs, health issues, issue-form parsing
-- **Next.js site:**
-  - every page prerendered
-  - filters in the URL, calendar, digest, prebuilt and per-filter feeds, no-JS mode, dark mode
-- **Site checks:**
-  - 9 unit tests, 10 Playwright tests (AC4, no-JS, axe in light and dark)
-  - first load 190 kB gzipped
-  - 176 internal links checked
-- **Workflows:** CI, Update data (every 6 h), Deploy, Source audit and sign-off PR, Issue forms, Daily review, Link check, Maintenance and takedown reminders, Keepalive, Dependabot auto-merge, AI helpers.
-- **Config:**
-  - 118 sources across 41 schools and companies, all `reviewed: false` until you sign off
-  - 60 hackathons
-  - 8 Also useful links
+Live at https://github.com/jayshah2005/OpenRoster. CI is green: 105 Python tests, 11 web unit tests, 18 browser and
+accessibility tests, the size budget and the link check.
 
-**Acceptance checks:**
+**Verified on GitHub Actions:**
+- The first full audit covered 178 sources and hackathon sites in about 4 minutes, running sites in parallel with one worker per host. 152 were allowed and 25 blocked by robots.txt, terms or a known verdict.
+- Update data (scrape, validate, LISTINGS.md, health), Daily review, Link check, Keepalive and Maintenance all run successfully.
+- Weekly discovery found 5 feeds on its first run.
+- Deploy skips cleanly until a Vercel token exists.
 
-| # | Status |
-|---|---|
-| AC1 | `openroster audit <url>` works (shown for BMO, Scotiabank, Devpost, MLH, Eventbrite and Google Forms). |
-| AC2 | `openroster audit --all` covers every configured source. It needs one full run, which makes polite live requests, so it waits for your go-ahead together with the contact address. |
-| AC3 | Waits for the sign-off PR and the first data run. Locally the preview from fixtures shows 5 source types. |
-| AC4 | Passes in Playwright. |
-| AC5 | The CI and health logic is in place. Showing it needs the GitHub repo. |
-| AC6 | Passes locally, from issue body to record (`tests/test_submission.py`). End to end it needs the repo. |
+**Added since the first build:**
+- **Discovery and selectors:** weekly discovery (rule-based, plus an optional search-only agent), and rule-based selector proposals for HTML sources.
+- **New listing features:** audience and year-of-study tags, an "open for applications now" filter, and "Apply by" reminders in every calendar feed.
+- **New site pages:** LISTINGS.md for GitHub, a programs directory, a start guide for early-career students, contribute and data pages, and a Google Calendar link on each listing.
+- **Engine fixes:** parsing for noon and 24-hour times, fuller summaries, Engage RSS detection, and dates read from JavaScript-rendered hackathon sites.
+- **Hardening:** one failing site no longer stops an audit or scrape, Google Calendar feeds are blocked because Google's robots.txt disallows them, and the commit convention is enforced by a hook.
+
+**Waiting on the owner:**
+1. Settings → Actions → General → allow GitHub Actions to create and approve pull requests. Every bot PR needs this.
+2. A Vercel token (`VERCEL_TOKEN` secret) or the Vercel GitHub app, to deploy.
+3. Merging the Source review PR, which approves 93 sources.
+4. Optionally, the `CLAUDE_CODE_OAUTH_TOKEN` secret for the AI helpers and the discovery agent.
