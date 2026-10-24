@@ -27,6 +27,16 @@ def targets() -> list[tuple[str, str, str, bool]]:
     return out
 
 
+def safe_audit(url: str, fetcher: Fetcher) -> AuditResult:
+    """One site's unexpected error is recorded on that site instead of stopping the whole audit."""
+    try:
+        return audit_url(url, fetcher)
+    except Exception as e:  # noqa: BLE001 - deliberately broad: report and move on
+        r = AuditResult(url=url, checked=datetime.now(UTC).isoformat(), verdict="unknown")
+        r.reasons.append(f"audit error: {type(e).__name__}: {e}"[:300])
+        return r
+
+
 def audit_all(fetcher: Fetcher | None = None, only: set[str] | None = None) -> dict[str, AuditResult]:
     """Audit every source and hackathon. Different sites are audited in parallel (one worker per host, see
     parallel.py); pass a `fetcher` to run sequentially with it instead (tests)."""
@@ -34,7 +44,7 @@ def audit_all(fetcher: Fetcher | None = None, only: set[str] | None = None) -> d
     if fetcher is not None:
         pairs = [((sid, url), audit_url(url, fetcher)) for sid, url in todo]
     else:
-        pairs = by_host(todo, url_of=lambda t: t[1], work=lambda t, f: audit_url(t[1], f))
+        pairs = by_host(todo, url_of=lambda t: t[1], work=lambda t, f: safe_audit(t[1], f))
     results: dict[str, AuditResult] = {}
     for (sid, _url), r in pairs:
         results[sid] = r

@@ -261,7 +261,14 @@ def check_all(fetcher: Fetcher | None = None, only: set[str] | None = None) -> t
             continue
         todo.append(h)
 
-    done = [(h, check(h, fetcher)) for h in todo] if fetcher else by_host(todo, url_of=lambda h: h.url, work=check)
+    def safe_check(h: Hackathon, f: Fetcher) -> tuple[Candidate, int, list[str]]:
+        try:
+            return check(h, f)
+        except Exception as e:  # noqa: BLE001 - one odd site must not stop the others; it shows up in health
+            return Candidate(source_id=f"hackathon:{h.id}", adapter="hackathon_site", url=h.url, title=h.name,
+                             review_reasons=[f"checker error: {type(e).__name__}"]), 0, [f"{type(e).__name__}: {e}"[:200]]
+
+    done = [(h, safe_check(h, fetcher)) for h in todo] if fetcher else by_host(todo, url_of=lambda h: h.url, work=safe_check)
     for h, (cand, pages, errors) in done:
         res.candidates.append(cand)
         res.pages += pages

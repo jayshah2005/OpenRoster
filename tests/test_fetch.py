@@ -175,3 +175,18 @@ def test_backoff_on_429(tmp_path):
     f, clock = make(handler, tmp_path)
     assert f.get("https://example.com/a").text == "ok"
     assert 7.0 in clock.sleeps
+
+
+def test_audit_records_redirect_to_disallowed_site_as_blocked(tmp_path):
+    from openroster.audit.core import audit_url
+
+    def handler(request):
+        if request.url.host == "other.example" and request.url.path == "/robots.txt":
+            return httpx.Response(200, text="User-agent: *\nDisallow: /\n")
+        if request.url.path == "/robots.txt":
+            return httpx.Response(404)
+        return httpx.Response(301, headers={"location": "https://other.example/"})
+
+    f, _ = make(handler, tmp_path)
+    r = audit_url("https://moved.example/events", f)
+    assert r.verdict == "blocked" and "robots" in " ".join(r.reasons)

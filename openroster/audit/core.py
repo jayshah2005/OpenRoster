@@ -178,6 +178,11 @@ def audit_url(url: str, fetcher: Fetcher | None = None) -> AuditResult:
             res.verdict = "unknown"
             res.reasons.append(f"page could not be fetched: {e}")
         return res
+    except FetchRefused as e:
+        # Typically a redirect to another site that blocks us, or a blocked host.
+        res.verdict = "blocked"
+        res.reasons.append(f"refused: {e}")
+        return res
     html = page.text
     tree = HTMLParser(html)
 
