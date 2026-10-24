@@ -36,7 +36,8 @@ ROLE_PHRASE = {
 }
 # "Fireside chat with Jane Doe" -> "Fireside chat". Speaker names are personal data and are not kept.
 _WITH_PERSON = re.compile(
-    r"\s*(?:[-–—:|,]\s*)?\b(?:with|featuring|feat\.|ft\.|w/)\s+(?:dr\.?\s+|prof\.?\s+)?"
+    r"\s*(?:[-–—:|,]\s*)?\b(?:(?:with|featuring|feat\.|ft\.|w/)\s+(?:(?:Dr|Prof|Professor)\.?\s+)?|"
+    r"by\s+(?:Dr|Prof|Professor)\.?\s+)"  # "by" only with a title: "Hosted by Google Cloud" is not a person
     r"[A-Z][a-z'’-]+(?:\s+[A-Z]\.)?(?:\s+[A-Z][a-z'’-]+){1,2}\s*$"
 )
 _ORG_WORDS = re.compile(r"\b(?:inc|ltd|bank|university|college|group|labs?|technologies|corp|club|society|team)\b", re.I)

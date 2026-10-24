@@ -39,7 +39,7 @@ CS_STRONG = re.compile(
 NOT_OPPORTUNITY = re.compile(
     r"\b(?:for tas?\b|tas? (?:workshop|training|orientation)|teaching assistants?|teaching (?:and learning|dossiers?|excellence|support|awards?|certificates?|development)|pedagog\w*|"
     r"faculty fellows?|brightspace|academic integrity|scholarly|literature review|publish(?:ing|able)?|"
-    r"thesis|dissertation|last day to|"
+    r"thesis|dissertation|last day to|no classes|university closed|campus closed|study break|"
     r"registration (?:opens|closes|deadline)|deadline to (?:drop|add|withdraw)|senate|board of governors|"
     r"convocation|exam (?:period|schedule)|reading week|tuition)",
     re.I,
