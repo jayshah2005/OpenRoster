@@ -41,6 +41,11 @@ def _slug(s: str, n: int = 50) -> str:
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")[:n].strip("-")
 
 
+# Date-stamped exports (".../2026/04/event.ics", ".../ical/2026-10/events.ics") cover one event or one month;
+# the site's full feed is the useful one.
+DATED_EXPORT = re.compile(r"/20\d\d[-/]\d\d(?:/|$)")
+
+
 def _usable(url: str) -> bool:
     """Only URLs we could ever fetch: not blocked, not permission-required, not a form host."""
     kv = known_verdict_for(url)
@@ -64,11 +69,11 @@ def discover() -> Discovery:
             continue
         parent = by_id.get(sid)
         for feed in audit.get("feeds") or []:
-            if _norm(feed) in known_urls or not _usable(feed):
+            if _norm(feed) in known_urls or not _usable(feed) or DATED_EXPORT.search(feed):
                 continue
             known_urls.add(_norm(feed))
             found.sources.append({
-                "id": f"{sid}-feed-{len([s for s in found.sources if s['id'].startswith(sid)]) + 1}",
+                "id": f"{_slug(sid, 60)}-feed-{len([s for s in found.sources if s['id'].startswith(_slug(sid, 60))]) + 1}",
                 "name": f"Calendar feed found on {parent.name if parent else sid}",
                 "adapter": "rss" if re.search(r"\.rss\b|/rss\b|feed=rss|\.xml\b", feed) else "ics",
                 "url": feed,

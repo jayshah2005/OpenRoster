@@ -64,3 +64,16 @@ def test_autoselect_finds_working_selectors_without_network():
                  options={"filter": "all"})
     chosen, dated = candidates_for(html, src)
     assert chosen and chosen["item"] and dated >= 10
+
+
+def test_dated_exports_are_skipped(monkeypatch):
+    audits = {"hackathon:uworcs": {"verdict": "allowed", "url": "https://www.uwo.ca/x", "feeds": [
+        "https://www.uwo.ca/events/2026/04/one-event.ics",
+        "https://www.uwindsor.ca/science/computerscience/ical/2026-10/events.ics",
+        "https://www.uwindsor.ca/science/computerscience/ical/%2A/events.ics",
+    ]}}
+    monkeypatch.setattr(disc, "load_results", lambda: audits)
+    monkeypatch.setattr(disc.store, "load_records", lambda: {})
+    found = disc.discover()
+    assert [s["url"] for s in found.sources] == ["https://www.uwindsor.ca/science/computerscience/ical/%2A/events.ics"]
+    assert found.sources[0]["id"] == "hackathon-uworcs-feed-1"
