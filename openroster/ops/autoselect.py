@@ -8,6 +8,7 @@ enabled, and a sanitized copy of the page is saved as its test fixture. A person
 
 from __future__ import annotations
 
+import re
 import sys
 from dataclasses import dataclass
 from pathlib import Path
@@ -16,12 +17,13 @@ from ruamel.yaml import YAML
 
 from ..adapters.html import parse_html_list
 from ..config import CONFIG, ROOT, Source, load_sources
-from ..fetch import Fetcher, FetchError, FetchRefused
+from ..fetch import BudgetExceeded, Fetcher, FetchError, FetchRefused
 from .sanitize import sanitize
 from .selectors import suggest
 
 FIXTURES = ROOT / "tests" / "fixtures" / "sources"
 MIN_DATED = 2
+GENERIC = {"div", "span", "section", "p", "a"}
 
 
 @dataclass
@@ -31,6 +33,26 @@ class Outcome:
     detail: str
 
 
+_DATE_IN_TITLE = re.compile(
+    r"\b(?:jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[a-z]*\.? \d{1,2}\b|\b\d{1,2}:\d{2}\b", re.I)
+
+# Section headings and labels that a too-wide selector picks up instead of event names.
+_GENERIC_TITLE = re.compile(r"^(?:(?:upcoming|featured|past|all|our|more|latest)\s+)?(?:events?|news|calendar|always on)$", re.I)
+
+
+def clean_titles(titles: list[str]) -> bool:
+    """Titles that look like titles: short, and without dates or times in them. Long titles with dates mean the
+    selector grabbed the whole block (date, place and description), and we never store copied descriptions."""
+    if not titles:
+        return False
+    lengths = sorted(len(t) for t in titles)
+    dated = sum(1 for t in titles if _DATE_IN_TITLE.search(t))
+    generic = sum(1 for t in titles if _GENERIC_TITLE.match(t.strip()))
+    distinct = len({t.strip().lower() for t in titles})
+    return (lengths[len(lengths) // 2] <= 80 and dated <= len(titles) // 4 and generic == 0
+            and distinct >= 0.8 * len(titles))  # repeated titles mean we picked a label, not the event name
+
+
 def candidates_for(html: str, source: Source) -> tuple[dict | None, int]:
     """The best working selector set for this page, and how many dated events it found."""
     best: tuple[dict | None, int] = (None, 0)
@@ -38,8 +60,12 @@ def candidates_for(html: str, source: Source) -> tuple[dict | None, int]:
         options = {**source.options, "item": s.item}
         if s.title:
             options["title"] = s.title
+        if s.item in GENERIC:  # a bare `div` matches nested wrappers: duplicates and page chrome
+            continue
         trial = source.model_copy(update={"options": options})
         res = parse_html_list(html, source.url, trial)
+        if not clean_titles([c.title for c in res.candidates]):
+            continue
         dated = sum(1 for c in res.candidates if c.start is not None)
         if dated > best[1]:
             best = ({"item": s.item, **({"title": s.title} if s.title else {})}, dated)
@@ -71,14 +97,16 @@ def autoselect(only: set[str] | None = None, fetcher: Fetcher | None = None) -> 
     fetcher = fetcher or Fetcher()
     out: list[Outcome] = []
     for src in load_sources():
-        if src.adapter != "html" or not src.reviewed or "item" in src.options:
+        # `autoselect: false` marks pages a person decided rules can't handle well (see the source's notes).
+        if src.adapter != "html" or not src.reviewed or "item" in src.options or src.options.get("autoselect") is False:
             continue
         if only and src.id not in only:
             continue
         try:
-            fetcher.set_budget(src.id, 1)
+            # One page, but redirect hops count against the budget too (http -> https -> www is common).
+            fetcher.set_budget(src.id, 3)
             html = fetcher.get(src.url, source_id=src.id).text
-        except (FetchError, FetchRefused) as e:
+        except (FetchError, FetchRefused, BudgetExceeded) as e:
             out.append(Outcome(src.id, False, f"could not fetch: {e}"))
             continue
         chosen, dated = candidates_for(html, src)

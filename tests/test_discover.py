@@ -77,3 +77,32 @@ def test_dated_exports_are_skipped(monkeypatch):
     found = disc.discover()
     assert [s["url"] for s in found.sources] == ["https://www.uwindsor.ca/science/computerscience/ical/%2A/events.ics"]
     assert found.sources[0]["id"] == "hackathon-uworcs-feed-1"
+
+
+def test_autoselect_survives_a_spent_budget(monkeypatch):
+    # A redirect chain that runs out of budget is reported for that source, not a crash for the whole run.
+    from openroster.config import Source
+    from openroster.fetch import BudgetExceeded
+    from openroster.ops import autoselect as auto
+
+    class Spent:
+        def set_budget(self, *_a):
+            pass
+
+        def get(self, *_a, **_k):
+            raise BudgetExceeded("page budget exhausted for x")
+
+    src = Source(id="x", name="x", adapter="html", url="https://example.com/events", owner="x", reviewed=True)
+    monkeypatch.setattr(auto, "load_sources", lambda: [src])
+    [outcome] = auto.autoselect(fetcher=Spent())  # type: ignore[arg-type]
+    assert not outcome.ok and "budget" in outcome.detail
+
+
+def test_autoselect_rejects_titles_that_are_whole_blocks():
+    from openroster.ops.autoselect import clean_titles
+
+    assert clean_titles(["The Tech Festival Canada", "Fun Data Friday: Storytelling with Data"])
+    assert not clean_titles(["CSS Annual Fall Picnic Thu, Oct 8, 2026, 3:00 PM - 6:00 PM", "Craft Night Thu, Sep 10, 2026"])
+    assert not clean_titles([])
+    assert not clean_titles(["Featured Events", "Upcoming Events", "Always On"])
+    assert not clean_titles(["Upcoming Event"] * 5)
