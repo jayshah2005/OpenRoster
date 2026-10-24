@@ -117,7 +117,9 @@ def main() -> int:
             continue
         sub, args = rest[0], rest[1:]
         if sub == "commit":
-            subject = commit_subject(seg, args, command)
+            # Only a heredoc that starts after this `git commit` can be its message (not an earlier script's).
+            at = re.search(r"\bgit\b(?:\s+-\S+(?:\s+\S+)?)*\s+commit\b", command)
+            subject = commit_subject(seg, args, command[at.start():] if at else seg)
             if subject is False:
                 continue
             if subject is None:
