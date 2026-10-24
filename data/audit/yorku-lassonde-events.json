@@ -1,0 +1,26 @@
+{
+  "checked": "2026-10-24T05:35:27.558469+00:00",
+  "dated_items_in_html": 33,
+  "feeds": [
+    "https://lassonde.yorku.ca/ical/"
+  ],
+  "http_status": 200,
+  "jsonld_events": 12,
+  "known_verdict": null,
+  "login_wall": false,
+  "platform": "ics",
+  "reasons": [
+    "terms restrict republishing: store facts only, link to the original (already our policy)"
+  ],
+  "robots": "allowed",
+  "sitemaps": [],
+  "terms_forbid_automated": false,
+  "terms_forbid_republish": true,
+  "terms_quotes": [
+    "Use You shall not, without our prior written permission, use the Site for purposes other than your own personal, non-commercial use.",
+    "No part of the Site may be reproduced, modified, distributed, sold, published, broadcast, retransmitted in any form without the prior written consent of York University."
+  ],
+  "terms_url": "https://www.yorku.ca/about/privacy-legal/",
+  "url": "https://lassonde.yorku.ca/events/",
+  "verdict": "allowed"
+}

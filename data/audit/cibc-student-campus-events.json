@@ -1,0 +1,21 @@
+{
+  "checked": "2026-10-24T05:35:15.723249+00:00",
+  "dated_items_in_html": 0,
+  "feeds": [],
+  "http_status": 200,
+  "jsonld_events": 0,
+  "known_verdict": null,
+  "login_wall": false,
+  "platform": "html_no_dates",
+  "reasons": [],
+  "robots": "allowed",
+  "sitemaps": [
+    "https://www.cibc.com/sitemap.xml"
+  ],
+  "terms_forbid_automated": false,
+  "terms_forbid_republish": false,
+  "terms_quotes": [],
+  "terms_url": "https://www.cibc.com/en/legal/legal-trademarks.html",
+  "url": "https://www.cibc.com/en/about-cibc/careers/students-and-graduates/student-and-campus-events.html",
+  "verdict": "allowed"
+}

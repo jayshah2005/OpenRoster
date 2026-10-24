@@ -1,0 +1,23 @@
+{
+  "checked": "2026-10-24T05:35:16.316603+00:00",
+  "dated_items_in_html": 32,
+  "feeds": [
+    "https://calendar.google.com/calendar/ical/nssp17qbbcimvjluc71msmvimc%40group.calendar.google.com/public/basic.ics"
+  ],
+  "http_status": 200,
+  "jsonld_events": 0,
+  "known_verdict": null,
+  "login_wall": false,
+  "platform": "ics",
+  "reasons": [
+    "no terms-of-use link found on the page"
+  ],
+  "robots": "allowed",
+  "sitemaps": [],
+  "terms_forbid_automated": null,
+  "terms_forbid_republish": null,
+  "terms_quotes": [],
+  "terms_url": null,
+  "url": "https://www.cs.queensu.ca/calendar",
+  "verdict": "allowed"
+}

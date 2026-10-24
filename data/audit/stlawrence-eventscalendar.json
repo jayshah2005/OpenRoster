@@ -1,0 +1,26 @@
+{
+  "checked": "2026-10-24T05:35:51.038211+00:00",
+  "dated_items_in_html": 2,
+  "feeds": [],
+  "http_status": 200,
+  "jsonld_events": 0,
+  "known_verdict": null,
+  "login_wall": false,
+  "platform": "html",
+  "reasons": [
+    "terms restrict republishing: store facts only, link to the original (already our policy)"
+  ],
+  "robots": "allowed",
+  "sitemaps": [
+    "https://www.stlawrencecollege.ca/sitemap.xml"
+  ],
+  "terms_forbid_automated": false,
+  "terms_forbid_republish": true,
+  "terms_quotes": [
+    "You may only use the Services for your personal and non-commercial use.",
+    "Users are prohibited from republishing or creating derivative works of any content without our explicit permission."
+  ],
+  "terms_url": "https://www.stlawrencecollege.ca/terms-of-service",
+  "url": "https://www.stlawrencecollege.ca/eventscalendar",
+  "verdict": "allowed"
+}

@@ -1,0 +1,36 @@
+{
+  "checked": "2026-10-24T05:35:17.269079+00:00",
+  "dated_items_in_html": 3,
+  "feeds": [],
+  "http_status": 200,
+  "jsonld_events": 0,
+  "known_verdict": null,
+  "login_wall": false,
+  "platform": "html",
+  "reasons": [
+    "terms restrict republishing: store facts only, link to the original (already our policy)"
+  ],
+  "robots": "allowed",
+  "sitemaps": [
+    "https://www.bain.com/en/sitemap.xml",
+    "https://www.bain.com/pt-br/sitemap.xml",
+    "https://www.bain.com/es/sitemap.xml",
+    "https://www.bain.com/es-es/sitemap.xml",
+    "https://www.bain.com/fr/sitemap.xml",
+    "https://www.bain.com/de/sitemap.xml",
+    "https://www.bain.com/it/sitemap.xml",
+    "https://www.bain.com/el/sitemap.xml",
+    "https://www.bain.com/ko/sitemap.xml",
+    "https://www.bain.com/ja/sitemap.xml",
+    "https://www.bain.com/globalassets/sitemap/images-sitemap.xml",
+    "https://www.bain.com/globalassets/sitemap/video-sitemap.xml"
+  ],
+  "terms_forbid_automated": false,
+  "terms_forbid_republish": true,
+  "terms_quotes": [
+    "None of the Content shall be copied, reproduced, distributed, republished, downloaded, displayed, posted or transmitted in any form or by any means, including, but not limited to, electronic, mechanical, photocopying, recording or otherwise"
+  ],
+  "terms_url": "https://www.bain.com/about/terms/",
+  "url": "https://www.bain.com/careers/work-with-us/students/toronto/",
+  "verdict": "allowed"
+}

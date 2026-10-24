@@ -1,0 +1,21 @@
+{
+  "checked": "2026-10-24T05:36:40.985904+00:00",
+  "dated_items_in_html": 0,
+  "feeds": [],
+  "http_status": 403,
+  "jsonld_events": 0,
+  "known_verdict": null,
+  "login_wall": true,
+  "platform": "unknown",
+  "reasons": [
+    "HTTP 403: login wall or bot protection; not bypassed"
+  ],
+  "robots": "no_robots",
+  "sitemaps": [],
+  "terms_forbid_automated": null,
+  "terms_forbid_republish": null,
+  "terms_quotes": [],
+  "terms_url": null,
+  "url": "https://humber.ca/staff/node/20354",
+  "verdict": "blocked"
+}

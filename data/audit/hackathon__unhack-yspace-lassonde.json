@@ -1,0 +1,21 @@
+{
+  "checked": "2026-10-24T05:36:50.245055+00:00",
+  "dated_items_in_html": 408,
+  "feeds": [],
+  "http_status": 200,
+  "jsonld_events": 601,
+  "known_verdict": null,
+  "login_wall": false,
+  "platform": "jsonld",
+  "reasons": [],
+  "robots": "allowed",
+  "sitemaps": [
+    "https://events.yorku.ca/sitemap_index.xml"
+  ],
+  "terms_forbid_automated": false,
+  "terms_forbid_republish": false,
+  "terms_quotes": [],
+  "terms_url": "https://events.yorku.ca/events/socio-legal-studies-ma-phd/?occurrence=2026-10-13",
+  "url": "https://events.yorku.ca/",
+  "verdict": "allowed"
+}

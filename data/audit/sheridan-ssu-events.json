@@ -1,0 +1,23 @@
+{
+  "checked": "2026-10-24T05:35:38.009323+00:00",
+  "dated_items_in_html": 15,
+  "feeds": [
+    "https://www.thessu.ca/events.rss"
+  ],
+  "http_status": 200,
+  "jsonld_events": 0,
+  "known_verdict": null,
+  "login_wall": false,
+  "platform": "ics",
+  "reasons": [],
+  "robots": "allowed",
+  "sitemaps": [
+    "https://www.thessu.ca/sitemap.xml"
+  ],
+  "terms_forbid_automated": false,
+  "terms_forbid_republish": false,
+  "terms_quotes": [],
+  "terms_url": "https://www.thessu.ca/graduation-photos",
+  "url": "https://www.thessu.ca/events",
+  "verdict": "allowed"
+}

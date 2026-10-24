@@ -1,0 +1,25 @@
+{
+  "checked": "2026-10-24T05:35:16.882712+00:00",
+  "dated_items_in_html": 0,
+  "feeds": [],
+  "http_status": 200,
+  "jsonld_events": 0,
+  "known_verdict": null,
+  "login_wall": false,
+  "platform": "html_no_dates",
+  "reasons": [
+    "terms restrict republishing: store facts only, link to the original (already our policy)"
+  ],
+  "robots": "allowed",
+  "sitemaps": [
+    "https://kpmg.com/sitemap-index.xml"
+  ],
+  "terms_forbid_automated": false,
+  "terms_forbid_republish": true,
+  "terms_quotes": [
+    "Materials on the Site may not be modified, reproduced, publicly displayed, performed, distributed or used for any public or commercial purposes without explicit written permission from the appropriate content or material provider (including"
+  ],
+  "terms_url": "https://kpmg.com/ca/en/misc/legal.html",
+  "url": "https://kpmg.com/ca/en/careers/students/student-programs.html",
+  "verdict": "allowed"
+}

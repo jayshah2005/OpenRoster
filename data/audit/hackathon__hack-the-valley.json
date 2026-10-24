@@ -1,0 +1,21 @@
+{
+  "checked": "2026-10-24T05:36:36.184560+00:00",
+  "dated_items_in_html": 4,
+  "feeds": [],
+  "http_status": 200,
+  "jsonld_events": 0,
+  "known_verdict": null,
+  "login_wall": false,
+  "platform": "html",
+  "reasons": [
+    "terms page not readable: https://www.linkedin.com/in/danielle-andrea-santos-83974523a/: blocked (Terms forbid scraping; content requires login.)"
+  ],
+  "robots": "allowed",
+  "sitemaps": [],
+  "terms_forbid_automated": null,
+  "terms_forbid_republish": null,
+  "terms_quotes": [],
+  "terms_url": "https://www.linkedin.com/in/danielle-andrea-santos-83974523a/",
+  "url": "https://hackthevalley.io",
+  "verdict": "allowed"
+}

@@ -1,0 +1,29 @@
+{
+  "checked": "2026-10-24T05:35:20.988769+00:00",
+  "dated_items_in_html": 0,
+  "feeds": [],
+  "http_status": 200,
+  "jsonld_events": 0,
+  "known_verdict": null,
+  "login_wall": false,
+  "platform": "html_no_dates",
+  "reasons": [
+    "terms appear to forbid automated access (owner should read the quotes)",
+    "terms restrict republishing: store facts only, link to the original (already our policy)"
+  ],
+  "robots": "allowed",
+  "sitemaps": [
+    "https://www.twosigma.com/sitemap_index.xml"
+  ],
+  "terms_forbid_automated": true,
+  "terms_forbid_republish": true,
+  "terms_quotes": [
+    "You may not use any data mining, robots or similar data gathering and extraction programs or methods, whether automated or manual, to access, acquire, copy or monitor any portion of the Site or any data and content found on the Site, unless",
+    "You may not use any data mining, robots or similar data gathering and extraction programs or methods, whether automated or manual, to access, acquire, copy or monitor any portion of the Site or any data and content found on the Site, unless",
+    "Except as specifically permitted below, nothing contained in these Terms or the Site itself either grants or will be construed to grant to you or any third party, by implication, estoppel or otherwise, any title or interest in, or any licen",
+    "g sentence, you may not copy, store, modify, distribute, transmit, perform, reproduce, publish, license, create derivative works from, transfer or sell any text, graphics, logos and other source-identifying symbols, designs, icons, images, "
+  ],
+  "terms_url": "https://www.twosigma.com/legal-disclosures/?entity=two-sigma-investments-lp&disclosure=legal-disclosure",
+  "url": "https://www.twosigma.com/new-seekers-summit/",
+  "verdict": "blocked"
+}

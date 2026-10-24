@@ -1,0 +1,21 @@
+{
+  "checked": "2026-10-24T05:35:07.005851+00:00",
+  "dated_items_in_html": 5,
+  "feeds": [
+    "https://uwaterloo.ca/women-in-computer-science/events/ical?date%5Bvalue%5D=10/19/2026"
+  ],
+  "http_status": 200,
+  "jsonld_events": 0,
+  "known_verdict": null,
+  "login_wall": false,
+  "platform": "ics",
+  "reasons": [],
+  "robots": "no_robots",
+  "sitemaps": [],
+  "terms_forbid_automated": false,
+  "terms_forbid_republish": false,
+  "terms_quotes": [],
+  "terms_url": "https://uwaterloo.ca/copyright",
+  "url": "https://uwaterloo.ca/women-in-computer-science/events",
+  "verdict": "allowed"
+}

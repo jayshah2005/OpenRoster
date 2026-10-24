@@ -1,0 +1,31 @@
+{
+  "checked": "2026-10-24T05:35:18.361336+00:00",
+  "dated_items_in_html": 0,
+  "feeds": [],
+  "http_status": 200,
+  "jsonld_events": 0,
+  "known_verdict": null,
+  "login_wall": false,
+  "platform": "html_no_dates",
+  "reasons": [
+    "terms appear to forbid automated access (owner should read the quotes)",
+    "terms restrict republishing: store facts only, link to the original (already our policy)"
+  ],
+  "robots": "allowed",
+  "sitemaps": [
+    "https://careers.bcg.com/ca/fr/sitemap_index.xml",
+    "https://careers.bcg.com/global/en/sitemap_index.xml",
+    "https://careers.bcg.com/jp/ja/sitemap_index.xml"
+  ],
+  "terms_forbid_automated": true,
+  "terms_forbid_republish": true,
+  "terms_quotes": [
+    "The chatbot is not authorized to make offers, commitments, or representations on behalf of BCG, and no such statements will be binding on BCG or constitute an offer, solicitation, or agreement of any kind.",
+    "You agree not to submit any confidential, proprietary, sensitive, or unnecessary personal information through the chatbot.",
+    "does not grant any license or other permission for links or other use of the Site or its Content if such use or link: (a) suggests that BCG promotes or endorses any third party’s causes, ideas, political campaigns, web sites, products or se",
+    "You may not use the Site for any commercial purpose and may not distribute over the Site any solicitation of funds, goods and services."
+  ],
+  "terms_url": "https://www.bcg.com/about/terms-of-use",
+  "url": "https://careers.bcg.com/global/en/on-campus/university-of-toronto",
+  "verdict": "blocked"
+}

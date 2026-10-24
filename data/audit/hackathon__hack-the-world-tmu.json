@@ -1,0 +1,24 @@
+{
+  "checked": "2026-10-24T05:36:36.375696+00:00",
+  "dated_items_in_html": 2,
+  "feeds": [],
+  "http_status": 200,
+  "jsonld_events": 0,
+  "known_verdict": null,
+  "login_wall": false,
+  "platform": "html",
+  "reasons": [
+    "terms restrict republishing: store facts only, link to the original (already our policy)"
+  ],
+  "robots": "allowed",
+  "sitemaps": [],
+  "terms_forbid_automated": false,
+  "terms_forbid_republish": true,
+  "terms_quotes": [
+    "No part of the Site may be reproduced, modified, distributed, sold, published, broadcast, or retransmitted in any form without the prior written consent of Toronto Metropolitan University.",
+    "You shall not, without our prior written permission, use the Site for purposes other than your own personal, non-commercial use."
+  ],
+  "terms_url": "https://www.torontomu.ca/terms-conditions/",
+  "url": "https://www.torontomu.ca/innovation-boost-zone/hacktheworld/",
+  "verdict": "allowed"
+}

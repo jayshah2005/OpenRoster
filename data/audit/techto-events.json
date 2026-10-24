@@ -1,0 +1,23 @@
+{
+  "checked": "2026-10-24T05:35:30.664122+00:00",
+  "dated_items_in_html": 4,
+  "feeds": [],
+  "http_status": 200,
+  "jsonld_events": 0,
+  "known_verdict": null,
+  "login_wall": false,
+  "platform": "html",
+  "reasons": [
+    "terms page not readable: https://docs.google.com/document/d/e/2PACX-1vQd_C_Nt9pwEy5bLQ075wA0QfHpXD922eHMN659rUTw32wK-IckCGhFisWCMI0W2a-Pq8gSd8YxEw4N/pub: link_only (Form hosts: link to them, never fetch or submit.)"
+  ],
+  "robots": "allowed",
+  "sitemaps": [
+    "https://www.techto.org/sitemap.xml"
+  ],
+  "terms_forbid_automated": null,
+  "terms_forbid_republish": null,
+  "terms_quotes": [],
+  "terms_url": "https://docs.google.com/document/d/e/2PACX-1vQd_C_Nt9pwEy5bLQ075wA0QfHpXD922eHMN659rUTw32wK-IckCGhFisWCMI0W2a-Pq8gSd8YxEw4N/pub",
+  "url": "https://techto.org/events",
+  "verdict": "allowed"
+}

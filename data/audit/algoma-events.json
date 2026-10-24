@@ -1,0 +1,26 @@
+{
+  "checked": "2026-10-24T05:35:55.487392+00:00",
+  "dated_items_in_html": 32,
+  "feeds": [],
+  "http_status": 200,
+  "jsonld_events": 0,
+  "known_verdict": null,
+  "login_wall": false,
+  "platform": "html",
+  "reasons": [
+    "terms restrict republishing: store facts only, link to the original (already our policy)"
+  ],
+  "robots": "allowed",
+  "sitemaps": [
+    "https://algomau.ca/sitemap_index.xml"
+  ],
+  "terms_forbid_automated": false,
+  "terms_forbid_republish": true,
+  "terms_quotes": [
+    "Use The Sites are intended for your personal, non-commercial use.",
+    "You may not reproduce, distribute, modify, link to, or frame the Sites or any part thereof without prior written permission from Algoma University."
+  ],
+  "terms_url": "https://algomau.ca/privacy/notice-of-website-privacy/",
+  "url": "https://algomau.ca/events/",
+  "verdict": "allowed"
+}

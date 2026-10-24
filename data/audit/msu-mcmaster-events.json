@@ -1,0 +1,24 @@
+{
+  "checked": "2026-10-24T05:35:34.935257+00:00",
+  "dated_items_in_html": 0,
+  "feeds": [],
+  "http_status": 200,
+  "jsonld_events": 0,
+  "known_verdict": null,
+  "login_wall": false,
+  "platform": "html_no_dates",
+  "reasons": [
+    "terms restrict republishing: store facts only, link to the original (already our policy)"
+  ],
+  "robots": "allowed",
+  "sitemaps": [],
+  "terms_forbid_automated": false,
+  "terms_forbid_republish": true,
+  "terms_quotes": [
+    "’s web site for personal, non-commercial transitory viewing only.",
+    "This is the grant of a license, not a transfer of title, and under this license you may not: modify or copy the materials; use the materials for any commercial purpose, or for any public display (commercial or non-commercial); attempt to de"
+  ],
+  "terms_url": "https://msumcmaster.ca/terms-conditions-of-use/",
+  "url": "https://msumcmaster.ca/clubs/events-calendar/",
+  "verdict": "allowed"
+}

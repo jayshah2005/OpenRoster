@@ -1,0 +1,33 @@
+{
+  "checked": "2026-10-24T05:35:11.467477+00:00",
+  "dated_items_in_html": 25,
+  "feeds": [],
+  "http_status": 200,
+  "jsonld_events": 0,
+  "known_verdict": null,
+  "login_wall": false,
+  "platform": "html",
+  "reasons": [
+    "terms restrict republishing: store facts only, link to the original (already our policy)"
+  ],
+  "robots": "allowed",
+  "sitemaps": [
+    "https://www.scotiabank.com/ca/en/personal.sitemap.xml",
+    "https://www.scotiabank.com/ca/en/small-business.sitemap.xml",
+    "https://www.scotiabank.com/ca/en/commercial-banking.sitemap.xml",
+    "https://www.scotiabank.com/ca/en/about.sitemap.xml",
+    "https://www.scotiabank.com/ca/fr/particuliers.sitemap.xml",
+    "https://www.scotiabank.com/ca/fr/petites-entreprises.sitemap.xml",
+    "https://www.scotiabank.com/ca/fr/commercial-banking.sitemap.xml",
+    "https://www.scotiabank.com/ca/fr/qui-nous-sommes.sitemap.xml"
+  ],
+  "terms_forbid_automated": false,
+  "terms_forbid_republish": true,
+  "terms_quotes": [
+    "own personal use and may not republish nor reproduce any substantial part of the Work in any manner whatsoever, including electronically reproducing this Work by \"uploading\", \"downloading\" or accessing the Work on to the Internet or any oth",
+    "Any copying, republication or redistribution of Reuters content, including by caching, framing or similar means, is expressly prohibited without the prior written consent of Reuters."
+  ],
+  "terms_url": "https://www.scotiabank.com/ca/en/about/contact-us/legal.html",
+  "url": "https://www.scotiabank.com/careers/en/careers/campus-events.html",
+  "verdict": "allowed"
+}

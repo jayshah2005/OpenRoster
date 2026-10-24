@@ -1,0 +1,26 @@
+{
+  "checked": "2026-10-24T05:36:49.180170+00:00",
+  "dated_items_in_html": 7,
+  "feeds": [],
+  "http_status": 200,
+  "jsonld_events": 0,
+  "known_verdict": null,
+  "login_wall": false,
+  "platform": "html",
+  "reasons": [
+    "terms restrict republishing: store facts only, link to the original (already our policy)"
+  ],
+  "robots": "allowed",
+  "sitemaps": [
+    "https://www.sheridancollege.ca/sitemap.xml"
+  ],
+  "terms_forbid_automated": false,
+  "terms_forbid_republish": true,
+  "terms_quotes": [
+    "Use You shall not, without our prior written permission use the Site for purposes other than your own personal, non-commercial use.",
+    "No part of the Site may be reproduced, modified, distributed, sold, published, broadcast, retransmitted in any form without the prior written consent of Sheridan."
+  ],
+  "terms_url": "https://www.sheridancollege.ca/privacy-legal",
+  "url": "https://www.sheridancollege.ca/events/2026/02/hackathon",
+  "verdict": "allowed"
+}
