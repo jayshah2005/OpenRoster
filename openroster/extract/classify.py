@@ -37,14 +37,16 @@ CS_STRONG = re.compile(
 )
 # Campus admin and teaching-staff items that mention tech words but are not opportunities for students.
 NOT_OPPORTUNITY = re.compile(
-    r"\b(?:for tas?\b|teaching assistants?|faculty fellows?|brightspace|academic integrity|last day to|"
+    r"\b(?:for tas?\b|tas? (?:workshop|training|orientation)|teaching assistants?|teaching (?:and learning|dossiers?|excellence|support|awards?|certificates?|development)|pedagog\w*|"
+    r"faculty fellows?|brightspace|academic integrity|scholarly|literature review|publish(?:ing|able)?|"
+    r"thesis|dissertation|last day to|"
     r"registration (?:opens|closes|deadline)|deadline to (?:drop|add|withdraw)|senate|board of governors|"
     r"convocation|exam (?:period|schedule)|reading week|tuition)",
     re.I,
 )
 CS_FOCUS = re.compile(
-    r"\b(?:hack(?:s|ing)?|tech|technology|technical|\bai\b|\bml\b|\bcs\b|data|analytics|engineer(?:s|ing)?|startups?|"
-    r"entrepreneur(?:s|ship)?|innovation|digital|web|apps?\b|ux|ui\b|cloud|cyber|product management|"
+    r"\b(?:hack(?:s|ing)?|code|tech|technology|technical|\bai\b|\bml\b|\bcs\b|data|analytics|engineer(?:s|ing)?|startups?|"
+    r"entrepreneur(?:s|ship)?|web|apps?\b|ux|ui\b|cloud|cyber|product management|"
     r"google|microsoft|amazon|aws|azure|ibm|shopify|quant|stem\b|co-?op|internships?|recruit(?:ing|ment)?|"
     r"resumes?|cv\b|interviews?|job search|linkedin|careers?|networking|pitch|incubator|accelerator)",
     re.I,
