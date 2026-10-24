@@ -1,8 +1,8 @@
 # Source audit report
 
-Generated 2026-10-24 05:43 UTC by `openroster audit --all`. A source runs only when its verdict is **allowed** and the owner set `reviewed: true`.
+Generated 2026-10-24 13:37 UTC by `openroster audit --all`. A source runs only when its verdict is **allowed** and the owner set `reviewed: true`.
 
-Summary: allowed: 152, blocked: 25, unknown: 1
+Summary: allowed: 154, blocked: 23, unknown: 1
 
 ## Known verdicts (always enforced in code)
 
@@ -107,7 +107,7 @@ Summary: allowed: 152, blocked: 25, unknown: 1
 | `fanshawe-career-services-events` | [Fanshawe Career Services events & workshops](https://www.fanshawec.ca/students/support/employment/career-services/events-workshops) | **allowed** | allowed | - | - | html_no_dates | no | 2026-10-24 |
 | `uwindsor-cs-event-calendar` | [UWindsor School of Computer Science event calendar](https://www.uwindsor.ca/science/computerscience/event-calendar) | **allowed** | allowed | [terms](https://www.uwindsor.ca/394207/terms-and-conditions) | - | ics | no | 2026-10-24 |
 | `uwindsor-event-calendar` | [University of Windsor main event calendar](https://www.uwindsor.ca/event-calendar) | **allowed** | allowed | [terms](https://www.uwindsor.ca/394207/terms-and-conditions) | - | html | no | 2026-10-24 |
-| `uwindsor-css-events` | [UWindsor Computer Science Society events](https://css.uwindsor.ca/events) | **blocked** | no_robots | - | - | unknown | no | 2026-10-24 |
+| `uwindsor-css-events` | [UWindsor Computer Science Society events](https://css.uwindsor.ca/events) | **allowed** | allowed | - | - | html | no | 2026-10-24 |
 | `stclair-career-fairs` | [St. Clair College career fairs & industry events](https://stclaircollege.ca/career-fairs) | **allowed** | allowed | - | - | html_no_dates | no | 2026-10-24 |
 | `queens-computing-calendar-ics` | [Queen's School of Computing calendar (Google Calendar iCal)](https://calendar.google.com/calendar/ical/nssp17qbbcimvjluc71msmvimc%40group.calendar.google.com/public/basic.ics) | **blocked** | not_checked | - | - | unknown | no | 2026-10-24 |
 | `queens-ams-events` | [Queen's Alma Mater Society events (Tribe)](https://www.myams.org/wp-json/tribe/events/v1/events) | **allowed** | allowed | - | - | html_no_dates | no | 2026-10-24 |
@@ -157,7 +157,7 @@ Summary: allowed: 152, blocked: 25, unknown: 1
 | `hackathon:gdg-hacks` | [GDG Hacks](https://gdghacks.com/) | **allowed** | no_robots | - | - | html | no | 2026-10-24 |
 | `hackathon:gdg-hacks-guelph` | [GDG Hacks (Guelph)](https://gdg.community.dev/events/details/google-gdg-on-campus-university-of-guelph-guelph-canada-presents-gdg-hacks-3/) | **blocked** | not_checked | - | - | unknown | no | 2026-10-24 |
 | `hackathon:genai-genesis` | [GenAI Genesis](https://genaigenesis.ca/) | **allowed** | allowed | - | - | html_no_dates | no | 2026-10-24 |
-| `hackathon:global-game-jam-site-game-development-program` | [Global Game Jam site (Game Development program)](https://educationnewscanada.com/article/education/region/ontario/27/745152/niagara-collegejanuary-28-2019-gamers-unite-at-niagara-college-for-fourth-annual-global-game-jam.html) | **blocked** | disallowed | - | - | unknown | no | 2026-10-24 |
+| `hackathon:global-game-jam-site-game-development-program` | [Global Game Jam site (Game Development program)](https://educationnewscanada.com/article/education/region/ontario/27/745152/niagara-collegejanuary-28-2019-gamers-unite-at-niagara-college-for-fourth-annual-global-game-jam.html) | **allowed** | allowed | - | - | html | no | 2026-10-24 |
 | `hackathon:hack-canada` | [Hack Canada](https://hackcanada.org) | **allowed** | allowed | - | - | html | no | 2026-10-24 |
 | `hackathon:hack-club-events-canada` | [Hack Club events (Canada)](https://hackathons.hackclub.com/) | **allowed** | no_robots | [terms](https://www.losaltoshacks.com/) | - | html | no | 2026-10-24 |
 | `hackathon:hack-peel` | [Hack Peel](https://hackpeel.ca) | **allowed** | allowed | - | - | html_no_dates | no | 2026-10-24 |
