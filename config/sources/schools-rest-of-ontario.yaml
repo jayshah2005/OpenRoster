@@ -7,7 +7,7 @@ sources:
   url: https://www.uwo.ca/events/_data/current.ics
   owner: western
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -19,7 +19,7 @@ sources:
   url: https://career.uwo.ca/take_action/events_workshops/index.html
   owner: western
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -31,7 +31,7 @@ sources:
   url: https://www.csd.uwo.ca/news/
   owner: western
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: all
@@ -43,7 +43,7 @@ sources:
   url: https://www.fsu.ca/fsucalendar.ics
   owner: fanshawe
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -55,7 +55,7 @@ sources:
   url: https://www.fanshawec.ca/students/support/employment/career-services/events-workshops
   owner: fanshawe
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -67,7 +67,7 @@ sources:
   url: https://www.uwindsor.ca/science/computerscience/event-calendar
   owner: uwindsor
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: all
@@ -78,7 +78,7 @@ sources:
   url: https://www.uwindsor.ca/event-calendar
   owner: uwindsor
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -89,7 +89,7 @@ sources:
   url: https://css.uwindsor.ca/events
   owner: uwindsor
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: all
@@ -101,7 +101,7 @@ sources:
   url: https://stclaircollege.ca/career-fairs
   owner: stclair
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -126,7 +126,7 @@ sources:
   url: https://www.myams.org/wp-json/tribe/events/v1/events
   owner: queens
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 10
   options:
     filter: cs
@@ -138,7 +138,7 @@ sources:
   url: https://compsa.ca/events
   owner: queens
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: all
@@ -150,7 +150,7 @@ sources:
   url: https://www.stlawrencecollege.ca/eventscalendar
   owner: stlawrence
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -161,7 +161,7 @@ sources:
   url: https://www.trentu.ca/events
   owner: trent
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -172,7 +172,7 @@ sources:
   url: https://www.trentu.ca/careerspace/expo
   owner: trent
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -184,7 +184,7 @@ sources:
   url: https://department.flemingcollege.ca/careers/career-job-fairs/
   owner: fleming
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -197,7 +197,7 @@ sources:
   url: https://cssa-aei.ca/
   owner: uottawa
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: all
@@ -208,7 +208,7 @@ sources:
   url: https://www.algonquinsa.com/wp-json/tribe/events/v1/events
   owner: algonquin
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 10
   options:
     filter: cs
@@ -220,7 +220,7 @@ sources:
   url: https://www.algonquincollege.com/studentsupportservices/events/
   owner: algonquin
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -232,7 +232,7 @@ sources:
   url: https://www.algonquincollege.com/coop-career-centre/career-fairs/
   owner: algonquin
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -244,7 +244,7 @@ sources:
   url: https://www.algonquincollege.com/events/
   owner: algonquin
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -256,7 +256,7 @@ sources:
   url: https://laurentian.ca/events
   owner: laurentian
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -267,7 +267,7 @@ sources:
   url: https://www.lakeheadu.ca/about/news-and-events/events
   owner: lakehead
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -289,7 +289,7 @@ sources:
   url: https://algomau.ca/events/
   owner: algoma
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -301,7 +301,7 @@ sources:
   url: https://www.georgiancollege.ca/events/
   owner: georgian
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -312,7 +312,7 @@ sources:
   url: https://loyalistcollege.com/wp-json/tribe/events/v1/events
   owner: loyalist
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 10
   options:
     filter: cs
@@ -324,7 +324,7 @@ sources:
   url: https://cambriancollege.ca/events/
   owner: cambrian
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -335,7 +335,7 @@ sources:
   url: https://www.northerncollege.ca/events/
   owner: northern
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -347,7 +347,7 @@ sources:
   url: https://www.saultcollege.ca/careerfair
   owner: sault
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -359,7 +359,7 @@ sources:
   url: https://www.investottawa.ca/events/
   owner: invest-ottawa
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -370,7 +370,7 @@ sources:
   url: https://www.techalliance.ca/news/event-type/techalliance-events/
   owner: techalliance-london
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -382,7 +382,7 @@ sources:
   url: https://www.wetech-alliance.com/wp-json/tribe/events/v1/events
   owner: wetech-alliance
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 10
   options:
     filter: cs

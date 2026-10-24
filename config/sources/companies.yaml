@@ -7,7 +7,7 @@ sources:
   url: https://jobs.bmo.com/ca/en/student-events
   owner: bmo
   enabled: true
-  reviewed: false
+  reviewed: true
   hand_tuned: true
   page_budget: 2
   default_roles:
@@ -33,7 +33,7 @@ sources:
   url: https://www.scotiabank.com/careers/en/careers/campus-events.html
   owner: scotiabank
   enabled: true
-  reviewed: false
+  reviewed: true
   hand_tuned: true
   page_budget: 2
   default_type: info_session
@@ -55,7 +55,7 @@ sources:
   url: https://jobs.scotiabank.com/search/?q=student
   owner: scotiabank
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: all
@@ -67,7 +67,7 @@ sources:
   url: https://jobs.rbc.com/ca/en/students-graduates
   owner: rbc
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -79,7 +79,7 @@ sources:
   url: https://www.cibc.com/en/about-cibc/careers/students-and-graduates/student-and-campus-events.html
   owner: cibc
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -90,7 +90,7 @@ sources:
   url: https://kpmg.com/ca/en/careers/students/student-programs.html
   owner: kpmg-ca
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -102,7 +102,7 @@ sources:
   url: https://www.bain.com/careers/work-with-us/students/toronto/
   owner: bain
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -124,7 +124,7 @@ sources:
   url: https://www.janestreet.com/join-jane-street/programs-and-events/
   owner: jane-street
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: all
@@ -135,7 +135,7 @@ sources:
   url: https://optiver.com/recruitment-events/
   owner: optiver
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: all
@@ -146,7 +146,7 @@ sources:
   url: https://www.imc.com/us/corporate-news/prosperity-4
   owner: imc
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: all
@@ -170,7 +170,7 @@ sources:
   url: https://jobs.bmo.com/ca/en/student-events
   owner: bmo
   enabled: true
-  reviewed: false
+  reviewed: true
   hand_tuned: true
   page_budget: 2
   default_type: workshop

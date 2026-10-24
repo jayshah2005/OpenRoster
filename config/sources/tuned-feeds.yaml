@@ -7,7 +7,7 @@ sources:
   url: https://experiencebu.brocku.ca/events.rss
   owner: brock
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 1
   schools: [brock]
   location: {city: St. Catharines, region: CA-ON, country: CA}
@@ -24,7 +24,7 @@ sources:
   url: https://sheridancollege.campuslabs.ca/engage/events.rss
   owner: sheridan
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 1
   schools: [sheridan]
   location: {city: Oakville, region: CA-ON, country: CA}
@@ -39,7 +39,7 @@ sources:
   url: https://www.uwo.ca/events/_data/current-live.json
   owner: western
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 1
   location: {city: London, region: CA-ON, country: CA}
   options:
@@ -62,7 +62,7 @@ sources:
   url: https://events.carleton.ca/wp-json/wp/v2/cu_event?per_page=100
   owner: carleton
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 4
   location: {city: Ottawa, region: CA-ON, country: CA}
   options: &carleton
@@ -82,7 +82,7 @@ sources:
   url: https://carleton.ca/scs/wp-json/wp/v2/cu_event?per_page=100
   owner: carleton
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 3
   location: {city: Ottawa, region: CA-ON, country: CA}
   options:
@@ -95,7 +95,7 @@ sources:
   url: https://carleton.ca/career/wp-json/wp/v2/cu_event?per_page=100
   owner: carleton
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 3
   schools: [carleton]
   location: {city: Ottawa, region: CA-ON, country: CA}
@@ -110,7 +110,7 @@ sources:
   url: https://www.queensu.ca/eventscalendar/calendar/rss/monthly/all
   owner: queens
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 1
   location: {city: Kingston, region: CA-ON, country: CA}
   options:
@@ -123,7 +123,7 @@ sources:
   url: https://www.stclaircollege.ca/events.xml
   owner: st-clair
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 1
   location: {city: Windsor, region: CA-ON, country: CA}
   options:

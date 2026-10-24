@@ -7,7 +7,7 @@ sources:
   url: https://www.brockbusu.ca/whats-on/events/
   owner: brock
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -19,7 +19,7 @@ sources:
   url: https://brockcsc.ca/events
   owner: brock
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: all
@@ -31,7 +31,7 @@ sources:
   url: https://brocku.ca/linc/entrepreneurship-events/
   owner: brock-linc
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -42,7 +42,7 @@ sources:
   url: https://www.niagaracollege.ca/events/list/
   owner: niagara-college
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 10
   options:
     filter: cs
@@ -54,7 +54,7 @@ sources:
   url: https://www.innovateniagara.com/site/tech-events-niagara
   owner: innovate-niagara
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -65,7 +65,7 @@ sources:
   url: https://news.mcmaster.ca/events.ics
   owner: mcmaster
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -77,7 +77,7 @@ sources:
   url: https://www.eng.mcmaster.ca/about-us/events/
   owner: mcmaster
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -99,7 +99,7 @@ sources:
   url: https://msumcmaster.ca/clubs/events-calendar/
   owner: mcmaster
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -110,7 +110,7 @@ sources:
   url: https://www.mohawkcollege.ca/events
   owner: mohawk
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -121,7 +121,7 @@ sources:
   url: https://mohawkstudents.ca/get-involved/events/
   owner: mohawk
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -132,7 +132,7 @@ sources:
   url: https://www.innovationfactory.ca/events/
   owner: innovation-factory
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -143,7 +143,7 @@ sources:
   url: https://www.thessu.ca/events
   owner: sheridan
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -165,7 +165,7 @@ sources:
   url: https://uwaterloo.ca/events/events/ical
   owner: uwaterloo
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -177,7 +177,7 @@ sources:
   url: https://cs.uwaterloo.ca/events/ical
   owner: uwaterloo
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: all
@@ -189,7 +189,7 @@ sources:
   url: https://uwaterloo.ca/engineering/events/ical
   owner: uwaterloo
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -201,7 +201,7 @@ sources:
   url: https://uwaterloo.ca/women-in-computer-science/events/ical
   owner: uwaterloo
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: all
@@ -213,7 +213,7 @@ sources:
   url: https://csclub.uwaterloo.ca/events.ics
   owner: uwaterloo
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: all
@@ -225,7 +225,7 @@ sources:
   url: https://wusa.ca/wp-json/tribe/events/v1/events
   owner: uwaterloo
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 10
   options:
     filter: cs
@@ -237,7 +237,7 @@ sources:
   url: https://www.velocityincubator.com/events
   owner: velocity
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: all
@@ -248,7 +248,7 @@ sources:
   url: https://www.acceleratorcentre.com/wp-json/tribe/events/v1/events
   owner: accelerator-centre
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 10
   options:
     filter: cs
@@ -260,7 +260,7 @@ sources:
   url: https://events.wlu.ca/_data/current.ics
   owner: laurier
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -283,7 +283,7 @@ sources:
   url: https://news.uoguelph.ca/wp-json/tribe/events/v1/events
   owner: uoguelph
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 10
   options:
     filter: cs
@@ -295,7 +295,7 @@ sources:
   url: https://uoguelph.campusgroups.com/ical/uoguelph/ical_uoguelph.ics
   owner: uoguelph
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -307,7 +307,7 @@ sources:
   url: https://www.uoguelph.ca/computing/events
   owner: uoguelph
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: all
@@ -318,7 +318,7 @@ sources:
   url: https://blogs1.conestogac.on.ca/events
   owner: conestoga
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -329,7 +329,7 @@ sources:
   url: https://www.conestogastudents.com/getinvolved/eventslist/
   owner: conestoga
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs

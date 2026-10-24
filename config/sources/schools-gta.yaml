@@ -7,7 +7,7 @@ sources:
   url: https://www.engineering.utoronto.ca/wp-json/tribe/events/v1/events
   owner: uoft
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 10
   options:
     filter: cs
@@ -19,7 +19,7 @@ sources:
   url: https://undergrad.engineering.utoronto.ca/wp-json/tribe/events/v1/events
   owner: uoft
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 10
   options:
     filter: cs
@@ -31,7 +31,7 @@ sources:
   url: https://sop.utoronto.ca/wp-json/tribe/events/v1/events
   owner: uoft
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 10
   options:
     filter: cs
@@ -43,7 +43,7 @@ sources:
   url: https://www.utm.utoronto.ca/events
   owner: uoft
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -54,7 +54,7 @@ sources:
   url: https://utsc.utoronto.ca/cms/events
   owner: uoft
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: all
@@ -65,7 +65,7 @@ sources:
   url: https://www.utoronto.ca/events
   owner: uoft
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -89,7 +89,7 @@ sources:
   url: https://dmz.torontomu.ca/
   owner: dmz
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -122,7 +122,7 @@ sources:
   url: https://yuconnect.yorku.ca/ical/yorku/ical_yorku.ics
   owner: yorku
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: all
@@ -134,7 +134,7 @@ sources:
   url: https://lassonde.yorku.ca/events/
   owner: yorku
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: all
@@ -145,7 +145,7 @@ sources:
   url: https://www.ocadu.ca/events
   owner: ocadu
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -156,7 +156,7 @@ sources:
   url: https://events.ontariotechu.ca/
   owner: ontariotechu
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -167,7 +167,7 @@ sources:
   url: https://students.senecapolytechnic.ca/spaces/112/mynews/home
   owner: seneca
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -178,7 +178,7 @@ sources:
   url: https://www.senecapolytechnic.ca/futurestudents/events-and-webinars.html
   owner: seneca
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -190,7 +190,7 @@ sources:
   url: https://edu.ieee.org/ca-centennial-college/calendar
   owner: centennial
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: all
@@ -202,7 +202,7 @@ sources:
   url: https://studentassociation.ca/events
   owner: georgebrown
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs
@@ -213,7 +213,7 @@ sources:
   url: https://durhamcollege.ca/wp-json/tribe/events/v1/events?categories=academic
   owner: durham
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 10
   options:
     filter: cs
@@ -225,7 +225,7 @@ sources:
   url: https://techto.org/events
   owner: techto
   enabled: false
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: cs

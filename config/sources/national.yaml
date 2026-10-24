@@ -7,7 +7,7 @@ sources:
   url: https://hackathons.hackclub.com/api/events/upcoming
   owner: hackclub
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 3
   options:
     filter: all
@@ -20,7 +20,7 @@ sources:
   url: https://vectorinstitute.ai/wp-json/tribe/events/v1/events
   owner: vector-institute
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 10
   options:
     filter: cs
@@ -32,7 +32,7 @@ sources:
   url: https://api.lu.ma/ics/get?entity=calendar&id=cal-oYQx6BHc1owy2ip
   owner: canadian-undergraduate-technology-conference-cutc
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 2
   options:
     filter: all
@@ -44,7 +44,7 @@ sources:
   url: https://api.lu.ma/ics/get?entity=calendar&id=cal-DdUEFsYsDVh7osG
   owner: toronto-tech-week
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 2
   options:
     filter: cs
@@ -56,7 +56,7 @@ sources:
   url: https://api.lu.ma/ics/get?entity=calendar&id=cal-NFIKWffXs4kAUi3
   owner: techto
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 2
   options:
     filter: cs
@@ -68,7 +68,7 @@ sources:
   url: https://api.lu.ma/ics/get?entity=calendar&id=cal-05jPeXeBQT1g9n3
   owner: torontoai
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 2
   options:
     filter: cs
@@ -80,7 +80,7 @@ sources:
   url: https://api.lu.ma/ics/get?entity=calendar&id=cal-rJoHBmPlHGvg5F8
   owner: waterloo-tech-adjacent-events
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 2
   options:
     filter: cs
@@ -92,7 +92,7 @@ sources:
   url: https://api.lu.ma/ics/get?entity=calendar&id=cal-N301eCjDJFPPHxA
   owner: waterloo-tech-week
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 2
   options:
     filter: all
@@ -104,7 +104,7 @@ sources:
   url: https://api.lu.ma/ics/get?entity=calendar&id=cal-cBMgU2QXqXZQSv1
   owner: socratica
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 2
   options:
     filter: all
@@ -116,7 +116,7 @@ sources:
   url: https://api.lu.ma/ics/get?entity=calendar&id=cal-yiYZCjVML6OJg7I
   owner: ottawa-tech-thursday
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 2
   options:
     filter: cs
@@ -128,7 +128,7 @@ sources:
   url: https://api.lu.ma/ics/get?entity=calendar&id=cal-gUADv2P40s4rWOB
   owner: careerin-tech-society
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 2
   options:
     filter: cs
@@ -140,7 +140,7 @@ sources:
   url: https://api.lu.ma/ics/get?entity=calendar&id=cal-W6q2oD1np3YfMjq
   owner: tech2step-events
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 2
   options:
     filter: cs
@@ -152,7 +152,7 @@ sources:
   url: https://api.lu.ma/ics/get?entity=calendar&id=cal-HL5D5MWKDM5EIX7
   owner: tech-walk-and-talk-montreal
   enabled: true
-  reviewed: false
+  reviewed: true
   page_budget: 2
   options:
     filter: cs

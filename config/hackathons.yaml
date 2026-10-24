@@ -9,7 +9,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: April
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: 36-hour hackathon at Hazel McCallion Campus; 2026 edition April 24-26 (GDG on Campus Sheridan).
 - id: calgaryhacks
@@ -20,7 +20,7 @@ hackathons:
   region: CA-AB
   country: CA
   usual_month: February
-  reviewed: false
+  reviewed: true
   enabled: false
   notes: The apex domain reset the connection and www does not resolve. The 2026 edition ran Feb 14-15. A mirror is at calgaryhacks.ca.csus.cpsc.ucalgary.ca.
 - id: centennialhacks
@@ -31,7 +31,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: August
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: 12-hour hackathon run by the IEEE Centennial College Student Branch at Progress Campus (Aug 15 per organizer posts). No standalone official site found; the IEEE branch site mentions 'Centennial Hacks 2026'. An MLH listing exists but was not fetched.
 - id: computer-science-club-game-jam
@@ -42,7 +42,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: unknown
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: CSC runs an annual Game Jam plus coding competitions (per dept page, 2023). CSC also ran MLH Local Hack Day in 2019; no current recurring hackathon named BrockHacks found.
 - id: conhacks
@@ -64,7 +64,7 @@ hackathons:
   region: CA-QC
   country: CA
   usual_month: January
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: ConUHacks X ran Jan 24-25, 2026. The page links a mentor/judge Google Form.
 - id: cucai-canadian-undergraduate-conference-on-ai-run-by-qmind
@@ -75,7 +75,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: March
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: National student AI conference, Mar 7, 2026 per School of Computing calendar. Conference, not a hackathon.
 - id: cuhacking
@@ -86,7 +86,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: July
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: 'cuHacking 2026 ran Jul 10-12 (it moved from its earlier spring/winter slot). Contact: info@cuhacking.ca.'
 - id: deerhacks
@@ -97,7 +97,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: February
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: UTM's hackathon (MCSS-affiliated). DeerHacks 2027 announced, dates TBA.
 - id: deltahacks
@@ -108,7 +108,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: January
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: DeltaHacks 13 runs Jan 9-10, 2027. Portal is at portal.deltahacks.com. Mentors are mentioned, but there is no application.
 - id: designathon-queen-s-ux-club
@@ -119,7 +119,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: November
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: Designathon 2026 on Nov 6, listed on the School of Computing calendar.
 - id: ellehacks
@@ -130,7 +130,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: February
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: The site shows the title "ElleHacks 2026" only (JS-only).
 - id: eurekahacks
@@ -141,7 +141,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: May
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: For high-school students only. Held at the Accelerator Centre.
 - id: gdg-hacks
@@ -152,7 +152,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: May
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: 24-hour hackathon run by GDG on Campus Guelph at Rozanski Hall; 2026 edition May 9-10 with ~130 students. GryphHacks (2022, virtual) appears dormant.
 - id: gdg-hacks-guelph
@@ -174,7 +174,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: March
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: 'The 2027 edition is in March. The site has a "Become a judge" call. Contact: contact@genaigenesis.ca.'
 - id: global-game-jam-site-game-development-program
@@ -185,7 +185,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: January
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: Welland Campus hosted a Global Game Jam site for several years (4th annual in 2019); current status unconfirmed.
 - id: hack-canada
@@ -196,7 +196,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: January
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: Hack Canada 2027 runs Jan 8-10, 2027. The page has an "Interested in judging?" section with a contact email. Hacker applications are at app.hackcanada.org/apply.
 - id: hack-club-events-canada
@@ -207,7 +207,7 @@ hackathons:
   region: CA
   country: CA
   usual_month: year-round
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: This is a directory of mostly high-school hackathons with a public JSON API (see apis_and_feeds). Canadian 2026 entries include Equinox Vancouver Hackathon, Horizons Polaris (Toronto), EurekaHacks, MathHacks, Redshifted Catalyst, ONHacks and Hack Peel.
 - id: hack-peel
@@ -218,7 +218,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: December
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: Found via the Hack Club API (2026-12-12). The site is JS-only.
 - id: hack-the-6ix
@@ -229,7 +229,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: July
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: 'The 2026 edition ran Jul 17-19. Contact: hello@hackthe6ix.com.'
 - id: hack-the-hill
@@ -240,7 +240,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: September
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: 'Hack the Hill III ran Sep 25-27, 2026 at uOttawa. Contact: sponsorship@hackthehill.com.'
 - id: hack-the-north
@@ -251,7 +251,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: September
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: The site is JS-only (WebFetch saw only the title). Search results show hackthenorth.com/join (organizer application, closes in January, Waterloo post-secondary students only), a mentor FAQ PDF, a workshop-lead FAQ on Notion, and a homepage banner reading "Volunteer applications are now open!". The 2
 - id: hack-the-valley
@@ -262,7 +262,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: October
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: Hack the Valley 11 ran Oct 16-18, 2026. The site has a "Become a Volunteer" button.
 - id: hack-the-world-tmu
@@ -273,7 +273,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: November
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: Not fetched. A search snippet shows the Fall 2025 edition (an SDG competition, Nov 3-20).
 - id: hack-western
@@ -284,7 +284,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: November
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: Hack Western 13 runs Nov 20-22, 2026. The only application is the hacker one (/apply, open Oct 2-18).
 - id: hackcanada-gdg-on-campus-laurier-co-hosted
@@ -317,7 +317,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: November
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: 'Trent News says volunteers and mentors register through the HackTrent site. The site shows the title "HackTrent 2026" only (JS). Contact: tcsca@trentu.ca.'
 - id: hackville
@@ -328,7 +328,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: January
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: Hackville 2027 runs Jan 23-24. Apply at apply.hackville.io.
 - id: hawkhacks
@@ -361,7 +361,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: August
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: The site responded with the title only (JS-only). Historically a virtual event.
 - id: jamhacks
@@ -372,7 +372,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: May-June
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: For high-school students. The FAQ says non-high-schoolers can join as a mentor or judge (no form linked). JAMHacks 11 is next.
 - id: makeuoft
@@ -383,7 +383,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: February
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: 'A hardware makeathon. 2027 dates are TBD. Contact: hello@makeuoft.ca.'
 - id: mathhacks
@@ -394,7 +394,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: February, October
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: Found via the Hack Club API (Feb 2026 and Oct 2026 editions). Not fetched.
 - id: mchacks
@@ -405,7 +405,7 @@ hackathons:
   region: CA-QC
   country: CA
   usual_month: January
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: 'McHacks 14 runs Jan 16-17, 2027. The site has "Become a Judge", "Become a Mentor" and "Volunteer with Us" sections (Google Form interest link). Contact: contact@mchacks.ca.'
 - id: mcmaster-engineering-competition-mec
@@ -427,7 +427,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: unknown
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: Two-day beginner-friendly video/board game jam at the Rankin Family Pavilion; recurrence not confirmed.
 - id: newhacks
@@ -449,7 +449,7 @@ hackathons:
   region: CA-BC
   country: CA
   usual_month: January
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: nwHacks 2027 runs Jan 16-17 at UBC. For now there is only an interest form.
 - id: onhacks
@@ -460,7 +460,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: November
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: Found via the Hack Club API (2026-11-15). The site is JS-only.
 - id: qhacks
@@ -471,7 +471,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: February
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: The site shows the "QHacks 2027" brand only (JS-heavy). The 2026 edition was around Feb 1 (per McMaster's list).
 - id: redshifted-catalyst
@@ -482,7 +482,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: March
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: Found via the Hack Club API.
 - id: ru-hacks
@@ -504,7 +504,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: August
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: 'Not a hackathon: capstone showcase with 60+ projects and 40+ industry guest judges (judge-call opportunity). No current Algonquin hackathon found.'
 - id: seneca-annual-hackathons-school-of-it-administration-securit
@@ -515,7 +515,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: unknown
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: Student-portal wiki mentions annual hackathons (e.g. 2022 Sustainability Hackathon); no current edition found.
 - id: sheridan-adobe-design-hackathon
@@ -526,7 +526,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: February
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: One-day design hackathon at Trafalgar campus (Faculty of Animation, Arts and Design with Adobe), Feb 26, 2026.
 - id: sheridan-datathon
@@ -559,7 +559,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: October
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: 12-hour Halloween-themed game jam open to all Brock students; ~40+ students per edition. Announced via Brock News and ExperienceBU.
 - id: spurhacks
@@ -581,7 +581,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: November
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: Women in Computer Science mini-hackathon, Nov 7, 2026 (from WiCS ICS).
 - id: terrahacks
@@ -592,7 +592,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: August
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: 'The site still shows the 2025 edition (Aug 1-3). Contact: contact@terrahacks.ca.'
 - id: unhack-yspace-lassonde
@@ -603,7 +603,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: November
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: For York undergraduates. Nov 7-8 (2026), $15 deposit. Found via search; the page was not fetched.
 - id: uofthacks
@@ -614,7 +614,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: January
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: UofTHacks 14 is in January 2027 (13 ran Jan 16-18, 2026). The page lists no role applications.
 - id: uottahack
@@ -625,7 +625,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: January
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: uOttaHack 9 runs Jan 15-17, 2027 (per search). /volunteer returned 404.
 - id: utra-hacks
@@ -636,7 +636,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: January-February
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: 'The 2026 edition ran Jan 31-Feb 1. Mentor and volunteer interest forms (Google Forms) are linked. Contact: hackinfo@utra.ca.'
 - id: uworcs-western-university-research-in-computer-science-confe
@@ -647,7 +647,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: April
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: Student-run CS research conference, not a hackathon; listed on the main uwo.ca events calendar.
 - id: winhacks
@@ -658,6 +658,6 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: February
-  reviewed: false
+  reviewed: true
   enabled: true
   notes: 'WinHacks 2026 ran Feb 7-8. Contact: support@winhacks.ca.'

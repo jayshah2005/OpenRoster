@@ -38,7 +38,9 @@ def propose() -> tuple[list[str], Path]:
         for entry in doc.get(key) or []:
             sid = f"hackathon:{entry['id']}" if key == "hackathons" else entry["id"]
             a = audits.get(sid)
-            if entry.get("reviewed") or not entry.get("enabled", True) or not a or a.get("verdict") != "allowed":
+            # Disabled sources are included: sign-off is what lets `autoselect` fetch an HTML page once to find its
+            # selectors, and a source only runs once it is also enabled.
+            if entry.get("reviewed") or not a or a.get("verdict") != "allowed":
                 continue
             entry["reviewed"] = True
             changed = True
