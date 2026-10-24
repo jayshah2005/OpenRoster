@@ -59,7 +59,7 @@ jobs:
         run: |
           git config user.name "openroster-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ reports/ LISTINGS.md
+          for p in data reports LISTINGS.md; do if [ -e "$p" ]; then git add "$p"; fi; done
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else

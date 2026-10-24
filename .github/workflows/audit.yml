@@ -37,7 +37,7 @@ jobs:
         run: |
           git config user.name "openroster-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/audit reports/source-audit.md
+          for p in data/audit reports/source-audit.md; do if [ -e "$p" ]; then git add "$p"; fi; done
           git diff --cached --quiet || (git commit -m "chore/data: update source audits" && git pull --rebase --autostash && git push)
       - name: Propose sign-off for newly allowed sources
         run: uv run openroster propose-approvals
