@@ -1,3 +1,4 @@
+// Shared layout for the home list, its extra pages and every facet page: filters, results, pager, browse links.
 import Link from "next/link";
 import { Suspense } from "react";
 import { facets, meta, schoolById, schools } from "@/lib/data";

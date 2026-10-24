@@ -1,3 +1,4 @@
+// /page/<n>/: further pages of the main list for browsing without JavaScript.
 import { notFound } from "next/navigation";
 import { ListPage, PAGE_SIZE } from "@/components/ListPage";
 import { liveEntries } from "@/lib/data";

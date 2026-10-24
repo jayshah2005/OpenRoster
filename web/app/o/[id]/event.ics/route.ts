@@ -1,3 +1,4 @@
+// /o/<id>/event.ics: single-event calendar file for the "Add to calendar" button.
 import { allIds, getOpportunity, meta, toEntry } from "@/lib/data";
 import { toICS } from "@/lib/feeds";
 

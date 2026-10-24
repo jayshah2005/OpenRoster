@@ -1,3 +1,4 @@
+// /contribute/: every way to help, from the website (email) or GitHub (issue forms, code).
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CONTACT_EMAIL, REPO_URL } from "@/lib/labels";

@@ -1,3 +1,4 @@
+// Site constants and the human-readable labels for every enum value in the data.
 export const SITE_NAME = "OpenRoster";
 export const REPO_URL = "https://github.com/jayshah2005/OpenRoster";
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://openroster.vercel.app").replace(/\/$/, "");

@@ -1,3 +1,4 @@
+// /calendar/: weekly agenda rendered on the server (no-JS), upgraded to a month grid by CalendarView.
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Suspense } from "react";

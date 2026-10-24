@@ -1,3 +1,4 @@
+// /feeds/<slug>.ics|.rss: prebuilt static feeds for common filters (list in lib/prebuilt.ts).
 import { meta } from "@/lib/data";
 import { toICS, toRSS } from "@/lib/feeds";
 import { SITE_URL } from "@/lib/labels";

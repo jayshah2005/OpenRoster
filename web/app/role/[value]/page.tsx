@@ -1,3 +1,4 @@
+// /role/<role>/: listings that offer one way to take part, e.g. volunteer or mentor.
 import type { Metadata } from "next";
 import { ListPage } from "@/components/ListPage";
 import { baseQueryFor, facetTitle, facetValues, selectFacet } from "@/lib/facetPages";

@@ -1,3 +1,4 @@
+// /takedown/: how organizers ask for removal (TAKEDOWN.md has the full policy).
 import type { Metadata } from "next";
 import { CONTACT_EMAIL, REPO_URL } from "@/lib/labels";
 

@@ -1,3 +1,4 @@
+// One opportunity in a list: type, badges, date, place, organizer, roles and next deadline. Server and client safe.
 import Link from "next/link";
 import { fmtDate, fmtWhen } from "@/lib/format";
 import { AUDIENCE_LABEL, MODE_LABEL, ROLE_LABEL, TYPE_LABEL, regionName } from "@/lib/labels";

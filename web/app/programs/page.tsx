@@ -1,3 +1,4 @@
+// /programs/: recurring early-career programs from config/programs.yaml.
 import type { Metadata } from "next";
 import Link from "next/link";
 import { programs } from "@/lib/data";

@@ -1,10 +1,10 @@
+// /submit/: short entry point to the submission form; /contribute/ has the full picture.
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CONTACT_EMAIL, REPO_URL } from "@/lib/labels";
 
 export const metadata: Metadata = { title: "Submit an opportunity" };
 
-// Short entry point for "submit"; the full set of ways to help is on /contribute/.
 export default function SubmitPage() {
   return (
     <article className="prose">

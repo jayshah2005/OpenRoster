@@ -1,3 +1,4 @@
+// /region/<CA-ON>/: listings in one province or state (same page shape as the home list).
 import type { Metadata } from "next";
 import { ListPage } from "@/components/ListPage";
 import { baseQueryFor, facetTitle, facetValues, selectFacet } from "@/lib/facetPages";

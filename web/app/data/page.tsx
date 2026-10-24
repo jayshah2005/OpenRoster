@@ -1,3 +1,4 @@
+// /data/ page: documents the public feeds and JSON files (public/data/ is written by scripts/gen-data.mjs).
 import type { Metadata } from "next";
 import Link from "next/link";
 import { REPO_URL, SITE_URL } from "@/lib/labels";

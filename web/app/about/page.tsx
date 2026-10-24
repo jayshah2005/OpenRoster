@@ -1,3 +1,4 @@
+// /about/: what OpenRoster is, where listings come from and how they are collected.
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CONTACT_EMAIL, REPO_URL } from "@/lib/labels";

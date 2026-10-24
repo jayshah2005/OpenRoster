@@ -1,3 +1,4 @@
+// /archive/: past listings, kept so old links keep working.
 import type { Metadata } from "next";
 import Link from "next/link";
 import { past } from "@/lib/data";

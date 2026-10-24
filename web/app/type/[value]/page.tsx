@@ -1,3 +1,4 @@
+// /type/<type>/: listings of one type, e.g. hackathons.
 import type { Metadata } from "next";
 import { ListPage } from "@/components/ListPage";
 import { baseQueryFor, facetTitle, facetValues, selectFacet } from "@/lib/facetPages";

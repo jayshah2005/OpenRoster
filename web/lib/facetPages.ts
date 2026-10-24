@@ -1,3 +1,4 @@
+// Facet pages (/type, /role, /region, /school): which listings each shows, its title and its static params.
 import { facets, liveEntries, schoolById } from "./data";
 import { REGION_LABEL, ROLE_LABEL, TYPE_PLURAL } from "./labels";
 import type { Entry } from "./types";

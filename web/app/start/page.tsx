@@ -1,3 +1,4 @@
+// /start/: the guide for early-career students.
 import type { Metadata } from "next";
 import Link from "next/link";
 

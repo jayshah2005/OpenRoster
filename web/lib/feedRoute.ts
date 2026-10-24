@@ -1,3 +1,4 @@
+// Shared handler for /api/feed.ics and /api/feed.rss.
 import { liveEntries } from "./data";
 import { applyFilters, describe, parseFilters } from "./filter";
 import { toICS, toRSS } from "./feeds";

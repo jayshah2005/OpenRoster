@@ -1,3 +1,4 @@
+// /also-useful/: links to internship and new grad lists (config/also_useful.yaml).
 import type { Metadata } from "next";
 import Link from "next/link";
 import { alsoUseful } from "@/lib/data";

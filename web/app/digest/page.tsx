@@ -1,3 +1,4 @@
+// /digest/: this week's deadlines, events and new listings, rebuilt with every data refresh.
 import type { Metadata } from "next";
 import { CardList, nextDeadline } from "@/components/Card";
 import { liveEntries, meta } from "@/lib/data";

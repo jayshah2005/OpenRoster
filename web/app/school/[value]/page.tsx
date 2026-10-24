@@ -1,3 +1,4 @@
+// /school/<id>/: listings open to a school's students or within 50 km of a campus.
 import type { Metadata } from "next";
 import { ListPage } from "@/components/ListPage";
 import { baseQueryFor, facetTitle, facetValues, selectFacet } from "@/lib/facetPages";

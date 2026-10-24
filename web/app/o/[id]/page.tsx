@@ -1,3 +1,4 @@
+// /o/<id>/: one opportunity with every role, its window, sources and "last verified" date.
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
