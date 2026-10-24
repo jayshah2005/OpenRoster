@@ -48,7 +48,9 @@ def parse_rss(xml_text: str, source: Source) -> AdapterResult:
         tree = HTMLParser(desc_html) if desc_html else None
         desc_text = clean(desc_html)
         text = f"{title} {host} {cats} {desc_text[:1500]}"
-        if not title or not keep(source, text, f"{title} {host} {cats}"):
+        # Title and host only: Engage categories ("Science and/or Technology", "Employment and/or Careers") are
+        # so broad that a quizbowl practice would count as tech.
+        if not title or not keep(source, text, f"{title} {host}"):
             continue
         start = to_zone(_rfc822(item.findtext(f"{EVENTS_NS}start")), source.timezone)
         end = to_zone(_rfc822(item.findtext(f"{EVENTS_NS}end")), source.timezone)

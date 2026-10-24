@@ -28,7 +28,7 @@ def parse_tribe(payload: dict, source: Source) -> tuple[list[Candidate], int, st
         cats = " ".join(c.get("name", "") for c in e.get("categories") or [])
         venue = e.get("venue") if isinstance(e.get("venue"), dict) else {}
         text = f"{title} {desc} {cats} {venue.get('venue', '')}"
-        if not title or not keep(source, text, f"{title} {cats}"):
+        if not title or not keep(source, text, title):  # categories are too broad to count (see feeds.py)
             continue
         tz = e.get("timezone") or source.timezone
         start, _ = parse_structured(e.get("start_date"), tz)
@@ -95,7 +95,7 @@ def parse_localist(payload: dict, source: Source) -> tuple[list[Candidate], int,
         desc = clean(e.get("description_text") or e.get("description"))
         types = " ".join(t.get("name", "") for t in ((e.get("filters") or {}).get("event_types") or []))
         text = f"{title} {desc} {types} {e.get('location_name') or ''}"
-        if not title or not keep(source, text, f"{title} {types}"):
+        if not title or not keep(source, text, title):
             continue
         geo = e.get("geo") or {}
         experience = (e.get("experience") or "").lower()

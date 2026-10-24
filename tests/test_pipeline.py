@@ -47,6 +47,7 @@ def test_speaker_names_are_stripped_from_titles():
     assert strip_person_names("Film Screening and Conversation with Dr. Afua Cooper") == "Film Screening and Conversation"
     assert strip_person_names("Before AI: the Art of Recombination by Dr. Jane Smith") == "Before AI: the Art of Recombination"
     assert strip_person_names("Workshop hosted by Google Cloud") == "Workshop hosted by Google Cloud"
+    assert strip_person_names("Community of Practice - Guest Presentation from John Foster (Brock") == "Community of Practice"
 
 
 def test_volunteer_role_from_title():
