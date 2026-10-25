@@ -1,6 +1,7 @@
 {
   "misses": {
     "2026-10-black-boys-code-sequencing-robots-in-motion-free-lego-robotics-wor-810d": 3,
+    "2026-10-career-education-2026-paramedic-career-fair-eb18": 1,
     "2026-10-careerin-tech-societ-richmond-tech-community-coffee-meetup-59a0": 7,
     "2026-10-hackforge-intro-to-openstreetmap-contributions-3579": 2,
     "2026-10-u-of-t-engineering-u-2026-fall-study-break-no-classes-28f6": 1,
@@ -78,7 +79,7 @@
     },
     "brock-experiencebu-rss": {
       "consecutive_failures": 0,
-      "count": 39,
+      "count": 38,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
@@ -961,7 +962,7 @@
       "refused": false
     },
     "niagara-college-events": {
-      "consecutive_failures": 9,
+      "consecutive_failures": 10,
       "count": 0,
       "error": "https://www.niagaracollege.ca/wp-json/tribe/events/v1/events?start_date=2026-10-25&per_page=50: disallowed by robots.txt",
       "fingerprint": null,
@@ -992,11 +993,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 126,
+      "last_nonzero": 127,
       "last_ok": "2026-10-25",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 126,
+      "raw_count": 127,
       "refused": false
     },
     "scotiabank-campus-events": {
@@ -1052,7 +1053,7 @@
       "refused": false
     },
     "uoft-engineering-events": {
-      "consecutive_failures": 9,
+      "consecutive_failures": 10,
       "count": 0,
       "error": "ZoneInfoNotFoundError: 'No time zone found with key UTC+0'",
       "fingerprint": null,
@@ -1096,11 +1097,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 701,
+      "last_nonzero": 697,
       "last_ok": "2026-10-25",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 701,
+      "raw_count": 697,
       "refused": false
     },
     "uoguelph-news-events-tribe": {
