@@ -18,8 +18,8 @@
   },
   "history": [],
   "id": "2026-11-hack-western-603f",
-  "last_seen": "2026-10-24T16:53:41.410358Z",
-  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "last_seen": "2026-10-25T04:42:07.565943Z",
+  "last_verified": "2026-10-25T04:42:07.565943Z",
   "location": {
     "city": "London",
     "country": "CA",
@@ -83,7 +83,7 @@
   "sources": [
     {
       "adapter": "hackathon_site",
-      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "fetched_at": "2026-10-25T04:42:07.565943Z",
       "source_id": "hackathon:hack-western",
       "url": "https://hackwestern.com"
     }

@@ -14,8 +14,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-bmo-ascend-canada-student-chapters-networking-event-38bd",
-  "last_seen": "2026-10-24T16:53:41.410358Z",
-  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "last_seen": "2026-10-25T04:42:07.565943Z",
+  "last_verified": "2026-10-25T04:42:07.565943Z",
   "location": {
     "city": null,
     "country": "CA",
@@ -50,7 +50,7 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "fetched_at": "2026-10-25T04:42:07.565943Z",
       "source_id": "bmo-student-events",
       "url": "https://jobs.bmo.com/ca/en/student-events"
     }

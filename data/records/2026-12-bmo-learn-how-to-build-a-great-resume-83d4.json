@@ -14,8 +14,8 @@
   "geo": null,
   "history": [],
   "id": "2026-12-bmo-learn-how-to-build-a-great-resume-83d4",
-  "last_seen": "2026-10-24T16:53:41.410358Z",
-  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "last_seen": "2026-10-25T04:42:07.565943Z",
+  "last_verified": "2026-10-25T04:42:07.565943Z",
   "location": {
     "city": null,
     "country": null,
@@ -50,7 +50,7 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "fetched_at": "2026-10-25T04:42:07.565943Z",
       "source_id": "bmo-virtual-workshops",
       "url": "https://jobs.bmo.com/ca/en/event/6a90a558acced97d63ac6c13/BMO-Builds-a-Resume"
     }

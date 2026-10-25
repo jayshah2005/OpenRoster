@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-10-u-of-t-central-event-maxime-cohen-on-pricing-in-the-age-of-ai-2dbd",
-  "last_seen": "2026-10-24T16:53:41.410358Z",
-  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "last_seen": "2026-10-25T04:42:07.565943Z",
+  "last_verified": "2026-10-25T04:42:07.565943Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "fetched_at": "2026-10-25T04:42:07.565943Z",
       "source_id": "uoft-central-events",
       "url": "https://www.rotman.utoronto.ca/news-events-and-ideas/public-events/events-listings/2026/october-2026/oct-28---maxime-cohen/"
     }

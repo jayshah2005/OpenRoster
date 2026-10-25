@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2027-01-department-of-geogra-geography-tourism-environmental-sustainability-al-004a",
-  "last_seen": "2026-10-24T16:53:41.410358Z",
-  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "last_seen": "2026-10-25T04:42:07.565943Z",
+  "last_verified": "2026-10-25T04:42:07.565943Z",
   "location": {
     "city": "St. Catharines",
     "country": "CA",
@@ -134,7 +134,7 @@
   "sources": [
     {
       "adapter": "rss",
-      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "fetched_at": "2026-10-25T04:42:07.565943Z",
       "source_id": "brock-experiencebu-rss",
       "url": "https://experiencebu.brocku.ca/event/336086"
     }

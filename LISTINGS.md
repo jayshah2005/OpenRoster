@@ -2,7 +2,7 @@
 
 Hackathons, info sessions, talks, career fairs, workshops, competitions and early-career programs for CS students, soonest deadline first. Filter, subscribe to a calendar, or see details at https://openroster-seven.vercel.app.
 
-247 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
+246 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
 
 | Apply by | Starts | Opportunity | Organizer | Type | Where | Ways to take part |
 |---|---|---|---|---|---|---|
@@ -160,7 +160,6 @@ Hackathons, info sessions, talks, career fairs, workshops, competitions and earl
 | Not listed | Nov 18 | [Beyond the Connection Request: Mastering LinkedIn & Personal Branding](https://openroster-seven.vercel.app/o/2026-11-bmo-beyond-the-connection-request-mastering-linkedin-p-8418/) | BMO | Workshop | Online | attend |
 | Not listed | Nov 18 | [Networking Reception for early & experienced professionals interested in Business, Finance and other corporate roles](https://openroster-seven.vercel.app/o/2026-11-career-education-networking-reception-for-early-experienced-profess-9c2b/) | Career Education | Career fair | Online | attend |
 | Not listed | Nov 18 | [DEMA × TD Insurance \| Beyond the Numbers: Data, AI & Actuarial Careers](https://openroster-seven.vercel.app/o/2026-11-digital-enterprise-m-dema-td-insurance-beyond-the-numbers-data-ai-actu-5740/) | Digital Enterprise Management Association (DEMA) | Tech talk | Mississauga, ON | attend |
-| Not listed | Nov 18 | [GIS Day 2026](https://openroster-seven.vercel.app/o/2026-11-hackforge-gis-day-2026-d852/) | Hackforge | Other | Windsor, ON | attend |
 | Not listed | Nov 18 | [CivicTechWR Hacknight](https://openroster-seven.vercel.app/o/2026-11-waterloo-tech-adjace-civictechwr-hacknight-7578/) | Waterloo Tech (+adjacent) Events (Luma iCal) | Hackathon | TBA | attend |
 | Not listed | Nov 19 | [Emerging Technologies in Automation and Mobility Transformation](https://openroster-seven.vercel.app/o/2026-11-wetech-alliance-even-emerging-technologies-in-automation-and-mobility-8077/) | WEtech Alliance events (Windsor-Essex) | Conference | Windsor, ON | attend |
 | Not listed | Nov 19 | [Endless Summer School – Frontiers of AI Interpretability](https://openroster-seven.vercel.app/o/2026-11-vector-institute-eve-endless-summer-school-frontiers-of-ai-interpretab-44df/) | Vector Institute events (The Events Calendar REST) | Other | Online | attend |

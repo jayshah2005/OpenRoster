@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-carleton-university-trans-crip-tech-symposium-152a",
-  "last_seen": "2026-10-24T16:53:41.410358Z",
-  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "last_seen": "2026-10-25T04:42:07.565943Z",
+  "last_verified": "2026-10-25T04:42:07.565943Z",
   "location": {
     "city": "Ottawa",
     "country": "CA",
@@ -70,7 +70,7 @@
   "sources": [
     {
       "adapter": "api",
-      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "fetched_at": "2026-10-25T04:42:07.565943Z",
       "source_id": "carleton-events-api",
       "url": "https://events.carleton.ca/event/trans-crip-tech-symposium/"
     }

@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-techto-luma-ical-the-growth-table-saas-north-ai-fc19",
-  "last_seen": "2026-10-24T16:53:41.410358Z",
-  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "last_seen": "2026-10-25T04:42:07.565943Z",
+  "last_verified": "2026-10-25T04:42:07.565943Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "fetched_at": "2026-10-25T04:42:07.565943Z",
       "source_id": "luma-techto",
       "url": "https://luma.com/growth-table-ottawa-saasnorth2026"
     }

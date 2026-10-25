@@ -69,11 +69,23 @@
       "field": "start",
       "new": "2026-10-26T08:00:00-04:00",
       "old": "2026-10-26T00:00:00-04:00"
+    },
+    {
+      "at": "2026-10-25T04:42:07.565943Z",
+      "field": "start",
+      "new": "2026-10-26T00:00:00-04:00",
+      "old": "2026-10-26T08:00:00-04:00"
+    },
+    {
+      "at": "2026-10-25T04:42:07.565943Z",
+      "field": "start",
+      "new": "2026-10-26T08:00:00-04:00",
+      "old": "2026-10-26T00:00:00-04:00"
     }
   ],
   "id": "2026-10-u-of-t-central-event-the-tech-festival-canada-551a",
-  "last_seen": "2026-10-24T16:53:41.410358Z",
-  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "last_seen": "2026-10-25T04:42:07.565943Z",
+  "last_verified": "2026-10-25T04:42:07.565943Z",
   "location": {
     "city": "Toronto",
     "country": "CA",
@@ -206,13 +218,13 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "fetched_at": "2026-10-25T04:42:07.565943Z",
       "source_id": "uoft-central-events",
       "url": "https://entrepreneurs.utoronto.ca/event/the-tech-festival-canada/"
     },
     {
       "adapter": "tribe",
-      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "fetched_at": "2026-10-25T04:42:07.565943Z",
       "source_id": "wetech-alliance-events",
       "url": "https://www.wetech-alliance.com/event/the-tech-festival-canada-2026-meet-build-scale/"
     }

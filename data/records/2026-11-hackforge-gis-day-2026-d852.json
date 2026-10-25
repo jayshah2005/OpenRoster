@@ -44,7 +44,17 @@
     "route": "public_link",
     "url": "https://www.wetech-alliance.com/event/gis-day-2026/"
   },
-  "review": null,
+  "review": {
+    "evidence": [
+      {
+        "text": "missing from the last 2 successful fetches",
+        "url": "https://www.wetech-alliance.com/event/gis-day-2026/"
+      }
+    ],
+    "reasons": [
+      "no longer listed by its source (possibly cancelled or moved)"
+    ]
+  },
   "roles": [
     {
       "closes": null,
@@ -68,7 +78,7 @@
     }
   ],
   "start": "2026-11-18T18:00:00-05:00",
-  "status": "scheduled",
+  "status": "needs_review",
   "summary": "Free event by Hackforge in Windsor.",
   "tags": [],
   "timezone": "America/Detroit",

@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-cheriton-school-of-c-phd-seminar-data-systems-rethinking-data-integrat-483e",
-  "last_seen": "2026-10-24T16:53:41.410358Z",
-  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "last_seen": "2026-10-25T04:42:07.565943Z",
+  "last_verified": "2026-10-25T04:42:07.565943Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
@@ -126,7 +126,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "fetched_at": "2026-10-25T04:42:07.565943Z",
       "source_id": "uwaterloo-cs-events-ics",
       "url": "https://uwaterloo.ca/computer-science/events/phd-seminar-data-systems-rethinking-data-integration-through-reference-the-abstract-relational-model"
     }

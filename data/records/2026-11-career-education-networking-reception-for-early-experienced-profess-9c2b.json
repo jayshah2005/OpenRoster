@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-career-education-networking-reception-for-early-experienced-profess-9c2b",
-  "last_seen": "2026-10-24T16:53:41.410358Z",
-  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "last_seen": "2026-10-25T04:42:07.565943Z",
+  "last_verified": "2026-10-25T04:42:07.565943Z",
   "location": {
     "city": null,
     "country": "CA",
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "rss",
-      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "fetched_at": "2026-10-25T04:42:07.565943Z",
       "source_id": "brock-experiencebu-rss",
       "url": "https://experiencebu.brocku.ca/event/330062"
     }

@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-waterloo-tech-adjace-non-technical-wednesday-ec5a",
-  "last_seen": "2026-10-24T16:53:41.410358Z",
-  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "last_seen": "2026-10-25T04:42:07.565943Z",
+  "last_verified": "2026-10-25T04:42:07.565943Z",
   "location": {
     "city": "King",
     "country": "CA",
@@ -150,7 +150,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-10-24T16:53:41.410358Z",
+      "fetched_at": "2026-10-25T04:42:07.565943Z",
       "source_id": "luma-waterloo-tech-adjacent-events",
       "url": "https://luma.com/waterloo-jvs5"
     }
