@@ -1,7 +1,7 @@
 {
   "misses": {
-    "2026-10-black-boys-code-sequencing-robots-in-motion-free-lego-robotics-wor-810d": 2,
-    "2026-10-careerin-tech-societ-richmond-tech-community-coffee-meetup-59a0": 6,
+    "2026-10-black-boys-code-sequencing-robots-in-motion-free-lego-robotics-wor-810d": 3,
+    "2026-10-careerin-tech-societ-richmond-tech-community-coffee-meetup-59a0": 7,
     "2026-10-hackforge-intro-to-openstreetmap-contributions-3579": 2,
     "2026-10-u-of-t-engineering-u-2026-fall-study-break-no-classes-28f6": 1,
     "2026-11-accelerator-centre-ac-innovation-showcase-9cba": 2,
@@ -20,7 +20,7 @@
     "failing": 2,
     "held_for_review": 33,
     "last_run": "2026-10-25",
-    "listings": 256,
+    "listings": 254,
     "runnable": 48
   },
   "sources": {
@@ -961,7 +961,7 @@
       "refused": false
     },
     "niagara-college-events": {
-      "consecutive_failures": 7,
+      "consecutive_failures": 8,
       "count": 0,
       "error": "https://www.niagaracollege.ca/wp-json/tribe/events/v1/events?start_date=2026-10-25&per_page=50: disallowed by robots.txt",
       "fingerprint": null,
@@ -1040,19 +1040,19 @@
     },
     "uoft-central-events": {
       "consecutive_failures": 0,
-      "count": 22,
+      "count": 23,
       "error": null,
       "fingerprint": "2582d80484a2",
       "healthy_streak": 2,
-      "last_nonzero": 172,
+      "last_nonzero": 171,
       "last_ok": "2026-10-25",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 172,
+      "raw_count": 171,
       "refused": false
     },
     "uoft-engineering-events": {
-      "consecutive_failures": 7,
+      "consecutive_failures": 8,
       "count": 0,
       "error": "ZoneInfoNotFoundError: 'No time zone found with key UTC+0'",
       "fingerprint": null,
