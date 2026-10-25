@@ -82,11 +82,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 829,
+      "last_nonzero": 832,
       "last_ok": "2026-10-25",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 829,
+      "raw_count": 832,
       "refused": false
     },
     "carleton-career-events-api": {
@@ -961,7 +961,7 @@
       "refused": false
     },
     "niagara-college-events": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "count": 0,
       "error": "https://www.niagaracollege.ca/wp-json/tribe/events/v1/events?start_date=2026-10-25&per_page=50: disallowed by robots.txt",
       "fingerprint": null,
@@ -992,11 +992,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 119,
+      "last_nonzero": 126,
       "last_ok": "2026-10-25",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 119,
+      "raw_count": 126,
       "refused": false
     },
     "scotiabank-campus-events": {
@@ -1052,7 +1052,7 @@
       "refused": false
     },
     "uoft-engineering-events": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "count": 0,
       "error": "ZoneInfoNotFoundError: 'No time zone found with key UTC+0'",
       "fingerprint": null,
@@ -1096,11 +1096,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 703,
+      "last_nonzero": 701,
       "last_ok": "2026-10-25",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 703,
+      "raw_count": 701,
       "refused": false
     },
     "uoguelph-news-events-tribe": {
