@@ -1,0 +1,145 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "grad"
+  ],
+  "end": "2026-12-02T12:15:00-05:00",
+  "first_seen": "2026-10-26T22:41:06.261115Z",
+  "geo": {
+    "lat": 43.4668,
+    "lon": -80.51639,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-12-cheriton-school-of-c-phd-defence-human-computer-interaction-the-role-o-7820",
+  "last_seen": "2026-10-26T22:41:06.261115Z",
+  "last_verified": "2026-10-26T22:41:06.261115Z",
+  "location": {
+    "city": "Waterloo",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "DC - William G. Davis Computer Research Centre 200 University Avenue West Hybrid: DC 2314 | Online PhD defence Waterloo "
+  },
+  "mode": "hybrid",
+  "near_schools": [
+    {
+      "km": 1.2,
+      "school_id": "laurier"
+    },
+    {
+      "km": 1.4,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 2.4,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 24.6,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 53.4,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 54.3,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 65.6,
+      "school_id": "algoma"
+    },
+    {
+      "km": 66.0,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 69.4,
+      "school_id": "uoft"
+    },
+    {
+      "km": 74.9,
+      "school_id": "fanshawe"
+    },
+    {
+      "km": 78.8,
+      "school_id": "humber"
+    },
+    {
+      "km": 79.7,
+      "school_id": "western"
+    },
+    {
+      "km": 88.5,
+      "school_id": "yorku"
+    },
+    {
+      "km": 88.6,
+      "school_id": "seneca"
+    },
+    {
+      "km": 92.1,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 93.0,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 94.1,
+      "school_id": "tmu"
+    },
+    {
+      "km": 98.9,
+      "school_id": "centennial"
+    }
+  ],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Cheriton School of Computer Science events (iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://uwaterloo.ca/computer-science/events/phd-defence-hci-the-role-of-context-in-human-llm-communication"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "uwaterloo-cs-events-ics:b9a9536cdda5",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-26T22:41:06.261115Z",
+      "source_id": "uwaterloo-cs-events-ics",
+      "url": "https://uwaterloo.ca/computer-science/events/phd-defence-hci-the-role-of-context-in-human-llm-communication"
+    }
+  ],
+  "start": "2026-12-02T09:15:00-05:00",
+  "status": "scheduled",
+  "summary": "Hybrid event by Cheriton School of Computer Science events (iCal) in Waterloo for graduate students.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "PhD Defence • Human–Computer Interaction • The Role of Context in Human–LLM Communication",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

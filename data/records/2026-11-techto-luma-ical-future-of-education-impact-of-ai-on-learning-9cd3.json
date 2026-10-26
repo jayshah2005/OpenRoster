@@ -1,0 +1,169 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-11T02:00:00Z",
+  "first_seen": "2026-10-26T22:41:06.261115Z",
+  "geo": {
+    "lat": 43.70643,
+    "lon": -79.39864,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-techto-luma-ical-future-of-education-impact-of-ai-on-learning-9cd3",
+  "last_seen": "2026-10-26T22:41:06.261115Z",
+  "last_verified": "2026-10-26T22:41:06.261115Z",
+  "location": {
+    "city": "Toronto",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Toronto, ON, Canada"
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 3.5,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 4.8,
+      "school_id": "uoft"
+    },
+    {
+      "km": 5.6,
+      "school_id": "tmu"
+    },
+    {
+      "km": 5.9,
+      "school_id": "centennial"
+    },
+    {
+      "km": 5.9,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 10.7,
+      "school_id": "seneca"
+    },
+    {
+      "km": 11.2,
+      "school_id": "yorku"
+    },
+    {
+      "km": 15.5,
+      "school_id": "humber"
+    },
+    {
+      "km": 23.8,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 29.1,
+      "school_id": "algoma"
+    },
+    {
+      "km": 41.6,
+      "school_id": "durham"
+    },
+    {
+      "km": 47.7,
+      "school_id": "ontariotechu"
+    },
+    {
+      "km": 48.2,
+      "school_id": "trent"
+    },
+    {
+      "km": 61.2,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 62.4,
+      "school_id": "brock"
+    },
+    {
+      "km": 64.9,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 66.8,
+      "school_id": "niagara-college"
+    },
+    {
+      "km": 69.3,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 81.3,
+      "school_id": "georgian"
+    },
+    {
+      "km": 83.2,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 90.3,
+      "school_id": "fleming"
+    },
+    {
+      "km": 94.1,
+      "school_id": "laurier"
+    },
+    {
+      "km": 95.9,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 99.3,
+      "school_id": "lakehead"
+    }
+  ],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "TechTO (Luma iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://luma.com/future-of-education-nov-10-2026"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "luma-techto:ed3d568ef80c",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-26T22:41:06.261115Z",
+      "source_id": "luma-techto",
+      "url": "https://luma.com/future-of-education-nov-10-2026"
+    }
+  ],
+  "start": "2026-11-10T23:00:00Z",
+  "status": "scheduled",
+  "summary": "Event by TechTO (Luma iCal) in Toronto.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Future of Education: Impact of AI on Learning",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

@@ -1,0 +1,91 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-19T20:00:00-05:00",
+  "first_seen": "2026-10-26T22:41:06.261115Z",
+  "geo": {
+    "lat": 45.41117,
+    "lon": -75.69812,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-carleton-school-of-c-women-in-stem-career-and-networking-fair-07c8",
+  "last_seen": "2026-10-26T22:41:06.261115Z",
+  "last_verified": "2026-10-26T22:41:06.261115Z",
+  "location": {
+    "city": "Ottawa",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "CU"
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 1.8,
+      "school_id": "uottawa"
+    },
+    {
+      "km": 2.6,
+      "school_id": "carleton"
+    },
+    {
+      "km": 8.2,
+      "school_id": "algonquin"
+    },
+    {
+      "km": 85.1,
+      "school_id": "stlawrence"
+    }
+  ],
+  "obtained_via": [
+    "api"
+  ],
+  "organizer": "Carleton School of Computer Science events (WordPress REST)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://carleton.ca/scs/event/women-in-stem-career-and-networking-fair/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "api",
+      "fetched_at": "2026-10-26T22:41:06.261115Z",
+      "source_id": "carleton-scs-events-api",
+      "url": "https://carleton.ca/scs/event/women-in-stem-career-and-networking-fair/"
+    }
+  ],
+  "start": "2026-11-19T18:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Networking event by Carleton School of Computer Science events (WordPress REST) in Ottawa for women and non-binary students.",
+  "tags": [
+    "women_nonbinary"
+  ],
+  "timezone": "America/Toronto",
+  "title": "Women in STEM Career and Networking Fair",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "networking"
+}

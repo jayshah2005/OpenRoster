@@ -61,7 +61,7 @@
     }
   ],
   "start": "2026-10-26T00:00:00-04:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Event by U of T central events aggregator for Indigenous students.",
   "tags": [
     "indigenous_students"

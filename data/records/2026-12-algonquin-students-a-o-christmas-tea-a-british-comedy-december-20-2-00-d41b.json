@@ -1,6 +1,6 @@
 {
   "ai_suggested": [],
-  "all_day": false,
+  "all_day": true,
   "cost": {
     "kind": "free",
     "note": null
@@ -8,14 +8,21 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-12-20T14:30:00-05:00",
+  "end": "2026-12-21T03:59:59-05:00",
   "first_seen": "2026-10-24T20:50:34.963793Z",
   "geo": {
     "lat": 42.98339,
     "lon": -81.23304,
     "source": "gazetteer"
   },
-  "history": [],
+  "history": [
+    {
+      "at": "2026-10-26T22:41:06.261115Z",
+      "field": "start",
+      "new": "2026-12-20T04:00:00-05:00",
+      "old": "2026-12-20T14:30:00-05:00"
+    }
+  ],
   "id": "2026-12-algonquin-students-a-o-christmas-tea-a-british-comedy-december-20-2-00-d41b",
   "last_seen": "2026-10-26T04:51:34.161420Z",
   "last_verified": "2026-10-26T04:51:34.161420Z",
@@ -79,8 +86,8 @@
       "url": "https://www.algonquinsa.com/event/o-christmas-tea-a-british-comedy-december-20/"
     }
   ],
-  "start": "2026-12-20T14:30:00-05:00",
-  "status": "scheduled",
+  "start": "2026-12-20T04:00:00-05:00",
+  "status": "moved",
   "summary": "Free event by Algonquin Students' Association events (Tribe) in London.",
   "tags": [],
   "timezone": "America/Toronto",
