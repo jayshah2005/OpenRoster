@@ -2,15 +2,13 @@
 
 Hackathons, info sessions, talks, career fairs, workshops, competitions and early-career programs for CS students, soonest deadline first. Filter, subscribe to a calendar, or see details at https://openroster-seven.vercel.app.
 
-245 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
+243 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
 
 | Apply by | Starts | Opportunity | Organizer | Type | Where | Ways to take part |
 |---|---|---|---|---|---|---|
 | Not listed | Oct 9 | [CEOx1Day Applications Open (Deadline to apply Oct. 28)](https://openroster-seven.vercel.app/o/2026-10-carleton-career-serv-ceox1day-applications-open-deadline-to-apply-oct-4865/) | Carleton Career Services events (WordPress REST) | Other | Ottawa, ON | attend |
 | Not listed | Oct 22 | [Fall Job Shadow Program Mentorship Sessions (FASS & FPGA)](https://openroster-seven.vercel.app/o/2026-10-carleton-career-serv-fall-job-shadow-program-mentorship-sessions-fass-d312/) | Carleton Career Services events (WordPress REST) | Other | Ottawa, ON | attend |
 | Not listed | Oct 22 | [Founding-100](https://openroster-seven.vercel.app/o/2026-10-founding-100-9681/) | Founding-100 | Hackathon | Online | attend |
-| Not listed | Oct 25 | [2026 Paramedic Career Fair](https://openroster-seven.vercel.app/o/2026-10-career-education-2026-paramedic-career-fair-eb18/) | Career Education | Career fair | Toronto, ON | attend |
-| Not listed | Oct 25 | [Tech2Step Walk and Connect- Lafarge Lake, Coquitlam](https://openroster-seven.vercel.app/o/2026-10-tech2step-walk-and-connect-lafarge-lake-coquitlam-ec0f/) | Tech2Step Events (Luma iCal) | Other | Coquitlam, BC | attend |
 | Not listed | Oct 26 | [IP Data & Research Conference](https://openroster-seven.vercel.app/o/2026-10-u-of-t-central-event-ip-data-research-conference-6108/) | U of T central events aggregator | Conference | TBA | attend |
 | Not listed | Oct 26 | [The Future of Indigenous Entrepreneurship](https://openroster-seven.vercel.app/o/2026-10-u-of-t-central-event-the-future-of-indigenous-entrepreneurship-46be/) | U of T central events aggregator | Other | TBA | attend |
 | Not listed | Oct 26 | [PEY Co-op: Career Portal Opens for Summer Co-op Work Term](https://openroster-seven.vercel.app/o/2026-10-u-of-t-engineering-u-pey-co-op-career-portal-opens-for-summer-co-op-wo-e7ba/) | U of T Engineering undergraduate events (incl. PEY Co-op) | Other | TBA | attend |

@@ -1,11 +1,11 @@
 {
   "misses": {
     "2026-10-black-boys-code-sequencing-robots-in-motion-free-lego-robotics-wor-810d": 3,
-    "2026-10-career-education-2026-paramedic-career-fair-eb18": 2,
+    "2026-10-career-education-2026-paramedic-career-fair-eb18": 3,
     "2026-10-careerin-tech-societ-richmond-tech-community-coffee-meetup-59a0": 7,
     "2026-10-hackforge-intro-to-openstreetmap-contributions-3579": 2,
-    "2026-10-tech2step-walk-and-connect-lafarge-lake-coquitlam-ec0f": 1,
-    "2026-10-u-of-t-central-event-the-future-of-indigenous-entrepreneurship-46be": 1,
+    "2026-10-tech2step-walk-and-connect-lafarge-lake-coquitlam-ec0f": 2,
+    "2026-10-u-of-t-central-event-the-future-of-indigenous-entrepreneurship-46be": 2,
     "2026-10-u-of-t-engineering-u-2026-fall-study-break-no-classes-28f6": 1,
     "2026-11-accelerator-centre-ac-innovation-showcase-9cba": 2,
     "2026-11-career-services-employer-in-the-hall-maxama-protection-inc-7b4f": 2,
@@ -23,7 +23,7 @@
     "failing": 2,
     "held_for_review": 33,
     "last_run": "2026-10-26",
-    "listings": 255,
+    "listings": 253,
     "runnable": 48
   },
   "sources": {
@@ -46,11 +46,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 84,
+      "last_nonzero": 85,
       "last_ok": "2026-10-26",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 84,
+      "raw_count": 85,
       "refused": false
     },
     "bmo-student-events": {
@@ -964,7 +964,7 @@
       "refused": false
     },
     "niagara-college-events": {
-      "consecutive_failures": 11,
+      "consecutive_failures": 12,
       "count": 0,
       "error": "https://www.niagaracollege.ca/wp-json/tribe/events/v1/events?start_date=2026-10-26&per_page=50: disallowed by robots.txt",
       "fingerprint": null,
@@ -995,11 +995,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 127,
+      "last_nonzero": 128,
       "last_ok": "2026-10-26",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 127,
+      "raw_count": 128,
       "refused": false
     },
     "scotiabank-campus-events": {
@@ -1043,19 +1043,19 @@
     },
     "uoft-central-events": {
       "consecutive_failures": 0,
-      "count": 23,
+      "count": 24,
       "error": null,
       "fingerprint": "2582d80484a2",
       "healthy_streak": 2,
-      "last_nonzero": 171,
+      "last_nonzero": 170,
       "last_ok": "2026-10-26",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 171,
+      "raw_count": 170,
       "refused": false
     },
     "uoft-engineering-events": {
-      "consecutive_failures": 11,
+      "consecutive_failures": 12,
       "count": 0,
       "error": "ZoneInfoNotFoundError: 'No time zone found with key UTC+0'",
       "fingerprint": null,
@@ -1099,11 +1099,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 691,
+      "last_nonzero": 693,
       "last_ok": "2026-10-26",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 691,
+      "raw_count": 693,
       "refused": false
     },
     "uoguelph-news-events-tribe": {

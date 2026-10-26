@@ -59,7 +59,7 @@
     }
   ],
   "start": "2026-10-25T23:00:00Z",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Event by Tech2Step Events (Luma iCal) in Coquitlam.",
   "tags": [],
   "timezone": "America/Toronto",
