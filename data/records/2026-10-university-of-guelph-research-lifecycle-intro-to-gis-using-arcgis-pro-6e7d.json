@@ -56,8 +56,8 @@
     }
   ],
   "id": "2026-10-university-of-guelph-research-lifecycle-intro-to-gis-using-arcgis-pro-6e7d",
-  "last_seen": "2026-10-25T04:42:07.565943Z",
-  "last_verified": "2026-10-25T04:42:07.565943Z",
+  "last_seen": "2026-10-26T04:51:34.161420Z",
+  "last_verified": "2026-10-26T04:51:34.161420Z",
   "location": {
     "city": null,
     "country": null,
@@ -98,7 +98,7 @@
     },
     {
       "adapter": "ics",
-      "fetched_at": "2026-10-25T04:42:07.565943Z",
+      "fetched_at": "2026-10-26T04:51:34.161420Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=378485"
     }

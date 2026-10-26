@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "paid",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-07T17:00:00-05:00",
+  "first_seen": "2026-10-26T04:51:34.161420Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-uwfa-fall-2026-stock-pitch-f9ee",
+  "last_seen": "2026-10-26T04:51:34.161420Z",
+  "last_verified": "2026-10-26T04:51:34.161420Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "UWFA",
+  "registration": {
+    "route": "public_link",
+    "url": "https://wusa.ca/event/uwfa-fall-2026-stock-pitch/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-26T04:51:34.161420Z",
+      "source_id": "wusa-events-tribe",
+      "url": "https://wusa.ca/event/uwfa-fall-2026-stock-pitch/"
+    }
+  ],
+  "start": "2026-11-07T09:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Case competition by UWFA.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "UWFA Fall 2026 Stock Pitch",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "case_competition"
+}

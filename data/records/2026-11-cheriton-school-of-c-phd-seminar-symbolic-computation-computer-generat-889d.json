@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-cheriton-school-of-c-phd-seminar-symbolic-computation-computer-generat-889d",
-  "last_seen": "2026-10-25T04:42:07.565943Z",
-  "last_verified": "2026-10-25T04:42:07.565943Z",
+  "last_seen": "2026-10-26T04:51:34.161420Z",
+  "last_verified": "2026-10-26T04:51:34.161420Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
@@ -126,7 +126,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-10-25T04:42:07.565943Z",
+      "fetched_at": "2026-10-26T04:51:34.161420Z",
       "source_id": "uwaterloo-cs-events-ics",
       "url": "https://uwaterloo.ca/computer-science/events/phd-seminar-symbolic-computation-computer-generation-of-explicit-formulas-for-hyperelliptic-curve-divisor-arithmetic"
     }

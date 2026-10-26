@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-10-u-of-t-central-event-ip-data-research-conference-6108",
-  "last_seen": "2026-10-25T04:42:07.565943Z",
-  "last_verified": "2026-10-25T04:42:07.565943Z",
+  "last_seen": "2026-10-26T04:51:34.161420Z",
+  "last_verified": "2026-10-26T04:51:34.161420Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-10-25T04:42:07.565943Z",
+      "fetched_at": "2026-10-26T04:51:34.161420Z",
       "source_id": "uoft-central-events",
       "url": "https://entrepreneurs.utoronto.ca/event/ip-data-research-conference-2/"
     }

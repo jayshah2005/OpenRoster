@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-wetech-alliance-even-qiskit-fall-fest-2026-university-of-windsor-baf1",
-  "last_seen": "2026-10-25T04:42:07.565943Z",
-  "last_verified": "2026-10-25T04:42:07.565943Z",
+  "last_seen": "2026-10-26T04:51:34.161420Z",
+  "last_verified": "2026-10-26T04:51:34.161420Z",
   "location": {
     "city": "Windsor",
     "country": "CA",
@@ -62,7 +62,7 @@
   "sources": [
     {
       "adapter": "tribe",
-      "fetched_at": "2026-10-25T04:42:07.565943Z",
+      "fetched_at": "2026-10-26T04:51:34.161420Z",
       "source_id": "wetech-alliance-events",
       "url": "https://www.wetech-alliance.com/event/qiskit-fall-fest-2026-university-of-windsor/"
     }

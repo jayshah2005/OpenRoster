@@ -2,7 +2,7 @@
 
 Hackathons, info sessions, talks, career fairs, workshops, competitions and early-career programs for CS students, soonest deadline first. Filter, subscribe to a calendar, or see details at https://openroster-seven.vercel.app.
 
-244 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
+245 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
 
 | Apply by | Starts | Opportunity | Organizer | Type | Where | Ways to take part |
 |---|---|---|---|---|---|---|
@@ -106,6 +106,7 @@ Hackathons, info sessions, talks, career fairs, workshops, competitions and earl
 | Not listed | Nov 6 | [First Stride Networking Event \| Recruiter Ask Me Anything \| BMO Coffee & Career Chats](https://openroster-seven.vercel.app/o/2026-11-bmo-first-stride-networking-event-recruiter-ask-me-any-ffb0/) | BMO | Workshop | TBA | attend |
 | Not listed | Nov 6 | [Engineering Connect Night: Building Community Beyond the Classroom](https://openroster-seven.vercel.app/o/2026-11-brock-engineering-so-engineering-connect-night-building-community-beyo-4181/) | Brock Engineering Society | Networking | St. Catharines, ON | attend |
 | Not listed | Nov 7 | [Sheridan Datathon 2026](https://openroster-seven.vercel.app/o/2026-11-google-developer-gro-sheridan-datathon-2026-066c/) | Google Developer Group (All Campuses) | Hackathon | Oakville, ON | attend |
+| Not listed | Nov 7 | [UWFA Fall 2026 Stock Pitch](https://openroster-seven.vercel.app/o/2026-11-uwfa-fall-2026-stock-pitch-f9ee/) | UWFA | Case competition | TBA | attend |
 | Not listed | Nov 7 | [Technovation Waterloo Mini-Hackathon 2026](https://openroster-seven.vercel.app/o/2026-11-waterloo-women-in-co-technovation-waterloo-mini-hackathon-2026-b666/) | Waterloo Women in Computer Science events (iCal) | Hackathon | Waterloo, ON | attend |
 | Not listed | Nov 7 | [CommuniHacks 2026](https://openroster-seven.vercel.app/o/2026-11-waterloo-tech-adjace-communihacks-2026-51dc/) | Waterloo Tech (+adjacent) Events (Luma iCal) | Hackathon | King, ON | attend |
 | Not listed | Nov 7 | [Burnaby Tech Community Coffee Meetup](https://openroster-seven.vercel.app/o/2026-11-careerin-tech-societ-burnaby-tech-community-coffee-meetup-5cb9/) | Careerin Tech Society (Luma iCal) | Networking | Burnaby, BC | attend |

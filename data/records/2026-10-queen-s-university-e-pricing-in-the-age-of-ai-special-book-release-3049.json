@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-10-queen-s-university-e-pricing-in-the-age-of-ai-special-book-release-3049",
-  "last_seen": "2026-10-25T04:42:07.565943Z",
-  "last_verified": "2026-10-25T04:42:07.565943Z",
+  "last_seen": "2026-10-26T04:51:34.161420Z",
+  "last_verified": "2026-10-26T04:51:34.161420Z",
   "location": {
     "city": "Simcoe",
     "country": "CA",
@@ -102,7 +102,7 @@
   "sources": [
     {
       "adapter": "rss",
-      "fetched_at": "2026-10-25T04:42:07.565943Z",
+      "fetched_at": "2026-10-26T04:51:34.161420Z",
       "source_id": "queens-events-rss",
       "url": "https://www.queensu.ca/eventscalendar/events/pricing-age-ai-special-book-release"
     }

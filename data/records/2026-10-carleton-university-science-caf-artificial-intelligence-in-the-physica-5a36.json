@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-10-carleton-university-science-caf-artificial-intelligence-in-the-physica-5a36",
-  "last_seen": "2026-10-25T04:42:07.565943Z",
-  "last_verified": "2026-10-25T04:42:07.565943Z",
+  "last_seen": "2026-10-26T04:51:34.161420Z",
+  "last_verified": "2026-10-26T04:51:34.161420Z",
   "location": {
     "city": "Ottawa",
     "country": "CA",
@@ -70,7 +70,7 @@
   "sources": [
     {
       "adapter": "api",
-      "fetched_at": "2026-10-25T04:42:07.565943Z",
+      "fetched_at": "2026-10-26T04:51:34.161420Z",
       "source_id": "carleton-events-api",
       "url": "https://events.carleton.ca/event/science-cafe-artificial-intelligence-in-the-physical-world-2/"
     }
