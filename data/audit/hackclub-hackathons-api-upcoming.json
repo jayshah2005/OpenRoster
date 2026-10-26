@@ -1,14 +1,14 @@
 {
-  "checked": "2026-10-24T05:35:00.747091+00:00",
+  "checked": "2026-10-26T16:18:17.880100+00:00",
   "dated_items_in_html": 0,
   "feeds": [],
-  "http_status": 200,
+  "http_status": 500,
   "jsonld_events": 0,
   "known_verdict": null,
   "login_wall": false,
-  "platform": "html_no_dates",
+  "platform": "unknown",
   "reasons": [
-    "no terms-of-use link found on the page"
+    "page could not be fetched: https://hackathons.hackclub.com/api/events/upcoming/: server kept failing"
   ],
   "robots": "no_robots",
   "sitemaps": [],
@@ -17,5 +17,5 @@
   "terms_quotes": [],
   "terms_url": null,
   "url": "https://hackathons.hackclub.com/api/events/upcoming",
-  "verdict": "allowed"
+  "verdict": "unknown"
 }
