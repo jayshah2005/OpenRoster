@@ -5,13 +5,23 @@ hackathons:
   name: BearHacks
   url: https://bearhacks.com/
   host: sheridan
-  city:
+  city: null
   region: CA-ON
   country: CA
   usual_month: April
   reviewed: true
   enabled: true
   notes: 36-hour hackathon at Hazel McCallion Campus; 2026 edition April 24-26 (GDG on Campus Sheridan).
+- id: build-for-earth
+  name: Build for Earth
+  url: https://earth.firstcommit.xyz
+  host: null
+  city: null
+  region: null
+  country: CA
+  reviewed: false
+  enabled: true
+  notes: Discovered from listing 2026-11-build-for-earth-76d0 (api)
 - id: calgaryhacks
   name: CalgaryHacks
   url: https://calgaryhacks.ca
@@ -27,7 +37,7 @@ hackathons:
   name: CentennialHacks
   url: https://edu.ieee.org/ca-centennial-college/
   host: centennial
-  city:
+  city: null
   region: CA-ON
   country: CA
   usual_month: August
@@ -38,7 +48,7 @@ hackathons:
   name: Computer Science Club Game Jam
   url: https://brockcsc.ca/events
   host: brock
-  city:
+  city: null
   region: CA-ON
   country: CA
   usual_month: unknown
@@ -49,7 +59,7 @@ hackathons:
   name: ConHacks
   url: https://gdg.community.dev/events/details/google-gdg-on-campus-conestoga-college-waterloo-campus-waterloo-canada-presents-conhacks-2026-registrations-open/
   host: conestoga
-  city:
+  city: null
   region: CA-ON
   country: CA
   usual_month: April
@@ -67,11 +77,21 @@ hackathons:
   reviewed: true
   enabled: true
   notes: ConUHacks X ran Jan 24-25, 2026. The page links a mentor/judge Google Form.
+- id: cosmo-hacks
+  name: Cosmo Hacks
+  url: https://www.cosmohacks.com/
+  host: null
+  city: null
+  region: null
+  country: CA
+  reviewed: false
+  enabled: true
+  notes: Discovered from listing 2026-12-cosmo-hacks-4c8d (api)
 - id: cucai-canadian-undergraduate-conference-on-ai-run-by-qmind
   name: CUCAI (Canadian Undergraduate Conference on AI, run by QMIND)
   url: https://www.cs.queensu.ca/calendar
   host: queens
-  city:
+  city: null
   region: CA-ON
   country: CA
   usual_month: March
@@ -93,7 +113,7 @@ hackathons:
   name: DeerHacks
   url: https://deerhacks.ca/
   host: uoft
-  city:
+  city: null
   region: CA-ON
   country: CA
   usual_month: February
@@ -115,7 +135,7 @@ hackathons:
   name: Designathon (Queen's UX Club)
   url: https://www.cs.queensu.ca/calendar
   host: queens
-  city:
+  city: null
   region: CA-ON
   country: CA
   usual_month: November
@@ -144,11 +164,21 @@ hackathons:
   reviewed: true
   enabled: true
   notes: For high-school students only. Held at the Accelerator Centre.
+- id: founding-100
+  name: Founding-100
+  url: https://founding-100.waycode.in/
+  host: null
+  city: null
+  region: null
+  country: CA
+  reviewed: false
+  enabled: true
+  notes: Discovered from listing 2026-10-founding-100-9681 (api)
 - id: gdg-hacks
   name: GDG Hacks
   url: https://gdghacks.com/
   host: uoguelph
-  city:
+  city: null
   region: CA-ON
   country: CA
   usual_month: May
@@ -181,7 +211,7 @@ hackathons:
   name: Global Game Jam site (Game Development program)
   url: https://educationnewscanada.com/article/education/region/ontario/27/745152/niagara-collegejanuary-28-2019-gamers-unite-at-niagara-college-for-fourth-annual-global-game-jam.html
   host: niagara-college
-  city:
+  city: null
   region: CA-ON
   country: CA
   usual_month: January
@@ -291,7 +321,7 @@ hackathons:
   name: HackCanada (GDG on Campus Laurier co-hosted)
   url: https://gdg.community.dev/gdg-on-campus-wilfrid-laurier-university-waterloo-canada/
   host: laurier
-  city:
+  city: null
   region: CA-ON
   country: CA
   usual_month: March
@@ -342,11 +372,21 @@ hackathons:
   reviewed: false
   enabled: true
   notes: WebFetch failed with a TLS error ("unable to get local issuer certificate"), so the site exists but could not be read.
+- id: herhacks-hackathon
+  name: HerHacks Hackathon
+  url: https://jobs.bmo.com/ca/en/student-events
+  host: null
+  city: null
+  region: null
+  country: CA
+  reviewed: false
+  enabled: true
+  notes: Discovered from listing 2026-11-bmo-herhacks-hackathon-597b (html)
 - id: humber-student-hackathon-cican-skills-for-success
   name: Humber Student Hackathon (CICan Skills for Success)
   url: https://humber.ca/staff/node/20354
   host: humber
-  city:
+  city: null
   region: CA-ON
   country: CA
   usual_month: March
@@ -423,13 +463,23 @@ hackathons:
   name: Mother of All Game Jams
   url: https://brockpress.com/students-can-learn-to-create-video-and-board-games-at-the-mother-of-all-game-jams/
   host: brock
-  city:
+  city: null
   region: CA-ON
   country: CA
   usual_month: unknown
   reviewed: true
   enabled: true
   notes: Two-day beginner-friendly video/board game jam at the Rankin Family Pavilion; recurrence not confirmed.
+- id: nasa-space-apps-challenge-windsor-2026-virtual
+  name: NASA Space Apps Challenge Windsor 2026 (virtual)
+  url: https://www.wetech-alliance.com/event/nasa-space-apps-challenge-windsor-2026-virtual/
+  host: null
+  city: null
+  region: null
+  country: CA
+  reviewed: false
+  enabled: true
+  notes: Discovered from listing 2026-11-wetech-alliance-even-nasa-space-apps-challenge-windsor-2026-virtual-112f (tribe)
 - id: newhacks
   name: NewHacks
   url: https://newhacks.ca
@@ -463,6 +513,16 @@ hackathons:
   reviewed: true
   enabled: true
   notes: Found via the Hack Club API (2026-11-15). The site is JS-only.
+- id: pixel-forge-mega-jam
+  name: Pixel Forge Mega Jam
+  url: https://pixelforgejam.org/
+  host: null
+  city: null
+  region: null
+  country: CA
+  reviewed: false
+  enabled: true
+  notes: Discovered from listing 2026-11-pixel-forge-mega-jam-d2b3 (api)
 - id: qhacks
   name: QHacks
   url: https://qhacks.io
@@ -500,7 +560,7 @@ hackathons:
   name: School of Advanced Technology Technology Project Showcase
   url: https://www.algonquincollege.com/news/2026/08/06/algonquin-college-technology-project-showcase-highlights-creative-solutions-and-technical-problem-solving/
   host: algonquin
-  city:
+  city: null
   region: CA-ON
   country: CA
   usual_month: August
@@ -511,7 +571,7 @@ hackathons:
   name: Seneca annual hackathons (School of IT Administration & Security)
   url: https://students.senecapolytechnic.ca/spaces/14/school-of-information-technology-administration-security/wiki/view/7685/annual-hackathons
   host: seneca
-  city:
+  city: null
   region: CA-ON
   country: CA
   usual_month: unknown
@@ -522,7 +582,7 @@ hackathons:
   name: Sheridan / Adobe Design Hackathon
   url: https://www.sheridancollege.ca/events/2026/02/hackathon
   host: sheridan
-  city:
+  city: null
   region: CA-ON
   country: CA
   usual_month: February
@@ -533,18 +593,28 @@ hackathons:
   name: Sheridan Datathon
   url: https://gdg.community.dev/gdg-on-campus-sheridan-college-trafalgar-road-campus-oakville-canada/
   host: sheridan
-  city:
+  city: null
   region: CA-ON
   country: CA
   usual_month: November
   reviewed: false
   enabled: true
   notes: '24-hour data hackathon (DevFest: Sheridan Datathon 2026, Nov 7-8) by GDG, TechBiz Society and Women in Business and Technology.'
+- id: sheridan-datathon-2026
+  name: Sheridan Datathon 2026
+  url: https://sheridancollege.campuslabs.ca/engage/event/335311
+  host: null
+  city: Oakville
+  region: CA-ON
+  country: CA
+  reviewed: false
+  enabled: true
+  notes: Discovered from listing 2026-11-google-developer-gro-sheridan-datathon-2026-066c (rss)
 - id: solutionhacks-gdg-on-campus-tmu
   name: SolutionHacks (GDG on Campus TMU)
   url: https://gdg.community.dev/gdg-on-campus-toronto-metropolitan-university-toronto-canada/
   host: tmu
-  city:
+  city: null
   region: CA-ON
   country: CA
   usual_month: July
@@ -555,13 +625,23 @@ hackathons:
   name: Spooky Game Jam (Centre for Digital Humanities)
   url: https://brocku.ca/brock-news/in-focus/game-jam-a-spooktacular-success/
   host: brock
-  city:
+  city: null
   region: CA-ON
   country: CA
   usual_month: October
   reviewed: true
   enabled: true
   notes: 12-hour Halloween-themed game jam open to all Brock students; ~40+ students per edition. Announced via Brock News and ExperienceBU.
+- id: spooky-shapes-game-jam-2026
+  name: Spooky Shapes Game Jam 2026
+  url: https://experiencebu.brocku.ca/event/335118
+  host: null
+  city: St. Catharines
+  region: CA-ON
+  country: CA
+  reviewed: false
+  enabled: true
+  notes: Discovered from listing 2026-10-department-of-digita-spooky-shapes-game-jam-2026-ab17 (rss)
 - id: spurhacks
   name: SpurHacks
   url: https://www.spurhacks.com
@@ -577,7 +657,7 @@ hackathons:
   name: Technovation Waterloo Mini-Hackathon (WiCS)
   url: https://uwaterloo.ca/women-in-computer-science/events
   host: uwaterloo
-  city:
+  city: null
   region: CA-ON
   country: CA
   usual_month: November
@@ -643,7 +723,7 @@ hackathons:
   name: UWORCS (Western University Research in Computer Science conference)
   url: https://www.uwo.ca/events/2026/04/western-university-research-in-computer-science-conference-uworcs.html
   host: western
-  city:
+  city: null
   region: CA-ON
   country: CA
   usual_month: April
