@@ -8,7 +8,7 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-10-28T23:00:00Z",
+  "end": "2026-10-28T16:00:00Z",
   "first_seen": "2026-10-24T17:55:21.786445Z",
   "geo": {
     "lat": 43.54594,
@@ -117,16 +117,22 @@
       "field": "start",
       "new": "2026-10-28T21:00:00+00:00",
       "old": "2026-10-28T14:00:00+00:00"
+    },
+    {
+      "at": "2026-10-27T05:06:07.386213Z",
+      "field": "start",
+      "new": "2026-10-28T14:00:00+00:00",
+      "old": "2026-10-28T21:00:00+00:00"
     }
   ],
   "id": "2026-10-university-of-guelph-ai-prompts-for-writing-as-a-tool-and-not-a-shortc-9d51",
-  "last_seen": "2026-10-26T04:51:34.161420Z",
-  "last_verified": "2026-10-26T04:51:34.161420Z",
+  "last_seen": "2026-10-27T05:06:07.386213Z",
+  "last_verified": "2026-10-27T05:06:07.386213Z",
   "location": {
     "city": "Guelph",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "THRN 1313, 50 Stone Rd E, Guelph, Ontario N1G 2W1, Canada"
+    "venue_name": "Library Room 384, 50 Stone Road East, Guelph, Ont N1G 2W1, Canada"
   },
   "mode": "in_person",
   "near_schools": [
@@ -209,7 +215,7 @@
   "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
   "registration": {
     "route": "public_link",
-    "url": "https://uoguelph.campusgroups.com/rsvp?id=379543"
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=379368"
   },
   "review": null,
   "roles": [
@@ -229,7 +235,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-10-26T04:51:34.161420Z",
+      "fetched_at": "2026-10-27T05:06:07.386213Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=379368"
     },
@@ -238,14 +244,20 @@
       "fetched_at": "2026-10-26T04:51:34.161420Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=379543"
+    },
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-27T05:06:07.386213Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=379358"
     }
   ],
-  "start": "2026-10-28T21:00:00Z",
+  "start": "2026-10-28T14:00:00Z",
   "status": "moved",
   "summary": "Workshop by University of Guelph GryphLife (CampusGroups) public iCal in Guelph.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Arduino Workshop",
+  "title": "AI Prompts for Writing: As a Tool and not a Shortcut - AI Writing Series",
   "travel_support": {
     "note": null,
     "stated": false

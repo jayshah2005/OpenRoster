@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-department-of-econom-careers-at-the-competition-bureau-information-ses-69c3",
-  "last_seen": "2026-10-26T04:51:34.161420Z",
-  "last_verified": "2026-10-26T04:51:34.161420Z",
+  "last_seen": "2026-10-27T05:06:07.386213Z",
+  "last_verified": "2026-10-27T05:06:07.386213Z",
   "location": {
     "city": "St. Catharines",
     "country": "CA",
@@ -134,7 +134,7 @@
   "sources": [
     {
       "adapter": "rss",
-      "fetched_at": "2026-10-26T04:51:34.161420Z",
+      "fetched_at": "2026-10-27T05:06:07.386213Z",
       "source_id": "brock-experiencebu-rss",
       "url": "https://experiencebu.brocku.ca/event/336002"
     }

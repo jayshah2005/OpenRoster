@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-careerin-tech-societ-surrey-tech-community-coffee-meetup-6d7e",
-  "last_seen": "2026-10-26T04:51:34.161420Z",
-  "last_verified": "2026-10-26T04:51:34.161420Z",
+  "last_seen": "2026-10-27T05:06:07.386213Z",
+  "last_verified": "2026-10-27T05:06:07.386213Z",
   "location": {
     "city": "Central",
     "country": "CA",
@@ -126,7 +126,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-10-26T04:51:34.161420Z",
+      "fetched_at": "2026-10-27T05:06:07.386213Z",
       "source_id": "luma-careerin-tech-society",
       "url": "https://luma.com/SurreyTechCoffee2026Nov21"
     }

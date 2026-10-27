@@ -153,11 +153,23 @@
       "field": "start",
       "new": "2026-10-28T00:00:00-04:00",
       "old": "2026-10-28T15:00:00-04:00"
+    },
+    {
+      "at": "2026-10-27T05:06:07.386213Z",
+      "field": "start",
+      "new": "2026-10-28T15:00:00-04:00",
+      "old": "2026-10-28T00:00:00-04:00"
+    },
+    {
+      "at": "2026-10-27T05:06:07.386213Z",
+      "field": "start",
+      "new": "2026-10-28T00:00:00-04:00",
+      "old": "2026-10-28T15:00:00-04:00"
     }
   ],
   "id": "2026-10-centre-for-internati-info-session-daad-rise-germany-research-internshi-37e2",
-  "last_seen": "2026-10-26T04:51:34.161420Z",
-  "last_verified": "2026-10-26T04:51:34.161420Z",
+  "last_seen": "2026-10-27T05:06:07.386213Z",
+  "last_verified": "2026-10-27T05:06:07.386213Z",
   "location": {
     "city": "Cumberland",
     "country": "CA",
@@ -193,13 +205,13 @@
   "sources": [
     {
       "adapter": "tribe",
-      "fetched_at": "2026-10-26T04:51:34.161420Z",
+      "fetched_at": "2026-10-27T05:06:07.386213Z",
       "source_id": "uoft-engineering-undergrad-events",
       "url": "https://undergrad.engineering.utoronto.ca/event/info-session-daad-rise-germany-research-internships-in-science-engineering/"
     },
     {
       "adapter": "html",
-      "fetched_at": "2026-10-26T04:51:34.161420Z",
+      "fetched_at": "2026-10-27T05:06:07.386213Z",
       "source_id": "uoft-central-events",
       "url": "https://www.engineering.utoronto.ca/event/info-session-daad-rise-germany-research-internships-in-science-engineering/"
     }

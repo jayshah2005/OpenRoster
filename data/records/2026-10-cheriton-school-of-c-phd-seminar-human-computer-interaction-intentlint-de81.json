@@ -108,7 +108,17 @@
     "route": "public_link",
     "url": "https://uwaterloo.ca/computer-science/events/phd-seminar-hci-intentlint-supporting-intent-scaffolding-and-prompt-time-linting-in-human-ai-collaborative-data-analysis"
   },
-  "review": null,
+  "review": {
+    "evidence": [
+      {
+        "text": "missing from the last 2 successful fetches",
+        "url": "https://uwaterloo.ca/computer-science/events/phd-seminar-hci-intentlint-supporting-intent-scaffolding-and-prompt-time-linting-in-human-ai-collaborative-data-analysis"
+      }
+    ],
+    "reasons": [
+      "no longer listed by its source (possibly cancelled or moved)"
+    ]
+  },
   "roles": [
     {
       "closes": null,
@@ -132,7 +142,7 @@
     }
   ],
   "start": "2026-10-30T14:00:00-04:00",
-  "status": "scheduled",
+  "status": "needs_review",
   "summary": "Tech talk by Cheriton School of Computer Science events (iCal) in Waterloo for graduate students.",
   "tags": [],
   "timezone": "America/Toronto",

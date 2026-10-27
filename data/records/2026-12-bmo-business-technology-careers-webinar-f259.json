@@ -14,8 +14,8 @@
   "geo": null,
   "history": [],
   "id": "2026-12-bmo-business-technology-careers-webinar-f259",
-  "last_seen": "2026-10-26T04:51:34.161420Z",
-  "last_verified": "2026-10-26T04:51:34.161420Z",
+  "last_seen": "2026-10-27T05:06:07.386213Z",
+  "last_verified": "2026-10-27T05:06:07.386213Z",
   "location": {
     "city": null,
     "country": "CA",
@@ -50,7 +50,7 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-10-26T04:51:34.161420Z",
+      "fetched_at": "2026-10-27T05:06:07.386213Z",
       "source_id": "bmo-student-events",
       "url": "https://jobs.bmo.com/ca/en/student-events"
     }

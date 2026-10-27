@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "open_to_all"
+  ],
+  "end": "2026-11-04T22:30:00Z",
+  "first_seen": "2026-10-27T05:06:07.386213Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-university-of-guelph-game-dev-weekly-meetings-8a91",
+  "last_seen": "2026-10-27T05:06:07.386213Z",
+  "last_verified": "2026-10-27T05:06:07.386213Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "Sign in to download the location"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
+  "registration": {
+    "route": "public_link",
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=379896"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "uoguelph-gryphlife-campusgroups-ics:32eccc0e93f1",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-27T05:06:07.386213Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=379896"
+    }
+  ],
+  "start": "2026-11-04T21:30:00Z",
+  "status": "scheduled",
+  "summary": "Event by University of Guelph GryphLife (CampusGroups) public iCal.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Game Dev Weekly Meetings",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

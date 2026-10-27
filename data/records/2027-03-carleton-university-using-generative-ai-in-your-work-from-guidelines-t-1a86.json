@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2027-03-carleton-university-using-generative-ai-in-your-work-from-guidelines-t-1a86",
-  "last_seen": "2026-10-26T04:51:34.161420Z",
-  "last_verified": "2026-10-26T04:51:34.161420Z",
+  "last_seen": "2026-10-27T05:06:07.386213Z",
+  "last_verified": "2026-10-27T05:06:07.386213Z",
   "location": {
     "city": "Ottawa",
     "country": "CA",
@@ -70,7 +70,7 @@
   "sources": [
     {
       "adapter": "api",
-      "fetched_at": "2026-10-26T04:51:34.161420Z",
+      "fetched_at": "2026-10-27T05:06:07.386213Z",
       "source_id": "carleton-events-api",
       "url": "https://carleton.ca/ssc/event/using-generative-ai-in-your-work-from-guidelines-to-practice-2/"
     }

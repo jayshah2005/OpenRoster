@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-10-queen-s-university-e-webinar-ai-does-not-matter-what-leaders-do-that-t-c8f4",
-  "last_seen": "2026-10-26T04:51:34.161420Z",
-  "last_verified": "2026-10-26T04:51:34.161420Z",
+  "last_seen": "2026-10-27T05:06:07.386213Z",
+  "last_verified": "2026-10-27T05:06:07.386213Z",
   "location": {
     "city": null,
     "country": "CA",
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "rss",
-      "fetched_at": "2026-10-26T04:51:34.161420Z",
+      "fetched_at": "2026-10-27T05:06:07.386213Z",
       "source_id": "queens-events-rss",
       "url": "https://www.queensu.ca/eventscalendar/events/webinar-ai-does-not-matter-what-leaders-do-that-technology-can-t"
     }

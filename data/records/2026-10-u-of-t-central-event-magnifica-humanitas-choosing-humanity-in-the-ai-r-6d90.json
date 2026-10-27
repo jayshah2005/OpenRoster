@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-10-u-of-t-central-event-magnifica-humanitas-choosing-humanity-in-the-ai-r-6d90",
-  "last_seen": "2026-10-26T04:51:34.161420Z",
-  "last_verified": "2026-10-26T04:51:34.161420Z",
+  "last_seen": "2026-10-27T05:06:07.386213Z",
+  "last_verified": "2026-10-27T05:06:07.386213Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-10-26T04:51:34.161420Z",
+      "fetched_at": "2026-10-27T05:06:07.386213Z",
       "source_id": "uoft-central-events",
       "url": "https://stmikes.utoronto.ca/event/magnifica-humanitas-choosing-humanity-in-the-ai-revolution"
     }

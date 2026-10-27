@@ -1,5 +1,8 @@
 {
-  "flagged_missing": [],
+  "flagged_missing": [
+    "2026-10-cheriton-school-of-c-phd-seminar-human-computer-interaction-intentlint-de81",
+    "2026-11-cheriton-school-of-c-phd-seminar-computer-graphics-from-droplets-to-oc-4f74"
+  ],
   "items": [
     {
       "evidence": " Sheridan College's largest hackathon this year, bringing students from across the GTA to come and build meaningful software together. BearHacks 2026 Sheridan College's largest hackathon this year, bringing students from across the GTA to come and build meaningful software together. Sheridan College",
@@ -199,7 +202,7 @@
       "url": "https://makeuoft.ca"
     },
     {
-      "evidence": "Facebook Instagram X HOME NEWS FEATURES SPORTS ARTS OPINION VIDEOS Search Monday, October 26, 2026 Facebook Instagram X Brock's Only Independent Student Newspaper One of the only worker-managed newspapers in Canada Search NEWS FEATURES SPORTS ARTS OPINION PODCAST MORE ABOUT Beginner’s Guide ARCHIVE ",
+      "evidence": "Facebook Instagram X HOME NEWS FEATURES SPORTS ARTS OPINION VIDEOS Search Tuesday, October 27, 2026 Facebook Instagram X Brock's Only Independent Student Newspaper One of the only worker-managed newspapers in Canada Search NEWS FEATURES SPORTS ARTS OPINION PODCAST MORE ABOUT Beginner’s Guide ARCHIVE",
       "key": "hackathon:mother-of-all-game-jams|hackathon:mother-of-all-game-jams",
       "reasons": [
         "no event date found with confidence (site may be JS-only or not updated)",
