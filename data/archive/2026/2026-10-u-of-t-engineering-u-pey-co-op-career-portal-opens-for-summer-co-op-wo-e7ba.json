@@ -55,7 +55,7 @@
     }
   ],
   "start": "2026-10-26T00:00:00-04:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Event by U of T Engineering undergraduate events (incl. PEY Co-op).",
   "tags": [],
   "timezone": "America/Toronto",

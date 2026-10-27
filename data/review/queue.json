@@ -1,7 +1,5 @@
 {
-  "flagged_missing": [
-    "2026-10-waterloo-tech-adjace-tech-differently-kw-satellite-party-7a5b"
-  ],
+  "flagged_missing": [],
   "items": [
     {
       "evidence": " Sheridan College's largest hackathon this year, bringing students from across the GTA to come and build meaningful software together. BearHacks 2026 Sheridan College's largest hackathon this year, bringing students from across the GTA to come and build meaningful software together. Sheridan College",
@@ -256,11 +254,10 @@
       "url": "https://www.algonquincollege.com/news/2026/08/06/algonquin-college-technology-project-showcase-highlights-creative-solutions-and-technical-problem-solving/"
     },
     {
-      "evidence": "Loading ... Annual Hackathons | School of Information Technology Administration & Security | Seneca Students Stop Impersonating Menu Seneca campuses remain open today but day and evening in-person classes will move online where possible, due to snowfall. Read more Home Browse Spaces Spaces Spaces My",
-      "key": "hackathon:seneca-annual-hackathons-school-of-it-administration-securit|hackathon:seneca-annual-hackathons-school-of-it-administration-securit",
+      "evidence": "",
+      "key": "hackathon:seneca-annual-hackathons-school-of-it-administration-securit|https://students.senecapolytechnic.ca/spaces/14/school-of-information-technology-administration-security/wiki/view/7685/annual-hackathons|nodate|seneca annual hackathons (school of it administration & security)",
       "reasons": [
-        "no event date found with confidence (site may be JS-only or not updated)",
-        "no date could be parsed with confidence"
+        "site could not be fetched: https://students.senecapolytechnic.ca/spaces/14/school-of-information-technology-administration-security/wiki/view/7685/annual-hackathons: disallowed "
       ],
       "source_id": "hackathon:seneca-annual-hackathons-school-of-it-administration-securit",
       "title": "Seneca annual hackathons (School of IT Administration & Security)",

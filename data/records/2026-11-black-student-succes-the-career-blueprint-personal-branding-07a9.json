@@ -8,14 +8,21 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-09T14:00:00-05:00",
+  "end": "2026-11-09T12:00:00-05:00",
   "first_seen": "2026-10-24T17:14:00.319152Z",
   "geo": {
     "lat": 43.17126,
     "lon": -79.24267,
     "source": "gazetteer"
   },
-  "history": [],
+  "history": [
+    {
+      "at": "2026-10-27T18:01:00.981383Z",
+      "field": "start",
+      "new": "2026-11-03T11:00:00-05:00",
+      "old": "2026-11-09T13:00:00-05:00"
+    }
+  ],
   "id": "2026-11-black-student-succes-the-career-blueprint-personal-branding-07a9",
   "last_seen": "2026-10-27T05:06:07.386213Z",
   "last_verified": "2026-10-27T05:06:07.386213Z",
@@ -139,8 +146,8 @@
       "url": "https://experiencebu.brocku.ca/event/332847"
     }
   ],
-  "start": "2026-11-09T13:00:00-05:00",
-  "status": "scheduled",
+  "start": "2026-11-03T11:00:00-05:00",
+  "status": "moved",
   "summary": "Workshop by Black Student Success Centre in St. Catharines.",
   "tags": [],
   "timezone": "America/Toronto",
