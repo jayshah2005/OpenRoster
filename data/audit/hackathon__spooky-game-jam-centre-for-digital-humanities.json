@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-24T05:35:11.157922+00:00",
+  "checked": "2026-10-27T15:32:51.409436+00:00",
   "dated_items_in_html": 8,
   "feeds": [],
   "http_status": 200,
@@ -7,15 +7,13 @@
   "known_verdict": null,
   "login_wall": false,
   "platform": "html",
-  "reasons": [
-    "no terms-of-use link found on the page"
-  ],
+  "reasons": [],
   "robots": "allowed",
   "sitemaps": [],
-  "terms_forbid_automated": null,
-  "terms_forbid_republish": null,
+  "terms_forbid_automated": false,
+  "terms_forbid_republish": false,
   "terms_quotes": [],
-  "terms_url": null,
+  "terms_url": "https://experiencebu.brocku.ca/event/336078",
   "url": "https://brocku.ca/brock-news/in-focus/game-jam-a-spooktacular-success/",
   "verdict": "allowed"
 }
