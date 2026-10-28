@@ -1,0 +1,71 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "grad"
+  ],
+  "end": "2026-11-09T13:30:00-05:00",
+  "first_seen": "2026-10-28T22:36:01.647139Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-queen-s-university-e-methods-mondays-community-engaged-co-production-o-3cab",
+  "last_seen": "2026-10-28T22:36:01.647139Z",
+  "last_verified": "2026-10-28T22:36:01.647139Z",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": null
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Queen's University events calendar (RSS)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.queensu.ca/eventscalendar/events/methods-mondays-community-engaged-co-production-indigenous-focused-health-systems-research"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-28T22:36:01.647139Z",
+      "source_id": "queens-events-rss",
+      "url": "https://www.queensu.ca/eventscalendar/events/methods-mondays-community-engaged-co-production-indigenous-focused-health-systems-research"
+    }
+  ],
+  "start": "2026-11-09T12:30:00-05:00",
+  "status": "scheduled",
+  "summary": "Online tech talk by Queen's University events calendar (RSS) for women and non-binary students and Indigenous students.",
+  "tags": [
+    "women_nonbinary",
+    "indigenous_students"
+  ],
+  "timezone": "America/Toronto",
+  "title": "Methods Mondays: Community-Engaged Co-Production of Indigenous-Focused Health Systems Research",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "tech_talk"
+}

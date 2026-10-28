@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": true,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": null,
+  "first_seen": "2026-10-24T17:14:00.319152Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-10-u-of-t-central-event-echo-pitch-2026-50f0",
+  "last_seen": "2026-10-27T05:06:07.386213Z",
+  "last_verified": "2026-10-27T05:06:07.386213Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "html"
+  ],
+  "organizer": "U of T central events aggregator",
+  "registration": {
+    "route": "public_link",
+    "url": "https://entrepreneurs.utoronto.ca/event/echo-pitch-2026/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "html",
+      "fetched_at": "2026-10-27T05:06:07.386213Z",
+      "source_id": "uoft-central-events",
+      "url": "https://entrepreneurs.utoronto.ca/event/echo-pitch-2026/"
+    }
+  ],
+  "start": "2026-10-28T00:00:00-04:00",
+  "status": "past",
+  "summary": "Event by U of T central events aggregator.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "ECHO PITCH 2026",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

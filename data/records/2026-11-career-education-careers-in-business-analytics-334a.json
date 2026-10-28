@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-09T15:00:00-05:00",
+  "first_seen": "2026-10-28T22:36:01.647139Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-career-education-careers-in-business-analytics-334a",
+  "last_seen": "2026-10-28T22:36:01.647139Z",
+  "last_verified": "2026-10-28T22:36:01.647139Z",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "https://teams.microsoft.com/meet/246938738508923?p=eEXStZNR7soMW0ubcf"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Career Education",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://experiencebu.brocku.ca/event/336875"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "brock"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-10-28T22:36:01.647139Z",
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/336875"
+    }
+  ],
+  "start": "2026-11-09T14:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Online info session by Career Education.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Careers in Business Analytics",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

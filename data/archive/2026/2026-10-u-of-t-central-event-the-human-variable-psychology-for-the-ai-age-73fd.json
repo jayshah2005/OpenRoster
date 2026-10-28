@@ -12,7 +12,7 @@
   "first_seen": "2026-10-24T16:53:41.410358Z",
   "geo": null,
   "history": [],
-  "id": "2026-10-u-of-t-central-event-cfe-connects-lunch-launch-spooky-startup-stories-6baf",
+  "id": "2026-10-u-of-t-central-event-the-human-variable-psychology-for-the-ai-age-73fd",
   "last_seen": "2026-10-27T05:06:07.386213Z",
   "last_verified": "2026-10-27T05:06:07.386213Z",
   "location": {
@@ -29,7 +29,7 @@
   "organizer": "U of T central events aggregator",
   "registration": {
     "route": "public_link",
-    "url": "https://www.entrepreneurship.artsci.utoronto.ca/events/cfe-connects-lunch-launch-spooky-startup-stories"
+    "url": "https://srinstitute.utoronto.ca/events-archive/the-human-variable"
   },
   "review": null,
   "roles": [
@@ -51,27 +51,15 @@
       "adapter": "html",
       "fetched_at": "2026-10-27T05:06:07.386213Z",
       "source_id": "uoft-central-events",
-      "url": "https://www.entrepreneurship.artsci.utoronto.ca/events/cfe-connects-lunch-launch-spooky-startup-stories"
-    },
-    {
-      "adapter": "html",
-      "fetched_at": "2026-10-27T05:06:07.386213Z",
-      "source_id": "uoft-central-events",
-      "url": "https://www.artsci.utoronto.ca/events/cfe-connects-lunch-launch-spooky-startup-stories"
-    },
-    {
-      "adapter": "html",
-      "fetched_at": "2026-10-27T05:06:07.386213Z",
-      "source_id": "uoft-central-events",
-      "url": "https://entrepreneurs.utoronto.ca/event/cfe-connects-lunch-launch-spooky-startup-stories/"
+      "url": "https://srinstitute.utoronto.ca/events-archive/the-human-variable"
     }
   ],
   "start": "2026-10-28T00:00:00-04:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Event by U of T central events aggregator.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "CfE Connects Lunch & Launch: Spooky Startup Stories",
+  "title": "The Human Variable: Psychology for the AI Age",
   "travel_support": {
     "note": null,
     "stated": false

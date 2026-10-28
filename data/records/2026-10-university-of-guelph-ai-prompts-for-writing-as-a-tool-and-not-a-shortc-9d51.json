@@ -8,7 +8,7 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-10-28T16:00:00Z",
+  "end": "2026-10-29T20:00:00Z",
   "first_seen": "2026-10-24T17:55:21.786445Z",
   "geo": {
     "lat": 43.54594,
@@ -144,7 +144,7 @@
     "city": "Guelph",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "Library Room 384, 50 Stone Road East, Guelph, Ont N1G 2W1, Canada"
+    "venue_name": "Sign in to download the location"
   },
   "mode": "in_person",
   "near_schools": [
@@ -227,7 +227,7 @@
   "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
   "registration": {
     "route": "public_link",
-    "url": "https://uoguelph.campusgroups.com/rsvp?id=379368"
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=379358"
   },
   "review": null,
   "roles": [
@@ -266,13 +266,13 @@
   ],
   "start": "2026-10-28T14:00:00Z",
   "status": "moved",
-  "summary": "Workshop by University of Guelph GryphLife (CampusGroups) public iCal in Guelph.",
+  "summary": "Event by University of Guelph GryphLife (CampusGroups) public iCal.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "AI Prompts for Writing: As a Tool and not a Shortcut - AI Writing Series",
+  "title": "Stem Cell Swabbing Event",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "workshop"
+  "type": "other"
 }

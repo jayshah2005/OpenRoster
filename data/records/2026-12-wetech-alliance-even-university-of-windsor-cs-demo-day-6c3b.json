@@ -1,0 +1,81 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-04T13:00:00-05:00",
+  "first_seen": "2026-10-28T22:36:01.647139Z",
+  "geo": {
+    "lat": 42.30008,
+    "lon": -83.01654,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-12-wetech-alliance-even-university-of-windsor-cs-demo-day-6c3b",
+  "last_seen": "2026-10-28T22:36:01.647139Z",
+  "last_verified": "2026-10-28T22:36:01.647139Z",
+  "location": {
+    "city": "Windsor",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Computer Science Advanced Computing Hub"
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 4.1,
+      "school_id": "uwindsor"
+    },
+    {
+      "km": 5.8,
+      "school_id": "stclair"
+    }
+  ],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "WEtech Alliance events (Windsor-Essex)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.wetech-alliance.com/event/university-of-windsor-cs-demo-day/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-28T22:36:01.647139Z",
+      "source_id": "wetech-alliance-events",
+      "url": "https://www.wetech-alliance.com/event/university-of-windsor-cs-demo-day/"
+    }
+  ],
+  "start": "2026-12-04T09:30:00-05:00",
+  "status": "scheduled",
+  "summary": "Info session by WEtech Alliance events (Windsor-Essex) in Windsor.",
+  "tags": [],
+  "timezone": "America/Detroit",
+  "title": "University of Windsor | CS Demo Day",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

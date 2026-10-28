@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-10-29T23:00:00Z",
+  "first_seen": "2026-10-28T22:36:01.647139Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-10-torontoai-luma-ical-financial-services-tech-leaders-evening-ai-that-de-ee2f",
+  "last_seen": "2026-10-28T22:36:01.647139Z",
+  "last_verified": "2026-10-28T22:36:01.647139Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "https://luma.com/event/evt-zZSahlJdqHdzHov"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "TorontoAI (Luma iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://luma.com/rtfhpr0p"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "luma-torontoai:acd6891a7db2",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-28T22:36:01.647139Z",
+      "source_id": "luma-torontoai",
+      "url": "https://luma.com/rtfhpr0p"
+    }
+  ],
+  "start": "2026-10-29T21:00:00Z",
+  "status": "scheduled",
+  "summary": "Event by TorontoAI (Luma iCal).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Financial Services & Tech Leaders Evening | AI That Delivers × Tundra",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

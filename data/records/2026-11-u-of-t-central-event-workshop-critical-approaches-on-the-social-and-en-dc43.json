@@ -9,12 +9,12 @@
     "unknown"
   ],
   "end": null,
-  "first_seen": "2026-10-24T17:14:00.319152Z",
+  "first_seen": "2026-10-28T22:36:01.647139Z",
   "geo": null,
   "history": [],
-  "id": "2026-10-u-of-t-central-event-echo-pitch-2026-50f0",
-  "last_seen": "2026-10-27T05:06:07.386213Z",
-  "last_verified": "2026-10-27T05:06:07.386213Z",
+  "id": "2026-11-u-of-t-central-event-workshop-critical-approaches-on-the-social-and-en-dc43",
+  "last_seen": "2026-10-28T22:36:01.647139Z",
+  "last_verified": "2026-10-28T22:36:01.647139Z",
   "location": {
     "city": null,
     "country": null,
@@ -29,7 +29,7 @@
   "organizer": "U of T central events aggregator",
   "registration": {
     "route": "public_link",
-    "url": "https://entrepreneurs.utoronto.ca/event/echo-pitch-2026/"
+    "url": "https://www.artsci.utoronto.ca/events/workshop-critical-approaches-social-and-environmental-impact-ai"
   },
   "review": null,
   "roles": [
@@ -49,20 +49,20 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-10-27T05:06:07.386213Z",
+      "fetched_at": "2026-10-28T22:36:01.647139Z",
       "source_id": "uoft-central-events",
-      "url": "https://entrepreneurs.utoronto.ca/event/echo-pitch-2026/"
+      "url": "https://www.artsci.utoronto.ca/events/workshop-critical-approaches-social-and-environmental-impact-ai"
     }
   ],
-  "start": "2026-10-28T00:00:00-04:00",
+  "start": "2026-11-05T00:00:00-05:00",
   "status": "scheduled",
-  "summary": "Event by U of T central events aggregator.",
+  "summary": "Workshop by U of T central events aggregator.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "ECHO PITCH 2026",
+  "title": "Workshop: Critical Approaches on the Social and Environmental Impact of AI",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "other"
+  "type": "workshop"
 }
