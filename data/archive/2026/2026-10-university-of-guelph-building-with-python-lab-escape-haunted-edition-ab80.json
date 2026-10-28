@@ -2,28 +2,28 @@
   "ai_suggested": [],
   "all_day": false,
   "cost": {
-    "kind": "free",
+    "kind": "unknown",
     "note": null
   },
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-10-27T18:30:00-04:00",
-  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "end": "2026-10-27T22:30:00Z",
+  "first_seen": "2026-10-24T17:14:00.319152Z",
   "geo": {
     "lat": 43.54594,
     "lon": -80.25599,
     "source": "gazetteer"
   },
   "history": [],
-  "id": "2026-10-university-of-guelph-hopper-lecture-2026-building-feminist-decolonial-b82a",
+  "id": "2026-10-university-of-guelph-building-with-python-lab-escape-haunted-edition-ab80",
   "last_seen": "2026-10-27T05:06:07.386213Z",
   "last_verified": "2026-10-27T05:06:07.386213Z",
   "location": {
     "city": "Guelph",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "Macdonald Stewart Hall"
+    "venue_name": "Peter Clark Hall (Main Hall), 50 Stone Rd E, Guelph, Ontario N1G 2W1, Canada"
   },
   "mode": "in_person",
   "near_schools": [
@@ -101,12 +101,12 @@
     }
   ],
   "obtained_via": [
-    "tribe"
+    "ics"
   ],
-  "organizer": "University of Guelph central events (news.uoguelph.ca, The Events Calendar)",
+  "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
   "registration": {
     "route": "public_link",
-    "url": "https://www.uoguelph.ca/csahs/hopper-lecture"
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=378435"
   },
   "review": null,
   "roles": [
@@ -122,26 +122,24 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": null,
+  "series_id": "uoguelph-gryphlife-campusgroups-ics:a6bc6a4e21d5",
   "sources": [
     {
-      "adapter": "tribe",
+      "adapter": "ics",
       "fetched_at": "2026-10-27T05:06:07.386213Z",
-      "source_id": "uoguelph-news-events-tribe",
-      "url": "https://news.uoguelph.ca/event/hopper-lecture-2026-building-feminist-decolonial-ai-in-latin-america/"
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=378435"
     }
   ],
-  "start": "2026-10-27T16:30:00-04:00",
-  "status": "scheduled",
-  "summary": "Free tech talk by University of Guelph central events (news.uoguelph.ca, The Events Calendar) in Guelph for women and non-binary students.",
-  "tags": [
-    "women_nonbinary"
-  ],
+  "start": "2026-10-27T19:30:00Z",
+  "status": "past",
+  "summary": "Workshop by University of Guelph GryphLife (CampusGroups) public iCal in Guelph.",
+  "tags": [],
   "timezone": "America/Toronto",
-  "title": "Hopper Lecture 2026: Building Feminist Decolonial AI in Latin America",
+  "title": "Building with Python - Lab Escape: Haunted Edition",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "tech_talk"
+  "type": "workshop"
 }

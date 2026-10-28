@@ -2,7 +2,7 @@
 
 Hackathons, info sessions, talks, career fairs, workshops, competitions and early-career programs for CS students, soonest deadline first. Filter, subscribe to a calendar, or see details at https://openroster-seven.vercel.app.
 
-244 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
+238 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
 
 | Apply by | Starts | Opportunity | Organizer | Type | Where | Ways to take part |
 |---|---|---|---|---|---|---|
@@ -10,12 +10,6 @@ Hackathons, info sessions, talks, career fairs, workshops, competitions and earl
 | Not listed | Oct 22 | [Fall Job Shadow Program Mentorship Sessions (FASS & FPGA)](https://openroster-seven.vercel.app/o/2026-10-carleton-career-serv-fall-job-shadow-program-mentorship-sessions-fass-d312/) | Carleton Career Services events (WordPress REST) | Other | Ottawa, ON | attend |
 | Not listed | Oct 22 | [Founding-100](https://openroster-seven.vercel.app/o/2026-10-founding-100-9681/) | Founding-100 | Hackathon | Online | attend |
 | Not listed | Oct 26 | [IP Data & Research Conference](https://openroster-seven.vercel.app/o/2026-10-u-of-t-central-event-ip-data-research-conference-6108/) | U of T central events aggregator | Conference | TBA | attend |
-| Not listed | Oct 27 | [INCUBATOR Art Lab: Reimagining Biotechnology as a Technology of Love](https://openroster-seven.vercel.app/o/2026-10-posthumanism-researc-incubator-art-lab-reimagining-biotechnology-as-a-c030/) | Posthumanism Research Institute | Workshop | Online | attend |
-| Not listed | Oct 27 | [Aquatic Research & Conservation Career Information Session](https://openroster-seven.vercel.app/o/2026-10-university-of-guelph-research-lifecycle-intro-to-gis-using-arcgis-pro-6e7d/) | University of Guelph GryphLife (CampusGroups) public iCal | Info session | Online | attend |
-| Not listed | Oct 27 | [AI In Action: Practical Skills for Your Daily Work](https://openroster-seven.vercel.app/o/2026-10-western-university-e-ai-in-action-practical-skills-for-your-daily-work-692d/) | Western University events calendar (iCal) | Workshop | London, ON | attend |
-| Not listed | Oct 27 | [Building with Python - Lab Escape: Haunted Edition](https://openroster-seven.vercel.app/o/2026-10-university-of-guelph-building-with-python-lab-escape-haunted-edition-ab80/) | University of Guelph GryphLife (CampusGroups) public iCal | Workshop | Guelph, ON | attend |
-| Not listed | Oct 27 | [OPG’s WattNext Nuclear Career Expo](https://openroster-seven.vercel.app/o/2026-10-durham-college-event-opg-s-wattnext-nuclear-career-expo-5739/) | Durham College events calendar | Career fair | Oshawa, ON | attend |
-| Not listed | Oct 27 | [Hopper Lecture 2026: Building Feminist Decolonial AI in Latin America](https://openroster-seven.vercel.app/o/2026-10-university-of-guelph-hopper-lecture-2026-building-feminist-decolonial-b82a/) | University of Guelph central events (news.uoguelph.ca, The Events Calendar) | Tech talk | Guelph, ON | attend |
 | Not listed | Oct 28 | [CfE Connects Lunch & Launch: Spooky Startup Stories](https://openroster-seven.vercel.app/o/2026-10-u-of-t-central-event-cfe-connects-lunch-launch-spooky-startup-stories-6baf/) | U of T central events aggregator | Other | TBA | attend |
 | Not listed | Oct 28 | [ECHO PITCH 2026](https://openroster-seven.vercel.app/o/2026-10-u-of-t-central-event-echo-pitch-2026-50f0/) | U of T central events aggregator | Other | TBA | attend |
 | Not listed | Oct 28 | [Maxime Cohen on "Pricing in the Age of AI"](https://openroster-seven.vercel.app/o/2026-10-u-of-t-central-event-maxime-cohen-on-pricing-in-the-age-of-ai-2dbd/) | U of T central events aggregator | Other | TBA | attend |
