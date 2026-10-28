@@ -87,7 +87,7 @@
     }
   ],
   "start": "2026-10-27T12:00:00-04:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Tech talk by Western University events (JSON) in London for graduate students.",
   "tags": [],
   "timezone": "America/New_York",

@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-wetech-alliance-secure-to-scale-cybersecurity-as-a-foundation-for-e0f2",
-  "last_seen": "2026-10-27T05:06:07.386213Z",
-  "last_verified": "2026-10-27T05:06:07.386213Z",
+  "last_seen": "2026-10-28T05:43:31.377780Z",
+  "last_verified": "2026-10-28T05:43:31.377780Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "tribe",
-      "fetched_at": "2026-10-27T05:06:07.386213Z",
+      "fetched_at": "2026-10-28T05:43:31.377780Z",
       "source_id": "wetech-alliance-events",
       "url": "https://www.wetech-alliance.com/event/ai-for-business-development-unlocking-the-power-of-gemini-and-g-suite-virtual-2/"
     }

@@ -6,30 +6,32 @@
     "note": null
   },
   "eligibility": [
-    "unknown"
+    "undergrad",
+    "grad"
   ],
-  "end": "2026-10-27T12:45:00-04:00",
+  "end": "2026-10-27T13:00:00-04:00",
   "first_seen": "2026-10-24T16:53:41.410358Z",
   "geo": null,
   "history": [],
-  "id": "2026-10-queen-s-university-e-webinar-ai-does-not-matter-what-leaders-do-that-t-c8f4",
+  "id": "2026-10-bmo-ai-at-bmo-learn-today-lead-tomorrow-e67a",
   "last_seen": "2026-10-27T05:06:07.386213Z",
   "last_verified": "2026-10-27T05:06:07.386213Z",
   "location": {
     "city": null,
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": null
+    "venue_name": "Virtual Event"
   },
   "mode": "online",
   "near_schools": [],
   "obtained_via": [
+    "html",
     "rss"
   ],
-  "organizer": "Queen's University events calendar (RSS)",
+  "organizer": "BMO",
   "registration": {
-    "route": "public_link",
-    "url": "https://www.queensu.ca/eventscalendar/events/webinar-ai-does-not-matter-what-leaders-do-that-technology-can-t"
+    "route": "school_portal_login",
+    "url": "https://experiencebu.brocku.ca/event/334767"
   },
   "review": null,
   "roles": [
@@ -45,24 +47,32 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": null,
+  "series_id": "bmo-virtual-workshops:a01a77659808",
   "sources": [
+    {
+      "adapter": "html",
+      "fetched_at": "2026-10-27T05:06:07.386213Z",
+      "source_id": "bmo-virtual-workshops",
+      "url": "https://jobs.bmo.com/ca/en/event/6a90a4d794ad778dc887c0e6/AI-at-BMO-Learn-Today-Lead-Tomorrow"
+    },
     {
       "adapter": "rss",
       "fetched_at": "2026-10-27T05:06:07.386213Z",
-      "source_id": "queens-events-rss",
-      "url": "https://www.queensu.ca/eventscalendar/events/webinar-ai-does-not-matter-what-leaders-do-that-technology-can-t"
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/334767"
     }
   ],
   "start": "2026-10-27T12:00:00-04:00",
-  "status": "scheduled",
-  "summary": "Online workshop by Queen's University events calendar (RSS).",
-  "tags": [],
+  "status": "past",
+  "summary": "Online info session by Career Education.",
+  "tags": [
+    "year_inferred"
+  ],
   "timezone": "America/Toronto",
-  "title": "WEBINAR - AI Does (Not) Matter: What Leaders Do That Technology Can’t",
+  "title": "AI at BMO: Learn Today, Lead Tomorrow",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "workshop"
+  "type": "info_session"
 }

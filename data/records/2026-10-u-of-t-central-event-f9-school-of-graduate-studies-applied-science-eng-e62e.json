@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": true,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": null,
+  "first_seen": "2026-10-28T05:43:31.377780Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-10-u-of-t-central-event-f9-school-of-graduate-studies-applied-science-eng-e62e",
+  "last_seen": "2026-10-28T05:43:31.377780Z",
+  "last_verified": "2026-10-28T05:43:31.377780Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "html"
+  ],
+  "organizer": "U of T central events aggregator",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.registrar.utoronto.ca/convocation-events/fall-2026-ceremony-9/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "html",
+      "fetched_at": "2026-10-28T05:43:31.377780Z",
+      "source_id": "uoft-central-events",
+      "url": "https://www.registrar.utoronto.ca/convocation-events/fall-2026-ceremony-9/"
+    }
+  ],
+  "start": "2026-10-29T00:00:00-04:00",
+  "status": "scheduled",
+  "summary": "Event by U of T central events aggregator.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "F9. School of Graduate Studies: Applied Science & Engineering",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

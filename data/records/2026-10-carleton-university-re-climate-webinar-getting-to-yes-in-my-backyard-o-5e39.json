@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-10-carleton-university-re-climate-webinar-getting-to-yes-in-my-backyard-o-5e39",
-  "last_seen": "2026-10-27T05:06:07.386213Z",
-  "last_verified": "2026-10-27T05:06:07.386213Z",
+  "last_seen": "2026-10-28T05:43:31.377780Z",
+  "last_verified": "2026-10-28T05:43:31.377780Z",
   "location": {
     "city": null,
     "country": "CA",
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "api",
-      "fetched_at": "2026-10-27T05:06:07.386213Z",
+      "fetched_at": "2026-10-28T05:43:31.377780Z",
       "source_id": "carleton-events-api",
       "url": "https://us02web.zoom.us/webinar/register/WN_il5olcVuRMO7HuWqeKrVAg"
     }

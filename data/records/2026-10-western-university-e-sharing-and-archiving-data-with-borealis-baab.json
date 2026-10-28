@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-10-western-university-e-sharing-and-archiving-data-with-borealis-baab",
-  "last_seen": "2026-10-27T05:06:07.386213Z",
-  "last_verified": "2026-10-27T05:06:07.386213Z",
+  "last_seen": "2026-10-28T05:43:31.377780Z",
+  "last_verified": "2026-10-28T05:43:31.377780Z",
   "location": {
     "city": null,
     "country": "CA",
@@ -50,13 +50,13 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-10-27T05:06:07.386213Z",
+      "fetched_at": "2026-10-28T05:43:31.377780Z",
       "source_id": "western-events-ics",
       "url": "https://www.uwo.ca/events/"
     },
     {
       "adapter": "api",
-      "fetched_at": "2026-10-27T05:06:07.386213Z",
+      "fetched_at": "2026-10-28T05:43:31.377780Z",
       "source_id": "western-events-json",
       "url": "https://www.uwo.ca/events/2026/10/libraries-sharing-and-archiving-data-with-borealis.html"
     }

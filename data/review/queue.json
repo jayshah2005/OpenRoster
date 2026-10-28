@@ -1,7 +1,5 @@
 {
-  "flagged_missing": [
-    "2026-11-cheriton-school-of-c-phd-seminar-systems-and-networking-pricing-based-cb78"
-  ],
+  "flagged_missing": [],
   "items": [
     {
       "evidence": " Sheridan College's largest hackathon this year, bringing students from across the GTA to come and build meaningful software together. BearHacks 2026 Sheridan College's largest hackathon this year, bringing students from across the GTA to come and build meaningful software together. Sheridan College",
@@ -114,11 +112,10 @@
       "url": "https://genaigenesis.ca/"
     },
     {
-      "evidence": "﻿ Niagara College - Gamers unite at Niagara College for fourth annual Global Game Jam { \"@context\" : \"https://schema.org\", \"@type\" : \"Organization\", \"name\" : \"Education News Canada\", \"url\" : \"https://educationnewscanada.com\", \"logo\" : \"https://educationnewscanada.com/CE/top_logo_reseau.png\", \"sameAs",
-      "key": "hackathon:global-game-jam-site-game-development-program|hackathon:global-game-jam-site-game-development-program",
+      "evidence": "",
+      "key": "hackathon:global-game-jam-site-game-development-program|https://educationnewscanada.com/article/education/region/ontario/27/745152/niagara-collegejanuary-28-2019-gamers-unite-at-niagara-college-for-fourth-annual-global-game-jam.html|nodate|global game jam site (game development program)",
       "reasons": [
-        "no event date found with confidence (site may be JS-only or not updated)",
-        "no date could be parsed with confidence"
+        "site could not be fetched: https://educationnewscanada.com/article/education/region/ontario/27/745152/niagara-collegejanuary-28-2019-gamers-unite-at-niagara-college-for-fourth-a"
       ],
       "source_id": "hackathon:global-game-jam-site-game-development-program",
       "title": "Global Game Jam site (Game Development program)",
@@ -155,6 +152,16 @@
       "source_id": "hackathon:hack-the-6ix",
       "title": "Hack the 6ix",
       "url": "https://hackthe6ix.com"
+    },
+    {
+      "evidence": "",
+      "key": "hackathon:hack-the-valley|https://hackthevalley.io|nodate|hack the valley",
+      "reasons": [
+        "site could not be fetched: https://hackthevalley.io: HTTP 520"
+      ],
+      "source_id": "hackathon:hack-the-valley",
+      "title": "Hack the Valley",
+      "url": "https://hackthevalley.io"
     },
     {
       "evidence": "Skip to Main Content Toggle navigation Toggle information Toggle search Search Site and People Info for Future Students Current Students Faculty and Staff Teachers and Counsellors Alumni Media Donors Future Students Current Students Faculty and Staff Teachers and Counsellors Alumni Media Donors Abou",
@@ -201,7 +208,7 @@
       "url": "https://makeuoft.ca"
     },
     {
-      "evidence": "Facebook Instagram X HOME NEWS FEATURES SPORTS ARTS OPINION VIDEOS Search Tuesday, October 27, 2026 Facebook Instagram X Brock's Only Independent Student Newspaper One of the only worker-managed newspapers in Canada Search NEWS FEATURES SPORTS ARTS OPINION PODCAST MORE ABOUT Beginner’s Guide ARCHIVE",
+      "evidence": "Facebook Instagram X HOME NEWS FEATURES SPORTS ARTS OPINION VIDEOS Search Wednesday, October 28, 2026 Facebook Instagram X Brock's Only Independent Student Newspaper One of the only worker-managed newspapers in Canada Search NEWS FEATURES SPORTS ARTS OPINION PODCAST MORE ABOUT Beginner’s Guide ARCHI",
       "key": "hackathon:mother-of-all-game-jams|hackathon:mother-of-all-game-jams",
       "reasons": [
         "no event date found with confidence (site may be JS-only or not updated)",
