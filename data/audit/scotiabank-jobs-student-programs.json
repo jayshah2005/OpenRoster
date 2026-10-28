@@ -1,21 +1,19 @@
 {
-  "checked": "2026-10-27T15:32:55.735788+00:00",
-  "dated_items_in_html": 30,
+  "checked": "2026-10-28T16:17:02.325506+00:00",
+  "dated_items_in_html": 36,
   "feeds": [],
   "http_status": 200,
   "jsonld_events": 0,
   "known_verdict": null,
   "login_wall": false,
   "platform": "html",
-  "reasons": [
-    "no terms-of-use link found on the page"
-  ],
+  "reasons": [],
   "robots": "allowed",
   "sitemaps": [],
-  "terms_forbid_automated": null,
-  "terms_forbid_republish": null,
+  "terms_forbid_automated": false,
+  "terms_forbid_republish": false,
   "terms_quotes": [],
-  "terms_url": null,
+  "terms_url": "https://jobs.scotiabank.com/job/Lima-Practicante-Pre-Profesional-Productos-y-Campa%C3%B1as-de-Seguros-LIM-15047/607422817/",
   "url": "https://jobs.scotiabank.com/search/?q=student",
   "verdict": "allowed"
 }
