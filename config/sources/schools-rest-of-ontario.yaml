@@ -219,13 +219,15 @@ sources:
   adapter: html
   url: https://www.algonquincollege.com/studentsupportservices/events/
   owner: algonquin
-  enabled: false
+  enabled: true
   reviewed: true
   page_budget: 3
   options:
     filter: cs
     landing_url: https://www.algonquincollege.com/studentsupportservices/career-employment/
-  notes: NEEDS SELECTORS before enabling. Server-rendered list linking to /studentsupportservices/event/<slug>/ (career fairs like Ottawa Grad Career Fair and Career Fair Prep Workshop appear here). Site uses All-in-One Event Calendar in places, but robots.txt disallows its exporter (*controller=ai1ec_exporter_controller*) and /events/action~* paths, so do not use the ai1ec iCal export. Tribe endpoint 404.
+    item: li
+    title: a
+  notes: Selectors proposed by `openroster autoselect`; check the fixture test. Server-rendered list linking to /studentsupportservices/event/<slug>/ (career fairs like Ottawa Grad Career Fair and Career Fair Prep Workshop appear here). Site uses All-in-One Event Calendar in places, but robots.txt disallows its exporter (*controller=ai1ec_exporter_controller*) and /events/action~* paths, so do not use the ai1ec iCal export. Tribe endpoint 404.
 - id: algonquin-coop-career-fairs
   name: Algonquin Co-op & Career Centre career fairs
   adapter: html

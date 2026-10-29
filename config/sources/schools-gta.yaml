@@ -227,9 +227,11 @@ sources:
   adapter: html
   url: https://techto.org/events
   owner: techto
-  enabled: false
+  enabled: true
   reviewed: true
   page_budget: 3
   options:
     filter: cs
-  notes: NEEDS SELECTORS before enabling. Webflow; upcoming events server-rendered with detail pages at /event/<slug>. robots.txt has only a Sitemap line (no rules). Some events defer to Luma for tickets (Luma not fetched, per instructions). Events often sell out; adult/professional audience.
+    item: div.collection-item.w-dyn-item
+    title: h4
+  notes: Selectors proposed by `openroster autoselect`; check the fixture test. Webflow; upcoming events server-rendered with detail pages at /event/<slug>. robots.txt has only a Sitemap line (no rules). Some events defer to Luma for tickets (Luma not fetched, per instructions). Events often sell out; adult/professional audience.
