@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-23T15:30:00-05:00",
+  "first_seen": "2026-10-29T22:45:46.003761Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-vector-institute-eve-showcase-day-multimodal-synthetic-data-generation-13a5",
+  "last_seen": "2026-10-29T22:45:46.003761Z",
+  "last_verified": "2026-10-29T22:45:46.003761Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "Virtual"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "Vector Institute events (The Events Calendar REST)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://vectorinstitute.swoogo.com/multimodal-synthetic-data-generation-bootcamp-showcase-day/13520611?ref=Website"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-10-29T22:45:46.003761Z",
+      "source_id": "vector-institute-events",
+      "url": "https://vectorinstitute.ai/event/showcase-day-multimodal-synthetic-data-generation-bootcamp/"
+    }
+  ],
+  "start": "2026-11-23T13:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Online workshop by Vector Institute events (The Events Calendar REST).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Showcase Day – Multimodal Synthetic Data Generation Bootcamp",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

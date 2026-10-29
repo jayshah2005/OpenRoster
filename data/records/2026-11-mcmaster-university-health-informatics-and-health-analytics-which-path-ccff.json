@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-12T13:00:00-05:00",
+  "first_seen": "2026-10-29T22:45:46.003761Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-mcmaster-university-health-informatics-and-health-analytics-which-path-ccff",
+  "last_seen": "2026-10-29T22:45:46.003761Z",
+  "last_verified": "2026-10-29T22:45:46.003761Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "McMaster University central events (news.mcmaster.ca, Events Manager)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://news.mcmaster.ca/events/health-informatics-and-health-analytics-which-path-is-right-for-you/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "mcmaster-news-events-ics:f545a5442170",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-29T22:45:46.003761Z",
+      "source_id": "mcmaster-news-events-ics",
+      "url": "https://news.mcmaster.ca/events/health-informatics-and-health-analytics-which-path-is-right-for-you/"
+    }
+  ],
+  "start": "2026-11-12T12:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Event by McMaster University central events (news.mcmaster.ca, Events Manager).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Health Informatics and Health Analytics: Which Path is Right for You?",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

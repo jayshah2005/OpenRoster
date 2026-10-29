@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-24T19:45:00-05:00",
+  "first_seen": "2026-10-29T22:45:46.003761Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-mcmaster-university-inside-the-ad-auction-the-modern-ad-tech-career-3c4e",
+  "last_seen": "2026-10-29T22:45:46.003761Z",
+  "last_verified": "2026-10-29T22:45:46.003761Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "McMaster University central events (news.mcmaster.ca, Events Manager)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://news.mcmaster.ca/events/inside-the-ad-auction-the-modern-ad-tech-career/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "mcmaster-news-events-ics:ab90b8de76b1",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-10-29T22:45:46.003761Z",
+      "source_id": "mcmaster-news-events-ics",
+      "url": "https://news.mcmaster.ca/events/inside-the-ad-auction-the-modern-ad-tech-career/"
+    }
+  ],
+  "start": "2026-11-24T19:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Info session by McMaster University central events (news.mcmaster.ca, Events Manager).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Inside the Ad Auction: The Modern Ad Tech Career",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

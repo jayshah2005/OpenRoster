@@ -1,0 +1,89 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-09T20:00:00-05:00",
+  "first_seen": "2026-10-29T22:45:46.003761Z",
+  "geo": {
+    "lat": 45.41117,
+    "lon": -75.69812,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-12-carleton-university-science-caf-progress-in-the-cognitive-neurobiology-5870",
+  "last_seen": "2026-10-29T22:45:46.003761Z",
+  "last_verified": "2026-10-29T22:45:46.003761Z",
+  "location": {
+    "city": "Ottawa",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "False"
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 1.8,
+      "school_id": "uottawa"
+    },
+    {
+      "km": 2.6,
+      "school_id": "carleton"
+    },
+    {
+      "km": 8.2,
+      "school_id": "algonquin"
+    },
+    {
+      "km": 85.1,
+      "school_id": "stlawrence"
+    }
+  ],
+  "obtained_via": [
+    "api"
+  ],
+  "organizer": "Carleton University central events (WordPress REST)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://events.carleton.ca/event/science-cafe-progress-in-the-cognitive-neurobiology-of-the-human-imagination-from-australopithecus-to-ai/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "api",
+      "fetched_at": "2026-10-29T22:45:46.003761Z",
+      "source_id": "carleton-events-api",
+      "url": "https://events.carleton.ca/event/science-cafe-progress-in-the-cognitive-neurobiology-of-the-human-imagination-from-australopithecus-to-ai/"
+    }
+  ],
+  "start": "2026-12-09T18:30:00-05:00",
+  "status": "scheduled",
+  "summary": "Event by Carleton University central events (WordPress REST) in Ottawa.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Science Café – Progress in the Cognitive Neurobiology of the Human Imagination: From Australopithecus to AI",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

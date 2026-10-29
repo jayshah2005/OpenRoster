@@ -2,20 +2,27 @@
   "ai_suggested": [],
   "all_day": false,
   "cost": {
-    "kind": "unknown",
+    "kind": "paid",
     "note": null
   },
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-09T21:00:00Z",
+  "end": "2026-11-09T21:20:00Z",
   "first_seen": "2026-10-28T22:36:01.647139Z",
   "geo": {
     "lat": 43.54594,
     "lon": -80.25599,
     "source": "gazetteer"
   },
-  "history": [],
+  "history": [
+    {
+      "at": "2026-10-29T22:45:46.003761Z",
+      "field": "start",
+      "new": "2026-11-09T20:30:00+00:00",
+      "old": "2026-11-09T15:00:00+00:00"
+    }
+  ],
   "id": "2026-11-university-of-guelph-business-technologies-guelph-booth-2374",
   "last_seen": "2026-10-29T13:02:07.695650Z",
   "last_verified": "2026-10-29T13:02:07.695650Z",
@@ -25,7 +32,7 @@
     "region": "CA-ON",
     "venue_name": "Sign in to download the location"
   },
-  "mode": "unknown",
+  "mode": "in_person",
   "near_schools": [
     {
       "km": 2.9,
@@ -106,7 +113,7 @@
   "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
   "registration": {
     "route": "public_link",
-    "url": "https://uoguelph.campusgroups.com/rsvp?id=379636"
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=380031"
   },
   "review": null,
   "roles": [
@@ -137,15 +144,15 @@
       "url": "https://uoguelph.campusgroups.com/rsvp?id=380031"
     }
   ],
-  "start": "2026-11-09T15:00:00Z",
-  "status": "scheduled",
-  "summary": "Workshop by University of Guelph GryphLife (CampusGroups) public iCal in Guelph.",
+  "start": "2026-11-09T20:30:00Z",
+  "status": "moved",
+  "summary": "Event by University of Guelph GryphLife (CampusGroups) public iCal in Guelph.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Business Technologies Guelph Booth",
+  "title": "AI Literacy Focus Group - Students",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "workshop"
+  "type": "other"
 }
