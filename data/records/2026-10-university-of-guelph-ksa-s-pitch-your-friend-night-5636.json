@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-10-university-of-guelph-ksa-s-pitch-your-friend-night-5636",
-  "last_seen": "2026-10-28T22:36:01.647139Z",
-  "last_verified": "2026-10-28T22:36:01.647139Z",
+  "last_seen": "2026-10-29T13:02:07.695650Z",
+  "last_verified": "2026-10-29T13:02:07.695650Z",
   "location": {
     "city": "Guelph",
     "country": "CA",
@@ -126,7 +126,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-10-28T22:36:01.647139Z",
+      "fetched_at": "2026-10-29T13:02:07.695650Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=378955"
     }

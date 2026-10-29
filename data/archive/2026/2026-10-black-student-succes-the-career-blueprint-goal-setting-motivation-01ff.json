@@ -140,7 +140,7 @@
     }
   ],
   "start": "2026-10-28T13:00:00-04:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Workshop by Black Student Success Centre in St. Catharines.",
   "tags": [],
   "timezone": "America/Toronto",

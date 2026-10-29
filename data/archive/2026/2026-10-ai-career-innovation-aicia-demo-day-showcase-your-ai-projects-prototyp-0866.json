@@ -156,7 +156,7 @@
     }
   ],
   "start": "2026-10-28T18:00:00-04:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Hybrid info session by AI Career & Innovation Student Association UofT in Toronto.",
   "tags": [],
   "timezone": "America/Toronto",

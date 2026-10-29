@@ -140,7 +140,7 @@
     }
   ],
   "start": "2026-10-28T10:00:00-04:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Info session by Career Education in St. Catharines. Apply by Oct 28.",
   "tags": [],
   "timezone": "America/Toronto",

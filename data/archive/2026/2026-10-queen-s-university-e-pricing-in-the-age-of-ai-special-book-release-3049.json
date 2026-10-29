@@ -108,7 +108,7 @@
     }
   ],
   "start": "2026-10-28T15:45:00-04:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Free tech talk by Queen's University events calendar (RSS) in Simcoe.",
   "tags": [],
   "timezone": "America/Toronto",

@@ -87,7 +87,7 @@
     }
   ],
   "start": "2026-10-28T18:30:00-04:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Workshop by Western University events (JSON) in London.",
   "tags": [],
   "timezone": "America/New_York",
