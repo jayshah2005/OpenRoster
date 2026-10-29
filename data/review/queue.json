@@ -112,11 +112,10 @@
       "url": "https://genaigenesis.ca/"
     },
     {
-      "evidence": "﻿ Niagara College - Gamers unite at Niagara College for fourth annual Global Game Jam { \"@context\" : \"https://schema.org\", \"@type\" : \"Organization\", \"name\" : \"Education News Canada\", \"url\" : \"https://educationnewscanada.com\", \"logo\" : \"https://educationnewscanada.com/CE/top_logo_reseau.png\", \"sameAs",
-      "key": "hackathon:global-game-jam-site-game-development-program|hackathon:global-game-jam-site-game-development-program",
+      "evidence": "",
+      "key": "hackathon:global-game-jam-site-game-development-program|https://educationnewscanada.com/article/education/region/ontario/27/745152/niagara-collegejanuary-28-2019-gamers-unite-at-niagara-college-for-fourth-annual-global-game-jam.html|nodate|global game jam site (game development program)",
       "reasons": [
-        "no event date found with confidence (site may be JS-only or not updated)",
-        "no date could be parsed with confidence"
+        "site could not be fetched: https://educationnewscanada.com/article/education/region/ontario/27/745152/niagara-collegejanuary-28-2019-gamers-unite-at-niagara-college-for-fourth-a"
       ],
       "source_id": "hackathon:global-game-jam-site-game-development-program",
       "title": "Global Game Jam site (Game Development program)",
@@ -199,7 +198,7 @@
       "url": "https://makeuoft.ca"
     },
     {
-      "evidence": "Facebook Instagram X HOME NEWS FEATURES SPORTS ARTS OPINION VIDEOS Search Wednesday, October 28, 2026 Facebook Instagram X Brock's Only Independent Student Newspaper One of the only worker-managed newspapers in Canada Search NEWS FEATURES SPORTS ARTS OPINION PODCAST MORE ABOUT Beginner’s Guide ARCHI",
+      "evidence": "Facebook Instagram X HOME NEWS FEATURES SPORTS ARTS OPINION VIDEOS Search Thursday, October 29, 2026 Facebook Instagram X Brock's Only Independent Student Newspaper One of the only worker-managed newspapers in Canada Search NEWS FEATURES SPORTS ARTS OPINION PODCAST MORE ABOUT Beginner’s Guide ARCHIV",
       "key": "hackathon:mother-of-all-game-jams|hackathon:mother-of-all-game-jams",
       "reasons": [
         "no event date found with confidence (site may be JS-only or not updated)",

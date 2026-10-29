@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-waterloo-tech-adjace-ai-power-hours-hiring-your-first-5-ai-employees-deda",
-  "last_seen": "2026-10-28T05:43:31.377780Z",
-  "last_verified": "2026-10-28T05:43:31.377780Z",
+  "last_seen": "2026-10-29T05:49:12.284396Z",
+  "last_verified": "2026-10-29T05:49:12.284396Z",
   "location": {
     "city": "Kitchener",
     "country": "CA",
@@ -126,7 +126,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-10-28T05:43:31.377780Z",
+      "fetched_at": "2026-10-29T05:49:12.284396Z",
       "source_id": "luma-waterloo-tech-adjacent-events",
       "url": "https://luma.com/aipowerhoursnov4"
     }

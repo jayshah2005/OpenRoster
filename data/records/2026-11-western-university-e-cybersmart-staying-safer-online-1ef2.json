@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-western-university-e-cybersmart-staying-safer-online-1ef2",
-  "last_seen": "2026-10-28T05:43:31.377780Z",
-  "last_verified": "2026-10-28T05:43:31.377780Z",
+  "last_seen": "2026-10-29T05:49:12.284396Z",
+  "last_verified": "2026-10-29T05:49:12.284396Z",
   "location": {
     "city": null,
     "country": "CA",
@@ -50,13 +50,13 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-10-28T05:43:31.377780Z",
+      "fetched_at": "2026-10-29T05:49:12.284396Z",
       "source_id": "western-events-ics",
       "url": "https://www.uwo.ca/events/"
     },
     {
       "adapter": "api",
-      "fetched_at": "2026-10-28T05:43:31.377780Z",
+      "fetched_at": "2026-10-29T05:49:12.284396Z",
       "source_id": "western-events-json",
       "url": "https://www.uwo.ca/events/2026/11/wts-cybersmart-staying-safer-online.html"
     }

@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-uwfa-fall-2026-stock-pitch-f9ee",
-  "last_seen": "2026-10-28T05:43:31.377780Z",
-  "last_verified": "2026-10-28T05:43:31.377780Z",
+  "last_seen": "2026-10-29T05:49:12.284396Z",
+  "last_verified": "2026-10-29T05:49:12.284396Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "tribe",
-      "fetched_at": "2026-10-28T05:43:31.377780Z",
+      "fetched_at": "2026-10-29T05:49:12.284396Z",
       "source_id": "wusa-events-tribe",
       "url": "https://wusa.ca/event/uwfa-fall-2026-stock-pitch/"
     }

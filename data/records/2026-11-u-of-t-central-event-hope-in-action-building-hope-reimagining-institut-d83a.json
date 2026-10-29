@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-u-of-t-central-event-hope-in-action-building-hope-reimagining-institut-d83a",
-  "last_seen": "2026-10-28T05:43:31.377780Z",
-  "last_verified": "2026-10-28T05:43:31.377780Z",
+  "last_seen": "2026-10-29T05:49:12.284396Z",
+  "last_verified": "2026-10-29T05:49:12.284396Z",
   "location": {
     "city": "Hope",
     "country": "CA",
@@ -53,7 +53,7 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-10-28T05:43:31.377780Z",
+      "fetched_at": "2026-10-29T05:49:12.284396Z",
       "source_id": "uoft-central-events",
       "url": "https://stmikes.utoronto.ca/event/hope-in-action-building-hope-reimagining-institutions-for-human-flourishing-continuing-education-free-webinar"
     }

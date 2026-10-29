@@ -16,16 +16,16 @@
     "source": "gazetteer"
   },
   "history": [],
-  "id": "2026-10-cheriton-school-of-c-seminar-algorithms-and-complexity-quality-control-7535",
+  "id": "2026-10-cheriton-school-of-c-phd-seminar-data-systems-answering-complex-analyt-1845",
   "last_seen": "2026-10-28T05:43:31.377780Z",
   "last_verified": "2026-10-28T05:43:31.377780Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "DC - William G. Davis Computer Research Centre 200 University Avenue West Hybrid: DC 1304 | Online seminar Waterloo ON N"
+    "venue_name": "DC - William G. Davis Computer Research Centre 200 University Avenue West DC 3301 Waterloo ON N2L 3G1 Canada"
   },
-  "mode": "hybrid",
+  "mode": "unknown",
   "near_schools": [
     {
       "km": 1.2,
@@ -106,7 +106,7 @@
   "organizer": "Cheriton School of Computer Science events (iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://uwaterloo.ca/computer-science/events/seminar-algorithms-and-complexity-quality-control-algorithms-for-pattern-counting"
+    "url": "https://uwaterloo.ca/computer-science/events/phd-seminar-data-systems-answering-complex-analytical-questions-over-heterogeneous-federated-systems"
   },
   "review": null,
   "roles": [
@@ -122,21 +122,21 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": "uwaterloo-cs-events-ics:d1277302bbb8",
+  "series_id": "uwaterloo-cs-events-ics:c60b7a67f48f",
   "sources": [
     {
       "adapter": "ics",
       "fetched_at": "2026-10-28T05:43:31.377780Z",
       "source_id": "uwaterloo-cs-events-ics",
-      "url": "https://uwaterloo.ca/computer-science/events/seminar-algorithms-and-complexity-quality-control-algorithms-for-pattern-counting"
+      "url": "https://uwaterloo.ca/computer-science/events/phd-seminar-data-systems-answering-complex-analytical-questions-over-heterogeneous-federated-systems"
     }
   ],
   "start": "2026-10-28T12:00:00-04:00",
-  "status": "scheduled",
-  "summary": "Hybrid tech talk by Cheriton School of Computer Science events (iCal) in Waterloo for graduate students.",
+  "status": "past",
+  "summary": "Tech talk by Cheriton School of Computer Science events (iCal) in Waterloo for graduate students.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Seminar • Algorithms and Complexity • Quality Control Algorithms for Pattern Counting",
+  "title": "PhD Seminar • Data Systems • Answering Complex Analytical Questions over Heterogeneous Federated Systems",
   "travel_support": {
     "note": null,
     "stated": false

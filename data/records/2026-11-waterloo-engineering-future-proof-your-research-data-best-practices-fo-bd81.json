@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-waterloo-engineering-future-proof-your-research-data-best-practices-fo-bd81",
-  "last_seen": "2026-10-28T05:43:31.377780Z",
-  "last_verified": "2026-10-28T05:43:31.377780Z",
+  "last_seen": "2026-10-29T05:49:12.284396Z",
+  "last_verified": "2026-10-29T05:49:12.284396Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
@@ -126,7 +126,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-10-28T05:43:31.377780Z",
+      "fetched_at": "2026-10-29T05:49:12.284396Z",
       "source_id": "uwaterloo-engineering-events-ics",
       "url": "https://uwaterloo.ca/engineering/events/future-proof-your-research-data-best-practices-managing-your"
     }

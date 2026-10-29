@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-carleton-career-serv-ebc-lansdowne-park-td-place-site-tour-fd2f",
-  "last_seen": "2026-10-28T05:43:31.377780Z",
-  "last_verified": "2026-10-28T05:43:31.377780Z",
+  "last_seen": "2026-10-29T05:49:12.284396Z",
+  "last_verified": "2026-10-29T05:49:12.284396Z",
   "location": {
     "city": "Ottawa",
     "country": "CA",
@@ -70,7 +70,7 @@
   "sources": [
     {
       "adapter": "api",
-      "fetched_at": "2026-10-28T05:43:31.377780Z",
+      "fetched_at": "2026-10-29T05:49:12.284396Z",
       "source_id": "carleton-career-events-api",
       "url": "https://carleton.ca/career/event/ebc-lansdowne-park-site-tour/"
     }
