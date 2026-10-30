@@ -1,6 +1,6 @@
 {
-  "checked": "2026-10-29T16:25:14.901722+00:00",
-  "dated_items_in_html": 14,
+  "checked": "2026-10-30T16:13:59.394604+00:00",
+  "dated_items_in_html": 16,
   "feeds": [],
   "http_status": 200,
   "jsonld_events": 0,
@@ -8,7 +8,7 @@
   "login_wall": false,
   "platform": "tribe",
   "reasons": [
-    "terms page not readable: https://wusa.ca/wp-json/tribe/events/v1/\\\"https:\\/\\/wusa.ca\\/services\\/student-run-services\\/womens-centre\\/\\\": HTTP 404"
+    "terms page not readable: https://wusa.ca/wp-json/tribe/events/v1/\\\"https:\\/\\/www.instagram.com\\/wusathrift\\/\\\": HTTP 404"
   ],
   "robots": "allowed",
   "sitemaps": [
@@ -17,7 +17,7 @@
   "terms_forbid_automated": null,
   "terms_forbid_republish": null,
   "terms_quotes": [],
-  "terms_url": "https://wusa.ca/wp-json/tribe/events/v1/\\\"https:\\/\\/wusa.ca\\/services\\/student-run-services\\/womens-centre\\/\\\"",
+  "terms_url": "https://wusa.ca/wp-json/tribe/events/v1/\\\"https:\\/\\/www.instagram.com\\/wusathrift\\/\\\"",
   "url": "https://wusa.ca/wp-json/tribe/events/v1/events",
   "verdict": "allowed"
 }
