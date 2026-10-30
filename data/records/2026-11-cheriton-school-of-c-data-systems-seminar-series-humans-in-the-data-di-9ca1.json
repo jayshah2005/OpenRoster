@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-cheriton-school-of-c-data-systems-seminar-series-humans-in-the-data-di-9ca1",
-  "last_seen": "2026-10-29T05:49:12.284396Z",
-  "last_verified": "2026-10-29T05:49:12.284396Z",
+  "last_seen": "2026-10-30T05:50:15.047660Z",
+  "last_verified": "2026-10-30T05:50:15.047660Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
@@ -126,7 +126,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-10-29T05:49:12.284396Z",
+      "fetched_at": "2026-10-30T05:50:15.047660Z",
       "source_id": "uwaterloo-cs-events-ics",
       "url": "https://uwaterloo.ca/computer-science/events/data-systems-seminar-series-humans-in-the-data-discovery-and-integration-loop"
     }

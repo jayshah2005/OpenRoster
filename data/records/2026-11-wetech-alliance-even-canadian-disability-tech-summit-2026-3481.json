@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-wetech-alliance-even-canadian-disability-tech-summit-2026-3481",
-  "last_seen": "2026-10-29T05:49:12.284396Z",
-  "last_verified": "2026-10-29T05:49:12.284396Z",
+  "last_seen": "2026-10-30T05:50:15.047660Z",
+  "last_verified": "2026-10-30T05:50:15.047660Z",
   "location": {
     "city": "Toronto",
     "country": "CA",
@@ -150,7 +150,7 @@
   "sources": [
     {
       "adapter": "tribe",
-      "fetched_at": "2026-10-29T05:49:12.284396Z",
+      "fetched_at": "2026-10-30T05:50:15.047660Z",
       "source_id": "wetech-alliance-events",
       "url": "https://www.wetech-alliance.com/event/canadian-disability-tech-summit-2026/"
     }

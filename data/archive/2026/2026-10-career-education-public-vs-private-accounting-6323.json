@@ -10,30 +10,26 @@
   ],
   "end": "2026-10-29T13:00:00-04:00",
   "first_seen": "2026-10-24T16:53:41.410358Z",
-  "geo": {
-    "lat": 49.24966,
-    "lon": -123.11934,
-    "source": "gazetteer"
-  },
+  "geo": null,
   "history": [],
-  "id": "2026-10-brock-university-alu-virtual-lunch-learn-a-life-of-hockey-lessons-from-b6ed",
+  "id": "2026-10-career-education-public-vs-private-accounting-6323",
   "last_seen": "2026-10-29T05:49:12.284396Z",
   "last_verified": "2026-10-29T05:49:12.284396Z",
   "location": {
-    "city": "Vancouver",
+    "city": null,
     "country": "CA",
-    "region": "CA-BC",
-    "venue_name": "https://brocku.ca/alumni/webinar-registration/"
+    "region": "CA-ON",
+    "venue_name": "https://teams.microsoft.com/meet/258462071257099?p=TdkGWSC8N2Mh1JsFr9"
   },
-  "mode": "hybrid",
+  "mode": "online",
   "near_schools": [],
   "obtained_via": [
     "rss"
   ],
-  "organizer": "Brock University Alumni Relations",
+  "organizer": "Career Education",
   "registration": {
     "route": "school_portal_login",
-    "url": "https://experiencebu.brocku.ca/event/335290"
+    "url": "https://experiencebu.brocku.ca/event/335168"
   },
   "review": null,
   "roles": [
@@ -55,15 +51,15 @@
       "adapter": "rss",
       "fetched_at": "2026-10-29T05:49:12.284396Z",
       "source_id": "brock-experiencebu-rss",
-      "url": "https://experiencebu.brocku.ca/event/335290"
+      "url": "https://experiencebu.brocku.ca/event/335168"
     }
   ],
   "start": "2026-10-29T12:00:00-04:00",
-  "status": "scheduled",
-  "summary": "Hybrid workshop by Brock University Alumni Relations in Vancouver.",
+  "status": "past",
+  "summary": "Online workshop by Career Education.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Virtual Lunch & Learn - A Life of Hockey: Lessons From Grassroots, the Olympics and Entrepreneurship",
+  "title": "Public vs Private Accounting",
   "travel_support": {
     "note": null,
     "stated": false

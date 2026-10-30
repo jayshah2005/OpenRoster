@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-carleton-career-serv-meet-and-greet-the-ontario-provincial-police-recr-2f78",
-  "last_seen": "2026-10-29T05:49:12.284396Z",
-  "last_verified": "2026-10-29T05:49:12.284396Z",
+  "last_seen": "2026-10-30T05:50:15.047660Z",
+  "last_verified": "2026-10-30T05:50:15.047660Z",
   "location": {
     "city": "Ottawa",
     "country": "CA",
@@ -70,7 +70,7 @@
   "sources": [
     {
       "adapter": "api",
-      "fetched_at": "2026-10-29T05:49:12.284396Z",
+      "fetched_at": "2026-10-30T05:50:15.047660Z",
       "source_id": "carleton-career-events-api",
       "url": "https://carleton.ca/career/event/meet-and-greet-the-ontario-provincial-police/"
     }

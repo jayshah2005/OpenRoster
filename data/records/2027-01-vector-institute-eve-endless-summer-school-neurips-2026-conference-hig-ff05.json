@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2027-01-vector-institute-eve-endless-summer-school-neurips-2026-conference-hig-ff05",
-  "last_seen": "2026-10-29T05:49:12.284396Z",
-  "last_verified": "2026-10-29T05:49:12.284396Z",
+  "last_seen": "2026-10-30T05:50:15.047660Z",
+  "last_verified": "2026-10-30T05:50:15.047660Z",
   "location": {
     "city": "Sydney",
     "country": "CA",
@@ -53,7 +53,7 @@
   "sources": [
     {
       "adapter": "tribe",
-      "fetched_at": "2026-10-29T05:49:12.284396Z",
+      "fetched_at": "2026-10-30T05:50:15.047660Z",
       "source_id": "vector-institute-events",
       "url": "https://vectorinstitute.ai/event/endless-summer-school-neurips-2026-conference-highlights/"
     }

@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-12-human-rights-and-equ-beyond-the-screen-understanding-technology-facili-9966",
-  "last_seen": "2026-10-29T05:49:12.284396Z",
-  "last_verified": "2026-10-29T05:49:12.284396Z",
+  "last_seen": "2026-10-30T05:50:15.047660Z",
+  "last_verified": "2026-10-30T05:50:15.047660Z",
   "location": {
     "city": null,
     "country": "CA",
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "rss",
-      "fetched_at": "2026-10-29T05:49:12.284396Z",
+      "fetched_at": "2026-10-30T05:50:15.047660Z",
       "source_id": "brock-experiencebu-rss",
       "url": "https://experiencebu.brocku.ca/event/333827"
     }

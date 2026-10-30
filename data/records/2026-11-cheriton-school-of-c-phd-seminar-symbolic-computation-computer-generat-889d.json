@@ -108,7 +108,17 @@
     "route": "public_link",
     "url": "https://uwaterloo.ca/computer-science/events/phd-seminar-symbolic-computation-computer-generation-of-explicit-formulas-for-hyperelliptic-curve-divisor-arithmetic"
   },
-  "review": null,
+  "review": {
+    "evidence": [
+      {
+        "text": "missing from the last 2 successful fetches",
+        "url": "https://uwaterloo.ca/computer-science/events/phd-seminar-symbolic-computation-computer-generation-of-explicit-formulas-for-hyperelliptic-curve-divisor-arithmetic"
+      }
+    ],
+    "reasons": [
+      "no longer listed by its source (possibly cancelled or moved)"
+    ]
+  },
   "roles": [
     {
       "closes": null,
@@ -132,7 +142,7 @@
     }
   ],
   "start": "2026-11-13T12:30:00-05:00",
-  "status": "scheduled",
+  "status": "needs_review",
   "summary": "Hybrid tech talk by Cheriton School of Computer Science events (iCal) in Waterloo for graduate students.",
   "tags": [],
   "timezone": "America/Toronto",

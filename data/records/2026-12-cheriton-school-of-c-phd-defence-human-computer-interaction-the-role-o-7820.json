@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-12-cheriton-school-of-c-phd-defence-human-computer-interaction-the-role-o-7820",
-  "last_seen": "2026-10-29T05:49:12.284396Z",
-  "last_verified": "2026-10-29T05:49:12.284396Z",
+  "last_seen": "2026-10-30T05:50:15.047660Z",
+  "last_verified": "2026-10-30T05:50:15.047660Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
@@ -126,7 +126,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-10-29T05:49:12.284396Z",
+      "fetched_at": "2026-10-30T05:50:15.047660Z",
       "source_id": "uwaterloo-cs-events-ics",
       "url": "https://uwaterloo.ca/computer-science/events/phd-defence-hci-the-role-of-context-in-human-llm-communication"
     }

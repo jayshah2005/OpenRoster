@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-hackforge-tech-recycling-day-at-hackforge-33af",
-  "last_seen": "2026-10-29T05:49:12.284396Z",
-  "last_verified": "2026-10-29T05:49:12.284396Z",
+  "last_seen": "2026-10-30T05:50:15.047660Z",
+  "last_verified": "2026-10-30T05:50:15.047660Z",
   "location": {
     "city": "Windsor",
     "country": "CA",
@@ -62,7 +62,7 @@
   "sources": [
     {
       "adapter": "tribe",
-      "fetched_at": "2026-10-29T05:49:12.284396Z",
+      "fetched_at": "2026-10-30T05:50:15.047660Z",
       "source_id": "wetech-alliance-events",
       "url": "https://www.wetech-alliance.com/event/tech-recycling-day-at-hackforge/"
     }

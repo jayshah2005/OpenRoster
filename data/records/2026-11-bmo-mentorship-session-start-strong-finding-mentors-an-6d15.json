@@ -14,8 +14,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-bmo-mentorship-session-start-strong-finding-mentors-an-6d15",
-  "last_seen": "2026-10-29T05:49:12.284396Z",
-  "last_verified": "2026-10-29T05:49:12.284396Z",
+  "last_seen": "2026-10-30T05:50:15.047660Z",
+  "last_verified": "2026-10-30T05:50:15.047660Z",
   "location": {
     "city": null,
     "country": "CA",
@@ -58,7 +58,7 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-10-29T05:49:12.284396Z",
+      "fetched_at": "2026-10-30T05:50:15.047660Z",
       "source_id": "bmo-student-events",
       "url": "https://jobs.bmo.com/ca/en/student-events"
     }

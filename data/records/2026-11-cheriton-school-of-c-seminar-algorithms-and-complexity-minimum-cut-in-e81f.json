@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-cheriton-school-of-c-seminar-algorithms-and-complexity-minimum-cut-in-e81f",
-  "last_seen": "2026-10-29T22:45:46.003761Z",
-  "last_verified": "2026-10-29T22:45:46.003761Z",
+  "last_seen": "2026-10-30T05:50:15.047660Z",
+  "last_verified": "2026-10-30T05:50:15.047660Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
@@ -126,7 +126,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-10-29T22:45:46.003761Z",
+      "fetched_at": "2026-10-30T05:50:15.047660Z",
       "source_id": "uwaterloo-cs-events-ics",
       "url": "https://uwaterloo.ca/computer-science/events/seminar-algorithms-and-complexity-minimum-cut-in-single-pass-streams"
     }

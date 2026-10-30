@@ -62,7 +62,7 @@
     }
   ],
   "start": "2026-10-29T10:00:00-04:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Online workshop by Western University events (JSON).",
   "tags": [],
   "timezone": "America/New_York",

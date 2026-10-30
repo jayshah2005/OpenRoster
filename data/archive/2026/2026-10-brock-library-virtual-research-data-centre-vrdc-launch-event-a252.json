@@ -140,7 +140,7 @@
     }
   ],
   "start": "2026-10-29T12:00:00-04:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Free hybrid workshop by Brock Library in St. Catharines for graduate students.",
   "tags": [],
   "timezone": "America/Toronto",

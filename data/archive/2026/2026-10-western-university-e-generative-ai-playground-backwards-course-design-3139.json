@@ -8,22 +8,22 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-10-29T13:30:00-04:00",
-  "first_seen": "2026-10-24T17:14:00.319152Z",
+  "end": "2026-10-29T11:30:00-04:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
   "geo": {
     "lat": 42.98339,
     "lon": -81.23304,
     "source": "gazetteer"
   },
   "history": [],
-  "id": "2026-10-western-university-e-teaching-cafe-career-readiness-34c1",
+  "id": "2026-10-western-university-e-generative-ai-playground-backwards-course-design-3139",
   "last_seen": "2026-10-29T05:49:12.284396Z",
   "last_verified": "2026-10-29T05:49:12.284396Z",
   "location": {
     "city": "London",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "Weldon Library 252"
+    "venue_name": "Register on Connect"
   },
   "mode": "unknown",
   "near_schools": [
@@ -55,7 +55,7 @@
   "organizer": "Western University events calendar (iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://www.uwo.ca/events/2026/10/teaching-cafe-career-readiness.html"
+    "url": "https://www.uwo.ca/events/2026/10/generative-ai-playground-backwards-course-design-with-generative-ai.html"
   },
   "review": null,
   "roles": [
@@ -71,7 +71,7 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": "western-events-ics:e0f7d048e270",
+  "series_id": "western-events-ics:2978a9c3d0c1",
   "sources": [
     {
       "adapter": "ics",
@@ -83,15 +83,15 @@
       "adapter": "api",
       "fetched_at": "2026-10-29T05:49:12.284396Z",
       "source_id": "western-events-json",
-      "url": "https://www.uwo.ca/events/2026/10/teaching-cafe-career-readiness.html"
+      "url": "https://www.uwo.ca/events/2026/10/generative-ai-playground-backwards-course-design-with-generative-ai.html"
     }
   ],
-  "start": "2026-10-29T12:00:00-04:00",
-  "status": "scheduled",
+  "start": "2026-10-29T09:00:00-04:00",
+  "status": "past",
   "summary": "Workshop by Western University events (JSON) in London.",
   "tags": [],
   "timezone": "America/New_York",
-  "title": "Teaching Cafe: Career Readiness",
+  "title": "Generative AI Playground: Backwards Course Design with Generative AI",
   "travel_support": {
     "note": null,
     "stated": false

@@ -31,7 +31,17 @@
     "route": "public_link",
     "url": "https://earth.firstcommit.xyz"
   },
-  "review": null,
+  "review": {
+    "evidence": [
+      {
+        "text": "missing from the last 2 successful fetches",
+        "url": "https://earth.firstcommit.xyz"
+      }
+    ],
+    "reasons": [
+      "no longer listed by its source (possibly cancelled or moved)"
+    ]
+  },
   "roles": [
     {
       "closes": null,
@@ -55,7 +65,7 @@
     }
   ],
   "start": "2026-11-08T22:51:00Z",
-  "status": "scheduled",
+  "status": "needs_review",
   "summary": "Online hackathon by Build for Earth for mostly high-school students.",
   "tags": [
     "mostly_high_school"
