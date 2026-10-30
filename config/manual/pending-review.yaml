@@ -1,0 +1,519 @@
+# Fill in `start` (ISO 8601, e.g. 2026-11-28T09:00) to publish an item, or set
+# `ignore: true` to drop it. Generated daily by `openroster review`.
+entries:
+- key: hackathon:bearhacks|hackathon:bearhacks
+  title: BearHacks
+  url: https://bearhacks.com/
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: ' Sheridan College''s largest hackathon this year, bringing students from across the GTA to come and
+    build meaningful software together. BearHacks 2026 Sheridan College''s largest hackathon this year, bringing
+    students from across the GTA to come and build meaningful software together. Sheridan College'
+  ignore: false
+- key: hackathon:centennialhacks|hackathon:centennialhacks
+  title: CentennialHacks
+  url: https://edu.ieee.org/ca-centennial-college/
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: Skip to content IEEE.org IEEE Xplore Digital Library IEEE Standards IEEE Spectrum More Sites MENU Email
+    address What would you like to search for? SEARCH Home Events Future Events Past Events Gallery Announcements
+    About About the IEEE Join IEEE About Us Affiliations Centennial College CES2026 IEEE C
+  ignore: false
+- key: hackathon:computer-science-club-game-jam|hackathon:computer-science-club-game-jam
+  title: Computer Science Club Game Jam
+  url: https://brockcsc.ca/events
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: Skip to content BROCK CSC Home Team Events CS Guide Portal Join Discord Events Stay in the loop. From
+    technical workshops to social mixers, see what's happening in the Brock CS community. Past Events What we've
+    hosted. BROCK CSC © 2026 Brock Computer Science - All Rights Reserved Instagram Discord L
+  ignore: false
+- key: hackathon:conuhacks|hackathon:conuhacks
+  title: ConUHacks
+  url: https://conuhacks.io
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: 'ConUHacks X About Statistics Sponsors Team FAQ ConUHacks X January 24-25, 2026 In-Person Concordia
+    University CONUHACKS Register Now What is ConUHacks? ConUHacks is a 24-hour competition where a team of up to
+    four students build a software or hardware project, referred to as a ''hack''. Our theme and '
+  ignore: false
+- key: hackathon:cucai-canadian-undergraduate-conference-on-ai-run-by-qmind|hackathon:cucai-canadian-undergraduate-conference-on-ai-run-by-qmind
+  title: CUCAI (Canadian Undergraduate Conference on AI, run by QMIND)
+  url: https://www.cs.queensu.ca/calendar
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: 'Skip to main content (Press Enter) Outlook MyQueensU onQ Toggle navigation About Contact Us 557 Goodwin
+    Hall Queen''s University Kingston, Ontario, Canada K7L 2N8 Phone: (613) 533-6050 Give to Computing The School
+    Student Life Outreach EDII Events Nov 5 Distinguished Seminar: Learning Patient-Specifi'
+  ignore: false
+- key: hackathon:deerhacks|hackathon:deerhacks
+  title: DeerHacks
+  url: https://deerhacks.ca/
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: Work in progress DeerHacks 2027 More coming soon Polishing antlers... We're putting together something
+    new for UTM's premier hackathon. Follow us for dates, applications, and sneak peeks. (c) 2027 DeerHacks. Made
+    with ♥️ at UTM. DeerHacks 2027 is under construction. Follow us for dates, applications
+  ignore: false
+- key: hackathon:designathon-queen-s-ux-club|hackathon:designathon-queen-s-ux-club
+  title: Designathon (Queen's UX Club)
+  url: https://www.cs.queensu.ca/calendar
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: 'Skip to main content (Press Enter) Outlook MyQueensU onQ Toggle navigation About Contact Us 557 Goodwin
+    Hall Queen''s University Kingston, Ontario, Canada K7L 2N8 Phone: (613) 533-6050 Give to Computing The School
+    Student Life Outreach EDII Events Nov 5 Distinguished Seminar: Learning Patient-Specifi'
+  ignore: false
+- key: hackathon:ellehacks|hackathon:ellehacks
+  title: ElleHacks
+  url: https://ellehacks.com
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: ' ElleHacks 2026 — Canada’s largest hackathon for women and non-binary hackers.'
+  ignore: false
+- key: hackathon:eurekahacks|hackathon:eurekahacks
+  title: EurekaHacks
+  url: https://www.eurekahacks.ca/
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: ABOUT FAQ LAST YEAR DASHBOARD EUREKA ​ HACKS May 1st-2nd, Waterloo Accelerator Centre APPLY NOW 100+
+    HACKERS $10k+ IN PRIZES 24H OF HACKING Who are we? We're the largest high school hackathon in Canada! EurekaHACKS
+    was founded on passion, catering to all levels and encourages participates to break e
+  ignore: false
+- key: hackathon:genai-genesis|hackathon:genai-genesis
+  title: GenAI Genesis
+  url: https://genaigenesis.ca/
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: Skip to content GenAI Genesis Home About Previous Winners Sponsors FAQ Apply Menu Toronto · March 2027
+    Build what comes next. Bringing together 1000+ students, researchers, designers, and creators from around the
+    world for Canada's largest AI hackathon. Become a judge Partner with us Get notified wh
+  ignore: false
+- key: hackathon:global-game-jam-site-game-development-program|hackathon:global-game-jam-site-game-development-program
+  title: Global Game Jam site (Game Development program)
+  url: https://educationnewscanada.com/article/education/region/ontario/27/745152/niagara-collegejanuary-28-2019-gamers-unite-at-niagara-college-for-fourth-annual-global-game-jam.html
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: "\uFEFF Niagara College - Gamers unite at Niagara College for fourth annual Global Game Jam { \"@context\"\
+    \ : \"https://schema.org\", \"@type\" : \"Organization\", \"name\" : \"Education News Canada\", \"url\" : \"\
+    https://educationnewscanada.com\", \"logo\" : \"https://educationnewscanada.com/CE/top_logo_reseau.png\", \"\
+    sameAs"
+  ignore: false
+- key: hackathon:hack-club-events-canada|hackathon:hack-club-events-canada
+  title: Hack Club events (Canada)
+  url: https://hackathons.hackclub.com/
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - "invalid: 1 validation error for Opportunity\nlocation.region\n  String should match pattern '^[A-Z]{2}-[A-Z0-9]{1,3}$'\
+    \ [type=string_pattern_mismatch, input_value='CA', input_type=str]\n    For further in"
+  evidence: nlineEventAttendanceMode https://pixelforgehackathons.info/ 2026-08-15T04:00:00.000Z 2026-08-22T20:00:00.000Z
+    In-Pers
+  ignore: false
+- key: hackathon:hack-peel|hackathon:hack-peel
+  title: Hack Peel
+  url: https://hackpeel.ca
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: ' hack::peel is a student-run hackathon for high school developers, designers, and entrepreneurs in
+    Peel Region. Join workshops, build projects, win prizes, and meet peers. hack::peel hack::peel is a student-run
+    hackathon for high school developers, designers, and entrepreneurs in Peel Region. Join w'
+  ignore: false
+- key: hackathon:hack-the-6ix|hackathon:hack-the-6ix
+  title: Hack the 6ix
+  url: https://hackthe6ix.com
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: 'About Sponsors Projects FAQ Contact Us July 17-19, 2026 ⋅ Toronto ⋅ In‑Person Hack the 6ix Tumble down
+    the rabbit hole and create Applications are now closed. All decisions will be released on July 2nd on the dashboard!
+    Go to Dashboard 197 schools 131 projects $15K in prizes 500+ hackers 15 mentors '
+  ignore: false
+- key: hackathon:hack-the-world-tmu|hackathon:hack-the-world-tmu
+  title: Hack the World (TMU)
+  url: https://www.torontomu.ca/innovation-boost-zone/hacktheworld/
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: Skip to Main Content Toggle navigation Toggle information Toggle search Search Site and People Info
+    for Future Students Current Students Faculty and Staff Teachers and Counsellors Alumni Media Donors Future Students
+    Current Students Faculty and Staff Teachers and Counsellors Alumni Media Donors Abou
+  ignore: false
+- key: hackathon:hacktrent|hackathon:hacktrent
+  title: HackTrent
+  url: https://hacktrent.ca
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: ''
+  ignore: false
+- key: hackathon:ignition-hacks|hackathon:ignition-hacks
+  title: Ignition Hacks
+  url: https://www.ignitionhacks.org
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: ''
+  ignore: false
+- key: hackathon:makeuoft|hackathon:makeuoft
+  title: MakeUofT
+  url: https://makeuoft.ca
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: About Schedule FAQ Sponsors Contact Register Your Interest About Schedule FAQ Sponsors Contact Register
+    Your Interest menu MakeUofT 2027 Canada's Largest Makeathon Make·a·thon a hackathon where hardware-based projects
+    are manifested University of Toronto TBD, 2027 View MLH Code of Conduct Register Y
+  ignore: false
+- key: hackathon:mother-of-all-game-jams|hackathon:mother-of-all-game-jams
+  title: Mother of All Game Jams
+  url: https://brockpress.com/students-can-learn-to-create-video-and-board-games-at-the-mother-of-all-game-jams/
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: 'Facebook Instagram X HOME NEWS FEATURES SPORTS ARTS OPINION VIDEOS Search Friday, October 30, 2026
+    Facebook Instagram X Brock''s Only Independent Student Newspaper One of the only worker-managed newspapers in
+    Canada Search NEWS FEATURES SPORTS ARTS OPINION PODCAST MORE ABOUT Beginner’s Guide ARCHIVE '
+  ignore: false
+- key: hackathon:onhacks|hackathon:onhacks
+  title: ONHacks
+  url: https://onhacks.ca
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: ''
+  ignore: false
+- key: hackathon:qhacks|hackathon:qhacks
+  title: QHacks
+  url: https://qhacks.io
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: QHacks 2027 QHacks 2027, Queen's University's annual hackathon.
+  ignore: false
+- key: hackathon:redshifted-catalyst|hackathon:redshifted-catalyst
+  title: Redshifted Catalyst
+  url: https://catalyst.redshifted.ca/
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: ' Join Canada''s first high-school hardware hackathon. A 14-hour innovation sprint where teams go from
+    idea to working prototype. Catalyst - Canada''s First High School Hardware Hackathon Join Canada''s first high-school
+    hardware hackathon. A 14-hour innovation sprint where teams go from idea to working'
+  ignore: false
+- key: hackathon:school-of-advanced-technology-technology-project-showcase|hackathon:school-of-advanced-technology-technology-project-showcase
+  title: School of Advanced Technology Technology Project Showcase
+  url: https://www.algonquincollege.com/news/2026/08/06/algonquin-college-technology-project-showcase-highlights-creative-solutions-and-technical-problem-solving/
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: If you're seeing this message - that means some of our site's content isn't loading properly. Click
+    here to reload and try another method. Site Index Campus Maps Skip to content (Press ENTER) Ottawa Ottawa Pembroke
+    Online Future Students Current Students International Students Programs Employees Fin
+  ignore: false
+- key: hackathon:seneca-annual-hackathons-school-of-it-administration-securit|hackathon:seneca-annual-hackathons-school-of-it-administration-securit
+  title: Seneca annual hackathons (School of IT Administration & Security)
+  url: https://students.senecapolytechnic.ca/spaces/14/school-of-information-technology-administration-security/wiki/view/7685/annual-hackathons
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: Loading ... Annual Hackathons | School of Information Technology Administration & Security | Seneca
+    Students Stop Impersonating Menu Seneca campuses remain open today but day and evening in-person classes will
+    move online where possible, due to snowfall. Read more Home Browse Spaces Spaces Spaces My
+  ignore: false
+- key: hackathon:spooky-game-jam-centre-for-digital-humanities|hackathon:spooky-game-jam-centre-for-digital-humanities
+  title: Spooky Game Jam (Centre for Digital Humanities)
+  url: https://brocku.ca/brock-news/in-focus/game-jam-a-spooktacular-success/
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: 'Skip to content Skip to main navigation Skip to search Welcome to Brock University Information for
+    Future students Current students International Co-op Professional and Continuing Studies Community partners
+    Alumni and donors Academics Faculties & Departments Graduate Studies and Postdocs Teaching & '
+  ignore: false
+- key: hackathon:technovation-waterloo-mini-hackathon-wics|hackathon:technovation-waterloo-mini-hackathon-wics
+  title: Technovation Waterloo Mini-Hackathon (WiCS)
+  url: https://uwaterloo.ca/women-in-computer-science/events
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: Skip to main content Jump to Jump to Admissions About Waterloo Faculties & Academics Offices & Services
+    Support Waterloo Open Search Location Search for Search Location On all sites On this site Women in Computer
+    Science Menu Women in Computer Science Home About About Contacts WiCS Feedback Form His
+  ignore: false
+- key: hackathon:terrahacks|hackathon:terrahacks
+  title: TerraHacks
+  url: https://terrahacks.ca
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: 'About Sponsors FAQ Team Contact Application Portal Click Here To Start August 1st - 3rd, 2025 Toronto
+    Metropolitan University August 1st 2025 - August 3rd 2025 Hosted at Toronto Metropolitan University ABOUT TERRAHACKS
+    Formed from the passion of making tech opportunities open to all, TerraHacks was '
+  ignore: false
+- key: hackathon:uofthacks|hackathon:uofthacks
+  title: UofTHacks
+  url: https://uofthacks.com
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: Couldn't load the next scene. Please refresh and try again. ↓ Continue Identity Matrix Project Horizon
+    Shop-A-Sketch I dentity Matrix What if your “online presence” didn't stop when you closed your laptop? Identity
+    Matrix is a real-time multiplayer simulation where your avatar transforms into a stat
+  ignore: false
+- key: hackathon:uottahack|hackathon:uottahack
+  title: uOttaHack
+  url: https://uottahack.ca
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: Ottawa's Largest Hackathon Ottawa's Largest Hackathon Ottawa's Largest Hackathon See 2027 uOttaHack
+    is Ottawa’s Premier Hackathon community since 2017. It is organized by a student group directly with the University
+    of Ottawa's Faculty of Engineering and the President and Vice-Chancellor's team to d
+  ignore: false
+- key: hackathon:utra-hacks|hackathon:utra-hacks
+  title: UTRA Hacks
+  url: https://hackathon.utra.ca/
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: About Schedule FAQ Sponsors January 31 - February 1, 2026 • In-person event Login to Hacker Portal Interested
+    in becoming a sponsor? Mentor Interest Form Volunteer Interest Form At UTRA, we aim to inspire creativity ,
+    enable collaboration , and foster skill development . Participants can connect fac
+  ignore: false
+- key: hackathon:uworcs-western-university-research-in-computer-science-confe|hackathon:uworcs-western-university-research-in-computer-science-confe
+  title: UWORCS (Western University Research in Computer Science conference)
+  url: https://www.uwo.ca/events/2026/04/western-university-research-in-computer-science-conference-uworcs.html
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: 'Faculty/Staff Search First Name Last Name OR Department/Unit Search Search String Toggle navigation
+    About Western Future Students Academics Campus Life Research Search Website QUICK LINKS: WebMail Directory Events
+    Weather Updates OWL Brightspace Student Services Libraries Maps Parking Home 2026 Apri'
+  ignore: false
+- key: hackathon:winhacks|hackathon:winhacks
+  title: WinHacks
+  url: https://www.winhacks.ca
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no event date found with confidence (site may be JS-only or not updated)
+  - no date could be parsed with confidence
+  evidence: 'WIN HACKS 2026 create. compete. conquer. Home About Schedule FAQ Sponsors Join Us WIN HACKS 2026 February
+    7 - 8 Get Ready to Create! Event Starts In: 0 DAYS 0 HOURS 0 MINUTES 0 SECONDS About WinHacks Welcome to Windsor''s
+    annual hackathon that brings together innovators, creators, and problem-solvers'
+  ignore: false
+- key: 'uoft-central-events|https://www.utm.utoronto.ca/careers/chat-peer-or-alumni/chat-with-a-peer|nodate|career
+    talks: chat with a peer'
+  title: 'Career Talks: Chat with a Peer'
+  url: https://www.utm.utoronto.ca/careers/chat-peer-or-alumni/chat-with-a-peer
+  type: null
+  start: null
+  end: null
+  timezone: America/Toronto
+  roles:
+  - role: participant
+  reasons:
+  - no date could be parsed with confidence
+  evidence: 'Career Talks: Chat with a Peer Various Dates (Book Your Appointment)'
+  ignore: false
