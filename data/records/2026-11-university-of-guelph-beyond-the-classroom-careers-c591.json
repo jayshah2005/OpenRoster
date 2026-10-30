@@ -8,24 +8,24 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-10-30T02:00:00Z",
-  "first_seen": "2026-10-28T22:36:01.647139Z",
+  "end": "2026-11-03T00:00:00Z",
+  "first_seen": "2026-10-30T22:21:19.475440Z",
   "geo": {
     "lat": 43.54594,
     "lon": -80.25599,
     "source": "gazetteer"
   },
   "history": [],
-  "id": "2026-10-university-of-guelph-ksa-s-pitch-your-friend-night-5636",
-  "last_seen": "2026-10-29T13:02:07.695650Z",
-  "last_verified": "2026-10-29T13:02:07.695650Z",
+  "id": "2026-11-university-of-guelph-beyond-the-classroom-careers-c591",
+  "last_seen": "2026-10-30T22:21:19.475440Z",
+  "last_verified": "2026-10-30T22:21:19.475440Z",
   "location": {
     "city": "Guelph",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "UC442, 50 Stone Rd E, Guelph, Ontario N1G 2W1, Canada"
+    "venue_name": "MacKinnon 227, MacKinnon (mckn), 2W1, 50 Stone Rd E, Guelph, ON N1G 2M7, Guelph ON N1G 2M7, Canada"
   },
-  "mode": "in_person",
+  "mode": "unknown",
   "near_schools": [
     {
       "km": 2.9,
@@ -106,7 +106,7 @@
   "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
   "registration": {
     "route": "public_link",
-    "url": "https://uoguelph.campusgroups.com/rsvp?id=378955"
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=379362"
   },
   "review": null,
   "roles": [
@@ -122,24 +122,24 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": "uoguelph-gryphlife-campusgroups-ics:881a9f31c58e",
+  "series_id": "uoguelph-gryphlife-campusgroups-ics:dcc47f9c086a",
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-10-29T13:02:07.695650Z",
+      "fetched_at": "2026-10-30T22:21:19.475440Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
-      "url": "https://uoguelph.campusgroups.com/rsvp?id=378955"
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=379362"
     }
   ],
-  "start": "2026-10-29T22:00:00Z",
+  "start": "2026-11-02T22:30:00Z",
   "status": "scheduled",
-  "summary": "Event by University of Guelph GryphLife (CampusGroups) public iCal in Guelph.",
+  "summary": "Workshop by University of Guelph GryphLife (CampusGroups) public iCal in Guelph.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "KSA's Pitch Your Friend Night",
+  "title": "Beyond the Classroom: Careers",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "other"
+  "type": "workshop"
 }

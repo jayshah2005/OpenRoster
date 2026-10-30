@@ -39,9 +39,9 @@
     "2026-10-u-of-t-central-event-echo-pitch-2026-50f0": 3,
     "2026-10-u-of-t-central-event-f9-school-of-graduate-studies-applied-science-eng-e62e": 4,
     "2026-10-u-of-t-central-event-film-screening-and-conversation-2b61": 3,
-    "2026-10-u-of-t-central-event-fun-data-friday-storytelling-with-data-2b6e": 2,
+    "2026-10-u-of-t-central-event-fun-data-friday-storytelling-with-data-2b6e": 3,
     "2026-10-u-of-t-central-event-ip-data-research-conference-6108": 3,
-    "2026-10-u-of-t-central-event-magnifica-humanitas-choosing-humanity-in-the-ai-r-6d90": 2,
+    "2026-10-u-of-t-central-event-magnifica-humanitas-choosing-humanity-in-the-ai-r-6d90": 3,
     "2026-10-u-of-t-central-event-maxime-cohen-on-pricing-in-the-age-of-ai-2dbd": 3,
     "2026-10-u-of-t-central-event-the-future-of-indigenous-entrepreneurship-46be": 3,
     "2026-10-u-of-t-central-event-the-human-variable-psychology-for-the-ai-age-73fd": 3,
@@ -52,10 +52,10 @@
     "2026-10-university-of-guelph-building-with-python-lab-escape-haunted-edition-ab80": 2,
     "2026-10-university-of-guelph-hopper-lecture-2026-building-feminist-decolonial-b82a": 2,
     "2026-10-university-of-guelph-indigenous-student-career-skills-series-grad-appl-f0be": 2,
-    "2026-10-university-of-guelph-ksa-s-pitch-your-friend-night-5636": 2,
+    "2026-10-university-of-guelph-ksa-s-pitch-your-friend-night-5636": 3,
     "2026-10-university-of-guelph-research-lifecycle-arcgis-pro-2-more-analysis-in-e632": 2,
     "2026-10-university-of-guelph-research-lifecycle-intro-to-gis-using-arcgis-pro-6e7d": 3,
-    "2026-10-waterloo-tech-adjace-ai-x-money-ai-builders-waterloo-bb6c": 3,
+    "2026-10-waterloo-tech-adjace-ai-x-money-ai-builders-waterloo-bb6c": 4,
     "2026-10-waterloo-tech-adjace-civictechwr-hacknight-5df5": 3,
     "2026-10-waterloo-tech-adjace-tech-differently-kw-satellite-party-7a5b": 2,
     "2026-10-western-university-e-2026-annual-fall-lectures-agency-ai-lecture-five-b385": 3,
@@ -70,12 +70,14 @@
     "2026-11-accelerator-centre-ac-innovation-showcase-9cba": 2,
     "2026-11-build-for-earth-76d0": 2,
     "2026-11-career-services-employer-in-the-hall-maxama-protection-inc-7b4f": 2,
+    "2026-11-cheriton-school-of-c-phd-seminar-computer-graphics-a-generalizable-lig-b00f": 1,
     "2026-11-cheriton-school-of-c-phd-seminar-computer-graphics-from-droplets-to-oc-4f74": 2,
     "2026-11-cheriton-school-of-c-phd-seminar-data-systems-rethinking-data-integrat-483e": 2,
     "2026-11-cheriton-school-of-c-phd-seminar-symbolic-computation-computer-generat-889d": 2,
     "2026-11-cheriton-school-of-c-phd-seminar-systems-and-networking-pricing-based-cb78": 2,
     "2026-11-hackforge-gis-day-2026-d852": 2,
     "2026-11-techto-luma-ical-together-toronto-ecosystem-showcase-e195": 2,
+    "2026-11-u-of-t-central-event-workshop-critical-approaches-on-the-social-and-en-dc43": 1,
     "2026-11-u-of-t-engineering-u-deadline-to-designate-fall-term-course-as-extra-3b87": 2,
     "2026-11-waterloo-engineering-fusion-conference-2026-80c2": 2,
     "2026-12-cheriton-school-of-c-phd-defence-computer-graphics-light-transport-bey-add0": 2,
@@ -89,7 +91,7 @@
     "failing": 2,
     "held_for_review": 33,
     "last_run": "2026-10-30",
-    "listings": 252,
+    "listings": 253,
     "runnable": 48
   },
   "sources": {
@@ -151,11 +153,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 801,
+      "last_nonzero": 797,
       "last_ok": "2026-10-30",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 801,
+      "raw_count": 797,
       "refused": false
     },
     "carleton-career-events-api": {
@@ -203,11 +205,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 305,
+      "last_nonzero": 315,
       "last_ok": "2026-10-30",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 305,
+      "raw_count": 315,
       "refused": false
     },
     "fsu-events-ics": {
@@ -216,11 +218,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 6,
+      "last_nonzero": 4,
       "last_ok": "2026-10-30",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 6,
+      "raw_count": 4,
       "refused": false
     },
     "hackathon:bearhacks": {
@@ -397,7 +399,7 @@
       "count": 0,
       "error": null,
       "fingerprint": null,
-      "healthy_streak": 1,
+      "healthy_streak": 2,
       "last_nonzero": 1,
       "last_ok": "2026-10-30",
       "ok": true,
@@ -853,11 +855,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 94,
+      "last_nonzero": 91,
       "last_ok": "2026-10-30",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 94,
+      "raw_count": 91,
       "refused": false
     },
     "loyalist-events-tribe": {
@@ -996,11 +998,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 28,
+      "last_nonzero": 31,
       "last_ok": "2026-10-30",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 28,
+      "raw_count": 31,
       "refused": false
     },
     "luma-waterloo-tech-week": {
@@ -1030,7 +1032,7 @@
       "refused": false
     },
     "niagara-college-events": {
-      "consecutive_failures": 25,
+      "consecutive_failures": 26,
       "count": 0,
       "error": "https://www.niagaracollege.ca/wp-json/tribe/events/v1/events?start_date=2026-10-30&per_page=50: disallowed by robots.txt",
       "fingerprint": null,
@@ -1061,11 +1063,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 125,
+      "last_nonzero": 129,
       "last_ok": "2026-10-30",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 125,
+      "raw_count": 129,
       "refused": false
     },
     "scotiabank-campus-events": {
@@ -1109,7 +1111,7 @@
     },
     "uoft-central-events": {
       "consecutive_failures": 0,
-      "count": 15,
+      "count": 14,
       "error": null,
       "fingerprint": "2582d80484a2",
       "healthy_streak": 2,
@@ -1121,7 +1123,7 @@
       "refused": false
     },
     "uoft-engineering-events": {
-      "consecutive_failures": 25,
+      "consecutive_failures": 26,
       "count": 0,
       "error": "ZoneInfoNotFoundError: 'No time zone found with key UTC+0'",
       "fingerprint": null,
@@ -1161,15 +1163,15 @@
     },
     "uoguelph-gryphlife-campusgroups-ics": {
       "consecutive_failures": 0,
-      "count": 25,
+      "count": 23,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 675,
+      "last_nonzero": 691,
       "last_ok": "2026-10-30",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 675,
+      "raw_count": 691,
       "refused": false
     },
     "uoguelph-news-events-tribe": {
@@ -1187,28 +1189,28 @@
     },
     "uwaterloo-central-events-ics": {
       "consecutive_failures": 0,
-      "count": 0,
+      "count": 1,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 21,
+      "last_nonzero": 25,
       "last_ok": "2026-10-30",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 21,
+      "raw_count": 25,
       "refused": false
     },
     "uwaterloo-cs-events-ics": {
       "consecutive_failures": 0,
-      "count": 9,
+      "count": 10,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 9,
+      "last_nonzero": 10,
       "last_ok": "2026-10-30",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 9,
+      "raw_count": 10,
       "refused": false
     },
     "uwaterloo-csclub-ics": {
@@ -1226,15 +1228,15 @@
     },
     "uwaterloo-engineering-events-ics": {
       "consecutive_failures": 0,
-      "count": 4,
+      "count": 5,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 6,
+      "last_nonzero": 7,
       "last_ok": "2026-10-30",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 6,
+      "raw_count": 7,
       "refused": false
     },
     "uwaterloo-wics-events-ics": {
@@ -1265,15 +1267,15 @@
     },
     "western-events-ics": {
       "consecutive_failures": 0,
-      "count": 19,
+      "count": 15,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 255,
+      "last_nonzero": 247,
       "last_ok": "2026-10-30",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 255,
+      "raw_count": 247,
       "refused": false
     },
     "western-events-json": {
@@ -1282,11 +1284,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 550,
+      "last_nonzero": 554,
       "last_ok": "2026-10-30",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 550,
+      "raw_count": 554,
       "refused": false
     },
     "wetech-alliance-events": {
@@ -1308,11 +1310,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 29,
+      "last_nonzero": 30,
       "last_ok": "2026-10-30",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 29,
+      "raw_count": 30,
       "refused": false
     },
     "yorku-yuconnect-ical": {
@@ -1321,11 +1323,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 36,
+      "last_nonzero": 35,
       "last_ok": "2026-10-30",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 36,
+      "raw_count": 35,
       "refused": false
     }
   }
