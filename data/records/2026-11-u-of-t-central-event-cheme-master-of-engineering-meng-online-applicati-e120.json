@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": true,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": null,
+  "first_seen": "2026-10-30T12:56:45.985293Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-u-of-t-central-event-cheme-master-of-engineering-meng-online-applicati-e120",
+  "last_seen": "2026-10-30T12:56:45.985293Z",
+  "last_verified": "2026-10-30T12:56:45.985293Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "html"
+  ],
+  "organizer": "U of T central events aggregator",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.engineering.utoronto.ca/event/cheme-master-of-engineering-meng-online-application-support-drop-in/2026-11-17/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "html",
+      "fetched_at": "2026-10-30T12:56:45.985293Z",
+      "source_id": "uoft-central-events",
+      "url": "https://www.engineering.utoronto.ca/event/cheme-master-of-engineering-meng-online-application-support-drop-in/2026-11-17/"
+    }
+  ],
+  "start": "2026-11-17T00:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Online event by U of T central events aggregator.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "ChemE Master of Engineering (MEng) Online Application Support Drop-In",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

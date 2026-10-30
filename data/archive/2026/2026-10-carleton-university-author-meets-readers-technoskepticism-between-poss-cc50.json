@@ -76,7 +76,7 @@
     }
   ],
   "start": "2026-10-29T17:00:00-04:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Event by Carleton University central events (WordPress REST) in Ottawa.",
   "tags": [],
   "timezone": "America/Toronto",

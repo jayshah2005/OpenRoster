@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-u-of-t-central-event-workshop-critical-approaches-on-the-social-and-en-dc43",
-  "last_seen": "2026-10-28T22:36:01.647139Z",
-  "last_verified": "2026-10-28T22:36:01.647139Z",
+  "last_seen": "2026-10-30T12:56:45.985293Z",
+  "last_verified": "2026-10-30T12:56:45.985293Z",
   "location": {
     "city": null,
     "country": null,
@@ -31,17 +31,7 @@
     "route": "public_link",
     "url": "https://www.artsci.utoronto.ca/events/workshop-critical-approaches-social-and-environmental-impact-ai"
   },
-  "review": {
-    "evidence": [
-      {
-        "text": "missing from the last 2 successful fetches",
-        "url": "https://www.artsci.utoronto.ca/events/workshop-critical-approaches-social-and-environmental-impact-ai"
-      }
-    ],
-    "reasons": [
-      "no longer listed by its source (possibly cancelled or moved)"
-    ]
-  },
+  "review": null,
   "roles": [
     {
       "closes": null,
@@ -59,13 +49,13 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-10-28T22:36:01.647139Z",
+      "fetched_at": "2026-10-30T12:56:45.985293Z",
       "source_id": "uoft-central-events",
       "url": "https://www.artsci.utoronto.ca/events/workshop-critical-approaches-social-and-environmental-impact-ai"
     }
   ],
   "start": "2026-11-05T00:00:00-05:00",
-  "status": "needs_review",
+  "status": "scheduled",
   "summary": "Workshop by U of T central events aggregator.",
   "tags": [],
   "timezone": "America/Toronto",

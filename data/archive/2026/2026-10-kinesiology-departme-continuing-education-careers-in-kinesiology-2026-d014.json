@@ -141,7 +141,7 @@
     }
   ],
   "start": "2026-10-22T11:00:00-04:00",
-  "status": "cancelled",
+  "status": "past",
   "summary": "Info session by Kinesiology Department in St. Catharines for undergraduates and graduate students.",
   "tags": [],
   "timezone": "America/Toronto",
