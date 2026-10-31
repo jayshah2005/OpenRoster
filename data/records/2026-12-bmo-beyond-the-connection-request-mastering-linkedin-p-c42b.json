@@ -14,8 +14,8 @@
   "geo": null,
   "history": [],
   "id": "2026-12-bmo-beyond-the-connection-request-mastering-linkedin-p-c42b",
-  "last_seen": "2026-10-30T05:50:15.047660Z",
-  "last_verified": "2026-10-30T05:50:15.047660Z",
+  "last_seen": "2026-10-31T05:41:53.434811Z",
+  "last_verified": "2026-10-31T05:41:53.434811Z",
   "location": {
     "city": null,
     "country": null,
@@ -50,7 +50,7 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-10-30T05:50:15.047660Z",
+      "fetched_at": "2026-10-31T05:41:53.434811Z",
       "source_id": "bmo-virtual-workshops",
       "url": "https://jobs.bmo.com/ca/en/event/6a90a57b94ad778dc887c0ee/Beyond-the-Connection-Request-Mastering-LinkedIn-Personal-Branding"
     }

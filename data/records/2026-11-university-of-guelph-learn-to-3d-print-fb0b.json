@@ -2,23 +2,30 @@
   "ai_suggested": [],
   "all_day": false,
   "cost": {
-    "kind": "free",
+    "kind": "unknown",
     "note": null
   },
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-03T19:00:00Z",
+  "end": "2026-11-04T00:00:00Z",
   "first_seen": "2026-10-24T17:55:21.786445Z",
   "geo": {
     "lat": 43.54594,
     "lon": -80.25599,
     "source": "gazetteer"
   },
-  "history": [],
+  "history": [
+    {
+      "at": "2026-10-31T05:41:53.434811Z",
+      "field": "start",
+      "new": "2026-11-03T23:00:00+00:00",
+      "old": "2026-11-03T17:00:00+00:00"
+    }
+  ],
   "id": "2026-11-university-of-guelph-learn-to-3d-print-fb0b",
-  "last_seen": "2026-10-30T05:50:15.047660Z",
-  "last_verified": "2026-10-30T05:50:15.047660Z",
+  "last_seen": "2026-10-31T05:41:53.434811Z",
+  "last_verified": "2026-10-31T05:41:53.434811Z",
   "location": {
     "city": "Guelph",
     "country": "CA",
@@ -106,7 +113,7 @@
   "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
   "registration": {
     "route": "public_link",
-    "url": "https://uoguelph.campusgroups.com/rsvp?id=376759"
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=379594"
   },
   "review": null,
   "roles": [
@@ -126,26 +133,26 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-10-30T05:50:15.047660Z",
+      "fetched_at": "2026-10-31T05:41:53.434811Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=376759"
     },
     {
       "adapter": "ics",
-      "fetched_at": "2026-10-30T22:21:19.475440Z",
+      "fetched_at": "2026-10-31T05:41:53.434811Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=379594"
     }
   ],
-  "start": "2026-11-03T17:00:00Z",
-  "status": "scheduled",
-  "summary": "Free workshop by University of Guelph GryphLife (CampusGroups) public iCal in Guelph.",
+  "start": "2026-11-03T23:00:00Z",
+  "status": "moved",
+  "summary": "Event by University of Guelph GryphLife (CampusGroups) public iCal.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Learn to 3D Print",
+  "title": "FVC Casper and Interview Achievers Talk",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "workshop"
+  "type": "other"
 }

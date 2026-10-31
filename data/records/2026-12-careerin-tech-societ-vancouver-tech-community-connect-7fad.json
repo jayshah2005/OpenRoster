@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-12-careerin-tech-societ-vancouver-tech-community-connect-7fad",
-  "last_seen": "2026-10-30T05:50:15.047660Z",
-  "last_verified": "2026-10-30T05:50:15.047660Z",
+  "last_seen": "2026-10-31T05:41:53.434811Z",
+  "last_verified": "2026-10-31T05:41:53.434811Z",
   "location": {
     "city": "Vancouver",
     "country": "CA",
@@ -53,7 +53,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-10-30T05:50:15.047660Z",
+      "fetched_at": "2026-10-31T05:41:53.434811Z",
       "source_id": "luma-careerin-tech-society",
       "url": "https://luma.com/VancouverTech2026Dec10"
     }

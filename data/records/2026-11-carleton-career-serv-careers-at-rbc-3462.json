@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-carleton-career-serv-careers-at-rbc-3462",
-  "last_seen": "2026-10-30T05:50:15.047660Z",
-  "last_verified": "2026-10-30T05:50:15.047660Z",
+  "last_seen": "2026-10-31T05:41:53.434811Z",
+  "last_verified": "2026-10-31T05:41:53.434811Z",
   "location": {
     "city": "Ottawa",
     "country": "CA",
@@ -70,7 +70,7 @@
   "sources": [
     {
       "adapter": "api",
-      "fetched_at": "2026-10-30T05:50:15.047660Z",
+      "fetched_at": "2026-10-31T05:41:53.434811Z",
       "source_id": "carleton-career-events-api",
       "url": "https://carleton.ca/career/event/rbc-panel-discussion-on-career-journeys/"
     }

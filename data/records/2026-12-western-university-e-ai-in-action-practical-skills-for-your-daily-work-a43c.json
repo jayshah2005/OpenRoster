@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-12-western-university-e-ai-in-action-practical-skills-for-your-daily-work-a43c",
-  "last_seen": "2026-10-30T05:50:15.047660Z",
-  "last_verified": "2026-10-30T05:50:15.047660Z",
+  "last_seen": "2026-10-31T05:41:53.434811Z",
+  "last_verified": "2026-10-31T05:41:53.434811Z",
   "location": {
     "city": "London",
     "country": "CA",
@@ -75,13 +75,13 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-10-30T05:50:15.047660Z",
+      "fetched_at": "2026-10-31T05:41:53.434811Z",
       "source_id": "western-events-ics",
       "url": "https://www.uwo.ca/events/"
     },
     {
       "adapter": "api",
-      "fetched_at": "2026-10-30T05:50:15.047660Z",
+      "fetched_at": "2026-10-31T05:41:53.434811Z",
       "source_id": "western-events-json",
       "url": "https://www.uwo.ca/events/2026/12/wts-ai-in-action-practical-skills-for-your-daily-work.html"
     }

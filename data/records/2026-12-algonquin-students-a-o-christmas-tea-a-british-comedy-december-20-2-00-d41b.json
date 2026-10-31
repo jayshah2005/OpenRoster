@@ -24,8 +24,8 @@
     }
   ],
   "id": "2026-12-algonquin-students-a-o-christmas-tea-a-british-comedy-december-20-2-00-d41b",
-  "last_seen": "2026-10-30T05:50:15.047660Z",
-  "last_verified": "2026-10-30T05:50:15.047660Z",
+  "last_seen": "2026-10-31T05:41:53.434811Z",
+  "last_verified": "2026-10-31T05:41:53.434811Z",
   "location": {
     "city": "London",
     "country": "CA",
@@ -81,7 +81,7 @@
   "sources": [
     {
       "adapter": "tribe",
-      "fetched_at": "2026-10-30T05:50:15.047660Z",
+      "fetched_at": "2026-10-31T05:41:53.434811Z",
       "source_id": "algonquin-sa-events",
       "url": "https://www.algonquinsa.com/event/o-christmas-tea-a-british-comedy-december-20/"
     }

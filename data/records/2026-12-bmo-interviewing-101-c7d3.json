@@ -14,8 +14,8 @@
   "geo": null,
   "history": [],
   "id": "2026-12-bmo-interviewing-101-c7d3",
-  "last_seen": "2026-10-30T05:50:15.047660Z",
-  "last_verified": "2026-10-30T05:50:15.047660Z",
+  "last_seen": "2026-10-31T05:41:53.434811Z",
+  "last_verified": "2026-10-31T05:41:53.434811Z",
   "location": {
     "city": null,
     "country": null,
@@ -56,7 +56,7 @@
     },
     {
       "adapter": "html",
-      "fetched_at": "2026-10-30T05:50:15.047660Z",
+      "fetched_at": "2026-10-31T05:41:53.434811Z",
       "source_id": "bmo-virtual-workshops",
       "url": "https://jobs.bmo.com/ca/en/event/6a90a5a0acced97d63ac6c17/Interviews-101"
     }

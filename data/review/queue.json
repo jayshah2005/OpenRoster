@@ -1,5 +1,8 @@
 {
-  "flagged_missing": [],
+  "flagged_missing": [
+    "2026-11-cheriton-school-of-c-phd-seminar-computer-graphics-a-generalizable-lig-b00f",
+    "2026-11-u-of-t-central-event-workshop-critical-approaches-on-the-social-and-en-dc43"
+  ],
   "items": [
     {
       "evidence": " Sheridan College's largest hackathon this year, bringing students from across the GTA to come and build meaningful software together. BearHacks 2026 Sheridan College's largest hackathon this year, bringing students from across the GTA to come and build meaningful software together. Sheridan College",
@@ -112,11 +115,10 @@
       "url": "https://genaigenesis.ca/"
     },
     {
-      "evidence": "﻿ Niagara College - Gamers unite at Niagara College for fourth annual Global Game Jam { \"@context\" : \"https://schema.org\", \"@type\" : \"Organization\", \"name\" : \"Education News Canada\", \"url\" : \"https://educationnewscanada.com\", \"logo\" : \"https://educationnewscanada.com/CE/top_logo_reseau.png\", \"sameAs",
-      "key": "hackathon:global-game-jam-site-game-development-program|hackathon:global-game-jam-site-game-development-program",
+      "evidence": "",
+      "key": "hackathon:global-game-jam-site-game-development-program|https://educationnewscanada.com/article/education/region/ontario/27/745152/niagara-collegejanuary-28-2019-gamers-unite-at-niagara-college-for-fourth-annual-global-game-jam.html|nodate|global game jam site (game development program)",
       "reasons": [
-        "no event date found with confidence (site may be JS-only or not updated)",
-        "no date could be parsed with confidence"
+        "site could not be fetched: https://educationnewscanada.com/article/education/region/ontario/27/745152/niagara-collegejanuary-28-2019-gamers-unite-at-niagara-college-for-fourth-a"
       ],
       "source_id": "hackathon:global-game-jam-site-game-development-program",
       "title": "Global Game Jam site (Game Development program)",
@@ -199,7 +201,7 @@
       "url": "https://makeuoft.ca"
     },
     {
-      "evidence": "Facebook Instagram X HOME NEWS FEATURES SPORTS ARTS OPINION VIDEOS Search Friday, October 30, 2026 Facebook Instagram X Brock's Only Independent Student Newspaper One of the only worker-managed newspapers in Canada Search NEWS FEATURES SPORTS ARTS OPINION PODCAST MORE ABOUT Beginner’s Guide ARCHIVE ",
+      "evidence": "Facebook Instagram X HOME NEWS FEATURES SPORTS ARTS OPINION VIDEOS Search Saturday, October 31, 2026 Facebook Instagram X Brock's Only Independent Student Newspaper One of the only worker-managed newspapers in Canada Search NEWS FEATURES SPORTS ARTS OPINION PODCAST MORE ABOUT Beginner’s Guide ARCHIV",
       "key": "hackathon:mother-of-all-game-jams|hackathon:mother-of-all-game-jams",
       "reasons": [
         "no event date found with confidence (site may be JS-only or not updated)",
@@ -276,11 +278,10 @@
       "url": "https://brocku.ca/brock-news/in-focus/game-jam-a-spooktacular-success/"
     },
     {
-      "evidence": "Skip to main content Jump to Jump to Admissions About Waterloo Faculties & Academics Offices & Services Support Waterloo Open Search Location Search for Search Location On all sites On this site Women in Computer Science Menu Women in Computer Science Home About About Contacts WiCS Feedback Form His",
-      "key": "hackathon:technovation-waterloo-mini-hackathon-wics|hackathon:technovation-waterloo-mini-hackathon-wics",
+      "evidence": "",
+      "key": "hackathon:technovation-waterloo-mini-hackathon-wics|https://uwaterloo.ca/women-in-computer-science/events|nodate|technovation waterloo mini-hackathon (wics)",
       "reasons": [
-        "no event date found with confidence (site may be JS-only or not updated)",
-        "no date could be parsed with confidence"
+        "site could not be fetched: https://uwaterloo.ca/women-in-computer-science/events: disallowed by robots.txt"
       ],
       "source_id": "hackathon:technovation-waterloo-mini-hackathon-wics",
       "title": "Technovation Waterloo Mini-Hackathon (WiCS)",
