@@ -276,16 +276,6 @@
       "url": "https://brocku.ca/brock-news/in-focus/game-jam-a-spooktacular-success/"
     },
     {
-      "evidence": "",
-      "key": "hackathon:technovation-waterloo-mini-hackathon-wics|https://uwaterloo.ca/women-in-computer-science/events|nodate|technovation waterloo mini-hackathon (wics)",
-      "reasons": [
-        "site could not be fetched: https://uwaterloo.ca/women-in-computer-science/events: disallowed by robots.txt"
-      ],
-      "source_id": "hackathon:technovation-waterloo-mini-hackathon-wics",
-      "title": "Technovation Waterloo Mini-Hackathon (WiCS)",
-      "url": "https://uwaterloo.ca/women-in-computer-science/events"
-    },
-    {
       "evidence": "About Sponsors FAQ Team Contact Application Portal Click Here To Start August 1st - 3rd, 2025 Toronto Metropolitan University August 1st 2025 - August 3rd 2025 Hosted at Toronto Metropolitan University ABOUT TERRAHACKS Formed from the passion of making tech opportunities open to all, TerraHacks was ",
       "key": "hackathon:terrahacks|hackathon:terrahacks",
       "reasons": [
@@ -350,16 +340,6 @@
       "source_id": "hackathon:winhacks",
       "title": "WinHacks",
       "url": "https://www.winhacks.ca"
-    },
-    {
-      "evidence": "Career Talks: Chat with a Peer Various Dates (Book Your Appointment)",
-      "key": "uoft-central-events|https://www.utm.utoronto.ca/careers/chat-peer-or-alumni/chat-with-a-peer|nodate|career talks: chat with a peer",
-      "reasons": [
-        "no date could be parsed with confidence"
-      ],
-      "source_id": "uoft-central-events",
-      "title": "Career Talks: Chat with a Peer",
-      "url": "https://www.utm.utoronto.ca/careers/chat-peer-or-alumni/chat-with-a-peer"
     }
   ],
   "possible_duplicates": [],

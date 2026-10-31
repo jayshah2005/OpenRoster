@@ -2,7 +2,7 @@
 
 Hackathons, info sessions, talks, career fairs, workshops, competitions and early-career programs for CS students, soonest deadline first. Filter, subscribe to a calendar, or see details at https://openroster-seven.vercel.app.
 
-236 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
+237 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
 
 | Apply by | Starts | Opportunity | Organizer | Type | Where | Ways to take part |
 |---|---|---|---|---|---|---|
@@ -11,6 +11,7 @@ Hackathons, info sessions, talks, career fairs, workshops, competitions and earl
 | Not listed | Oct 30 | [Spooky Shapes Game Jam 2026](https://openroster-seven.vercel.app/o/2026-10-department-of-digita-spooky-shapes-game-jam-2026-ab17/) | Department of Digital Humanities | Hackathon | St. Catharines, ON | attend |
 | Not listed | Oct 31 | [Vancouver Tech Community Coffee Meetup](https://openroster-seven.vercel.app/o/2026-10-careerin-tech-societ-vancouver-tech-community-coffee-meetup-0d1c/) | Careerin Tech Society (Luma iCal) | Networking | Vancouver, BC | attend |
 | Not listed | Oct 31 | [10k in PRIZES l STRANGER BUILDS I Halloween hackathon (ONLINE)](https://openroster-seven.vercel.app/o/2026-10-waterloo-tech-adjace-10k-in-prizes-l-stranger-builds-i-halloween-hacka-9c76/) | Waterloo Tech (+adjacent) Events (Luma iCal) | Hackathon | Online | attend |
+| Not listed | Nov 1 | [Fall Engineering Outreach Programs](https://openroster-seven.vercel.app/o/2026-11-u-of-t-central-event-fall-engineering-outreach-programs-9ef4/) | U of T central events aggregator | Other | TBA | attend |
 | Nov 1 | Nov 1 | [Career Closet Drive](https://openroster-seven.vercel.app/o/2026-11-u-of-t-central-event-career-closet-drive-2064/) | U of T central events aggregator | Other | TBA | attend |
 | Not listed | Nov 2 | [Thriving in the Age of AI: Using Artificial Intelligence to Create More Time for What Matters Most (Thrive Month)](https://openroster-seven.vercel.app/o/2026-11-queen-s-university-e-thriving-in-the-age-of-ai-using-artificial-intell-4ccc/) | Queen's University events calendar (RSS) | Workshop | Online | attend |
 | Not listed | Nov 2 | [Educational Technology Workshop: Understanding Grade Submission Through onQ](https://openroster-seven.vercel.app/o/2026-11-queen-s-university-e-educational-technology-workshop-understanding-gra-3620/) | Queen's University events calendar (RSS) | Workshop | Online | attend |
