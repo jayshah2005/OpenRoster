@@ -1,8 +1,8 @@
 # Source audit report
 
-Generated 2026-10-30 16:16 UTC by `openroster audit --all`. A source runs only when its verdict is **allowed** and the owner set `reviewed: true`.
+Generated 2026-10-31 15:32 UTC by `openroster audit --all`. A source runs only when its verdict is **allowed** and the owner set `reviewed: true`.
 
-Summary: allowed: 154, blocked: 22, unknown: 2
+Summary: allowed: 150, blocked: 27, unknown: 1
 
 ## Known verdicts (always enforced in code)
 
@@ -23,7 +23,7 @@ Summary: allowed: 154, blocked: 22, unknown: 2
 
 | ID | Source | Verdict | robots.txt | Terms | Terms flags | Platform | Reviewed | Checked |
 |---|---|---|---|---|---|---|---|---|
-| `bmo-student-events` | [BMO student events (on-campus and in-office)](https://jobs.bmo.com/ca/en/student-events) | **allowed** | allowed | - | - | html | yes | 2026-10-30 |
+| `bmo-student-events` | [BMO student events (on-campus and in-office)](https://jobs.bmo.com/ca/en/student-events) | **allowed** | allowed | - | - | html | yes | 2026-10-31 |
 | `scotiabank-campus-events` | [Scotiabank campus events](https://www.scotiabank.com/careers/en/careers/campus-events.html) | **allowed** | allowed | [terms](https://www.scotiabank.com/ca/en/about/contact-us/legal.html) | terms: republishing | html | yes | 2026-10-24 |
 | `scotiabank-jobs-student-programs` | [Scotiabank jobs site - student hackathon / competition postings (SHACKS, Canada's Top Students)](https://jobs.scotiabank.com/search/?q=student) | **allowed** | allowed | [terms](https://jobs.scotiabank.com/job/Lima-Practicante-Pre-Profesional-Productos-y-Campa%C3%B1as-de-Seguros-LIM-15047/607422817/) | - | html | yes | 2026-10-30 |
 | `rbc-students-graduates` | [RBC Careers - Students & Graduates (Campus events anchor)](https://jobs.rbc.com/ca/en/students-graduates) | **allowed** | allowed | [terms](http://www.rbc.com/legal/) | - | html_no_dates | yes | 2026-10-24 |
@@ -35,7 +35,7 @@ Summary: allowed: 154, blocked: 22, unknown: 2
 | `optiver-recruitment-events` | [Optiver - Recruitment events](https://optiver.com/recruitment-events/) | **allowed** | allowed | - | - | html | yes | 2026-10-24 |
 | `imc-prosperity` | [IMC Prosperity - global student trading/algorithmic challenge](https://www.imc.com/us/corporate-news/prosperity-4) | **allowed** | allowed | [terms](https://www.imc.com/us/terms-conditions) | - | html | yes | 2026-10-24 |
 | `twosigma-new-seekers-summit` | [Two Sigma - New Seekers Summit (1st/2nd-year undergrads)](https://www.twosigma.com/new-seekers-summit/) | **blocked** | allowed | [terms](https://www.twosigma.com/legal-disclosures/?entity=two-sigma-investments-lp&disclosure=legal-disclosure) | terms: automated access, terms: republishing | html_no_dates | no | 2026-10-24 |
-| `bmo-virtual-workshops` | [BMO virtual student workshops](https://jobs.bmo.com/ca/en/student-events) | **allowed** | allowed | - | - | html | yes | 2026-10-30 |
+| `bmo-virtual-workshops` | [BMO virtual student workshops](https://jobs.bmo.com/ca/en/student-events) | **allowed** | allowed | - | - | html | yes | 2026-10-31 |
 | `hackclub-hackathons-api-upcoming` | [Hack Club Hackathons API (upcoming events)](https://hackathons.hackclub.com/api/events/upcoming) | **allowed** | no_robots | - | - | html_no_dates | yes | 2026-10-27 |
 | `vector-institute-events` | [Vector Institute events (The Events Calendar REST)](https://vectorinstitute.ai/wp-json/tribe/events/v1/events) | **allowed** | allowed | - | - | html | yes | 2026-10-24 |
 | `luma-canadian-undergraduate-technology-conference-cutc` | [Canadian Undergraduate Technology Conference (CUTC) (Luma iCal)](https://api.lu.ma/ics/get?entity=calendar&id=cal-oYQx6BHc1owy2ip) | **allowed** | allowed | - | - | html_no_dates | yes | 2026-10-24 |
@@ -49,12 +49,12 @@ Summary: allowed: 154, blocked: 22, unknown: 2
 | `luma-careerin-tech-society` | [Careerin Tech Society (Luma iCal)](https://api.lu.ma/ics/get?entity=calendar&id=cal-gUADv2P40s4rWOB) | **allowed** | allowed | - | - | html | yes | 2026-10-24 |
 | `luma-tech2step-events` | [Tech2Step Events (Luma iCal)](https://api.lu.ma/ics/get?entity=calendar&id=cal-W6q2oD1np3YfMjq) | **allowed** | allowed | - | - | html_no_dates | yes | 2026-10-24 |
 | `luma-tech-walk-and-talk-montreal` | [Tech Walk and Talk (Montreal) (Luma iCal)](https://api.lu.ma/ics/get?entity=calendar&id=cal-HL5D5MWKDM5EIX7) | **allowed** | allowed | - | - | html_no_dates | yes | 2026-10-24 |
-| `uoft-engineering-events` | [U of T Faculty of Applied Science & Engineering events](https://www.engineering.utoronto.ca/wp-json/tribe/events/v1/events) | **allowed** | allowed | [terms](https://www.engineering.utoronto.ca/wp-json/tribe/events/v1/\"https:\/\/www.youtube.com\/watch?v=k4RRzBKw8Hw\") | - | tribe | yes | 2026-10-30 |
+| `uoft-engineering-events` | [U of T Faculty of Applied Science & Engineering events](https://www.engineering.utoronto.ca/wp-json/tribe/events/v1/events) | **allowed** | allowed | - | - | tribe | yes | 2026-10-31 |
 | `uoft-engineering-undergrad-events` | [U of T Engineering undergraduate events (incl. PEY Co-op)](https://undergrad.engineering.utoronto.ca/wp-json/tribe/events/v1/events) | **allowed** | allowed | - | - | html | yes | 2026-10-30 |
 | `uoft-sop-events` | [U of T Student Organization Portal (Resource Finder) events](https://sop.utoronto.ca/wp-json/tribe/events/v1/events) | **allowed** | allowed | - | - | html | yes | 2026-10-24 |
 | `uoft-utm-events` | [UTM events listing](https://www.utm.utoronto.ca/events) | **allowed** | allowed | - | - | html | yes | 2026-10-30 |
 | `uoft-utsc-cms-events` | [UTSC Computer & Mathematical Sciences department events](https://utsc.utoronto.ca/cms/events) | **allowed** | allowed | - | - | html_no_dates | yes | 2026-10-26 |
-| `uoft-central-events` | [U of T central events aggregator](https://www.utoronto.ca/events) | **allowed** | allowed | - | - | html | yes | 2026-10-30 |
+| `uoft-central-events` | [U of T central events aggregator](https://www.utoronto.ca/events) | **allowed** | allowed | - | - | html | yes | 2026-10-31 |
 | `tmu-cs-seminar-calendar` | [TMU Computer Science student seminar calendar (Google Calendar)](https://calendar.google.com/calendar/ical/ryerson.ca_1889os4nvg1iujhlil4onene40e9k%40resource.calendar.google.com/public/basic.ics) | **blocked** | not_checked | - | - | unknown | no | 2026-10-24 |
 | `dmz-flagship-events` | [DMZ (TMU) flagship events and programs](https://dmz.torontomu.ca/) | **allowed** | allowed | [terms](https://dmz.torontomu.ca/dmz-slsc) | - | html | yes | 2026-10-30 |
 | `gdg-toronto` | [Google Developer Groups Toronto (GDG Toronto)](https://gdg.community.dev/gdg-toronto/) | **blocked** | not_checked | - | - | unknown | no | 2026-10-24 |
@@ -67,34 +67,34 @@ Summary: allowed: 154, blocked: 22, unknown: 2
 | `seneca-future-students-events` | [Seneca future students events and webinars](https://www.senecapolytechnic.ca/futurestudents/events-and-webinars.html) | **allowed** | allowed | - | - | html | yes | 2026-10-24 |
 | `centennial-ieee-branch` | [IEEE Centennial College Student Branch events](https://edu.ieee.org/ca-centennial-college/calendar) | **allowed** | allowed | [terms](http://www.ieee.org/site_terms_conditions.html) | - | html | yes | 2026-10-24 |
 | `georgebrown-sagbc-events` | [Student Association of George Brown College events](https://studentassociation.ca/events) | **allowed** | allowed | [terms](https://www.studentassociation.ca/legal/) | - | html_no_dates | yes | 2026-10-24 |
-| `durham-events` | [Durham College events calendar](https://durhamcollege.ca/wp-json/tribe/events/v1/events?categories=academic) | **allowed** | allowed | - | - | html_no_dates | yes | 2026-10-30 |
+| `durham-events` | [Durham College events calendar](https://durhamcollege.ca/wp-json/tribe/events/v1/events?categories=academic) | **allowed** | allowed | - | - | html | yes | 2026-10-31 |
 | `techto-events` | [TechTO events](https://techto.org/events) | **allowed** | allowed | [terms](https://docs.google.com/document/d/e/2PACX-1vQd_C_Nt9pwEy5bLQ075wA0QfHpXD922eHMN659rUTw32wK-IckCGhFisWCMI0W2a-Pq8gSd8YxEw4N/pub) | - | html | yes | 2026-10-27 |
 | `brock-busu-events` | [Brock University Students' Union (BUSU) events](https://www.brockbusu.ca/whats-on/events/) | **allowed** | allowed | - | - | html_no_dates | yes | 2026-10-24 |
 | `brock-csc-site` | [Brock Computer Science Club website](https://brockcsc.ca/events) | **allowed** | allowed | - | - | html_no_dates | yes | 2026-10-24 |
 | `brock-linc-events` | [Brock LINC (Generator at One successor) entrepreneurship events](https://brocku.ca/linc/entrepreneurship-events/) | **allowed** | allowed | - | - | html_no_dates | yes | 2026-10-24 |
-| `niagara-college-events` | [Niagara College events calendar (The Events Calendar)](https://www.niagaracollege.ca/events/list/) | **allowed** | allowed | [terms](https://www.niagaracollege.ca/disclaimer/) | terms: republishing | jsonld | yes | 2026-10-30 |
+| `niagara-college-events` | [Niagara College events calendar (The Events Calendar)](https://www.niagaracollege.ca/events/list/) | **allowed** | allowed | [terms](https://www.niagaracollege.ca/disclaimer/) | terms: republishing | jsonld | yes | 2026-10-31 |
 | `innovate-niagara-events` | [Innovate Niagara tech events](https://www.innovateniagara.com/site/tech-events-niagara) | **allowed** | allowed | - | - | html | yes | 2026-10-26 |
 | `mcmaster-news-events-ics` | [McMaster University central events (news.mcmaster.ca, Events Manager)](https://news.mcmaster.ca/events.ics) | **allowed** | allowed | - | - | html_no_dates | yes | 2026-10-24 |
-| `mcmaster-engineering-events` | [McMaster Faculty of Engineering events (incl. Computing and Software)](https://www.eng.mcmaster.ca/about-us/events/) | **allowed** | allowed | [terms](https://www.mcmaster.ca/opr/html/footer/main/terms_of_use.html) | terms: republishing | html | yes | 2026-10-30 |
+| `mcmaster-engineering-events` | [McMaster Faculty of Engineering events (incl. Computing and Software)](https://www.eng.mcmaster.ca/about-us/events/) | **allowed** | allowed | [terms](https://www.mcmaster.ca/opr/html/footer/main/terms_of_use.html) | terms: republishing | html | yes | 2026-10-31 |
 | `mcmaster-gdg-on-campus` | [GDG on Campus McMaster University (Bevy chapter page)](https://gdg.community.dev/gdg-on-campus-mcmaster-university-hamilton-canada/) | **blocked** | not_checked | - | - | unknown | no | 2026-10-24 |
 | `msu-mcmaster-events` | [McMaster Students Union clubs events calendar](https://msumcmaster.ca/clubs/events-calendar/) | **allowed** | allowed | [terms](https://msumcmaster.ca/terms-conditions-of-use/) | terms: republishing | html_no_dates | yes | 2026-10-24 |
-| `mohawk-events` | [Mohawk College events](https://www.mohawkcollege.ca/events) | **allowed** | allowed | [terms](https://www.mohawkcollege.ca/faq/program-disclaimer) | - | html | yes | 2026-10-30 |
+| `mohawk-events` | [Mohawk College events](https://www.mohawkcollege.ca/events) | **allowed** | allowed | [terms](https://www.mohawkcollege.ca/faq/program-disclaimer) | - | html | yes | 2026-10-31 |
 | `mohawk-msa-events` | [Mohawk Students' Association events](https://mohawkstudents.ca/get-involved/events/) | **allowed** | allowed | [terms](https://mohawkstudents.ca/supports/legal-counselling/) | - | html | yes | 2026-10-29 |
 | `innovation-factory-events` | [Innovation Factory (Hamilton) events calendar](https://www.innovationfactory.ca/events/) | **allowed** | allowed | [terms](https://innovationfactory.ca/terms-and-conditions/) | - | jsonld | yes | 2026-10-30 |
 | `sheridan-ssu-events` | [Sheridan Student Union events](https://www.thessu.ca/events) | **allowed** | allowed | [terms](https://www.thessu.ca/graduation-photos) | - | ics | yes | 2026-10-29 |
 | `sheridan-gdg-on-campus` | [GDG on Campus Sheridan College (Bevy chapter page)](https://gdg.community.dev/gdg-on-campus-sheridan-college-trafalgar-road-campus-oakville-canada/) | **blocked** | not_checked | - | - | unknown | no | 2026-10-24 |
-| `uwaterloo-central-events-ics` | [University of Waterloo central events calendar (WCMS iCal)](https://uwaterloo.ca/events/events/ical) | **allowed** | no_robots | - | - | html_no_dates | yes | 2026-10-30 |
+| `uwaterloo-central-events-ics` | [University of Waterloo central events calendar (WCMS iCal)](https://uwaterloo.ca/events/events/ical) | **blocked** | disallowed | - | - | unknown | yes | 2026-10-31 |
 | `uwaterloo-cs-events-ics` | [Cheriton School of Computer Science events (iCal)](https://cs.uwaterloo.ca/events/ical) | **allowed** | allowed | - | - | html_no_dates | yes | 2026-10-24 |
-| `uwaterloo-engineering-events-ics` | [Waterloo Engineering events (iCal)](https://uwaterloo.ca/engineering/events/ical) | **allowed** | no_robots | - | - | html_no_dates | yes | 2026-10-24 |
-| `uwaterloo-wics-events-ics` | [Waterloo Women in Computer Science events (iCal)](https://uwaterloo.ca/women-in-computer-science/events/ical) | **allowed** | no_robots | - | - | html | yes | 2026-10-24 |
+| `uwaterloo-engineering-events-ics` | [Waterloo Engineering events (iCal)](https://uwaterloo.ca/engineering/events/ical) | **blocked** | disallowed | - | - | unknown | yes | 2026-10-31 |
+| `uwaterloo-wics-events-ics` | [Waterloo Women in Computer Science events (iCal)](https://uwaterloo.ca/women-in-computer-science/events/ical) | **blocked** | disallowed | - | - | unknown | yes | 2026-10-31 |
 | `uwaterloo-csclub-ics` | [UW Computer Science Club events (iCal)](https://csclub.uwaterloo.ca/events.ics) | **allowed** | no_robots | - | - | html | yes | 2026-10-24 |
-| `wusa-events-tribe` | [Waterloo Undergraduate Student Association (WUSA) events incl. clubs](https://wusa.ca/wp-json/tribe/events/v1/events) | **allowed** | allowed | [terms](https://wusa.ca/wp-json/tribe/events/v1/\"https:\/\/www.instagram.com\/wusathrift\/\") | - | tribe | yes | 2026-10-30 |
+| `wusa-events-tribe` | [Waterloo Undergraduate Student Association (WUSA) events incl. clubs](https://wusa.ca/wp-json/tribe/events/v1/events) | **allowed** | allowed | [terms](https://wusa.ca/wp-json/tribe/events/v1/\"mailto:womenscentre@wusa.ca\") | - | tribe | yes | 2026-10-31 |
 | `velocity-events` | [Velocity (UW) events](https://www.velocityincubator.com/events) | **allowed** | allowed | - | - | html | yes | 2026-10-30 |
 | `accelerator-centre-tribe` | [Accelerator Centre (Waterloo) events](https://www.acceleratorcentre.com/wp-json/tribe/events/v1/events) | **allowed** | allowed | - | - | html_no_dates | yes | 2026-10-24 |
 | `laurier-events-ics` | [Wilfrid Laurier University events calendar (iCal)](https://events.wlu.ca/_data/current.ics) | **allowed** | no_robots | - | - | html | yes | 2026-10-24 |
 | `laurier-gdg-on-campus` | [GDG on Campus Wilfrid Laurier University (Bevy chapter page)](https://gdg.community.dev/gdg-on-campus-wilfrid-laurier-university-waterloo-canada/) | **blocked** | not_checked | - | - | unknown | no | 2026-10-24 |
-| `uoguelph-news-events-tribe` | [University of Guelph central events (news.uoguelph.ca, The Events Calendar)](https://news.uoguelph.ca/wp-json/tribe/events/v1/events) | **allowed** | allowed | - | - | html | yes | 2026-10-30 |
-| `uoguelph-gryphlife-campusgroups-ics` | [University of Guelph GryphLife (CampusGroups) public iCal](https://uoguelph.campusgroups.com/ical/uoguelph/ical_uoguelph.ics) | **allowed** | allowed | - | - | html | yes | 2026-10-30 |
+| `uoguelph-news-events-tribe` | [University of Guelph central events (news.uoguelph.ca, The Events Calendar)](https://news.uoguelph.ca/wp-json/tribe/events/v1/events) | **allowed** | allowed | - | - | html | yes | 2026-10-31 |
+| `uoguelph-gryphlife-campusgroups-ics` | [University of Guelph GryphLife (CampusGroups) public iCal](https://uoguelph.campusgroups.com/ical/uoguelph/ical_uoguelph.ics) | **allowed** | allowed | - | - | html | yes | 2026-10-31 |
 | `uoguelph-computing-events` | [Guelph School of Computer Science / CCMPS events](https://www.uoguelph.ca/computing/events) | **allowed** | allowed | [terms](https://www.uoguelph.ca/web/terms/) | - | html | yes | 2026-10-28 |
 | `conestoga-events` | [Conestoga College events](https://blogs1.conestogac.on.ca/events) | **allowed** | allowed | [terms](https://www.conestogac.on.ca/admissions/registrar-office/terms-definitions) | - | html | yes | 2026-10-24 |
 | `conestoga-csi-events` | [Conestoga Students Inc. (CSI) events](https://www.conestogastudents.com/getinvolved/eventslist/) | **allowed** | allowed | [terms](https://mygradphotosconestoga.com/) | - | html | yes | 2026-10-30 |
@@ -113,11 +113,11 @@ Summary: allowed: 154, blocked: 22, unknown: 2
 | `queens-ams-events` | [Queen's Alma Mater Society events (Tribe)](https://www.myams.org/wp-json/tribe/events/v1/events) | **allowed** | allowed | - | - | html_no_dates | yes | 2026-10-24 |
 | `compsa-events` | [COMPSA (Queen's Computing Students' Association) events](https://compsa.ca/events) | **allowed** | allowed | - | - | html_no_dates | yes | 2026-10-24 |
 | `stlawrence-eventscalendar` | [St. Lawrence College events calendar](https://www.stlawrencecollege.ca/eventscalendar) | **allowed** | allowed | [terms](https://www.stlawrencecollege.ca/terms-of-service) | terms: republishing | html | yes | 2026-10-30 |
-| `trent-events` | [Trent University events](https://www.trentu.ca/events) | **allowed** | allowed | [terms](https://www.trentu.ca) | - | html | yes | 2026-10-28 |
+| `trent-events` | [Trent University events](https://www.trentu.ca/events) | **allowed** | allowed | [terms](https://www.trentu.ca) | - | html | yes | 2026-10-31 |
 | `trent-careerspace-expo` | [Trent Careerspace expos](https://www.trentu.ca/careerspace/expo) | **allowed** | allowed | [terms](https://www.trentu.ca) | - | html | yes | 2026-10-24 |
 | `fleming-career-job-fairs` | [Fleming College Career Services job fairs and events](https://department.flemingcollege.ca/careers/career-job-fairs/) | **allowed** | allowed | - | - | html | yes | 2026-10-24 |
 | `uottawa-cssa` | [uOttawa Computer Science Student Association (CSSA/AEI)](https://cssa-aei.ca/) | **allowed** | allowed | - | - | html_no_dates | yes | 2026-10-24 |
-| `algonquin-sa-events` | [Algonquin Students' Association events (Tribe)](https://www.algonquinsa.com/wp-json/tribe/events/v1/events) | **allowed** | allowed | [terms](https://www.algonquinsa.com/wp-json/tribe/events/v1/\"https:\/\/www.instagram.com\/hopeofglory_rc\/\") | - | html | yes | 2026-10-30 |
+| `algonquin-sa-events` | [Algonquin Students' Association events (Tribe)](https://www.algonquinsa.com/wp-json/tribe/events/v1/events) | **allowed** | allowed | [terms](https://www.algonquinsa.com/wp-json/tribe/events/v1/\"https:\/\/www.instagram.com\/hopeofglory_rc\/\") | - | html | yes | 2026-10-31 |
 | `algonquin-student-support-events` | [Algonquin Student Support Services / AC Hub events](https://www.algonquincollege.com/studentsupportservices/events/) | **allowed** | allowed | - | - | html | yes | 2026-10-27 |
 | `algonquin-coop-career-fairs` | [Algonquin Co-op & Career Centre career fairs](https://www.algonquincollege.com/coop-career-centre/career-fairs/) | **allowed** | allowed | [terms](https://www.algonquincollege.com/coop-career-centre/terms-and-conditions/) | - | html_no_dates | yes | 2026-10-24 |
 | `algonquin-events` | [Algonquin College main events page](https://www.algonquincollege.com/events/) | **allowed** | allowed | - | - | html | yes | 2026-10-24 |
@@ -133,10 +133,10 @@ Summary: allowed: 154, blocked: 22, unknown: 2
 | `invest-ottawa-events` | [Invest Ottawa event calendar](https://www.investottawa.ca/events/) | **allowed** | allowed | [terms](https://www.investottawa.ca/eventbrite-event/starting-a-business-a-birds-eye-view-of-the-legal-landscape-virtual-10/) | - | html | yes | 2026-10-29 |
 | `techalliance-events` | [TechAlliance of Southwestern Ontario events](https://www.techalliance.ca/news/event-type/techalliance-events/) | **allowed** | allowed | [terms](https://www.techalliance.ca/terms-conditions/) | - | jsonld | yes | 2026-10-30 |
 | `wetech-alliance-events` | [WEtech Alliance events (Windsor-Essex)](https://www.wetech-alliance.com/wp-json/tribe/events/v1/events) | **allowed** | allowed | [terms](https://www.wetech-alliance.com/wp-json/tribe/events/v1/\"https:\/\/www.webusinesscentre.com\/event\/futurpreneur-general-info-session-09-28-2026-2\/2026-11-02\/\") | - | html | yes | 2026-10-29 |
-| `brock-experiencebu-rss` | [Brock University ExperienceBU events (Engage RSS)](https://experiencebu.brocku.ca/events.rss) | **allowed** | allowed | - | - | ics | yes | 2026-10-30 |
-| `sheridan-ssu-engage-rss` | [Sheridan clubs (Engage RSS)](https://sheridancollege.campuslabs.ca/engage/events.rss) | **allowed** | allowed | - | - | ics | yes | 2026-10-29 |
+| `brock-experiencebu-rss` | [Brock University ExperienceBU events (Engage RSS)](https://experiencebu.brocku.ca/events.rss) | **allowed** | allowed | - | - | ics | yes | 2026-10-31 |
+| `sheridan-ssu-engage-rss` | [Sheridan clubs (Engage RSS)](https://sheridancollege.campuslabs.ca/engage/events.rss) | **allowed** | allowed | - | - | ics | yes | 2026-10-31 |
 | `western-events-json` | [Western University events (JSON)](https://www.uwo.ca/events/_data/current-live.json) | **allowed** | allowed | - | - | html | yes | 2026-10-29 |
-| `carleton-events-api` | [Carleton University central events (WordPress REST)](https://events.carleton.ca/wp-json/wp/v2/cu_event?per_page=100) | **allowed** | allowed | - | - | html | yes | 2026-10-30 |
+| `carleton-events-api` | [Carleton University central events (WordPress REST)](https://events.carleton.ca/wp-json/wp/v2/cu_event?per_page=100) | **allowed** | allowed | [terms](https://events.carleton.ca/wp-json/wp/v2/\"https:\/\/weissman.baruch.cuny.edu\/\") | - | html | yes | 2026-10-31 |
 | `carleton-scs-events-api` | [Carleton School of Computer Science events (WordPress REST)](https://carleton.ca/scs/wp-json/wp/v2/cu_event?per_page=100) | **allowed** | allowed | [terms](https://carleton.ca/scs/wp-json/wp/v2/\"https:\/\/carleton.ca\/engineering-design\/about\/womeninengineering\/\") | - | html | yes | 2026-10-27 |
 | `carleton-career-events-api` | [Carleton Career Services events (WordPress REST)](https://carleton.ca/career/wp-json/wp/v2/cu_event?per_page=100) | **allowed** | allowed | [terms](https://carleton.ca/career/wp-json/wp/v2/\"https:\/\/www.exeter.ac.uk\/\") | - | html | yes | 2026-10-24 |
 | `queens-events-rss` | [Queen's University events calendar (RSS)](https://www.queensu.ca/eventscalendar/calendar/rss/monthly/all) | **allowed** | allowed | - | - | html | yes | 2026-10-30 |
@@ -185,7 +185,7 @@ Summary: allowed: 154, blocked: 22, unknown: 2
 | `hackathon:onhacks` | [ONHacks](https://onhacks.ca) | **allowed** | no_robots | - | - | html_no_dates | yes | 2026-10-24 |
 | `hackathon:qhacks` | [QHacks](https://qhacks.io) | **allowed** | no_robots | - | - | html_no_dates | yes | 2026-10-24 |
 | `hackathon:redshifted-catalyst` | [Redshifted Catalyst](https://catalyst.redshifted.ca/) | **allowed** | allowed | - | - | html_no_dates | yes | 2026-10-24 |
-| `hackathon:ru-hacks` | [RU Hacks](https://ruhacks.com) | **unknown** | allowed | - | - | unknown | no | 2026-10-30 |
+| `hackathon:ru-hacks` | [RU Hacks](https://ruhacks.com) | **blocked** | disallowed | - | - | unknown | no | 2026-10-31 |
 | `hackathon:school-of-advanced-technology-technology-project-showcase` | [School of Advanced Technology Technology Project Showcase](https://www.algonquincollege.com/news/2026/08/06/algonquin-college-technology-project-showcase-highlights-creative-solutions-and-technical-problem-solving/) | **allowed** | allowed | - | - | html | yes | 2026-10-24 |
 | `hackathon:seneca-annual-hackathons-school-of-it-administration-securit` | [Seneca annual hackathons (School of IT Administration & Security)](https://students.senecapolytechnic.ca/spaces/14/school-of-information-technology-administration-security/wiki/view/7685/annual-hackathons) | **allowed** | allowed | [terms](https://students.senecapolytechnic.ca/spaces/14/school-of-information-technology-administration-security/albums) | - | html_no_dates | yes | 2026-10-24 |
 | `hackathon:sheridan-adobe-design-hackathon` | [Sheridan / Adobe Design Hackathon](https://www.sheridancollege.ca/events/2026/02/hackathon) | **allowed** | allowed | [terms](https://www.sheridancollege.ca/privacy-legal) | terms: republishing | html | yes | 2026-10-29 |
@@ -193,7 +193,7 @@ Summary: allowed: 154, blocked: 22, unknown: 2
 | `hackathon:solutionhacks-gdg-on-campus-tmu` | [SolutionHacks (GDG on Campus TMU)](https://gdg.community.dev/gdg-on-campus-toronto-metropolitan-university-toronto-canada/) | **blocked** | not_checked | - | - | unknown | no | 2026-10-24 |
 | `hackathon:spooky-game-jam-centre-for-digital-humanities` | [Spooky Game Jam (Centre for Digital Humanities)](https://brocku.ca/brock-news/in-focus/game-jam-a-spooktacular-success/) | **allowed** | allowed | - | - | html | yes | 2026-10-30 |
 | `hackathon:spurhacks` | [SpurHacks](https://www.spurhacks.com) | **blocked** | disallowed | - | - | unknown | no | 2026-10-24 |
-| `hackathon:technovation-waterloo-mini-hackathon-wics` | [Technovation Waterloo Mini-Hackathon (WiCS)](https://uwaterloo.ca/women-in-computer-science/events) | **allowed** | no_robots | [terms](https://uwaterloo.ca/copyright) | - | ics | yes | 2026-10-28 |
+| `hackathon:technovation-waterloo-mini-hackathon-wics` | [Technovation Waterloo Mini-Hackathon (WiCS)](https://uwaterloo.ca/women-in-computer-science/events) | **blocked** | disallowed | - | - | unknown | yes | 2026-10-31 |
 | `hackathon:terrahacks` | [TerraHacks](https://terrahacks.ca) | **allowed** | no_robots | - | - | html | yes | 2026-10-24 |
 | `hackathon:unhack-yspace-lassonde` | [UNHACK (YSpace Lassonde)](https://events.yorku.ca/) | **allowed** | allowed | [terms](https://events.yorku.ca/events/socio-legal-studies-ma-phd/?occurrence=2026-10-13) | - | jsonld | yes | 2026-10-30 |
 | `hackathon:uofthacks` | [UofTHacks](https://uofthacks.com) | **allowed** | no_robots | - | - | html_no_dates | yes | 2026-10-24 |

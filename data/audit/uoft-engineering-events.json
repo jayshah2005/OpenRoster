@@ -1,6 +1,6 @@
 {
-  "checked": "2026-10-30T16:13:39.852832+00:00",
-  "dated_items_in_html": 11,
+  "checked": "2026-10-31T15:30:15.189769+00:00",
+  "dated_items_in_html": 8,
   "feeds": [],
   "http_status": 200,
   "jsonld_events": 0,
@@ -8,14 +8,14 @@
   "login_wall": false,
   "platform": "tribe",
   "reasons": [
-    "terms page not readable: https://www.engineering.utoronto.ca/wp-json/tribe/events/v1/\\\"https:\\/\\/www.youtube.com\\/watch?v=k4RRzBKw8Hw\\\": HTTP 404"
+    "no terms-of-use link found on the page"
   ],
   "robots": "allowed",
   "sitemaps": [],
   "terms_forbid_automated": null,
   "terms_forbid_republish": null,
   "terms_quotes": [],
-  "terms_url": "https://www.engineering.utoronto.ca/wp-json/tribe/events/v1/\\\"https:\\/\\/www.youtube.com\\/watch?v=k4RRzBKw8Hw\\\"",
+  "terms_url": null,
   "url": "https://www.engineering.utoronto.ca/wp-json/tribe/events/v1/events",
   "verdict": "allowed"
 }

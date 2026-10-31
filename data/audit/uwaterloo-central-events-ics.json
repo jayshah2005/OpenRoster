@@ -1,21 +1,21 @@
 {
-  "checked": "2026-10-30T16:13:18.012451+00:00",
-  "dated_items_in_html": 1,
+  "checked": "2026-10-31T15:29:54.484029+00:00",
+  "dated_items_in_html": 0,
   "feeds": [],
-  "http_status": 200,
+  "http_status": null,
   "jsonld_events": 0,
   "known_verdict": null,
   "login_wall": false,
-  "platform": "html_no_dates",
+  "platform": "unknown",
   "reasons": [
-    "no terms-of-use link found on the page"
+    "robots.txt disallows this path for our user agent"
   ],
-  "robots": "no_robots",
+  "robots": "disallowed",
   "sitemaps": [],
   "terms_forbid_automated": null,
   "terms_forbid_republish": null,
   "terms_quotes": [],
   "terms_url": null,
   "url": "https://uwaterloo.ca/events/events/ical",
-  "verdict": "allowed"
+  "verdict": "blocked"
 }
