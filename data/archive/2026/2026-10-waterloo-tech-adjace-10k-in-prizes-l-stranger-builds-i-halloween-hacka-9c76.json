@@ -55,7 +55,7 @@
     }
   ],
   "start": "2026-10-31T17:00:00Z",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Online hackathon by Waterloo Tech (+adjacent) Events (Luma iCal).",
   "tags": [],
   "timezone": "America/Toronto",
