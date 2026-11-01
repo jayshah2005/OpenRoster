@@ -1,21 +1,26 @@
 {
-  "checked": "2026-10-30T16:15:15.238852+00:00",
-  "dated_items_in_html": 409,
+  "checked": "2026-11-01T16:24:13.176305+00:00",
+  "dated_items_in_html": 393,
   "feeds": [],
   "http_status": 200,
-  "jsonld_events": 602,
+  "jsonld_events": 481,
   "known_verdict": null,
   "login_wall": false,
   "platform": "jsonld",
-  "reasons": [],
+  "reasons": [
+    "terms restrict republishing: store facts only, link to the original (already our policy)"
+  ],
   "robots": "allowed",
   "sitemaps": [
     "https://events.yorku.ca/sitemap_index.xml"
   ],
   "terms_forbid_automated": false,
-  "terms_forbid_republish": false,
-  "terms_quotes": [],
-  "terms_url": "https://events.yorku.ca/events/socio-legal-studies-ma-phd/?occurrence=2026-10-13",
+  "terms_forbid_republish": true,
+  "terms_quotes": [
+    "Use You shall not, without our prior written permission, use the Site for purposes other than your own personal, non-commercial use.",
+    "No part of the Site may be reproduced, modified, distributed, sold, published, broadcast, retransmitted in any form without the prior written consent of York University."
+  ],
+  "terms_url": "https://www.yorku.ca/about/privacy-legal/",
   "url": "https://events.yorku.ca/",
   "verdict": "allowed"
 }
