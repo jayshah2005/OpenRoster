@@ -55,7 +55,7 @@
     }
   ],
   "start": "2026-10-22T18:00:00Z",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Online hackathon by Founding-100 for mostly high-school students.",
   "tags": [
     "mostly_high_school"

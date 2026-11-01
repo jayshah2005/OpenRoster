@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-carleton-university-re-climate-webinar-real-stories-real-homes-buildin-66cd",
-  "last_seen": "2026-10-31T05:41:53.434811Z",
-  "last_verified": "2026-10-31T05:41:53.434811Z",
+  "last_seen": "2026-11-01T06:05:26.098067Z",
+  "last_verified": "2026-11-01T06:05:26.098067Z",
   "location": {
     "city": "Ottawa",
     "country": "CA",
@@ -70,7 +70,7 @@
   "sources": [
     {
       "adapter": "api",
-      "fetched_at": "2026-10-31T05:41:53.434811Z",
+      "fetched_at": "2026-11-01T06:05:26.098067Z",
       "source_id": "carleton-events-api",
       "url": "https://us02web.zoom.us/webinar/register/WN_L9_Expk_RsWEPwAxCGx9uQ"
     }

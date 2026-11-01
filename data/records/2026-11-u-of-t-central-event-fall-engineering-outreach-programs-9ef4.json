@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-u-of-t-central-event-fall-engineering-outreach-programs-9ef4",
-  "last_seen": "2026-10-31T21:35:33.883099Z",
-  "last_verified": "2026-10-31T21:35:33.883099Z",
+  "last_seen": "2026-11-01T06:05:26.098067Z",
+  "last_verified": "2026-11-01T06:05:26.098067Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-10-31T21:35:33.883099Z",
+      "fetched_at": "2026-11-01T06:05:26.098067Z",
       "source_id": "uoft-central-events",
       "url": "https://alumni.utoronto.ca/events/fall-engineering-outreach-programs"
     }

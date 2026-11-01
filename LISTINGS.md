@@ -2,14 +2,12 @@
 
 Hackathons, info sessions, talks, career fairs, workshops, competitions and early-career programs for CS students, soonest deadline first. Filter, subscribe to a calendar, or see details at https://openroster-seven.vercel.app.
 
-237 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
+238 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
 
 | Apply by | Starts | Opportunity | Organizer | Type | Where | Ways to take part |
 |---|---|---|---|---|---|---|
 | Not listed | Oct 22 | [Fall Job Shadow Program Mentorship Sessions (FASS & FPGA)](https://openroster-seven.vercel.app/o/2026-10-carleton-career-serv-fall-job-shadow-program-mentorship-sessions-fass-d312/) | Carleton Career Services events (WordPress REST) | Other | Ottawa, ON | attend |
-| Not listed | Oct 22 | [Founding-100](https://openroster-seven.vercel.app/o/2026-10-founding-100-9681/) | Founding-100 | Hackathon | Online | attend |
 | Not listed | Oct 30 | [Spooky Shapes Game Jam 2026](https://openroster-seven.vercel.app/o/2026-10-department-of-digita-spooky-shapes-game-jam-2026-ab17/) | Department of Digital Humanities | Hackathon | St. Catharines, ON | attend |
-| Not listed | Oct 31 | [Vancouver Tech Community Coffee Meetup](https://openroster-seven.vercel.app/o/2026-10-careerin-tech-societ-vancouver-tech-community-coffee-meetup-0d1c/) | Careerin Tech Society (Luma iCal) | Networking | Vancouver, BC | attend |
 | Not listed | Oct 31 | [10k in PRIZES l STRANGER BUILDS I Halloween hackathon (ONLINE)](https://openroster-seven.vercel.app/o/2026-10-waterloo-tech-adjace-10k-in-prizes-l-stranger-builds-i-halloween-hacka-9c76/) | Waterloo Tech (+adjacent) Events (Luma iCal) | Hackathon | Online | attend |
 | Not listed | Nov 1 | [Fall Engineering Outreach Programs](https://openroster-seven.vercel.app/o/2026-11-u-of-t-central-event-fall-engineering-outreach-programs-9ef4/) | U of T central events aggregator | Other | TBA | attend |
 | Nov 1 | Nov 1 | [Career Closet Drive](https://openroster-seven.vercel.app/o/2026-11-u-of-t-central-event-career-closet-drive-2064/) | U of T central events aggregator | Other | TBA | attend |
@@ -47,6 +45,8 @@ Hackathons, info sessions, talks, career fairs, workshops, competitions and earl
 | Not listed | Nov 4 | [The Growth Table: SAAS NORTH AI](https://openroster-seven.vercel.app/o/2026-11-techto-luma-ical-the-growth-table-saas-north-ai-fc19/) | TechTO (Luma iCal) | Other | TBA | attend |
 | Not listed | Nov 4 | [CivicTechWR Hacknight](https://openroster-seven.vercel.app/o/2026-11-waterloo-tech-adjace-civictechwr-hacknight-5e34/) | Waterloo Tech (+adjacent) Events (Luma iCal) | Hackathon | TBA | attend |
 | Not listed | Nov 4 | [Pitch Critique Night](https://openroster-seven.vercel.app/o/2026-11-diversity-in-animati-pitch-critique-night-f350/) | Diversity in Animation: WIA Sheridan (Trafalgar) | Workshop | Oakville, ON | attend |
+| Not listed | Nov 5 | [Graduate Student Job Search and Career Exploration](https://openroster-seven.vercel.app/o/2026-11-u-of-t-central-event-graduate-student-job-search-and-career-exploratio-3131/) | U of T central events aggregator | Other | TBA | attend |
+| Not listed | Nov 5 | [Workshop: Critical Approaches on the Social and Environmental Impact of AI](https://openroster-seven.vercel.app/o/2026-11-u-of-t-central-event-workshop-critical-approaches-on-the-social-and-en-dc43/) | U of T central events aggregator | Workshop | TBA | attend |
 | Not listed | Nov 5 | [EBC Lansdowne Park/TD Place Site Tour](https://openroster-seven.vercel.app/o/2026-11-carleton-career-serv-ebc-lansdowne-park-td-place-site-tour-fd2f/) | Carleton Career Services events (WordPress REST) | Other | Ottawa, ON | attend |
 | Not listed | Nov 5 | [Meet and Greet: The Ontario Provincial Police (Recruitment Kiosk)](https://openroster-seven.vercel.app/o/2026-11-carleton-career-serv-meet-and-greet-the-ontario-provincial-police-recr-2f78/) | Carleton Career Services events (WordPress REST) | Networking | Ottawa, ON | attend |
 | Not listed | Nov 5 | [Social Media 101 for Small Businesses and Entrepreneurs (virtual)](https://openroster-seven.vercel.app/o/2026-11-wetech-alliance-even-social-media-101-for-small-businesses-and-entrepr-74ca/) | WEtech Alliance events (Windsor-Essex) | Networking | Online | attend |
@@ -188,6 +188,7 @@ Hackathons, info sessions, talks, career fairs, workshops, competitions and earl
 | Not listed | Nov 30 | [Indigenous Student Career Skills Series: Resume Writing](https://openroster-seven.vercel.app/o/2026-11-university-of-guelph-indigenous-student-career-skills-series-resume-wr-c935/) | University of Guelph GryphLife (CampusGroups) public iCal | Workshop | TBA | attend |
 | Not listed | Dec 1 | [GNCC Business After 5](https://openroster-seven.vercel.app/o/2026-12-career-education-gncc-business-after-5-28a1/) | Career Education | Networking | Online | attend |
 | Not listed | Dec 2 | [Business & Technology Careers Webinar](https://openroster-seven.vercel.app/o/2026-12-bmo-business-technology-careers-webinar-f259/) | BMO | Info session | Online | attend |
+| Not listed | Dec 2 | [Platform Extractivism: Data Work and the People Powering Artificial Intelligence](https://openroster-seven.vercel.app/o/2026-12-u-of-t-central-event-platform-extractivism-data-work-and-the-people-po-999e/) | U of T central events aggregator | Other | TBA | attend |
 | Not listed | Dec 2 | [PhD Defence • Human–Computer Interaction • The Role of Context in Human–LLM Communication](https://openroster-seven.vercel.app/o/2026-12-cheriton-school-of-c-phd-defence-human-computer-interaction-the-role-o-7820/) | Cheriton School of Computer Science events (iCal) | Other | Waterloo, ON | attend |
 | Not listed | Dec 2 | [PhD Seminar • Artificial Intelligence \| Machine Learning • PassRL-X: Reinforcement-Learned Context Selection for Clinical Trial Eligibility Screening](https://openroster-seven.vercel.app/o/2026-12-cheriton-school-of-c-phd-seminar-artificial-intelligence-machine-learn-c04a/) | Cheriton School of Computer Science events (iCal) | Tech talk | Waterloo, ON | attend |
 | Not listed | Dec 2 | [Non-Technical Wednesday](https://openroster-seven.vercel.app/o/2026-12-waterloo-tech-adjace-non-technical-wednesday-debf/) | Waterloo Tech (+adjacent) Events (Luma iCal) | Other | King, ON | attend |
