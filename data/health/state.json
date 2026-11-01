@@ -81,8 +81,8 @@
     "2026-11-cheriton-school-of-c-phd-seminar-systems-and-networking-pricing-based-cb78": 2,
     "2026-11-hackforge-gis-day-2026-d852": 2,
     "2026-11-techto-luma-ical-together-toronto-ecosystem-showcase-e195": 2,
-    "2026-11-u-of-t-central-event-career-closet-drive-2064": 2,
-    "2026-11-u-of-t-central-event-graduate-student-job-search-and-career-exploratio-3131": 1,
+    "2026-11-u-of-t-central-event-career-closet-drive-2064": 3,
+    "2026-11-u-of-t-central-event-graduate-student-job-search-and-career-exploratio-3131": 2,
     "2026-11-u-of-t-engineering-u-deadline-to-designate-fall-term-course-as-extra-3b87": 2,
     "2026-11-waterloo-engineering-fusion-conference-2026-80c2": 2,
     "2026-12-cheriton-school-of-c-phd-defence-computer-graphics-light-transport-bey-add0": 2,
@@ -96,7 +96,7 @@
     "failing": 2,
     "held_for_review": 31,
     "last_run": "2026-11-01",
-    "listings": 252,
+    "listings": 251,
     "runnable": 45
   },
   "sources": {
@@ -158,11 +158,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 793,
+      "last_nonzero": 802,
       "last_ok": "2026-11-01",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 793,
+      "raw_count": 802,
       "refused": false
     },
     "carleton-career-events-api": {
@@ -404,7 +404,7 @@
       "count": 0,
       "error": null,
       "fingerprint": null,
-      "healthy_streak": 1,
+      "healthy_streak": 2,
       "last_nonzero": 1,
       "last_ok": "2026-11-01",
       "ok": true,
@@ -1003,11 +1003,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 30,
+      "last_nonzero": 29,
       "last_ok": "2026-11-01",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 30,
+      "raw_count": 29,
       "refused": false
     },
     "luma-waterloo-tech-week": {
@@ -1037,7 +1037,7 @@
       "refused": false
     },
     "niagara-college-events": {
-      "consecutive_failures": 31,
+      "consecutive_failures": 32,
       "count": 0,
       "error": "https://www.niagaracollege.ca/wp-json/tribe/events/v1/events?start_date=2026-11-01&per_page=50: disallowed by robots.txt",
       "fingerprint": null,
@@ -1128,7 +1128,7 @@
       "refused": false
     },
     "uoft-engineering-events": {
-      "consecutive_failures": 31,
+      "consecutive_failures": 32,
       "count": 0,
       "error": "ZoneInfoNotFoundError: 'No time zone found with key UTC+0'",
       "fingerprint": null,
@@ -1172,11 +1172,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 640,
+      "last_nonzero": 639,
       "last_ok": "2026-11-01",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 640,
+      "raw_count": 639,
       "refused": false
     },
     "uoguelph-news-events-tribe": {
@@ -1276,11 +1276,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 241,
+      "last_nonzero": 240,
       "last_ok": "2026-11-01",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 241,
+      "raw_count": 240,
       "refused": false
     },
     "western-events-json": {

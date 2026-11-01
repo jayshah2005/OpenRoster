@@ -55,7 +55,7 @@
     }
   ],
   "start": "2026-11-01T00:00:00-04:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Event by U of T central events aggregator. Apply by Nov 1.",
   "tags": [],
   "timezone": "America/Toronto",

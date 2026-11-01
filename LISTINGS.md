@@ -2,13 +2,12 @@
 
 Hackathons, info sessions, talks, career fairs, workshops, competitions and early-career programs for CS students, soonest deadline first. Filter, subscribe to a calendar, or see details at https://openroster-seven.vercel.app.
 
-236 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
+234 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
 
 | Apply by | Starts | Opportunity | Organizer | Type | Where | Ways to take part |
 |---|---|---|---|---|---|---|
 | Not listed | Oct 22 | [Fall Job Shadow Program Mentorship Sessions (FASS & FPGA)](https://openroster-seven.vercel.app/o/2026-10-carleton-career-serv-fall-job-shadow-program-mentorship-sessions-fass-d312/) | Carleton Career Services events (WordPress REST) | Other | Ottawa, ON | attend |
 | Not listed | Nov 1 | [Fall Engineering Outreach Programs](https://openroster-seven.vercel.app/o/2026-11-u-of-t-central-event-fall-engineering-outreach-programs-9ef4/) | U of T central events aggregator | Other | TBA | attend |
-| Nov 1 | Nov 1 | [Career Closet Drive](https://openroster-seven.vercel.app/o/2026-11-u-of-t-central-event-career-closet-drive-2064/) | U of T central events aggregator | Other | TBA | attend |
 | Not listed | Nov 2 | [Thriving in the Age of AI: Using Artificial Intelligence to Create More Time for What Matters Most (Thrive Month)](https://openroster-seven.vercel.app/o/2026-11-queen-s-university-e-thriving-in-the-age-of-ai-using-artificial-intell-4ccc/) | Queen's University events calendar (RSS) | Workshop | Online | attend |
 | Not listed | Nov 2 | [Educational Technology Workshop: Understanding Grade Submission Through onQ](https://openroster-seven.vercel.app/o/2026-11-queen-s-university-e-educational-technology-workshop-understanding-gra-3620/) | Queen's University events calendar (RSS) | Workshop | Online | attend |
 | Not listed | Nov 2 | [Generative AI Community of Practice (November)](https://openroster-seven.vercel.app/o/2026-11-western-university-e-generative-ai-community-of-practice-november-319d/) | Western University events calendar (iCal) | Workshop | London, ON | attend |
@@ -43,7 +42,6 @@ Hackathons, info sessions, talks, career fairs, workshops, competitions and earl
 | Not listed | Nov 4 | [The Growth Table: SAAS NORTH AI](https://openroster-seven.vercel.app/o/2026-11-techto-luma-ical-the-growth-table-saas-north-ai-fc19/) | TechTO (Luma iCal) | Other | TBA | attend |
 | Not listed | Nov 4 | [CivicTechWR Hacknight](https://openroster-seven.vercel.app/o/2026-11-waterloo-tech-adjace-civictechwr-hacknight-5e34/) | Waterloo Tech (+adjacent) Events (Luma iCal) | Hackathon | TBA | attend |
 | Not listed | Nov 4 | [Pitch Critique Night](https://openroster-seven.vercel.app/o/2026-11-diversity-in-animati-pitch-critique-night-f350/) | Diversity in Animation: WIA Sheridan (Trafalgar) | Workshop | Oakville, ON | attend |
-| Not listed | Nov 5 | [Graduate Student Job Search and Career Exploration](https://openroster-seven.vercel.app/o/2026-11-u-of-t-central-event-graduate-student-job-search-and-career-exploratio-3131/) | U of T central events aggregator | Other | TBA | attend |
 | Not listed | Nov 5 | [Workshop: Critical Approaches on the Social and Environmental Impact of AI](https://openroster-seven.vercel.app/o/2026-11-u-of-t-central-event-workshop-critical-approaches-on-the-social-and-en-dc43/) | U of T central events aggregator | Workshop | TBA | attend |
 | Not listed | Nov 5 | [EBC Lansdowne Park/TD Place Site Tour](https://openroster-seven.vercel.app/o/2026-11-carleton-career-serv-ebc-lansdowne-park-td-place-site-tour-fd2f/) | Carleton Career Services events (WordPress REST) | Other | Ottawa, ON | attend |
 | Not listed | Nov 5 | [Meet and Greet: The Ontario Provincial Police (Recruitment Kiosk)](https://openroster-seven.vercel.app/o/2026-11-carleton-career-serv-meet-and-greet-the-ontario-provincial-police-recr-2f78/) | Carleton Career Services events (WordPress REST) | Networking | Ottawa, ON | attend |
