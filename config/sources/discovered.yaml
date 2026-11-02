@@ -1,0 +1,42 @@
+# Sources found by `openroster discover` and the weekly discovery agent. All start unreviewed:
+# the audit runs on them and the owner signs off in the Source review PR before anything is fetched.
+sources:
+- id: sheridan-ssu-events-feed-1
+  name: Calendar feed found on Sheridan Student Union events
+  adapter: rss
+  url: https://www.thessu.ca/events.rss
+  owner: sheridan
+  enabled: true
+  reviewed: false
+  page_budget: 2
+  schools: []
+  options:
+    filter: cs
+    landing_url: https://www.thessu.ca/events
+  notes: Discovered by `openroster discover` on https://www.thessu.ca/events
+- id: uwindsor-cs-event-calendar-feed-1
+  name: Calendar feed found on UWindsor School of Computer Science event calendar
+  adapter: ics
+  url: https://www.uwindsor.ca/science/computerscience/ical/%2A/events.ics
+  owner: uwindsor
+  enabled: true
+  reviewed: false
+  page_budget: 2
+  schools: []
+  options:
+    filter: cs
+    landing_url: https://www.uwindsor.ca/science/computerscience/event-calendar
+  notes: Discovered by `openroster discover` on https://www.uwindsor.ca/science/computerscience/event-calendar
+- id: yorku-lassonde-events-feed-1
+  name: Calendar feed found on Lassonde School of Engineering events (incl. EECS)
+  adapter: ics
+  url: https://lassonde.yorku.ca/ical/
+  owner: yorku
+  enabled: true
+  reviewed: false
+  page_budget: 2
+  schools: []
+  options:
+    filter: cs
+    landing_url: https://lassonde.yorku.ca/events/
+  notes: Discovered by `openroster discover` on https://lassonde.yorku.ca/events/
