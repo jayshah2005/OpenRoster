@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-university-of-guelph-game-dev-weekly-meetings-7f49",
-  "last_seen": "2026-11-01T06:05:26.098067Z",
-  "last_verified": "2026-11-01T06:05:26.098067Z",
+  "last_seen": "2026-11-02T06:03:08.068235Z",
+  "last_verified": "2026-11-02T06:03:08.068235Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-01T06:05:26.098067Z",
+      "fetched_at": "2026-11-02T06:03:08.068235Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=379899"
     }

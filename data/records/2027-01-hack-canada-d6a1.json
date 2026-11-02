@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2027-01-hack-canada-d6a1",
-  "last_seen": "2026-11-01T06:05:26.098067Z",
-  "last_verified": "2026-11-01T06:05:26.098067Z",
+  "last_seen": "2026-11-02T06:03:08.068235Z",
+  "last_verified": "2026-11-02T06:03:08.068235Z",
   "location": {
     "city": "Toronto",
     "country": "CA",
@@ -150,7 +150,7 @@
   "sources": [
     {
       "adapter": "hackathon_site",
-      "fetched_at": "2026-11-01T06:05:26.098067Z",
+      "fetched_at": "2026-11-02T06:03:08.068235Z",
       "source_id": "hackathon:hack-canada",
       "url": "https://hackcanada.org"
     }

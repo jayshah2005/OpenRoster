@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-torontoai-luma-ical-tech-weekend-november-19-20-2026-menlo-park-silico-3c40",
-  "last_seen": "2026-11-01T06:05:26.098067Z",
-  "last_verified": "2026-11-01T06:05:26.098067Z",
+  "last_seen": "2026-11-02T06:03:08.068235Z",
+  "last_verified": "2026-11-02T06:03:08.068235Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-01T06:05:26.098067Z",
+      "fetched_at": "2026-11-02T06:03:08.068235Z",
       "source_id": "luma-torontoai",
       "url": "https://luma.com/ycgqy17s"
     }
