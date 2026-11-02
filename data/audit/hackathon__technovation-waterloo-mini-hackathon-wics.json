@@ -1,21 +1,21 @@
 {
-  "checked": "2026-10-31T15:29:54.902101+00:00",
-  "dated_items_in_html": 0,
-  "feeds": [],
-  "http_status": null,
+  "checked": "2026-11-02T19:46:16.197161+00:00",
+  "dated_items_in_html": 7,
+  "feeds": [
+    "https://uwaterloo.ca/women-in-computer-science/events/ical?date%5Bvalue%5D=11/02/2026"
+  ],
+  "http_status": 200,
   "jsonld_events": 0,
   "known_verdict": null,
   "login_wall": false,
-  "platform": "unknown",
-  "reasons": [
-    "robots.txt disallows this path for our user agent"
-  ],
-  "robots": "disallowed",
+  "platform": "ics",
+  "reasons": [],
+  "robots": "no_robots",
   "sitemaps": [],
-  "terms_forbid_automated": null,
-  "terms_forbid_republish": null,
+  "terms_forbid_automated": false,
+  "terms_forbid_republish": false,
   "terms_quotes": [],
-  "terms_url": null,
+  "terms_url": "https://uwaterloo.ca/copyright",
   "url": "https://uwaterloo.ca/women-in-computer-science/events",
-  "verdict": "blocked"
+  "verdict": "allowed"
 }
