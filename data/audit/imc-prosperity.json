@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-24T05:35:20.224685+00:00",
+  "checked": "2026-11-03T17:19:45.270830+00:00",
   "dated_items_in_html": 7,
   "feeds": [],
   "http_status": 200,
@@ -7,15 +7,19 @@
   "known_verdict": null,
   "login_wall": false,
   "platform": "html",
-  "reasons": [],
+  "reasons": [
+    "terms appear to forbid automated access (owner should read the quotes)"
+  ],
   "robots": "allowed",
   "sitemaps": [
     "https://www.imc.com/sitemap.xml"
   ],
-  "terms_forbid_automated": false,
+  "terms_forbid_automated": true,
   "terms_forbid_republish": false,
-  "terms_quotes": [],
+  "terms_quotes": [
+    ",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$L7\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":\\\"$undefined\\\",\\\"forbidden\\\":\\\"$undefined\\\",\\\"unauthorized\\\":\\\"$undefined\\\"}]]}],\\\"p\\\":f"
+  ],
   "terms_url": "https://www.imc.com/us/terms-conditions",
   "url": "https://www.imc.com/us/corporate-news/prosperity-4",
-  "verdict": "allowed"
+  "verdict": "blocked"
 }
