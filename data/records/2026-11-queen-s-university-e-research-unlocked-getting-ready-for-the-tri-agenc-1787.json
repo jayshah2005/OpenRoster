@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-queen-s-university-e-research-unlocked-getting-ready-for-the-tri-agenc-1787",
-  "last_seen": "2026-11-02T06:03:08.068235Z",
-  "last_verified": "2026-11-02T06:03:08.068235Z",
+  "last_seen": "2026-11-03T00:58:30.695200Z",
+  "last_verified": "2026-11-03T00:58:30.695200Z",
   "location": {
     "city": "Kingston",
     "country": "CA",
@@ -70,7 +70,7 @@
   "sources": [
     {
       "adapter": "rss",
-      "fetched_at": "2026-11-02T06:03:08.068235Z",
+      "fetched_at": "2026-11-03T00:58:30.695200Z",
       "source_id": "queens-events-rss",
       "url": "https://www.queensu.ca/eventscalendar/events/research-unlocked-getting-ready-tri-agency-data-deposit-requirement-person-online"
     }

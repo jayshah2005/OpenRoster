@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-western-university-e-writing-resumes-7492",
-  "last_seen": "2026-11-02T06:03:08.068235Z",
-  "last_verified": "2026-11-02T06:03:08.068235Z",
+  "last_seen": "2026-11-03T00:58:30.695200Z",
+  "last_verified": "2026-11-03T00:58:30.695200Z",
   "location": {
     "city": "London",
     "country": "CA",
@@ -75,13 +75,13 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-02T06:03:08.068235Z",
+      "fetched_at": "2026-11-03T00:58:30.695200Z",
       "source_id": "western-events-ics",
       "url": "https://www.uwo.ca/events/"
     },
     {
       "adapter": "api",
-      "fetched_at": "2026-11-02T06:03:08.068235Z",
+      "fetched_at": "2026-11-03T00:58:30.695200Z",
       "source_id": "western-events-json",
       "url": "https://www.uwo.ca/events/2026/11/undergrad-writing-seminars4.html"
     }

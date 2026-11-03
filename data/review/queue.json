@@ -13,17 +13,6 @@
       "url": "https://bearhacks.com/"
     },
     {
-      "evidence": "Skip to content IEEE.org IEEE Xplore Digital Library IEEE Standards IEEE Spectrum More Sites MENU Email address What would you like to search for? SEARCH Home Events Future Events Past Events Gallery Announcements About About the IEEE Join IEEE About Us Affiliations Centennial College CES2026 IEEE C",
-      "key": "hackathon:centennialhacks|hackathon:centennialhacks",
-      "reasons": [
-        "no event date found with confidence (site may be JS-only or not updated)",
-        "no date could be parsed with confidence"
-      ],
-      "source_id": "hackathon:centennialhacks",
-      "title": "CentennialHacks",
-      "url": "https://edu.ieee.org/ca-centennial-college/"
-    },
-    {
       "evidence": "Skip to content BROCK CSC Home Team Events CS Guide Portal Join Discord Events Stay in the loop. From technical workshops to social mixers, see what's happening in the Brock CS community. Past Events What we've hosted. BROCK CSC © 2026 Brock Computer Science - All Rights Reserved Instagram Discord L",
       "key": "hackathon:computer-science-club-game-jam|hackathon:computer-science-club-game-jam",
       "reasons": [
@@ -274,6 +263,17 @@
       "source_id": "hackathon:spooky-game-jam-centre-for-digital-humanities",
       "title": "Spooky Game Jam (Centre for Digital Humanities)",
       "url": "https://brocku.ca/brock-news/in-focus/game-jam-a-spooktacular-success/"
+    },
+    {
+      "evidence": "Skip to main content Jump to Jump to Admissions About Waterloo Faculties & Academics Offices & Services Support Waterloo Open Search Location Search for Search Location On all sites On this site Women in Computer Science Menu Women in Computer Science Home About About Contacts WiCS Feedback Form His",
+      "key": "hackathon:technovation-waterloo-mini-hackathon-wics|hackathon:technovation-waterloo-mini-hackathon-wics",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:technovation-waterloo-mini-hackathon-wics",
+      "title": "Technovation Waterloo Mini-Hackathon (WiCS)",
+      "url": "https://uwaterloo.ca/women-in-computer-science/events"
     },
     {
       "evidence": "About Sponsors FAQ Team Contact Application Portal Click Here To Start August 1st - 3rd, 2025 Toronto Metropolitan University August 1st 2025 - August 3rd 2025 Hosted at Toronto Metropolitan University ABOUT TERRAHACKS Formed from the passion of making tech opportunities open to all, TerraHacks was ",

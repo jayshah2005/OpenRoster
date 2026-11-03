@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-career-education-government-of-canada-virtual-information-session-8e60",
-  "last_seen": "2026-11-02T15:53:31.954426Z",
-  "last_verified": "2026-11-02T15:53:31.954426Z",
+  "last_seen": "2026-11-03T00:58:30.695200Z",
+  "last_verified": "2026-11-03T00:58:30.695200Z",
   "location": {
     "city": null,
     "country": "CA",
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "rss",
-      "fetched_at": "2026-11-02T15:53:31.954426Z",
+      "fetched_at": "2026-11-03T00:58:30.695200Z",
       "source_id": "brock-experiencebu-rss",
       "url": "https://experiencebu.brocku.ca/event/337150"
     }

@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": true,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-18T23:59:00-05:00",
+  "first_seen": "2026-11-03T00:58:30.695200Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-waterloo-women-in-co-mock-interviews-resume-reviews-0ea7",
+  "last_seen": "2026-11-03T00:58:30.695200Z",
+  "last_verified": "2026-11-03T00:58:30.695200Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Waterloo Women in Computer Science events (iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://uwaterloo.ca/women-in-computer-science/events/mock-interviews-resume-reviews"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "uwaterloo-wics-events-ics:6ea97e63cf3b",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-03T00:58:30.695200Z",
+      "source_id": "uwaterloo-wics-events-ics",
+      "url": "https://uwaterloo.ca/women-in-computer-science/events/mock-interviews-resume-reviews"
+    }
+  ],
+  "start": "2026-11-18T00:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Workshop by Waterloo Women in Computer Science events (iCal).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Mock Interviews + Resume Reviews",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

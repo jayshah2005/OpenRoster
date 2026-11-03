@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-university-of-waterl-cpi-talk-somebody-else-s-problem-verifiability-an-82f7",
-  "last_seen": "2026-10-30T22:21:19.475440Z",
-  "last_verified": "2026-10-30T22:21:19.475440Z",
+  "last_seen": "2026-11-03T00:58:30.695200Z",
+  "last_verified": "2026-11-03T00:58:30.695200Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
@@ -126,7 +126,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-10-30T22:21:19.475440Z",
+      "fetched_at": "2026-11-03T00:58:30.695200Z",
       "source_id": "uwaterloo-central-events-ics",
       "url": "https://uwaterloo.ca/events/events/cpi-talk-somebody-elses-problem-verifiability-and"
     }
