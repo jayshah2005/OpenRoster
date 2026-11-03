@@ -29,7 +29,7 @@
   "organizer": "Queen's University events calendar (RSS)",
   "registration": {
     "route": "public_link",
-    "url": "https://www.queensu.ca/eventscalendar/events/future-fit-disability-inclusion-leveraging-technology-8th-annual-malcolm-peat-lectureship-nafisa-baboo"
+    "url": "https://www.queensu.ca/eventscalendar/events/future-fit-disability-inclusion-leveraging-power-technology-malcolm-peat-lectureship-nafisa-baboo"
   },
   "review": null,
   "roles": [
@@ -67,7 +67,7 @@
     "women_nonbinary"
   ],
   "timezone": "America/Toronto",
-  "title": "Future-Fit Disability Inclusion: Leveraging the Technology - The 8th Annual Malcolm Peat Lectureship",
+  "title": "Future-Fit Disability Inclusion: Leveraging the Power of Technology - The Malcolm Peat Lectureship",
   "travel_support": {
     "note": null,
     "stated": false

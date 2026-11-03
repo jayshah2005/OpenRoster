@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-19T14:00:00-05:00",
+  "first_seen": "2026-11-03T23:24:00.075219Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-fanshawe-student-uni-career-caf-2f5f",
+  "last_seen": "2026-11-03T23:24:00.075219Z",
+  "last_verified": "2026-11-03T23:24:00.075219Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "Forwell Hall"
+  },
+  "mode": "in_person",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Fanshawe Student Union events calendar (iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.fsu.ca/eventInfo/career-cafe-november-19"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "fsu-events-ics:2f2fd3c5ca25",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-03T23:24:00.075219Z",
+      "source_id": "fsu-events-ics",
+      "url": "https://www.fsu.ca/eventInfo/career-cafe-november-19"
+    }
+  ],
+  "start": "2026-11-19T11:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Free event by Fanshawe Student Union events calendar (iCal).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Career Café",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

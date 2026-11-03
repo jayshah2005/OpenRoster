@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "grad"
+  ],
+  "end": "2026-11-20T11:00:00-05:00",
+  "first_seen": "2026-11-03T23:24:00.075219Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-cheriton-school-of-c-phd-seminar-computer-graphics-puresample-neural-m-5a56",
+  "last_seen": "2026-11-03T23:24:00.075219Z",
+  "last_verified": "2026-11-03T23:24:00.075219Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "DC - William G. Davis Computer Research Centre 200 University Avenue West Online PhD seminar Waterloo ON N2L 3G1 Canada"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Cheriton School of Computer Science events (iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://uwaterloo.ca/computer-science/events/phd-seminar-computer-graphics-puresample-neural-materials-learned-by-sampling-microgeometry"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "uwaterloo-cs-events-ics:8041780912c5",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-03T23:24:00.075219Z",
+      "source_id": "uwaterloo-cs-events-ics",
+      "url": "https://uwaterloo.ca/computer-science/events/phd-seminar-computer-graphics-puresample-neural-materials-learned-by-sampling-microgeometry"
+    }
+  ],
+  "start": "2026-11-20T10:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Online tech talk by Cheriton School of Computer Science events (iCal) for graduate students.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "PhD Seminar • Computer Graphics • PureSample: Neural Materials Learned by Sampling Microgeometry",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "tech_talk"
+}

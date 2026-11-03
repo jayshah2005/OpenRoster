@@ -77,13 +77,13 @@
   ],
   "start": "2026-11-24T18:00:00-05:00",
   "status": "scheduled",
-  "summary": "Event by Carleton Career Services events (WordPress REST) in Ottawa.",
+  "summary": "Info session by Carleton Career Services events (WordPress REST) in Ottawa.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Careers at RBC",
+  "title": "Careers at RBC Info Session",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "other"
+  "type": "info_session"
 }

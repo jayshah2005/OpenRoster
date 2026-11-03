@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "school_only"
+  ],
+  "end": "2027-01-07T17:30:00-05:00",
+  "first_seen": "2026-11-03T23:24:00.075219Z",
+  "geo": null,
+  "history": [],
+  "id": "2027-01-durham-college-event-critical-care-nursing-welcome-orientation-webinar-7ea4",
+  "last_seen": "2026-11-03T23:24:00.075219Z",
+  "last_verified": "2026-11-03T23:24:00.075219Z",
+  "location": {
+    "city": "Online",
+    "country": null,
+    "region": null,
+    "venue_name": "Online – webinar"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "Durham College events calendar",
+  "registration": {
+    "route": "public_link",
+    "url": "https://events.teams.microsoft.com/event/3df81d54-c0b3-40ea-98ce-8984e8c7120c@49bba7a4-424b-4070-a70e-886e9dd7caef"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-11-03T23:24:00.075219Z",
+      "source_id": "durham-events",
+      "url": "https://durhamcollege.ca/event/critical-care-nursing-welcome-orientation-webinar-3"
+    }
+  ],
+  "start": "2027-01-07T16:30:00-05:00",
+  "status": "scheduled",
+  "summary": "Online event by Durham College events calendar.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Critical Care Nursing Welcome Orientation Webinar",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}
