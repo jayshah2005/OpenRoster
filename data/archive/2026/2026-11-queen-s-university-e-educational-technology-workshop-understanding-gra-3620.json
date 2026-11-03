@@ -8,11 +8,11 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-02T10:30:00-05:00",
+  "end": "2026-11-02T13:45:00-05:00",
   "first_seen": "2026-10-24T16:53:41.410358Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-queen-s-university-e-thriving-in-the-age-of-ai-using-artificial-intell-4ccc",
+  "id": "2026-11-queen-s-university-e-educational-technology-workshop-understanding-gra-3620",
   "last_seen": "2026-11-02T06:03:08.068235Z",
   "last_verified": "2026-11-02T06:03:08.068235Z",
   "location": {
@@ -29,7 +29,7 @@
   "organizer": "Queen's University events calendar (RSS)",
   "registration": {
     "route": "public_link",
-    "url": "https://www.queensu.ca/eventscalendar/events/thriving-age-ai-using-artificial-intelligence-create-more-time-what-matters-most-thrive-month"
+    "url": "https://www.queensu.ca/eventscalendar/events/educational-technology-workshop-understanding-grade-submission-through-onq"
   },
   "review": null,
   "roles": [
@@ -51,15 +51,15 @@
       "adapter": "rss",
       "fetched_at": "2026-11-02T06:03:08.068235Z",
       "source_id": "queens-events-rss",
-      "url": "https://www.queensu.ca/eventscalendar/events/thriving-age-ai-using-artificial-intelligence-create-more-time-what-matters-most-thrive-month"
+      "url": "https://www.queensu.ca/eventscalendar/events/educational-technology-workshop-understanding-grade-submission-through-onq"
     }
   ],
-  "start": "2026-11-02T09:00:00-05:00",
-  "status": "scheduled",
+  "start": "2026-11-02T13:00:00-05:00",
+  "status": "past",
   "summary": "Online workshop by Queen's University events calendar (RSS).",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Thriving in the Age of AI: Using Artificial Intelligence to Create More Time for What Matters Most (Thrive Month)",
+  "title": "Educational Technology Workshop: Understanding Grade Submission Through onQ",
   "travel_support": {
     "note": null,
     "stated": false

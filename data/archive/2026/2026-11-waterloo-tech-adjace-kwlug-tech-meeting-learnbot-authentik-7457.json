@@ -8,105 +8,105 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-03T00:00:00Z",
-  "first_seen": "2026-10-30T22:21:19.475440Z",
+  "end": "2026-11-03T02:00:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
   "geo": {
-    "lat": 43.54594,
-    "lon": -80.25599,
+    "lat": 43.4668,
+    "lon": -80.51639,
     "source": "gazetteer"
   },
   "history": [],
-  "id": "2026-11-university-of-guelph-beyond-the-classroom-careers-c591",
+  "id": "2026-11-waterloo-tech-adjace-kwlug-tech-meeting-learnbot-authentik-7457",
   "last_seen": "2026-11-02T06:03:08.068235Z",
   "last_verified": "2026-11-02T06:03:08.068235Z",
   "location": {
-    "city": "Guelph",
+    "city": "Waterloo",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "MacKinnon 227, MacKinnon (mckn), 2W1, 50 Stone Rd E, Guelph, ON N1G 2M7, Guelph ON N1G 2M7, Canada"
+    "venue_name": "University of Waterloo Davis Centre Library, 200 Ring Rd, Waterloo, ON N2L 5Z5, Canada"
   },
-  "mode": "unknown",
+  "mode": "hybrid",
   "near_schools": [
     {
-      "km": 2.9,
-      "school_id": "uoguelph"
-    },
-    {
-      "km": 21.1,
-      "school_id": "conestoga"
-    },
-    {
-      "km": 23.3,
+      "km": 1.2,
       "school_id": "laurier"
     },
     {
-      "km": 24.7,
+      "km": 1.4,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 2.4,
       "school_id": "uwaterloo"
     },
     {
-      "km": 41.8,
+      "km": 24.6,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 53.4,
       "school_id": "mcmaster"
     },
     {
-      "km": 42.7,
+      "km": 54.3,
       "school_id": "mohawk"
     },
     {
-      "km": 42.9,
+      "km": 65.6,
       "school_id": "algoma"
     },
     {
-      "km": 43.4,
+      "km": 66.0,
       "school_id": "sheridan"
     },
     {
-      "km": 47.8,
+      "km": 69.4,
       "school_id": "uoft"
     },
     {
-      "km": 56.0,
+      "km": 74.9,
+      "school_id": "fanshawe"
+    },
+    {
+      "km": 78.8,
       "school_id": "humber"
     },
     {
-      "km": 65.7,
+      "km": 79.7,
+      "school_id": "western"
+    },
+    {
+      "km": 88.5,
       "school_id": "yorku"
     },
     {
-      "km": 65.8,
+      "km": 88.6,
       "school_id": "seneca"
     },
     {
-      "km": 69.6,
+      "km": 92.1,
       "school_id": "georgebrown"
     },
     {
-      "km": 70.6,
+      "km": 93.0,
       "school_id": "ocadu"
     },
     {
-      "km": 71.7,
+      "km": 94.1,
       "school_id": "tmu"
     },
     {
-      "km": 76.4,
+      "km": 98.9,
       "school_id": "centennial"
-    },
-    {
-      "km": 92.6,
-      "school_id": "brock"
-    },
-    {
-      "km": 96.7,
-      "school_id": "fanshawe"
     }
   ],
   "obtained_via": [
     "ics"
   ],
-  "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
+  "organizer": "Waterloo Tech (+adjacent) Events (Luma iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://uoguelph.campusgroups.com/rsvp?id=379362"
+    "url": "https://luma.com/erbdc6px"
   },
   "review": null,
   "roles": [
@@ -122,24 +122,24 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": "uoguelph-gryphlife-campusgroups-ics:dcc47f9c086a",
+  "series_id": "luma-waterloo-tech-adjacent-events:3370e7e88725",
   "sources": [
     {
       "adapter": "ics",
       "fetched_at": "2026-11-02T06:03:08.068235Z",
-      "source_id": "uoguelph-gryphlife-campusgroups-ics",
-      "url": "https://uoguelph.campusgroups.com/rsvp?id=379362"
+      "source_id": "luma-waterloo-tech-adjacent-events",
+      "url": "https://luma.com/erbdc6px"
     }
   ],
-  "start": "2026-11-02T22:30:00Z",
-  "status": "scheduled",
-  "summary": "Workshop by University of Guelph GryphLife (CampusGroups) public iCal in Guelph.",
+  "start": "2026-11-03T00:00:00Z",
+  "status": "past",
+  "summary": "Hybrid event by Waterloo Tech (+adjacent) Events (Luma iCal) in Waterloo.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Beyond the Classroom: Careers",
+  "title": "KWLUG Tech Meeting - LearnBot, Authentik",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "workshop"
+  "type": "other"
 }

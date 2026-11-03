@@ -52,6 +52,12 @@
       "fetched_at": "2026-11-03T00:58:30.695200Z",
       "source_id": "queens-events-rss",
       "url": "https://www.queensu.ca/eventscalendar/events/future-fit-disability-inclusion-leveraging-technology-8th-annual-malcolm-peat-lectureship-nafisa-baboo"
+    },
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-11-03T14:15:29.623988Z",
+      "source_id": "queens-events-rss",
+      "url": "https://www.queensu.ca/eventscalendar/events/future-fit-disability-inclusion-leveraging-power-technology-malcolm-peat-lectureship-nafisa-baboo"
     }
   ],
   "start": "2026-11-10T09:00:00-05:00",

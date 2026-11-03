@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": true,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": null,
+  "first_seen": "2026-11-03T14:15:29.623988Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-u-of-t-central-event-info-session-lau-commercialization-catalyst-prize-8b9b",
+  "last_seen": "2026-11-03T14:15:29.623988Z",
+  "last_verified": "2026-11-03T14:15:29.623988Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "html"
+  ],
+  "organizer": "U of T central events aggregator",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.entrepreneurship.artsci.utoronto.ca/events/info-session-lau-commercialization-catalyst-prize-computing-and-engineering-innovation"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "html",
+      "fetched_at": "2026-11-03T14:15:29.623988Z",
+      "source_id": "uoft-central-events",
+      "url": "https://www.entrepreneurship.artsci.utoronto.ca/events/info-session-lau-commercialization-catalyst-prize-computing-and-engineering-innovation"
+    }
+  ],
+  "start": "2026-11-05T00:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Info session by U of T central events aggregator.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Info Session Lau Commercialization Catalyst Prize for Computing and Engineering Innovation",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}
