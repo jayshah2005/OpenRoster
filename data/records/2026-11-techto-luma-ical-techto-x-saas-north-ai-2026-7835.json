@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-techto-luma-ical-techto-x-saas-north-ai-2026-7835",
-  "last_seen": "2026-11-03T00:58:30.695200Z",
-  "last_verified": "2026-11-03T00:58:30.695200Z",
+  "last_seen": "2026-11-04T06:23:28.138808Z",
+  "last_verified": "2026-11-04T06:23:28.138808Z",
   "location": {
     "city": "Ottawa",
     "country": "CA",
@@ -70,7 +70,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-03T00:58:30.695200Z",
+      "fetched_at": "2026-11-04T06:23:28.138808Z",
       "source_id": "luma-techto",
       "url": "https://luma.com/techto-saasnorth2026"
     }

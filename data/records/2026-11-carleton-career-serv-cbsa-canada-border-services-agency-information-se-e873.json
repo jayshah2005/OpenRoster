@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-carleton-career-serv-cbsa-canada-border-services-agency-information-se-e873",
-  "last_seen": "2026-11-03T23:24:00.075219Z",
-  "last_verified": "2026-11-03T23:24:00.075219Z",
+  "last_seen": "2026-11-04T06:23:28.138808Z",
+  "last_verified": "2026-11-04T06:23:28.138808Z",
   "location": {
     "city": "Ottawa",
     "country": "CA",
@@ -70,7 +70,7 @@
   "sources": [
     {
       "adapter": "api",
-      "fetched_at": "2026-11-03T23:24:00.075219Z",
+      "fetched_at": "2026-11-04T06:23:28.138808Z",
       "source_id": "carleton-career-events-api",
       "url": "https://carleton.ca/career/event/cbsa-information-session/"
     }

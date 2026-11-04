@@ -189,11 +189,23 @@
       "field": "start",
       "new": "2026-11-09T20:30:00+00:00",
       "old": "2026-11-09T15:00:00+00:00"
+    },
+    {
+      "at": "2026-11-04T06:23:28.138808Z",
+      "field": "start",
+      "new": "2026-11-09T15:00:00+00:00",
+      "old": "2026-11-09T20:30:00+00:00"
+    },
+    {
+      "at": "2026-11-04T06:23:28.138808Z",
+      "field": "start",
+      "new": "2026-11-09T20:30:00+00:00",
+      "old": "2026-11-09T15:00:00+00:00"
     }
   ],
   "id": "2026-11-university-of-guelph-business-technologies-guelph-booth-2374",
-  "last_seen": "2026-11-03T00:58:30.695200Z",
-  "last_verified": "2026-11-03T00:58:30.695200Z",
+  "last_seen": "2026-11-04T06:23:28.138808Z",
+  "last_verified": "2026-11-04T06:23:28.138808Z",
   "location": {
     "city": "Guelph",
     "country": "CA",
@@ -301,13 +313,13 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-03T00:58:30.695200Z",
+      "fetched_at": "2026-11-04T06:23:28.138808Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=379636"
     },
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-03T00:58:30.695200Z",
+      "fetched_at": "2026-11-04T06:23:28.138808Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=380031"
     }

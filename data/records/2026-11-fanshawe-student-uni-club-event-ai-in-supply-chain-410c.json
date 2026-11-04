@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-fanshawe-student-uni-club-event-ai-in-supply-chain-410c",
-  "last_seen": "2026-11-03T23:24:00.075219Z",
-  "last_verified": "2026-11-03T23:24:00.075219Z",
+  "last_seen": "2026-11-04T06:23:28.138808Z",
+  "last_verified": "2026-11-04T06:23:28.138808Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-03T23:24:00.075219Z",
+      "fetched_at": "2026-11-04T06:23:28.138808Z",
       "source_id": "fsu-events-ics",
       "url": "https://www.fsu.ca/eventInfo/clubs-ascm-november-11"
     }

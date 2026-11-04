@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-western-university-e-microsoft-bookings-simplify-your-appointment-sche-ba2f",
-  "last_seen": "2026-11-03T00:58:30.695200Z",
-  "last_verified": "2026-11-03T00:58:30.695200Z",
+  "last_seen": "2026-11-04T06:23:28.138808Z",
+  "last_verified": "2026-11-04T06:23:28.138808Z",
   "location": {
     "city": null,
     "country": "CA",
@@ -50,13 +50,13 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-03T00:58:30.695200Z",
+      "fetched_at": "2026-11-04T06:23:28.138808Z",
       "source_id": "western-events-ics",
       "url": "https://www.uwo.ca/events/"
     },
     {
       "adapter": "api",
-      "fetched_at": "2026-11-03T00:58:30.695200Z",
+      "fetched_at": "2026-11-04T06:23:28.138808Z",
       "source_id": "western-events-json",
       "url": "https://www.uwo.ca/events/2026/11/wts-microsoft-bookings-simplify-your-appointment-scheduling.html"
     }

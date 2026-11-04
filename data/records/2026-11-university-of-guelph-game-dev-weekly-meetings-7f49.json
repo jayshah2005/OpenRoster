@@ -8,20 +8,27 @@
   "eligibility": [
     "open_to_all"
   ],
-  "end": "2026-11-25T22:30:00Z",
+  "end": "2026-11-25T23:30:00Z",
   "first_seen": "2026-10-27T05:06:07.386213Z",
   "geo": null,
-  "history": [],
+  "history": [
+    {
+      "at": "2026-11-04T06:23:28.138808Z",
+      "field": "start",
+      "new": "2026-11-25T22:30:00+00:00",
+      "old": "2026-11-25T21:30:00+00:00"
+    }
+  ],
   "id": "2026-11-university-of-guelph-game-dev-weekly-meetings-7f49",
-  "last_seen": "2026-11-03T00:58:30.695200Z",
-  "last_verified": "2026-11-03T00:58:30.695200Z",
+  "last_seen": "2026-11-04T06:23:28.138808Z",
+  "last_verified": "2026-11-04T06:23:28.138808Z",
   "location": {
     "city": null,
     "country": null,
     "region": null,
     "venue_name": "Sign in to download the location"
   },
-  "mode": "unknown",
+  "mode": "online",
   "near_schools": [],
   "obtained_via": [
     "ics"
@@ -29,7 +36,7 @@
   "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
   "registration": {
     "route": "public_link",
-    "url": "https://uoguelph.campusgroups.com/rsvp?id=379899"
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=380224"
   },
   "review": null,
   "roles": [
@@ -49,26 +56,26 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-03T00:58:30.695200Z",
+      "fetched_at": "2026-11-04T06:23:28.138808Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=379899"
     },
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-03T23:24:00.075219Z",
+      "fetched_at": "2026-11-04T06:23:28.138808Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=380224"
     }
   ],
-  "start": "2026-11-25T21:30:00Z",
-  "status": "scheduled",
-  "summary": "Event by University of Guelph GryphLife (CampusGroups) public iCal.",
+  "start": "2026-11-25T22:30:00Z",
+  "status": "moved",
+  "summary": "Online networking event by University of Guelph GryphLife (CampusGroups) public iCal.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Game Dev Weekly Meetings",
+  "title": "Justice & Legal Studies Career Chat with Tanya Cox-Ownsworth",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "other"
+  "type": "networking"
 }

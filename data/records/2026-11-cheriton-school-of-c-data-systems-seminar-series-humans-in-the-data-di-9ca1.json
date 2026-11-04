@@ -108,7 +108,17 @@
     "route": "public_link",
     "url": "https://uwaterloo.ca/computer-science/events/data-systems-seminar-series-humans-in-the-data-discovery-and-integration-loop"
   },
-  "review": null,
+  "review": {
+    "evidence": [
+      {
+        "text": "missing from the last 2 successful fetches",
+        "url": "https://uwaterloo.ca/computer-science/events/data-systems-seminar-series-humans-in-the-data-discovery-and-integration-loop"
+      }
+    ],
+    "reasons": [
+      "no longer listed by its source (possibly cancelled or moved)"
+    ]
+  },
   "roles": [
     {
       "closes": null,
@@ -132,7 +142,7 @@
     }
   ],
   "start": "2026-11-09T10:30:00-05:00",
-  "status": "scheduled",
+  "status": "needs_review",
   "summary": "Tech talk by Cheriton School of Computer Science events (iCal) in Waterloo.",
   "tags": [],
   "timezone": "America/Toronto",
