@@ -2,34 +2,34 @@
   "ai_suggested": [],
   "all_day": false,
   "cost": {
-    "kind": "free",
+    "kind": "unknown",
     "note": null
   },
   "eligibility": [
-    "unknown"
+    "grad"
   ],
-  "end": "2026-11-03T19:00:00-05:00",
-  "first_seen": "2026-10-29T22:45:46.003761Z",
+  "end": "2026-11-03T14:30:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-career-education-gncc-business-after-5-67e6",
+  "id": "2026-11-brock-library-drafting-your-first-tri-agency-narrative-cv-431a",
   "last_seen": "2026-11-03T00:58:30.695200Z",
   "last_verified": "2026-11-03T00:58:30.695200Z",
   "location": {
     "city": null,
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "TEATRO"
+    "venue_name": "https://events.teams.microsoft.com/event/831e81bf-1026-4bee-a1b3-1872945d914a@76ae1115-1efc-4af2-a536-e2b2443af1a0?sourc"
   },
   "mode": "online",
   "near_schools": [],
   "obtained_via": [
     "rss"
   ],
-  "organizer": "Career Education",
+  "organizer": "Brock Library",
   "registration": {
     "route": "school_portal_login",
-    "url": "https://experiencebu.brocku.ca/event/336995"
+    "url": "https://experiencebu.brocku.ca/event/332919"
   },
   "review": null,
   "roles": [
@@ -51,18 +51,18 @@
       "adapter": "rss",
       "fetched_at": "2026-11-03T00:58:30.695200Z",
       "source_id": "brock-experiencebu-rss",
-      "url": "https://experiencebu.brocku.ca/event/336995"
+      "url": "https://experiencebu.brocku.ca/event/332919"
     }
   ],
-  "start": "2026-11-03T17:00:00-05:00",
-  "status": "scheduled",
-  "summary": "Free online networking event by Career Education.",
+  "start": "2026-11-03T13:00:00-05:00",
+  "status": "past",
+  "summary": "Online workshop by Brock Library for graduate students.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "GNCC Business After 5",
+  "title": "Drafting Your First Tri‑Agency Narrative CV",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "networking"
+  "type": "workshop"
 }

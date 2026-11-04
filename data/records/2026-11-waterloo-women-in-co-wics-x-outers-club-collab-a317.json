@@ -8,27 +8,27 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-03T16:00:00-05:00",
-  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "end": "2026-11-11T20:00:00-05:00",
+  "first_seen": "2026-11-04T19:45:46.604144Z",
   "geo": {
-    "lat": 43.4668,
-    "lon": -80.51639,
+    "lat": 43.48468,
+    "lon": -80.53349,
     "source": "gazetteer"
   },
   "history": [],
-  "id": "2026-11-waterloo-engineering-wici-talk-energy-efficient-ai-ce50",
-  "last_seen": "2026-11-03T00:58:30.695200Z",
-  "last_verified": "2026-11-03T00:58:30.695200Z",
+  "id": "2026-11-waterloo-women-in-co-wics-x-outers-club-collab-a317",
+  "last_seen": "2026-11-04T19:45:46.604144Z",
+  "last_verified": "2026-11-04T19:45:46.604144Z",
   "location": {
-    "city": "Waterloo",
+    "city": "Columbia",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "RCH 209 200 University Avenue West Waterloo ON N2L 3G1 Canada"
+    "venue_name": "CIF - Columbia Icefield 200 University Avenue West Waterloo ON N2L 3G1 Canada"
   },
   "mode": "unknown",
   "near_schools": [
     {
-      "km": 1.2,
+      "km": 1.3,
       "school_id": "laurier"
     },
     {
@@ -36,77 +36,77 @@
       "school_id": "conestoga"
     },
     {
-      "km": 2.4,
+      "km": 1.7,
       "school_id": "uwaterloo"
     },
     {
-      "km": 24.6,
+      "km": 25.4,
       "school_id": "uoguelph"
     },
     {
-      "km": 53.4,
+      "km": 55.5,
       "school_id": "mcmaster"
     },
     {
-      "km": 54.3,
+      "km": 56.4,
       "school_id": "mohawk"
     },
     {
-      "km": 65.6,
+      "km": 66.2,
       "school_id": "algoma"
     },
     {
-      "km": 66.0,
+      "km": 66.7,
       "school_id": "sheridan"
     },
     {
-      "km": 69.4,
+      "km": 70.6,
       "school_id": "uoft"
     },
     {
-      "km": 74.9,
+      "km": 75.3,
       "school_id": "fanshawe"
     },
     {
-      "km": 78.8,
+      "km": 79.3,
       "school_id": "humber"
     },
     {
-      "km": 79.7,
+      "km": 79.9,
       "school_id": "western"
     },
     {
-      "km": 88.5,
+      "km": 89.0,
       "school_id": "yorku"
     },
     {
-      "km": 88.6,
+      "km": 89.1,
       "school_id": "seneca"
     },
     {
-      "km": 92.1,
+      "km": 92.9,
       "school_id": "georgebrown"
     },
     {
-      "km": 93.0,
+      "km": 93.9,
       "school_id": "ocadu"
     },
     {
-      "km": 94.1,
+      "km": 95.0,
       "school_id": "tmu"
     },
     {
-      "km": 98.9,
+      "km": 99.7,
       "school_id": "centennial"
     }
   ],
   "obtained_via": [
     "ics"
   ],
-  "organizer": "Waterloo Engineering events (iCal)",
+  "organizer": "Waterloo Women in Computer Science events (iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://uwaterloo.ca/engineering/events/wici-talk-energy-efficient-ai"
+    "url": "https://uwaterloo.ca/women-in-computer-science/events/wics-x-outers-club-collab"
   },
   "review": null,
   "roles": [
@@ -122,21 +122,23 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": "uwaterloo-engineering-events-ics:83638600e717",
+  "series_id": "uwaterloo-wics-events-ics:165aab9d4505",
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-03T00:58:30.695200Z",
-      "source_id": "uwaterloo-engineering-events-ics",
-      "url": "https://uwaterloo.ca/engineering/events/wici-talk-energy-efficient-ai"
+      "fetched_at": "2026-11-04T19:45:46.604144Z",
+      "source_id": "uwaterloo-wics-events-ics",
+      "url": "https://uwaterloo.ca/women-in-computer-science/events/wics-x-outers-club-collab"
     }
   ],
-  "start": "2026-11-03T02:00:00-05:00",
+  "start": "2026-11-11T18:00:00-05:00",
   "status": "scheduled",
-  "summary": "Event by Waterloo Engineering events (iCal) in Waterloo.",
-  "tags": [],
+  "summary": "Event by Waterloo Women in Computer Science events (iCal) in Columbia for women and non-binary students.",
+  "tags": [
+    "women_nonbinary"
+  ],
   "timezone": "America/Toronto",
-  "title": "WICI Talk - Energy Efficient AI",
+  "title": "WiCS x Outers Club Collab",
   "travel_support": {
     "note": null,
     "stated": false

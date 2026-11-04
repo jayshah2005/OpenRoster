@@ -1,36 +1,35 @@
 {
   "ai_suggested": [],
-  "all_day": true,
+  "all_day": false,
   "cost": {
     "kind": "unknown",
     "note": null
   },
   "eligibility": [
-    "undergrad",
-    "grad"
+    "unknown"
   ],
-  "end": null,
+  "end": "2026-11-04T02:30:00Z",
   "first_seen": "2026-10-24T16:53:41.410358Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-bmo-den-pitch-competition-4dde",
+  "id": "2026-11-techto-luma-ical-what-happens-after-dark-presented-by-techto-labarg-cca2",
   "last_seen": "2026-11-03T00:58:30.695200Z",
   "last_verified": "2026-11-03T00:58:30.695200Z",
   "location": {
     "city": null,
-    "country": "CA",
+    "country": null,
     "region": null,
-    "venue_name": null
+    "venue_name": "https://luma.com/event/evt-FUG03qDDoXGCJWM"
   },
-  "mode": "online",
+  "mode": "unknown",
   "near_schools": [],
   "obtained_via": [
-    "html"
+    "ics"
   ],
-  "organizer": "BMO",
+  "organizer": "TechTO (Luma iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://jobs.bmo.com/ca/en/student-events"
+    "url": "https://luma.com/saasnorth2026-welcome-afterparty"
   },
   "review": null,
   "roles": [
@@ -46,24 +45,24 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": null,
+  "series_id": "luma-techto:b8f1b86cb75b",
   "sources": [
     {
-      "adapter": "html",
+      "adapter": "ics",
       "fetched_at": "2026-11-03T00:58:30.695200Z",
-      "source_id": "bmo-student-events",
-      "url": "https://jobs.bmo.com/ca/en/student-events"
+      "source_id": "luma-techto",
+      "url": "https://luma.com/saasnorth2026-welcome-afterparty"
     }
   ],
-  "start": "2026-11-04T00:00:00-05:00",
-  "status": "scheduled",
-  "summary": "Online case competition by BMO for undergraduates and graduate students.",
+  "start": "2026-11-04T00:00:00Z",
+  "status": "past",
+  "summary": "Event by TechTO (Luma iCal).",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "BMO Den Pitch Competition",
+  "title": "\"What Happens After Dark\" Presented by TechTO & LaBarge Weinstein LLP",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "case_competition"
+  "type": "other"
 }

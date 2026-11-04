@@ -8,17 +8,17 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-03T14:00:00-05:00",
-  "first_seen": "2026-10-29T22:45:46.003761Z",
+  "end": "2026-11-18T13:00:00-05:00",
+  "first_seen": "2026-11-04T19:45:46.604144Z",
   "geo": {
     "lat": 43.17126,
     "lon": -79.24267,
     "source": "gazetteer"
   },
   "history": [],
-  "id": "2026-11-career-education-launch-your-future-at-bell-webinar-ad29",
-  "last_seen": "2026-11-03T00:58:30.695200Z",
-  "last_verified": "2026-11-03T00:58:30.695200Z",
+  "id": "2026-11-career-education-ask-us-anything-loblaw-campus-recruitment-team-2c54",
+  "last_seen": "2026-11-04T19:45:46.604144Z",
+  "last_verified": "2026-11-04T19:45:46.604144Z",
   "location": {
     "city": "St. Catharines",
     "country": "CA",
@@ -114,7 +114,7 @@
   "organizer": "Career Education",
   "registration": {
     "route": "school_portal_login",
-    "url": "https://experiencebu.brocku.ca/event/336932"
+    "url": "https://experiencebu.brocku.ca/event/337353"
   },
   "review": null,
   "roles": [
@@ -134,17 +134,17 @@
   "sources": [
     {
       "adapter": "rss",
-      "fetched_at": "2026-11-03T00:58:30.695200Z",
+      "fetched_at": "2026-11-04T19:45:46.604144Z",
       "source_id": "brock-experiencebu-rss",
-      "url": "https://experiencebu.brocku.ca/event/336932"
+      "url": "https://experiencebu.brocku.ca/event/337353"
     }
   ],
-  "start": "2026-11-03T13:00:00-05:00",
+  "start": "2026-11-18T12:00:00-05:00",
   "status": "scheduled",
   "summary": "Hybrid info session by Career Education in St. Catharines.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Launch Your Future at Bell Webinar",
+  "title": "Ask Us Anything - Loblaw Campus Recruitment Team",
   "travel_support": {
     "note": null,
     "stated": false

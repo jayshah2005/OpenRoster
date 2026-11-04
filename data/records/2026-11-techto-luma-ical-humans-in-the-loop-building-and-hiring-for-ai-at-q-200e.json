@@ -8,20 +8,20 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-04T02:30:00Z",
-  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "end": "2026-11-20T02:00:00Z",
+  "first_seen": "2026-11-04T19:45:46.604144Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-techto-luma-ical-what-happens-after-dark-presented-by-techto-labarg-cca2",
-  "last_seen": "2026-11-03T00:58:30.695200Z",
-  "last_verified": "2026-11-03T00:58:30.695200Z",
+  "id": "2026-11-techto-luma-ical-humans-in-the-loop-building-and-hiring-for-ai-at-q-200e",
+  "last_seen": "2026-11-04T19:45:46.604144Z",
+  "last_verified": "2026-11-04T19:45:46.604144Z",
   "location": {
     "city": null,
     "country": null,
     "region": null,
-    "venue_name": "https://luma.com/event/evt-FUG03qDDoXGCJWM"
+    "venue_name": "https://luma.com/event/evt-OLTq8xobbUt4TvF"
   },
-  "mode": "unknown",
+  "mode": "in_person",
   "near_schools": [],
   "obtained_via": [
     "ics"
@@ -29,7 +29,7 @@
   "organizer": "TechTO (Luma iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://luma.com/saasnorth2026-welcome-afterparty"
+    "url": "https://luma.com/humans-in-the-loop-nov-19-2026"
   },
   "review": null,
   "roles": [
@@ -45,21 +45,21 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": "luma-techto:b8f1b86cb75b",
+  "series_id": "luma-techto:00f6dd4219af",
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-03T00:58:30.695200Z",
+      "fetched_at": "2026-11-04T19:45:46.604144Z",
       "source_id": "luma-techto",
-      "url": "https://luma.com/saasnorth2026-welcome-afterparty"
+      "url": "https://luma.com/humans-in-the-loop-nov-19-2026"
     }
   ],
-  "start": "2026-11-04T00:00:00Z",
+  "start": "2026-11-19T22:30:00Z",
   "status": "scheduled",
   "summary": "Event by TechTO (Luma iCal).",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "\"What Happens After Dark\" Presented by TechTO & LaBarge Weinstein LLP",
+  "title": "Humans in the Loop: Building and hiring for AI at Questrade",
   "travel_support": {
     "note": null,
     "stated": false

@@ -55,7 +55,7 @@
     }
   ],
   "start": "2026-11-03T13:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Online workshop by University of Guelph central events (news.uoguelph.ca, The Events Calendar) for Indigenous students.",
   "tags": [
     "indigenous_students"

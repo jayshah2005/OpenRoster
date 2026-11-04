@@ -9,12 +9,12 @@
     "unknown"
   ],
   "end": null,
-  "first_seen": "2026-10-29T05:49:12.284396Z",
+  "first_seen": "2026-11-04T19:45:46.604144Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-u-of-t-central-event-sosv-deep-tech-summit-ef68",
-  "last_seen": "2026-11-03T00:58:30.695200Z",
-  "last_verified": "2026-11-03T00:58:30.695200Z",
+  "id": "2026-11-u-of-t-central-event-eric-so-on-the-collision-what-ai-does-to-us-d418",
+  "last_seen": "2026-11-04T19:45:46.604144Z",
+  "last_verified": "2026-11-04T19:45:46.604144Z",
   "location": {
     "city": null,
     "country": null,
@@ -29,7 +29,7 @@
   "organizer": "U of T central events aggregator",
   "registration": {
     "route": "public_link",
-    "url": "https://entrepreneurs.utoronto.ca/event/sosv-deep-tech-summit/"
+    "url": "https://www.rotman.utoronto.ca/news-events-and-ideas/public-events/events-listings/2026/november-2026/nov-17---eric-so/"
   },
   "review": null,
   "roles": [
@@ -49,20 +49,20 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-11-03T00:58:30.695200Z",
+      "fetched_at": "2026-11-04T19:45:46.604144Z",
       "source_id": "uoft-central-events",
-      "url": "https://entrepreneurs.utoronto.ca/event/sosv-deep-tech-summit/"
+      "url": "https://www.rotman.utoronto.ca/news-events-and-ideas/public-events/events-listings/2026/november-2026/nov-17---eric-so/"
     }
   ],
-  "start": "2026-11-04T00:00:00-05:00",
+  "start": "2026-11-17T00:00:00-05:00",
   "status": "scheduled",
-  "summary": "Conference by U of T central events aggregator.",
+  "summary": "Event by U of T central events aggregator.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "SOSV Deep Tech Summit",
+  "title": "Eric So on 'The Collision: What AI Does to Us'",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "conference"
+  "type": "other"
 }

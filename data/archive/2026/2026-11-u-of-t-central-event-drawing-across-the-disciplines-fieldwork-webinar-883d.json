@@ -1,35 +1,35 @@
 {
   "ai_suggested": [],
-  "all_day": false,
+  "all_day": true,
   "cost": {
     "kind": "unknown",
     "note": null
   },
   "eligibility": [
-    "grad"
+    "unknown"
   ],
-  "end": "2026-11-03T14:30:00-05:00",
+  "end": null,
   "first_seen": "2026-10-24T16:53:41.410358Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-brock-library-drafting-your-first-tri-agency-narrative-cv-431a",
+  "id": "2026-11-u-of-t-central-event-drawing-across-the-disciplines-fieldwork-webinar-883d",
   "last_seen": "2026-11-03T00:58:30.695200Z",
   "last_verified": "2026-11-03T00:58:30.695200Z",
   "location": {
     "city": null,
-    "country": "CA",
-    "region": "CA-ON",
-    "venue_name": "https://events.teams.microsoft.com/event/831e81bf-1026-4bee-a1b3-1872945d914a@76ae1115-1efc-4af2-a536-e2b2443af1a0?sourc"
+    "country": null,
+    "region": null,
+    "venue_name": null
   },
   "mode": "online",
   "near_schools": [],
   "obtained_via": [
-    "rss"
+    "html"
   ],
-  "organizer": "Brock Library",
+  "organizer": "U of T central events aggregator",
   "registration": {
-    "route": "school_portal_login",
-    "url": "https://experiencebu.brocku.ca/event/332919"
+    "route": "public_link",
+    "url": "https://cris.utoronto.ca/event/drawing-across-the-disciplines-fieldwork-webinar-nov-4-2026/"
   },
   "review": null,
   "roles": [
@@ -43,26 +43,26 @@
     }
   ],
   "schools": [
-    "brock"
+    "open_to_all"
   ],
   "series_id": null,
   "sources": [
     {
-      "adapter": "rss",
+      "adapter": "html",
       "fetched_at": "2026-11-03T00:58:30.695200Z",
-      "source_id": "brock-experiencebu-rss",
-      "url": "https://experiencebu.brocku.ca/event/332919"
+      "source_id": "uoft-central-events",
+      "url": "https://cris.utoronto.ca/event/drawing-across-the-disciplines-fieldwork-webinar-nov-4-2026/"
     }
   ],
-  "start": "2026-11-03T13:00:00-05:00",
-  "status": "scheduled",
-  "summary": "Online workshop by Brock Library for graduate students.",
+  "start": "2026-11-04T00:00:00-05:00",
+  "status": "past",
+  "summary": "Online event by U of T central events aggregator.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Drafting Your First Tri‑Agency Narrative CV",
+  "title": "Drawing across the Disciplines: Fieldwork Webinar - Nov. 4, 2026",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "workshop"
+  "type": "other"
 }

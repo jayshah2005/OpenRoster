@@ -1,0 +1,93 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "high_school"
+  ],
+  "end": "2026-12-07T19:00:00-05:00",
+  "first_seen": "2026-11-04T19:45:46.604144Z",
+  "geo": {
+    "lat": 44.16682,
+    "lon": -77.38277,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-12-loyalist-college-eve-free-application-day-aa57",
+  "last_seen": "2026-11-04T19:45:46.604144Z",
+  "last_verified": "2026-11-04T19:45:46.604144Z",
+  "location": {
+    "city": "Belleville",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Loyalist College"
+  },
+  "mode": "hybrid",
+  "near_schools": [
+    {
+      "km": 4.7,
+      "school_id": "loyalist"
+    },
+    {
+      "km": 68.5,
+      "school_id": "stlawrence"
+    },
+    {
+      "km": 71.1,
+      "school_id": "queens"
+    },
+    {
+      "km": 75.3,
+      "school_id": "trent"
+    },
+    {
+      "km": 77.8,
+      "school_id": "fleming"
+    }
+  ],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "Loyalist College events (Tribe)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.eventbrite.com/e/free-application-day-at-loyalist-college-on-december-7-tickets-2004324886691?aff=oddtdtcreator&amp;keep_tld=true"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-11-04T19:45:46.604144Z",
+      "source_id": "loyalist-events-tribe",
+      "url": "https://loyalistcollege.com/event/free-application-day-5/"
+    }
+  ],
+  "start": "2026-12-07T15:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Free hybrid networking event by Loyalist College events (Tribe) in Belleville for high-school students.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Free Application Day",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "networking"
+}

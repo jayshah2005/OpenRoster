@@ -9,10 +9,10 @@
     "unknown"
   ],
   "end": null,
-  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "first_seen": "2026-10-29T05:49:12.284396Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-u-of-t-central-event-drawing-across-the-disciplines-fieldwork-webinar-883d",
+  "id": "2026-11-u-of-t-central-event-sosv-deep-tech-summit-ef68",
   "last_seen": "2026-11-03T00:58:30.695200Z",
   "last_verified": "2026-11-03T00:58:30.695200Z",
   "location": {
@@ -21,7 +21,7 @@
     "region": null,
     "venue_name": null
   },
-  "mode": "online",
+  "mode": "unknown",
   "near_schools": [],
   "obtained_via": [
     "html"
@@ -29,7 +29,7 @@
   "organizer": "U of T central events aggregator",
   "registration": {
     "route": "public_link",
-    "url": "https://cris.utoronto.ca/event/drawing-across-the-disciplines-fieldwork-webinar-nov-4-2026/"
+    "url": "https://entrepreneurs.utoronto.ca/event/sosv-deep-tech-summit/"
   },
   "review": null,
   "roles": [
@@ -51,18 +51,18 @@
       "adapter": "html",
       "fetched_at": "2026-11-03T00:58:30.695200Z",
       "source_id": "uoft-central-events",
-      "url": "https://cris.utoronto.ca/event/drawing-across-the-disciplines-fieldwork-webinar-nov-4-2026/"
+      "url": "https://entrepreneurs.utoronto.ca/event/sosv-deep-tech-summit/"
     }
   ],
   "start": "2026-11-04T00:00:00-05:00",
-  "status": "scheduled",
-  "summary": "Online event by U of T central events aggregator.",
+  "status": "past",
+  "summary": "Conference by U of T central events aggregator.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Drawing across the Disciplines: Fieldwork Webinar - Nov. 4, 2026",
+  "title": "SOSV Deep Tech Summit",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "other"
+  "type": "conference"
 }
