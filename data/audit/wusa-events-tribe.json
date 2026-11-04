@@ -1,21 +1,23 @@
 {
-  "checked": "2026-11-03T17:20:05.331246+00:00",
-  "dated_items_in_html": 0,
+  "checked": "2026-11-04T17:31:02.316050+00:00",
+  "dated_items_in_html": 8,
   "feeds": [],
-  "http_status": 403,
+  "http_status": 200,
   "jsonld_events": 0,
   "known_verdict": null,
-  "login_wall": true,
-  "platform": "unknown",
+  "login_wall": false,
+  "platform": "tribe",
   "reasons": [
-    "HTTP 403: login wall or bot protection; not bypassed"
+    "terms page not readable: https://wusa.ca/wp-json/tribe/events/v1/\\\"mailto:womenscentre@wusa.ca\\\": HTTP 404"
   ],
-  "robots": "no_robots",
-  "sitemaps": [],
+  "robots": "allowed",
+  "sitemaps": [
+    "https://wusa.ca/wp-sitemap.xml"
+  ],
   "terms_forbid_automated": null,
   "terms_forbid_republish": null,
   "terms_quotes": [],
-  "terms_url": null,
+  "terms_url": "https://wusa.ca/wp-json/tribe/events/v1/\\\"mailto:womenscentre@wusa.ca\\\"",
   "url": "https://wusa.ca/wp-json/tribe/events/v1/events",
-  "verdict": "blocked"
+  "verdict": "allowed"
 }

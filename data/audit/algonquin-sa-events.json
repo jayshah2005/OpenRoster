@@ -1,6 +1,6 @@
 {
-  "checked": "2026-11-03T17:20:19.667097+00:00",
-  "dated_items_in_html": 2,
+  "checked": "2026-11-04T17:31:15.383231+00:00",
+  "dated_items_in_html": 3,
   "feeds": [],
   "http_status": 200,
   "jsonld_events": 0,
@@ -8,7 +8,7 @@
   "login_wall": false,
   "platform": "html",
   "reasons": [
-    "no terms-of-use link found on the page"
+    "terms page not readable: https://www.algonquinsa.com/wp-json/tribe/events/v1/\\\"https:\\/\\/algonquinwolves.com\\/\\\": HTTP 404"
   ],
   "robots": "allowed",
   "sitemaps": [
@@ -17,7 +17,7 @@
   "terms_forbid_automated": null,
   "terms_forbid_republish": null,
   "terms_quotes": [],
-  "terms_url": null,
+  "terms_url": "https://www.algonquinsa.com/wp-json/tribe/events/v1/\\\"https:\\/\\/algonquinwolves.com\\/\\\"",
   "url": "https://www.algonquinsa.com/wp-json/tribe/events/v1/events",
   "verdict": "allowed"
 }
