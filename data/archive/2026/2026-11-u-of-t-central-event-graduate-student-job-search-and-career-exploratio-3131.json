@@ -1,35 +1,35 @@
 {
   "ai_suggested": [],
-  "all_day": false,
+  "all_day": true,
   "cost": {
     "kind": "unknown",
     "note": null
   },
   "eligibility": [
-    "unknown"
+    "grad"
   ],
-  "end": "2026-11-05T01:00:00Z",
-  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "end": null,
+  "first_seen": "2026-11-01T06:05:26.098067Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-waterloo-tech-adjace-civictechwr-hacknight-5e34",
+  "id": "2026-11-u-of-t-central-event-graduate-student-job-search-and-career-exploratio-3131",
   "last_seen": "2026-11-04T06:23:28.138808Z",
   "last_verified": "2026-11-04T06:23:28.138808Z",
   "location": {
     "city": null,
     "country": null,
     "region": null,
-    "venue_name": "https://luma.com/event/evt-8J18lP6qS6RBMA1"
+    "venue_name": null
   },
   "mode": "unknown",
   "near_schools": [],
   "obtained_via": [
-    "ics"
+    "html"
   ],
-  "organizer": "Waterloo Tech (+adjacent) Events (Luma iCal)",
+  "organizer": "U of T central events aggregator",
   "registration": {
     "route": "public_link",
-    "url": "https://luma.com/7wy14xho"
+    "url": "https://folio.utoronto.ca/students/events/detail/7602423"
   },
   "review": null,
   "roles": [
@@ -45,24 +45,24 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": "luma-waterloo-tech-adjacent-events:7621ccc92d9e",
+  "series_id": null,
   "sources": [
     {
-      "adapter": "ics",
+      "adapter": "html",
       "fetched_at": "2026-11-04T06:23:28.138808Z",
-      "source_id": "luma-waterloo-tech-adjacent-events",
-      "url": "https://luma.com/7wy14xho"
+      "source_id": "uoft-central-events",
+      "url": "https://folio.utoronto.ca/students/events/detail/7602423"
     }
   ],
-  "start": "2026-11-04T23:00:00Z",
-  "status": "scheduled",
-  "summary": "Hackathon by Waterloo Tech (+adjacent) Events (Luma iCal).",
+  "start": "2026-11-05T00:00:00-05:00",
+  "status": "past",
+  "summary": "Event by U of T central events aggregator for graduate students.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "CivicTechWR Hacknight",
+  "title": "Graduate Student Job Search and Career Exploration",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "hackathon"
+  "type": "other"
 }

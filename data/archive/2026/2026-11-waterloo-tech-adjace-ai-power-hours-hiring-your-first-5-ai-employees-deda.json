@@ -8,91 +8,91 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-04T20:00:00-05:00",
-  "first_seen": "2026-11-03T00:58:30.695200Z",
+  "end": "2026-11-04T23:30:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
   "geo": {
-    "lat": 43.48468,
-    "lon": -80.53349,
+    "lat": 43.42537,
+    "lon": -80.5112,
     "source": "gazetteer"
   },
   "history": [],
-  "id": "2026-11-waterloo-women-in-co-wics-x-outers-club-collab-3a97",
+  "id": "2026-11-waterloo-tech-adjace-ai-power-hours-hiring-your-first-5-ai-employees-deda",
   "last_seen": "2026-11-04T06:23:28.138808Z",
   "last_verified": "2026-11-04T06:23:28.138808Z",
   "location": {
-    "city": "Columbia",
+    "city": "Kitchener",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "CIF - Columbia Icefield 200 University Avenue West Waterloo ON N2L 3G1 Canada"
+    "venue_name": "Communitech, 151 Charles St W Suite 100, Kitchener, ON N2G 1H6, Canada"
   },
   "mode": "unknown",
   "near_schools": [
     {
-      "km": 1.3,
+      "km": 5.5,
       "school_id": "laurier"
     },
     {
-      "km": 1.4,
-      "school_id": "conestoga"
-    },
-    {
-      "km": 1.7,
+      "km": 5.9,
       "school_id": "uwaterloo"
     },
     {
-      "km": 25.4,
+      "km": 6.0,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 26.0,
       "school_id": "uoguelph"
     },
     {
-      "km": 55.5,
+      "km": 51.2,
       "school_id": "mcmaster"
     },
     {
-      "km": 56.4,
+      "km": 52.1,
       "school_id": "mohawk"
     },
     {
-      "km": 66.2,
-      "school_id": "algoma"
-    },
-    {
-      "km": 66.7,
+      "km": 65.8,
       "school_id": "sheridan"
     },
     {
-      "km": 70.6,
+      "km": 67.1,
+      "school_id": "algoma"
+    },
+    {
+      "km": 69.8,
       "school_id": "uoft"
     },
     {
-      "km": 75.3,
+      "km": 72.2,
       "school_id": "fanshawe"
     },
     {
-      "km": 79.3,
-      "school_id": "humber"
-    },
-    {
-      "km": 79.9,
+      "km": 77.2,
       "school_id": "western"
     },
     {
-      "km": 89.0,
+      "km": 80.2,
+      "school_id": "humber"
+    },
+    {
+      "km": 90.0,
       "school_id": "yorku"
     },
     {
-      "km": 89.1,
+      "km": 90.1,
       "school_id": "seneca"
     },
     {
-      "km": 92.9,
+      "km": 93.0,
       "school_id": "georgebrown"
     },
     {
-      "km": 93.9,
+      "km": 93.8,
       "school_id": "ocadu"
     },
     {
-      "km": 95.0,
+      "km": 94.9,
       "school_id": "tmu"
     },
     {
@@ -103,10 +103,10 @@
   "obtained_via": [
     "ics"
   ],
-  "organizer": "Waterloo Women in Computer Science events (iCal)",
+  "organizer": "Waterloo Tech (+adjacent) Events (Luma iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://uwaterloo.ca/women-in-computer-science/events/wics-x-outers-club-collab"
+    "url": "https://luma.com/aipowerhoursnov4"
   },
   "review": null,
   "roles": [
@@ -122,23 +122,21 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": "uwaterloo-wics-events-ics:5c958787c985",
+  "series_id": "luma-waterloo-tech-adjacent-events:0f15c8513302",
   "sources": [
     {
       "adapter": "ics",
       "fetched_at": "2026-11-04T06:23:28.138808Z",
-      "source_id": "uwaterloo-wics-events-ics",
-      "url": "https://uwaterloo.ca/women-in-computer-science/events/wics-x-outers-club-collab"
+      "source_id": "luma-waterloo-tech-adjacent-events",
+      "url": "https://luma.com/aipowerhoursnov4"
     }
   ],
-  "start": "2026-11-04T18:00:00-05:00",
-  "status": "scheduled",
-  "summary": "Event by Waterloo Women in Computer Science events (iCal) in Columbia for women and non-binary students.",
-  "tags": [
-    "women_nonbinary"
-  ],
+  "start": "2026-11-04T22:30:00Z",
+  "status": "past",
+  "summary": "Event by Waterloo Tech (+adjacent) Events (Luma iCal) in Kitchener.",
+  "tags": [],
   "timezone": "America/Toronto",
-  "title": "WiCS x Outers Club Collab",
+  "title": "AI Power Hours: Hiring your first 5 AI employees",
   "travel_support": {
     "note": null,
     "stated": false

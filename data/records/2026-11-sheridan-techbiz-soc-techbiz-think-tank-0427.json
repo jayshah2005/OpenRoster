@@ -8,24 +8,24 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-04T21:00:00-05:00",
-  "first_seen": "2026-10-24T17:14:00.319152Z",
+  "end": "2026-11-20T21:30:00-05:00",
+  "first_seen": "2026-11-05T19:57:32.018724Z",
   "geo": {
     "lat": 43.45011,
     "lon": -79.68292,
     "source": "gazetteer"
   },
   "history": [],
-  "id": "2026-11-diversity-in-animati-pitch-critique-night-f350",
-  "last_seen": "2026-11-04T06:23:28.138808Z",
-  "last_verified": "2026-11-04T06:23:28.138808Z",
+  "id": "2026-11-sheridan-techbiz-soc-techbiz-think-tank-0427",
+  "last_seen": "2026-11-05T19:57:32.018724Z",
+  "last_verified": "2026-11-05T19:57:32.018724Z",
   "location": {
     "city": "Oakville",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "J102"
+    "venue_name": "Sheridan College - Hazel McCallion Campus"
   },
-  "mode": "unknown",
+  "mode": "in_person",
   "near_schools": [
     {
       "km": 2.5,
@@ -115,10 +115,10 @@
   "obtained_via": [
     "rss"
   ],
-  "organizer": "Diversity in Animation: WIA Sheridan (Trafalgar)",
+  "organizer": "Sheridan TechBiz Society (Trafalgar)",
   "registration": {
     "route": "school_portal_login",
-    "url": "https://sheridancollege.campuslabs.ca/engage/event/335031"
+    "url": "https://sheridancollege.campuslabs.ca/engage/event/337420"
   },
   "review": null,
   "roles": [
@@ -138,20 +138,22 @@
   "sources": [
     {
       "adapter": "rss",
-      "fetched_at": "2026-11-04T06:23:28.138808Z",
+      "fetched_at": "2026-11-05T19:57:32.018724Z",
       "source_id": "sheridan-ssu-engage-rss",
-      "url": "https://sheridancollege.campuslabs.ca/engage/event/335031"
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/337420"
     }
   ],
-  "start": "2026-11-04T19:00:00-05:00",
+  "start": "2026-11-20T18:30:00-05:00",
   "status": "scheduled",
-  "summary": "Workshop by Diversity in Animation: WIA Sheridan (Trafalgar) in Oakville.",
-  "tags": [],
+  "summary": "Info session by Sheridan TechBiz Society (Trafalgar) in Oakville. Beginners welcome.",
+  "tags": [
+    "beginner_friendly"
+  ],
   "timezone": "America/Toronto",
-  "title": "Pitch Critique Night",
+  "title": "TechBiz Think Tank",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "workshop"
+  "type": "info_session"
 }

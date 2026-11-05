@@ -6,30 +6,30 @@
     "note": null
   },
   "eligibility": [
-    "open_to_all"
+    "unknown"
   ],
-  "end": "2026-11-04T22:30:00Z",
-  "first_seen": "2026-10-27T05:06:07.386213Z",
+  "end": "2026-11-05T01:00:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-university-of-guelph-game-dev-weekly-meetings-8a91",
+  "id": "2026-11-waterloo-tech-adjace-civictechwr-hacknight-5e34",
   "last_seen": "2026-11-04T06:23:28.138808Z",
   "last_verified": "2026-11-04T06:23:28.138808Z",
   "location": {
     "city": null,
     "country": null,
     "region": null,
-    "venue_name": "Sign in to download the location"
+    "venue_name": "https://luma.com/event/evt-8J18lP6qS6RBMA1"
   },
   "mode": "unknown",
   "near_schools": [],
   "obtained_via": [
     "ics"
   ],
-  "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
+  "organizer": "Waterloo Tech (+adjacent) Events (Luma iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://uoguelph.campusgroups.com/rsvp?id=379896"
+    "url": "https://luma.com/7wy14xho"
   },
   "review": null,
   "roles": [
@@ -45,24 +45,24 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": "uoguelph-gryphlife-campusgroups-ics:32eccc0e93f1",
+  "series_id": "luma-waterloo-tech-adjacent-events:7621ccc92d9e",
   "sources": [
     {
       "adapter": "ics",
       "fetched_at": "2026-11-04T06:23:28.138808Z",
-      "source_id": "uoguelph-gryphlife-campusgroups-ics",
-      "url": "https://uoguelph.campusgroups.com/rsvp?id=379896"
+      "source_id": "luma-waterloo-tech-adjacent-events",
+      "url": "https://luma.com/7wy14xho"
     }
   ],
-  "start": "2026-11-04T21:30:00Z",
-  "status": "scheduled",
-  "summary": "Event by University of Guelph GryphLife (CampusGroups) public iCal.",
+  "start": "2026-11-04T23:00:00Z",
+  "status": "past",
+  "summary": "Hackathon by Waterloo Tech (+adjacent) Events (Luma iCal).",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Game Dev Weekly Meetings",
+  "title": "CivicTechWR Hacknight",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "other"
+  "type": "hackathon"
 }

@@ -56,13 +56,13 @@
   ],
   "start": "2026-11-25T11:00:00-05:00",
   "status": "scheduled",
-  "summary": "Tech talk by Wilfrid Laurier University events calendar (iCal).",
+  "summary": "Info session by Wilfrid Laurier University events calendar (iCal).",
   "tags": [],
   "timezone": "America/New_York",
-  "title": "Careers in Computer Science Panel",
+  "title": "Job Search Strategies Workshop",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "tech_talk"
+  "type": "info_session"
 }

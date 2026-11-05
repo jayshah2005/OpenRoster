@@ -6,15 +6,15 @@
     "note": null
   },
   "eligibility": [
-    "grad"
+    "unknown"
   ],
   "end": null,
-  "first_seen": "2026-11-01T06:05:26.098067Z",
+  "first_seen": "2026-11-05T19:57:32.018724Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-u-of-t-central-event-graduate-student-job-search-and-career-exploratio-3131",
-  "last_seen": "2026-11-04T06:23:28.138808Z",
-  "last_verified": "2026-11-04T06:23:28.138808Z",
+  "id": "2026-11-u-of-t-central-event-how-to-use-networking-to-learn-about-careers-in-k-a5fc",
+  "last_seen": "2026-11-05T19:57:32.018724Z",
+  "last_verified": "2026-11-05T19:57:32.018724Z",
   "location": {
     "city": null,
     "country": null,
@@ -29,7 +29,7 @@
   "organizer": "U of T central events aggregator",
   "registration": {
     "route": "public_link",
-    "url": "https://folio.utoronto.ca/students/events/detail/7602423"
+    "url": "https://kpe.utoronto.ca/fri-11272026-1300/how-use-networking-learn-about-careers-kinesiology"
   },
   "review": null,
   "roles": [
@@ -49,20 +49,20 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-11-04T06:23:28.138808Z",
+      "fetched_at": "2026-11-05T19:57:32.018724Z",
       "source_id": "uoft-central-events",
-      "url": "https://folio.utoronto.ca/students/events/detail/7602423"
+      "url": "https://kpe.utoronto.ca/fri-11272026-1300/how-use-networking-learn-about-careers-kinesiology"
     }
   ],
-  "start": "2026-11-05T00:00:00-05:00",
+  "start": "2026-11-27T00:00:00-05:00",
   "status": "scheduled",
-  "summary": "Event by U of T central events aggregator for graduate students.",
+  "summary": "Networking event by U of T central events aggregator.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Graduate Student Job Search and Career Exploration",
+  "title": "How to Use Networking to Learn About Careers in Kinesiology",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "other"
+  "type": "networking"
 }

@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-18T18:30:00-05:00",
+  "first_seen": "2026-11-05T19:57:32.018724Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-carleton-career-serv-emco-management-development-program-virtual-recru-1d2b",
+  "last_seen": "2026-11-05T19:57:32.018724Z",
+  "last_verified": "2026-11-05T19:57:32.018724Z",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "False"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "api"
+  ],
+  "organizer": "Carleton Career Services events (WordPress REST)",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://carleton.ca/career/event/emco-recruitment-event/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "carleton"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "api",
+      "fetched_at": "2026-11-05T19:57:32.018724Z",
+      "source_id": "carleton-career-events-api",
+      "url": "https://carleton.ca/career/event/emco-recruitment-event/"
+    }
+  ],
+  "start": "2026-11-18T17:30:00-05:00",
+  "status": "scheduled",
+  "summary": "Online event by Carleton Career Services events (WordPress REST).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "EMCO Management Development Program – Virtual Recruitment Event",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

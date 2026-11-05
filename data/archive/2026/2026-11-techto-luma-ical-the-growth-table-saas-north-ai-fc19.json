@@ -55,7 +55,7 @@
     }
   ],
   "start": "2026-11-04T23:00:00Z",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Event by TechTO (Luma iCal).",
   "tags": [],
   "timezone": "America/Toronto",

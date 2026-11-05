@@ -1,8 +1,5 @@
 {
-  "flagged_missing": [
-    "2026-11-bmo-interviewing-101-2b45",
-    "2026-11-cheriton-school-of-c-seminar-human-computer-interaction-beyond-the-int-4292"
-  ],
+  "flagged_missing": [],
   "items": [
     {
       "evidence": " Sheridan College's largest hackathon this year, bringing students from across the GTA to come and build meaningful software together. BearHacks 2026 Sheridan College's largest hackathon this year, bringing students from across the GTA to come and build meaningful software together. Sheridan College",
@@ -38,7 +35,7 @@
       "url": "https://conuhacks.io"
     },
     {
-      "evidence": "Skip to main content (Press Enter) Outlook MyQueensU onQ Toggle navigation About Contact Us 557 Goodwin Hall Queen's University Kingston, Ontario, Canada K7L 2N8 Phone: (613) 533-6050 Give to Computing The School Student Life Outreach EDII Events Nov 5 Distinguished Seminar: Learning Patient-Specifi",
+      "evidence": "Skip to main content (Press Enter) Outlook MyQueensU onQ Toggle navigation About Contact Us 557 Goodwin Hall Queen's University Kingston, Ontario, Canada K7L 2N8 Phone: (613) 533-6050 Give to Computing The School Student Life Outreach EDII Events Nov 6 Designathon 2026 (Queen's UX Club) Nov 7 Fall P",
       "key": "hackathon:cucai-canadian-undergraduate-conference-on-ai-run-by-qmind|hackathon:cucai-canadian-undergraduate-conference-on-ai-run-by-qmind",
       "reasons": [
         "no event date found with confidence (site may be JS-only or not updated)",
@@ -60,7 +57,7 @@
       "url": "https://deerhacks.ca/"
     },
     {
-      "evidence": "Skip to main content (Press Enter) Outlook MyQueensU onQ Toggle navigation About Contact Us 557 Goodwin Hall Queen's University Kingston, Ontario, Canada K7L 2N8 Phone: (613) 533-6050 Give to Computing The School Student Life Outreach EDII Events Nov 5 Distinguished Seminar: Learning Patient-Specifi",
+      "evidence": "Skip to main content (Press Enter) Outlook MyQueensU onQ Toggle navigation About Contact Us 557 Goodwin Hall Queen's University Kingston, Ontario, Canada K7L 2N8 Phone: (613) 533-6050 Give to Computing The School Student Life Outreach EDII Events Nov 6 Designathon 2026 (Queen's UX Club) Nov 7 Fall P",
       "key": "hackathon:designathon-queen-s-ux-club|hackathon:designathon-queen-s-ux-club",
       "reasons": [
         "no event date found with confidence (site may be JS-only or not updated)",
@@ -104,10 +101,11 @@
       "url": "https://genaigenesis.ca/"
     },
     {
-      "evidence": "",
-      "key": "hackathon:global-game-jam-site-game-development-program|https://educationnewscanada.com/article/education/region/ontario/27/745152/niagara-collegejanuary-28-2019-gamers-unite-at-niagara-college-for-fourth-annual-global-game-jam.html|nodate|global game jam site (game development program)",
+      "evidence": "﻿ Niagara College - Gamers unite at Niagara College for fourth annual Global Game Jam { \"@context\" : \"https://schema.org\", \"@type\" : \"Organization\", \"name\" : \"Education News Canada\", \"url\" : \"https://educationnewscanada.com\", \"logo\" : \"https://educationnewscanada.com/CE/top_logo_reseau.png\", \"sameAs",
+      "key": "hackathon:global-game-jam-site-game-development-program|hackathon:global-game-jam-site-game-development-program",
       "reasons": [
-        "site could not be fetched: https://educationnewscanada.com/article/education/region/ontario/27/745152/niagara-collegejanuary-28-2019-gamers-unite-at-niagara-college-for-fourth-a"
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
       ],
       "source_id": "hackathon:global-game-jam-site-game-development-program",
       "title": "Global Game Jam site (Game Development program)",
@@ -254,16 +252,6 @@
       "source_id": "hackathon:seneca-annual-hackathons-school-of-it-administration-securit",
       "title": "Seneca annual hackathons (School of IT Administration & Security)",
       "url": "https://students.senecapolytechnic.ca/spaces/14/school-of-information-technology-administration-security/wiki/view/7685/annual-hackathons"
-    },
-    {
-      "evidence": "",
-      "key": "hackathon:sheridan-adobe-design-hackathon|https://www.sheridancollege.ca/events/2026/02/hackathon|nodate|sheridan / adobe design hackathon",
-      "reasons": [
-        "site could not be fetched: https://www.sheridancollege.ca/events/2026/02/hackathon: network error: The read operation timed out"
-      ],
-      "source_id": "hackathon:sheridan-adobe-design-hackathon",
-      "title": "Sheridan / Adobe Design Hackathon",
-      "url": "https://www.sheridancollege.ca/events/2026/02/hackathon"
     },
     {
       "evidence": "Skip to content Skip to main navigation Skip to search Welcome to Brock University Information for Future students Current students International Co-op Professional and Continuing Studies Community partners Alumni and donors Academics Faculties & Departments Graduate Studies and Postdocs Teaching & ",

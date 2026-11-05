@@ -8,91 +8,91 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-04T23:30:00Z",
-  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "end": "2026-11-04T20:00:00-05:00",
+  "first_seen": "2026-11-03T00:58:30.695200Z",
   "geo": {
-    "lat": 43.42537,
-    "lon": -80.5112,
+    "lat": 43.48468,
+    "lon": -80.53349,
     "source": "gazetteer"
   },
   "history": [],
-  "id": "2026-11-waterloo-tech-adjace-ai-power-hours-hiring-your-first-5-ai-employees-deda",
+  "id": "2026-11-waterloo-women-in-co-wics-x-outers-club-collab-3a97",
   "last_seen": "2026-11-04T06:23:28.138808Z",
   "last_verified": "2026-11-04T06:23:28.138808Z",
   "location": {
-    "city": "Kitchener",
+    "city": "Columbia",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "Communitech, 151 Charles St W Suite 100, Kitchener, ON N2G 1H6, Canada"
+    "venue_name": "CIF - Columbia Icefield 200 University Avenue West Waterloo ON N2L 3G1 Canada"
   },
   "mode": "unknown",
   "near_schools": [
     {
-      "km": 5.5,
+      "km": 1.3,
       "school_id": "laurier"
     },
     {
-      "km": 5.9,
-      "school_id": "uwaterloo"
-    },
-    {
-      "km": 6.0,
+      "km": 1.4,
       "school_id": "conestoga"
     },
     {
-      "km": 26.0,
+      "km": 1.7,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 25.4,
       "school_id": "uoguelph"
     },
     {
-      "km": 51.2,
+      "km": 55.5,
       "school_id": "mcmaster"
     },
     {
-      "km": 52.1,
+      "km": 56.4,
       "school_id": "mohawk"
     },
     {
-      "km": 65.8,
-      "school_id": "sheridan"
-    },
-    {
-      "km": 67.1,
+      "km": 66.2,
       "school_id": "algoma"
     },
     {
-      "km": 69.8,
+      "km": 66.7,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 70.6,
       "school_id": "uoft"
     },
     {
-      "km": 72.2,
+      "km": 75.3,
       "school_id": "fanshawe"
     },
     {
-      "km": 77.2,
-      "school_id": "western"
-    },
-    {
-      "km": 80.2,
+      "km": 79.3,
       "school_id": "humber"
     },
     {
-      "km": 90.0,
+      "km": 79.9,
+      "school_id": "western"
+    },
+    {
+      "km": 89.0,
       "school_id": "yorku"
     },
     {
-      "km": 90.1,
+      "km": 89.1,
       "school_id": "seneca"
     },
     {
-      "km": 93.0,
+      "km": 92.9,
       "school_id": "georgebrown"
     },
     {
-      "km": 93.8,
+      "km": 93.9,
       "school_id": "ocadu"
     },
     {
-      "km": 94.9,
+      "km": 95.0,
       "school_id": "tmu"
     },
     {
@@ -103,10 +103,10 @@
   "obtained_via": [
     "ics"
   ],
-  "organizer": "Waterloo Tech (+adjacent) Events (Luma iCal)",
+  "organizer": "Waterloo Women in Computer Science events (iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://luma.com/aipowerhoursnov4"
+    "url": "https://uwaterloo.ca/women-in-computer-science/events/wics-x-outers-club-collab"
   },
   "review": null,
   "roles": [
@@ -122,21 +122,23 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": "luma-waterloo-tech-adjacent-events:0f15c8513302",
+  "series_id": "uwaterloo-wics-events-ics:5c958787c985",
   "sources": [
     {
       "adapter": "ics",
       "fetched_at": "2026-11-04T06:23:28.138808Z",
-      "source_id": "luma-waterloo-tech-adjacent-events",
-      "url": "https://luma.com/aipowerhoursnov4"
+      "source_id": "uwaterloo-wics-events-ics",
+      "url": "https://uwaterloo.ca/women-in-computer-science/events/wics-x-outers-club-collab"
     }
   ],
-  "start": "2026-11-04T22:30:00Z",
-  "status": "scheduled",
-  "summary": "Event by Waterloo Tech (+adjacent) Events (Luma iCal) in Kitchener.",
-  "tags": [],
+  "start": "2026-11-04T18:00:00-05:00",
+  "status": "past",
+  "summary": "Event by Waterloo Women in Computer Science events (iCal) in Columbia for women and non-binary students.",
+  "tags": [
+    "women_nonbinary"
+  ],
   "timezone": "America/Toronto",
-  "title": "AI Power Hours: Hiring your first 5 AI employees",
+  "title": "WiCS x Outers Club Collab",
   "travel_support": {
     "note": null,
     "stated": false

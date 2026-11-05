@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-18T02:00:00Z",
+  "first_seen": "2026-11-05T19:57:32.018724Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-techto-luma-ical-techto-s-12th-anniversary-rocketships-soir-e-9ea6",
+  "last_seen": "2026-11-05T19:57:32.018724Z",
+  "last_verified": "2026-11-05T19:57:32.018724Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "https://luma.com/event/evt-3skx7Xhs79a3dAu"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "TechTO (Luma iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://luma.com/toronto-12th-anniversary-rocketships-nov-17-2026"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "luma-techto:062283da19a2",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-05T19:57:32.018724Z",
+      "source_id": "luma-techto",
+      "url": "https://luma.com/toronto-12th-anniversary-rocketships-nov-17-2026"
+    }
+  ],
+  "start": "2026-11-17T23:00:00Z",
+  "status": "scheduled",
+  "summary": "Event by TechTO (Luma iCal).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "TechTO’s 12th Anniversary & Rocketships Soirée",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

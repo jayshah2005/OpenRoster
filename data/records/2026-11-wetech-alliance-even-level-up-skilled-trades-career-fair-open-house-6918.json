@@ -1,0 +1,81 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-11T19:30:00-05:00",
+  "first_seen": "2026-11-05T19:57:32.018724Z",
+  "geo": {
+    "lat": 42.24481,
+    "lon": -83.06095,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-wetech-alliance-even-level-up-skilled-trades-career-fair-open-house-6918",
+  "last_seen": "2026-11-05T19:57:32.018724Z",
+  "last_verified": "2026-11-05T19:57:32.018724Z",
+  "location": {
+    "city": "LaSalle",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "LaSalle Landing Event Centre"
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 3.5,
+      "school_id": "stclair"
+    },
+    {
+      "km": 6.6,
+      "school_id": "uwindsor"
+    }
+  ],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "WEtech Alliance events (Windsor-Essex)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.wetech-alliance.com/event/level-up-skilled-trades-career-fair-open-house/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-11-05T19:57:32.018724Z",
+      "source_id": "wetech-alliance-events",
+      "url": "https://www.wetech-alliance.com/event/level-up-skilled-trades-career-fair-open-house/"
+    }
+  ],
+  "start": "2026-11-11T15:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Free career fair by WEtech Alliance events (Windsor-Essex) in LaSalle.",
+  "tags": [],
+  "timezone": "America/Detroit",
+  "title": "Level Up! Skilled Trades Career Fair Open House",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "career_fair"
+}

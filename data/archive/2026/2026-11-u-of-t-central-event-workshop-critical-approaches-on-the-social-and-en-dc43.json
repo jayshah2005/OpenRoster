@@ -9,10 +9,10 @@
     "unknown"
   ],
   "end": null,
-  "first_seen": "2026-11-03T14:15:29.623988Z",
+  "first_seen": "2026-10-28T22:36:01.647139Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-u-of-t-central-event-info-session-lau-commercialization-catalyst-prize-8b9b",
+  "id": "2026-11-u-of-t-central-event-workshop-critical-approaches-on-the-social-and-en-dc43",
   "last_seen": "2026-11-04T06:23:28.138808Z",
   "last_verified": "2026-11-04T06:23:28.138808Z",
   "location": {
@@ -29,7 +29,7 @@
   "organizer": "U of T central events aggregator",
   "registration": {
     "route": "public_link",
-    "url": "https://www.entrepreneurship.artsci.utoronto.ca/events/info-session-lau-commercialization-catalyst-prize-computing-and-engineering-innovation"
+    "url": "https://www.artsci.utoronto.ca/events/workshop-critical-approaches-social-and-environmental-impact-ai"
   },
   "review": null,
   "roles": [
@@ -51,18 +51,18 @@
       "adapter": "html",
       "fetched_at": "2026-11-04T06:23:28.138808Z",
       "source_id": "uoft-central-events",
-      "url": "https://www.entrepreneurship.artsci.utoronto.ca/events/info-session-lau-commercialization-catalyst-prize-computing-and-engineering-innovation"
+      "url": "https://www.artsci.utoronto.ca/events/workshop-critical-approaches-social-and-environmental-impact-ai"
     }
   ],
   "start": "2026-11-05T00:00:00-05:00",
-  "status": "scheduled",
-  "summary": "Info session by U of T central events aggregator.",
+  "status": "past",
+  "summary": "Workshop by U of T central events aggregator.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Info Session Lau Commercialization Catalyst Prize for Computing and Engineering Innovation",
+  "title": "Workshop: Critical Approaches on the Social and Environmental Impact of AI",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "info_session"
+  "type": "workshop"
 }
