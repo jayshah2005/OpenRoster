@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-04T17:30:35.949903+00:00",
+  "checked": "2026-11-05T17:37:57.918731+00:00",
   "dated_items_in_html": 0,
   "feeds": [],
   "http_status": 200,
@@ -10,8 +10,8 @@
   "reasons": [],
   "robots": "allowed",
   "sitemaps": [
-    "https://jobs.rbc.com/ca/en/sitemap_index.xml",
-    "https://jobs.rbc.com/ca/fr/sitemap.xml"
+    "https://jobs.rbc.com/ca/fr/sitemap.xml",
+    "https://jobs.rbc.com/ca/en/sitemap_index.xml"
   ],
   "terms_forbid_automated": false,
   "terms_forbid_republish": false,

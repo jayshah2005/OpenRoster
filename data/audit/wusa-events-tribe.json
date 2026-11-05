@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-04T17:31:02.316050+00:00",
+  "checked": "2026-11-05T17:38:25.449545+00:00",
   "dated_items_in_html": 8,
   "feeds": [],
   "http_status": 200,
@@ -8,7 +8,7 @@
   "login_wall": false,
   "platform": "tribe",
   "reasons": [
-    "terms page not readable: https://wusa.ca/wp-json/tribe/events/v1/\\\"mailto:womenscentre@wusa.ca\\\": HTTP 404"
+    "terms page not readable: https://wusa.ca/wp-json/tribe/events/v1/\\\"https:\\/\\/www.instagram.com\\/wusamates\\/\\\": HTTP 404"
   ],
   "robots": "allowed",
   "sitemaps": [
@@ -17,7 +17,7 @@
   "terms_forbid_automated": null,
   "terms_forbid_republish": null,
   "terms_quotes": [],
-  "terms_url": "https://wusa.ca/wp-json/tribe/events/v1/\\\"mailto:womenscentre@wusa.ca\\\"",
+  "terms_url": "https://wusa.ca/wp-json/tribe/events/v1/\\\"https:\\/\\/www.instagram.com\\/wusamates\\/\\\"",
   "url": "https://wusa.ca/wp-json/tribe/events/v1/events",
   "verdict": "allowed"
 }

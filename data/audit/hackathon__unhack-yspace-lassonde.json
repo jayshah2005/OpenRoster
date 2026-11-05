@@ -1,9 +1,9 @@
 {
-  "checked": "2026-11-04T17:32:16.910265+00:00",
-  "dated_items_in_html": 409,
+  "checked": "2026-11-05T17:39:34.333188+00:00",
+  "dated_items_in_html": 426,
   "feeds": [],
   "http_status": 200,
-  "jsonld_events": 506,
+  "jsonld_events": 508,
   "known_verdict": null,
   "login_wall": false,
   "platform": "jsonld",
