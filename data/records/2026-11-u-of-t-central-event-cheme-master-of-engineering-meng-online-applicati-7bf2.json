@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-u-of-t-central-event-cheme-master-of-engineering-meng-online-applicati-7bf2",
-  "last_seen": "2026-11-04T19:45:46.604144Z",
-  "last_verified": "2026-11-04T19:45:46.604144Z",
+  "last_seen": "2026-11-05T06:46:42.157645Z",
+  "last_verified": "2026-11-05T06:46:42.157645Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-11-04T19:45:46.604144Z",
+      "fetched_at": "2026-11-05T06:46:42.157645Z",
       "source_id": "uoft-central-events",
       "url": "https://www.engineering.utoronto.ca/event/cheme-master-of-engineering-meng-online-application-support-drop-in/2026-11-24/"
     }

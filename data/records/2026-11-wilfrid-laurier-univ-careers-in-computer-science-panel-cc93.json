@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-25T12:00:00-05:00",
+  "first_seen": "2026-11-05T06:46:42.157645Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-wilfrid-laurier-univ-careers-in-computer-science-panel-cc93",
+  "last_seen": "2026-11-05T06:46:42.157645Z",
+  "last_verified": "2026-11-05T06:46:42.157645Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Wilfrid Laurier University events calendar (iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://events.wlu.ca/index.html"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "laurier-events-ics:11f642521523",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-05T06:46:42.157645Z",
+      "source_id": "laurier-events-ics",
+      "url": "https://events.wlu.ca/index.html"
+    }
+  ],
+  "start": "2026-11-25T11:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Tech talk by Wilfrid Laurier University events calendar (iCal).",
+  "tags": [],
+  "timezone": "America/New_York",
+  "title": "Careers in Computer Science Panel",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "tech_talk"
+}

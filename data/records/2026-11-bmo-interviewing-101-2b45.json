@@ -32,7 +32,21 @@
     "route": "public_link",
     "url": "https://jobs.bmo.com/ca/en/event/6a90a5a0acced97d63ac6c17/Interviews-101"
   },
-  "review": null,
+  "review": {
+    "evidence": [
+      {
+        "text": "missing from the last 2 successful fetches",
+        "url": "https://jobs.bmo.com/ca/en/event/6a90a485acced97d63ac6c07/Interviews-101"
+      },
+      {
+        "text": "missing from the last 2 successful fetches",
+        "url": "https://jobs.bmo.com/ca/en/event/6a90a5a0acced97d63ac6c17/Interviews-101"
+      }
+    ],
+    "reasons": [
+      "no longer listed by its source (possibly cancelled or moved)"
+    ]
+  },
   "roles": [
     {
       "closes": null,
@@ -62,7 +76,7 @@
     }
   ],
   "start": "2026-11-19T15:00:00-05:00",
-  "status": "scheduled",
+  "status": "needs_review",
   "summary": "Online workshop by BMO for undergraduates and graduate students.",
   "tags": [
     "year_inferred"

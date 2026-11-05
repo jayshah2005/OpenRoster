@@ -1,0 +1,165 @@
+{
+  "ai_suggested": [],
+  "all_day": true,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "grad"
+  ],
+  "end": null,
+  "first_seen": "2026-11-05T06:46:42.157645Z",
+  "geo": {
+    "lat": 43.66251,
+    "lon": -79.40118,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-u-of-t-central-event-info-session-university-of-toronto-music-technolo-508c",
+  "last_seen": "2026-11-05T06:46:42.157645Z",
+  "last_verified": "2026-11-05T06:46:42.157645Z",
+  "location": {
+    "city": "University of Toronto",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 0.4,
+      "school_id": "uoft"
+    },
+    {
+      "km": 1.3,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 1.7,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 1.9,
+      "school_id": "tmu"
+    },
+    {
+      "km": 6.6,
+      "school_id": "centennial"
+    },
+    {
+      "km": 11.9,
+      "school_id": "humber"
+    },
+    {
+      "km": 14.4,
+      "school_id": "seneca"
+    },
+    {
+      "km": 14.8,
+      "school_id": "yorku"
+    },
+    {
+      "km": 21.3,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 28.9,
+      "school_id": "algoma"
+    },
+    {
+      "km": 44.3,
+      "school_id": "durham"
+    },
+    {
+      "km": 50.3,
+      "school_id": "ontariotechu"
+    },
+    {
+      "km": 51.2,
+      "school_id": "trent"
+    },
+    {
+      "km": 56.8,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 57.7,
+      "school_id": "brock"
+    },
+    {
+      "km": 61.2,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 62.2,
+      "school_id": "niagara-college"
+    },
+    {
+      "km": 67.9,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 80.9,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 86.0,
+      "school_id": "georgian"
+    },
+    {
+      "km": 90.8,
+      "school_id": "laurier"
+    },
+    {
+      "km": 94.5,
+      "school_id": "fleming"
+    },
+    {
+      "km": 94.5,
+      "school_id": "uwaterloo"
+    }
+  ],
+  "obtained_via": [
+    "html"
+  ],
+  "organizer": "U of T central events aggregator",
+  "registration": {
+    "route": "public_link",
+    "url": "https://music.utoronto.ca/event/info-session-university-toronto-music-technology-digital-media-masters-program"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "html",
+      "fetched_at": "2026-11-05T06:46:42.157645Z",
+      "source_id": "uoft-central-events",
+      "url": "https://music.utoronto.ca/event/info-session-university-toronto-music-technology-digital-media-masters-program"
+    }
+  ],
+  "start": "2026-11-12T00:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Info session by U of T central events aggregator in University of Toronto for graduate students.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Info Session: University of Toronto - Music Technology & Digital Media Master's Program",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

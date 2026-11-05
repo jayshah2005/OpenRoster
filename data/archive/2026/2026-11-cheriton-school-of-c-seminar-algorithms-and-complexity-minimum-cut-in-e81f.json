@@ -6,26 +6,26 @@
     "note": null
   },
   "eligibility": [
-    "grad"
+    "unknown"
   ],
   "end": "2026-11-04T13:00:00-05:00",
-  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "first_seen": "2026-10-29T22:45:46.003761Z",
   "geo": {
     "lat": 43.4668,
     "lon": -80.51639,
     "source": "gazetteer"
   },
   "history": [],
-  "id": "2026-11-cheriton-school-of-c-phd-seminar-data-systems-rethinking-data-integrat-483e",
-  "last_seen": "2026-10-29T05:49:12.284396Z",
-  "last_verified": "2026-10-29T05:49:12.284396Z",
+  "id": "2026-11-cheriton-school-of-c-seminar-algorithms-and-complexity-minimum-cut-in-e81f",
+  "last_seen": "2026-11-04T06:23:28.138808Z",
+  "last_verified": "2026-11-04T06:23:28.138808Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "DC - William G. Davis Computer Research Centre 200 University Avenue West DC 3301 Waterloo ON N2L 3G1 Canada"
+    "venue_name": "DC - William G. Davis Computer Research Centre 200 University Avenue West Hybrid: DC 1304 | Online seminar Waterloo ON N"
   },
-  "mode": "unknown",
+  "mode": "hybrid",
   "near_schools": [
     {
       "km": 1.2,
@@ -106,19 +106,9 @@
   "organizer": "Cheriton School of Computer Science events (iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://uwaterloo.ca/computer-science/events/phd-seminar-data-systems-rethinking-data-integration-through-reference-the-abstract-relational-model"
+    "url": "https://uwaterloo.ca/computer-science/events/seminar-algorithms-and-complexity-minimum-cut-in-single-pass-streams"
   },
-  "review": {
-    "evidence": [
-      {
-        "text": "missing from the last 2 successful fetches",
-        "url": "https://uwaterloo.ca/computer-science/events/phd-seminar-data-systems-rethinking-data-integration-through-reference-the-abstract-relational-model"
-      }
-    ],
-    "reasons": [
-      "no longer listed by its source (possibly cancelled or moved)"
-    ]
-  },
+  "review": null,
   "roles": [
     {
       "closes": null,
@@ -132,21 +122,21 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": "uwaterloo-cs-events-ics:1461905cafdd",
+  "series_id": "uwaterloo-cs-events-ics:a6e402444613",
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-10-29T05:49:12.284396Z",
+      "fetched_at": "2026-11-04T06:23:28.138808Z",
       "source_id": "uwaterloo-cs-events-ics",
-      "url": "https://uwaterloo.ca/computer-science/events/phd-seminar-data-systems-rethinking-data-integration-through-reference-the-abstract-relational-model"
+      "url": "https://uwaterloo.ca/computer-science/events/seminar-algorithms-and-complexity-minimum-cut-in-single-pass-streams"
     }
   ],
   "start": "2026-11-04T12:00:00-05:00",
-  "status": "needs_review",
-  "summary": "Tech talk by Cheriton School of Computer Science events (iCal) in Waterloo for graduate students.",
+  "status": "past",
+  "summary": "Hybrid tech talk by Cheriton School of Computer Science events (iCal) in Waterloo.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "PhD Seminar • Data Systems • Rethinking Data Integration Through Reference: The Abstract Relational Model",
+  "title": "Seminar • Algorithms and Complexity • Minimum Cut in Single-Pass Streams",
   "travel_support": {
     "note": null,
     "stated": false

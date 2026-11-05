@@ -156,7 +156,7 @@
     }
   ],
   "start": "2026-11-04T17:00:00Z",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Event by Waterloo Tech (+adjacent) Events (Luma iCal) in King.",
   "tags": [],
   "timezone": "America/Toronto",

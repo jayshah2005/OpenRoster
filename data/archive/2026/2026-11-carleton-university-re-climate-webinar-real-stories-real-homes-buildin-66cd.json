@@ -76,7 +76,7 @@
     }
   ],
   "start": "2026-11-04T12:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Hybrid event by Carleton University central events (WordPress REST) in Ottawa.",
   "tags": [],
   "timezone": "America/Toronto",

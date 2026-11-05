@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-western-university-e-international-internships-global-honour-informati-1496",
-  "last_seen": "2026-11-04T19:45:46.604144Z",
-  "last_verified": "2026-11-04T19:45:46.604144Z",
+  "last_seen": "2026-11-05T06:46:42.157645Z",
+  "last_verified": "2026-11-05T06:46:42.157645Z",
   "location": {
     "city": "London",
     "country": "CA",
@@ -55,7 +55,7 @@
   "organizer": "Western University events calendar (iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://www.uwo.ca/events/"
+    "url": "https://www.uwo.ca/events/2026/11/wi-international-internships-and-global-honour-info-session.html"
   },
   "review": null,
   "roles": [
@@ -75,20 +75,20 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-04T19:45:46.604144Z",
+      "fetched_at": "2026-11-05T06:46:42.157645Z",
       "source_id": "western-events-ics",
       "url": "https://www.uwo.ca/events/"
     },
     {
       "adapter": "api",
-      "fetched_at": "2026-11-04T19:45:46.604144Z",
+      "fetched_at": "2026-11-05T06:46:42.157645Z",
       "source_id": "western-events-json",
       "url": "https://www.uwo.ca/events/2026/11/wi-international-internships-and-global-honour-info-session.html"
     }
   ],
   "start": "2026-11-12T12:00:00-05:00",
   "status": "scheduled",
-  "summary": "Info session by Western University events calendar (iCal).",
+  "summary": "Info session by Western University events (JSON) in London.",
   "tags": [],
   "timezone": "America/New_York",
   "title": "International Internships & Global Honour Information Session",
