@@ -1,6 +1,6 @@
 {
-  "checked": "2026-10-27T15:32:52.327143+00:00",
-  "dated_items_in_html": 91,
+  "checked": "2026-11-06T16:55:58.249714+00:00",
+  "dated_items_in_html": 92,
   "feeds": [],
   "http_status": 200,
   "jsonld_events": 0,
@@ -8,7 +8,7 @@
   "login_wall": false,
   "platform": "html",
   "reasons": [
-    "terms page not readable: https://carleton.ca/scs/wp-json/wp/v2/\\\"https:\\/\\/carleton.ca\\/engineering-design\\/about\\/womeninengineering\\/\\\": HTTP 404"
+    "terms page not readable: https://carleton.ca/scs/wp-json/wp/v2/\\\"https:\\/\\/can01.safelinks.protection.outlook.com\\/?url=https%3A%2F%2Fbsidesottawa.ca%2F&data=05%7C02%7CMaddiBruining%40cunet.carleton.ca%7Cc4dd049ddda14c9905f708df3b5de6c8%7C6ad91895de06485ebc51fce126cc8530%7C0%7C0%7C639294946639279304%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=mrdkc6TsLMlBAWS82k28E0%2BYP2KL04kExVzt%2BwzSo%2Bw%3D&reserved=0\\\": HTTP 404"
   ],
   "robots": "allowed",
   "sitemaps": [
@@ -116,7 +116,7 @@
   "terms_forbid_automated": null,
   "terms_forbid_republish": null,
   "terms_quotes": [],
-  "terms_url": "https://carleton.ca/scs/wp-json/wp/v2/\\\"https:\\/\\/carleton.ca\\/engineering-design\\/about\\/womeninengineering\\/\\\"",
+  "terms_url": "https://carleton.ca/scs/wp-json/wp/v2/\\\"https:\\/\\/can01.safelinks.protection.outlook.com\\/?url=https%3A%2F%2Fbsidesottawa.ca%2F&data=05%7C02%7CMaddiBruining%40cunet.carleton.ca%7Cc4dd049ddda14c9905f708df3b5de6c8%7C6ad91895de06485ebc51fce126cc8530%7C0%7C0%7C639294946639279304%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=mrdkc6TsLMlBAWS82k28E0%2BYP2KL04kExVzt%2BwzSo%2Bw%3D&reserved=0\\\"",
   "url": "https://carleton.ca/scs/wp-json/wp/v2/cu_event?per_page=100",
   "verdict": "allowed"
 }

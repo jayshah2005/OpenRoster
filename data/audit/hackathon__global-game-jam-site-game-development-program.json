@@ -1,21 +1,19 @@
 {
-  "checked": "2026-11-05T17:39:18.337746+00:00",
-  "dated_items_in_html": 4,
+  "checked": "2026-11-06T16:57:22.191850+00:00",
+  "dated_items_in_html": 3,
   "feeds": [],
   "http_status": 200,
   "jsonld_events": 0,
   "known_verdict": null,
   "login_wall": false,
   "platform": "html",
-  "reasons": [
-    "no terms-of-use link found on the page"
-  ],
+  "reasons": [],
   "robots": "allowed",
   "sitemaps": [],
-  "terms_forbid_automated": null,
-  "terms_forbid_republish": null,
+  "terms_forbid_automated": false,
+  "terms_forbid_republish": false,
   "terms_quotes": [],
-  "terms_url": null,
+  "terms_url": "https://educationnewscanada.com/article/education/region/ontario/27/1227329/cican-welcomes-investments-to-strengthen-indigenous-talent-and-economic-participation.html",
   "url": "https://educationnewscanada.com/article/education/region/ontario/27/745152/niagara-collegejanuary-28-2019-gamers-unite-at-niagara-college-for-fourth-annual-global-game-jam.html",
   "verdict": "allowed"
 }

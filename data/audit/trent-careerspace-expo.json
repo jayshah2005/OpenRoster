@@ -1,21 +1,19 @@
 {
-  "checked": "2026-11-05T17:38:14.942565+00:00",
-  "dated_items_in_html": 0,
+  "checked": "2026-11-06T16:56:01.811502+00:00",
+  "dated_items_in_html": 2,
   "feeds": [],
-  "http_status": null,
+  "http_status": 200,
   "jsonld_events": 0,
   "known_verdict": null,
   "login_wall": false,
-  "platform": "unknown",
-  "reasons": [
-    "robots.txt disallows this path for our user agent"
-  ],
-  "robots": "disallowed",
+  "platform": "html",
+  "reasons": [],
+  "robots": "allowed",
   "sitemaps": [],
-  "terms_forbid_automated": null,
-  "terms_forbid_republish": null,
+  "terms_forbid_automated": false,
+  "terms_forbid_republish": false,
   "terms_quotes": [],
-  "terms_url": null,
+  "terms_url": "https://www.trentu.ca",
   "url": "https://www.trentu.ca/careerspace/expo",
-  "verdict": "blocked"
+  "verdict": "allowed"
 }

@@ -1,23 +1,21 @@
 {
-  "checked": "2026-10-26T16:19:11.514698+00:00",
-  "dated_items_in_html": 28,
+  "checked": "2026-11-06T16:56:39.468765+00:00",
+  "dated_items_in_html": 0,
   "feeds": [],
-  "http_status": 200,
+  "http_status": 403,
   "jsonld_events": 0,
   "known_verdict": null,
-  "login_wall": false,
-  "platform": "html",
+  "login_wall": true,
+  "platform": "unknown",
   "reasons": [
-    "no terms-of-use link found on the page"
+    "HTTP 403: login wall or bot protection; not bypassed"
   ],
-  "robots": "allowed",
-  "sitemaps": [
-    "https://css.uwindsor.ca/sitemap.xml"
-  ],
+  "robots": "no_robots",
+  "sitemaps": [],
   "terms_forbid_automated": null,
   "terms_forbid_republish": null,
   "terms_quotes": [],
   "terms_url": null,
   "url": "https://css.uwindsor.ca/events",
-  "verdict": "allowed"
+  "verdict": "blocked"
 }
