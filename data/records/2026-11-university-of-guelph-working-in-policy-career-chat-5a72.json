@@ -11,7 +11,20 @@
   "end": "2026-11-16T20:30:00Z",
   "first_seen": "2026-11-03T23:24:00.075219Z",
   "geo": null,
-  "history": [],
+  "history": [
+    {
+      "at": "2026-11-06T19:36:27.028830Z",
+      "field": "start",
+      "new": "2026-11-16T18:30:00+00:00",
+      "old": "2026-11-16T19:30:00+00:00"
+    },
+    {
+      "at": "2026-11-06T19:36:27.028830Z",
+      "field": "start",
+      "new": "2026-11-16T19:30:00+00:00",
+      "old": "2026-11-16T18:30:00+00:00"
+    }
+  ],
   "id": "2026-11-university-of-guelph-working-in-policy-career-chat-5a72",
   "last_seen": "2026-11-06T06:50:46.295002Z",
   "last_verified": "2026-11-06T06:50:46.295002Z",
@@ -61,7 +74,7 @@
     }
   ],
   "start": "2026-11-16T19:30:00Z",
-  "status": "scheduled",
+  "status": "moved",
   "summary": "Online networking event by University of Guelph GryphLife (CampusGroups) public iCal.",
   "tags": [],
   "timezone": "America/Toronto",

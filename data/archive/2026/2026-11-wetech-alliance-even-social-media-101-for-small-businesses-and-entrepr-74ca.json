@@ -55,7 +55,7 @@
     }
   ],
   "start": "2026-11-05T13:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Free online networking event by WEtech Alliance events (Windsor-Essex).",
   "tags": [],
   "timezone": "America/Detroit",

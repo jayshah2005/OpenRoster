@@ -8,11 +8,11 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-05T21:00:00-05:00",
-  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "end": "2026-11-05T14:00:00-05:00",
+  "first_seen": "2026-11-03T00:58:30.695200Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-hackforge-s-linux-user-group-virtual-social-5775",
+  "id": "2026-11-wetech-alliance-even-from-bootstrapping-to-venture-capital-the-funding-73d7",
   "last_seen": "2026-11-05T06:46:42.157645Z",
   "last_verified": "2026-11-05T06:46:42.157645Z",
   "location": {
@@ -26,10 +26,10 @@
   "obtained_via": [
     "tribe"
   ],
-  "organizer": "Hackforge",
+  "organizer": "WEtech Alliance events (Windsor-Essex)",
   "registration": {
     "route": "public_link",
-    "url": "https://www.wetech-alliance.com/event/hackforges-linux-user-group-virtual-social/"
+    "url": "https://www.wetech-alliance.com/event/from-bootstrapping-to-venture-capital-the-funding-landscape-for-startups/"
   },
   "review": null,
   "roles": [
@@ -51,18 +51,18 @@
       "adapter": "tribe",
       "fetched_at": "2026-11-05T06:46:42.157645Z",
       "source_id": "wetech-alliance-events",
-      "url": "https://www.wetech-alliance.com/event/hackforges-linux-user-group-virtual-social/"
+      "url": "https://www.wetech-alliance.com/event/from-bootstrapping-to-venture-capital-the-funding-landscape-for-startups/"
     }
   ],
-  "start": "2026-11-05T19:00:00-05:00",
-  "status": "scheduled",
-  "summary": "Free online networking event by Hackforge.",
+  "start": "2026-11-05T13:00:00-05:00",
+  "status": "past",
+  "summary": "Free online event by WEtech Alliance events (Windsor-Essex).",
   "tags": [],
   "timezone": "America/Detroit",
-  "title": "Hackforge’s Linux User Group (virtual social)",
+  "title": "From Bootstrapping to Venture Capital | The Funding Landscape for Startups",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "networking"
+  "type": "other"
 }

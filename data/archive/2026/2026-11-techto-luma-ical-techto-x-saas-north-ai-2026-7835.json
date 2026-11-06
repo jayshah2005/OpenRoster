@@ -1,6 +1,6 @@
 {
   "ai_suggested": [],
-  "all_day": false,
+  "all_day": true,
   "cost": {
     "kind": "unknown",
     "note": null
@@ -8,7 +8,7 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-05T15:00:00-05:00",
+  "end": "2026-11-05T23:59:00-05:00",
   "first_seen": "2026-10-24T16:53:41.410358Z",
   "geo": {
     "lat": 45.41117,
@@ -16,14 +16,14 @@
     "source": "gazetteer"
   },
   "history": [],
-  "id": "2026-11-carleton-career-serv-meet-and-greet-the-ontario-provincial-police-recr-2f78",
+  "id": "2026-11-techto-luma-ical-techto-x-saas-north-ai-2026-7835",
   "last_seen": "2026-11-05T06:46:42.157645Z",
   "last_verified": "2026-11-05T06:46:42.157645Z",
   "location": {
     "city": "Ottawa",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "NN"
+    "venue_name": "Rogers Centre Ottawa, 55 Colonel By Drive, Ottawa, ON K1N, Ottawa, ON K1N 9J2, Canada"
   },
   "mode": "unknown",
   "near_schools": [
@@ -45,12 +45,12 @@
     }
   ],
   "obtained_via": [
-    "api"
+    "ics"
   ],
-  "organizer": "Carleton Career Services events (WordPress REST)",
+  "organizer": "TechTO (Luma iCal)",
   "registration": {
-    "route": "school_portal_login",
-    "url": "https://carleton.ca/career/event/meet-and-greet-the-ontario-provincial-police/"
+    "route": "public_link",
+    "url": "https://luma.com/techto-saasnorth2026"
   },
   "review": null,
   "roles": [
@@ -64,26 +64,26 @@
     }
   ],
   "schools": [
-    "carleton"
+    "open_to_all"
   ],
-  "series_id": null,
+  "series_id": "luma-techto:a9592e8a724b",
   "sources": [
     {
-      "adapter": "api",
+      "adapter": "ics",
       "fetched_at": "2026-11-05T06:46:42.157645Z",
-      "source_id": "carleton-career-events-api",
-      "url": "https://carleton.ca/career/event/meet-and-greet-the-ontario-provincial-police/"
+      "source_id": "luma-techto",
+      "url": "https://luma.com/techto-saasnorth2026"
     }
   ],
-  "start": "2026-11-05T11:30:00-05:00",
-  "status": "scheduled",
-  "summary": "Networking event by Carleton Career Services events (WordPress REST) in Ottawa.",
+  "start": "2026-11-03T00:00:00-05:00",
+  "status": "past",
+  "summary": "Event by TechTO (Luma iCal) in Ottawa.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Meet and Greet: The Ontario Provincial Police (Recruitment Kiosk)",
+  "title": "TechTO x SAAS NORTH AI 2026",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "networking"
+  "type": "other"
 }

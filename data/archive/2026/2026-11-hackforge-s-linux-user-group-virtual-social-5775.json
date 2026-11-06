@@ -1,36 +1,35 @@
 {
   "ai_suggested": [],
-  "all_day": true,
+  "all_day": false,
   "cost": {
-    "kind": "unknown",
+    "kind": "free",
     "note": null
   },
   "eligibility": [
-    "undergrad",
-    "grad"
+    "unknown"
   ],
-  "end": null,
+  "end": "2026-11-05T21:00:00-05:00",
   "first_seen": "2026-10-24T16:53:41.410358Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-bmo-first-stride-networking-event-recruiter-ask-me-any-ffb0",
+  "id": "2026-11-hackforge-s-linux-user-group-virtual-social-5775",
   "last_seen": "2026-11-05T06:46:42.157645Z",
   "last_verified": "2026-11-05T06:46:42.157645Z",
   "location": {
     "city": null,
-    "country": "CA",
+    "country": null,
     "region": null,
     "venue_name": null
   },
-  "mode": "in_person",
+  "mode": "online",
   "near_schools": [],
   "obtained_via": [
-    "html"
+    "tribe"
   ],
-  "organizer": "BMO",
+  "organizer": "Hackforge",
   "registration": {
     "route": "public_link",
-    "url": "https://jobs.bmo.com/ca/en/student-events"
+    "url": "https://www.wetech-alliance.com/event/hackforges-linux-user-group-virtual-social/"
   },
   "review": null,
   "roles": [
@@ -49,21 +48,21 @@
   "series_id": null,
   "sources": [
     {
-      "adapter": "html",
+      "adapter": "tribe",
       "fetched_at": "2026-11-05T06:46:42.157645Z",
-      "source_id": "bmo-student-events",
-      "url": "https://jobs.bmo.com/ca/en/student-events"
+      "source_id": "wetech-alliance-events",
+      "url": "https://www.wetech-alliance.com/event/hackforges-linux-user-group-virtual-social/"
     }
   ],
-  "start": "2026-11-06T00:00:00-05:00",
-  "status": "scheduled",
-  "summary": "Workshop by BMO for undergraduates and graduate students.",
+  "start": "2026-11-05T19:00:00-05:00",
+  "status": "past",
+  "summary": "Free online networking event by Hackforge.",
   "tags": [],
-  "timezone": "America/Toronto",
-  "title": "First Stride Networking Event | Recruiter Ask Me Anything | BMO Coffee & Career Chats",
+  "timezone": "America/Detroit",
+  "title": "Hackforge’s Linux User Group (virtual social)",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "workshop"
+  "type": "networking"
 }

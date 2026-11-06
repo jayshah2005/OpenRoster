@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-u-of-t-central-event-how-to-use-networking-to-learn-about-careers-in-k-a5fc",
-  "last_seen": "2026-11-05T19:57:32.018724Z",
-  "last_verified": "2026-11-05T19:57:32.018724Z",
+  "last_seen": "2026-11-06T19:36:27.028830Z",
+  "last_verified": "2026-11-06T19:36:27.028830Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-11-05T19:57:32.018724Z",
+      "fetched_at": "2026-11-06T19:36:27.028830Z",
       "source_id": "uoft-central-events",
       "url": "https://kpe.utoronto.ca/fri-11272026-1300/how-use-networking-learn-about-careers-kinesiology"
     }
