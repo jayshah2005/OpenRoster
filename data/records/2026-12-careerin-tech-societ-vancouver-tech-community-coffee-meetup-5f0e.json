@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-12-careerin-tech-societ-vancouver-tech-community-coffee-meetup-5f0e",
-  "last_seen": "2026-11-05T06:46:42.157645Z",
-  "last_verified": "2026-11-05T06:46:42.157645Z",
+  "last_seen": "2026-11-06T06:50:46.295002Z",
+  "last_verified": "2026-11-06T06:50:46.295002Z",
   "location": {
     "city": "Vancouver",
     "country": "CA",
@@ -53,7 +53,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-05T06:46:42.157645Z",
+      "fetched_at": "2026-11-06T06:50:46.295002Z",
       "source_id": "luma-careerin-tech-society",
       "url": "https://luma.com/VanTechCoffee2026Dec12"
     }

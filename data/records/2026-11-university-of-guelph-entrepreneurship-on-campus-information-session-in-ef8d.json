@@ -617,11 +617,29 @@
       "field": "start",
       "new": "2026-11-13T00:00:00+00:00",
       "old": "2026-11-12T22:00:00+00:00"
+    },
+    {
+      "at": "2026-11-06T06:50:46.295002Z",
+      "field": "start",
+      "new": "2026-11-12T17:00:00+00:00",
+      "old": "2026-11-13T00:00:00+00:00"
+    },
+    {
+      "at": "2026-11-06T06:50:46.295002Z",
+      "field": "start",
+      "new": "2026-11-12T22:00:00+00:00",
+      "old": "2026-11-12T17:00:00+00:00"
+    },
+    {
+      "at": "2026-11-06T06:50:46.295002Z",
+      "field": "start",
+      "new": "2026-11-13T00:00:00+00:00",
+      "old": "2026-11-12T22:00:00+00:00"
     }
   ],
   "id": "2026-11-university-of-guelph-entrepreneurship-on-campus-information-session-in-ef8d",
-  "last_seen": "2026-11-05T06:46:42.157645Z",
-  "last_verified": "2026-11-05T06:46:42.157645Z",
+  "last_seen": "2026-11-06T06:50:46.295002Z",
+  "last_verified": "2026-11-06T06:50:46.295002Z",
   "location": {
     "city": null,
     "country": null,
@@ -656,19 +674,19 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-05T06:46:42.157645Z",
+      "fetched_at": "2026-11-06T06:50:46.295002Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=376773"
     },
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-05T06:46:42.157645Z",
+      "fetched_at": "2026-11-06T06:50:46.295002Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=376776"
     },
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-05T06:46:42.157645Z",
+      "fetched_at": "2026-11-06T06:50:46.295002Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=379988"
     }

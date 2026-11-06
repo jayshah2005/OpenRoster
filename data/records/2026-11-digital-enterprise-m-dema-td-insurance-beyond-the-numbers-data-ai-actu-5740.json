@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-digital-enterprise-m-dema-td-insurance-beyond-the-numbers-data-ai-actu-5740",
-  "last_seen": "2026-11-05T06:46:42.157645Z",
-  "last_verified": "2026-11-05T06:46:42.157645Z",
+  "last_seen": "2026-11-06T06:50:46.295002Z",
+  "last_verified": "2026-11-06T06:50:46.295002Z",
   "location": {
     "city": "Mississauga",
     "country": "CA",
@@ -142,7 +142,7 @@
   "sources": [
     {
       "adapter": "tribe",
-      "fetched_at": "2026-11-05T06:46:42.157645Z",
+      "fetched_at": "2026-11-06T06:50:46.295002Z",
       "source_id": "uoft-sop-events",
       "url": "https://sop.utoronto.ca/event/dema-x-td-insurance-beyond-the-numbers-data-ai-actuarial-careers/"
     }

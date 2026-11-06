@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-university-of-waterl-civic-hackathon-2026-a363",
-  "last_seen": "2026-11-05T19:57:32.018724Z",
-  "last_verified": "2026-11-05T19:57:32.018724Z",
+  "last_seen": "2026-11-06T06:50:46.295002Z",
+  "last_verified": "2026-11-06T06:50:46.295002Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,13 +49,13 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-05T19:57:32.018724Z",
+      "fetched_at": "2026-11-06T06:50:46.295002Z",
       "source_id": "uwaterloo-central-events-ics",
       "url": "https://uwaterloo.ca/events/events/civic-hackathon-2026"
     },
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-05T19:57:32.018724Z",
+      "fetched_at": "2026-11-06T06:50:46.295002Z",
       "source_id": "uwaterloo-engineering-events-ics",
       "url": "https://uwaterloo.ca/engineering/events/civic-hackathon-2026"
     }

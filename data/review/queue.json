@@ -1,5 +1,7 @@
 {
-  "flagged_missing": [],
+  "flagged_missing": [
+    "2026-11-cheriton-school-of-c-phd-seminar-computer-graphics-rcgp-resource-contr-73c9"
+  ],
   "items": [
     {
       "evidence": " Sheridan College's largest hackathon this year, bringing students from across the GTA to come and build meaningful software together. BearHacks 2026 Sheridan College's largest hackathon this year, bringing students from across the GTA to come and build meaningful software together. Sheridan College",
@@ -24,7 +26,7 @@
       "url": "https://brockcsc.ca/events"
     },
     {
-      "evidence": "ConUHacks X About Statistics Sponsors Team FAQ ConUHacks X January 24-25, 2026 In-Person Concordia University CONUHACKS Register Now What is ConUHacks? ConUHacks is a 24-hour competition where a team of up to four students build a software or hardware project, referred to as a 'hack'. Our theme and ",
+      "evidence": "CONUHACKS XI - Launch Party ⭐️ Join us Friday, November 6 from 5:00 PM-7:00 PM at 1356 Rue Sainte-Catherine O, Montréal. Be part of a night of innovation, snacks, networking and the countdown to the 11th edition of Québec’s largest student hackathon. 00 Days 00 Hours 00 Minutes 00 Seconds RSVP / Lea",
       "key": "hackathon:conuhacks|hackathon:conuhacks",
       "reasons": [
         "no event date found with confidence (site may be JS-only or not updated)",
@@ -101,11 +103,10 @@
       "url": "https://genaigenesis.ca/"
     },
     {
-      "evidence": "﻿ Niagara College - Gamers unite at Niagara College for fourth annual Global Game Jam { \"@context\" : \"https://schema.org\", \"@type\" : \"Organization\", \"name\" : \"Education News Canada\", \"url\" : \"https://educationnewscanada.com\", \"logo\" : \"https://educationnewscanada.com/CE/top_logo_reseau.png\", \"sameAs",
-      "key": "hackathon:global-game-jam-site-game-development-program|hackathon:global-game-jam-site-game-development-program",
+      "evidence": "",
+      "key": "hackathon:global-game-jam-site-game-development-program|https://educationnewscanada.com/article/education/region/ontario/27/745152/niagara-collegejanuary-28-2019-gamers-unite-at-niagara-college-for-fourth-annual-global-game-jam.html|nodate|global game jam site (game development program)",
       "reasons": [
-        "no event date found with confidence (site may be JS-only or not updated)",
-        "no date could be parsed with confidence"
+        "site could not be fetched: https://educationnewscanada.com/article/education/region/ontario/27/745152/niagara-collegejanuary-28-2019-gamers-unite-at-niagara-college-for-fourth-a"
       ],
       "source_id": "hackathon:global-game-jam-site-game-development-program",
       "title": "Global Game Jam site (Game Development program)",
@@ -188,7 +189,17 @@
       "url": "https://makeuoft.ca"
     },
     {
-      "evidence": "Facebook Instagram X HOME NEWS FEATURES SPORTS ARTS OPINION VIDEOS Search Thursday, November 5, 2026 Facebook Instagram X Brock's Only Independent Student Newspaper One of the only worker-managed newspapers in Canada Search NEWS FEATURES SPORTS ARTS OPINION PODCAST MORE ABOUT Beginner’s Guide ARCHIV",
+      "evidence": "",
+      "key": "hackathon:mchacks|https://mchacks.ca|nodate|mchacks",
+      "reasons": [
+        "site could not be fetched: https://mchacks.ca: disallowed by robots.txt"
+      ],
+      "source_id": "hackathon:mchacks",
+      "title": "McHacks",
+      "url": "https://mchacks.ca"
+    },
+    {
+      "evidence": "Facebook Instagram X HOME NEWS FEATURES SPORTS ARTS OPINION VIDEOS Search Friday, November 6, 2026 Facebook Instagram X Brock's Only Independent Student Newspaper One of the only worker-managed newspapers in Canada Search NEWS FEATURES SPORTS ARTS OPINION PODCAST MORE ABOUT Beginner’s Guide ARCHIVE ",
       "key": "hackathon:mother-of-all-game-jams|hackathon:mother-of-all-game-jams",
       "reasons": [
         "no event date found with confidence (site may be JS-only or not updated)",

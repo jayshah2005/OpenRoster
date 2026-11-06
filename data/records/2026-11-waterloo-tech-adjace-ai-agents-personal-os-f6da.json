@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-waterloo-tech-adjace-ai-agents-personal-os-f6da",
-  "last_seen": "2026-11-05T06:46:42.157645Z",
-  "last_verified": "2026-11-05T06:46:42.157645Z",
+  "last_seen": "2026-11-06T06:50:46.295002Z",
+  "last_verified": "2026-11-06T06:50:46.295002Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-05T06:46:42.157645Z",
+      "fetched_at": "2026-11-06T06:50:46.295002Z",
       "source_id": "luma-waterloo-tech-adjacent-events",
       "url": "https://luma.com/2yn1kqpr"
     }
