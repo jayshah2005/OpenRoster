@@ -132,7 +132,17 @@
     "route": "public_link",
     "url": "https://luma.com/3r1r6t7i"
   },
-  "review": null,
+  "review": {
+    "evidence": [
+      {
+        "text": "missing from the last 2 successful fetches",
+        "url": "https://luma.com/3r1r6t7i"
+      }
+    ],
+    "reasons": [
+      "no longer listed by its source (possibly cancelled or moved)"
+    ]
+  },
   "roles": [
     {
       "closes": null,
@@ -156,7 +166,7 @@
     }
   ],
   "start": "2026-11-24T23:00:00Z",
-  "status": "scheduled",
+  "status": "needs_review",
   "summary": "Free event by Waterloo Tech (+adjacent) Events (Luma iCal) in King.",
   "tags": [],
   "timezone": "America/Toronto",

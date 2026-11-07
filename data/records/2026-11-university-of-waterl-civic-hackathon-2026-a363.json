@@ -11,7 +11,14 @@
   "end": "2026-11-14T14:00:00-05:00",
   "first_seen": "2026-11-05T19:57:32.018724Z",
   "geo": null,
-  "history": [],
+  "history": [
+    {
+      "at": "2026-11-07T21:51:37.160558Z",
+      "field": "start",
+      "new": "2026-11-12T18:00:00-05:00",
+      "old": "2026-11-12T19:00:00-05:00"
+    }
+  ],
   "id": "2026-11-university-of-waterl-civic-hackathon-2026-a363",
   "last_seen": "2026-11-07T05:58:48.098700Z",
   "last_verified": "2026-11-07T05:58:48.098700Z",
@@ -29,7 +36,7 @@
   "organizer": "University of Waterloo central events calendar (WCMS iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://uwaterloo.ca/events/events/civic-hackathon-2026"
+    "url": "https://uwaterloo.ca/engineering/events/civic-hackathon-2026"
   },
   "review": null,
   "roles": [
@@ -60,9 +67,9 @@
       "url": "https://uwaterloo.ca/engineering/events/civic-hackathon-2026"
     }
   ],
-  "start": "2026-11-12T19:00:00-05:00",
-  "status": "scheduled",
-  "summary": "Free online hackathon by University of Waterloo central events calendar (WCMS iCal).",
+  "start": "2026-11-12T18:00:00-05:00",
+  "status": "moved",
+  "summary": "Free online hackathon by Waterloo Engineering events (iCal).",
   "tags": [],
   "timezone": "America/Toronto",
   "title": "CIVIC Hackathon 2026",

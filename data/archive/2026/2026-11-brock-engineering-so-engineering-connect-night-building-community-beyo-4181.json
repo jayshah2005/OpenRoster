@@ -140,7 +140,7 @@
     }
   ],
   "start": "2026-11-06T18:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Networking event by Brock Engineering Society in St. Catharines for undergraduates.",
   "tags": [],
   "timezone": "America/Toronto",
