@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-western-university-e-insight-out-exhibition-walkthrough-ea93",
-  "last_seen": "2026-11-06T19:36:27.028830Z",
-  "last_verified": "2026-11-06T19:36:27.028830Z",
+  "last_seen": "2026-11-07T05:58:48.098700Z",
+  "last_verified": "2026-11-07T05:58:48.098700Z",
   "location": {
     "city": "London",
     "country": "CA",
@@ -74,7 +74,7 @@
   "sources": [
     {
       "adapter": "api",
-      "fetched_at": "2026-11-06T19:36:27.028830Z",
+      "fetched_at": "2026-11-07T05:58:48.098700Z",
       "source_id": "western-events-json",
       "url": "https://www.uwo.ca/events/2026/11/insight-out-informal-exhibition-walkthrough.html"
     }

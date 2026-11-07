@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-12-cheriton-school-of-c-phd-defence-scientific-computation-generative-pre-d0c3",
-  "last_seen": "2026-11-06T06:50:46.295002Z",
-  "last_verified": "2026-11-06T06:50:46.295002Z",
+  "last_seen": "2026-11-07T05:58:48.098700Z",
+  "last_verified": "2026-11-07T05:58:48.098700Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
@@ -126,7 +126,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-06T06:50:46.295002Z",
+      "fetched_at": "2026-11-07T05:58:48.098700Z",
       "source_id": "uwaterloo-cs-events-ics",
       "url": "https://uwaterloo.ca/computer-science/events/phd-defence-scientific-computation-generative-predictive-coding-a-closer-look-into-the-brain-like-network"
     }
