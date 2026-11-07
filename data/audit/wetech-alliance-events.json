@@ -1,6 +1,6 @@
 {
-  "checked": "2026-11-05T17:39:01.612112+00:00",
-  "dated_items_in_html": 2,
+  "checked": "2026-11-07T15:55:52.368261+00:00",
+  "dated_items_in_html": 4,
   "feeds": [],
   "http_status": 200,
   "jsonld_events": 0,
@@ -8,7 +8,7 @@
   "login_wall": false,
   "platform": "tribe",
   "reasons": [
-    "terms page not readable: https://www.wetech-alliance.com/wp-json/tribe/events/v1/\\\"https:\\/\\/aquaaction.org\\/en\\/our-programs\\/aquahacking-challenge\\/binational-finale-2026#top\\\": HTTP 404"
+    "terms page not readable: https://www.wetech-alliance.com/wp-json/tribe/events/v1/\\\"https:\\/\\/sheleadsck.com\\/annual-event\\\": HTTP 404"
   ],
   "robots": "allowed",
   "sitemaps": [
@@ -17,7 +17,7 @@
   "terms_forbid_automated": null,
   "terms_forbid_republish": null,
   "terms_quotes": [],
-  "terms_url": "https://www.wetech-alliance.com/wp-json/tribe/events/v1/\\\"https:\\/\\/aquaaction.org\\/en\\/our-programs\\/aquahacking-challenge\\/binational-finale-2026#top\\\"",
+  "terms_url": "https://www.wetech-alliance.com/wp-json/tribe/events/v1/\\\"https:\\/\\/sheleadsck.com\\/annual-event\\\"",
   "url": "https://www.wetech-alliance.com/wp-json/tribe/events/v1/events",
   "verdict": "allowed"
 }
