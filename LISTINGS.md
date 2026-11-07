@@ -2,14 +2,13 @@
 
 Hackathons, info sessions, talks, career fairs, workshops, competitions and early-career programs for CS students, soonest deadline first. Filter, subscribe to a calendar, or see details at https://openroster-seven.vercel.app.
 
-255 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
+254 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
 
 | Apply by | Starts | Opportunity | Organizer | Type | Where | Ways to take part |
 |---|---|---|---|---|---|---|
 | Not listed | Oct 22 | [Fall Job Shadow Program Mentorship Sessions (FASS & FPGA)](https://openroster-seven.vercel.app/o/2026-10-carleton-career-serv-fall-job-shadow-program-mentorship-sessions-fass-d312/) | Carleton Career Services events (WordPress REST) | Other | Ottawa, ON | attend |
 | Not listed | Nov 1 | [Fall Engineering Outreach Programs](https://openroster-seven.vercel.app/o/2026-11-u-of-t-central-event-fall-engineering-outreach-programs-9ef4/) | U of T central events aggregator | Other | TBA | attend |
 | Not listed | Nov 3 | [The Career Blueprint - Personal Branding](https://openroster-seven.vercel.app/o/2026-11-black-student-succes-the-career-blueprint-personal-branding-07a9/) | Black Student Success Centre | Workshop | St. Catharines, ON | attend |
-| Not listed | Nov 6 | [PhD Seminar • Computer Graphics • Automated Design of Compound Lenses](https://openroster-seven.vercel.app/o/2026-11-cheriton-school-of-c-phd-seminar-computer-graphics-automated-design-of-277a/) | Cheriton School of Computer Science events (iCal) | Tech talk | Online | attend |
 | Not listed | Nov 6 | [GCSS Public CyberSci Tryout](https://openroster-seven.vercel.app/o/2026-11-university-of-guelph-gcss-public-cybersci-tryout-74aa/) | University of Guelph GryphLife (CampusGroups) public iCal | Workshop | TBA | attend |
 | Not listed | Nov 6 | [Engineering Connect Night: Building Community Beyond the Classroom](https://openroster-seven.vercel.app/o/2026-11-brock-engineering-so-engineering-connect-night-building-community-beyo-4181/) | Brock Engineering Society | Networking | St. Catharines, ON | attend |
 | Not listed | Nov 7 | [Sheridan Datathon 2026](https://openroster-seven.vercel.app/o/2026-11-google-developer-gro-sheridan-datathon-2026-066c/) | Google Developer Group (All Campuses) | Hackathon | Oakville, ON | attend |
@@ -178,7 +177,7 @@ Hackathons, info sessions, talks, career fairs, workshops, competitions and earl
 | Not listed | Nov 26 | [Industry Insights: Exploring Careers in a Conservation Authority](https://openroster-seven.vercel.app/o/2026-11-career-education-industry-insights-exploring-careers-in-a-conservat-0122/) | Career Education | Info session | Online | attend |
 | Not listed | Nov 26 | [Financial Services AI Connect](https://openroster-seven.vercel.app/o/2026-11-vector-institute-eve-financial-services-ai-connect-cd5c/) | Vector Institute events (The Events Calendar REST) | Other | TBA | attend |
 | Not listed | Nov 26 | [Future-proofing Your Career in the AI Era: Skills, Tech, and Leadership in Transition](https://openroster-seven.vercel.app/o/2026-11-ottawa-tech-thursday-future-proofing-your-career-in-the-ai-era-skills-2fca/) | Ottawa Tech Thursday (Luma iCal) | Other | Ottawa, ON | attend |
-| Not listed | Nov 27 | [How to Use Networking to Learn About Careers in Kinesiology](https://openroster-seven.vercel.app/o/2026-11-u-of-t-central-event-how-to-use-networking-to-learn-about-careers-in-k-a5fc/) | U of T central events aggregator | Networking | TBA | attend |
+| Not listed | Nov 26 | [AI x Science \| AI Builders Waterloo](https://openroster-seven.vercel.app/o/2026-11-waterloo-tech-adjace-ai-x-science-ai-builders-waterloo-0f3f/) | Waterloo Tech (+adjacent) Events (Luma iCal) | Other | King, ON | attend |
 | Not listed | Nov 27 | [CyberSmart: Staying Safer Online](https://openroster-seven.vercel.app/o/2026-11-western-university-e-cybersmart-staying-safer-online-1ef2/) | Western University events calendar (iCal) | Workshop | Online | attend |
 | Not listed | Nov 28 | [HerHacks Hackathon](https://openroster-seven.vercel.app/o/2026-11-bmo-herhacks-hackathon-597b/) | BMO | Hackathon | TBA | attend |
 | Not listed | Nov 28 | [Pixel Forge Mega Jam](https://openroster-seven.vercel.app/o/2026-11-pixel-forge-mega-jam-d2b3/) | Pixel Forge Mega Jam | Hackathon | Online | attend |

@@ -31,7 +31,17 @@
     "route": "public_link",
     "url": "https://kpe.utoronto.ca/fri-11272026-1300/how-use-networking-learn-about-careers-kinesiology"
   },
-  "review": null,
+  "review": {
+    "evidence": [
+      {
+        "text": "missing from the last 2 successful fetches",
+        "url": "https://kpe.utoronto.ca/fri-11272026-1300/how-use-networking-learn-about-careers-kinesiology"
+      }
+    ],
+    "reasons": [
+      "no longer listed by its source (possibly cancelled or moved)"
+    ]
+  },
   "roles": [
     {
       "closes": null,
@@ -55,7 +65,7 @@
     }
   ],
   "start": "2026-11-27T00:00:00-05:00",
-  "status": "scheduled",
+  "status": "needs_review",
   "summary": "Networking event by U of T central events aggregator.",
   "tags": [],
   "timezone": "America/Toronto",
