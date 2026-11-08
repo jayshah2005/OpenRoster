@@ -265,10 +265,11 @@
       "url": "https://brocku.ca/brock-news/in-focus/game-jam-a-spooktacular-success/"
     },
     {
-      "evidence": "",
-      "key": "hackathon:technovation-waterloo-mini-hackathon-wics|https://uwaterloo.ca/women-in-computer-science/events|nodate|technovation waterloo mini-hackathon (wics)",
+      "evidence": "Skip to main content Jump to Jump to Admissions About Waterloo Faculties & Academics Offices & Services Support Waterloo Open Search Location Search for Search Location On all sites On this site Women in Computer Science Menu Women in Computer Science Home About About Contacts WiCS Feedback Form His",
+      "key": "hackathon:technovation-waterloo-mini-hackathon-wics|hackathon:technovation-waterloo-mini-hackathon-wics",
       "reasons": [
-        "site could not be fetched: https://uwaterloo.ca/women-in-computer-science/events: disallowed by robots.txt"
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
       ],
       "source_id": "hackathon:technovation-waterloo-mini-hackathon-wics",
       "title": "Technovation Waterloo Mini-Hackathon (WiCS)",

@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-university-of-waterl-quantum-valley-investments-problem-pitch-fall-202-d114",
-  "last_seen": "2026-11-07T05:58:48.098700Z",
-  "last_verified": "2026-11-07T05:58:48.098700Z",
+  "last_seen": "2026-11-08T13:25:14.254167Z",
+  "last_verified": "2026-11-08T13:25:14.254167Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
@@ -126,7 +126,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-07T05:58:48.098700Z",
+      "fetched_at": "2026-11-08T13:25:14.254167Z",
       "source_id": "uwaterloo-central-events-ics",
       "url": "https://uwaterloo.ca/events/events/quantum-valley-investmentsr-problem-pitch-fall-2026"
     }

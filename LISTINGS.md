@@ -2,7 +2,7 @@
 
 Hackathons, info sessions, talks, career fairs, workshops, competitions and early-career programs for CS students, soonest deadline first. Filter, subscribe to a calendar, or see details at https://openroster-seven.vercel.app.
 
-249 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
+244 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
 
 | Apply by | Starts | Opportunity | Organizer | Type | Where | Ways to take part |
 |---|---|---|---|---|---|---|
@@ -10,12 +10,7 @@ Hackathons, info sessions, talks, career fairs, workshops, competitions and earl
 | Not listed | Nov 1 | [Fall Engineering Outreach Programs](https://openroster-seven.vercel.app/o/2026-11-u-of-t-central-event-fall-engineering-outreach-programs-9ef4/) | U of T central events aggregator | Other | TBA | attend |
 | Not listed | Nov 3 | [The Career Blueprint - Personal Branding](https://openroster-seven.vercel.app/o/2026-11-black-student-succes-the-career-blueprint-personal-branding-07a9/) | Black Student Success Centre | Workshop | St. Catharines, ON | attend |
 | Not listed | Nov 7 | [Sheridan Datathon 2026](https://openroster-seven.vercel.app/o/2026-11-google-developer-gro-sheridan-datathon-2026-066c/) | Google Developer Group (All Campuses) | Hackathon | Oakville, ON | attend |
-| Not listed | Nov 7 | [UWFA Fall 2026 Stock Pitch](https://openroster-seven.vercel.app/o/2026-11-uwfa-fall-2026-stock-pitch-f9ee/) | UWFA | Case competition | TBA | attend |
-| Not listed | Nov 7 | [Technovation Waterloo Mini-Hackathon 2026](https://openroster-seven.vercel.app/o/2026-11-waterloo-women-in-co-technovation-waterloo-mini-hackathon-2026-b666/) | Waterloo Women in Computer Science events (iCal) | Hackathon | Waterloo, ON | attend |
 | Not listed | Nov 7 | [CommuniHacks 2026](https://openroster-seven.vercel.app/o/2026-11-waterloo-tech-adjace-communihacks-2026-51dc/) | Waterloo Tech (+adjacent) Events (Luma iCal) | Hackathon | King, ON | attend |
-| Not listed | Nov 7 | [Richmond Tech Community Coffee Meetup](https://openroster-seven.vercel.app/o/2026-11-careerin-tech-societ-richmond-tech-community-coffee-meetup-60c3/) | Careerin Tech Society (Luma iCal) | Networking | London, ON | attend |
-| Not listed | Nov 7 | [West Vancouver Tech Community Coffee Meetup](https://openroster-seven.vercel.app/o/2026-11-careerin-tech-societ-west-vancouver-tech-community-coffee-meetup-3da4/) | Careerin Tech Society (Luma iCal) | Networking | West Vancouver, BC | attend |
-| Not listed | Nov 7 | [Government of Canada - Virtual Information Session](https://openroster-seven.vercel.app/o/2026-11-career-education-government-of-canada-virtual-information-session-5b2f/) | Career Education | Info session | Online | attend |
 | Not listed | Nov 9 | [Ascend Canada Student Chapters Networking Event](https://openroster-seven.vercel.app/o/2026-11-bmo-ascend-canada-student-chapters-networking-event-38bd/) | BMO | Networking | TBA | attend |
 | Not listed | Nov 9 | [Research Unlocked: Getting Ready for the Tri-Agency Data Deposit Requirement In-Person / Online](https://openroster-seven.vercel.app/o/2026-11-queen-s-university-e-research-unlocked-getting-ready-for-the-tri-agenc-1787/) | Queen's University events calendar (RSS) | Workshop | Kingston, ON | attend |
 | Not listed | Nov 9 | [Methods Mondays: Community-Engaged Co-Production of Indigenous-Focused Health Systems Research](https://openroster-seven.vercel.app/o/2026-11-queen-s-university-e-methods-mondays-community-engaged-co-production-o-3cab/) | Queen's University events calendar (RSS) | Tech talk | Online | attend |
