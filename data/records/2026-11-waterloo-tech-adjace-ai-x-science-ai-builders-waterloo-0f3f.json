@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-waterloo-tech-adjace-ai-x-science-ai-builders-waterloo-0f3f",
-  "last_seen": "2026-11-07T13:01:49.115735Z",
-  "last_verified": "2026-11-07T13:01:49.115735Z",
+  "last_seen": "2026-11-08T06:00:59.972156Z",
+  "last_verified": "2026-11-08T06:00:59.972156Z",
   "location": {
     "city": "King",
     "country": "CA",
@@ -150,7 +150,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-07T13:01:49.115735Z",
+      "fetched_at": "2026-11-08T06:00:59.972156Z",
       "source_id": "luma-waterloo-tech-adjacent-events",
       "url": "https://luma.com/3r1r6t7i"
     }
