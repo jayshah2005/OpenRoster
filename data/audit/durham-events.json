@@ -1,6 +1,6 @@
 {
-  "checked": "2026-11-07T15:55:07.370478+00:00",
-  "dated_items_in_html": 3,
+  "checked": "2026-11-08T16:19:00.471625+00:00",
+  "dated_items_in_html": 2,
   "feeds": [],
   "http_status": 200,
   "jsonld_events": 0,
@@ -8,14 +8,14 @@
   "login_wall": false,
   "platform": "html",
   "reasons": [
-    "no terms-of-use link found on the page"
+    "terms page not readable: https://durhamcollege.ca/wp-json/tribe/events/v1/\\\"https:\\/\\/durhamcollegesals.mywconline.com\\/saml\\/login\\\": HTTP 404"
   ],
   "robots": "allowed",
   "sitemaps": [],
   "terms_forbid_automated": null,
   "terms_forbid_republish": null,
   "terms_quotes": [],
-  "terms_url": null,
+  "terms_url": "https://durhamcollege.ca/wp-json/tribe/events/v1/\\\"https:\\/\\/durhamcollegesals.mywconline.com\\/saml\\/login\\\"",
   "url": "https://durhamcollege.ca/wp-json/tribe/events/v1/events?categories=academic",
   "verdict": "allowed"
 }

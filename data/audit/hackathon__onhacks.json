@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-24T05:36:47.470273+00:00",
+  "checked": "2026-11-08T16:20:16.217626+00:00",
   "dated_items_in_html": 0,
   "feeds": [],
   "http_status": 200,
@@ -10,7 +10,7 @@
   "reasons": [
     "no terms-of-use link found on the page"
   ],
-  "robots": "no_robots",
+  "robots": "allowed",
   "sitemaps": [],
   "terms_forbid_automated": null,
   "terms_forbid_republish": null,
