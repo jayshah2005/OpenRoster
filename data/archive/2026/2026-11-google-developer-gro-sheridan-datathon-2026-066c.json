@@ -144,7 +144,7 @@
     }
   ],
   "start": "2026-11-07T08:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Hackathon by Google Developer Group (All Campuses) in Oakville. Beginners welcome.",
   "tags": [
     "beginner_friendly"

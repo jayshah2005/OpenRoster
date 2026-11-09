@@ -1,0 +1,89 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-13T14:20:00-05:00",
+  "first_seen": "2026-11-09T22:22:15.531704Z",
+  "geo": {
+    "lat": 45.41117,
+    "lon": -75.69812,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-carleton-school-of-c-vintage-computing-group-presents-triumph-of-the-n-e365",
+  "last_seen": "2026-11-09T22:22:15.531704Z",
+  "last_verified": "2026-11-09T22:22:15.531704Z",
+  "location": {
+    "city": "Ottawa",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "HP"
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 1.8,
+      "school_id": "uottawa"
+    },
+    {
+      "km": 2.6,
+      "school_id": "carleton"
+    },
+    {
+      "km": 8.2,
+      "school_id": "algonquin"
+    },
+    {
+      "km": 85.1,
+      "school_id": "stlawrence"
+    }
+  ],
+  "obtained_via": [
+    "api"
+  ],
+  "organizer": "Carleton School of Computer Science events (WordPress REST)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://carleton.ca/scs/event/vintage-computing-group-presents-triumph-of-the-nerds/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "api",
+      "fetched_at": "2026-11-09T22:22:15.531704Z",
+      "source_id": "carleton-scs-events-api",
+      "url": "https://carleton.ca/scs/event/vintage-computing-group-presents-triumph-of-the-nerds/"
+    }
+  ],
+  "start": "2026-11-13T13:30:00-05:00",
+  "status": "scheduled",
+  "summary": "Event by Carleton School of Computer Science events (WordPress REST) in Ottawa.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Vintage Computing Group Presents: Triumph of the Nerds Part 2",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

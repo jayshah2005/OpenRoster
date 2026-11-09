@@ -1,0 +1,159 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-27T15:30:00-05:00",
+  "first_seen": "2026-11-09T22:22:15.531704Z",
+  "geo": {
+    "lat": 43.51681,
+    "lon": -79.88294,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-11-wilfrid-laurier-univ-women-in-computer-science-workshop-9711",
+  "last_seen": "2026-11-09T22:22:15.531704Z",
+  "last_verified": "2026-11-09T22:22:15.531704Z",
+  "location": {
+    "city": "Milton",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 15.7,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 18.1,
+      "school_id": "uoft"
+    },
+    {
+      "km": 21.2,
+      "school_id": "algoma"
+    },
+    {
+      "km": 27.7,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 28.6,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 29.1,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 30.7,
+      "school_id": "humber"
+    },
+    {
+      "km": 38.9,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 41.9,
+      "school_id": "seneca"
+    },
+    {
+      "km": 41.9,
+      "school_id": "yorku"
+    },
+    {
+      "km": 42.0,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 42.4,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 43.5,
+      "school_id": "tmu"
+    },
+    {
+      "km": 48.6,
+      "school_id": "centennial"
+    },
+    {
+      "km": 52.1,
+      "school_id": "laurier"
+    },
+    {
+      "km": 53.6,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 65.4,
+      "school_id": "brock"
+    },
+    {
+      "km": 72.9,
+      "school_id": "niagara-college"
+    },
+    {
+      "km": 85.9,
+      "school_id": "durham"
+    },
+    {
+      "km": 92.0,
+      "school_id": "ontariotechu"
+    },
+    {
+      "km": 92.5,
+      "school_id": "trent"
+    }
+  ],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Wilfrid Laurier University events calendar (iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://events.wlu.ca/index.html"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "laurier-events-ics:28d44fba3752",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-09T22:22:15.531704Z",
+      "source_id": "laurier-events-ics",
+      "url": "https://events.wlu.ca/index.html"
+    }
+  ],
+  "start": "2026-11-27T10:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Workshop by Wilfrid Laurier University events calendar (iCal) in Milton for women and non-binary students.",
+  "tags": [
+    "women_nonbinary"
+  ],
+  "timezone": "America/New_York",
+  "title": "Women in Computer Science Workshop",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

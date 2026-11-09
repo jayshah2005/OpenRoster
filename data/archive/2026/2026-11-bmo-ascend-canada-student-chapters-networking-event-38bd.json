@@ -56,7 +56,7 @@
     }
   ],
   "start": "2026-11-09T00:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Networking event by BMO for undergraduates and graduate students.",
   "tags": [],
   "timezone": "America/Toronto",

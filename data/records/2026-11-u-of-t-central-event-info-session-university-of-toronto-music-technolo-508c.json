@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-u-of-t-central-event-info-session-university-of-toronto-music-technolo-508c",
-  "last_seen": "2026-11-07T05:58:48.098700Z",
-  "last_verified": "2026-11-07T05:58:48.098700Z",
+  "last_seen": "2026-11-09T22:22:15.531704Z",
+  "last_verified": "2026-11-09T22:22:15.531704Z",
   "location": {
     "city": "University of Toronto",
     "country": "CA",
@@ -128,17 +128,7 @@
     "route": "public_link",
     "url": "https://music.utoronto.ca/event/info-session-university-toronto-music-technology-digital-media-masters-program"
   },
-  "review": {
-    "evidence": [
-      {
-        "text": "missing from the last 2 successful fetches",
-        "url": "https://music.utoronto.ca/event/info-session-university-toronto-music-technology-digital-media-masters-program"
-      }
-    ],
-    "reasons": [
-      "no longer listed by its source (possibly cancelled or moved)"
-    ]
-  },
+  "review": null,
   "roles": [
     {
       "closes": null,
@@ -156,13 +146,13 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-11-07T05:58:48.098700Z",
+      "fetched_at": "2026-11-09T22:22:15.531704Z",
       "source_id": "uoft-central-events",
       "url": "https://music.utoronto.ca/event/info-session-university-toronto-music-technology-digital-media-masters-program"
     }
   ],
   "start": "2026-11-12T00:00:00-05:00",
-  "status": "needs_review",
+  "status": "scheduled",
   "summary": "Info session by U of T central events aggregator in University of Toronto for graduate students.",
   "tags": [],
   "timezone": "America/Toronto",
