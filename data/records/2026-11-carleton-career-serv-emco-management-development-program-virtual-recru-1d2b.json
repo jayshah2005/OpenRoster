@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-carleton-career-serv-emco-management-development-program-virtual-recru-1d2b",
-  "last_seen": "2026-11-08T06:00:59.972156Z",
-  "last_verified": "2026-11-08T06:00:59.972156Z",
+  "last_seen": "2026-11-09T06:29:28.398659Z",
+  "last_verified": "2026-11-09T06:29:28.398659Z",
   "location": {
     "city": null,
     "country": "CA",
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "api",
-      "fetched_at": "2026-11-08T06:00:59.972156Z",
+      "fetched_at": "2026-11-09T06:29:28.398659Z",
       "source_id": "carleton-career-events-api",
       "url": "https://carleton.ca/career/event/emco-recruitment-event/"
     }

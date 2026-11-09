@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-cheriton-school-of-c-phd-seminar-data-systems-feeding-the-beasts-the-f-03ac",
-  "last_seen": "2026-11-08T13:25:14.254167Z",
-  "last_verified": "2026-11-08T13:25:14.254167Z",
+  "last_seen": "2026-11-09T06:29:28.398659Z",
+  "last_verified": "2026-11-09T06:29:28.398659Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
@@ -126,7 +126,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-08T13:25:14.254167Z",
+      "fetched_at": "2026-11-09T06:29:28.398659Z",
       "source_id": "uwaterloo-cs-events-ics",
       "url": "https://uwaterloo.ca/computer-science/events/phd-seminar-data-systems-feeding-the-beasts-the-first-move-matters-in-deep-search-agents"
     }
