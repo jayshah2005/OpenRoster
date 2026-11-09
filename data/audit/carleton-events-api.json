@@ -1,21 +1,23 @@
 {
-  "checked": "2026-11-06T16:57:11.880231+00:00",
-  "dated_items_in_html": 90,
+  "checked": "2026-11-09T20:05:36.496659+00:00",
+  "dated_items_in_html": 93,
   "feeds": [],
   "http_status": 200,
   "jsonld_events": 0,
   "known_verdict": null,
   "login_wall": false,
   "platform": "html",
-  "reasons": [],
+  "reasons": [
+    "no terms-of-use link found on the page"
+  ],
   "robots": "allowed",
   "sitemaps": [
     "https://events.carleton.ca/sitemap_index.xml"
   ],
-  "terms_forbid_automated": false,
-  "terms_forbid_republish": false,
+  "terms_forbid_automated": null,
+  "terms_forbid_republish": null,
   "terms_quotes": [],
-  "terms_url": "https://events.carleton.ca/wp-json/wp/v2/\\\"https:\\/\\/www.azbgc.ca\\/\\\"",
+  "terms_url": null,
   "url": "https://events.carleton.ca/wp-json/wp/v2/cu_event?per_page=100",
   "verdict": "allowed"
 }
