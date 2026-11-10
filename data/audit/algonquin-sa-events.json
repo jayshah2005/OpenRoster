@@ -1,6 +1,6 @@
 {
-  "checked": "2026-11-09T20:05:09.704493+00:00",
-  "dated_items_in_html": 3,
+  "checked": "2026-11-10T17:17:42.568268+00:00",
+  "dated_items_in_html": 4,
   "feeds": [],
   "http_status": 200,
   "jsonld_events": 0,
@@ -8,7 +8,7 @@
   "login_wall": false,
   "platform": "html",
   "reasons": [
-    "terms page not readable: https://www.algonquinsa.com/wp-json/tribe/events/v1/\\\"https:\\/\\/algonquinwolves.com\\/\\\": HTTP 404"
+    "terms page not readable: https://www.algonquinsa.com/wp-json/tribe/events/v1/\\\"https:\\/\\/www.algonquinsa.com\\/services\\/grad-photos\\/\\\": HTTP 404"
   ],
   "robots": "allowed",
   "sitemaps": [
@@ -17,7 +17,7 @@
   "terms_forbid_automated": null,
   "terms_forbid_republish": null,
   "terms_quotes": [],
-  "terms_url": "https://www.algonquinsa.com/wp-json/tribe/events/v1/\\\"https:\\/\\/algonquinwolves.com\\/\\\"",
+  "terms_url": "https://www.algonquinsa.com/wp-json/tribe/events/v1/\\\"https:\\/\\/www.algonquinsa.com\\/services\\/grad-photos\\/\\\"",
   "url": "https://www.algonquinsa.com/wp-json/tribe/events/v1/events",
   "verdict": "allowed"
 }
