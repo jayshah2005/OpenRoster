@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-uwpm-prodcon-a-product-hackathon-68c4",
-  "last_seen": "2026-11-09T22:22:15.531704Z",
-  "last_verified": "2026-11-09T22:22:15.531704Z",
+  "last_seen": "2026-11-10T07:18:41.025104Z",
+  "last_verified": "2026-11-10T07:18:41.025104Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
@@ -126,7 +126,7 @@
   "sources": [
     {
       "adapter": "tribe",
-      "fetched_at": "2026-11-09T22:22:15.531704Z",
+      "fetched_at": "2026-11-10T07:18:41.025104Z",
       "source_id": "wusa-events-tribe",
       "url": "https://wusa.ca/event/uwpm-prodcon-a-product-hackathon/"
     }

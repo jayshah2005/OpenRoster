@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-queen-s-university-e-future-fit-disability-inclusion-leveraging-the-te-24c6",
-  "last_seen": "2026-11-09T06:29:28.398659Z",
-  "last_verified": "2026-11-09T06:29:28.398659Z",
+  "last_seen": "2026-11-10T07:18:41.025104Z",
+  "last_verified": "2026-11-10T07:18:41.025104Z",
   "location": {
     "city": null,
     "country": "CA",
@@ -55,7 +55,7 @@
     },
     {
       "adapter": "rss",
-      "fetched_at": "2026-11-09T06:29:28.398659Z",
+      "fetched_at": "2026-11-10T07:18:41.025104Z",
       "source_id": "queens-events-rss",
       "url": "https://www.queensu.ca/eventscalendar/events/future-fit-disability-inclusion-leveraging-power-technology-malcolm-peat-lectureship-nafisa-baboo"
     }

@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2027-01-careerin-tech-societ-richmond-tech-community-coffee-meetup-5ba6",
-  "last_seen": "2026-11-09T06:29:28.398659Z",
-  "last_verified": "2026-11-09T06:29:28.398659Z",
+  "last_seen": "2026-11-10T07:18:41.025104Z",
+  "last_verified": "2026-11-10T07:18:41.025104Z",
   "location": {
     "city": "London",
     "country": "CA",
@@ -74,7 +74,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-09T06:29:28.398659Z",
+      "fetched_at": "2026-11-10T07:18:41.025104Z",
       "source_id": "luma-careerin-tech-society",
       "url": "https://luma.com/RichmondTechCoffee2027Jan16"
     }

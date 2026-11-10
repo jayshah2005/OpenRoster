@@ -143,11 +143,23 @@
       "field": "start",
       "new": "2026-11-17T09:00:00-05:00",
       "old": "2026-11-17T13:00:00-05:00"
+    },
+    {
+      "at": "2026-11-10T07:18:41.025104Z",
+      "field": "start",
+      "new": "2026-11-17T13:00:00-05:00",
+      "old": "2026-11-17T09:00:00-05:00"
+    },
+    {
+      "at": "2026-11-10T07:18:41.025104Z",
+      "field": "start",
+      "new": "2026-11-17T09:00:00-05:00",
+      "old": "2026-11-17T13:00:00-05:00"
     }
   ],
   "id": "2026-11-wilfrid-laurier-univ-lazaridis-msc-in-management-analytics-information-07e9",
-  "last_seen": "2026-11-09T06:29:28.398659Z",
-  "last_verified": "2026-11-09T06:29:28.398659Z",
+  "last_seen": "2026-11-10T07:18:41.025104Z",
+  "last_verified": "2026-11-10T07:18:41.025104Z",
   "location": {
     "city": null,
     "country": null,
@@ -182,7 +194,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-09T06:29:28.398659Z",
+      "fetched_at": "2026-11-10T07:18:41.025104Z",
       "source_id": "laurier-events-ics",
       "url": "https://events.wlu.ca/index.html"
     }

@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": true,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": null,
+  "first_seen": "2026-11-10T07:18:41.025104Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-u-of-t-central-event-school-2-0-ai-business-innovation-conference-star-d8c3",
+  "last_seen": "2026-11-10T07:18:41.025104Z",
+  "last_verified": "2026-11-10T07:18:41.025104Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "html"
+  ],
+  "organizer": "U of T central events aggregator",
+  "registration": {
+    "route": "public_link",
+    "url": "https://entrepreneurs.utoronto.ca/event/t-cairems-2026-national-health-datathon/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "html",
+      "fetched_at": "2026-11-10T07:18:41.025104Z",
+      "source_id": "uoft-central-events",
+      "url": "https://entrepreneurs.utoronto.ca/event/t-cairems-2026-national-health-datathon/"
+    }
+  ],
+  "start": "2026-11-14T00:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Conference by U of T central events aggregator.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "School 2.0 AI Business Innovation Conference & Startup Challenge",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "conference"
+}

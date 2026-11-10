@@ -142,7 +142,7 @@
     }
   ],
   "start": "2026-11-09T10:30:00-05:00",
-  "status": "needs_review",
+  "status": "past",
   "summary": "Tech talk by Cheriton School of Computer Science events (iCal) in Waterloo.",
   "tags": [],
   "timezone": "America/Toronto",
