@@ -88,7 +88,7 @@
   ],
   "start": "2026-11-23T13:30:00-05:00",
   "status": "scheduled",
-  "summary": "Tech talk by Western University events (JSON) in London.",
+  "summary": "Event by Western University events (JSON) in London.",
   "tags": [],
   "timezone": "America/New_York",
   "title": "Writing Resumes",
@@ -96,5 +96,5 @@
     "note": null,
     "stated": false
   },
-  "type": "tech_talk"
+  "type": "other"
 }

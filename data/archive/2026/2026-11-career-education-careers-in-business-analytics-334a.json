@@ -8,24 +8,20 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-09T18:00:00-05:00",
-  "first_seen": "2026-10-24T16:53:41.410358Z",
-  "geo": {
-    "lat": 49.84692,
-    "lon": -99.95306,
-    "source": "gazetteer"
-  },
+  "end": "2026-11-09T15:00:00-05:00",
+  "first_seen": "2026-10-28T22:36:01.647139Z",
+  "geo": null,
   "history": [],
-  "id": "2026-11-career-education-exploring-careers-in-healthcare-af91",
+  "id": "2026-11-career-education-careers-in-business-analytics-334a",
   "last_seen": "2026-11-09T06:29:28.398659Z",
   "last_verified": "2026-11-09T06:29:28.398659Z",
   "location": {
-    "city": "Brandon",
+    "city": null,
     "country": "CA",
-    "region": "CA-MB",
-    "venue_name": "Goodman Atrium"
+    "region": "CA-ON",
+    "venue_name": "https://teams.microsoft.com/meet/246938738508923?p=eEXStZNR7soMW0ubcf"
   },
-  "mode": "in_person",
+  "mode": "online",
   "near_schools": [],
   "obtained_via": [
     "rss"
@@ -33,7 +29,7 @@
   "organizer": "Career Education",
   "registration": {
     "route": "school_portal_login",
-    "url": "https://experiencebu.brocku.ca/event/335361"
+    "url": "https://experiencebu.brocku.ca/event/336875"
   },
   "review": null,
   "roles": [
@@ -55,15 +51,15 @@
       "adapter": "rss",
       "fetched_at": "2026-11-09T06:29:28.398659Z",
       "source_id": "brock-experiencebu-rss",
-      "url": "https://experiencebu.brocku.ca/event/335361"
+      "url": "https://experiencebu.brocku.ca/event/336875"
     }
   ],
-  "start": "2026-11-09T16:00:00-05:00",
-  "status": "scheduled",
-  "summary": "Info session by Career Education in Brandon.",
+  "start": "2026-11-09T14:00:00-05:00",
+  "status": "past",
+  "summary": "Online info session by Career Education.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Exploring Careers in Healthcare",
+  "title": "Careers in Business Analytics",
   "travel_support": {
     "note": null,
     "stated": false

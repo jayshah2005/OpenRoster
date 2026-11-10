@@ -11,8 +11,8 @@
   "end": "2026-11-18T15:00:00-05:00",
   "first_seen": "2026-10-27T22:15:05.326100Z",
   "geo": {
-    "lat": 43.17126,
-    "lon": -79.24267,
+    "lat": 43.64455,
+    "lon": -79.40712,
     "source": "gazetteer"
   },
   "history": [],
@@ -20,7 +20,7 @@
   "last_seen": "2026-11-10T07:18:41.025104Z",
   "last_verified": "2026-11-10T07:18:41.025104Z",
   "location": {
-    "city": "St. Catharines",
+    "city": "Niagara",
     "country": "CA",
     "region": "CA-ON",
     "venue_name": "Goodman Student Success Centre"
@@ -29,83 +29,95 @@
   "near_schools": [
     {
       "km": 1.6,
-      "school_id": "brock"
-    },
-    {
-      "km": 8.4,
-      "school_id": "niagara-college"
-    },
-    {
-      "km": 40.4,
-      "school_id": "mohawk"
-    },
-    {
-      "km": 49.6,
-      "school_id": "sheridan"
-    },
-    {
-      "km": 52.3,
-      "school_id": "humber"
-    },
-    {
-      "km": 53.5,
-      "school_id": "georgebrown"
-    },
-    {
-      "km": 54.0,
-      "school_id": "uoft"
-    },
-    {
-      "km": 54.9,
       "school_id": "ocadu"
     },
     {
-      "km": 55.2,
+      "km": 2.2,
+      "school_id": "uoft"
+    },
+    {
+      "km": 2.7,
       "school_id": "tmu"
     },
     {
-      "km": 55.7,
-      "school_id": "mcmaster"
+      "km": 3.1,
+      "school_id": "georgebrown"
     },
     {
-      "km": 58.2,
+      "km": 8.1,
       "school_id": "centennial"
     },
     {
-      "km": 69.8,
+      "km": 10.4,
+      "school_id": "humber"
+    },
+    {
+      "km": 15.9,
       "school_id": "seneca"
     },
     {
-      "km": 70.2,
+      "km": 16.2,
       "school_id": "yorku"
     },
     {
-      "km": 70.8,
+      "km": 20.2,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 28.7,
       "school_id": "algoma"
     },
     {
-      "km": 82.8,
+      "km": 45.8,
       "school_id": "durham"
     },
     {
-      "km": 83.0,
-      "school_id": "laurier"
-    },
-    {
-      "km": 86.2,
+      "km": 51.7,
       "school_id": "ontariotechu"
     },
     {
-      "km": 89.0,
+      "km": 52.9,
+      "school_id": "trent"
+    },
+    {
+      "km": 54.8,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 55.8,
+      "school_id": "brock"
+    },
+    {
+      "km": 59.4,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 60.5,
+      "school_id": "niagara-college"
+    },
+    {
+      "km": 67.1,
       "school_id": "uoguelph"
     },
     {
-      "km": 89.2,
+      "km": 79.7,
       "school_id": "conestoga"
     },
     {
-      "km": 90.4,
-      "school_id": "trent"
+      "km": 87.8,
+      "school_id": "georgian"
+    },
+    {
+      "km": 89.2,
+      "school_id": "laurier"
+    },
+    {
+      "km": 93.7,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 96.4,
+      "school_id": "fleming"
     }
   ],
   "obtained_via": [
@@ -141,7 +153,7 @@
   ],
   "start": "2026-11-18T14:00:00-05:00",
   "status": "scheduled",
-  "summary": "Info session by Career Education in St. Catharines.",
+  "summary": "Info session by Career Education in Niagara.",
   "tags": [],
   "timezone": "America/Toronto",
   "title": "E.S. Fox Employer - Information Session",

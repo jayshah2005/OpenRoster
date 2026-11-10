@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-02T02:00:00Z",
+  "first_seen": "2026-11-10T19:44:25.561786Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-12-waterloo-tech-adjace-if-ai-works-why-do-we-190b",
+  "last_seen": "2026-11-10T19:44:25.561786Z",
+  "last_verified": "2026-11-10T19:44:25.561786Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "TBD"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Waterloo Tech (+adjacent) Events (Luma iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://luma.com/1nb50tn6"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "luma-waterloo-tech-adjacent-events:6e0317fee5b6",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-10T19:44:25.561786Z",
+      "source_id": "luma-waterloo-tech-adjacent-events",
+      "url": "https://luma.com/1nb50tn6"
+    }
+  ],
+  "start": "2026-12-02T00:00:00Z",
+  "status": "scheduled",
+  "summary": "Event by Waterloo Tech (+adjacent) Events (Luma iCal).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "If AI Works, Why Do We?",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

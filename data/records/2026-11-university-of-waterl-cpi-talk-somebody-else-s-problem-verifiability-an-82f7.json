@@ -129,6 +129,12 @@
       "fetched_at": "2026-11-10T07:18:41.025104Z",
       "source_id": "uwaterloo-central-events-ics",
       "url": "https://uwaterloo.ca/events/events/cpi-talk-somebody-elses-problem-verifiability-and"
+    },
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-10T19:44:25.561786Z",
+      "source_id": "luma-waterloo-tech-adjacent-events",
+      "url": "https://luma.com/i83dfjas"
     }
   ],
   "start": "2026-11-18T14:30:00-05:00",

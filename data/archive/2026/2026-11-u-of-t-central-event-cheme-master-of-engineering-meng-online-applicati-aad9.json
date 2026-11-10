@@ -55,7 +55,7 @@
     }
   ],
   "start": "2026-11-10T00:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Online event by U of T central events aggregator.",
   "tags": [],
   "timezone": "America/Toronto",

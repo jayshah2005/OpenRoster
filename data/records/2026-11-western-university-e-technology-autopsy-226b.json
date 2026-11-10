@@ -88,7 +88,7 @@
   ],
   "start": "2026-11-25T12:00:00-05:00",
   "status": "scheduled",
-  "summary": "Tech talk by Western University events (JSON) in London for graduate students.",
+  "summary": "Event by Western University events (JSON) in London for graduate students.",
   "tags": [],
   "timezone": "America/New_York",
   "title": "Technology Autopsy",
@@ -96,5 +96,5 @@
     "note": null,
     "stated": false
   },
-  "type": "tech_talk"
+  "type": "other"
 }
