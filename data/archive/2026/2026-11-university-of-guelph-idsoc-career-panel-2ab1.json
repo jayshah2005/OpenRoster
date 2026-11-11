@@ -144,7 +144,7 @@
     }
   ],
   "start": "2026-11-10T22:30:00Z",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Tech talk by University of Guelph GryphLife (CampusGroups) public iCal in Guelph.",
   "tags": [],
   "timezone": "America/Toronto",

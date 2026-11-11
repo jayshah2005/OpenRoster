@@ -8,24 +8,24 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-10T14:30:00-05:00",
-  "first_seen": "2026-10-27T18:01:00.981383Z",
+  "end": "2026-12-09T12:00:00-05:00",
+  "first_seen": "2026-11-11T19:36:23.657907Z",
   "geo": {
     "lat": 43.4668,
     "lon": -80.51639,
     "source": "gazetteer"
   },
   "history": [],
-  "id": "2026-11-waterloo-engineering-future-proof-your-research-data-best-practices-fo-bd81",
-  "last_seen": "2026-11-10T07:18:41.025104Z",
-  "last_verified": "2026-11-10T07:18:41.025104Z",
+  "id": "2026-12-cheriton-school-of-c-master-s-thesis-presentation-software-engineering-1bbd",
+  "last_seen": "2026-11-11T19:36:23.657907Z",
+  "last_verified": "2026-11-11T19:36:23.657907Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "PSE - Pearl Sullivan Engineering Building, PSE 2317/2357 (Conrad Hub & Lecture Hall) 200 University Ave West Waterloo ON"
+    "venue_name": "DC - William G. Davis Computer Research Centre 200 University Avenue West DC 2314 Waterloo ON N2L 3G1 Canada"
   },
-  "mode": "in_person",
+  "mode": "unknown",
   "near_schools": [
     {
       "km": 1.2,
@@ -103,10 +103,10 @@
   "obtained_via": [
     "ics"
   ],
-  "organizer": "Waterloo Engineering events (iCal)",
+  "organizer": "Cheriton School of Computer Science events (iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://uwaterloo.ca/engineering/events/future-proof-your-research-data-best-practices-managing-your"
+    "url": "https://uwaterloo.ca/computer-science/events/masters-thesis-presentation-se-measuring-test-evolution-benchmark-for-coding-agents-and-incremental-coverage-analysis"
   },
   "review": null,
   "roles": [
@@ -122,24 +122,24 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": "uwaterloo-engineering-events-ics:e540d9db3abf",
+  "series_id": "uwaterloo-cs-events-ics:45139d3a016d",
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-10T07:18:41.025104Z",
-      "source_id": "uwaterloo-engineering-events-ics",
-      "url": "https://uwaterloo.ca/engineering/events/future-proof-your-research-data-best-practices-managing-your"
+      "fetched_at": "2026-11-11T19:36:23.657907Z",
+      "source_id": "uwaterloo-cs-events-ics",
+      "url": "https://uwaterloo.ca/computer-science/events/masters-thesis-presentation-se-measuring-test-evolution-benchmark-for-coding-agents-and-incremental-coverage-analysis"
     }
   ],
-  "start": "2026-11-10T13:30:00-05:00",
+  "start": "2026-12-09T11:00:00-05:00",
   "status": "scheduled",
-  "summary": "Workshop by Waterloo Engineering events (iCal) in Waterloo.",
+  "summary": "Event by Cheriton School of Computer Science events (iCal) in Waterloo.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Future-Proof Your Research Data: Best Practices for Managing Your Data Workshop",
+  "title": "Master’s Thesis Presentation • Software Engineering • Measuring Test Evolution: A Benchmark for Coding Agents and an Incremental Coverage Analysis",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "workshop"
+  "type": "other"
 }

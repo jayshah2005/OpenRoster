@@ -1,6 +1,6 @@
 {
   "ai_suggested": [],
-  "all_day": true,
+  "all_day": false,
   "cost": {
     "kind": "unknown",
     "note": null
@@ -8,11 +8,11 @@
   "eligibility": [
     "unknown"
   ],
-  "end": null,
-  "first_seen": "2026-10-29T05:49:12.284396Z",
+  "end": "2026-11-10T15:00:00-05:00",
+  "first_seen": "2026-10-24T20:50:34.963793Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-u-of-t-central-event-lunch-learn-game-on-leveling-up-pediatric-rehab-w-b400",
+  "id": "2026-11-wilfrid-laurier-univ-careers-in-criminology-fair-3029",
   "last_seen": "2026-11-10T07:18:41.025104Z",
   "last_verified": "2026-11-10T07:18:41.025104Z",
   "location": {
@@ -24,12 +24,12 @@
   "mode": "unknown",
   "near_schools": [],
   "obtained_via": [
-    "html"
+    "ics"
   ],
-  "organizer": "U of T central events aggregator",
+  "organizer": "Wilfrid Laurier University events calendar (iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://www.engineering.utoronto.ca/event/lunch-learn-game-on-leveling-up-pediatric-rehab-with-gaming-technologies/"
+    "url": "https://events.wlu.ca/index.html"
   },
   "review": null,
   "roles": [
@@ -45,21 +45,21 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": null,
+  "series_id": "laurier-events-ics:654738393b58",
   "sources": [
     {
-      "adapter": "html",
+      "adapter": "ics",
       "fetched_at": "2026-11-10T07:18:41.025104Z",
-      "source_id": "uoft-central-events",
-      "url": "https://www.engineering.utoronto.ca/event/lunch-learn-game-on-leveling-up-pediatric-rehab-with-gaming-technologies/"
+      "source_id": "laurier-events-ics",
+      "url": "https://events.wlu.ca/index.html"
     }
   ],
-  "start": "2026-11-11T00:00:00-05:00",
-  "status": "scheduled",
-  "summary": "Event by U of T central events aggregator.",
+  "start": "2026-11-10T13:00:00-05:00",
+  "status": "past",
+  "summary": "Event by Wilfrid Laurier University events calendar (iCal).",
   "tags": [],
-  "timezone": "America/Toronto",
-  "title": "Lunch & Learn — Game on: Leveling up pediatric rehab with gaming technologies",
+  "timezone": "America/New_York",
+  "title": "Careers in Criminology Fair",
   "travel_support": {
     "note": null,
     "stated": false

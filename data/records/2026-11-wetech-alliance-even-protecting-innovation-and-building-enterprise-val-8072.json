@@ -8,20 +8,20 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-10T14:00:00-05:00",
-  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "end": "2026-11-12T12:00:00-05:00",
+  "first_seen": "2026-11-11T19:36:23.657907Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-wetech-alliance-even-understanding-ai-agents-virtual-2654",
-  "last_seen": "2026-11-10T07:18:41.025104Z",
-  "last_verified": "2026-11-10T07:18:41.025104Z",
+  "id": "2026-11-wetech-alliance-even-protecting-innovation-and-building-enterprise-val-8072",
+  "last_seen": "2026-11-11T19:36:23.657907Z",
+  "last_verified": "2026-11-11T19:36:23.657907Z",
   "location": {
     "city": null,
     "country": null,
     "region": null,
     "venue_name": null
   },
-  "mode": "online",
+  "mode": "hybrid",
   "near_schools": [],
   "obtained_via": [
     "tribe"
@@ -29,7 +29,7 @@
   "organizer": "WEtech Alliance events (Windsor-Essex)",
   "registration": {
     "route": "public_link",
-    "url": "https://amp.ca/amp_events/understanding-ai-agents-nov-10-2026/"
+    "url": "https://www.wetech-alliance.com/event/protecting-innovation-and-building-enterprise-value-in-an-era-of-ai-and-global-competition/"
   },
   "review": null,
   "roles": [
@@ -49,22 +49,20 @@
   "sources": [
     {
       "adapter": "tribe",
-      "fetched_at": "2026-11-10T07:18:41.025104Z",
+      "fetched_at": "2026-11-11T19:36:23.657907Z",
       "source_id": "wetech-alliance-events",
-      "url": "https://www.wetech-alliance.com/event/understanding-ai-agents-virtual/"
+      "url": "https://www.wetech-alliance.com/event/protecting-innovation-and-building-enterprise-value-in-an-era-of-ai-and-global-competition/"
     }
   ],
-  "start": "2026-11-10T13:00:00-05:00",
+  "start": "2026-11-12T11:00:00-05:00",
   "status": "scheduled",
-  "summary": "Free online workshop by WEtech Alliance events (Windsor-Essex) for women and non-binary students.",
-  "tags": [
-    "women_nonbinary"
-  ],
+  "summary": "Free hybrid event by WEtech Alliance events (Windsor-Essex).",
+  "tags": [],
   "timezone": "America/Detroit",
-  "title": "Understanding AI Agents (virtual)",
+  "title": "Protecting Innovation and Building Enterprise Value in an Era of AI and Global Competition",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "workshop"
+  "type": "other"
 }

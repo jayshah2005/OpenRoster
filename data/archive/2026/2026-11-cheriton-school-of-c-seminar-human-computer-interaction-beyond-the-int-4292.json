@@ -2,30 +2,30 @@
   "ai_suggested": [],
   "all_day": false,
   "cost": {
-    "kind": "free",
+    "kind": "unknown",
     "note": null
   },
   "eligibility": [
-    "open_to_all"
+    "unknown"
   ],
   "end": "2026-11-10T16:00:00-05:00",
-  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "first_seen": "2026-10-29T22:45:46.003761Z",
   "geo": {
     "lat": 43.4668,
     "lon": -80.51639,
     "source": "gazetteer"
   },
   "history": [],
-  "id": "2026-11-accelerator-centre-ac-innovation-showcase-9cba",
-  "last_seen": "2026-10-24T16:53:41.410358Z",
-  "last_verified": "2026-10-24T16:53:41.410358Z",
+  "id": "2026-11-cheriton-school-of-c-seminar-human-computer-interaction-beyond-the-int-4292",
+  "last_seen": "2026-11-04T06:23:28.138808Z",
+  "last_verified": "2026-11-04T06:23:28.138808Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "The Cora Group Space at 300 Hagey Blvd, Waterloo, ON"
+    "venue_name": "DC - William G. Davis Computer Research Centre 200 University Avenue West DC 1304 Waterloo ON N2L 3G1 Canada"
   },
-  "mode": "in_person",
+  "mode": "unknown",
   "near_schools": [
     {
       "km": 1.2,
@@ -101,18 +101,18 @@
     }
   ],
   "obtained_via": [
-    "tribe"
+    "ics"
   ],
-  "organizer": "Accelerator Centre",
+  "organizer": "Cheriton School of Computer Science events (iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://www.acceleratorcentre.com/event-page/ac-innovation-showcase/"
+    "url": "https://uwaterloo.ca/computer-science/events/seminar-hci-beyond-the-interface-perception-action-and-design-of-immersive-systems"
   },
   "review": {
     "evidence": [
       {
         "text": "missing from the last 2 successful fetches",
-        "url": "https://www.acceleratorcentre.com/event-page/ac-innovation-showcase/"
+        "url": "https://uwaterloo.ca/computer-science/events/seminar-hci-beyond-the-interface-perception-action-and-design-of-immersive-systems"
       }
     ],
     "reasons": [
@@ -132,24 +132,24 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": null,
+  "series_id": "uwaterloo-cs-events-ics:58fcb45c8d0f",
   "sources": [
     {
-      "adapter": "tribe",
-      "fetched_at": "2026-10-24T16:53:41.410358Z",
-      "source_id": "accelerator-centre-tribe",
-      "url": "https://www.acceleratorcentre.com/event-page/ac-innovation-showcase/"
+      "adapter": "ics",
+      "fetched_at": "2026-11-04T06:23:28.138808Z",
+      "source_id": "uwaterloo-cs-events-ics",
+      "url": "https://uwaterloo.ca/computer-science/events/seminar-hci-beyond-the-interface-perception-action-and-design-of-immersive-systems"
     }
   ],
-  "start": "2026-11-10T12:00:00-05:00",
-  "status": "needs_review",
-  "summary": "Free info session by Accelerator Centre in Waterloo.",
+  "start": "2026-11-10T15:00:00-05:00",
+  "status": "past",
+  "summary": "Tech talk by Cheriton School of Computer Science events (iCal) in Waterloo.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "AC Innovation Showcase",
+  "title": "Seminar • Human–Computer Interaction • Beyond the Interface: Perception, Action, and the Design of Immersive Systems",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "info_session"
+  "type": "tech_talk"
 }

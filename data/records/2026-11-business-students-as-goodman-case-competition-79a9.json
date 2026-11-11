@@ -2,28 +2,28 @@
   "ai_suggested": [],
   "all_day": false,
   "cost": {
-    "kind": "unknown",
+    "kind": "paid",
     "note": null
   },
   "eligibility": [
-    "unknown"
+    "undergrad"
   ],
-  "end": "2026-11-10T16:00:00-05:00",
-  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "end": "2026-11-21T16:00:00-05:00",
+  "first_seen": "2026-11-11T19:36:23.657907Z",
   "geo": {
     "lat": 43.17126,
     "lon": -79.24267,
     "source": "gazetteer"
   },
   "history": [],
-  "id": "2026-11-department-of-econom-careers-at-the-competition-bureau-information-ses-69c3",
-  "last_seen": "2026-11-10T07:18:41.025104Z",
-  "last_verified": "2026-11-10T07:18:41.025104Z",
+  "id": "2026-11-business-students-as-goodman-case-competition-79a9",
+  "last_seen": "2026-11-11T19:36:23.657907Z",
+  "last_verified": "2026-11-11T19:36:23.657907Z",
   "location": {
     "city": "St. Catharines",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "Plaza 600F"
+    "venue_name": "Brock University"
   },
   "mode": "unknown",
   "near_schools": [
@@ -111,10 +111,10 @@
   "obtained_via": [
     "rss"
   ],
-  "organizer": "Department of Economics",
+  "organizer": "Business Students' Association",
   "registration": {
     "route": "school_portal_login",
-    "url": "https://experiencebu.brocku.ca/event/336002"
+    "url": "https://experiencebu.brocku.ca/event/337852"
   },
   "review": null,
   "roles": [
@@ -134,20 +134,20 @@
   "sources": [
     {
       "adapter": "rss",
-      "fetched_at": "2026-11-10T07:18:41.025104Z",
+      "fetched_at": "2026-11-11T19:36:23.657907Z",
       "source_id": "brock-experiencebu-rss",
-      "url": "https://experiencebu.brocku.ca/event/336002"
+      "url": "https://experiencebu.brocku.ca/event/337852"
     }
   ],
-  "start": "2026-11-10T14:00:00-05:00",
+  "start": "2026-11-21T09:00:00-05:00",
   "status": "scheduled",
-  "summary": "Info session by Department of Economics in St. Catharines.",
+  "summary": "Case competition by Business Students' Association in St. Catharines for undergraduates.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Careers at the Competition Bureau: Information Session",
+  "title": "Goodman Case Competition",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "info_session"
+  "type": "case_competition"
 }
