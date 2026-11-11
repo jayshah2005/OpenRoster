@@ -1,6 +1,6 @@
 {
-  "checked": "2026-11-10T17:16:56.337351+00:00",
-  "dated_items_in_html": 41,
+  "checked": "2026-11-11T17:27:25.143656+00:00",
+  "dated_items_in_html": 40,
   "feeds": [],
   "http_status": 200,
   "jsonld_events": 0,
@@ -13,7 +13,7 @@
   "terms_forbid_automated": false,
   "terms_forbid_republish": false,
   "terms_quotes": [],
-  "terms_url": "https://www.trentu.ca",
+  "terms_url": "https://trentu.ca/news/story/47439",
   "url": "https://www.trentu.ca/events",
   "verdict": "allowed"
 }
