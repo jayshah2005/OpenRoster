@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-12-queen-s-university-e-from-discovery-to-impact-commercializing-your-res-df0c",
-  "last_seen": "2026-11-10T07:18:41.025104Z",
-  "last_verified": "2026-11-10T07:18:41.025104Z",
+  "last_seen": "2026-11-11T06:21:29.827093Z",
+  "last_verified": "2026-11-11T06:21:29.827093Z",
   "location": {
     "city": "Kingston",
     "country": "CA",
@@ -70,7 +70,7 @@
   "sources": [
     {
       "adapter": "rss",
-      "fetched_at": "2026-11-10T07:18:41.025104Z",
+      "fetched_at": "2026-11-11T06:21:29.827093Z",
       "source_id": "queens-events-rss",
       "url": "https://www.queensu.ca/eventscalendar/events/discovery-impact-commercializing-your-research-computing"
     }

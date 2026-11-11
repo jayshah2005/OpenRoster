@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-waterloo-tech-adjace-k-dub-hacks-317f",
-  "last_seen": "2026-11-10T19:44:25.561786Z",
-  "last_verified": "2026-11-10T19:44:25.561786Z",
+  "last_seen": "2026-11-11T06:21:29.827093Z",
+  "last_verified": "2026-11-11T06:21:29.827093Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
@@ -126,7 +126,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-10T19:44:25.561786Z",
+      "fetched_at": "2026-11-11T06:21:29.827093Z",
       "source_id": "luma-waterloo-tech-adjacent-events",
       "url": "https://luma.com/z74d7lgs"
     }

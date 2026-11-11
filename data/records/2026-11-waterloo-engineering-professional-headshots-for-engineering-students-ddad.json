@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-waterloo-engineering-professional-headshots-for-engineering-students-ddad",
-  "last_seen": "2026-11-10T07:18:41.025104Z",
-  "last_verified": "2026-11-10T07:18:41.025104Z",
+  "last_seen": "2026-11-11T06:21:29.827093Z",
+  "last_verified": "2026-11-11T06:21:29.827093Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
@@ -126,7 +126,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-10T07:18:41.025104Z",
+      "fetched_at": "2026-11-11T06:21:29.827093Z",
       "source_id": "uwaterloo-engineering-events-ics",
       "url": "https://uwaterloo.ca/engineering/events/professional-headshots-engineering-students-0"
     }

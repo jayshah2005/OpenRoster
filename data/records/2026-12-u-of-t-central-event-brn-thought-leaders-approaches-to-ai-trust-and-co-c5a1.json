@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-12-u-of-t-central-event-brn-thought-leaders-approaches-to-ai-trust-and-co-c5a1",
-  "last_seen": "2026-11-10T07:18:41.025104Z",
-  "last_verified": "2026-11-10T07:18:41.025104Z",
+  "last_seen": "2026-11-11T06:21:29.827093Z",
+  "last_verified": "2026-11-11T06:21:29.827093Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-11-10T07:18:41.025104Z",
+      "fetched_at": "2026-11-11T06:21:29.827093Z",
       "source_id": "uoft-central-events",
       "url": "https://brn.utoronto.ca/event/brn-thought-leaders-approaches-to-ai-trust-and-community/"
     }

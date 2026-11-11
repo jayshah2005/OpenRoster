@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-12-wetech-alliance-even-university-of-windsor-cs-demo-day-6c3b",
-  "last_seen": "2026-11-10T07:18:41.025104Z",
-  "last_verified": "2026-11-10T07:18:41.025104Z",
+  "last_seen": "2026-11-11T06:21:29.827093Z",
+  "last_verified": "2026-11-11T06:21:29.827093Z",
   "location": {
     "city": "Windsor",
     "country": "CA",
@@ -62,7 +62,7 @@
   "sources": [
     {
       "adapter": "tribe",
-      "fetched_at": "2026-11-10T07:18:41.025104Z",
+      "fetched_at": "2026-11-11T06:21:29.827093Z",
       "source_id": "wetech-alliance-events",
       "url": "https://www.wetech-alliance.com/event/university-of-windsor-cs-demo-day/"
     }

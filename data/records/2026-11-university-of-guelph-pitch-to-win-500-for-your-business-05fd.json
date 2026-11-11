@@ -2,19 +2,26 @@
   "ai_suggested": [],
   "all_day": false,
   "cost": {
-    "kind": "paid",
+    "kind": "unknown",
     "note": null
   },
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-16T20:30:00Z",
+  "end": "2026-11-17T02:30:00Z",
   "first_seen": "2026-10-24T17:14:00.319152Z",
   "geo": null,
-  "history": [],
+  "history": [
+    {
+      "at": "2026-11-11T06:21:29.827093Z",
+      "field": "start",
+      "new": "2026-11-16T23:30:00+00:00",
+      "old": "2026-11-16T18:30:00+00:00"
+    }
+  ],
   "id": "2026-11-university-of-guelph-pitch-to-win-500-for-your-business-05fd",
-  "last_seen": "2026-11-10T07:18:41.025104Z",
-  "last_verified": "2026-11-10T07:18:41.025104Z",
+  "last_seen": "2026-11-11T06:21:29.827093Z",
+  "last_verified": "2026-11-11T06:21:29.827093Z",
   "location": {
     "city": null,
     "country": null,
@@ -29,7 +36,7 @@
   "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
   "registration": {
     "route": "public_link",
-    "url": "https://uoguelph.campusgroups.com/rsvp?id=379620"
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=379645"
   },
   "review": null,
   "roles": [
@@ -49,26 +56,26 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-10T07:18:41.025104Z",
+      "fetched_at": "2026-11-11T06:21:29.827093Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=379620"
     },
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-10T19:44:25.561786Z",
+      "fetched_at": "2026-11-11T06:21:29.827093Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=379645"
     }
   ],
-  "start": "2026-11-16T18:30:00Z",
-  "status": "scheduled",
-  "summary": "Case competition by University of Guelph GryphLife (CampusGroups) public iCal.",
+  "start": "2026-11-16T23:30:00Z",
+  "status": "moved",
+  "summary": "Event by University of Guelph GryphLife (CampusGroups) public iCal.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Pitch to Win $500 for your Business!",
+  "title": "Your Psych, Your Path: Get Psyched About Your Career",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "case_competition"
+  "type": "other"
 }

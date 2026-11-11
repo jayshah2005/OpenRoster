@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2027-01-deltahacks-ade3",
-  "last_seen": "2026-11-10T07:18:41.025104Z",
-  "last_verified": "2026-11-10T07:18:41.025104Z",
+  "last_seen": "2026-11-11T06:21:29.827093Z",
+  "last_verified": "2026-11-11T06:21:29.827093Z",
   "location": {
     "city": "Hamilton",
     "country": "CA",
@@ -126,7 +126,7 @@
   "sources": [
     {
       "adapter": "hackathon_site",
-      "fetched_at": "2026-11-10T07:18:41.025104Z",
+      "fetched_at": "2026-11-11T06:21:29.827093Z",
       "source_id": "hackathon:deltahacks",
       "url": "https://deltahacks.com"
     }

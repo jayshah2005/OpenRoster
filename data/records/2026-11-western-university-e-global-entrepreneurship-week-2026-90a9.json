@@ -1095,11 +1095,47 @@
       "field": "start",
       "new": "2026-11-16T00:00:00-05:00",
       "old": "2026-11-16T13:00:00-05:00"
+    },
+    {
+      "at": "2026-11-11T06:21:29.827093Z",
+      "field": "start",
+      "new": "2026-11-16T16:30:00-05:00",
+      "old": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "at": "2026-11-11T06:21:29.827093Z",
+      "field": "start",
+      "new": "2026-11-16T13:00:00-05:00",
+      "old": "2026-11-16T16:30:00-05:00"
+    },
+    {
+      "at": "2026-11-11T06:21:29.827093Z",
+      "field": "start",
+      "new": "2026-11-16T00:00:00-05:00",
+      "old": "2026-11-16T13:00:00-05:00"
+    },
+    {
+      "at": "2026-11-11T06:21:29.827093Z",
+      "field": "start",
+      "new": "2026-11-16T16:30:00-05:00",
+      "old": "2026-11-16T00:00:00-05:00"
+    },
+    {
+      "at": "2026-11-11T06:21:29.827093Z",
+      "field": "start",
+      "new": "2026-11-16T13:00:00-05:00",
+      "old": "2026-11-16T16:30:00-05:00"
+    },
+    {
+      "at": "2026-11-11T06:21:29.827093Z",
+      "field": "start",
+      "new": "2026-11-16T00:00:00-05:00",
+      "old": "2026-11-16T13:00:00-05:00"
     }
   ],
   "id": "2026-11-western-university-e-global-entrepreneurship-week-2026-90a9",
-  "last_seen": "2026-11-10T07:18:41.025104Z",
-  "last_verified": "2026-11-10T07:18:41.025104Z",
+  "last_seen": "2026-11-11T06:21:29.827093Z",
+  "last_verified": "2026-11-11T06:21:29.827093Z",
   "location": {
     "city": "London",
     "country": "CA",
@@ -1156,25 +1192,25 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-10T07:18:41.025104Z",
+      "fetched_at": "2026-11-11T06:21:29.827093Z",
       "source_id": "western-events-ics",
       "url": "https://www.uwo.ca/events/"
     },
     {
       "adapter": "api",
-      "fetched_at": "2026-11-10T07:18:41.025104Z",
+      "fetched_at": "2026-11-11T06:21:29.827093Z",
       "source_id": "western-events-json",
       "url": "https://www.uwo.ca/events/2025/11/gew-global-entrepreneurship-week3.html"
     },
     {
       "adapter": "api",
-      "fetched_at": "2026-11-10T07:18:41.025104Z",
+      "fetched_at": "2026-11-11T06:21:29.827093Z",
       "source_id": "western-events-json",
       "url": "https://www.uwo.ca/events/2026/11/global-entrepreneurship-week1.html"
     },
     {
       "adapter": "api",
-      "fetched_at": "2026-11-10T07:18:41.025104Z",
+      "fetched_at": "2026-11-11T06:21:29.827093Z",
       "source_id": "western-events-json",
       "url": "https://www.uwo.ca/events/2026/11/global-entrepreneurship-week.html"
     }

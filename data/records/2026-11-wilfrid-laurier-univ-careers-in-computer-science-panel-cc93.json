@@ -11,17 +11,36 @@
   "end": "2026-11-25T12:00:00-05:00",
   "first_seen": "2026-11-05T06:46:42.157645Z",
   "geo": null,
-  "history": [],
+  "history": [
+    {
+      "at": "2026-11-11T06:21:29.827093Z",
+      "field": "start",
+      "new": "2026-11-25T16:30:00-05:00",
+      "old": "2026-11-25T11:00:00-05:00"
+    },
+    {
+      "at": "2026-11-11T06:21:29.827093Z",
+      "field": "start",
+      "new": "2026-11-25T18:00:00-05:00",
+      "old": "2026-11-25T16:30:00-05:00"
+    },
+    {
+      "at": "2026-11-11T06:21:29.827093Z",
+      "field": "start",
+      "new": "2026-11-25T11:00:00-05:00",
+      "old": "2026-11-25T18:00:00-05:00"
+    }
+  ],
   "id": "2026-11-wilfrid-laurier-univ-careers-in-computer-science-panel-cc93",
-  "last_seen": "2026-11-10T07:18:41.025104Z",
-  "last_verified": "2026-11-10T07:18:41.025104Z",
+  "last_seen": "2026-11-11T06:21:29.827093Z",
+  "last_verified": "2026-11-11T06:21:29.827093Z",
   "location": {
     "city": null,
     "country": null,
     "region": null,
     "venue_name": null
   },
-  "mode": "unknown",
+  "mode": "online",
   "near_schools": [],
   "obtained_via": [
     "ics"
@@ -49,13 +68,13 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-10T07:18:41.025104Z",
+      "fetched_at": "2026-11-11T06:21:29.827093Z",
       "source_id": "laurier-events-ics",
       "url": "https://events.wlu.ca/index.html"
     }
   ],
   "start": "2026-11-25T11:00:00-05:00",
-  "status": "scheduled",
+  "status": "moved",
   "summary": "Info session by Wilfrid Laurier University events calendar (iCal).",
   "tags": [],
   "timezone": "America/New_York",

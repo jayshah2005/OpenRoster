@@ -55,7 +55,7 @@
     }
   ],
   "start": "2026-11-10T10:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Online info session by Queen's University events calendar (RSS) for graduate students.",
   "tags": [],
   "timezone": "America/Toronto",

@@ -61,7 +61,7 @@
     }
   ],
   "start": "2026-11-10T09:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Online tech talk by Queen's University events calendar (RSS) for women and non-binary students.",
   "tags": [
     "women_nonbinary"
