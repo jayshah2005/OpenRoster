@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-20T21:30:00Z",
+  "first_seen": "2026-11-12T07:11:10.165163Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-careerin-tech-societ-from-brand-colors-to-ai-a-tableau-afternoon-ee52",
+  "last_seen": "2026-11-12T07:11:10.165163Z",
+  "last_verified": "2026-11-12T07:11:10.165163Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "https://usergroups.tableau.com/events/details/tableau-greater-vancouver-tableau-user-group-presents-from-brand-colors-to"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Careerin Tech Society (Luma iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://luma.com/careerintechevents"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "luma-careerin-tech-society:453850658e2d",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-12T07:11:10.165163Z",
+      "source_id": "luma-careerin-tech-society",
+      "url": "https://luma.com/careerintechevents"
+    }
+  ],
+  "start": "2026-11-20T20:00:00Z",
+  "status": "scheduled",
+  "summary": "Event by Careerin Tech Society (Luma iCal).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "From Brand Colors to AI: A Tableau Afternoon",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

@@ -55,7 +55,7 @@
     }
   ],
   "start": "2026-11-11T11:05:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Online workshop by Queen's University events calendar (RSS).",
   "tags": [],
   "timezone": "America/Toronto",

@@ -44,7 +44,17 @@
     "route": "public_link",
     "url": "https://www.wetech-alliance.com/event/university-of-windsor-cs-demo-day/"
   },
-  "review": null,
+  "review": {
+    "evidence": [
+      {
+        "text": "missing from the last 2 successful fetches",
+        "url": "https://www.wetech-alliance.com/event/university-of-windsor-cs-demo-day/"
+      }
+    ],
+    "reasons": [
+      "no longer listed by its source (possibly cancelled or moved)"
+    ]
+  },
   "roles": [
     {
       "closes": null,
@@ -68,7 +78,7 @@
     }
   ],
   "start": "2026-12-04T09:30:00-05:00",
-  "status": "scheduled",
+  "status": "needs_review",
   "summary": "Info session by WEtech Alliance events (Windsor-Essex) in Windsor.",
   "tags": [],
   "timezone": "America/Detroit",

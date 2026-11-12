@@ -8,22 +8,22 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-11T13:00:00-05:00",
-  "first_seen": "2026-11-03T00:58:30.695200Z",
+  "end": "2026-12-08T20:30:00-08:00",
+  "first_seen": "2026-11-12T07:11:10.165163Z",
   "geo": {
     "lat": 43.4668,
     "lon": -80.51639,
     "source": "gazetteer"
   },
   "history": [],
-  "id": "2026-11-cheriton-school-of-c-data-systems-seminar-series-traceprov-all-you-nee-3037",
-  "last_seen": "2026-11-11T06:21:29.827093Z",
-  "last_verified": "2026-11-11T06:21:29.827093Z",
+  "id": "2026-12-waterloo-engineering-university-of-waterloo-engineering-and-mathematic-2507",
+  "last_seen": "2026-11-12T07:11:10.165163Z",
+  "last_verified": "2026-11-12T07:11:10.165163Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "DC - William G. Davis Computer Research Centre 200 University Avenue West DC 3301 Waterloo ON N2L 3G1 Canada"
+    "venue_name": "Rootstock Wine Bar 331 Castro Street, Suite 100 Mountain View, CA 94041 United States"
   },
   "mode": "unknown",
   "near_schools": [
@@ -103,10 +103,10 @@
   "obtained_via": [
     "ics"
   ],
-  "organizer": "Cheriton School of Computer Science events (iCal)",
+  "organizer": "Waterloo Engineering events (iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://uwaterloo.ca/computer-science/events/data-systems-seminar-series-traceprov-all-you-need-is-log-efficient-bolt-on-provenance-capture-for-complex-relational-queries"
+    "url": "https://uwaterloo.ca/engineering/events/engineering-mathematics-alumni-mixer-08Dec2026"
   },
   "review": null,
   "roles": [
@@ -122,24 +122,24 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": "uwaterloo-cs-events-ics:90b29023d99e",
+  "series_id": "uwaterloo-engineering-events-ics:76a4f3572aab",
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-11T06:21:29.827093Z",
-      "source_id": "uwaterloo-cs-events-ics",
-      "url": "https://uwaterloo.ca/computer-science/events/data-systems-seminar-series-traceprov-all-you-need-is-log-efficient-bolt-on-provenance-capture-for-complex-relational-queries"
+      "fetched_at": "2026-11-12T07:11:10.165163Z",
+      "source_id": "uwaterloo-engineering-events-ics",
+      "url": "https://uwaterloo.ca/engineering/events/engineering-mathematics-alumni-mixer-08Dec2026"
     }
   ],
-  "start": "2026-11-11T12:00:00-05:00",
+  "start": "2026-12-08T17:30:00-08:00",
   "status": "scheduled",
-  "summary": "Tech talk by Cheriton School of Computer Science events (iCal) in Waterloo.",
+  "summary": "Networking event by Waterloo Engineering events (iCal) in Waterloo.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Data Systems Seminar Series • TraceProv: All You Need is Log-Efficient Bolt-on Provenance Capture for Complex Relational Queries",
+  "title": "University of Waterloo Engineering and Mathematics Alumni Mixer | Mountain View",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "tech_talk"
+  "type": "networking"
 }

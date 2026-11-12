@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-u-of-t-central-event-agents-in-context-toronto-a-mongodb-hackathon-0c82",
-  "last_seen": "2026-11-11T19:36:23.657907Z",
-  "last_verified": "2026-11-11T19:36:23.657907Z",
+  "last_seen": "2026-11-12T07:11:10.165163Z",
+  "last_verified": "2026-11-12T07:11:10.165163Z",
   "location": {
     "city": "Toronto",
     "country": "CA",
@@ -150,7 +150,7 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-11-11T19:36:23.657907Z",
+      "fetched_at": "2026-11-12T07:11:10.165163Z",
       "source_id": "uoft-central-events",
       "url": "https://entrepreneurs.utoronto.ca/event/agents-in-context-toronto-a-mongodb-hackathon/"
     }

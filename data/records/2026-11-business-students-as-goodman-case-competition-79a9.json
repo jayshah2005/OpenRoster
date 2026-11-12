@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-business-students-as-goodman-case-competition-79a9",
-  "last_seen": "2026-11-11T19:36:23.657907Z",
-  "last_verified": "2026-11-11T19:36:23.657907Z",
+  "last_seen": "2026-11-12T07:11:10.165163Z",
+  "last_verified": "2026-11-12T07:11:10.165163Z",
   "location": {
     "city": "St. Catharines",
     "country": "CA",
@@ -134,7 +134,7 @@
   "sources": [
     {
       "adapter": "rss",
-      "fetched_at": "2026-11-11T19:36:23.657907Z",
+      "fetched_at": "2026-11-12T07:11:10.165163Z",
       "source_id": "brock-experiencebu-rss",
       "url": "https://experiencebu.brocku.ca/event/337852"
     }

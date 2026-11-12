@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-12-cheriton-school-of-c-master-s-thesis-presentation-software-engineering-1bbd",
-  "last_seen": "2026-11-11T19:36:23.657907Z",
-  "last_verified": "2026-11-11T19:36:23.657907Z",
+  "last_seen": "2026-11-12T07:11:10.165163Z",
+  "last_verified": "2026-11-12T07:11:10.165163Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
@@ -126,7 +126,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-11T19:36:23.657907Z",
+      "fetched_at": "2026-11-12T07:11:10.165163Z",
       "source_id": "uwaterloo-cs-events-ics",
       "url": "https://uwaterloo.ca/computer-science/events/masters-thesis-presentation-se-measuring-test-evolution-benchmark-for-coding-agents-and-incremental-coverage-analysis"
     }

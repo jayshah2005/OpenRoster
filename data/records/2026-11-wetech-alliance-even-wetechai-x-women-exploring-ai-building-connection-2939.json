@@ -44,7 +44,17 @@
     "route": "public_link",
     "url": "https://www.wetech-alliance.com/event/wetechai-x-women-exploring-ai-building-connections/"
   },
-  "review": null,
+  "review": {
+    "evidence": [
+      {
+        "text": "missing from the last 2 successful fetches",
+        "url": "https://www.wetech-alliance.com/event/wetechai-x-women-exploring-ai-building-connections/"
+      }
+    ],
+    "reasons": [
+      "no longer listed by its source (possibly cancelled or moved)"
+    ]
+  },
   "roles": [
     {
       "closes": null,
@@ -68,7 +78,7 @@
     }
   ],
   "start": "2026-11-20T13:00:00-05:00",
-  "status": "scheduled",
+  "status": "needs_review",
   "summary": "Tech talk by WEtech Alliance events (Windsor-Essex) in Windsor for women and non-binary students.",
   "tags": [
     "women_nonbinary"

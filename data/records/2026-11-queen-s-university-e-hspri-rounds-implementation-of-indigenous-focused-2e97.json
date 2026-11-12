@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-queen-s-university-e-hspri-rounds-implementation-of-indigenous-focused-2e97",
-  "last_seen": "2026-11-11T06:21:29.827093Z",
-  "last_verified": "2026-11-11T06:21:29.827093Z",
+  "last_seen": "2026-11-12T07:11:10.165163Z",
+  "last_verified": "2026-11-12T07:11:10.165163Z",
   "location": {
     "city": null,
     "country": "CA",
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "rss",
-      "fetched_at": "2026-11-11T06:21:29.827093Z",
+      "fetched_at": "2026-11-12T07:11:10.165163Z",
       "source_id": "queens-events-rss",
       "url": "https://www.queensu.ca/eventscalendar/events/hspri-rounds-implementation-indigenous-focused-research-fla-oht"
     }

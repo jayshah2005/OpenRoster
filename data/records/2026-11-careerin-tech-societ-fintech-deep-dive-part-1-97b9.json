@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-18T03:30:00Z",
+  "first_seen": "2026-11-12T07:11:10.165163Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-careerin-tech-societ-fintech-deep-dive-part-1-97b9",
+  "last_seen": "2026-11-12T07:11:10.165163Z",
+  "last_verified": "2026-11-12T07:11:10.165163Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "https://luma.com/event/evt-Yy1Qv2LFd6BszoK"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Careerin Tech Society (Luma iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://luma.com/tb7lqki0"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "luma-careerin-tech-society:285431b3fae0",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-12T07:11:10.165163Z",
+      "source_id": "luma-careerin-tech-society",
+      "url": "https://luma.com/tb7lqki0"
+    }
+  ],
+  "start": "2026-11-18T00:30:00Z",
+  "status": "scheduled",
+  "summary": "Event by Careerin Tech Society (Luma iCal).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Fintech Deep Dive: Part 1",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}
