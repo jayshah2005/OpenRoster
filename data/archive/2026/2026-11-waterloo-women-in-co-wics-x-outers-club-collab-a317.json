@@ -132,7 +132,7 @@
     }
   ],
   "start": "2026-11-11T18:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Event by Waterloo Women in Computer Science events (iCal) in Columbia for women and non-binary students.",
   "tags": [
     "women_nonbinary"

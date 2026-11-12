@@ -152,7 +152,7 @@
     }
   ],
   "start": "2026-11-12T00:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Info session by U of T central events aggregator in University of Toronto for graduate students.",
   "tags": [],
   "timezone": "America/Toronto",

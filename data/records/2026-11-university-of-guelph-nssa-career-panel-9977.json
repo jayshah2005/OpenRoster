@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-21T00:30:00Z",
+  "first_seen": "2026-11-12T19:54:44.555065Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-university-of-guelph-nssa-career-panel-9977",
+  "last_seen": "2026-11-12T19:54:44.555065Z",
+  "last_verified": "2026-11-12T19:54:44.555065Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "Sign in to download the location"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
+  "registration": {
+    "route": "public_link",
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=380002"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "uoguelph-gryphlife-campusgroups-ics:3349329bd0c4",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-12T19:54:44.555065Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=380002"
+    }
+  ],
+  "start": "2026-11-20T22:30:00Z",
+  "status": "scheduled",
+  "summary": "Tech talk by University of Guelph GryphLife (CampusGroups) public iCal.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "NSSA Career Panel",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "tech_talk"
+}

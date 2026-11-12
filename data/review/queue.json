@@ -1,11 +1,6 @@
 {
   "flagged_missing": [
-    "2026-11-hackforge-tour-utility-classes-in-c-c39f",
-    "2026-11-wetech-alliance-even-black-boys-code-windsor-robots-that-notice-152c",
-    "2026-11-wetech-alliance-even-gdg-windsor-essex-devfest-2026-5a2b",
-    "2026-11-wetech-alliance-even-wetechai-x-women-exploring-ai-building-connection-2939",
-    "2026-11-wetech-alliance-even-women-in-franchise-businesses-startup-women-2026-6838",
-    "2026-12-wetech-alliance-even-university-of-windsor-cs-demo-day-6c3b"
+    "2027-01-nwhacks-9a63"
   ],
   "items": [
     {
@@ -108,10 +103,11 @@
       "url": "https://genaigenesis.ca/"
     },
     {
-      "evidence": "",
-      "key": "hackathon:global-game-jam-site-game-development-program|https://educationnewscanada.com/article/education/region/ontario/27/745152/niagara-collegejanuary-28-2019-gamers-unite-at-niagara-college-for-fourth-annual-global-game-jam.html|nodate|global game jam site (game development program)",
+      "evidence": "﻿ Niagara College - Gamers unite at Niagara College for fourth annual Global Game Jam { \"@context\" : \"https://schema.org\", \"@type\" : \"Organization\", \"name\" : \"Education News Canada\", \"url\" : \"https://educationnewscanada.com\", \"logo\" : \"https://educationnewscanada.com/CE/top_logo_reseau.png\", \"sameAs",
+      "key": "hackathon:global-game-jam-site-game-development-program|hackathon:global-game-jam-site-game-development-program",
       "reasons": [
-        "site could not be fetched: https://educationnewscanada.com/article/education/region/ontario/27/745152/niagara-collegejanuary-28-2019-gamers-unite-at-niagara-college-for-fourth-a"
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
       ],
       "source_id": "hackathon:global-game-jam-site-game-development-program",
       "title": "Global Game Jam site (Game Development program)",

@@ -2,34 +2,34 @@
   "ai_suggested": [],
   "all_day": false,
   "cost": {
-    "kind": "unknown",
+    "kind": "free",
     "note": null
   },
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-12T01:00:00Z",
-  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "end": "2026-11-11T20:30:00-05:00",
+  "first_seen": "2026-11-03T23:24:00.075219Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-waterloo-tech-adjace-civictechwr-hacknight-966f",
+  "id": "2026-11-fanshawe-student-uni-club-event-ai-in-supply-chain-410c",
   "last_seen": "2026-11-11T06:21:29.827093Z",
   "last_verified": "2026-11-11T06:21:29.827093Z",
   "location": {
     "city": null,
     "country": null,
     "region": null,
-    "venue_name": "https://luma.com/event/evt-6cuiwqxp23iv4Tg"
+    "venue_name": "Alumni Lounge"
   },
   "mode": "unknown",
   "near_schools": [],
   "obtained_via": [
     "ics"
   ],
-  "organizer": "Waterloo Tech (+adjacent) Events (Luma iCal)",
+  "organizer": "Fanshawe Student Union events calendar (iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://luma.com/8uebvxfs"
+    "url": "https://www.fsu.ca/eventInfo/clubs-ascm-november-11"
   },
   "review": null,
   "roles": [
@@ -45,24 +45,24 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": "luma-waterloo-tech-adjacent-events:f3e152e527ee",
+  "series_id": "fsu-events-ics:1d72aeb671b2",
   "sources": [
     {
       "adapter": "ics",
       "fetched_at": "2026-11-11T06:21:29.827093Z",
-      "source_id": "luma-waterloo-tech-adjacent-events",
-      "url": "https://luma.com/8uebvxfs"
+      "source_id": "fsu-events-ics",
+      "url": "https://www.fsu.ca/eventInfo/clubs-ascm-november-11"
     }
   ],
-  "start": "2026-11-11T23:00:00Z",
-  "status": "scheduled",
-  "summary": "Hackathon by Waterloo Tech (+adjacent) Events (Luma iCal).",
+  "start": "2026-11-11T18:30:00-05:00",
+  "status": "past",
+  "summary": "Free tech talk by Fanshawe Student Union events calendar (iCal).",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "CivicTechWR Hacknight",
+  "title": "Club Event: AI in Supply Chain",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "hackathon"
+  "type": "tech_talk"
 }

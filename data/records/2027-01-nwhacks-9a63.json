@@ -35,7 +35,17 @@
     "route": "public_link",
     "url": "https://nwhacks.io"
   },
-  "review": null,
+  "review": {
+    "evidence": [
+      {
+        "text": "missing from the last 2 successful fetches",
+        "url": "https://nwhacks.io"
+      }
+    ],
+    "reasons": [
+      "no longer listed by its source (possibly cancelled or moved)"
+    ]
+  },
   "roles": [
     {
       "closes": null,
@@ -59,7 +69,7 @@
     }
   ],
   "start": "2027-01-16T00:00:00-05:00",
-  "status": "scheduled",
+  "status": "needs_review",
   "summary": "Hackathon by nwHacks in Vancouver for Indigenous students.",
   "tags": [
     "indigenous_students"

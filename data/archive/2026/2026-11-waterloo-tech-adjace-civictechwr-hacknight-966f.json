@@ -2,34 +2,34 @@
   "ai_suggested": [],
   "all_day": false,
   "cost": {
-    "kind": "free",
+    "kind": "unknown",
     "note": null
   },
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-11T19:00:00-05:00",
+  "end": "2026-11-12T01:00:00Z",
   "first_seen": "2026-10-24T16:53:41.410358Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-durham-college-event-mature-student-webinar-supports-for-mature-durham-bfea",
+  "id": "2026-11-waterloo-tech-adjace-civictechwr-hacknight-966f",
   "last_seen": "2026-11-11T06:21:29.827093Z",
   "last_verified": "2026-11-11T06:21:29.827093Z",
   "location": {
-    "city": "Online",
+    "city": null,
     "country": null,
     "region": null,
-    "venue_name": "Online – webinar"
+    "venue_name": "https://luma.com/event/evt-6cuiwqxp23iv4Tg"
   },
-  "mode": "online",
+  "mode": "unknown",
   "near_schools": [],
   "obtained_via": [
-    "tribe"
+    "ics"
   ],
-  "organizer": "Durham College events calendar",
+  "organizer": "Waterloo Tech (+adjacent) Events (Luma iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://us06web.zoom.us/meeting/register/8E5kPKjaS36nSjynh5sLVA"
+    "url": "https://luma.com/8uebvxfs"
   },
   "review": null,
   "roles": [
@@ -45,24 +45,24 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": null,
+  "series_id": "luma-waterloo-tech-adjacent-events:f3e152e527ee",
   "sources": [
     {
-      "adapter": "tribe",
+      "adapter": "ics",
       "fetched_at": "2026-11-11T06:21:29.827093Z",
-      "source_id": "durham-events",
-      "url": "https://durhamcollege.ca/event/mature-student-webinar-supports-for-mature-durham-college-students-2"
+      "source_id": "luma-waterloo-tech-adjacent-events",
+      "url": "https://luma.com/8uebvxfs"
     }
   ],
-  "start": "2026-11-11T18:00:00-05:00",
-  "status": "scheduled",
-  "summary": "Free online info session by Durham College events calendar.",
+  "start": "2026-11-11T23:00:00Z",
+  "status": "past",
+  "summary": "Hackathon by Waterloo Tech (+adjacent) Events (Luma iCal).",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Mature Student Webinar: Supports for Mature Durham College Students",
+  "title": "CivicTechWR Hacknight",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "info_session"
+  "type": "hackathon"
 }

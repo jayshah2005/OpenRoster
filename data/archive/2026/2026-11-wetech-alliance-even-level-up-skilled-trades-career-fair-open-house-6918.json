@@ -68,7 +68,7 @@
     }
   ],
   "start": "2026-11-11T15:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Free career fair by WEtech Alliance events (Windsor-Essex) in LaSalle.",
   "tags": [],
   "timezone": "America/Detroit",

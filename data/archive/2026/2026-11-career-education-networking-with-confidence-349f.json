@@ -140,7 +140,7 @@
     }
   ],
   "start": "2026-11-11T18:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Free info session by Career Education in St. Catharines.",
   "tags": [],
   "timezone": "America/Toronto",

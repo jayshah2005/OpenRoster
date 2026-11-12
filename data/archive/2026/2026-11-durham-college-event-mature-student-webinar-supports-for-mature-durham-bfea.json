@@ -8,28 +8,28 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-11T20:30:00-05:00",
-  "first_seen": "2026-11-03T23:24:00.075219Z",
+  "end": "2026-11-11T19:00:00-05:00",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-fanshawe-student-uni-club-event-ai-in-supply-chain-410c",
+  "id": "2026-11-durham-college-event-mature-student-webinar-supports-for-mature-durham-bfea",
   "last_seen": "2026-11-11T06:21:29.827093Z",
   "last_verified": "2026-11-11T06:21:29.827093Z",
   "location": {
-    "city": null,
+    "city": "Online",
     "country": null,
     "region": null,
-    "venue_name": "Alumni Lounge"
+    "venue_name": "Online – webinar"
   },
-  "mode": "unknown",
+  "mode": "online",
   "near_schools": [],
   "obtained_via": [
-    "ics"
+    "tribe"
   ],
-  "organizer": "Fanshawe Student Union events calendar (iCal)",
+  "organizer": "Durham College events calendar",
   "registration": {
     "route": "public_link",
-    "url": "https://www.fsu.ca/eventInfo/clubs-ascm-november-11"
+    "url": "https://us06web.zoom.us/meeting/register/8E5kPKjaS36nSjynh5sLVA"
   },
   "review": null,
   "roles": [
@@ -45,24 +45,24 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": "fsu-events-ics:1d72aeb671b2",
+  "series_id": null,
   "sources": [
     {
-      "adapter": "ics",
+      "adapter": "tribe",
       "fetched_at": "2026-11-11T06:21:29.827093Z",
-      "source_id": "fsu-events-ics",
-      "url": "https://www.fsu.ca/eventInfo/clubs-ascm-november-11"
+      "source_id": "durham-events",
+      "url": "https://durhamcollege.ca/event/mature-student-webinar-supports-for-mature-durham-college-students-2"
     }
   ],
-  "start": "2026-11-11T18:30:00-05:00",
-  "status": "scheduled",
-  "summary": "Free tech talk by Fanshawe Student Union events calendar (iCal).",
+  "start": "2026-11-11T18:00:00-05:00",
+  "status": "past",
+  "summary": "Free online info session by Durham College events calendar.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Club Event: AI in Supply Chain",
+  "title": "Mature Student Webinar: Supports for Mature Durham College Students",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "tech_talk"
+  "type": "info_session"
 }
