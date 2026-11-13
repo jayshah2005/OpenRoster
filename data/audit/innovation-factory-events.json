@@ -1,23 +1,21 @@
 {
-  "checked": "2026-11-12T17:44:46.081960+00:00",
-  "dated_items_in_html": 0,
+  "checked": "2026-11-13T17:22:37.047220+00:00",
+  "dated_items_in_html": 23,
   "feeds": [],
-  "http_status": null,
-  "jsonld_events": 0,
+  "http_status": 200,
+  "jsonld_events": 12,
   "known_verdict": null,
   "login_wall": false,
-  "platform": "unknown",
-  "reasons": [
-    "page could not be fetched: https://www.innovationfactory.ca/events/: network error: The read operation timed out"
-  ],
+  "platform": "jsonld",
+  "reasons": [],
   "robots": "allowed",
   "sitemaps": [
     "https://innovationfactory.ca/sitemap_index.xml"
   ],
-  "terms_forbid_automated": null,
-  "terms_forbid_republish": null,
+  "terms_forbid_automated": false,
+  "terms_forbid_republish": false,
   "terms_quotes": [],
-  "terms_url": null,
+  "terms_url": "https://innovationfactory.ca/events/legal-ip-office-hours-smart-biggar/",
   "url": "https://www.innovationfactory.ca/events/",
-  "verdict": "unknown"
+  "verdict": "allowed"
 }

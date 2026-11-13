@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-12T17:45:09.968555+00:00",
+  "checked": "2026-11-13T17:22:56.369013+00:00",
   "dated_items_in_html": 3,
   "feeds": [],
   "http_status": 200,
@@ -8,7 +8,7 @@
   "login_wall": false,
   "platform": "html",
   "reasons": [
-    "no terms-of-use link found on the page"
+    "terms page not readable: https://www.algonquinsa.com/wp-json/tribe/events/v1/\\\"https:\\/\\/nationalcapitalfirstaid.com\\/product\\/standard-blended-learning\\/\\\": HTTP 404"
   ],
   "robots": "allowed",
   "sitemaps": [
@@ -17,7 +17,7 @@
   "terms_forbid_automated": null,
   "terms_forbid_republish": null,
   "terms_quotes": [],
-  "terms_url": null,
+  "terms_url": "https://www.algonquinsa.com/wp-json/tribe/events/v1/\\\"https:\\/\\/nationalcapitalfirstaid.com\\/product\\/standard-blended-learning\\/\\\"",
   "url": "https://www.algonquinsa.com/wp-json/tribe/events/v1/events",
   "verdict": "allowed"
 }

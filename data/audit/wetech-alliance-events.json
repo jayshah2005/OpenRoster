@@ -1,12 +1,12 @@
 {
-  "checked": "2026-11-11T17:28:34.367883+00:00",
+  "checked": "2026-11-13T17:23:16.815789+00:00",
   "dated_items_in_html": 6,
   "feeds": [],
   "http_status": 200,
   "jsonld_events": 0,
   "known_verdict": null,
   "login_wall": false,
-  "platform": "html",
+  "platform": "tribe",
   "reasons": [
     "no terms-of-use link found on the page"
   ],
