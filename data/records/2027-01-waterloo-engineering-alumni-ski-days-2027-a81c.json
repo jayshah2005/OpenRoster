@@ -84,8 +84,8 @@
     }
   ],
   "id": "2027-01-waterloo-engineering-alumni-ski-days-2027-a81c",
-  "last_seen": "2026-11-12T07:11:10.165163Z",
-  "last_verified": "2026-11-12T07:11:10.165163Z",
+  "last_seen": "2026-11-13T06:46:50.073219Z",
+  "last_verified": "2026-11-13T06:46:50.073219Z",
   "location": {
     "city": "Collingwood",
     "country": "CA",
@@ -149,7 +149,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-12T07:11:10.165163Z",
+      "fetched_at": "2026-11-13T06:46:50.073219Z",
       "source_id": "uwaterloo-engineering-events-ics",
       "url": "https://uwaterloo.ca/engineering/events/waterloo-engineering-alumni-ski-days-2027"
     }

@@ -18,8 +18,8 @@
   },
   "history": [],
   "id": "2026-11-university-of-guelph-career-cafe-academic-networking-58e5",
-  "last_seen": "2026-11-12T19:54:44.555065Z",
-  "last_verified": "2026-11-12T19:54:44.555065Z",
+  "last_seen": "2026-11-13T06:46:50.073219Z",
+  "last_verified": "2026-11-13T06:46:50.073219Z",
   "location": {
     "city": "Guelph",
     "country": "CA",
@@ -127,7 +127,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-12T19:54:44.555065Z",
+      "fetched_at": "2026-11-13T06:46:50.073219Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=380252"
     }

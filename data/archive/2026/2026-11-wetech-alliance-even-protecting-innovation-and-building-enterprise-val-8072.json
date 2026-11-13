@@ -55,7 +55,7 @@
     }
   ],
   "start": "2026-11-12T11:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Free hybrid event by WEtech Alliance events (Windsor-Essex).",
   "tags": [],
   "timezone": "America/Detroit",

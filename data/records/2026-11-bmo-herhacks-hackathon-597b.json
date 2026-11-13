@@ -14,8 +14,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-bmo-herhacks-hackathon-597b",
-  "last_seen": "2026-11-12T07:11:10.165163Z",
-  "last_verified": "2026-11-12T07:11:10.165163Z",
+  "last_seen": "2026-11-13T06:46:50.073219Z",
+  "last_verified": "2026-11-13T06:46:50.073219Z",
   "location": {
     "city": null,
     "country": "CA",
@@ -50,7 +50,7 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-11-12T07:11:10.165163Z",
+      "fetched_at": "2026-11-13T06:46:50.073219Z",
       "source_id": "bmo-student-events",
       "url": "https://jobs.bmo.com/ca/en/student-events"
     }

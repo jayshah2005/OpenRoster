@@ -8,7 +8,7 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-18T21:00:00Z",
+  "end": "2026-11-18T16:00:00-05:00",
   "first_seen": "2026-10-30T22:21:19.475440Z",
   "geo": {
     "lat": 43.4668,
@@ -17,13 +17,13 @@
   },
   "history": [],
   "id": "2026-11-university-of-waterl-cpi-talk-somebody-else-s-problem-verifiability-an-82f7",
-  "last_seen": "2026-11-12T07:11:10.165163Z",
-  "last_verified": "2026-11-12T07:11:10.165163Z",
+  "last_seen": "2026-11-13T06:46:50.073219Z",
+  "last_verified": "2026-11-13T06:46:50.073219Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "East Campus 5 - University of Waterloo, 305 Phillip St EC5, Waterloo, ON N2L 3W8, Canada"
+    "venue_name": "EC5 - East Campus 5- Room 1111 (Enterprise Theatre) 305 Phillip St. Waterloo ON N2L 5Z5 Canada"
   },
   "mode": "hybrid",
   "near_schools": [
@@ -106,7 +106,7 @@
   "organizer": "University of Waterloo central events calendar (WCMS iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://luma.com/i83dfjas"
+    "url": "https://uwaterloo.ca/events/events/cpi-talk-somebody-elses-problem-verifiability-and"
   },
   "review": null,
   "roles": [
@@ -126,23 +126,23 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-12T07:11:10.165163Z",
+      "fetched_at": "2026-11-13T06:46:50.073219Z",
       "source_id": "uwaterloo-central-events-ics",
       "url": "https://uwaterloo.ca/events/events/cpi-talk-somebody-elses-problem-verifiability-and"
     },
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-12T07:11:10.165163Z",
+      "fetched_at": "2026-11-13T06:46:50.073219Z",
       "source_id": "luma-waterloo-tech-adjacent-events",
       "url": "https://luma.com/i83dfjas"
     }
   ],
   "start": "2026-11-18T14:30:00-05:00",
   "status": "scheduled",
-  "summary": "Hybrid event by Waterloo Tech (+adjacent) Events (Luma iCal) in Waterloo.",
+  "summary": "Hybrid event by University of Waterloo central events calendar (WCMS iCal) in Waterloo.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "CPI Talk - Somebody else’s problem: Verifiability and accountability in Canadian online elections.",
+  "title": "CPI Talk: Somebody else's problem: Verifiability and accountability in Canadian online elections",
   "travel_support": {
     "note": null,
     "stated": false

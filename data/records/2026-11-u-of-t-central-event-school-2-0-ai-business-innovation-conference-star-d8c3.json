@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-u-of-t-central-event-school-2-0-ai-business-innovation-conference-star-d8c3",
-  "last_seen": "2026-11-12T07:11:10.165163Z",
-  "last_verified": "2026-11-12T07:11:10.165163Z",
+  "last_seen": "2026-11-13T06:46:50.073219Z",
+  "last_verified": "2026-11-13T06:46:50.073219Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-11-12T07:11:10.165163Z",
+      "fetched_at": "2026-11-13T06:46:50.073219Z",
       "source_id": "uoft-central-events",
       "url": "https://entrepreneurs.utoronto.ca/event/t-cairems-2026-national-health-datathon/"
     }
