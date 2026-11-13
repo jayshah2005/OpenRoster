@@ -55,7 +55,7 @@
     }
   ],
   "start": "2026-11-12T19:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Online info session by Career Education. Apply by Nov 12.",
   "tags": [],
   "timezone": "America/Toronto",

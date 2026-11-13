@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-15T22:00:00Z",
+  "first_seen": "2026-11-13T19:43:05.422860Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-university-of-guelph-nasa-space-apps-hackathon-b8cb",
+  "last_seen": "2026-11-13T19:43:05.422860Z",
+  "last_verified": "2026-11-13T19:43:05.422860Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "Sign in to download the location"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
+  "registration": {
+    "route": "public_link",
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=380263"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "uoguelph-gryphlife-campusgroups-ics:2c7060c87569",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-13T19:43:05.422860Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=380263"
+    }
+  ],
+  "start": "2026-11-14T14:00:00Z",
+  "status": "scheduled",
+  "summary": "Hackathon by University of Guelph GryphLife (CampusGroups) public iCal.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "NASA Space Apps Hackathon",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "hackathon"
+}

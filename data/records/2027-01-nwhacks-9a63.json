@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2027-01-nwhacks-9a63",
-  "last_seen": "2026-11-11T06:21:29.827093Z",
-  "last_verified": "2026-11-11T06:21:29.827093Z",
+  "last_seen": "2026-11-13T19:43:05.422860Z",
+  "last_verified": "2026-11-13T19:43:05.422860Z",
   "location": {
     "city": "Vancouver",
     "country": "CA",
@@ -35,17 +35,7 @@
     "route": "public_link",
     "url": "https://nwhacks.io"
   },
-  "review": {
-    "evidence": [
-      {
-        "text": "missing from the last 2 successful fetches",
-        "url": "https://nwhacks.io"
-      }
-    ],
-    "reasons": [
-      "no longer listed by its source (possibly cancelled or moved)"
-    ]
-  },
+  "review": null,
   "roles": [
     {
       "closes": null,
@@ -63,13 +53,13 @@
   "sources": [
     {
       "adapter": "hackathon_site",
-      "fetched_at": "2026-11-11T06:21:29.827093Z",
+      "fetched_at": "2026-11-13T19:43:05.422860Z",
       "source_id": "hackathon:nwhacks",
       "url": "https://nwhacks.io"
     }
   ],
   "start": "2027-01-16T00:00:00-05:00",
-  "status": "needs_review",
+  "status": "scheduled",
   "summary": "Hackathon by nwHacks in Vancouver for Indigenous students.",
   "tags": [
     "indigenous_students"

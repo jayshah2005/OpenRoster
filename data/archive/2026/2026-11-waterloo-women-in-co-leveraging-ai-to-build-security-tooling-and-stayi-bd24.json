@@ -65,7 +65,7 @@
     }
   ],
   "start": "2026-11-12T16:30:00-05:00",
-  "status": "needs_review",
+  "status": "past",
   "summary": "Event by Waterloo Women in Computer Science events (iCal).",
   "tags": [],
   "timezone": "America/Toronto",

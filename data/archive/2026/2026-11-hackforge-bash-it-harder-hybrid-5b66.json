@@ -68,7 +68,7 @@
     }
   ],
   "start": "2026-11-12T19:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Free hybrid event by Hackforge in Windsor.",
   "tags": [],
   "timezone": "America/Detroit",

@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-17T13:00:00-05:00",
+  "first_seen": "2026-11-13T19:43:05.422860Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-cheriton-school-of-c-master-s-thesis-presentation-artificial-intellige-83bb",
+  "last_seen": "2026-11-13T19:43:05.422860Z",
+  "last_verified": "2026-11-13T19:43:05.422860Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "DC - William G. Davis Computer Research Centre 200 University Avenue West Online master’s thesis presentation Waterloo O"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Cheriton School of Computer Science events (iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://uwaterloo.ca/computer-science/events/masters-thesis-presentation-ai-ml-distilling-legal-language-models-with-limited-data-through-synthesis-attribution"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "uwaterloo-cs-events-ics:2bb74ede594c",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-13T19:43:05.422860Z",
+      "source_id": "uwaterloo-cs-events-ics",
+      "url": "https://uwaterloo.ca/computer-science/events/masters-thesis-presentation-ai-ml-distilling-legal-language-models-with-limited-data-through-synthesis-attribution"
+    }
+  ],
+  "start": "2026-11-17T12:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Online event by Cheriton School of Computer Science events (iCal).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Master’s Thesis Presentation • Artificial Intelligence | Machine Learning • Distilling Legal Language Models with Limited Data through Synthesis and Attribution",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

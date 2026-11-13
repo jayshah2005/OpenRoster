@@ -8,24 +8,24 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-12T17:30:00-05:00",
-  "first_seen": "2026-11-03T23:24:00.075219Z",
+  "end": "2026-11-18T13:00:00-05:00",
+  "first_seen": "2026-11-13T19:43:05.422860Z",
   "geo": {
     "lat": 43.4668,
     "lon": -80.51639,
     "source": "gazetteer"
   },
   "history": [],
-  "id": "2026-11-waterloo-engineering-chemical-engineering-grad-fair-d121",
-  "last_seen": "2026-11-12T07:11:10.165163Z",
-  "last_verified": "2026-11-12T07:11:10.165163Z",
+  "id": "2026-11-cheriton-school-of-c-seminar-algorithms-and-complexity-recovering-poly-ca5f",
+  "last_seen": "2026-11-13T19:43:05.422860Z",
+  "last_verified": "2026-11-13T19:43:05.422860Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "PSE 2307 200 University Ave West Waterloo ON N2L 3G1 Canada"
+    "venue_name": "DC - William G. Davis Computer Research Centre 200 University Avenue West Hybrid: DC 1304 | Online seminar Waterloo ON N"
   },
-  "mode": "unknown",
+  "mode": "hybrid",
   "near_schools": [
     {
       "km": 1.2,
@@ -103,10 +103,10 @@
   "obtained_via": [
     "ics"
   ],
-  "organizer": "Waterloo Engineering events (iCal)",
+  "organizer": "Cheriton School of Computer Science events (iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://uwaterloo.ca/engineering/events/chemical-engineering-grad-fair"
+    "url": "https://uwaterloo.ca/computer-science/events/seminar-algorithms-and-complexity-recovering-polynomials-over-finite-fields-from-noisy-character-values"
   },
   "review": null,
   "roles": [
@@ -122,24 +122,24 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": "uwaterloo-engineering-events-ics:4d6f08146c40",
+  "series_id": "uwaterloo-cs-events-ics:e5e7b68e0ecd",
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-12T07:11:10.165163Z",
-      "source_id": "uwaterloo-engineering-events-ics",
-      "url": "https://uwaterloo.ca/engineering/events/chemical-engineering-grad-fair"
+      "fetched_at": "2026-11-13T19:43:05.422860Z",
+      "source_id": "uwaterloo-cs-events-ics",
+      "url": "https://uwaterloo.ca/computer-science/events/seminar-algorithms-and-complexity-recovering-polynomials-over-finite-fields-from-noisy-character-values"
     }
   ],
-  "start": "2026-11-12T15:00:00-05:00",
+  "start": "2026-11-18T12:00:00-05:00",
   "status": "scheduled",
-  "summary": "Event by Waterloo Engineering events (iCal) in Waterloo.",
+  "summary": "Hybrid tech talk by Cheriton School of Computer Science events (iCal) in Waterloo.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Chemical Engineering Grad fair",
+  "title": "Seminar • Algorithms and Complexity • Recovering Polynomials over Finite Fields from Noisy Character Values",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "other"
+  "type": "tech_talk"
 }
