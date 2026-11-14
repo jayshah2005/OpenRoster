@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-university-of-guelph-nasa-space-apps-hackathon-b8cb",
-  "last_seen": "2026-11-13T19:43:05.422860Z",
-  "last_verified": "2026-11-13T19:43:05.422860Z",
+  "last_seen": "2026-11-14T18:02:08.839291Z",
+  "last_verified": "2026-11-14T18:02:08.839291Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-13T19:43:05.422860Z",
+      "fetched_at": "2026-11-14T18:02:08.839291Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=380263"
     }

@@ -140,7 +140,7 @@
     }
   ],
   "start": "2026-11-13T12:30:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Workshop by Goodman School of Business in St. Catharines.",
   "tags": [],
   "timezone": "America/Toronto",
