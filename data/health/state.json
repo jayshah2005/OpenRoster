@@ -100,7 +100,7 @@
     "2026-11-career-services-employer-in-the-hall-maxama-protection-inc-7b4f": 2,
     "2026-11-careerin-tech-societ-burnaby-tech-community-coffee-meetup-5cb9": 2,
     "2026-11-careerin-tech-societ-richmond-tech-community-coffee-meetup-60c3": 3,
-    "2026-11-careerin-tech-societ-vancouver-tech-community-coffee-meetup-196a": 1,
+    "2026-11-careerin-tech-societ-vancouver-tech-community-coffee-meetup-196a": 2,
     "2026-11-careerin-tech-societ-vancouver-tech-community-connect-76f8": 2,
     "2026-11-careerin-tech-societ-west-vancouver-tech-community-coffee-meetup-3da4": 3,
     "2026-11-carleton-career-serv-ebc-lansdowne-park-td-place-site-tour-fd2f": 2,
@@ -174,6 +174,7 @@
     "2026-11-university-of-guelph-idsoc-career-panel-2ab1": 2,
     "2026-11-university-of-guelph-indigenous-data-sovereignty-foundations-for-resea-e7f9": 3,
     "2026-11-university-of-guelph-learn-to-3d-print-fb0b": 2,
+    "2026-11-university-of-waterl-civic-hackathon-2026-a363": 1,
     "2026-11-waterloo-engineering-chemical-engineering-grad-fair-d121": 2,
     "2026-11-waterloo-engineering-fusion-conference-2026-80c2": 2,
     "2026-11-waterloo-engineering-future-proof-your-research-data-best-practices-fo-bd81": 3,
@@ -288,11 +289,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 670,
+      "last_nonzero": 666,
       "last_ok": "2026-11-14",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 670,
+      "raw_count": 666,
       "refused": false
     },
     "carleton-career-events-api": {
@@ -534,7 +535,7 @@
       "count": 0,
       "error": null,
       "fingerprint": null,
-      "healthy_streak": 1,
+      "healthy_streak": 2,
       "last_nonzero": 1,
       "last_ok": "2026-11-14",
       "ok": true,
@@ -977,11 +978,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 18,
+      "last_nonzero": 17,
       "last_ok": "2026-11-14",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 18,
+      "raw_count": 17,
       "refused": false
     },
     "laurier-events-ics": {
@@ -990,11 +991,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 87,
+      "last_nonzero": 86,
       "last_ok": "2026-11-14",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 87,
+      "raw_count": 86,
       "refused": false
     },
     "loyalist-events-tribe": {
@@ -1167,7 +1168,7 @@
       "refused": false
     },
     "niagara-college-events": {
-      "consecutive_failures": 61,
+      "consecutive_failures": 62,
       "count": 0,
       "error": "https://www.niagaracollege.ca/wp-json/tribe/events/v1/events?start_date=2026-11-14&per_page=50: disallowed by robots.txt",
       "fingerprint": null,
@@ -1258,7 +1259,7 @@
       "refused": false
     },
     "uoft-engineering-events": {
-      "consecutive_failures": 61,
+      "consecutive_failures": 62,
       "count": 0,
       "error": "ZoneInfoNotFoundError: 'No time zone found with key UTC+0'",
       "fingerprint": null,
@@ -1302,11 +1303,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 951,
+      "last_nonzero": 948,
       "last_ok": "2026-11-14",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 951,
+      "raw_count": 948,
       "refused": false
     },
     "uoguelph-news-events-tribe": {
@@ -1406,11 +1407,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 234,
+      "last_nonzero": 227,
       "last_ok": "2026-11-14",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 234,
+      "raw_count": 227,
       "refused": false
     },
     "western-events-json": {
