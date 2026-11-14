@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-26T19:00:00-05:00",
+  "first_seen": "2026-11-14T06:23:52.066949Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-career-education-make-your-mark-in-consulting-kpmg-consulting-virtu-01bc",
+  "last_seen": "2026-11-14T06:23:52.066949Z",
+  "last_verified": "2026-11-14T06:23:52.066949Z",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Virtual Event"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Career Education",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://experiencebu.brocku.ca/event/337962"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "brock"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-11-14T06:23:52.066949Z",
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/337962"
+    }
+  ],
+  "start": "2026-11-26T17:30:00-05:00",
+  "status": "scheduled",
+  "summary": "Free online info session by Career Education.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Make Your Mark in Consulting | KPMG Consulting Virtual Info Session",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

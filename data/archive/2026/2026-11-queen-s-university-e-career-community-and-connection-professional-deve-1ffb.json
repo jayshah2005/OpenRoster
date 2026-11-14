@@ -132,7 +132,7 @@
     }
   ],
   "start": "2026-11-13T09:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Hybrid info session by Queen's University events calendar (RSS) in Central.",
   "tags": [],
   "timezone": "America/Toronto",

@@ -215,11 +215,23 @@
       "field": "start",
       "new": "2026-11-16T19:30:00+00:00",
       "old": "2026-11-16T18:30:00+00:00"
+    },
+    {
+      "at": "2026-11-14T06:23:52.066949Z",
+      "field": "start",
+      "new": "2026-11-16T18:30:00+00:00",
+      "old": "2026-11-16T19:30:00+00:00"
+    },
+    {
+      "at": "2026-11-14T06:23:52.066949Z",
+      "field": "start",
+      "new": "2026-11-16T19:30:00+00:00",
+      "old": "2026-11-16T18:30:00+00:00"
     }
   ],
   "id": "2026-11-university-of-guelph-working-in-policy-career-chat-5a72",
-  "last_seen": "2026-11-13T06:46:50.073219Z",
-  "last_verified": "2026-11-13T06:46:50.073219Z",
+  "last_seen": "2026-11-14T06:23:52.066949Z",
+  "last_verified": "2026-11-14T06:23:52.066949Z",
   "location": {
     "city": null,
     "country": null,
@@ -254,13 +266,13 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-13T06:46:50.073219Z",
+      "fetched_at": "2026-11-14T06:23:52.066949Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=380221"
     },
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-13T06:46:50.073219Z",
+      "fetched_at": "2026-11-14T06:23:52.066949Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=380813"
     }

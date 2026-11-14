@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-cheriton-school-of-c-master-s-thesis-presentation-artificial-intellige-83bb",
-  "last_seen": "2026-11-13T19:43:05.422860Z",
-  "last_verified": "2026-11-13T19:43:05.422860Z",
+  "last_seen": "2026-11-14T06:23:52.066949Z",
+  "last_verified": "2026-11-14T06:23:52.066949Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-13T19:43:05.422860Z",
+      "fetched_at": "2026-11-14T06:23:52.066949Z",
       "source_id": "uwaterloo-cs-events-ics",
       "url": "https://uwaterloo.ca/computer-science/events/masters-thesis-presentation-ai-ml-distilling-legal-language-models-with-limited-data-through-synthesis-attribution"
     }
