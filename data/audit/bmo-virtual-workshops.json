@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-13T17:22:04.108620+00:00",
+  "checked": "2026-11-14T16:06:03.576928+00:00",
   "dated_items_in_html": 16,
   "feeds": [],
   "http_status": 200,
@@ -12,10 +12,10 @@
   ],
   "robots": "allowed",
   "sitemaps": [
-    "https://jobs.bmo.com/ca/fr/sitemap_index.xml",
     "https://jobs.bmo.com/global/en/sitemap_index.xml",
     "https://jobs.bmo.com/ca/en/sitemap_index.xml",
-    "https://jobs.bmo.com/us/en/sitemap_index.xml"
+    "https://jobs.bmo.com/us/en/sitemap.xml",
+    "https://jobs.bmo.com/ca/fr/sitemap_index.xml"
   ],
   "terms_forbid_automated": null,
   "terms_forbid_republish": null,

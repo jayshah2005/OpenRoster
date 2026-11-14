@@ -1,12 +1,12 @@
 {
-  "checked": "2026-11-12T17:44:40.248939+00:00",
-  "dated_items_in_html": 1,
+  "checked": "2026-11-14T16:06:30.386738+00:00",
+  "dated_items_in_html": 5,
   "feeds": [],
   "http_status": 200,
   "jsonld_events": 0,
   "known_verdict": null,
   "login_wall": false,
-  "platform": "html_no_dates",
+  "platform": "html",
   "reasons": [
     "no terms-of-use link found on the page"
   ],
