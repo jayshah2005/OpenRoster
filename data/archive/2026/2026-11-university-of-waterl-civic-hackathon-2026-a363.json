@@ -92,7 +92,7 @@
     }
   ],
   "start": "2026-11-12T18:00:00-05:00",
-  "status": "moved",
+  "status": "past",
   "summary": "Free online hackathon by Waterloo Engineering events (iCal).",
   "tags": [],
   "timezone": "America/Toronto",

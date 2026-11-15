@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-u-of-t-central-event-how-to-use-networking-to-learn-about-careers-in-k-a5fc",
-  "last_seen": "2026-11-06T19:36:27.028830Z",
-  "last_verified": "2026-11-06T19:36:27.028830Z",
+  "last_seen": "2026-11-15T18:52:07.088846Z",
+  "last_verified": "2026-11-15T18:52:07.088846Z",
   "location": {
     "city": null,
     "country": null,
@@ -31,17 +31,7 @@
     "route": "public_link",
     "url": "https://kpe.utoronto.ca/fri-11272026-1300/how-use-networking-learn-about-careers-kinesiology"
   },
-  "review": {
-    "evidence": [
-      {
-        "text": "missing from the last 2 successful fetches",
-        "url": "https://kpe.utoronto.ca/fri-11272026-1300/how-use-networking-learn-about-careers-kinesiology"
-      }
-    ],
-    "reasons": [
-      "no longer listed by its source (possibly cancelled or moved)"
-    ]
-  },
+  "review": null,
   "roles": [
     {
       "closes": null,
@@ -59,13 +49,13 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-11-06T19:36:27.028830Z",
+      "fetched_at": "2026-11-15T18:52:07.088846Z",
       "source_id": "uoft-central-events",
       "url": "https://kpe.utoronto.ca/fri-11272026-1300/how-use-networking-learn-about-careers-kinesiology"
     }
   ],
   "start": "2026-11-27T00:00:00-05:00",
-  "status": "needs_review",
+  "status": "scheduled",
   "summary": "Networking event by U of T central events aggregator.",
   "tags": [],
   "timezone": "America/Toronto",
