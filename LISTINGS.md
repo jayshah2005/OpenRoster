@@ -2,7 +2,7 @@
 
 Hackathons, info sessions, talks, career fairs, workshops, competitions and early-career programs for CS students, soonest deadline first. Filter, subscribe to a calendar, or see details at https://openroster-seven.vercel.app.
 
-224 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
+223 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
 
 | Apply by | Starts | Opportunity | Organizer | Type | Where | Ways to take part |
 |---|---|---|---|---|---|---|
@@ -13,7 +13,6 @@ Hackathons, info sessions, talks, career fairs, workshops, competitions and earl
 | Not listed | Nov 14 | [NASA Space Apps Hackathon](https://openroster-seven.vercel.app/o/2026-11-university-of-guelph-nasa-space-apps-hackathon-b8cb/) | University of Guelph GryphLife (CampusGroups) public iCal | Hackathon | TBA | attend |
 | Not listed | Nov 14 | [UWPM – ProdCon – A Product Hackathon](https://openroster-seven.vercel.app/o/2026-11-uwpm-prodcon-a-product-hackathon-68c4/) | UWPM | Hackathon | Waterloo, ON | attend |
 | Not listed | Nov 14 | [NASA Space Apps Challenge Windsor 2026 (virtual)](https://openroster-seven.vercel.app/o/2026-11-wetech-alliance-even-nasa-space-apps-challenge-windsor-2026-virtual-112f/) | WEtech Alliance events (Windsor-Essex) | Hackathon | Online | attend |
-| Not listed | Nov 14 | [Vancouver Tech Community Coffee Meetup](https://openroster-seven.vercel.app/o/2026-11-careerin-tech-societ-vancouver-tech-community-coffee-meetup-196a/) | Careerin Tech Society (Luma iCal) | Networking | Vancouver, BC | attend |
 | Not listed | Nov 15 | [ONHacks](https://openroster-seven.vercel.app/o/2026-11-onhacks-c9cd/) | ONHacks | Hackathon | Toronto, ON | attend |
 | Not listed | Nov 16 | [Global Entrepreneurship Week 2026](https://openroster-seven.vercel.app/o/2026-11-western-university-e-global-entrepreneurship-week-2026-90a9/) | Western University events calendar (iCal) | Conference | London, ON | attend |
 | Not listed | Nov 16 | [Industry Insights: Featuring TJX](https://openroster-seven.vercel.app/o/2026-11-career-education-industry-insights-featuring-tjx-f9f0/) | Career Education | Info session | Online | attend |
@@ -51,7 +50,7 @@ Hackathons, info sessions, talks, career fairs, workshops, competitions and earl
 | Not listed | Nov 18 | [Non-Technical Wednesday](https://openroster-seven.vercel.app/o/2026-11-waterloo-tech-adjace-non-technical-wednesday-ec5a/) | Waterloo Tech (+adjacent) Events (Luma iCal) | Other | King, ON | attend |
 | Not listed | Nov 18 | [E.S. Fox Employer - Information Session](https://openroster-seven.vercel.app/o/2026-11-career-education-save-the-date-careers-in-nuclear-information-sessi-4dac/) | Career Education | Info session | Niagara, ON | attend |
 | Not listed | Nov 18 | [Developing Your Career (Virtual Session) - Employee Workshop](https://openroster-seven.vercel.app/o/2026-11-office-of-people-cul-developing-your-career-virtual-session-employee-w-9f9f/) | Office of People & Culture | Info session | Online | attend |
-| Not listed | Nov 18 | [CPI Talk: Somebody else's problem: Verifiability and accountability in Canadian online elections](https://openroster-seven.vercel.app/o/2026-11-university-of-waterl-cpi-talk-somebody-else-s-problem-verifiability-an-82f7/) | University of Waterloo central events calendar (WCMS iCal) | Other | Waterloo, ON | attend |
+| Not listed | Nov 18 | [CPI Talk - Somebody else’s problem: Verifiability and accountability in Canadian online elections.](https://openroster-seven.vercel.app/o/2026-11-university-of-waterl-cpi-talk-somebody-else-s-problem-verifiability-an-82f7/) | University of Waterloo central events calendar (WCMS iCal) | Other | Waterloo, ON | attend |
 | Not listed | Nov 18 | [Beyond the Connection Request: Mastering LinkedIn & Personal Branding](https://openroster-seven.vercel.app/o/2026-11-bmo-beyond-the-connection-request-mastering-linkedin-p-8418/) | BMO | Workshop | Online | attend |
 | Not listed | Nov 18 | [Game Dev Weekly Meetings](https://openroster-seven.vercel.app/o/2026-11-university-of-guelph-game-dev-weekly-meetings-461d/) | University of Guelph GryphLife (CampusGroups) public iCal | Other | TBA | attend |
 | Not listed | Nov 18 | [Networking Reception for early & experienced professionals interested in Business, Finance and other corporate roles](https://openroster-seven.vercel.app/o/2026-11-career-education-networking-reception-for-early-experienced-profess-9c2b/) | Career Education | Career fair | Online | attend |

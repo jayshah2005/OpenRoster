@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-university-of-guelph-prompt-to-pitch-case-competition-4949",
-  "last_seen": "2026-11-14T18:02:08.839291Z",
-  "last_verified": "2026-11-14T18:02:08.839291Z",
+  "last_seen": "2026-11-15T06:32:34.741463Z",
+  "last_verified": "2026-11-15T06:32:34.741463Z",
   "location": {
     "city": "Guelph",
     "country": "CA",
@@ -126,7 +126,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-14T18:02:08.839291Z",
+      "fetched_at": "2026-11-15T06:32:34.741463Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=376542"
     }
