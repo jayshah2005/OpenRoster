@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-wetech-alliance-even-gdg-windsor-essex-devfest-2026-5a2b",
-  "last_seen": "2026-11-11T06:21:29.827093Z",
-  "last_verified": "2026-11-11T06:21:29.827093Z",
+  "last_seen": "2026-11-16T22:02:52.992466Z",
+  "last_verified": "2026-11-16T22:02:52.992466Z",
   "location": {
     "city": "Windsor",
     "country": "CA",
@@ -75,6 +75,12 @@
       "fetched_at": "2026-11-11T06:21:29.827093Z",
       "source_id": "wetech-alliance-events",
       "url": "https://www.wetech-alliance.com/event/gdg-windsor-essex-devfest-2026/"
+    },
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-11-16T22:02:52.992466Z",
+      "source_id": "wetech-alliance-events",
+      "url": "https://www.wetech-alliance.com/event/gdg-windsor-devfest-2026/"
     }
   ],
   "start": "2026-11-21T08:30:00-05:00",

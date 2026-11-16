@@ -152,7 +152,7 @@
     }
   ],
   "start": "2026-11-15T09:00:00Z",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Hackathon by ONHacks in Toronto for mostly high-school students.",
   "tags": [
     "mostly_high_school"

@@ -55,7 +55,7 @@
     }
   ],
   "start": "2026-11-14T14:00:00Z",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Hackathon by University of Guelph GryphLife (CampusGroups) public iCal.",
   "tags": [],
   "timezone": "America/Toronto",

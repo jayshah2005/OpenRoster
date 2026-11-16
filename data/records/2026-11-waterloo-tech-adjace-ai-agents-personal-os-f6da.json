@@ -11,7 +11,14 @@
   "end": "2026-11-20T01:30:00Z",
   "first_seen": "2026-10-24T16:53:41.410358Z",
   "geo": null,
-  "history": [],
+  "history": [
+    {
+      "at": "2026-11-16T22:02:52.992466Z",
+      "field": "start",
+      "new": "2026-11-19T23:00:00+00:00",
+      "old": "2026-11-19T22:30:00+00:00"
+    }
+  ],
   "id": "2026-11-waterloo-tech-adjace-ai-agents-personal-os-f6da",
   "last_seen": "2026-11-16T06:30:09.027486Z",
   "last_verified": "2026-11-16T06:30:09.027486Z",
@@ -54,8 +61,8 @@
       "url": "https://luma.com/2yn1kqpr"
     }
   ],
-  "start": "2026-11-19T22:30:00Z",
-  "status": "scheduled",
+  "start": "2026-11-19T23:00:00Z",
+  "status": "moved",
   "summary": "Event by Waterloo Tech (+adjacent) Events (Luma iCal).",
   "tags": [],
   "timezone": "America/Toronto",

@@ -1,0 +1,171 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "high_school"
+  ],
+  "end": "2026-12-03T16:00:00Z",
+  "first_seen": "2026-11-16T22:02:52.992466Z",
+  "geo": {
+    "lat": 43.747150205889,
+    "lon": -79.585146130801,
+    "source": "venue"
+  },
+  "history": [],
+  "id": "2026-12-hack-the-rex-06c1",
+  "last_seen": "2026-11-16T22:02:52.992466Z",
+  "last_verified": "2026-11-16T22:02:52.992466Z",
+  "location": {
+    "city": "Etobicoke",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": null
+  },
+  "mode": "in_person",
+  "near_schools": [
+    {
+      "km": 2.7,
+      "school_id": "humber"
+    },
+    {
+      "km": 7.3,
+      "school_id": "yorku"
+    },
+    {
+      "km": 7.4,
+      "school_id": "seneca"
+    },
+    {
+      "km": 15.6,
+      "school_id": "algoma"
+    },
+    {
+      "km": 16.0,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 16.1,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 17.9,
+      "school_id": "uoft"
+    },
+    {
+      "km": 18.8,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 19.3,
+      "school_id": "tmu"
+    },
+    {
+      "km": 21.6,
+      "school_id": "centennial"
+    },
+    {
+      "km": 53.7,
+      "school_id": "durham"
+    },
+    {
+      "km": 56.8,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 59.4,
+      "school_id": "ontariotechu"
+    },
+    {
+      "km": 59.4,
+      "school_id": "trent"
+    },
+    {
+      "km": 60.4,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 60.6,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 71.2,
+      "school_id": "brock"
+    },
+    {
+      "km": 72.8,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 74.2,
+      "school_id": "georgian"
+    },
+    {
+      "km": 76.7,
+      "school_id": "niagara-college"
+    },
+    {
+      "km": 81.7,
+      "school_id": "laurier"
+    },
+    {
+      "km": 83.1,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 95.7,
+      "school_id": "lakehead"
+    },
+    {
+      "km": 96.4,
+      "school_id": "fleming"
+    }
+  ],
+  "obtained_via": [
+    "api"
+  ],
+  "organizer": "Hack The Rex",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.hacktherex.com/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "api",
+      "fetched_at": "2026-11-16T22:02:52.992466Z",
+      "source_id": "hackclub-hackathons-api-upcoming",
+      "url": "https://www.hacktherex.com/"
+    }
+  ],
+  "start": "2026-12-03T12:00:00Z",
+  "status": "scheduled",
+  "summary": "Hackathon by Hack The Rex in Etobicoke for mostly high-school students.",
+  "tags": [
+    "mostly_high_school"
+  ],
+  "timezone": "America/Toronto",
+  "title": "Hack The Rex",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "hackathon"
+}

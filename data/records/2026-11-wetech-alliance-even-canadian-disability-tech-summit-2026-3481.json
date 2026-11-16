@@ -125,6 +125,7 @@
     }
   ],
   "obtained_via": [
+    "html",
     "tribe"
   ],
   "organizer": "WEtech Alliance events (Windsor-Essex)",
@@ -153,6 +154,12 @@
       "fetched_at": "2026-11-16T06:30:09.027486Z",
       "source_id": "wetech-alliance-events",
       "url": "https://www.wetech-alliance.com/event/canadian-disability-tech-summit-2026/"
+    },
+    {
+      "adapter": "html",
+      "fetched_at": "2026-11-16T22:02:52.992466Z",
+      "source_id": "uoft-central-events",
+      "url": "https://entrepreneurs.utoronto.ca/event/canadian-disability-tech-summit/"
     }
   ],
   "start": "2026-11-18T07:30:00-05:00",
