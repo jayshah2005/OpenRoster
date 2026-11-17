@@ -57,6 +57,12 @@
       "fetched_at": "2026-11-17T07:55:15.805871Z",
       "source_id": "queens-events-rss",
       "url": "https://www.queensu.ca/eventscalendar/events/research-unlocked-navigating-copyright-legalities-training-using-ai"
+    },
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-11-17T20:55:44.277203Z",
+      "source_id": "queens-events-rss",
+      "url": "https://www.queensu.ca/eventscalendar/events/be-rescheduled-january-research-unlocked-navigating-copyright-legalities-training-using-ai"
     }
   ],
   "start": "2026-11-18T11:00:00-05:00",
