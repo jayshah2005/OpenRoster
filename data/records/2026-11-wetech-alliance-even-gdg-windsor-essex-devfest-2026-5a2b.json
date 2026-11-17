@@ -17,13 +17,13 @@
   },
   "history": [],
   "id": "2026-11-wetech-alliance-even-gdg-windsor-essex-devfest-2026-5a2b",
-  "last_seen": "2026-11-16T22:02:52.992466Z",
-  "last_verified": "2026-11-16T22:02:52.992466Z",
+  "last_seen": "2026-11-17T07:55:15.805871Z",
+  "last_verified": "2026-11-17T07:55:15.805871Z",
   "location": {
     "city": "Windsor",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "Odette School of Business"
+    "venue_name": "University of Windsor"
   },
   "mode": "unknown",
   "near_schools": [
@@ -42,19 +42,9 @@
   "organizer": "WEtech Alliance events (Windsor-Essex)",
   "registration": {
     "route": "public_link",
-    "url": "https://www.wetech-alliance.com/event/gdg-windsor-essex-devfest-2026/"
+    "url": "https://www.wetech-alliance.com/event/gdg-windsor-devfest-2026/"
   },
-  "review": {
-    "evidence": [
-      {
-        "text": "missing from the last 2 successful fetches",
-        "url": "https://www.wetech-alliance.com/event/gdg-windsor-essex-devfest-2026/"
-      }
-    ],
-    "reasons": [
-      "no longer listed by its source (possibly cancelled or moved)"
-    ]
-  },
+  "review": null,
   "roles": [
     {
       "closes": null,
@@ -78,20 +68,20 @@
     },
     {
       "adapter": "tribe",
-      "fetched_at": "2026-11-16T22:02:52.992466Z",
+      "fetched_at": "2026-11-17T07:55:15.805871Z",
       "source_id": "wetech-alliance-events",
       "url": "https://www.wetech-alliance.com/event/gdg-windsor-devfest-2026/"
     }
   ],
   "start": "2026-11-21T08:30:00-05:00",
-  "status": "needs_review",
-  "summary": "Event by WEtech Alliance events (Windsor-Essex) in Windsor.",
+  "status": "scheduled",
+  "summary": "Info session by WEtech Alliance events (Windsor-Essex) in Windsor.",
   "tags": [],
   "timezone": "America/Detroit",
-  "title": "GDG Windsor-Essex DevFest 2026",
+  "title": "GDG Windsor Devfest 2026",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "other"
+  "type": "info_session"
 }

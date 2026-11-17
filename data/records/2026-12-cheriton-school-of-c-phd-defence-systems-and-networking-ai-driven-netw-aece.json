@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-12-cheriton-school-of-c-phd-defence-systems-and-networking-ai-driven-netw-aece",
-  "last_seen": "2026-11-16T06:30:09.027486Z",
-  "last_verified": "2026-11-16T06:30:09.027486Z",
+  "last_seen": "2026-11-17T07:55:15.805871Z",
+  "last_verified": "2026-11-17T07:55:15.805871Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-16T06:30:09.027486Z",
+      "fetched_at": "2026-11-17T07:55:15.805871Z",
       "source_id": "uwaterloo-cs-events-ics",
       "url": "https://uwaterloo.ca/computer-science/events/phd-defence-syn-ai-driven-network-slice-management-and-orchestration-in-5g-and-beyond-networks"
     }

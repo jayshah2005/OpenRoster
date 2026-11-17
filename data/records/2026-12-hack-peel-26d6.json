@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-12-hack-peel-26d6",
-  "last_seen": "2026-11-16T06:30:09.027486Z",
-  "last_verified": "2026-11-16T06:30:09.027486Z",
+  "last_seen": "2026-11-17T07:55:15.805871Z",
+  "last_verified": "2026-11-17T07:55:15.805871Z",
   "location": {
     "city": "Mississauga",
     "country": "CA",
@@ -142,7 +142,7 @@
   "sources": [
     {
       "adapter": "api",
-      "fetched_at": "2026-11-16T06:30:09.027486Z",
+      "fetched_at": "2026-11-17T07:55:15.805871Z",
       "source_id": "hackclub-hackathons-api-upcoming",
       "url": "https://hackpeel.ca"
     }

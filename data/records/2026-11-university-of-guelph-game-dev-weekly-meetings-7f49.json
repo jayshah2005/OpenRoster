@@ -353,11 +353,23 @@
       "field": "start",
       "new": "2026-11-25T22:30:00+00:00",
       "old": "2026-11-25T21:30:00+00:00"
+    },
+    {
+      "at": "2026-11-17T07:55:15.805871Z",
+      "field": "start",
+      "new": "2026-11-25T21:30:00+00:00",
+      "old": "2026-11-25T22:30:00+00:00"
+    },
+    {
+      "at": "2026-11-17T07:55:15.805871Z",
+      "field": "start",
+      "new": "2026-11-25T22:30:00+00:00",
+      "old": "2026-11-25T21:30:00+00:00"
     }
   ],
   "id": "2026-11-university-of-guelph-game-dev-weekly-meetings-7f49",
-  "last_seen": "2026-11-16T06:30:09.027486Z",
-  "last_verified": "2026-11-16T06:30:09.027486Z",
+  "last_seen": "2026-11-17T07:55:15.805871Z",
+  "last_verified": "2026-11-17T07:55:15.805871Z",
   "location": {
     "city": null,
     "country": null,
@@ -392,13 +404,13 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-16T06:30:09.027486Z",
+      "fetched_at": "2026-11-17T07:55:15.805871Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=379899"
     },
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-16T06:30:09.027486Z",
+      "fetched_at": "2026-11-17T07:55:15.805871Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=380224"
     }

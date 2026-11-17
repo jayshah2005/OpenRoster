@@ -2,7 +2,7 @@
   "ai_suggested": [],
   "all_day": true,
   "cost": {
-    "kind": "free",
+    "kind": "unknown",
     "note": null
   },
   "eligibility": [
@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2027-01-mchacks-bf85",
-  "last_seen": "2026-11-16T06:30:09.027486Z",
-  "last_verified": "2026-11-16T06:30:09.027486Z",
+  "last_seen": "2026-11-17T07:55:15.805871Z",
+  "last_verified": "2026-11-17T07:55:15.805871Z",
   "location": {
     "city": "Montreal",
     "country": "CA",
@@ -40,6 +40,14 @@
       "role": "participant",
       "status": "open",
       "url": "https://mchacks.ca"
+    },
+    {
+      "closes": null,
+      "evidence": "link: Become a Judge →",
+      "opens": null,
+      "role": "judge",
+      "status": "unknown",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeBDT2TCbXlj47mLSM6HCzDLgQe6ZD1cYwvjv6m4-8GbL8XWA/viewform"
     }
   ],
   "schools": [
@@ -49,14 +57,14 @@
   "sources": [
     {
       "adapter": "hackathon_site",
-      "fetched_at": "2026-11-16T06:30:09.027486Z",
+      "fetched_at": "2026-11-17T07:55:15.805871Z",
       "source_id": "hackathon:mchacks",
       "url": "https://mchacks.ca"
     }
   ],
   "start": "2027-01-16T00:00:00-05:00",
   "status": "scheduled",
-  "summary": "Free hackathon by McHacks in Montreal for high-school students. Beginners welcome. Apply by Jan 16.",
+  "summary": "Hackathon by McHacks in Montreal for high-school students. Beginners welcome. Also looking for judges.",
   "tags": [
     "beginner_friendly"
   ],

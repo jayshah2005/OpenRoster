@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-carleton-school-of-c-bsides-ottawa-2026-7b0f",
-  "last_seen": "2026-11-16T06:30:09.027486Z",
-  "last_verified": "2026-11-16T06:30:09.027486Z",
+  "last_seen": "2026-11-17T07:55:15.805871Z",
+  "last_verified": "2026-11-17T07:55:15.805871Z",
   "location": {
     "city": "Ottawa",
     "country": "CA",
@@ -70,7 +70,7 @@
   "sources": [
     {
       "adapter": "api",
-      "fetched_at": "2026-11-16T06:30:09.027486Z",
+      "fetched_at": "2026-11-17T07:55:15.805871Z",
       "source_id": "carleton-scs-events-api",
       "url": "https://carleton.ca/scs/event/bsides-ottawa-2026/"
     }

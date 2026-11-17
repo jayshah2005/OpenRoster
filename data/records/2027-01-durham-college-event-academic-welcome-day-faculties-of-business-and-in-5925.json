@@ -18,8 +18,8 @@
   },
   "history": [],
   "id": "2027-01-durham-college-event-academic-welcome-day-faculties-of-business-and-in-5925",
-  "last_seen": "2026-11-16T06:30:09.027486Z",
-  "last_verified": "2026-11-16T06:30:09.027486Z",
+  "last_seen": "2026-11-17T07:55:15.805871Z",
+  "last_verified": "2026-11-17T07:55:15.805871Z",
   "location": {
     "city": "Oshawa",
     "country": "CA",
@@ -127,7 +127,7 @@
   "sources": [
     {
       "adapter": "tribe",
-      "fetched_at": "2026-11-16T06:30:09.027486Z",
+      "fetched_at": "2026-11-17T07:55:15.805871Z",
       "source_id": "durham-events",
       "url": "https://durhamcollege.ca/event/academic-welcome-day-faculties-of-business-and-information-technology-bit-liberal-studies-ls-and-social-and-community-services-scs"
     }

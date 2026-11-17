@@ -15,10 +15,23 @@
     "lon": -79.39864,
     "source": "gazetteer"
   },
-  "history": [],
+  "history": [
+    {
+      "at": "2026-11-17T07:55:15.805871Z",
+      "field": "start",
+      "new": "2026-11-18T00:00:00-05:00",
+      "old": "2026-11-18T07:30:00-05:00"
+    },
+    {
+      "at": "2026-11-17T07:55:15.805871Z",
+      "field": "start",
+      "new": "2026-11-18T07:30:00-05:00",
+      "old": "2026-11-18T00:00:00-05:00"
+    }
+  ],
   "id": "2026-11-wetech-alliance-even-canadian-disability-tech-summit-2026-3481",
-  "last_seen": "2026-11-16T06:30:09.027486Z",
-  "last_verified": "2026-11-16T06:30:09.027486Z",
+  "last_seen": "2026-11-17T07:55:15.805871Z",
+  "last_verified": "2026-11-17T07:55:15.805871Z",
   "location": {
     "city": "Toronto",
     "country": "CA",
@@ -151,19 +164,19 @@
   "sources": [
     {
       "adapter": "tribe",
-      "fetched_at": "2026-11-16T06:30:09.027486Z",
+      "fetched_at": "2026-11-17T07:55:15.805871Z",
       "source_id": "wetech-alliance-events",
       "url": "https://www.wetech-alliance.com/event/canadian-disability-tech-summit-2026/"
     },
     {
       "adapter": "html",
-      "fetched_at": "2026-11-16T22:02:52.992466Z",
+      "fetched_at": "2026-11-17T07:55:15.805871Z",
       "source_id": "uoft-central-events",
       "url": "https://entrepreneurs.utoronto.ca/event/canadian-disability-tech-summit/"
     }
   ],
   "start": "2026-11-18T07:30:00-05:00",
-  "status": "scheduled",
+  "status": "moved",
   "summary": "Free hybrid info session by WEtech Alliance events (Windsor-Essex) in Toronto.",
   "tags": [],
   "timezone": "America/Detroit",
