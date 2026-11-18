@@ -52,12 +52,26 @@
       "fetched_at": "2026-11-18T07:29:16.057116Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=379594"
+    },
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-18T20:38:04.549794Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=380904"
+    },
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-18T20:38:04.549794Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=380001"
     }
   ],
   "start": "2026-11-23T23:00:00Z",
   "status": "scheduled",
   "summary": "Event by University of Guelph GryphLife (CampusGroups) public iCal.",
-  "tags": [],
+  "tags": [
+    "women_nonbinary"
+  ],
   "timezone": "America/Toronto",
   "title": "FVC Casper and Interview Achievers Talk",
   "travel_support": {

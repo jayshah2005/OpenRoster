@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": true,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": null,
+  "first_seen": "2026-11-18T20:38:04.549794Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-u-of-t-central-event-2026-introduction-to-ai-for-residents-fellows-fal-741d",
+  "last_seen": "2026-11-18T20:38:04.549794Z",
+  "last_verified": "2026-11-18T20:38:04.549794Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "html"
+  ],
+  "organizer": "U of T central events aggregator",
+  "registration": {
+    "route": "public_link",
+    "url": "https://temertymedicine.utoronto.ca/event/2026-introduction-ai-residents-fellows-fall"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "html",
+      "fetched_at": "2026-11-18T20:38:04.549794Z",
+      "source_id": "uoft-central-events",
+      "url": "https://temertymedicine.utoronto.ca/event/2026-introduction-ai-residents-fellows-fall"
+    }
+  ],
+  "start": "2026-11-21T00:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Event by U of T central events aggregator.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "2026 Introduction to AI for Residents & Fellows (Fall)",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

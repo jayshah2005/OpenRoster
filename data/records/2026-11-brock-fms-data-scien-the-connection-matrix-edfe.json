@@ -8,14 +8,21 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-18T19:00:00-05:00",
+  "end": "2026-11-25T18:30:00-05:00",
   "first_seen": "2026-11-17T20:55:44.277203Z",
   "geo": {
     "lat": 43.17126,
     "lon": -79.24267,
     "source": "gazetteer"
   },
-  "history": [],
+  "history": [
+    {
+      "at": "2026-11-18T20:38:04.549794Z",
+      "field": "start",
+      "new": "2026-11-25T17:30:00-05:00",
+      "old": "2026-11-18T17:30:00-05:00"
+    }
+  ],
   "id": "2026-11-brock-fms-data-scien-the-connection-matrix-edfe",
   "last_seen": "2026-11-18T07:29:16.057116Z",
   "last_verified": "2026-11-18T07:29:16.057116Z",
@@ -139,8 +146,8 @@
       "url": "https://experiencebu.brocku.ca/event/338136"
     }
   ],
-  "start": "2026-11-18T17:30:00-05:00",
-  "status": "scheduled",
+  "start": "2026-11-25T17:30:00-05:00",
+  "status": "moved",
   "summary": "Workshop by Brock FMS Data Science Club in St. Catharines.",
   "tags": [],
   "timezone": "America/Toronto",

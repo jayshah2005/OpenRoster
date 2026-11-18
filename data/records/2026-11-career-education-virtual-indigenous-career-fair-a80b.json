@@ -1,0 +1,70 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-19T13:00:00-05:00",
+  "first_seen": "2026-11-18T20:38:04.549794Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-career-education-virtual-indigenous-career-fair-a80b",
+  "last_seen": "2026-11-18T20:38:04.549794Z",
+  "last_verified": "2026-11-18T20:38:04.549794Z",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Virtual Event"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Career Education",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://experiencebu.brocku.ca/event/338231"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "brock"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-11-18T20:38:04.549794Z",
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/338231"
+    }
+  ],
+  "start": "2026-11-19T11:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Online career fair by Career Education for Indigenous students.",
+  "tags": [
+    "indigenous_students"
+  ],
+  "timezone": "America/Toronto",
+  "title": "Virtual Indigenous Career Fair",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "career_fair"
+}

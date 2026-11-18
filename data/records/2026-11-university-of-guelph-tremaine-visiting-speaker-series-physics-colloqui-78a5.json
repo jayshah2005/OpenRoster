@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-27T16:30:00Z",
+  "first_seen": "2026-11-18T20:38:04.549794Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-university-of-guelph-tremaine-visiting-speaker-series-physics-colloqui-78a5",
+  "last_seen": "2026-11-18T20:38:04.549794Z",
+  "last_verified": "2026-11-18T20:38:04.549794Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "Sign in to download the location"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
+  "registration": {
+    "route": "public_link",
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=381179"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "uoguelph-gryphlife-campusgroups-ics:7fa5e9db5810",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-18T20:38:04.549794Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=381179"
+    }
+  ],
+  "start": "2026-11-27T15:00:00Z",
+  "status": "scheduled",
+  "summary": "Tech talk by University of Guelph GryphLife (CampusGroups) public iCal.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Tremaine Visiting Speaker Series - Physics Colloquium: \"Student Reasoning About Measurement and Uncertainty Across Classical and Quantum Mechanics\"",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "tech_talk"
+}

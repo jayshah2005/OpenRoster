@@ -9,19 +9,19 @@
     "unknown"
   ],
   "end": null,
-  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "first_seen": "2026-11-18T20:38:04.549794Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-u-of-t-central-event-sri-seminar-series-lydia-t-liu-expertise-in-age-o-5686",
-  "last_seen": "2026-11-17T07:55:15.805871Z",
-  "last_verified": "2026-11-17T07:55:15.805871Z",
+  "id": "2026-12-u-of-t-central-event-cheme-master-of-engineering-meng-online-applicati-8de9",
+  "last_seen": "2026-11-18T20:38:04.549794Z",
+  "last_verified": "2026-11-18T20:38:04.549794Z",
   "location": {
     "city": null,
     "country": null,
     "region": null,
     "venue_name": null
   },
-  "mode": "unknown",
+  "mode": "online",
   "near_schools": [],
   "obtained_via": [
     "html"
@@ -29,7 +29,7 @@
   "organizer": "U of T central events aggregator",
   "registration": {
     "route": "public_link",
-    "url": "https://srinstitute.utoronto.ca/events-archive/seminar-2026-liu"
+    "url": "https://www.engineering.utoronto.ca/event/cheme-master-of-engineering-meng-online-application-support-drop-in/2026-12-08/"
   },
   "review": null,
   "roles": [
@@ -49,20 +49,20 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-11-17T07:55:15.805871Z",
+      "fetched_at": "2026-11-18T20:38:04.549794Z",
       "source_id": "uoft-central-events",
-      "url": "https://srinstitute.utoronto.ca/events-archive/seminar-2026-liu"
+      "url": "https://www.engineering.utoronto.ca/event/cheme-master-of-engineering-meng-online-application-support-drop-in/2026-12-08/"
     }
   ],
-  "start": "2026-11-18T00:00:00-05:00",
+  "start": "2026-12-08T00:00:00-05:00",
   "status": "scheduled",
-  "summary": "Tech talk by U of T central events aggregator.",
+  "summary": "Online event by U of T central events aggregator.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "SRI Seminar Series: Lydia T. Liu, “Expertise in age of human-AI collaboration”",
+  "title": "ChemE Master of Engineering (MEng) Online Application Support Drop-In",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "tech_talk"
+  "type": "other"
 }

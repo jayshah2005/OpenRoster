@@ -10,7 +10,11 @@
   ],
   "end": "2026-11-20T04:00:00Z",
   "first_seen": "2026-10-24T17:34:32.575071Z",
-  "geo": null,
+  "geo": {
+    "lat": 43.54594,
+    "lon": -80.25599,
+    "source": "gazetteer"
+  },
   "history": [
     {
       "at": "2026-11-12T07:11:10.165163Z",
@@ -173,19 +177,104 @@
       "field": "start",
       "new": "2026-11-19T23:00:00+00:00",
       "old": "2026-11-19T22:45:00+00:00"
+    },
+    {
+      "at": "2026-11-18T20:38:04.549794Z",
+      "field": "start",
+      "new": "2026-11-19T22:45:00+00:00",
+      "old": "2026-11-19T23:00:00+00:00"
+    },
+    {
+      "at": "2026-11-18T20:38:04.549794Z",
+      "field": "start",
+      "new": "2026-11-19T23:00:00+00:00",
+      "old": "2026-11-19T22:45:00+00:00"
     }
   ],
   "id": "2026-11-university-of-guelph-open-pitch-night-pitch-your-business-idea-c748",
   "last_seen": "2026-11-18T07:29:16.057116Z",
   "last_verified": "2026-11-18T07:29:16.057116Z",
   "location": {
-    "city": null,
-    "country": null,
-    "region": null,
+    "city": "Guelph",
+    "country": "CA",
+    "region": "CA-ON",
     "venue_name": "Sign in to download the location"
   },
-  "mode": "unknown",
-  "near_schools": [],
+  "mode": "in_person",
+  "near_schools": [
+    {
+      "km": 2.9,
+      "school_id": "uoguelph"
+    },
+    {
+      "km": 21.1,
+      "school_id": "conestoga"
+    },
+    {
+      "km": 23.3,
+      "school_id": "laurier"
+    },
+    {
+      "km": 24.7,
+      "school_id": "uwaterloo"
+    },
+    {
+      "km": 41.8,
+      "school_id": "mcmaster"
+    },
+    {
+      "km": 42.7,
+      "school_id": "mohawk"
+    },
+    {
+      "km": 42.9,
+      "school_id": "algoma"
+    },
+    {
+      "km": 43.4,
+      "school_id": "sheridan"
+    },
+    {
+      "km": 47.8,
+      "school_id": "uoft"
+    },
+    {
+      "km": 56.0,
+      "school_id": "humber"
+    },
+    {
+      "km": 65.7,
+      "school_id": "yorku"
+    },
+    {
+      "km": 65.8,
+      "school_id": "seneca"
+    },
+    {
+      "km": 69.6,
+      "school_id": "georgebrown"
+    },
+    {
+      "km": 70.6,
+      "school_id": "ocadu"
+    },
+    {
+      "km": 71.7,
+      "school_id": "tmu"
+    },
+    {
+      "km": 76.4,
+      "school_id": "centennial"
+    },
+    {
+      "km": 92.6,
+      "school_id": "brock"
+    },
+    {
+      "km": 96.7,
+      "school_id": "fanshawe"
+    }
+  ],
   "obtained_via": [
     "ics"
   ],
@@ -227,12 +316,26 @@
       "fetched_at": "2026-11-18T07:29:16.057116Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=379315"
+    },
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-18T20:38:04.549794Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=380972"
+    },
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-18T20:38:04.549794Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=379849"
     }
   ],
   "start": "2026-11-19T23:00:00Z",
   "status": "moved",
   "summary": "Networking event by University of Guelph GryphLife (CampusGroups) public iCal for undergraduates.",
-  "tags": [],
+  "tags": [
+    "beginner_friendly"
+  ],
   "timezone": "America/Toronto",
   "title": "Third-Year Engineering Social Event",
   "travel_support": {

@@ -34,8 +34,8 @@
   "review": null,
   "roles": [
     {
-      "closes": "2027-01-16T23:59:00-05:00",
-      "evidence": "Close Menu McHacks 14 Jan. 16-17, 2027 | In-Person | McGill University McHacks 14 Int",
+      "closes": "2026-12-14T23:59:00-05:00",
+      "evidence": "until December 14th, 2026 at 11:59pm EST to apply. Do I need a team? Not at all! You",
       "opens": null,
       "role": "participant",
       "status": "open",
@@ -64,7 +64,7 @@
   ],
   "start": "2027-01-16T00:00:00-05:00",
   "status": "scheduled",
-  "summary": "Hackathon by McHacks in Montreal for high-school students. Beginners welcome. Also looking for judges.",
+  "summary": "Hackathon by McHacks in Montreal for high-school students. Beginners welcome. Apply by Dec 14. Also looking for judges.",
   "tags": [
     "beginner_friendly"
   ],

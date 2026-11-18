@@ -1,6 +1,6 @@
 {
   "ai_suggested": [],
-  "all_day": false,
+  "all_day": true,
   "cost": {
     "kind": "unknown",
     "note": null
@@ -8,28 +8,28 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-18T03:30:00Z",
-  "first_seen": "2026-11-12T07:11:10.165163Z",
+  "end": null,
+  "first_seen": "2026-10-24T16:53:41.410358Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-careerin-tech-societ-fintech-deep-dive-part-1-97b9",
+  "id": "2026-11-u-of-t-central-event-sri-seminar-series-lydia-t-liu-expertise-in-age-o-5686",
   "last_seen": "2026-11-17T07:55:15.805871Z",
   "last_verified": "2026-11-17T07:55:15.805871Z",
   "location": {
     "city": null,
     "country": null,
     "region": null,
-    "venue_name": "https://luma.com/event/evt-Yy1Qv2LFd6BszoK"
+    "venue_name": null
   },
   "mode": "unknown",
   "near_schools": [],
   "obtained_via": [
-    "ics"
+    "html"
   ],
-  "organizer": "Careerin Tech Society (Luma iCal)",
+  "organizer": "U of T central events aggregator",
   "registration": {
     "route": "public_link",
-    "url": "https://luma.com/tb7lqki0"
+    "url": "https://srinstitute.utoronto.ca/events-archive/seminar-2026-liu"
   },
   "review": null,
   "roles": [
@@ -45,24 +45,24 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": "luma-careerin-tech-society:285431b3fae0",
+  "series_id": null,
   "sources": [
     {
-      "adapter": "ics",
+      "adapter": "html",
       "fetched_at": "2026-11-17T07:55:15.805871Z",
-      "source_id": "luma-careerin-tech-society",
-      "url": "https://luma.com/tb7lqki0"
+      "source_id": "uoft-central-events",
+      "url": "https://srinstitute.utoronto.ca/events-archive/seminar-2026-liu"
     }
   ],
-  "start": "2026-11-18T00:30:00Z",
-  "status": "scheduled",
-  "summary": "Event by Careerin Tech Society (Luma iCal).",
+  "start": "2026-11-18T00:00:00-05:00",
+  "status": "past",
+  "summary": "Tech talk by U of T central events aggregator.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Fintech Deep Dive: Part 1",
+  "title": "SRI Seminar Series: Lydia T. Liu, “Expertise in age of human-AI collaboration”",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "other"
+  "type": "tech_talk"
 }

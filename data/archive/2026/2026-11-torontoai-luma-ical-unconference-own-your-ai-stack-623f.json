@@ -156,7 +156,7 @@
     }
   ],
   "start": "2026-11-17T23:00:00Z",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Event by TorontoAI (Luma iCal) in Toronto.",
   "tags": [],
   "timezone": "America/Toronto",
