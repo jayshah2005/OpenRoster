@@ -1554,8 +1554,8 @@
     }
   ],
   "id": "2026-11-western-university-e-global-entrepreneurship-week-2026-90a9",
-  "last_seen": "2026-11-17T07:55:15.805871Z",
-  "last_verified": "2026-11-17T07:55:15.805871Z",
+  "last_seen": "2026-11-18T07:29:16.057116Z",
+  "last_verified": "2026-11-18T07:29:16.057116Z",
   "location": {
     "city": "London",
     "country": "CA",
@@ -1612,13 +1612,13 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-17T07:55:15.805871Z",
+      "fetched_at": "2026-11-18T07:29:16.057116Z",
       "source_id": "western-events-ics",
       "url": "https://www.uwo.ca/events/"
     },
     {
       "adapter": "api",
-      "fetched_at": "2026-11-17T07:55:15.805871Z",
+      "fetched_at": "2026-11-18T07:29:16.057116Z",
       "source_id": "western-events-json",
       "url": "https://www.uwo.ca/events/2025/11/gew-global-entrepreneurship-week3.html"
     },

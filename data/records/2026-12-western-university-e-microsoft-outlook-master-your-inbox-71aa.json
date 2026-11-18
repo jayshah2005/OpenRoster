@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-12-western-university-e-microsoft-outlook-master-your-inbox-71aa",
-  "last_seen": "2026-11-17T20:55:44.277203Z",
-  "last_verified": "2026-11-17T20:55:44.277203Z",
+  "last_seen": "2026-11-18T07:29:16.057116Z",
+  "last_verified": "2026-11-18T07:29:16.057116Z",
   "location": {
     "city": "London",
     "country": "CA",
@@ -55,7 +55,7 @@
   "organizer": "Western University events calendar (iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://www.uwo.ca/events/"
+    "url": "https://www.uwo.ca/events/2026/12/wts-microsoft-outlook-master-your-inbox.html"
   },
   "review": null,
   "roles": [
@@ -75,20 +75,20 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-17T20:55:44.277203Z",
+      "fetched_at": "2026-11-18T07:29:16.057116Z",
       "source_id": "western-events-ics",
       "url": "https://www.uwo.ca/events/"
     },
     {
       "adapter": "api",
-      "fetched_at": "2026-11-17T20:55:44.277203Z",
+      "fetched_at": "2026-11-18T07:29:16.057116Z",
       "source_id": "western-events-json",
       "url": "https://www.uwo.ca/events/2026/12/wts-microsoft-outlook-master-your-inbox.html"
     }
   ],
   "start": "2026-12-01T14:00:00-05:00",
   "status": "scheduled",
-  "summary": "Event by Western University events calendar (iCal).",
+  "summary": "Event by Western University events (JSON) in London.",
   "tags": [],
   "timezone": "America/New_York",
   "title": "Microsoft Outlook: Master Your Inbox",
