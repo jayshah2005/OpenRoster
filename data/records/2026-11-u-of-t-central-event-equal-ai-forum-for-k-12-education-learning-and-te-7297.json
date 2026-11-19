@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-u-of-t-central-event-equal-ai-forum-for-k-12-education-learning-and-te-7297",
-  "last_seen": "2026-11-18T20:38:04.549794Z",
-  "last_verified": "2026-11-18T20:38:04.549794Z",
+  "last_seen": "2026-11-19T07:26:14.044623Z",
+  "last_verified": "2026-11-19T07:26:14.044623Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-11-18T20:38:04.549794Z",
+      "fetched_at": "2026-11-19T07:26:14.044623Z",
       "source_id": "uoft-central-events",
       "url": "https://www.oise.utoronto.ca/about/events/11-24-26-equal-ai-forum-k-12-education-learning-and-teaching-ai"
     }

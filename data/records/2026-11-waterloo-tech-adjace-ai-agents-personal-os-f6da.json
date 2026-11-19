@@ -20,8 +20,8 @@
     }
   ],
   "id": "2026-11-waterloo-tech-adjace-ai-agents-personal-os-f6da",
-  "last_seen": "2026-11-18T07:29:16.057116Z",
-  "last_verified": "2026-11-18T07:29:16.057116Z",
+  "last_seen": "2026-11-19T07:26:14.044623Z",
+  "last_verified": "2026-11-19T07:26:14.044623Z",
   "location": {
     "city": null,
     "country": null,
@@ -56,7 +56,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-18T07:29:16.057116Z",
+      "fetched_at": "2026-11-19T07:26:14.044623Z",
       "source_id": "luma-waterloo-tech-adjacent-events",
       "url": "https://luma.com/2yn1kqpr"
     }

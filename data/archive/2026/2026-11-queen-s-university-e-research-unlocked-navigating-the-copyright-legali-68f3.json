@@ -66,7 +66,7 @@
     }
   ],
   "start": "2026-11-18T11:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Workshop by Queen's University events calendar (RSS) in Shannon for undergraduates and graduate students.",
   "tags": [],
   "timezone": "America/Toronto",

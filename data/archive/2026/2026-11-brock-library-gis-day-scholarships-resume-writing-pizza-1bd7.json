@@ -140,7 +140,7 @@
     }
   ],
   "start": "2026-11-18T10:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Workshop by Brock Library in St. Catharines.",
   "tags": [],
   "timezone": "America/Toronto",

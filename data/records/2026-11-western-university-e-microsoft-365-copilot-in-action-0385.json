@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-western-university-e-microsoft-365-copilot-in-action-0385",
-  "last_seen": "2026-11-18T07:29:16.057116Z",
-  "last_verified": "2026-11-18T07:29:16.057116Z",
+  "last_seen": "2026-11-19T07:26:14.044623Z",
+  "last_verified": "2026-11-19T07:26:14.044623Z",
   "location": {
     "city": "London",
     "country": "CA",
@@ -75,13 +75,13 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-18T07:29:16.057116Z",
+      "fetched_at": "2026-11-19T07:26:14.044623Z",
       "source_id": "western-events-ics",
       "url": "https://www.uwo.ca/events/"
     },
     {
       "adapter": "api",
-      "fetched_at": "2026-11-18T07:29:16.057116Z",
+      "fetched_at": "2026-11-19T07:26:14.044623Z",
       "source_id": "western-events-json",
       "url": "https://www.uwo.ca/events/2026/11/wts-microsoft-365-copilot-in-action.html"
     }

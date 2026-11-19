@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-11-cheriton-school-of-c-waterloo-ai-seminar-beyond-automation-designing-p-0653",
-  "last_seen": "2026-11-18T07:29:16.057116Z",
-  "last_verified": "2026-11-18T07:29:16.057116Z",
+  "last_seen": "2026-11-19T07:26:14.044623Z",
+  "last_verified": "2026-11-19T07:26:14.044623Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
@@ -126,7 +126,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-18T07:29:16.057116Z",
+      "fetched_at": "2026-11-19T07:26:14.044623Z",
       "source_id": "uwaterloo-cs-events-ics",
       "url": "https://uwaterloo.ca/computer-science/events/waterloo-ai-seminar-beyond-automation-designing-productive-friction-for-scientific-thinking"
     }

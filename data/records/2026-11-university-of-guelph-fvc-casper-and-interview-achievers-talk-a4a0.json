@@ -8,20 +8,33 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-24T00:00:00Z",
+  "end": "2026-11-24T01:00:00Z",
   "first_seen": "2026-11-13T19:43:05.422860Z",
   "geo": null,
-  "history": [],
+  "history": [
+    {
+      "at": "2026-11-19T07:26:14.044623Z",
+      "field": "start",
+      "new": "2026-11-23T21:30:00+00:00",
+      "old": "2026-11-23T23:00:00+00:00"
+    },
+    {
+      "at": "2026-11-19T07:26:14.044623Z",
+      "field": "start",
+      "new": "2026-11-23T23:00:00+00:00",
+      "old": "2026-11-23T21:30:00+00:00"
+    }
+  ],
   "id": "2026-11-university-of-guelph-fvc-casper-and-interview-achievers-talk-a4a0",
-  "last_seen": "2026-11-18T07:29:16.057116Z",
-  "last_verified": "2026-11-18T07:29:16.057116Z",
+  "last_seen": "2026-11-19T07:26:14.044623Z",
+  "last_verified": "2026-11-19T07:26:14.044623Z",
   "location": {
     "city": null,
     "country": null,
     "region": null,
     "venue_name": "Sign in to download the location"
   },
-  "mode": "unknown",
+  "mode": "in_person",
   "near_schools": [],
   "obtained_via": [
     "ics"
@@ -29,7 +42,7 @@
   "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
   "registration": {
     "route": "public_link",
-    "url": "https://uoguelph.campusgroups.com/rsvp?id=379594"
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=380001"
   },
   "review": null,
   "roles": [
@@ -49,34 +62,34 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-18T07:29:16.057116Z",
+      "fetched_at": "2026-11-19T07:26:14.044623Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=379594"
     },
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-18T20:38:04.549794Z",
+      "fetched_at": "2026-11-19T07:26:14.044623Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=380904"
     },
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-18T20:38:04.549794Z",
+      "fetched_at": "2026-11-19T07:26:14.044623Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=380001"
     }
   ],
   "start": "2026-11-23T23:00:00Z",
-  "status": "scheduled",
-  "summary": "Event by University of Guelph GryphLife (CampusGroups) public iCal.",
+  "status": "moved",
+  "summary": "Workshop by University of Guelph GryphLife (CampusGroups) public iCal.",
   "tags": [
     "women_nonbinary"
   ],
   "timezone": "America/Toronto",
-  "title": "FVC Casper and Interview Achievers Talk",
+  "title": "From Campus to your Career Workshop",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "other"
+  "type": "workshop"
 }

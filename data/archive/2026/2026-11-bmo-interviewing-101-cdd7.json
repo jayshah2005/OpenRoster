@@ -6,30 +6,31 @@
     "note": null
   },
   "eligibility": [
-    "unknown"
+    "undergrad",
+    "grad"
   ],
-  "end": "2026-11-18T12:30:00-05:00",
-  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "end": "2026-11-18T13:00:00-05:00",
+  "first_seen": "2026-11-04T19:45:46.604144Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-vector-institute-eve-ai-data-governance-applied-project-insights-f477",
+  "id": "2026-11-bmo-interviewing-101-cdd7",
   "last_seen": "2026-11-18T07:29:16.057116Z",
   "last_verified": "2026-11-18T07:29:16.057116Z",
   "location": {
     "city": null,
     "country": null,
     "region": null,
-    "venue_name": "Virtual"
+    "venue_name": null
   },
   "mode": "online",
   "near_schools": [],
   "obtained_via": [
-    "tribe"
+    "html"
   ],
-  "organizer": "Vector Institute events (The Events Calendar REST)",
+  "organizer": "BMO",
   "registration": {
     "route": "public_link",
-    "url": "https://vectorinstitute.swoogo.com/ai-data-governance-applied-project-insights/13466875?ref=Website"
+    "url": "https://jobs.bmo.com/ca/en/event/6a90a5a0acced97d63ac6c17/Interviews-101"
   },
   "review": null,
   "roles": [
@@ -45,24 +46,26 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": null,
+  "series_id": "bmo-virtual-workshops:965a1175ed7a",
   "sources": [
     {
-      "adapter": "tribe",
+      "adapter": "html",
       "fetched_at": "2026-11-18T07:29:16.057116Z",
-      "source_id": "vector-institute-events",
-      "url": "https://vectorinstitute.ai/event/ai-data-governance-applied-project-insights/"
+      "source_id": "bmo-virtual-workshops",
+      "url": "https://jobs.bmo.com/ca/en/event/6a90a5a0acced97d63ac6c17/Interviews-101"
     }
   ],
   "start": "2026-11-18T12:00:00-05:00",
-  "status": "scheduled",
-  "summary": "Online event by Vector Institute events (The Events Calendar REST).",
-  "tags": [],
+  "status": "past",
+  "summary": "Online workshop by BMO for undergraduates and graduate students.",
+  "tags": [
+    "year_inferred"
+  ],
   "timezone": "America/Toronto",
-  "title": "AI Data Governance – Applied Project Insights",
+  "title": "Interviewing 101",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "other"
+  "type": "workshop"
 }

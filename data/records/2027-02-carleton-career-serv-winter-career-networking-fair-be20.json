@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2027-02-carleton-career-serv-winter-career-networking-fair-be20",
-  "last_seen": "2026-11-18T07:29:16.057116Z",
-  "last_verified": "2026-11-18T07:29:16.057116Z",
+  "last_seen": "2026-11-19T07:26:14.044623Z",
+  "last_verified": "2026-11-19T07:26:14.044623Z",
   "location": {
     "city": "Ottawa",
     "country": "CA",
@@ -70,13 +70,13 @@
   "sources": [
     {
       "adapter": "api",
-      "fetched_at": "2026-11-18T07:29:16.057116Z",
+      "fetched_at": "2026-11-19T07:26:14.044623Z",
       "source_id": "carleton-career-events-api",
       "url": "https://carleton.ca/career/event/winter-career-networking-fair/"
     },
     {
       "adapter": "api",
-      "fetched_at": "2026-11-18T07:29:16.057116Z",
+      "fetched_at": "2026-11-19T07:26:14.044623Z",
       "source_id": "carleton-events-api",
       "url": "https://events.carleton.ca/event/winter-career-networking-fair/"
     }
