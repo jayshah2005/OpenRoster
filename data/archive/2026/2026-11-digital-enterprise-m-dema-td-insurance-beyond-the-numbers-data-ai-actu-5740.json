@@ -148,7 +148,7 @@
     }
   ],
   "start": "2026-11-18T18:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Tech talk by Digital Enterprise Management Association (DEMA) in Mississauga.",
   "tags": [],
   "timezone": "America/Toronto",

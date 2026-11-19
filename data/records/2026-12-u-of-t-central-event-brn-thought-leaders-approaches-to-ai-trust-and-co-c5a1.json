@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-12-u-of-t-central-event-brn-thought-leaders-approaches-to-ai-trust-and-co-c5a1",
-  "last_seen": "2026-11-16T06:30:09.027486Z",
-  "last_verified": "2026-11-16T06:30:09.027486Z",
+  "last_seen": "2026-11-19T20:37:36.980046Z",
+  "last_verified": "2026-11-19T20:37:36.980046Z",
   "location": {
     "city": null,
     "country": null,
@@ -31,17 +31,7 @@
     "route": "public_link",
     "url": "https://brn.utoronto.ca/event/brn-thought-leaders-approaches-to-ai-trust-and-community/"
   },
-  "review": {
-    "evidence": [
-      {
-        "text": "missing from the last 2 successful fetches",
-        "url": "https://brn.utoronto.ca/event/brn-thought-leaders-approaches-to-ai-trust-and-community/"
-      }
-    ],
-    "reasons": [
-      "no longer listed by its source (possibly cancelled or moved)"
-    ]
-  },
+  "review": null,
   "roles": [
     {
       "closes": null,
@@ -59,13 +49,13 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-11-16T06:30:09.027486Z",
+      "fetched_at": "2026-11-19T20:37:36.980046Z",
       "source_id": "uoft-central-events",
       "url": "https://brn.utoronto.ca/event/brn-thought-leaders-approaches-to-ai-trust-and-community/"
     }
   ],
   "start": "2026-12-04T00:00:00-05:00",
-  "status": "needs_review",
+  "status": "scheduled",
   "summary": "Event by U of T central events aggregator.",
   "tags": [],
   "timezone": "America/Toronto",

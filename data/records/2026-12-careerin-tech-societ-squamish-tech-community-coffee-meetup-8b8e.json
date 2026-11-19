@@ -1,0 +1,72 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-12T18:00:00Z",
+  "first_seen": "2026-11-19T20:37:36.980046Z",
+  "geo": {
+    "lat": 49.69925,
+    "lon": -123.15631,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-12-careerin-tech-societ-squamish-tech-community-coffee-meetup-8b8e",
+  "last_seen": "2026-11-19T20:37:36.980046Z",
+  "last_verified": "2026-11-19T20:37:36.980046Z",
+  "location": {
+    "city": "Squamish",
+    "country": "CA",
+    "region": "CA-BC",
+    "venue_name": "Caffe Garibaldi, Squamish Adventure Centre, 38551 Loggers Ln #106, Squamish, BC V8B 0H2, Canada"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Careerin Tech Society (Luma iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://luma.com/SquamishTechCoffee2026Dec12"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "luma-careerin-tech-society:d201b2b1ed4c",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-19T20:37:36.980046Z",
+      "source_id": "luma-careerin-tech-society",
+      "url": "https://luma.com/SquamishTechCoffee2026Dec12"
+    }
+  ],
+  "start": "2026-12-12T16:00:00Z",
+  "status": "scheduled",
+  "summary": "Networking event by Careerin Tech Society (Luma iCal) in Squamish.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Squamish Tech Community Coffee Meetup",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "networking"
+}
