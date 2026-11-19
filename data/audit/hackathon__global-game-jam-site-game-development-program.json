@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-16T19:52:44.367536+00:00",
+  "checked": "2026-11-19T18:41:40.930881+00:00",
   "dated_items_in_html": 3,
   "feeds": [],
   "http_status": 200,
@@ -7,15 +7,13 @@
   "known_verdict": null,
   "login_wall": false,
   "platform": "html",
-  "reasons": [
-    "no terms-of-use link found on the page"
-  ],
+  "reasons": [],
   "robots": "allowed",
   "sitemaps": [],
-  "terms_forbid_automated": null,
-  "terms_forbid_republish": null,
+  "terms_forbid_automated": false,
+  "terms_forbid_republish": false,
   "terms_quotes": [],
-  "terms_url": null,
+  "terms_url": "https://educationnewscanada.com/article/education/region/ontario/27/1226763/research-suggests-overall-adolescent-cannabis-use-has-declined-in-the-years-since-legalization.html",
   "url": "https://educationnewscanada.com/article/education/region/ontario/27/745152/niagara-collegejanuary-28-2019-gamers-unite-at-niagara-college-for-fourth-annual-global-game-jam.html",
   "verdict": "allowed"
 }

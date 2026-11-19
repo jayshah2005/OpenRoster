@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-15T16:35:26.838002+00:00",
+  "checked": "2026-11-19T18:40:21.873148+00:00",
   "dated_items_in_html": 13,
   "feeds": [],
   "http_status": 200,
@@ -8,7 +8,7 @@
   "login_wall": false,
   "platform": "html",
   "reasons": [
-    "no terms-of-use link found on the page"
+    "terms page not readable: https://undergrad.engineering.utoronto.ca/wp-json/tribe/events/v1/\\\"https:\\/\\/ilead.engineering.utoronto.ca\\/scholarships-awards\\/clarke-prize\\/\\\": HTTP 404"
   ],
   "robots": "allowed",
   "sitemaps": [
@@ -17,7 +17,7 @@
   "terms_forbid_automated": null,
   "terms_forbid_republish": null,
   "terms_quotes": [],
-  "terms_url": null,
+  "terms_url": "https://undergrad.engineering.utoronto.ca/wp-json/tribe/events/v1/\\\"https:\\/\\/ilead.engineering.utoronto.ca\\/scholarships-awards\\/clarke-prize\\/\\\"",
   "url": "https://undergrad.engineering.utoronto.ca/wp-json/tribe/events/v1/events",
   "verdict": "allowed"
 }
