@@ -18,8 +18,8 @@
   },
   "history": [],
   "id": "2026-11-brock-linc-siemens-healthineers-innovation-think-tank-b8e0",
-  "last_seen": "2026-11-19T07:26:14.044623Z",
-  "last_verified": "2026-11-19T07:26:14.044623Z",
+  "last_seen": "2026-11-20T07:16:32.788960Z",
+  "last_verified": "2026-11-20T07:16:32.788960Z",
   "location": {
     "city": "St. Catharines",
     "country": "CA",
@@ -135,7 +135,7 @@
   "sources": [
     {
       "adapter": "rss",
-      "fetched_at": "2026-11-19T07:26:14.044623Z",
+      "fetched_at": "2026-11-20T07:16:32.788960Z",
       "source_id": "brock-experiencebu-rss",
       "url": "https://experiencebu.brocku.ca/event/338284"
     }

@@ -9,27 +9,27 @@
     "unknown"
   ],
   "end": "2026-11-19T14:00:00-05:00",
-  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "first_seen": "2026-11-03T23:24:00.075219Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-wetech-alliance-even-generative-ai-for-small-business-virtual-9ec8",
+  "id": "2026-11-fanshawe-student-uni-career-caf-2f5f",
   "last_seen": "2026-11-19T07:26:14.044623Z",
   "last_verified": "2026-11-19T07:26:14.044623Z",
   "location": {
     "city": null,
     "country": null,
     "region": null,
-    "venue_name": null
+    "venue_name": "Forwell Hall"
   },
-  "mode": "online",
+  "mode": "in_person",
   "near_schools": [],
   "obtained_via": [
-    "tribe"
+    "ics"
   ],
-  "organizer": "WEtech Alliance events (Windsor-Essex)",
+  "organizer": "Fanshawe Student Union events calendar (iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://www.wetech-alliance.com/event/generative-ai-for-small-business-virtual-2/"
+    "url": "https://www.fsu.ca/eventInfo/career-cafe-november-19"
   },
   "review": null,
   "roles": [
@@ -45,21 +45,21 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": null,
+  "series_id": "fsu-events-ics:2f2fd3c5ca25",
   "sources": [
     {
-      "adapter": "tribe",
+      "adapter": "ics",
       "fetched_at": "2026-11-19T07:26:14.044623Z",
-      "source_id": "wetech-alliance-events",
-      "url": "https://www.wetech-alliance.com/event/generative-ai-for-small-business-virtual-2/"
+      "source_id": "fsu-events-ics",
+      "url": "https://www.fsu.ca/eventInfo/career-cafe-november-19"
     }
   ],
-  "start": "2026-11-19T13:00:00-05:00",
-  "status": "scheduled",
-  "summary": "Free online event by WEtech Alliance events (Windsor-Essex).",
+  "start": "2026-11-19T11:00:00-05:00",
+  "status": "past",
+  "summary": "Free event by Fanshawe Student Union events calendar (iCal).",
   "tags": [],
-  "timezone": "America/Detroit",
-  "title": "Generative AI for Small Business (virtual)",
+  "timezone": "America/Toronto",
+  "title": "Career Café",
   "travel_support": {
     "note": null,
     "stated": false
