@@ -132,7 +132,7 @@
     }
   ],
   "start": "2026-11-19T23:00:00Z",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Event by Waterloo Tech (+adjacent) Events (Luma iCal) in Waterloo.",
   "tags": [],
   "timezone": "America/Toronto",

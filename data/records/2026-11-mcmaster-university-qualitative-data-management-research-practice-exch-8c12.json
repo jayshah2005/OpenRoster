@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-26T12:00:00-05:00",
+  "first_seen": "2026-11-20T20:20:13.235614Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-mcmaster-university-qualitative-data-management-research-practice-exch-8c12",
+  "last_seen": "2026-11-20T20:20:13.235614Z",
+  "last_verified": "2026-11-20T20:20:13.235614Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "McMaster University central events (news.mcmaster.ca, Events Manager)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://news.mcmaster.ca/events/qualitative-data-management-research-practice-exchange/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "mcmaster-news-events-ics:72f0e933f97c",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-20T20:20:13.235614Z",
+      "source_id": "mcmaster-news-events-ics",
+      "url": "https://news.mcmaster.ca/events/qualitative-data-management-research-practice-exchange/"
+    }
+  ],
+  "start": "2026-11-26T11:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Event by McMaster University central events (news.mcmaster.ca, Events Manager).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Qualitative Data Management (Research Practice Exchange)",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

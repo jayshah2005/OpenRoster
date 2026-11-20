@@ -8,28 +8,28 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-19T15:00:00-05:00",
-  "first_seen": "2026-10-24T17:14:00.319152Z",
+  "end": "2026-12-03T17:00:00-05:00",
+  "first_seen": "2026-11-20T20:20:13.235614Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-black-student-succes-the-career-blueprint-level-up-linkedin-8090",
-  "last_seen": "2026-11-19T07:26:14.044623Z",
-  "last_verified": "2026-11-19T07:26:14.044623Z",
+  "id": "2026-12-career-education-insurance-career-connections-online-mock-interview-b2fd",
+  "last_seen": "2026-11-20T20:20:13.235614Z",
+  "last_verified": "2026-11-20T20:20:13.235614Z",
   "location": {
     "city": null,
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "Black Student Success Centre (TH 131)"
+    "venue_name": "Virtual Event"
   },
   "mode": "online",
   "near_schools": [],
   "obtained_via": [
     "rss"
   ],
-  "organizer": "Black Student Success Centre",
+  "organizer": "Career Education",
   "registration": {
     "route": "school_portal_login",
-    "url": "https://experiencebu.brocku.ca/event/332849"
+    "url": "https://experiencebu.brocku.ca/event/338394"
   },
   "review": null,
   "roles": [
@@ -49,17 +49,17 @@
   "sources": [
     {
       "adapter": "rss",
-      "fetched_at": "2026-11-19T07:26:14.044623Z",
+      "fetched_at": "2026-11-20T20:20:13.235614Z",
       "source_id": "brock-experiencebu-rss",
-      "url": "https://experiencebu.brocku.ca/event/332849"
+      "url": "https://experiencebu.brocku.ca/event/338394"
     }
   ],
-  "start": "2026-11-19T14:00:00-05:00",
+  "start": "2026-12-03T14:00:00-05:00",
   "status": "scheduled",
-  "summary": "Online workshop by Black Student Success Centre.",
+  "summary": "Online workshop by Career Education.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "The Career Blueprint - Level Up LinkedIn",
+  "title": "Insurance Career Connections - Online Mock Interviews (Zoom)",
   "travel_support": {
     "note": null,
     "stated": false

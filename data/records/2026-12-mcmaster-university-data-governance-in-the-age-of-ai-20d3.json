@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-02T13:00:00-05:00",
+  "first_seen": "2026-11-20T20:20:13.235614Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-12-mcmaster-university-data-governance-in-the-age-of-ai-20d3",
+  "last_seen": "2026-11-20T20:20:13.235614Z",
+  "last_verified": "2026-11-20T20:20:13.235614Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "McMaster University central events (news.mcmaster.ca, Events Manager)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://news.mcmaster.ca/events/2026-data-governance-in-the-age-of-ai/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "mcmaster-news-events-ics:01b71e6c4c04",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-20T20:20:13.235614Z",
+      "source_id": "mcmaster-news-events-ics",
+      "url": "https://news.mcmaster.ca/events/2026-data-governance-in-the-age-of-ai/"
+    }
+  ],
+  "start": "2026-12-02T12:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Info session by McMaster University central events (news.mcmaster.ca, Events Manager).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Data Governance in the Age of AI",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

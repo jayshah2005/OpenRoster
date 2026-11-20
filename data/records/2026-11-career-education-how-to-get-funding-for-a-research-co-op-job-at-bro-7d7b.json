@@ -16,7 +16,14 @@
     "lon": -79.24267,
     "source": "gazetteer"
   },
-  "history": [],
+  "history": [
+    {
+      "at": "2026-11-20T20:20:13.235614Z",
+      "field": "status",
+      "new": "cancelled",
+      "old": "scheduled"
+    }
+  ],
   "id": "2026-11-career-education-how-to-get-funding-for-a-research-co-op-job-at-bro-7d7b",
   "last_seen": "2026-11-20T07:16:32.788960Z",
   "last_verified": "2026-11-20T07:16:32.788960Z",
@@ -141,7 +148,7 @@
     }
   ],
   "start": "2026-11-24T12:30:00-05:00",
-  "status": "scheduled",
+  "status": "cancelled",
   "summary": "Info session by Career Education in St. Catharines for undergraduates.",
   "tags": [],
   "timezone": "America/Toronto",

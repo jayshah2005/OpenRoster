@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-11-25T15:00:00-05:00",
+  "first_seen": "2026-11-20T20:20:13.235614Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-career-education-articulating-international-experiences-on-your-res-db3f",
+  "last_seen": "2026-11-20T20:20:13.235614Z",
+  "last_verified": "2026-11-20T20:20:13.235614Z",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Online"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Career Education",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://experiencebu.brocku.ca/event/338399"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "brock"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-11-20T20:20:13.235614Z",
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/338399"
+    }
+  ],
+  "start": "2026-11-25T14:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Online workshop by Career Education.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Articulating International Experiences on your Resume",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

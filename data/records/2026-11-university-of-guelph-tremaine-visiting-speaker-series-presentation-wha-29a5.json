@@ -52,6 +52,18 @@
       "fetched_at": "2026-11-20T07:16:32.788960Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=381177"
+    },
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-20T20:20:13.235614Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=379781"
+    },
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-20T20:20:13.235614Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=380289"
     }
   ],
   "start": "2026-11-26T19:30:00Z",
