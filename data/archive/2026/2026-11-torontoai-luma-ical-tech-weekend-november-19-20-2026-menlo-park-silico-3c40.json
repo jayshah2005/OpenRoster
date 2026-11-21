@@ -1,6 +1,6 @@
 {
   "ai_suggested": [],
-  "all_day": true,
+  "all_day": false,
   "cost": {
     "kind": "unknown",
     "note": null
@@ -8,28 +8,28 @@
   "eligibility": [
     "unknown"
   ],
-  "end": null,
-  "first_seen": "2026-11-18T20:38:04.549794Z",
+  "end": "2026-11-21T04:00:00Z",
+  "first_seen": "2026-10-28T22:36:01.647139Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-u-of-t-central-event-2026-introduction-to-ai-for-residents-fellows-fal-741d",
+  "id": "2026-11-torontoai-luma-ical-tech-weekend-november-19-20-2026-menlo-park-silico-3c40",
   "last_seen": "2026-11-20T07:16:32.788960Z",
   "last_verified": "2026-11-20T07:16:32.788960Z",
   "location": {
     "city": null,
     "country": null,
     "region": null,
-    "venue_name": null
+    "venue_name": "Allied Arts Guild, 75 Arbor Rd, Menlo Park, CA 94025, USA"
   },
   "mode": "unknown",
   "near_schools": [],
   "obtained_via": [
-    "html"
+    "ics"
   ],
-  "organizer": "U of T central events aggregator",
+  "organizer": "TorontoAI (Luma iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://temertymedicine.utoronto.ca/event/2026-introduction-ai-residents-fellows-fall"
+    "url": "https://luma.com/ycgqy17s"
   },
   "review": null,
   "roles": [
@@ -45,21 +45,21 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": null,
+  "series_id": "luma-torontoai:84fad682af86",
   "sources": [
     {
-      "adapter": "html",
+      "adapter": "ics",
       "fetched_at": "2026-11-20T07:16:32.788960Z",
-      "source_id": "uoft-central-events",
-      "url": "https://temertymedicine.utoronto.ca/event/2026-introduction-ai-residents-fellows-fall"
+      "source_id": "luma-torontoai",
+      "url": "https://luma.com/ycgqy17s"
     }
   ],
-  "start": "2026-11-21T00:00:00-05:00",
-  "status": "scheduled",
-  "summary": "Event by U of T central events aggregator.",
+  "start": "2026-11-19T17:00:00Z",
+  "status": "past",
+  "summary": "Event by TorontoAI (Luma iCal).",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "2026 Introduction to AI for Residents & Fellows (Fall)",
+  "title": "Tech Weekend November 19-20, 2026 | Menlo Park | Silicon Valley",
   "travel_support": {
     "note": null,
     "stated": false
