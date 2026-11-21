@@ -89,7 +89,7 @@
     }
   ],
   "start": "2026-11-20T09:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Hackathon by Hack Western in London for first-year students. Beginners welcome. Also looking for organizers.",
   "tags": [
     "first_year",

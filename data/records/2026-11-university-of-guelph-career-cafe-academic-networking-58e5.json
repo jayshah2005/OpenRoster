@@ -9,22 +9,29 @@
     "undergrad",
     "grad"
   ],
-  "end": "2026-11-24T22:00:00Z",
+  "end": "2026-11-25T01:00:00Z",
   "first_seen": "2026-11-12T19:54:44.555065Z",
   "geo": {
     "lat": 43.54594,
     "lon": -80.25599,
     "source": "gazetteer"
   },
-  "history": [],
+  "history": [
+    {
+      "at": "2026-11-21T07:08:27.301878Z",
+      "field": "start",
+      "new": "2026-11-24T23:00:00+00:00",
+      "old": "2026-11-24T20:00:00+00:00"
+    }
+  ],
   "id": "2026-11-university-of-guelph-career-cafe-academic-networking-58e5",
-  "last_seen": "2026-11-20T07:16:32.788960Z",
-  "last_verified": "2026-11-20T07:16:32.788960Z",
+  "last_seen": "2026-11-21T07:08:27.301878Z",
+  "last_verified": "2026-11-21T07:08:27.301878Z",
   "location": {
     "city": "Guelph",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "Edmund C. Bovey Building - Bovey Cafe, 50 Stone Rd E, Guelph, Ontario N1G 2W1, Canada"
+    "venue_name": "Sign in to download the location"
   },
   "mode": "in_person",
   "near_schools": [
@@ -107,7 +114,7 @@
   "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
   "registration": {
     "route": "public_link",
-    "url": "https://uoguelph.campusgroups.com/rsvp?id=380252"
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=380884"
   },
   "review": null,
   "roles": [
@@ -127,26 +134,26 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-20T07:16:32.788960Z",
+      "fetched_at": "2026-11-21T07:08:27.301878Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=380252"
     },
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-20T20:20:13.235614Z",
+      "fetched_at": "2026-11-21T07:08:27.301878Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=380884"
     }
   ],
-  "start": "2026-11-24T20:00:00Z",
-  "status": "scheduled",
-  "summary": "Networking event by University of Guelph GryphLife (CampusGroups) public iCal in Guelph for undergraduates and graduate students.",
+  "start": "2026-11-24T23:00:00Z",
+  "status": "moved",
+  "summary": "Event by University of Guelph GryphLife (CampusGroups) public iCal.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Career Cafe- Academic Networking",
+  "title": "Drop-In Study Session with the History Society",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "networking"
+  "type": "other"
 }
