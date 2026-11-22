@@ -107,11 +107,29 @@
       "field": "start",
       "new": "2026-11-23T23:00:00+00:00",
       "old": "2026-11-23T21:30:00+00:00"
+    },
+    {
+      "at": "2026-11-22T06:48:05.476687Z",
+      "field": "start",
+      "new": "2026-11-23T13:00:00+00:00",
+      "old": "2026-11-23T23:00:00+00:00"
+    },
+    {
+      "at": "2026-11-22T06:48:05.476687Z",
+      "field": "start",
+      "new": "2026-11-23T21:30:00+00:00",
+      "old": "2026-11-23T13:00:00+00:00"
+    },
+    {
+      "at": "2026-11-22T06:48:05.476687Z",
+      "field": "start",
+      "new": "2026-11-23T23:00:00+00:00",
+      "old": "2026-11-23T21:30:00+00:00"
     }
   ],
   "id": "2026-11-university-of-guelph-fvc-casper-and-interview-achievers-talk-a4a0",
-  "last_seen": "2026-11-21T07:08:27.301878Z",
-  "last_verified": "2026-11-21T07:08:27.301878Z",
+  "last_seen": "2026-11-22T06:48:05.476687Z",
+  "last_verified": "2026-11-22T06:48:05.476687Z",
   "location": {
     "city": null,
     "country": null,
@@ -146,25 +164,25 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-21T07:08:27.301878Z",
+      "fetched_at": "2026-11-22T06:48:05.476687Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=379594"
     },
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-21T07:08:27.301878Z",
+      "fetched_at": "2026-11-22T06:48:05.476687Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=380904"
     },
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-21T07:08:27.301878Z",
+      "fetched_at": "2026-11-22T06:48:05.476687Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=380001"
     },
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-21T07:08:27.301878Z",
+      "fetched_at": "2026-11-22T06:48:05.476687Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=380225"
     }

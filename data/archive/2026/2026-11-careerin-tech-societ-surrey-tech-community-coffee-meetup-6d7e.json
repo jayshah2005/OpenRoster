@@ -132,7 +132,7 @@
     }
   ],
   "start": "2026-11-21T16:00:00Z",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Networking event by Careerin Tech Society (Luma iCal) in Central.",
   "tags": [],
   "timezone": "America/Toronto",
