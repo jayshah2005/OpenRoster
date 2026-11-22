@@ -2,17 +2,13 @@
 
 Hackathons, info sessions, talks, career fairs, workshops, competitions and early-career programs for CS students, soonest deadline first. Filter, subscribe to a calendar, or see details at https://openroster-seven.vercel.app.
 
-194 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
+190 listed. This file updates every 6 hours. Something missing? [Add it](../../issues/new?template=submit-opportunity.yml).
 
 | Apply by | Starts | Opportunity | Organizer | Type | Where | Ways to take part |
 |---|---|---|---|---|---|---|
 | Not listed | Oct 22 | [Fall Job Shadow Program Mentorship Sessions (FASS & FPGA)](https://openroster-seven.vercel.app/o/2026-10-carleton-career-serv-fall-job-shadow-program-mentorship-sessions-fass-d312/) | Carleton Career Services events (WordPress REST) | Other | Ottawa, ON | attend |
 | Not listed | Nov 1 | [Fall Engineering Outreach Programs](https://openroster-seven.vercel.app/o/2026-11-u-of-t-central-event-fall-engineering-outreach-programs-9ef4/) | U of T central events aggregator | Other | TBA | attend |
 | Not listed | Nov 11 | [Game Dev Weekly Meetings](https://openroster-seven.vercel.app/o/2026-11-university-of-guelph-game-dev-weekly-meetings-f758/) | University of Guelph GryphLife (CampusGroups) public iCal | Other | Guelph, ON | attend |
-| Not listed | Nov 21 | [GDG Windsor Devfest 2026](https://openroster-seven.vercel.app/o/2026-11-wetech-alliance-even-gdg-windsor-essex-devfest-2026-5a2b/) | WEtech Alliance events (Windsor-Essex) | Info session | Windsor, ON | attend |
-| Not listed | Nov 21 | [Goodman Case Competition](https://openroster-seven.vercel.app/o/2026-11-business-students-as-goodman-case-competition-79a9/) | Business Students' Association | Case competition | St. Catharines, ON | attend |
-| Not listed | Nov 21 | [Prompt to Pitch Case Competition](https://openroster-seven.vercel.app/o/2026-11-university-of-guelph-prompt-to-pitch-case-competition-4949/) | University of Guelph GryphLife (CampusGroups) public iCal | Case competition | Guelph, ON | attend |
-| Not listed | Nov 21 | [FESA Professional Development Conference - ILLUMINATE 2026](https://openroster-seven.vercel.app/o/2026-11-yu-connect-campusgro-fesa-professional-development-conference-illumina-a0e6/) | YU Connect (CampusGroups) all public club events iCal | Conference | TBA | attend |
 | Not listed | Nov 21 | [EvoHacks II](https://openroster-seven.vercel.app/o/2026-11-evohacks-ii-719c/) | EvoHacks II | Hackathon | Online | attend |
 | Not listed | Nov 22 | [Case Competition Prep Session](https://openroster-seven.vercel.app/o/2026-11-university-of-guelph-case-competition-prep-session-bab8/) | University of Guelph GryphLife (CampusGroups) public iCal | Case competition | TBA | attend |
 | Not listed | Nov 23 | [trans + crip + tech symposium](https://openroster-seven.vercel.app/o/2026-11-carleton-university-trans-crip-tech-symposium-152a/) | Carleton University central events (WordPress REST) | Conference | Ottawa, ON | attend |

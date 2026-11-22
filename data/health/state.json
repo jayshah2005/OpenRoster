@@ -94,7 +94,7 @@
     "2026-11-brock-linc-kick-starting-entrepreneurship-market-vendor-readi-7a64": 3,
     "2026-11-brock-linc-kick-starting-entrepreneurship-what-lenders-are-lo-9dfa": 3,
     "2026-11-build-for-earth-76d0": 2,
-    "2026-11-business-students-as-goodman-case-competition-79a9": 1,
+    "2026-11-business-students-as-goodman-case-competition-79a9": 2,
     "2026-11-career-education-ask-us-anything-loblaw-campus-recruitment-team-2c54": 2,
     "2026-11-career-education-bmo-kickstart-your-career-e838": 2,
     "2026-11-career-education-bmo-recruiter-ask-us-anything-session-840b": 2,
@@ -233,7 +233,8 @@
     "2026-11-university-of-guelph-nssa-career-panel-9977": 2,
     "2026-11-university-of-guelph-open-pitch-night-pitch-your-business-idea-c748": 2,
     "2026-11-university-of-guelph-pitch-to-win-500-for-your-business-05fd": 2,
-    "2026-11-university-of-guelph-prompt-to-pitch-case-competition-4949": 1,
+    "2026-11-university-of-guelph-prompt-to-pitch-case-competition-4949": 2,
+    "2026-11-university-of-guelph-socis-fall-research-mixer-c637": 1,
     "2026-11-university-of-guelph-working-in-policy-career-chat-5a72": 3,
     "2026-11-university-of-waterl-civic-hackathon-2026-a363": 3,
     "2026-11-university-of-waterl-cpi-talk-somebody-else-s-problem-verifiability-an-82f7": 3,
@@ -274,7 +275,7 @@
     "2026-11-wetech-alliance-even-canadian-disability-tech-summit-2026-3481": 2,
     "2026-11-wetech-alliance-even-emerging-technologies-in-automation-and-mobility-8077": 2,
     "2026-11-wetech-alliance-even-from-bootstrapping-to-venture-capital-the-funding-73d7": 3,
-    "2026-11-wetech-alliance-even-gdg-windsor-essex-devfest-2026-5a2b": 1,
+    "2026-11-wetech-alliance-even-gdg-windsor-essex-devfest-2026-5a2b": 2,
     "2026-11-wetech-alliance-even-generative-ai-for-small-business-virtual-9ec8": 2,
     "2026-11-wetech-alliance-even-global-entrepreneurship-scaling-and-trade-virtual-4aa7": 3,
     "2026-11-wetech-alliance-even-great-lakes-hackathon-challenge-virtual-info-sess-aa24": 2,
@@ -291,7 +292,7 @@
     "2026-11-wilfrid-laurier-univ-careers-in-criminology-fair-3029": 2,
     "2026-11-wilfrid-laurier-univ-crafting-a-cv-resum-for-further-education-applica-9cfc": 2,
     "2026-11-wilfrid-laurier-univ-lazaridis-msc-in-management-analytics-information-07e9": 2,
-    "2026-11-yu-connect-campusgro-fesa-professional-development-conference-illumina-a0e6": 1,
+    "2026-11-yu-connect-campusgro-fesa-professional-development-conference-illumina-a0e6": 2,
     "2026-12-cheriton-school-of-c-master-s-thesis-presentation-software-engineering-1bbd": 2,
     "2026-12-cheriton-school-of-c-phd-defence-computer-graphics-globally-coupled-in-04fd": 2,
     "2026-12-cheriton-school-of-c-phd-defence-computer-graphics-light-transport-bey-add0": 2,
@@ -308,10 +309,10 @@
   "pipeline": {
     "approved": 106,
     "configured": 118,
-    "failing": 5,
+    "failing": 3,
     "held_for_review": 31,
     "last_run": "2026-11-22",
-    "listings": 213,
+    "listings": 207,
     "runnable": 48
   },
   "sources": {
@@ -373,11 +374,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 610,
+      "last_nonzero": 614,
       "last_ok": "2026-11-22",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 610,
+      "raw_count": 614,
       "refused": false
     },
     "carleton-career-events-api": {
@@ -615,14 +616,14 @@
       "refused": false
     },
     "hackathon:global-game-jam-site-game-development-program": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 0,
       "count": 0,
-      "error": "https://educationnewscanada.com/article/education/region/ontario/27/745152/niagara-collegejanuary-28-2019-gamers-unite-at-niagara-college-for-fourth-annual-global-game-jam.html: disallowed by robots.txt",
+      "error": null,
       "fingerprint": null,
-      "healthy_streak": 0,
+      "healthy_streak": 1,
       "last_nonzero": 1,
-      "last_ok": "2026-11-21",
-      "ok": false,
+      "last_ok": "2026-11-22",
+      "ok": true,
       "prev_fingerprint": null,
       "raw_count": 1,
       "refused": false
@@ -940,14 +941,14 @@
       "refused": false
     },
     "hackathon:spooky-game-jam-centre-for-digital-humanities": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 0,
       "count": 0,
-      "error": "https://brocku.ca/brock-news/in-focus/game-jam-a-spooktacular-success/: HTTP 403",
+      "error": null,
       "fingerprint": null,
-      "healthy_streak": 0,
+      "healthy_streak": 1,
       "last_nonzero": 1,
-      "last_ok": "2026-11-21",
-      "ok": false,
+      "last_ok": "2026-11-22",
+      "ok": true,
       "prev_fingerprint": null,
       "raw_count": 1,
       "refused": false
@@ -1062,11 +1063,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 16,
+      "last_nonzero": 15,
       "last_ok": "2026-11-22",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 16,
+      "raw_count": 15,
       "refused": false
     },
     "laurier-events-ics": {
@@ -1218,11 +1219,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 28,
+      "last_nonzero": 29,
       "last_ok": "2026-11-22",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 28,
+      "raw_count": 29,
       "refused": false
     },
     "luma-waterloo-tech-week": {
@@ -1252,7 +1253,7 @@
       "refused": false
     },
     "niagara-college-events": {
-      "consecutive_failures": 77,
+      "consecutive_failures": 78,
       "count": 0,
       "error": "https://www.niagaracollege.ca/wp-json/tribe/events/v1/events?start_date=2026-11-22&per_page=50: disallowed by robots.txt",
       "fingerprint": null,
@@ -1283,11 +1284,11 @@
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 87,
+      "last_nonzero": 86,
       "last_ok": "2026-11-22",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 87,
+      "raw_count": 86,
       "refused": false
     },
     "scotiabank-campus-events": {
@@ -1331,19 +1332,19 @@
     },
     "uoft-central-events": {
       "consecutive_failures": 0,
-      "count": 15,
+      "count": 13,
       "error": null,
       "fingerprint": "2582d80484a2",
       "healthy_streak": 2,
-      "last_nonzero": 140,
+      "last_nonzero": 139,
       "last_ok": "2026-11-22",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 140,
+      "raw_count": 139,
       "refused": false
     },
     "uoft-engineering-events": {
-      "consecutive_failures": 77,
+      "consecutive_failures": 78,
       "count": 0,
       "error": "ZoneInfoNotFoundError: 'No time zone found with key UTC+0'",
       "fingerprint": null,
@@ -1383,15 +1384,15 @@
     },
     "uoguelph-gryphlife-campusgroups-ics": {
       "consecutive_failures": 0,
-      "count": 24,
+      "count": 23,
       "error": null,
       "fingerprint": null,
       "healthy_streak": 2,
-      "last_nonzero": 903,
+      "last_nonzero": 906,
       "last_ok": "2026-11-22",
       "ok": true,
       "prev_fingerprint": null,
-      "raw_count": 903,
+      "raw_count": 906,
       "refused": false
     },
     "uoguelph-news-events-tribe": {
@@ -1473,14 +1474,14 @@
       "refused": false
     },
     "vector-institute-events": {
-      "consecutive_failures": 0,
+      "consecutive_failures": 1,
       "count": 7,
-      "error": null,
+      "error": "FetchError: https://vectorinstitute.ai/wp-json/tribe/events/v1/events?start_date=2026-11-22&per_page=50: network error: The read operation timed out",
       "fingerprint": null,
-      "healthy_streak": 2,
+      "healthy_streak": 0,
       "last_nonzero": 12,
       "last_ok": "2026-11-22",
-      "ok": true,
+      "ok": false,
       "prev_fingerprint": null,
       "raw_count": 12,
       "refused": false
@@ -1525,14 +1526,14 @@
       "refused": false
     },
     "wusa-events-tribe": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 0,
       "count": 0,
-      "error": "FetchError: https://wusa.ca/wp-json/tribe/events/v1/events?start_date=2026-11-22&per_page=50: HTTP 403",
+      "error": null,
       "fingerprint": null,
-      "healthy_streak": 0,
+      "healthy_streak": 1,
       "last_nonzero": 20,
-      "last_ok": "2026-11-21",
-      "ok": false,
+      "last_ok": "2026-11-22",
+      "ok": true,
       "prev_fingerprint": null,
       "raw_count": 20,
       "refused": false
