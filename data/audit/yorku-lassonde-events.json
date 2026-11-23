@@ -1,11 +1,11 @@
 {
-  "checked": "2026-11-17T18:45:27.140462+00:00",
-  "dated_items_in_html": 8,
+  "checked": "2026-11-23T21:40:11.018603+00:00",
+  "dated_items_in_html": 22,
   "feeds": [
     "https://lassonde.yorku.ca/ical/"
   ],
   "http_status": 200,
-  "jsonld_events": 3,
+  "jsonld_events": 7,
   "known_verdict": null,
   "login_wall": false,
   "platform": "ics",
