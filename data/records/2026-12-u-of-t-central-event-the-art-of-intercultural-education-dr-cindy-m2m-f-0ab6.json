@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-12-u-of-t-central-event-the-art-of-intercultural-education-dr-cindy-m2m-f-0ab6",
-  "last_seen": "2026-11-22T06:48:05.476687Z",
-  "last_verified": "2026-11-22T06:48:05.476687Z",
+  "last_seen": "2026-11-23T07:39:49.329223Z",
+  "last_verified": "2026-11-23T07:39:49.329223Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-11-22T06:48:05.476687Z",
+      "fetched_at": "2026-11-23T07:39:49.329223Z",
       "source_id": "uoft-central-events",
       "url": "https://temertymedicine.utoronto.ca/event/temerty-centre-speaker-series-dr-amir-rahmani-dr-stephen-schueller-dec-3"
     }

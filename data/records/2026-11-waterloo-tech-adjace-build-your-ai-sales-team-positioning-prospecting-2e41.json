@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-waterloo-tech-adjace-build-your-ai-sales-team-positioning-prospecting-2e41",
-  "last_seen": "2026-11-22T06:48:05.476687Z",
-  "last_verified": "2026-11-22T06:48:05.476687Z",
+  "last_seen": "2026-11-23T07:39:49.329223Z",
+  "last_verified": "2026-11-23T07:39:49.329223Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-22T06:48:05.476687Z",
+      "fetched_at": "2026-11-23T07:39:49.329223Z",
       "source_id": "luma-waterloo-tech-adjacent-events",
       "url": "https://luma.com/s62e8ww7"
     }

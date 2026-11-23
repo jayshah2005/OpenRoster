@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-12-career-education-insurance-career-connections-online-mock-interview-b2fd",
-  "last_seen": "2026-11-22T06:48:05.476687Z",
-  "last_verified": "2026-11-22T06:48:05.476687Z",
+  "last_seen": "2026-11-23T07:39:49.329223Z",
+  "last_verified": "2026-11-23T07:39:49.329223Z",
   "location": {
     "city": null,
     "country": "CA",
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "rss",
-      "fetched_at": "2026-11-22T06:48:05.476687Z",
+      "fetched_at": "2026-11-23T07:39:49.329223Z",
       "source_id": "brock-experiencebu-rss",
       "url": "https://experiencebu.brocku.ca/event/338394"
     }

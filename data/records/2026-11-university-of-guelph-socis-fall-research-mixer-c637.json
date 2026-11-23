@@ -109,7 +109,17 @@
     "route": "public_link",
     "url": "https://uoguelph.campusgroups.com/rsvp?id=381112"
   },
-  "review": null,
+  "review": {
+    "evidence": [
+      {
+        "text": "missing from the last 2 successful fetches",
+        "url": "https://uoguelph.campusgroups.com/rsvp?id=381112"
+      }
+    ],
+    "reasons": [
+      "no longer listed by its source (possibly cancelled or moved)"
+    ]
+  },
   "roles": [
     {
       "closes": null,
@@ -133,7 +143,7 @@
     }
   ],
   "start": "2026-11-25T16:30:00Z",
-  "status": "scheduled",
+  "status": "needs_review",
   "summary": "Free info session by University of Guelph GryphLife (CampusGroups) public iCal in Guelph for undergraduates.",
   "tags": [],
   "timezone": "America/Toronto",
