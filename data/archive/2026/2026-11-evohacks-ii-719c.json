@@ -55,7 +55,7 @@
     }
   ],
   "start": "2026-11-21T17:00:00Z",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Online hackathon by EvoHacks II for mostly high-school students.",
   "tags": [
     "mostly_high_school"

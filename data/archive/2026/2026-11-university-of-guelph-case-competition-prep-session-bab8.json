@@ -55,7 +55,7 @@
     }
   ],
   "start": "2026-11-22T21:00:00Z",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Case competition by University of Guelph GryphLife (CampusGroups) public iCal.",
   "tags": [],
   "timezone": "America/Toronto",
