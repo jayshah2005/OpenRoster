@@ -8,7 +8,7 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-24T01:00:00Z",
+  "end": "2026-11-25T22:00:00Z",
   "first_seen": "2026-11-13T19:43:05.422860Z",
   "geo": null,
   "history": [
@@ -173,11 +173,17 @@
       "field": "start",
       "new": "2026-11-23T23:00:00+00:00",
       "old": "2026-11-23T13:00:00+00:00"
+    },
+    {
+      "at": "2026-11-24T09:54:46.540767Z",
+      "field": "start",
+      "new": "2026-11-23T13:00:00+00:00",
+      "old": "2026-11-23T23:00:00+00:00"
     }
   ],
   "id": "2026-11-university-of-guelph-fvc-casper-and-interview-achievers-talk-a4a0",
-  "last_seen": "2026-11-23T07:39:49.329223Z",
-  "last_verified": "2026-11-23T07:39:49.329223Z",
+  "last_seen": "2026-11-24T09:54:46.540767Z",
+  "last_verified": "2026-11-24T09:54:46.540767Z",
   "location": {
     "city": null,
     "country": null,
@@ -192,7 +198,7 @@
   "organizer": "University of Guelph GryphLife (CampusGroups) public iCal",
   "registration": {
     "route": "public_link",
-    "url": "https://uoguelph.campusgroups.com/rsvp?id=380001"
+    "url": "https://uoguelph.campusgroups.com/rsvp?id=380225"
   },
   "review": null,
   "roles": [
@@ -230,22 +236,22 @@
     },
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-23T07:39:49.329223Z",
+      "fetched_at": "2026-11-24T09:54:46.540767Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=380225"
     }
   ],
-  "start": "2026-11-23T23:00:00Z",
+  "start": "2026-11-23T13:00:00Z",
   "status": "moved",
-  "summary": "Workshop by University of Guelph GryphLife (CampusGroups) public iCal.",
+  "summary": "Event by University of Guelph GryphLife (CampusGroups) public iCal.",
   "tags": [
     "women_nonbinary"
   ],
   "timezone": "America/Toronto",
-  "title": "From Campus to your Career Workshop",
+  "title": "SVECCS x VCA Career Mentorship",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "workshop"
+  "type": "other"
 }

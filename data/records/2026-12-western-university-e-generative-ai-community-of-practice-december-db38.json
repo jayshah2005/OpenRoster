@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-12-western-university-e-generative-ai-community-of-practice-december-db38",
-  "last_seen": "2026-11-23T07:39:49.329223Z",
-  "last_verified": "2026-11-23T07:39:49.329223Z",
+  "last_seen": "2026-11-24T09:54:46.540767Z",
+  "last_verified": "2026-11-24T09:54:46.540767Z",
   "location": {
     "city": "London",
     "country": "CA",
@@ -75,13 +75,13 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-23T07:39:49.329223Z",
+      "fetched_at": "2026-11-24T09:54:46.540767Z",
       "source_id": "western-events-ics",
       "url": "https://www.uwo.ca/events/"
     },
     {
       "adapter": "api",
-      "fetched_at": "2026-11-23T07:39:49.329223Z",
+      "fetched_at": "2026-11-24T09:54:46.540767Z",
       "source_id": "western-events-json",
       "url": "https://www.uwo.ca/events/2026/12/generative-ai-community-of-practice-december.html"
     }

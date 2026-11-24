@@ -31,7 +31,17 @@
     "route": "public_link",
     "url": "https://temertymedicine.utoronto.ca/event/temerty-centre-speaker-series-dr-amir-rahmani-dr-stephen-schueller-dec-3"
   },
-  "review": null,
+  "review": {
+    "evidence": [
+      {
+        "text": "missing from the last 2 successful fetches",
+        "url": "https://temertymedicine.utoronto.ca/event/temerty-centre-speaker-series-dr-amir-rahmani-dr-stephen-schueller-dec-3"
+      }
+    ],
+    "reasons": [
+      "no longer listed by its source (possibly cancelled or moved)"
+    ]
+  },
   "roles": [
     {
       "closes": "2026-12-03T23:59:00-05:00",
@@ -55,7 +65,7 @@
     }
   ],
   "start": "2026-12-03T00:00:00-05:00",
-  "status": "scheduled",
+  "status": "needs_review",
   "summary": "Event by U of T central events aggregator. Apply by Dec 3.",
   "tags": [],
   "timezone": "America/Toronto",

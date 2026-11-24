@@ -497,11 +497,29 @@
       "field": "start",
       "new": "2026-11-25T11:00:00-05:00",
       "old": "2026-11-25T18:00:00-05:00"
+    },
+    {
+      "at": "2026-11-24T09:54:46.540767Z",
+      "field": "start",
+      "new": "2026-11-25T16:30:00-05:00",
+      "old": "2026-11-25T11:00:00-05:00"
+    },
+    {
+      "at": "2026-11-24T09:54:46.540767Z",
+      "field": "start",
+      "new": "2026-11-25T18:00:00-05:00",
+      "old": "2026-11-25T16:30:00-05:00"
+    },
+    {
+      "at": "2026-11-24T09:54:46.540767Z",
+      "field": "start",
+      "new": "2026-11-25T11:00:00-05:00",
+      "old": "2026-11-25T18:00:00-05:00"
     }
   ],
   "id": "2026-11-wilfrid-laurier-univ-careers-in-computer-science-panel-cc93",
-  "last_seen": "2026-11-23T07:39:49.329223Z",
-  "last_verified": "2026-11-23T07:39:49.329223Z",
+  "last_seen": "2026-11-24T09:54:46.540767Z",
+  "last_verified": "2026-11-24T09:54:46.540767Z",
   "location": {
     "city": null,
     "country": null,
@@ -536,7 +554,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-23T07:39:49.329223Z",
+      "fetched_at": "2026-11-24T09:54:46.540767Z",
       "source_id": "laurier-events-ics",
       "url": "https://events.wlu.ca/index.html"
     }

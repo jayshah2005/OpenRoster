@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-12-carleton-university-science-caf-progress-in-the-cognitive-neurobiology-5870",
-  "last_seen": "2026-11-23T07:39:49.329223Z",
-  "last_verified": "2026-11-23T07:39:49.329223Z",
+  "last_seen": "2026-11-24T09:54:46.540767Z",
+  "last_verified": "2026-11-24T09:54:46.540767Z",
   "location": {
     "city": "Ottawa",
     "country": "CA",
@@ -70,7 +70,7 @@
   "sources": [
     {
       "adapter": "api",
-      "fetched_at": "2026-11-23T07:39:49.329223Z",
+      "fetched_at": "2026-11-24T09:54:46.540767Z",
       "source_id": "carleton-events-api",
       "url": "https://events.carleton.ca/event/science-cafe-progress-in-the-cognitive-neurobiology-of-the-human-imagination-from-australopithecus-to-ai/"
     }
