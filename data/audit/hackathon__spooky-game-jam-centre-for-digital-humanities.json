@@ -1,21 +1,21 @@
 {
-  "checked": "2026-11-23T21:39:49.949585+00:00",
-  "dated_items_in_html": 0,
+  "checked": "2026-11-24T20:20:21.604277+00:00",
+  "dated_items_in_html": 8,
   "feeds": [],
-  "http_status": 403,
+  "http_status": 200,
   "jsonld_events": 0,
   "known_verdict": null,
-  "login_wall": true,
-  "platform": "unknown",
+  "login_wall": false,
+  "platform": "html",
   "reasons": [
-    "HTTP 403: login wall or bot protection; not bypassed"
+    "no terms-of-use link found on the page"
   ],
-  "robots": "no_robots",
+  "robots": "allowed",
   "sitemaps": [],
   "terms_forbid_automated": null,
   "terms_forbid_republish": null,
   "terms_quotes": [],
   "terms_url": null,
   "url": "https://brocku.ca/brock-news/in-focus/game-jam-a-spooktacular-success/",
-  "verdict": "blocked"
+  "verdict": "allowed"
 }
