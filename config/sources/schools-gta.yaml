@@ -147,12 +147,14 @@ sources:
   adapter: html
   url: https://www.ocadu.ca/events
   owner: ocadu
-  enabled: false
+  enabled: true
   reviewed: true
   page_budget: 3
   options:
     filter: cs
-  notes: NEEDS SELECTORS before enabling. Drupal, server-rendered with pager (?page=N). Mostly art/exhibitions; relevant items are Digital Futures (DFX thesis show, occasional game jams) and the Design Career Fair. Career portal is Symplicity (login).
+    item: div.views-row
+    title: a
+  notes: Selectors proposed by `openroster autoselect`; check the fixture test. Drupal, server-rendered with pager (?page=N). Mostly art/exhibitions; relevant items are Digital Futures (DFX thesis show, occasional game jams) and the Design Career Fair. Career portal is Symplicity (login).
 - id: ontariotechu-events
   name: Ontario Tech University events calendar
   adapter: headless
