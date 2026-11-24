@@ -18,8 +18,8 @@
   },
   "history": [],
   "id": "2026-11-university-of-guelph-socis-fall-research-mixer-c637",
-  "last_seen": "2026-11-22T06:48:05.476687Z",
-  "last_verified": "2026-11-22T06:48:05.476687Z",
+  "last_seen": "2026-11-24T22:27:06.779809Z",
+  "last_verified": "2026-11-24T22:27:06.779809Z",
   "location": {
     "city": "Guelph",
     "country": "CA",
@@ -109,17 +109,7 @@
     "route": "public_link",
     "url": "https://uoguelph.campusgroups.com/rsvp?id=381112"
   },
-  "review": {
-    "evidence": [
-      {
-        "text": "missing from the last 2 successful fetches",
-        "url": "https://uoguelph.campusgroups.com/rsvp?id=381112"
-      }
-    ],
-    "reasons": [
-      "no longer listed by its source (possibly cancelled or moved)"
-    ]
-  },
+  "review": null,
   "roles": [
     {
       "closes": null,
@@ -137,13 +127,13 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-22T06:48:05.476687Z",
+      "fetched_at": "2026-11-24T22:27:06.779809Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=381112"
     }
   ],
   "start": "2026-11-25T16:30:00Z",
-  "status": "needs_review",
+  "status": "scheduled",
   "summary": "Free info session by University of Guelph GryphLife (CampusGroups) public iCal in Guelph for undergraduates.",
   "tags": [],
   "timezone": "America/Toronto",

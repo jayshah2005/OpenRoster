@@ -1,10 +1,5 @@
 {
-  "flagged_missing": [
-    "2026-11-cheriton-school-of-c-phd-seminar-artificial-intelligence-machine-learn-193d",
-    "2026-11-university-of-waterl-quantum-valley-investments-problem-pitch-fall-202-d114",
-    "2026-12-u-of-t-central-event-the-art-of-intercultural-education-dr-cindy-ai-in-1ef0",
-    "2026-12-u-of-t-central-event-the-art-of-intercultural-education-dr-cindy-m2m-f-0ab6"
-  ],
+  "flagged_missing": [],
   "items": [
     {
       "evidence": " Sheridan College's largest hackathon this year, bringing students from across the GTA to come and build meaningful software together. BearHacks 2026 Sheridan College's largest hackathon this year, bringing students from across the GTA to come and build meaningful software together. Sheridan College",
@@ -40,7 +35,7 @@
       "url": "https://conuhacks.io"
     },
     {
-      "evidence": "Skip to main content (Press Enter) Outlook MyQueensU onQ Toggle navigation About Contact Us 557 Goodwin Hall Queen's University Kingston, Ontario, Canada K7L 2N8 Phone: (613) 533-6050 Give to Computing The School Student Life Outreach EDII Events Nov 24 Biomedical Informatics Online Info Session 11:",
+      "evidence": "Skip to main content (Press Enter) Outlook MyQueensU onQ Toggle navigation About Contact Us 557 Goodwin Hall Queen's University Kingston, Ontario, Canada K7L 2N8 Phone: (613) 533-6050 Give to Computing The School Student Life Outreach EDII Events Nov 26 Graduate Program Online Information Session 10",
       "key": "hackathon:cucai-canadian-undergraduate-conference-on-ai-run-by-qmind|hackathon:cucai-canadian-undergraduate-conference-on-ai-run-by-qmind",
       "reasons": [
         "no event date found with confidence (site may be JS-only or not updated)",
@@ -62,7 +57,7 @@
       "url": "https://deerhacks.ca/"
     },
     {
-      "evidence": "Skip to main content (Press Enter) Outlook MyQueensU onQ Toggle navigation About Contact Us 557 Goodwin Hall Queen's University Kingston, Ontario, Canada K7L 2N8 Phone: (613) 533-6050 Give to Computing The School Student Life Outreach EDII Events Nov 24 Biomedical Informatics Online Info Session 11:",
+      "evidence": "Skip to main content (Press Enter) Outlook MyQueensU onQ Toggle navigation About Contact Us 557 Goodwin Hall Queen's University Kingston, Ontario, Canada K7L 2N8 Phone: (613) 533-6050 Give to Computing The School Student Life Outreach EDII Events Nov 26 Graduate Program Online Information Session 10",
       "key": "hackathon:designathon-queen-s-ux-club|hackathon:designathon-queen-s-ux-club",
       "reasons": [
         "no event date found with confidence (site may be JS-only or not updated)",
@@ -257,6 +252,17 @@
       "source_id": "hackathon:seneca-annual-hackathons-school-of-it-administration-securit",
       "title": "Seneca annual hackathons (School of IT Administration & Security)",
       "url": "https://students.senecapolytechnic.ca/spaces/14/school-of-information-technology-administration-security/wiki/view/7685/annual-hackathons"
+    },
+    {
+      "evidence": "Skip to content Skip to main navigation Skip to search Welcome to Brock University Information for Future students Current students International Co-op Professional and Continuing Studies Community partners Alumni and donors Academics Faculties & Departments Graduate Studies and Postdocs Teaching & ",
+      "key": "hackathon:spooky-game-jam-centre-for-digital-humanities|hackathon:spooky-game-jam-centre-for-digital-humanities",
+      "reasons": [
+        "no event date found with confidence (site may be JS-only or not updated)",
+        "no date could be parsed with confidence"
+      ],
+      "source_id": "hackathon:spooky-game-jam-centre-for-digital-humanities",
+      "title": "Spooky Game Jam (Centre for Digital Humanities)",
+      "url": "https://brocku.ca/brock-news/in-focus/game-jam-a-spooktacular-success/"
     },
     {
       "evidence": "Skip to main content Jump to Jump to Admissions About Waterloo Faculties & Academics Offices & Services Support Waterloo Open Search Location Search for Search Location On all sites On this site Women in Computer Science Menu Women in Computer Science Home About About Contacts WiCS Feedback Form His",

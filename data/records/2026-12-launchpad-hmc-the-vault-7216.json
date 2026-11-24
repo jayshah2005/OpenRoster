@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-03T18:00:00-05:00",
+  "first_seen": "2026-11-24T22:27:06.779809Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-12-launchpad-hmc-the-vault-7216",
+  "last_seen": "2026-11-24T22:27:06.779809Z",
+  "last_verified": "2026-11-24T22:27:06.779809Z",
+  "location": {
+    "city": null,
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Sheridan College - Hazel McCallion"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Launchpad (HMC)",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://sheridancollege.campuslabs.ca/engage/event/338711"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "sheridan"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-11-24T22:27:06.779809Z",
+      "source_id": "sheridan-ssu-engage-rss",
+      "url": "https://sheridancollege.campuslabs.ca/engage/event/338711"
+    }
+  ],
+  "start": "2026-12-03T17:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Online workshop by Launchpad (HMC).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "The Vault",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

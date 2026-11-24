@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "school_only"
+  ],
+  "end": "2026-12-02T14:00:00-05:00",
+  "first_seen": "2026-11-24T22:27:06.779809Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-12-durham-college-event-level-up-your-ai-generated-resum-and-cover-letter-10d5",
+  "last_seen": "2026-11-24T22:27:06.779809Z",
+  "last_verified": "2026-11-24T22:27:06.779809Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "Virtual"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "Durham College events calendar",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.eventbrite.ca/e/level-up-your-aigenerated-resume-and-cover-letter-virtual-tickets-2005398315345?aff=oddtdtcreator"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-11-24T22:27:06.779809Z",
+      "source_id": "durham-events",
+      "url": "https://durhamcollege.ca/event/level-up-your-ai-generated-resume-and-cover-letter-virtual"
+    }
+  ],
+  "start": "2026-12-02T13:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Online workshop by Durham College events calendar.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Level Up Your AI‑Generated Resumé and Cover Letter (Virtual)",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}
