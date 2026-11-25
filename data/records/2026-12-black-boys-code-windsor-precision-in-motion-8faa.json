@@ -1,0 +1,83 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-12T15:00:00-05:00",
+  "first_seen": "2026-11-25T21:42:14.399442Z",
+  "geo": {
+    "lat": 42.30008,
+    "lon": -83.01654,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-12-black-boys-code-windsor-precision-in-motion-8faa",
+  "last_seen": "2026-11-25T21:42:14.399442Z",
+  "last_verified": "2026-11-25T21:42:14.399442Z",
+  "location": {
+    "city": "Windsor",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "University of Windsor"
+  },
+  "mode": "unknown",
+  "near_schools": [
+    {
+      "km": 4.1,
+      "school_id": "uwindsor"
+    },
+    {
+      "km": 5.8,
+      "school_id": "stclair"
+    }
+  ],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "Black Boys Code",
+  "registration": {
+    "route": "public_link",
+    "url": "https://www.eventbrite.ca/e/black-boys-code-windsor-precision-in-motion-tickets-2005429664110?aff=erelpanelorg"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-11-25T21:42:14.399442Z",
+      "source_id": "wetech-alliance-events",
+      "url": "https://www.wetech-alliance.com/event/black-boys-code-windsor-precision-in-motion/"
+    }
+  ],
+  "start": "2026-12-12T11:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Free info session by Black Boys Code in Windsor. Beginners welcome.",
+  "tags": [
+    "beginner_friendly"
+  ],
+  "timezone": "America/Detroit",
+  "title": "Black Boys Code Windsor | Precision in Motion",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

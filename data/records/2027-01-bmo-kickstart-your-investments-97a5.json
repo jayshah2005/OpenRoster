@@ -53,6 +53,12 @@
       "fetched_at": "2026-11-25T08:34:54.511301Z",
       "source_id": "bmo-virtual-workshops",
       "url": "https://jobs.bmo.com/ca/en/event/6a90a629acced97d63ac6c23/Kickstart-Your-Investments"
+    },
+    {
+      "adapter": "html",
+      "fetched_at": "2026-11-25T21:42:14.399442Z",
+      "source_id": "bmo-virtual-workshops",
+      "url": "https://jobs.bmo.com/ca/en/event/6af78569cc6394f7bca26c81/Kickstart-Your-Investments"
     }
   ],
   "start": "2027-01-25T15:00:00-05:00",

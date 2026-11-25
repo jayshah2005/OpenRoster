@@ -8,7 +8,7 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-25T12:00:00-05:00",
+  "end": "2026-11-25T19:00:00-05:00",
   "first_seen": "2026-11-05T06:46:42.157645Z",
   "geo": null,
   "history": [
@@ -551,6 +551,18 @@
       "field": "start",
       "new": "2026-11-25T11:00:00-05:00",
       "old": "2026-11-25T18:00:00-05:00"
+    },
+    {
+      "at": "2026-11-25T21:42:14.399442Z",
+      "field": "start",
+      "new": "2026-11-25T16:30:00-05:00",
+      "old": "2026-11-25T11:00:00-05:00"
+    },
+    {
+      "at": "2026-11-25T21:42:14.399442Z",
+      "field": "start",
+      "new": "2026-11-25T18:00:00-05:00",
+      "old": "2026-11-25T16:30:00-05:00"
     }
   ],
   "id": "2026-11-wilfrid-laurier-univ-careers-in-computer-science-panel-cc93",
@@ -595,15 +607,15 @@
       "url": "https://events.wlu.ca/index.html"
     }
   ],
-  "start": "2026-11-25T11:00:00-05:00",
+  "start": "2026-11-25T18:00:00-05:00",
   "status": "moved",
-  "summary": "Info session by Wilfrid Laurier University events calendar (iCal).",
+  "summary": "Online event by Wilfrid Laurier University events calendar (iCal) for undergraduates.",
   "tags": [],
   "timezone": "America/New_York",
-  "title": "Job Search Strategies Workshop",
+  "title": "Webinar: Arts Degree (Laurier) and Law Degree (University of Sussex)",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "info_session"
+  "type": "other"
 }

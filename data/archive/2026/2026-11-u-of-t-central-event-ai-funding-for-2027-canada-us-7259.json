@@ -1,6 +1,6 @@
 {
   "ai_suggested": [],
-  "all_day": false,
+  "all_day": true,
   "cost": {
     "kind": "unknown",
     "note": null
@@ -8,11 +8,11 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-24T19:45:00-05:00",
-  "first_seen": "2026-10-29T22:45:46.003761Z",
+  "end": null,
+  "first_seen": "2026-11-19T20:37:36.980046Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-mcmaster-university-inside-the-ad-auction-the-modern-ad-tech-career-3c4e",
+  "id": "2026-11-u-of-t-central-event-ai-funding-for-2027-canada-us-7259",
   "last_seen": "2026-11-24T09:54:46.540767Z",
   "last_verified": "2026-11-24T09:54:46.540767Z",
   "location": {
@@ -24,12 +24,12 @@
   "mode": "unknown",
   "near_schools": [],
   "obtained_via": [
-    "ics"
+    "html"
   ],
-  "organizer": "McMaster University central events (news.mcmaster.ca, Events Manager)",
+  "organizer": "U of T central events aggregator",
   "registration": {
     "route": "public_link",
-    "url": "https://news.mcmaster.ca/events/inside-the-ad-auction-the-modern-ad-tech-career/"
+    "url": "https://entrepreneurs.utoronto.ca/event/ai-funding-for-2027-canada-us/"
   },
   "review": null,
   "roles": [
@@ -45,24 +45,24 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": "mcmaster-news-events-ics:ab90b8de76b1",
+  "series_id": null,
   "sources": [
     {
-      "adapter": "ics",
+      "adapter": "html",
       "fetched_at": "2026-11-24T09:54:46.540767Z",
-      "source_id": "mcmaster-news-events-ics",
-      "url": "https://news.mcmaster.ca/events/inside-the-ad-auction-the-modern-ad-tech-career/"
+      "source_id": "uoft-central-events",
+      "url": "https://entrepreneurs.utoronto.ca/event/ai-funding-for-2027-canada-us/"
     }
   ],
-  "start": "2026-11-24T19:00:00-05:00",
-  "status": "scheduled",
-  "summary": "Info session by McMaster University central events (news.mcmaster.ca, Events Manager).",
+  "start": "2026-11-25T00:00:00-05:00",
+  "status": "past",
+  "summary": "Event by U of T central events aggregator.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Inside the Ad Auction: The Modern Ad Tech Career",
+  "title": "AI Funding for 2027: Canada & US",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "info_session"
+  "type": "other"
 }

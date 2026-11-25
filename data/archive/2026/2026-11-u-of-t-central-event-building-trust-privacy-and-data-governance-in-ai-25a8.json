@@ -9,10 +9,10 @@
     "unknown"
   ],
   "end": null,
-  "first_seen": "2026-11-19T20:37:36.980046Z",
+  "first_seen": "2026-11-20T07:16:32.788960Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-u-of-t-central-event-ai-funding-for-2027-canada-us-7259",
+  "id": "2026-11-u-of-t-central-event-building-trust-privacy-and-data-governance-in-ai-25a8",
   "last_seen": "2026-11-24T09:54:46.540767Z",
   "last_verified": "2026-11-24T09:54:46.540767Z",
   "location": {
@@ -21,7 +21,7 @@
     "region": null,
     "venue_name": null
   },
-  "mode": "unknown",
+  "mode": "in_person",
   "near_schools": [],
   "obtained_via": [
     "html"
@@ -29,7 +29,7 @@
   "organizer": "U of T central events aggregator",
   "registration": {
     "route": "public_link",
-    "url": "https://entrepreneurs.utoronto.ca/event/ai-funding-for-2027-canada-us/"
+    "url": "https://entrepreneurs.utoronto.ca/event/building-trust-privacy-and-data-governance-in-ai/"
   },
   "review": null,
   "roles": [
@@ -51,15 +51,15 @@
       "adapter": "html",
       "fetched_at": "2026-11-24T09:54:46.540767Z",
       "source_id": "uoft-central-events",
-      "url": "https://entrepreneurs.utoronto.ca/event/ai-funding-for-2027-canada-us/"
+      "url": "https://entrepreneurs.utoronto.ca/event/building-trust-privacy-and-data-governance-in-ai/"
     }
   ],
   "start": "2026-11-25T00:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Event by U of T central events aggregator.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "AI Funding for 2027: Canada & US",
+  "title": "Building Trust: Privacy and Data Governance in AI",
   "travel_support": {
     "note": null,
     "stated": false

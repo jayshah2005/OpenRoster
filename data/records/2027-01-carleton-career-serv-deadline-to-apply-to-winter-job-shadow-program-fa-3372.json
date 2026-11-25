@@ -8,22 +8,22 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-24T19:30:00-05:00",
-  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "end": "2027-01-29T17:00:00-05:00",
+  "first_seen": "2026-11-25T21:42:14.399442Z",
   "geo": {
     "lat": 45.41117,
     "lon": -75.69812,
     "source": "gazetteer"
   },
   "history": [],
-  "id": "2026-11-carleton-career-serv-careers-at-rbc-3462",
-  "last_seen": "2026-11-24T09:54:46.540767Z",
-  "last_verified": "2026-11-24T09:54:46.540767Z",
+  "id": "2027-01-carleton-career-serv-deadline-to-apply-to-winter-job-shadow-program-fa-3372",
+  "last_seen": "2026-11-25T21:42:14.399442Z",
+  "last_verified": "2026-11-25T21:42:14.399442Z",
   "location": {
     "city": "Ottawa",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "MC"
+    "venue_name": "False"
   },
   "mode": "unknown",
   "near_schools": [
@@ -50,7 +50,7 @@
   "organizer": "Carleton Career Services events (WordPress REST)",
   "registration": {
     "route": "school_portal_login",
-    "url": "https://carleton.ca/career/event/rbc-panel-discussion-on-career-journeys/"
+    "url": "https://carleton.ca/career/event/deadline-to-apply-to-winter-job-shadow-program-science/"
   },
   "review": null,
   "roles": [
@@ -70,20 +70,20 @@
   "sources": [
     {
       "adapter": "api",
-      "fetched_at": "2026-11-24T09:54:46.540767Z",
+      "fetched_at": "2026-11-25T21:42:14.399442Z",
       "source_id": "carleton-career-events-api",
-      "url": "https://carleton.ca/career/event/rbc-panel-discussion-on-career-journeys/"
+      "url": "https://carleton.ca/career/event/deadline-to-apply-to-winter-job-shadow-program-science/"
     }
   ],
-  "start": "2026-11-24T18:00:00-05:00",
+  "start": "2027-01-29T08:00:00-05:00",
   "status": "scheduled",
-  "summary": "Info session by Carleton Career Services events (WordPress REST) in Ottawa.",
+  "summary": "Event by Carleton Career Services events (WordPress REST) in Ottawa.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Careers at RBC Info Session",
+  "title": "Deadline to Apply to Winter Job Shadow Program (FASS, FPGA & Science)",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "info_session"
+  "type": "other"
 }

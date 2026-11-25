@@ -1,7 +1,5 @@
 {
-  "flagged_missing": [
-    "2026-12-cheriton-school-of-c-master-s-thesis-presentation-human-computer-inter-3786"
-  ],
+  "flagged_missing": [],
   "items": [
     {
       "evidence": " Sheridan College's largest hackathon this year, bringing students from across the GTA to come and build meaningful software together. BearHacks 2026 Sheridan College's largest hackathon this year, bringing students from across the GTA to come and build meaningful software together. Sheridan College",
@@ -212,7 +210,7 @@
       "url": "https://onhacks.ca"
     },
     {
-      "evidence": "QHacks 2027 QHacks 2027, Queen's University's annual hackathon.",
+      "evidence": " The official QHacks website.",
       "key": "hackathon:qhacks|hackathon:qhacks",
       "reasons": [
         "no event date found with confidence (site may be JS-only or not updated)",
@@ -344,12 +342,6 @@
       "url": "https://www.winhacks.ca"
     }
   ],
-  "possible_duplicates": [
-    {
-      "existing": "2026-12-mcmaster-university-data-governance-in-the-age-of-ai-20d3",
-      "new": "2026-12-u-of-t-central-event-the-art-of-intercultural-education-dr-cindy-lmp-m-31bb",
-      "score": 83.6
-    }
-  ],
+  "possible_duplicates": [],
   "role_calls": []
 }
