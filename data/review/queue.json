@@ -1,5 +1,7 @@
 {
-  "flagged_missing": [],
+  "flagged_missing": [
+    "2026-12-cheriton-school-of-c-master-s-thesis-presentation-human-computer-inter-3786"
+  ],
   "items": [
     {
       "evidence": " Sheridan College's largest hackathon this year, bringing students from across the GTA to come and build meaningful software together. BearHacks 2026 Sheridan College's largest hackathon this year, bringing students from across the GTA to come and build meaningful software together. Sheridan College",
@@ -188,7 +190,7 @@
       "url": "https://makeuoft.ca"
     },
     {
-      "evidence": "Facebook Instagram X HOME NEWS FEATURES SPORTS ARTS OPINION VIDEOS Search Tuesday, November 24, 2026 Facebook Instagram X Brock's Only Independent Student Newspaper One of the only worker-managed newspapers in Canada Search NEWS FEATURES SPORTS ARTS OPINION PODCAST MORE ABOUT Beginner’s Guide ARCHIV",
+      "evidence": "Facebook Instagram X HOME NEWS FEATURES SPORTS ARTS OPINION VIDEOS Search Wednesday, November 25, 2026 Facebook Instagram X Brock's Only Independent Student Newspaper One of the only worker-managed newspapers in Canada Search NEWS FEATURES SPORTS ARTS OPINION PODCAST MORE ABOUT Beginner’s Guide ARCH",
       "key": "hackathon:mother-of-all-game-jams|hackathon:mother-of-all-game-jams",
       "reasons": [
         "no event date found with confidence (site may be JS-only or not updated)",
@@ -342,6 +344,12 @@
       "url": "https://www.winhacks.ca"
     }
   ],
-  "possible_duplicates": [],
+  "possible_duplicates": [
+    {
+      "existing": "2026-12-mcmaster-university-data-governance-in-the-age-of-ai-20d3",
+      "new": "2026-12-u-of-t-central-event-the-art-of-intercultural-education-dr-cindy-lmp-m-31bb",
+      "score": 83.6
+    }
+  ],
   "role_calls": []
 }

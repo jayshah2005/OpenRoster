@@ -156,7 +156,7 @@
     }
   ],
   "start": "2026-11-24T18:00:00Z",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Conference by Toronto Tech Week (Luma iCal) in Toronto.",
   "tags": [],
   "timezone": "America/Toronto",

@@ -182,8 +182,8 @@
     }
   ],
   "id": "2026-11-university-of-guelph-fvc-casper-and-interview-achievers-talk-a4a0",
-  "last_seen": "2026-11-24T09:54:46.540767Z",
-  "last_verified": "2026-11-24T09:54:46.540767Z",
+  "last_seen": "2026-11-25T08:34:54.511301Z",
+  "last_verified": "2026-11-25T08:34:54.511301Z",
   "location": {
     "city": null,
     "country": null,
@@ -236,7 +236,7 @@
     },
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-24T09:54:46.540767Z",
+      "fetched_at": "2026-11-25T08:34:54.511301Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=380225"
     }

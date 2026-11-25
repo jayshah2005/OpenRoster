@@ -69,7 +69,7 @@
     }
   ],
   "start": "2026-11-24T13:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Online info session by Career Education.",
   "tags": [
     "year_inferred"

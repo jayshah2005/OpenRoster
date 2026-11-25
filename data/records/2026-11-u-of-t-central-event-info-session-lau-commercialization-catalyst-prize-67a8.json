@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-11-u-of-t-central-event-info-session-lau-commercialization-catalyst-prize-67a8",
-  "last_seen": "2026-11-24T09:54:46.540767Z",
-  "last_verified": "2026-11-24T09:54:46.540767Z",
+  "last_seen": "2026-11-25T08:34:54.511301Z",
+  "last_verified": "2026-11-25T08:34:54.511301Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,9 +49,15 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-11-24T09:54:46.540767Z",
+      "fetched_at": "2026-11-25T08:34:54.511301Z",
       "source_id": "uoft-central-events",
       "url": "https://www.entrepreneurship.artsci.utoronto.ca/events/info-session-lau-commercialization-catalyst-prize-computing-and-engineering-innovation-0"
+    },
+    {
+      "adapter": "html",
+      "fetched_at": "2026-11-25T08:34:54.511301Z",
+      "source_id": "uoft-central-events",
+      "url": "https://entrepreneurs.utoronto.ca/event/info-session-lau-commercialization-catalyst-prize-for-computing-and-engineering-innovation/"
     }
   ],
   "start": "2026-11-26T00:00:00-05:00",

@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2026-12-mcmaster-university-data-governance-in-the-age-of-ai-20d3",
-  "last_seen": "2026-11-24T09:54:46.540767Z",
-  "last_verified": "2026-11-24T09:54:46.540767Z",
+  "last_seen": "2026-11-25T08:34:54.511301Z",
+  "last_verified": "2026-11-25T08:34:54.511301Z",
   "location": {
     "city": null,
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-24T09:54:46.540767Z",
+      "fetched_at": "2026-11-25T08:34:54.511301Z",
       "source_id": "mcmaster-news-events-ics",
       "url": "https://news.mcmaster.ca/events/2026-data-governance-in-the-age-of-ai/"
     }
