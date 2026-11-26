@@ -132,7 +132,7 @@
     }
   ],
   "start": "2026-11-25T16:00:00Z",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Event by Waterloo Tech (+adjacent) Events (Luma iCal) in Kitchener.",
   "tags": [],
   "timezone": "America/Toronto",

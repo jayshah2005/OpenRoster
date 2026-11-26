@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2027-02-brock-library-chemical-structures-as-search-terms-searching-chem-8c47",
-  "last_seen": "2026-11-25T21:42:14.399442Z",
-  "last_verified": "2026-11-25T21:42:14.399442Z",
+  "last_seen": "2026-11-26T08:18:19.306833Z",
+  "last_verified": "2026-11-26T08:18:19.306833Z",
   "location": {
     "city": "St. Catharines",
     "country": "CA",
@@ -134,7 +134,7 @@
   "sources": [
     {
       "adapter": "rss",
-      "fetched_at": "2026-11-25T21:42:14.399442Z",
+      "fetched_at": "2026-11-26T08:18:19.306833Z",
       "source_id": "brock-experiencebu-rss",
       "url": "https://experiencebu.brocku.ca/event/338798"
     }

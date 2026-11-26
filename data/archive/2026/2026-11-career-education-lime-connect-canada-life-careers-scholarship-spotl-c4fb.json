@@ -6,31 +6,30 @@
     "note": null
   },
   "eligibility": [
-    "undergrad",
-    "grad"
+    "unknown"
   ],
-  "end": "2026-11-25T14:00:00-05:00",
-  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "end": "2026-11-25T13:00:00-05:00",
+  "first_seen": "2026-11-13T19:43:05.422860Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-bmo-kickstart-your-investments-9405",
+  "id": "2026-11-career-education-lime-connect-canada-life-careers-scholarship-spotl-c4fb",
   "last_seen": "2026-11-25T08:34:54.511301Z",
   "last_verified": "2026-11-25T08:34:54.511301Z",
   "location": {
     "city": null,
-    "country": null,
-    "region": null,
-    "venue_name": null
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Virtual Event"
   },
   "mode": "online",
   "near_schools": [],
   "obtained_via": [
-    "html"
+    "rss"
   ],
-  "organizer": "BMO",
+  "organizer": "Career Education",
   "registration": {
-    "route": "public_link",
-    "url": "https://jobs.bmo.com/ca/en/event/6a90a629acced97d63ac6c23/Kickstart-Your-Investments"
+    "route": "school_portal_login",
+    "url": "https://experiencebu.brocku.ca/event/337916"
   },
   "review": null,
   "roles": [
@@ -44,25 +43,23 @@
     }
   ],
   "schools": [
-    "open_to_all"
+    "brock"
   ],
   "series_id": null,
   "sources": [
     {
-      "adapter": "html",
+      "adapter": "rss",
       "fetched_at": "2026-11-25T08:34:54.511301Z",
-      "source_id": "bmo-virtual-workshops",
-      "url": "https://jobs.bmo.com/ca/en/event/6a90a629acced97d63ac6c23/Kickstart-Your-Investments"
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/337916"
     }
   ],
-  "start": "2026-11-25T13:00:00-05:00",
-  "status": "scheduled",
-  "summary": "Online info session by BMO for undergraduates and graduate students.",
-  "tags": [
-    "year_inferred"
-  ],
+  "start": "2026-11-25T12:00:00-05:00",
+  "status": "past",
+  "summary": "Online info session by Career Education.",
+  "tags": [],
   "timezone": "America/Toronto",
-  "title": "Kickstart your Investments",
+  "title": "Lime Connect & Canada Life Careers + Scholarship Spotlight",
   "travel_support": {
     "note": null,
     "stated": false

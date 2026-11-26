@@ -132,7 +132,7 @@
     }
   ],
   "start": "2026-11-25T13:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Event by Durham College events calendar in Oshawa.",
   "tags": [],
   "timezone": "America/Toronto",
