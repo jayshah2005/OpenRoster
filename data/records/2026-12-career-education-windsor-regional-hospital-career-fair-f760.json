@@ -1,0 +1,81 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-01T18:00:00-05:00",
+  "first_seen": "2026-11-26T21:32:12.522036Z",
+  "geo": {
+    "lat": 42.30008,
+    "lon": -83.01654,
+    "source": "gazetteer"
+  },
+  "history": [],
+  "id": "2026-12-career-education-windsor-regional-hospital-career-fair-f760",
+  "last_seen": "2026-11-26T21:32:12.522036Z",
+  "last_verified": "2026-11-26T21:32:12.522036Z",
+  "location": {
+    "city": "Windsor",
+    "country": "CA",
+    "region": "CA-ON",
+    "venue_name": "Caboto Club"
+  },
+  "mode": "in_person",
+  "near_schools": [
+    {
+      "km": 4.1,
+      "school_id": "uwindsor"
+    },
+    {
+      "km": 5.8,
+      "school_id": "stclair"
+    }
+  ],
+  "obtained_via": [
+    "rss"
+  ],
+  "organizer": "Career Education",
+  "registration": {
+    "route": "school_portal_login",
+    "url": "https://experiencebu.brocku.ca/event/338855"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "brock"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-11-26T21:32:12.522036Z",
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/338855"
+    }
+  ],
+  "start": "2026-12-01T12:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Career fair by Career Education in Windsor.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Windsor Regional Hospital Career Fair",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "career_fair"
+}

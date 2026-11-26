@@ -8,24 +8,24 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-25T19:00:00-05:00",
-  "first_seen": "2026-11-12T07:11:10.165163Z",
+  "end": "2027-01-21T14:00:00-05:00",
+  "first_seen": "2026-11-26T21:32:12.522036Z",
   "geo": {
     "lat": 43.17126,
     "lon": -79.24267,
     "source": "gazetteer"
   },
   "history": [],
-  "id": "2026-11-career-education-omnicom-media-student-experience-day-application-m-5302",
-  "last_seen": "2026-11-25T08:34:54.511301Z",
-  "last_verified": "2026-11-25T08:34:54.511301Z",
+  "id": "2027-01-career-education-experience-expo-resume-cv-review-drop-in-f741",
+  "last_seen": "2026-11-26T21:32:12.522036Z",
+  "last_verified": "2026-11-26T21:32:12.522036Z",
   "location": {
     "city": "St. Catharines",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "Online"
+    "venue_name": "BU4U Office"
   },
-  "mode": "hybrid",
+  "mode": "in_person",
   "near_schools": [
     {
       "km": 1.6,
@@ -114,7 +114,7 @@
   "organizer": "Career Education",
   "registration": {
     "route": "school_portal_login",
-    "url": "https://experiencebu.brocku.ca/event/337863"
+    "url": "https://experiencebu.brocku.ca/event/338894"
   },
   "review": null,
   "roles": [
@@ -134,17 +134,23 @@
   "sources": [
     {
       "adapter": "rss",
-      "fetched_at": "2026-11-25T08:34:54.511301Z",
+      "fetched_at": "2026-11-26T21:32:12.522036Z",
       "source_id": "brock-experiencebu-rss",
-      "url": "https://experiencebu.brocku.ca/event/337863"
+      "url": "https://experiencebu.brocku.ca/event/338894"
+    },
+    {
+      "adapter": "rss",
+      "fetched_at": "2026-11-26T21:32:12.522036Z",
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/338895"
     }
   ],
-  "start": "2026-11-25T16:00:00-05:00",
+  "start": "2027-01-21T10:00:00-05:00",
   "status": "scheduled",
-  "summary": "Hybrid workshop by Career Education in St. Catharines.",
+  "summary": "Workshop by Career Education in St. Catharines.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Omnicom Media - Student Experience Day (application must be received by Nov 19th)",
+  "title": "Experience Expo - Resume/CV Review Drop-in",
   "travel_support": {
     "note": null,
     "stated": false

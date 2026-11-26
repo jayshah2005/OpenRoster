@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": true,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": null,
+  "first_seen": "2026-11-26T21:32:12.522036Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-u-of-t-central-event-ecosystem-connects-ai-and-beyond-kick-off-to-the-f515",
+  "last_seen": "2026-11-26T21:32:12.522036Z",
+  "last_verified": "2026-11-26T21:32:12.522036Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "html"
+  ],
+  "organizer": "U of T central events aggregator",
+  "registration": {
+    "route": "public_link",
+    "url": "https://entrepreneurs.utoronto.ca/event/ecosystem-connects-ai-and-beyond-kick-off-to-the-tpl-ai-summit/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "html",
+      "fetched_at": "2026-11-26T21:32:12.522036Z",
+      "source_id": "uoft-central-events",
+      "url": "https://entrepreneurs.utoronto.ca/event/ecosystem-connects-ai-and-beyond-kick-off-to-the-tpl-ai-summit/"
+    }
+  ],
+  "start": "2026-11-27T00:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Conference by U of T central events aggregator.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Ecosystem Connects: AI and Beyond - Kick-off to the TPL AI Summit",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "conference"
+}

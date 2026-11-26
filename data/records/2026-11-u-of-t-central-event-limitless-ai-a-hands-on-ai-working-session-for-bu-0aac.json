@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": true,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": null,
+  "first_seen": "2026-11-26T21:32:12.522036Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-11-u-of-t-central-event-limitless-ai-a-hands-on-ai-working-session-for-bu-0aac",
+  "last_seen": "2026-11-26T21:32:12.522036Z",
+  "last_verified": "2026-11-26T21:32:12.522036Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": null
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "html"
+  ],
+  "organizer": "U of T central events aggregator",
+  "registration": {
+    "route": "public_link",
+    "url": "https://entrepreneurs.utoronto.ca/event/limitless-ai-a-hands-on-ai-working-session-for-business-leaders/"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "html",
+      "fetched_at": "2026-11-26T21:32:12.522036Z",
+      "source_id": "uoft-central-events",
+      "url": "https://entrepreneurs.utoronto.ca/event/limitless-ai-a-hands-on-ai-working-session-for-business-leaders/"
+    }
+  ],
+  "start": "2026-11-27T00:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Workshop by U of T central events aggregator.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "LIMITLESS AI: A Hands-On AI Working Session for Business Leaders",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "workshop"
+}

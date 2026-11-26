@@ -147,6 +147,18 @@
       "field": "start",
       "new": "2026-11-27T15:00:00+00:00",
       "old": "2026-11-27T00:00:00+00:00"
+    },
+    {
+      "at": "2026-11-26T21:32:12.522036Z",
+      "field": "start",
+      "new": "2026-11-27T00:00:00+00:00",
+      "old": "2026-11-27T15:00:00+00:00"
+    },
+    {
+      "at": "2026-11-26T21:32:12.522036Z",
+      "field": "start",
+      "new": "2026-11-27T15:00:00+00:00",
+      "old": "2026-11-27T00:00:00+00:00"
     }
   ],
   "id": "2026-11-university-of-guelph-tremaine-visiting-speaker-series-physics-colloqui-78a5",
@@ -268,6 +280,12 @@
       "fetched_at": "2026-11-26T08:18:19.306833Z",
       "source_id": "uoguelph-gryphlife-campusgroups-ics",
       "url": "https://uoguelph.campusgroups.com/rsvp?id=380906"
+    },
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-26T21:32:12.522036Z",
+      "source_id": "uoguelph-gryphlife-campusgroups-ics",
+      "url": "https://uoguelph.campusgroups.com/rsvp?id=381196"
     }
   ],
   "start": "2026-11-27T15:00:00Z",

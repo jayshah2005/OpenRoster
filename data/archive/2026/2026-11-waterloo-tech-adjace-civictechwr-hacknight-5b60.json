@@ -1,6 +1,6 @@
 {
   "ai_suggested": [],
-  "all_day": true,
+  "all_day": false,
   "cost": {
     "kind": "unknown",
     "note": null
@@ -8,28 +8,28 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-25T23:59:00-05:00",
-  "first_seen": "2026-11-03T00:58:30.695200Z",
+  "end": "2026-11-26T01:00:00Z",
+  "first_seen": "2026-10-24T16:53:41.410358Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-waterloo-women-in-co-build-a-light-up-keychain-a162",
+  "id": "2026-11-waterloo-tech-adjace-civictechwr-hacknight-5b60",
   "last_seen": "2026-11-25T08:34:54.511301Z",
   "last_verified": "2026-11-25T08:34:54.511301Z",
   "location": {
     "city": null,
     "country": null,
     "region": null,
-    "venue_name": null
+    "venue_name": "https://luma.com/event/evt-U9iSkJtV995Ufk0"
   },
   "mode": "unknown",
   "near_schools": [],
   "obtained_via": [
     "ics"
   ],
-  "organizer": "Waterloo Women in Computer Science events (iCal)",
+  "organizer": "Waterloo Tech (+adjacent) Events (Luma iCal)",
   "registration": {
     "route": "public_link",
-    "url": "https://uwaterloo.ca/women-in-computer-science/events/build-light-keychain"
+    "url": "https://luma.com/1b6nuekm"
   },
   "review": null,
   "roles": [
@@ -45,26 +45,24 @@
   "schools": [
     "open_to_all"
   ],
-  "series_id": "uwaterloo-wics-events-ics:cef9973931aa",
+  "series_id": "luma-waterloo-tech-adjacent-events:c544b13b0007",
   "sources": [
     {
       "adapter": "ics",
       "fetched_at": "2026-11-25T08:34:54.511301Z",
-      "source_id": "uwaterloo-wics-events-ics",
-      "url": "https://uwaterloo.ca/women-in-computer-science/events/build-light-keychain"
+      "source_id": "luma-waterloo-tech-adjacent-events",
+      "url": "https://luma.com/1b6nuekm"
     }
   ],
-  "start": "2026-11-25T00:00:00-05:00",
-  "status": "scheduled",
-  "summary": "Workshop by Waterloo Women in Computer Science events (iCal). Beginners welcome.",
-  "tags": [
-    "beginner_friendly"
-  ],
+  "start": "2026-11-25T23:00:00Z",
+  "status": "past",
+  "summary": "Hackathon by Waterloo Tech (+adjacent) Events (Luma iCal).",
+  "tags": [],
   "timezone": "America/Toronto",
-  "title": "Build a Light-Up Keychain",
+  "title": "CivicTechWR Hacknight",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "workshop"
+  "type": "hackathon"
 }

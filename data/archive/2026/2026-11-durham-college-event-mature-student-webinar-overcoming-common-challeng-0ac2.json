@@ -55,7 +55,7 @@
     }
   ],
   "start": "2026-11-25T18:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Free online workshop by Durham College events calendar.",
   "tags": [],
   "timezone": "America/Toronto",
