@@ -306,7 +306,7 @@ hackathons:
   region: CA-ON
   country: CA
   usual_month: January
-  reviewed: false
+  reviewed: true
   enabled: false
   notes: 'hackhive.ca returned 404 on 2026-10-23. Event page: https://events.ontariotechu.ca/2026/01/ontario-tech-university-hackathon-2026-hackhive.php (2026 edition Jan 23-25).'
 - id: hacktrent
