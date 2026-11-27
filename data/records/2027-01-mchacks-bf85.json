@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2027-01-mchacks-bf85",
-  "last_seen": "2026-11-26T08:18:19.306833Z",
-  "last_verified": "2026-11-26T08:18:19.306833Z",
+  "last_seen": "2026-11-27T08:34:34.824610Z",
+  "last_verified": "2026-11-27T08:34:34.824610Z",
   "location": {
     "city": "Montreal",
     "country": "CA",
@@ -57,7 +57,7 @@
   "sources": [
     {
       "adapter": "hackathon_site",
-      "fetched_at": "2026-11-26T08:18:19.306833Z",
+      "fetched_at": "2026-11-27T08:34:34.824610Z",
       "source_id": "hackathon:mchacks",
       "url": "https://mchacks.ca"
     }

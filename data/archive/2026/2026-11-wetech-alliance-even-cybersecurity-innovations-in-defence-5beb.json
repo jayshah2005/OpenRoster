@@ -59,7 +59,7 @@
     }
   ],
   "start": "2026-11-26T09:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Free hybrid tech talk by WEtech Alliance events (Windsor-Essex) in Mission.",
   "tags": [],
   "timezone": "America/Detroit",

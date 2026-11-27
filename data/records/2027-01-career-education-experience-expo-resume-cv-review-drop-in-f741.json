@@ -8,22 +8,29 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2027-01-21T14:00:00-05:00",
+  "end": "2027-01-22T14:00:00-05:00",
   "first_seen": "2026-11-26T21:32:12.522036Z",
   "geo": {
     "lat": 43.17126,
     "lon": -79.24267,
     "source": "gazetteer"
   },
-  "history": [],
+  "history": [
+    {
+      "at": "2026-11-27T08:34:34.824610Z",
+      "field": "start",
+      "new": "2027-01-22T10:00:00-05:00",
+      "old": "2027-01-21T10:00:00-05:00"
+    }
+  ],
   "id": "2027-01-career-education-experience-expo-resume-cv-review-drop-in-f741",
-  "last_seen": "2026-11-26T21:32:12.522036Z",
-  "last_verified": "2026-11-26T21:32:12.522036Z",
+  "last_seen": "2026-11-27T08:34:34.824610Z",
+  "last_verified": "2026-11-27T08:34:34.824610Z",
   "location": {
     "city": "St. Catharines",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "BU4U Office"
+    "venue_name": "BU4U office"
   },
   "mode": "in_person",
   "near_schools": [
@@ -114,7 +121,7 @@
   "organizer": "Career Education",
   "registration": {
     "route": "school_portal_login",
-    "url": "https://experiencebu.brocku.ca/event/338894"
+    "url": "https://experiencebu.brocku.ca/event/338895"
   },
   "review": null,
   "roles": [
@@ -134,19 +141,19 @@
   "sources": [
     {
       "adapter": "rss",
-      "fetched_at": "2026-11-26T21:32:12.522036Z",
+      "fetched_at": "2026-11-27T08:34:34.824610Z",
       "source_id": "brock-experiencebu-rss",
       "url": "https://experiencebu.brocku.ca/event/338894"
     },
     {
       "adapter": "rss",
-      "fetched_at": "2026-11-26T21:32:12.522036Z",
+      "fetched_at": "2026-11-27T08:34:34.824610Z",
       "source_id": "brock-experiencebu-rss",
       "url": "https://experiencebu.brocku.ca/event/338895"
     }
   ],
-  "start": "2027-01-21T10:00:00-05:00",
-  "status": "scheduled",
+  "start": "2027-01-22T10:00:00-05:00",
+  "status": "moved",
   "summary": "Workshop by Career Education in St. Catharines.",
   "tags": [],
   "timezone": "America/Toronto",

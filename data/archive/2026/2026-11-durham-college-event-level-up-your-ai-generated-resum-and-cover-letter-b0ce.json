@@ -136,7 +136,7 @@
     }
   ],
   "start": "2026-11-26T11:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Workshop by Durham College events calendar in Whitby.",
   "tags": [],
   "timezone": "America/Toronto",

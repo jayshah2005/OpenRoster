@@ -55,7 +55,7 @@
     }
   ],
   "start": "2026-11-26T12:00:00-05:00",
-  "status": "scheduled",
+  "status": "past",
   "summary": "Free online info session by Career Education.",
   "tags": [],
   "timezone": "America/Toronto",

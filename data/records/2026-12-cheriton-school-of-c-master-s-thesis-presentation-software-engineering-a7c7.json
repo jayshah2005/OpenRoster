@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-12-cheriton-school-of-c-master-s-thesis-presentation-software-engineering-a7c7",
-  "last_seen": "2026-11-26T08:18:19.306833Z",
-  "last_verified": "2026-11-26T08:18:19.306833Z",
+  "last_seen": "2026-11-27T08:34:34.824610Z",
+  "last_verified": "2026-11-27T08:34:34.824610Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
@@ -126,7 +126,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-26T08:18:19.306833Z",
+      "fetched_at": "2026-11-27T08:34:34.824610Z",
       "source_id": "uwaterloo-cs-events-ics",
       "url": "https://uwaterloo.ca/computer-science/events/masters-thesis-presentation-se-functional-and-secure-code-generation-with-task-vectors"
     }

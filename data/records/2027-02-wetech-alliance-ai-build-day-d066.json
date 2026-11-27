@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2027-02-wetech-alliance-ai-build-day-d066",
-  "last_seen": "2026-11-26T21:32:12.522036Z",
-  "last_verified": "2026-11-26T21:32:12.522036Z",
+  "last_seen": "2026-11-27T08:34:34.824610Z",
+  "last_verified": "2026-11-27T08:34:34.824610Z",
   "location": {
     "city": "Windsor,",
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "tribe",
-      "fetched_at": "2026-11-26T21:32:12.522036Z",
+      "fetched_at": "2026-11-27T08:34:34.824610Z",
       "source_id": "wetech-alliance-events",
       "url": "https://www.wetech-alliance.com/event/ai-build-day/"
     }

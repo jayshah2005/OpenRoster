@@ -21,8 +21,8 @@
     }
   ],
   "id": "2027-02-bmo-ai-at-bmo-learn-today-lead-tomorrow-eeb1",
-  "last_seen": "2026-11-26T08:18:19.306833Z",
-  "last_verified": "2026-11-26T08:18:19.306833Z",
+  "last_seen": "2026-11-27T08:34:34.824610Z",
+  "last_verified": "2026-11-27T08:34:34.824610Z",
   "location": {
     "city": null,
     "country": "CA",
@@ -64,19 +64,19 @@
     },
     {
       "adapter": "rss",
-      "fetched_at": "2026-11-26T08:18:19.306833Z",
+      "fetched_at": "2026-11-27T08:34:34.824610Z",
       "source_id": "brock-experiencebu-rss",
       "url": "https://experiencebu.brocku.ca/event/338581"
     },
     {
       "adapter": "rss",
-      "fetched_at": "2026-11-26T08:18:19.306833Z",
+      "fetched_at": "2026-11-27T08:34:34.824610Z",
       "source_id": "brock-experiencebu-rss",
       "url": "https://experiencebu.brocku.ca/event/338582"
     },
     {
       "adapter": "html",
-      "fetched_at": "2026-11-26T08:18:19.306833Z",
+      "fetched_at": "2026-11-27T08:34:34.824610Z",
       "source_id": "bmo-virtual-workshops",
       "url": "https://jobs.bmo.com/ca/en/event/6afb73a98d59321a470e119d/AI-at-BMO-Learn-Today-Lead-Tomorrow"
     }

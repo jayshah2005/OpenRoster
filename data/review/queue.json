@@ -188,7 +188,7 @@
       "url": "https://makeuoft.ca"
     },
     {
-      "evidence": "Facebook Instagram X HOME NEWS FEATURES SPORTS ARTS OPINION VIDEOS Search Thursday, November 26, 2026 Facebook Instagram X Brock's Only Independent Student Newspaper One of the only worker-managed newspapers in Canada Search NEWS FEATURES SPORTS ARTS OPINION PODCAST MORE ABOUT Beginner’s Guide ARCHI",
+      "evidence": "Facebook Instagram X HOME NEWS FEATURES SPORTS ARTS OPINION VIDEOS Search Friday, November 27, 2026 Facebook Instagram X Brock's Only Independent Student Newspaper One of the only worker-managed newspapers in Canada Search NEWS FEATURES SPORTS ARTS OPINION PODCAST MORE ABOUT Beginner’s Guide ARCHIVE",
       "key": "hackathon:mother-of-all-game-jams|hackathon:mother-of-all-game-jams",
       "reasons": [
         "no event date found with confidence (site may be JS-only or not updated)",
@@ -241,16 +241,6 @@
       "source_id": "hackathon:seneca-annual-hackathons-school-of-it-administration-securit",
       "title": "Seneca annual hackathons (School of IT Administration & Security)",
       "url": "https://students.senecapolytechnic.ca/spaces/14/school-of-information-technology-administration-security/wiki/view/7685/annual-hackathons"
-    },
-    {
-      "evidence": "",
-      "key": "hackathon:sheridan-adobe-design-hackathon|https://www.sheridancollege.ca/events/2026/02/hackathon|nodate|sheridan / adobe design hackathon",
-      "reasons": [
-        "site could not be fetched: https://www.sheridancollege.ca/events/2026/02/hackathon: network error: The read operation timed out"
-      ],
-      "source_id": "hackathon:sheridan-adobe-design-hackathon",
-      "title": "Sheridan / Adobe Design Hackathon",
-      "url": "https://www.sheridancollege.ca/events/2026/02/hackathon"
     },
     {
       "evidence": "Skip to content Skip to main navigation Skip to search Welcome to Brock University Information for Future students Current students International Co-op Professional and Continuing Studies Community partners Alumni and donors Academics Faculties & Departments Graduate Studies and Postdocs Teaching & ",

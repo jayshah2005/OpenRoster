@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-18T00:00:00Z",
+  "first_seen": "2026-11-27T08:34:34.824610Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-12-torontoai-luma-ical-how-to-land-an-ai-engineer-job-in-2027-free-live-w-4d11",
+  "last_seen": "2026-11-27T08:34:34.824610Z",
+  "last_verified": "2026-11-27T08:34:34.824610Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "https://luma.com/event/evt-A8ensMu1aNw2nvI"
+  },
+  "mode": "unknown",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "TorontoAI (Luma iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://luma.com/uph4ph5f"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "luma-torontoai:ca0c3358c258",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-27T08:34:34.824610Z",
+      "source_id": "luma-torontoai",
+      "url": "https://luma.com/uph4ph5f"
+    }
+  ],
+  "start": "2026-12-17T23:00:00Z",
+  "status": "scheduled",
+  "summary": "Free event by TorontoAI (Luma iCal).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "How to Land an AI Engineer Job in 2027: Free Live Walkthrough",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

@@ -39,11 +39,29 @@
       "field": "start",
       "new": "2027-01-12T14:00:00-05:00",
       "old": "2027-01-13T11:00:00-05:00"
+    },
+    {
+      "at": "2026-11-27T08:34:34.824610Z",
+      "field": "start",
+      "new": "2027-01-13T11:00:00-05:00",
+      "old": "2027-01-12T14:00:00-05:00"
+    },
+    {
+      "at": "2026-11-27T08:34:34.824610Z",
+      "field": "status",
+      "new": "cancelled",
+      "old": "moved"
+    },
+    {
+      "at": "2026-11-27T08:34:34.824610Z",
+      "field": "start",
+      "new": "2027-01-12T14:00:00-05:00",
+      "old": "2027-01-13T11:00:00-05:00"
     }
   ],
   "id": "2027-01-career-education-experience-expo-prep-sessions-ad62",
-  "last_seen": "2026-11-26T08:18:19.306833Z",
-  "last_verified": "2026-11-26T08:18:19.306833Z",
+  "last_seen": "2026-11-27T08:34:34.824610Z",
+  "last_verified": "2026-11-27T08:34:34.824610Z",
   "location": {
     "city": "St. Catharines",
     "country": "CA",
@@ -159,13 +177,13 @@
   "sources": [
     {
       "adapter": "rss",
-      "fetched_at": "2026-11-26T08:18:19.306833Z",
+      "fetched_at": "2026-11-27T08:34:34.824610Z",
       "source_id": "brock-experiencebu-rss",
       "url": "https://experiencebu.brocku.ca/event/338800"
     },
     {
       "adapter": "rss",
-      "fetched_at": "2026-11-26T08:18:19.306833Z",
+      "fetched_at": "2026-11-27T08:34:34.824610Z",
       "source_id": "brock-experiencebu-rss",
       "url": "https://experiencebu.brocku.ca/event/338799"
     }

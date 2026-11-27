@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2026-12-cheriton-school-of-c-phd-defence-bioinformatics-machine-learning-repre-f47b",
-  "last_seen": "2026-11-26T08:18:19.306833Z",
-  "last_verified": "2026-11-26T08:18:19.306833Z",
+  "last_seen": "2026-11-27T08:34:34.824610Z",
+  "last_verified": "2026-11-27T08:34:34.824610Z",
   "location": {
     "city": "Waterloo",
     "country": "CA",
@@ -126,7 +126,7 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-26T08:18:19.306833Z",
+      "fetched_at": "2026-11-27T08:34:34.824610Z",
       "source_id": "uwaterloo-cs-events-ics",
       "url": "https://uwaterloo.ca/computer-science/events/phd-defence-bioinformatics-ml-representations-of-dna-sequences-from-species-identification-to-environmental-adaptation"
     }
