@@ -1,6 +1,6 @@
 {
-  "checked": "2026-11-25T19:35:23.722253+00:00",
-  "dated_items_in_html": 17,
+  "checked": "2026-11-27T19:11:09.914329+00:00",
+  "dated_items_in_html": 16,
   "feeds": [],
   "http_status": 200,
   "jsonld_events": 12,
@@ -15,7 +15,7 @@
   "terms_forbid_automated": false,
   "terms_forbid_republish": false,
   "terms_quotes": [],
-  "terms_url": "https://innovationfactory.ca/terms-and-conditions/",
+  "terms_url": "https://innovationfactory.ca/events/legal-ip-mentorship-office-hours-with-robinson-banwatt-law/",
   "url": "https://www.innovationfactory.ca/events/",
   "verdict": "allowed"
 }

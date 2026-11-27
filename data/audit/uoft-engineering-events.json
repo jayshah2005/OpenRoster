@@ -1,6 +1,6 @@
 {
-  "checked": "2026-11-25T19:35:09.245969+00:00",
-  "dated_items_in_html": 16,
+  "checked": "2026-11-27T19:10:55.489241+00:00",
+  "dated_items_in_html": 13,
   "feeds": [],
   "http_status": 200,
   "jsonld_events": 0,
@@ -8,14 +8,14 @@
   "login_wall": false,
   "platform": "html",
   "reasons": [
-    "terms page not readable: https://www.engineering.utoronto.ca/wp-json/tribe/events/v1/\\\"https:\\/\\/ilead.engineering.utoronto.ca\\/scholarships-awards\\/clarke-prize\\/\\\": HTTP 404"
+    "terms page not readable: https://www.engineering.utoronto.ca/wp-json/tribe/events/v1/\\\"https:\\/\\/chem-eng.utoronto.ca\\/faculty-staff\\/faculty-members\\/frank-gu\\/\\\": HTTP 404"
   ],
   "robots": "allowed",
   "sitemaps": [],
   "terms_forbid_automated": null,
   "terms_forbid_republish": null,
   "terms_quotes": [],
-  "terms_url": "https://www.engineering.utoronto.ca/wp-json/tribe/events/v1/\\\"https:\\/\\/ilead.engineering.utoronto.ca\\/scholarships-awards\\/clarke-prize\\/\\\"",
+  "terms_url": "https://www.engineering.utoronto.ca/wp-json/tribe/events/v1/\\\"https:\\/\\/chem-eng.utoronto.ca\\/faculty-staff\\/faculty-members\\/frank-gu\\/\\\"",
   "url": "https://www.engineering.utoronto.ca/wp-json/tribe/events/v1/events",
   "verdict": "allowed"
 }
