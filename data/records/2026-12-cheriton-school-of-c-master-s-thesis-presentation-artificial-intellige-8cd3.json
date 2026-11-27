@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "unknown"
+  ],
+  "end": "2026-12-14T11:00:00-05:00",
+  "first_seen": "2026-11-27T21:18:08.141019Z",
+  "geo": null,
+  "history": [],
+  "id": "2026-12-cheriton-school-of-c-master-s-thesis-presentation-artificial-intellige-8cd3",
+  "last_seen": "2026-11-27T21:18:08.141019Z",
+  "last_verified": "2026-11-27T21:18:08.141019Z",
+  "location": {
+    "city": null,
+    "country": null,
+    "region": null,
+    "venue_name": "DC - William G. Davis Computer Research Centre 200 University Avenue West Online master’s thesis presentation Waterloo O"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "ics"
+  ],
+  "organizer": "Cheriton School of Computer Science events (iCal)",
+  "registration": {
+    "route": "public_link",
+    "url": "https://uwaterloo.ca/computer-science/events/masters-thesis-presentation-ai-ml-capid-context-aware-pii-detection-for-question-answering-systems"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": "uwaterloo-cs-events-ics:73ef0a8557bf",
+  "sources": [
+    {
+      "adapter": "ics",
+      "fetched_at": "2026-11-27T21:18:08.141019Z",
+      "source_id": "uwaterloo-cs-events-ics",
+      "url": "https://uwaterloo.ca/computer-science/events/masters-thesis-presentation-ai-ml-capid-context-aware-pii-detection-for-question-answering-systems"
+    }
+  ],
+  "start": "2026-12-14T10:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Online event by Cheriton School of Computer Science events (iCal).",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Master’s Thesis Presentation • Artificial Intelligence | Machine Learning • CAPID: Context-Aware PII Detection for Question-Answering Systems",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "other"
+}

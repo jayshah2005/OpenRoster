@@ -8,22 +8,22 @@
   "eligibility": [
     "unknown"
   ],
-  "end": "2026-11-27T00:30:00Z",
-  "first_seen": "2026-10-24T16:53:41.410358Z",
+  "end": "2027-01-28T21:30:00-05:00",
+  "first_seen": "2026-11-27T21:18:08.141019Z",
   "geo": {
     "lat": 45.41117,
     "lon": -75.69812,
     "source": "gazetteer"
   },
   "history": [],
-  "id": "2026-11-ottawa-tech-thursday-future-proofing-your-career-in-the-ai-era-skills-2fca",
-  "last_seen": "2026-11-26T08:18:19.306833Z",
-  "last_verified": "2026-11-26T08:18:19.306833Z",
+  "id": "2027-01-carleton-career-serv-design-build-career-expo-e8a7",
+  "last_seen": "2026-11-27T21:18:08.141019Z",
+  "last_verified": "2026-11-27T21:18:08.141019Z",
   "location": {
     "city": "Ottawa",
     "country": "CA",
     "region": "CA-ON",
-    "venue_name": "160 Elgin St, Ottawa, ON K2P 2P7, Canada"
+    "venue_name": "False"
   },
   "mode": "unknown",
   "near_schools": [
@@ -45,12 +45,12 @@
     }
   ],
   "obtained_via": [
-    "ics"
+    "api"
   ],
-  "organizer": "Ottawa Tech Thursday (Luma iCal)",
+  "organizer": "Carleton Career Services events (WordPress REST)",
   "registration": {
-    "route": "public_link",
-    "url": "https://luma.com/1v8xjn4t"
+    "route": "school_portal_login",
+    "url": "https://carleton.ca/career/event/design-build-career-expo-2/"
   },
   "review": null,
   "roles": [
@@ -64,26 +64,26 @@
     }
   ],
   "schools": [
-    "open_to_all"
+    "carleton"
   ],
-  "series_id": "luma-ottawa-tech-thursday:3a11963b3d09",
+  "series_id": null,
   "sources": [
     {
-      "adapter": "ics",
-      "fetched_at": "2026-11-26T08:18:19.306833Z",
-      "source_id": "luma-ottawa-tech-thursday",
-      "url": "https://luma.com/1v8xjn4t"
+      "adapter": "api",
+      "fetched_at": "2026-11-27T21:18:08.141019Z",
+      "source_id": "carleton-career-events-api",
+      "url": "https://carleton.ca/career/event/design-build-career-expo-2/"
     }
   ],
-  "start": "2026-11-26T21:30:00Z",
+  "start": "2027-01-28T15:30:00-05:00",
   "status": "scheduled",
-  "summary": "Event by Ottawa Tech Thursday (Luma iCal) in Ottawa.",
+  "summary": "Career fair by Carleton Career Services events (WordPress REST) in Ottawa.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Future-proofing Your Career in the AI Era: Skills, Tech, and Leadership in Transition",
+  "title": "Design & Build Career Expo",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "other"
+  "type": "career_fair"
 }

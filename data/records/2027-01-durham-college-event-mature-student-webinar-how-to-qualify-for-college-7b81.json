@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "free",
+    "note": null
+  },
+  "eligibility": [
+    "undergrad"
+  ],
+  "end": "2027-01-13T19:00:00-05:00",
+  "first_seen": "2026-11-27T21:18:08.141019Z",
+  "geo": null,
+  "history": [],
+  "id": "2027-01-durham-college-event-mature-student-webinar-how-to-qualify-for-college-7b81",
+  "last_seen": "2026-11-27T21:18:08.141019Z",
+  "last_verified": "2026-11-27T21:18:08.141019Z",
+  "location": {
+    "city": "Online",
+    "country": null,
+    "region": null,
+    "venue_name": "Online – webinar"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "Durham College events calendar",
+  "registration": {
+    "route": "public_link",
+    "url": "https://us06web.zoom.us/meeting/register/x3KyYQd2QpCz9Jbxtxu-JA"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-11-27T21:18:08.141019Z",
+      "source_id": "durham-events",
+      "url": "https://durhamcollege.ca/event/mature-student-webinar-how-to-qualify-for-college-as-a-mature-student-2"
+    }
+  ],
+  "start": "2027-01-13T18:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Free online info session by Durham College events calendar for undergraduates.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Mature Student Webinar: How to Qualify for College as a Mature Student",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

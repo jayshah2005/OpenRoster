@@ -1,0 +1,68 @@
+{
+  "ai_suggested": [],
+  "all_day": false,
+  "cost": {
+    "kind": "unknown",
+    "note": null
+  },
+  "eligibility": [
+    "undergrad"
+  ],
+  "end": "2027-01-26T19:00:00-05:00",
+  "first_seen": "2026-11-27T21:18:08.141019Z",
+  "geo": null,
+  "history": [],
+  "id": "2027-01-durham-college-event-military-connected-learner-information-webinar-bca5",
+  "last_seen": "2026-11-27T21:18:08.141019Z",
+  "last_verified": "2026-11-27T21:18:08.141019Z",
+  "location": {
+    "city": "Online",
+    "country": null,
+    "region": null,
+    "venue_name": "Online – webinar"
+  },
+  "mode": "online",
+  "near_schools": [],
+  "obtained_via": [
+    "tribe"
+  ],
+  "organizer": "Durham College events calendar",
+  "registration": {
+    "route": "public_link",
+    "url": "https://us06web.zoom.us/meeting/register/veTmpkPeRGyzuiegB4AHlw"
+  },
+  "review": null,
+  "roles": [
+    {
+      "closes": null,
+      "evidence": null,
+      "opens": null,
+      "role": "participant",
+      "status": "unknown",
+      "url": null
+    }
+  ],
+  "schools": [
+    "open_to_all"
+  ],
+  "series_id": null,
+  "sources": [
+    {
+      "adapter": "tribe",
+      "fetched_at": "2026-11-27T21:18:08.141019Z",
+      "source_id": "durham-events",
+      "url": "https://durhamcollege.ca/event/military-connected-learner-information-webinar"
+    }
+  ],
+  "start": "2027-01-26T18:00:00-05:00",
+  "status": "scheduled",
+  "summary": "Online info session by Durham College events calendar for undergraduates.",
+  "tags": [],
+  "timezone": "America/Toronto",
+  "title": "Military-Connected Learner Information Webinar",
+  "travel_support": {
+    "note": null,
+    "stated": false
+  },
+  "type": "info_session"
+}

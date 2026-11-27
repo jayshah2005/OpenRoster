@@ -9,12 +9,12 @@
     "unknown"
   ],
   "end": null,
-  "first_seen": "2026-11-05T19:57:32.018724Z",
+  "first_seen": "2026-11-26T21:32:12.522036Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-u-of-t-central-event-how-to-use-networking-to-learn-about-careers-in-k-a5fc",
-  "last_seen": "2026-11-26T08:18:19.306833Z",
-  "last_verified": "2026-11-26T08:18:19.306833Z",
+  "id": "2026-11-u-of-t-central-event-limitless-ai-a-hands-on-ai-working-session-for-bu-0aac",
+  "last_seen": "2026-11-26T21:32:12.522036Z",
+  "last_verified": "2026-11-26T21:32:12.522036Z",
   "location": {
     "city": null,
     "country": null,
@@ -29,7 +29,7 @@
   "organizer": "U of T central events aggregator",
   "registration": {
     "route": "public_link",
-    "url": "https://kpe.utoronto.ca/fri-11272026-1300/how-use-networking-learn-about-careers-kinesiology"
+    "url": "https://entrepreneurs.utoronto.ca/event/limitless-ai-a-hands-on-ai-working-session-for-business-leaders/"
   },
   "review": null,
   "roles": [
@@ -49,20 +49,20 @@
   "sources": [
     {
       "adapter": "html",
-      "fetched_at": "2026-11-26T08:18:19.306833Z",
+      "fetched_at": "2026-11-26T21:32:12.522036Z",
       "source_id": "uoft-central-events",
-      "url": "https://kpe.utoronto.ca/fri-11272026-1300/how-use-networking-learn-about-careers-kinesiology"
+      "url": "https://entrepreneurs.utoronto.ca/event/limitless-ai-a-hands-on-ai-working-session-for-business-leaders/"
     }
   ],
   "start": "2026-11-27T00:00:00-05:00",
-  "status": "scheduled",
-  "summary": "Networking event by U of T central events aggregator.",
+  "status": "past",
+  "summary": "Workshop by U of T central events aggregator.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "How to Use Networking to Learn About Careers in Kinesiology",
+  "title": "LIMITLESS AI: A Hands-On AI Working Session for Business Leaders",
   "travel_support": {
     "note": null,
     "stated": false
   },
-  "type": "networking"
+  "type": "workshop"
 }

@@ -21,7 +21,7 @@
     "region": null,
     "venue_name": "https://luma.com/event/evt-A8ensMu1aNw2nvI"
   },
-  "mode": "unknown",
+  "mode": "online",
   "near_schools": [],
   "obtained_via": [
     "ics"
@@ -56,10 +56,10 @@
   ],
   "start": "2026-12-17T23:00:00Z",
   "status": "scheduled",
-  "summary": "Free event by TorontoAI (Luma iCal).",
+  "summary": "Free online event by TorontoAI (Luma iCal).",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "How to Land an AI Engineer Job in 2027: Free Live Walkthrough",
+  "title": "How to Land an AI Engineer Job in 2027: Free Live Webinar",
   "travel_support": {
     "note": null,
     "stated": false

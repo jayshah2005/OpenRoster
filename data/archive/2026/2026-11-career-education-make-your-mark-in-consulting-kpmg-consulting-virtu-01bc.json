@@ -1,36 +1,35 @@
 {
   "ai_suggested": [],
-  "all_day": true,
+  "all_day": false,
   "cost": {
-    "kind": "unknown",
+    "kind": "free",
     "note": null
   },
   "eligibility": [
-    "undergrad",
-    "grad"
+    "unknown"
   ],
-  "end": null,
-  "first_seen": "2026-11-20T20:20:13.235614Z",
+  "end": "2026-11-26T19:00:00-05:00",
+  "first_seen": "2026-11-14T06:23:52.066949Z",
   "geo": null,
   "history": [],
-  "id": "2026-11-bmo-career-connect-2026-d3b0",
+  "id": "2026-11-career-education-make-your-mark-in-consulting-kpmg-consulting-virtu-01bc",
   "last_seen": "2026-11-26T08:18:19.306833Z",
   "last_verified": "2026-11-26T08:18:19.306833Z",
   "location": {
     "city": null,
     "country": "CA",
-    "region": null,
-    "venue_name": null
+    "region": "CA-ON",
+    "venue_name": "Virtual Event"
   },
-  "mode": "in_person",
+  "mode": "online",
   "near_schools": [],
   "obtained_via": [
-    "html"
+    "rss"
   ],
-  "organizer": "BMO",
+  "organizer": "Career Education",
   "registration": {
-    "route": "public_link",
-    "url": "https://jobs.bmo.com/ca/en/student-events"
+    "route": "school_portal_login",
+    "url": "https://experiencebu.brocku.ca/event/337962"
   },
   "review": null,
   "roles": [
@@ -44,23 +43,23 @@
     }
   ],
   "schools": [
-    "open_to_all"
+    "brock"
   ],
   "series_id": null,
   "sources": [
     {
-      "adapter": "html",
+      "adapter": "rss",
       "fetched_at": "2026-11-26T08:18:19.306833Z",
-      "source_id": "bmo-student-events",
-      "url": "https://jobs.bmo.com/ca/en/student-events"
+      "source_id": "brock-experiencebu-rss",
+      "url": "https://experiencebu.brocku.ca/event/337962"
     }
   ],
-  "start": "2026-11-27T00:00:00-05:00",
-  "status": "scheduled",
-  "summary": "Info session by BMO for undergraduates and graduate students.",
+  "start": "2026-11-26T17:30:00-05:00",
+  "status": "past",
+  "summary": "Free online info session by Career Education.",
   "tags": [],
   "timezone": "America/Toronto",
-  "title": "Career Connect 2026",
+  "title": "Make Your Mark in Consulting | KPMG Consulting Virtual Info Session",
   "travel_support": {
     "note": null,
     "stated": false
