@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2027-01-durham-college-event-military-connected-learner-information-webinar-bca5",
-  "last_seen": "2026-11-27T21:18:08.141019Z",
-  "last_verified": "2026-11-27T21:18:08.141019Z",
+  "last_seen": "2026-11-28T07:49:05.046859Z",
+  "last_verified": "2026-11-28T07:49:05.046859Z",
   "location": {
     "city": "Online",
     "country": null,
@@ -49,7 +49,7 @@
   "sources": [
     {
       "adapter": "tribe",
-      "fetched_at": "2026-11-27T21:18:08.141019Z",
+      "fetched_at": "2026-11-28T07:49:05.046859Z",
       "source_id": "durham-events",
       "url": "https://durhamcollege.ca/event/military-connected-learner-information-webinar"
     }

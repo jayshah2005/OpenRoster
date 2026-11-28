@@ -13,8 +13,8 @@
   "geo": null,
   "history": [],
   "id": "2027-01-career-education-interested-in-spending-summer-2027-at-bmo-50ef",
-  "last_seen": "2026-11-27T08:34:34.824610Z",
-  "last_verified": "2026-11-27T08:34:34.824610Z",
+  "last_seen": "2026-11-28T07:49:05.046859Z",
+  "last_verified": "2026-11-28T07:49:05.046859Z",
   "location": {
     "city": null,
     "country": "CA",
@@ -49,13 +49,13 @@
   "sources": [
     {
       "adapter": "rss",
-      "fetched_at": "2026-11-27T08:34:34.824610Z",
+      "fetched_at": "2026-11-28T07:49:05.046859Z",
       "source_id": "brock-experiencebu-rss",
       "url": "https://experiencebu.brocku.ca/event/338579"
     },
     {
       "adapter": "rss",
-      "fetched_at": "2026-11-27T08:34:34.824610Z",
+      "fetched_at": "2026-11-28T07:49:05.046859Z",
       "source_id": "brock-experiencebu-rss",
       "url": "https://experiencebu.brocku.ca/event/338580"
     }

@@ -17,8 +17,8 @@
   },
   "history": [],
   "id": "2027-01-western-university-e-morrissette-entrepreneurship-speaker-series-bdee",
-  "last_seen": "2026-11-27T08:34:34.824610Z",
-  "last_verified": "2026-11-27T08:34:34.824610Z",
+  "last_seen": "2026-11-28T07:49:05.046859Z",
+  "last_verified": "2026-11-28T07:49:05.046859Z",
   "location": {
     "city": "Victoria",
     "country": "CA",
@@ -54,13 +54,13 @@
   "sources": [
     {
       "adapter": "ics",
-      "fetched_at": "2026-11-27T08:34:34.824610Z",
+      "fetched_at": "2026-11-28T07:49:05.046859Z",
       "source_id": "western-events-ics",
       "url": "https://www.uwo.ca/events/"
     },
     {
       "adapter": "api",
-      "fetched_at": "2026-11-27T08:34:34.824610Z",
+      "fetched_at": "2026-11-28T07:49:05.046859Z",
       "source_id": "western-events-json",
       "url": "https://www.uwo.ca/events/2026/01/speaker-series1.html"
     }
